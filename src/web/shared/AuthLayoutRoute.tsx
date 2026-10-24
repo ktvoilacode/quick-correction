@@ -20,6 +20,7 @@ import { Link, Outlet } from 'react-router-dom';
 import { useTheme, Button } from '@bloomneo/uikit';
 import { Moon, Sun, ArrowLeft } from 'lucide-react';
 import { brand } from './brand';
+import { LogoMark } from './Logo';
 
 /** Replace with a customer quote, a product note, or delete the panel. */
 const PANEL_QUOTE = {
@@ -54,9 +55,7 @@ export function AuthLayoutRoute() {
         <div className="flex flex-1 items-center justify-center px-4 pb-20 sm:px-6">
           <div className="w-full max-w-sm">
             <Link to="/" className="mb-10 flex items-center gap-2.5">
-              <span className="grid size-8 place-items-center rounded-lg bg-primary text-sm font-bold text-primary-foreground">
-                {brand.shortName.charAt(0)}
-              </span>
+              <LogoMark className="size-8 shrink-0" />
               <span className="font-semibold tracking-tight">{brand.name}</span>
             </Link>
 

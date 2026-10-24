@@ -5,41 +5,45 @@
  * through the School → Student → Parent flow without accounts. The role
  * switcher in the header stands in for signing in as each kind of user.
  *
+ * Phone first: below `lg` the sidebar becomes a bottom tab bar, so every
+ * section is one thumb-tap away. The homepage (/demo) renders bare — it has
+ * its own header.
+ *
  * Everything inside is `print:hidden` except the page body, so a paper opened
  * in the shell prints as a clean question paper.
  */
 import * as React from 'react';
 import { NavLink, Outlet, Link, useLocation, useNavigate, useMatch } from 'react-router-dom';
 import {
-  Button, Sheet, SheetContent, SheetTrigger, Badge,
+  Button, Sheet, SheetContent, SheetTrigger, Badge, useTheme,
   Select, SelectTrigger, SelectValue, SelectContent, SelectItem,
 } from '@bloomneo/uikit';
 import {
-  Menu, Gauge, FileText, FilePlus2, Users, Home, TrendingUp, HeartHandshake, RotateCcw,
+  Menu, Gauge, FileText, FilePlus2, Users, Home, TrendingUp, HeartHandshake, RotateCcw, Moon, Sun,
 } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
-import { ThemeControls } from '@/shared/ThemeControls';
+import { LogoMark, Wordmark } from '@/shared/Logo';
 import { DemoProvider, useDemo, SCHOOL, studentById, ME_STUDENT, type Role } from '../data/store';
 
-type Item = { to: string; label: string; icon: LucideIcon; end?: boolean };
+type Item = { to: string; label: string; short: string; icon: LucideIcon; end?: boolean };
 
 const NAV: Record<Role, Item[]> = {
   school: [
-    { to: '/demo/school', label: 'Overview', icon: Gauge, end: true },
-    { to: '/demo/school/papers', label: 'Test papers', icon: FileText, end: true },
-    { to: '/demo/school/papers/new', label: 'Generate paper', icon: FilePlus2 },
-    { to: '/demo/school/students', label: 'Students', icon: Users },
+    { to: '/demo/school', label: 'Overview', short: 'Home', icon: Gauge, end: true },
+    { to: '/demo/school/papers', label: 'Test papers', short: 'Papers', icon: FileText, end: true },
+    { to: '/demo/school/papers/new', label: 'Generate paper', short: 'Create', icon: FilePlus2 },
+    { to: '/demo/school/students', label: 'Students', short: 'Students', icon: Users },
   ],
   student: [
-    { to: '/demo/student', label: 'My tests', icon: Home, end: true },
-    { to: '/demo/student/progress', label: 'My progress', icon: TrendingUp },
+    { to: '/demo/student', label: 'My tests', short: 'Tests', icon: Home, end: true },
+    { to: '/demo/student/progress', label: 'My progress', short: 'Progress', icon: TrendingUp },
   ],
   parent: [
-    { to: '/demo/parent', label: 'Child overview', icon: HeartHandshake, end: true },
+    { to: '/demo/parent', label: 'Child overview', short: 'Overview', icon: HeartHandshake, end: true },
   ],
 };
 
-const ROLE_LABEL: Record<Role, string> = { school: 'School / Teacher', student: 'Student', parent: 'Parent' };
+const ROLE_LABEL: Record<Role, string> = { school: 'Teacher', student: 'Student', parent: 'Parent' };
 
 function who(role: Role) {
   const me = studentById(ME_STUDENT);
@@ -75,8 +79,8 @@ function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
   return (
     <div className="flex h-full flex-col">
       <Link to="/demo" className="flex h-14 items-center gap-2.5 border-b border-sidebar-border px-4">
-        <span className="grid size-8 place-items-center rounded-lg bg-sidebar-primary text-sm font-bold text-sidebar-primary-foreground">M</span>
-        <span className="font-semibold tracking-tight text-sidebar-foreground">MedhaMark</span>
+        <LogoMark className="size-8" />
+        <Wordmark className="text-sidebar-foreground" />
         <Badge variant="secondary" className="ml-auto text-[10px]">Prototype</Badge>
       </Link>
 
@@ -102,6 +106,35 @@ function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
   );
 }
 
+/** Phone navigation: the role's sections as a bottom tab bar. */
+function BottomTab({ to, short, icon: Icon, end }: Item) {
+  const active = Boolean(useMatch({ path: to, end: end ?? false }));
+  return (
+    <NavLink
+      to={to}
+      end={end}
+      className={`flex flex-1 flex-col items-center gap-1 py-2 text-[11px] font-medium transition-colors ${active ? 'text-primary' : 'text-muted-foreground'}`}
+    >
+      <span className={`grid h-7 w-12 place-items-center rounded-full transition-colors ${active ? 'bg-secondary' : ''}`}>
+        <Icon className="size-5" />
+      </span>
+      {short}
+    </NavLink>
+  );
+}
+
+function BottomNav() {
+  const { role } = useDemo();
+  return (
+    <nav
+      aria-label="Sections"
+      className="fixed inset-x-0 bottom-0 z-30 flex border-t border-border bg-background/95 px-2 pb-[env(safe-area-inset-bottom)] backdrop-blur print:hidden lg:hidden"
+    >
+      {NAV[role].map((item) => <BottomTab key={item.to} {...item} />)}
+    </nav>
+  );
+}
+
 function RoleSwitcher() {
   const { role, setRole } = useDemo();
   const navigate = useNavigate();
@@ -110,15 +143,30 @@ function RoleSwitcher() {
       value={role}
       onValueChange={(v) => { setRole(v as Role); navigate(`/demo/${v}`); }}
     >
-      <SelectTrigger className="h-8 w-[11.5rem]" aria-label="View as">
+      <SelectTrigger className="h-9 w-[8.5rem] rounded-full sm:w-[10rem]" aria-label="View as">
         <SelectValue />
       </SelectTrigger>
       <SelectContent>
         {(Object.keys(ROLE_LABEL) as Role[]).map((r) => (
-          <SelectItem key={r} value={r}>View as {ROLE_LABEL[r]}</SelectItem>
+          <SelectItem key={r} value={r}>{ROLE_LABEL[r]} view</SelectItem>
         ))}
       </SelectContent>
     </Select>
+  );
+}
+
+function ModeToggle() {
+  const { mode, setMode } = useTheme();
+  return (
+    <Button
+      variant="ghost"
+      size="icon"
+      className="size-9 rounded-full"
+      aria-label={mode === 'dark' ? 'Light mode' : 'Dark mode'}
+      onClick={() => setMode(mode === 'dark' ? 'light' : 'dark')}
+    >
+      {mode === 'dark' ? <Sun className="size-4" /> : <Moon className="size-4" />}
+    </Button>
   );
 }
 
@@ -137,47 +185,44 @@ function Frame() {
   const { pathname } = useLocation();
   const [open, setOpen] = React.useState(false);
   React.useEffect(() => setOpen(false), [pathname]);
-  const isPicker = pathname === '/demo' || pathname === '/demo/';
+  React.useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
+
+  if (pathname === '/demo' || pathname === '/demo/') return <Outlet />;
 
   return (
     <div className="flex min-h-screen bg-background text-foreground">
       <RoleFromUrl />
-      {!isPicker && (
-        <aside className="hidden w-60 shrink-0 border-r border-sidebar-border bg-sidebar print:hidden lg:block">
-          <div className="sticky top-0 h-screen"><Sidebar /></div>
-        </aside>
-      )}
+      <aside className="hidden w-60 shrink-0 border-r border-sidebar-border bg-sidebar print:hidden lg:block">
+        <div className="sticky top-0 h-screen"><Sidebar /></div>
+      </aside>
 
       <div className="flex min-w-0 flex-1 flex-col">
-        <header className="sticky top-0 z-20 flex h-14 items-center gap-3 border-b border-border bg-background/85 px-4 backdrop-blur print:hidden">
-          {!isPicker && (
-            <Sheet open={open} onOpenChange={setOpen}>
-              <SheetTrigger asChild>
-                <Button variant="ghost" size="icon" aria-label="Open navigation" className="size-8 lg:hidden">
-                  <Menu className="size-5" />
-                </Button>
-              </SheetTrigger>
-              <SheetContent side="left" className="w-64 bg-sidebar p-0">
-                <Sidebar onNavigate={() => setOpen(false)} />
-              </SheetContent>
-            </Sheet>
-          )}
-          {isPicker && (
-            <Link to="/demo" className="flex items-center gap-2.5">
-              <span className="grid size-8 place-items-center rounded-lg bg-primary text-sm font-bold text-primary-foreground">M</span>
-              <span className="font-semibold tracking-tight">MedhaMark</span>
-            </Link>
-          )}
-          <div className="ml-auto flex items-center gap-1.5">
-            {!isPicker && <RoleSwitcher />}
-            <ThemeControls />
+        <header className="sticky top-0 z-20 flex h-14 items-center gap-2 border-b border-border bg-background/90 px-3 backdrop-blur print:hidden sm:px-4">
+          <Sheet open={open} onOpenChange={setOpen}>
+            <SheetTrigger asChild>
+              <Button variant="ghost" size="icon" aria-label="Open menu" className="size-9 lg:hidden">
+                <Menu className="size-5" />
+              </Button>
+            </SheetTrigger>
+            <SheetContent side="left" className="w-72 bg-sidebar p-0">
+              <Sidebar onNavigate={() => setOpen(false)} />
+            </SheetContent>
+          </Sheet>
+          <Link to="/demo" className="flex items-center gap-2 lg:hidden" aria-label="MedhaMark home">
+            <LogoMark className="size-7" />
+            <Wordmark className="hidden min-[400px]:inline" />
+          </Link>
+          <div className="ml-auto flex items-center gap-1">
+            <RoleSwitcher />
+            <ModeToggle />
           </div>
         </header>
 
-        <main className="flex-1 p-4 md:p-6 print:p-0">
+        <main className="flex-1 p-4 pb-24 md:p-6 md:pb-24 lg:pb-6 print:p-0">
           <Outlet />
         </main>
       </div>
+      <BottomNav />
     </div>
   );
 }

@@ -22,6 +22,7 @@ import {
 } from '@bloomneo/uikit';
 import { LogOut, Menu, ChevronDown, PanelLeft } from 'lucide-react';
 import { brand } from './brand';
+import { LogoMark } from './Logo';
 import { ThemeControls } from './ThemeControls';
 import { AuthGuard } from '@/features/auth/components';
 import { useAuth } from '@/features/auth/hooks';
@@ -91,9 +92,7 @@ function SidebarBrand({ collapsed }: { collapsed?: boolean }) {
         collapsed ? 'justify-center px-0' : 'gap-2.5 px-4',
       ].join(' ')}
     >
-      <span className="grid size-8 shrink-0 place-items-center rounded-lg bg-sidebar-primary text-sm font-bold text-sidebar-primary-foreground">
-        {brand.shortName.charAt(0)}
-      </span>
+      <LogoMark className="size-8 shrink-0" />
       {!collapsed && (
         <span className="truncate font-semibold tracking-tight text-sidebar-foreground">
           {brand.name}

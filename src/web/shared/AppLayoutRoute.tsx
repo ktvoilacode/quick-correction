@@ -34,15 +34,14 @@ import { NavLink, Outlet, Link } from 'react-router-dom';
 import { Button, Sheet, SheetContent, SheetTrigger } from '@bloomneo/uikit';
 import { Menu, LayoutDashboard, LogOut, LogIn, UserPlus } from 'lucide-react';
 import { brand } from './brand';
+import { LogoMark } from './Logo';
 import { ThemeControls } from './ThemeControls';
 import { useAuth } from '@/features/auth/hooks';
 
 function Logo({ className = '' }: { className?: string }) {
   return (
     <Link to="/" className={`flex items-center gap-2.5 ${className}`}>
-      <span className="grid size-8 place-items-center rounded-lg bg-primary text-sm font-bold text-primary-foreground">
-        {brand.shortName.charAt(0)}
-      </span>
+      <LogoMark className="size-8 shrink-0" />
       <span className="font-semibold tracking-tight">{brand.name}</span>
     </Link>
   );

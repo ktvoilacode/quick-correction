@@ -1,10 +1,5 @@
-<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="32" height="32" rx="8" fill="url(#bluePurpleGradient)"/>
-  <text x="16" y="20" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="900" text-anchor="middle" fill="white" letter-spacing="1px">ui</text>
-  <defs>
-    <linearGradient id="bluePurpleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
-    </linearGradient>
-  </defs>
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="40" height="40" rx="11" fill="#0B6E8A"/>
+  <path d="M10.5 28V13.5L20 23l9.5-9.5V19" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M22.5 26.5l3.8 3.8 7.2-7.6" stroke="#F5B331" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

@@ -1,75 +1,131 @@
 /**
- * /demo — pick who you are. Stands in for sign-in in the prototype.
+ * /demo — the MedhaMark homepage. Phone first: one column, big tap targets,
+ * three steps and three doors. Picking a door stands in for signing in.
  */
 import { useNavigate } from 'react-router-dom';
-import { Card, CardContent, Badge } from '@bloomneo/uikit';
-import { School, GraduationCap, HeartHandshake, ArrowRight, FilePlus2, Upload, Sparkles, TrendingUp } from 'lucide-react';
+import { Button, useTheme } from '@bloomneo/uikit';
+import { GraduationCap, HeartHandshake, School, ChevronRight, FileDown, PenLine, Camera, Sparkles, Moon, Sun } from 'lucide-react';
 import { SEO } from '@/shared/SEO';
+import { LogoMark, Wordmark } from '@/shared/Logo';
 import { useDemo, type Role } from '../data/store';
 
-const ROLES: { role: Role; title: string; text: string; icon: typeof School }[] = [
-  { role: 'school', title: 'School / Teacher', text: 'Generate CBSE board-pattern papers, assign them to a class and track every student.', icon: School },
-  { role: 'student', title: 'Student', text: 'Download assigned papers, write by hand, upload photos and get AI-corrected results.', icon: GraduationCap },
-  { role: 'parent', title: 'Parent', text: 'See your child’s scores, weak chapters and upcoming tests in one place.', icon: HeartHandshake },
+const STEPS = [
+  { icon: FileDown, title: 'Get a board-style paper', text: 'CBSE pattern, from your teacher or for practice.' },
+  { icon: PenLine, title: 'Write it on paper', text: 'Just like the real exam. Pen, paper, timer.' },
+  { icon: Camera, title: 'Snap & upload', text: 'Photo of each page, straight from your phone.' },
+  { icon: Sparkles, title: 'Marks in minutes', text: 'Question-wise marks, feedback and progress.' },
 ];
 
-const FLOW = [
-  { icon: FilePlus2, label: 'Generate paper' },
-  { icon: ArrowRight, label: 'Assign & download' },
-  { icon: Upload, label: 'Write & upload' },
-  { icon: Sparkles, label: 'AI correction' },
-  { icon: TrendingUp, label: 'Track progress' },
+const DOORS: { role: Role; label: string; hint: string; icon: typeof School }[] = [
+  { role: 'student', label: 'I’m a student', hint: 'Take tests, see your marks', icon: GraduationCap },
+  { role: 'parent', label: 'I’m a parent', hint: 'Follow your child’s progress', icon: HeartHandshake },
+  { role: 'school', label: 'I’m a teacher / school', hint: 'Create & assign papers', icon: School },
 ];
 
-export default function DemoHome() {
+export default function Home() {
   const { setRole } = useDemo();
   const navigate = useNavigate();
+  const { mode, setMode } = useTheme();
   const go = (r: Role) => { setRole(r); navigate(`/demo/${r}`); };
 
   return (
     <>
-      <SEO title="MedhaMark prototype" description="Board test papers, handwritten answers, AI correction and progress tracking." />
-      <div className="mx-auto max-w-4xl py-6 sm:py-12">
-        <div className="text-center">
-          <Badge variant="secondary">Clickable prototype · CBSE Class 10</Badge>
-          <h1 className="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">
-            Board-pattern practice, written by hand, marked by AI.
-          </h1>
-          <p className="mx-auto mt-3 max-w-2xl text-muted-foreground">
-            MedhaMark lets schools generate board test papers, students answer them on paper and upload a photo,
-            and everyone track progress chapter by chapter.
-          </p>
-        </div>
+      <SEO title="MedhaMark" description="Board-pattern tests, written by hand, marked by AI." />
 
-        <ol className="mx-auto mt-8 flex max-w-3xl flex-wrap items-center justify-center gap-x-2 gap-y-3 text-sm text-muted-foreground">
-          {FLOW.map(({ icon: Icon, label }, i) => (
-            <li key={label} className="flex items-center gap-2">
-              <span className="flex items-center gap-1.5 rounded-full border border-border bg-card px-3 py-1">
-                <Icon className="size-3.5" /> {label}
-              </span>
-              {i < FLOW.length - 1 && <span aria-hidden>→</span>}
-            </li>
-          ))}
-        </ol>
+      <div className="relative min-h-screen overflow-hidden bg-background">
+        {/* Soft brand wash behind the top of the page. */}
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-x-0 top-0 h-[26rem]"
+          style={{
+            background:
+              'radial-gradient(60% 70% at 15% 0%, color-mix(in oklch, var(--color-primary) 22%, transparent), transparent 70%),' +
+              'radial-gradient(50% 60% at 95% 10%, color-mix(in oklch, var(--color-highlight) 30%, transparent), transparent 70%)',
+          }}
+        />
 
-        <h2 className="mt-12 mb-4 text-center text-sm font-medium text-muted-foreground">Continue as</h2>
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-          {ROLES.map(({ role, title, text, icon: Icon }) => (
-            <button key={role} onClick={() => go(role)} className="group cursor-pointer text-left">
-              <Card className="h-full transition-colors group-hover:border-primary">
-                <CardContent className="flex h-full flex-col gap-3 py-6">
-                  <span className="grid size-10 place-items-center rounded-lg bg-primary text-primary-foreground">
+        <div className="relative mx-auto flex min-h-screen w-full max-w-md flex-col px-5 pb-8 pt-[max(1rem,env(safe-area-inset-top))]">
+          <header className="flex h-14 items-center justify-between">
+            <span className="flex items-center gap-2.5">
+              <LogoMark className="size-9" />
+              <Wordmark className="text-lg" />
+            </span>
+            <Button
+              variant="ghost"
+              size="icon"
+              className="size-10 rounded-full"
+              aria-label={mode === 'dark' ? 'Light mode' : 'Dark mode'}
+              onClick={() => setMode(mode === 'dark' ? 'light' : 'dark')}
+            >
+              {mode === 'dark' ? <Sun className="size-5" /> : <Moon className="size-5" />}
+            </Button>
+          </header>
+
+          <section className="pt-8">
+            <span className="inline-flex items-center gap-1.5 rounded-full bg-[var(--color-highlight-soft)] px-3 py-1 text-xs font-medium text-[var(--color-highlight-on-soft)]">
+              <span className="size-1.5 rounded-full bg-[var(--color-highlight)]" /> CBSE Class 10 · Board practice
+            </span>
+            <h1 className="mt-4 text-[2.15rem] font-bold leading-[1.1] tracking-tight">
+              Practice like the board exam.{' '}
+              <span className="text-primary">Get marked in minutes.</span>
+            </h1>
+            <p className="mt-3 text-base text-muted-foreground">
+              Write answers on paper, upload a photo, and MedhaMark checks every question.
+            </p>
+          </section>
+
+          <section className="mt-8 space-y-3" aria-label="Continue as">
+            {DOORS.map(({ role, label, hint, icon: Icon }, i) => (
+              <button
+                key={role}
+                onClick={() => go(role)}
+                className={[
+                  'flex w-full cursor-pointer items-center gap-4 rounded-2xl p-4 text-left transition active:scale-[0.98]',
+                  i === 0
+                    ? 'bg-primary text-primary-foreground shadow-lg shadow-primary/25'
+                    : 'border border-border bg-card hover:border-primary/50',
+                ].join(' ')}
+              >
+                <span
+                  className={[
+                    'grid size-12 shrink-0 place-items-center rounded-xl',
+                    i === 0 ? 'bg-primary-foreground/15' : 'bg-secondary text-secondary-foreground',
+                  ].join(' ')}
+                >
+                  <Icon className="size-6" />
+                </span>
+                <span className="min-w-0 flex-1">
+                  <span className="block text-base font-semibold">{label}</span>
+                  <span className={`block text-sm ${i === 0 ? 'text-primary-foreground/80' : 'text-muted-foreground'}`}>{hint}</span>
+                </span>
+                <ChevronRight className={`size-5 shrink-0 ${i === 0 ? '' : 'text-muted-foreground'}`} />
+              </button>
+            ))}
+          </section>
+
+          <section className="mt-10" aria-labelledby="how">
+            <h2 id="how" className="text-sm font-semibold uppercase tracking-wider text-muted-foreground">How it works</h2>
+            <ol className="mt-4 space-y-0">
+              {STEPS.map(({ icon: Icon, title, text }, i) => (
+                <li key={title} className="relative flex gap-4 pb-6 last:pb-0">
+                  {i < STEPS.length - 1 && (
+                    <span aria-hidden className="absolute left-5 top-11 h-[calc(100%-2.75rem)] w-px bg-border" />
+                  )}
+                  <span className="grid size-10 shrink-0 place-items-center rounded-full bg-[var(--color-highlight-soft)] text-[var(--color-highlight-ink)]">
                     <Icon className="size-5" />
                   </span>
-                  <span className="font-semibold">{title}</span>
-                  <span className="flex-1 text-sm text-muted-foreground">{text}</span>
-                  <span className="flex items-center gap-1 text-sm font-medium text-primary">
-                    Open <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
+                  <span className="pt-1">
+                    <span className="block font-medium">{title}</span>
+                    <span className="block text-sm text-muted-foreground">{text}</span>
                   </span>
-                </CardContent>
-              </Card>
-            </button>
-          ))}
+                </li>
+              ))}
+            </ol>
+          </section>
+
+          <footer className="mt-auto pt-10 text-center text-xs text-muted-foreground">
+            Prototype · sample data · AI marking is simulated
+          </footer>
         </div>
       </div>
     </>

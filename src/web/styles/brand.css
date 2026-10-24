@@ -166,9 +166,30 @@
  * One line each. Add your own by appending a hue here and to PALETTES in
  * shared/palettes.ts — the switcher in the header picks it up automatically. */
 
-.theme-medhamark          { --brand-h: 272; }                      /* Indigo  */
+.theme-medhamark          { --brand-h: 205; --brand-c: 0.13; }     /* Peacock — the MedhaMark brand */
 .theme-medhamark-teal     { --brand-h: 195; }                      /* Teal    */
 .theme-medhamark-emerald  { --brand-h: 155; }                      /* Emerald */
 .theme-medhamark-amber    { --brand-h: 68;  --brand-c: 0.16; }     /* Amber   */
 .theme-medhamark-rose     { --brand-h: 14;  --brand-c: 0.19; }     /* Rose    */
 .theme-medhamark-slate    { --brand-h: 268; --brand-c: 0.028; }    /* Slate   */
+
+/* ── MedhaMark brand accent ────────────────────────────────────────────────
+ * Peacock teal is the primary (above). Marigold is the second brand colour:
+ * the tick in the logo, highlights, and the "class average" line in charts.
+ * Used as `bg-[var(--color-highlight)]` / `text-[var(--color-highlight-ink)]`. */
+.theme-medhamark {
+  --color-highlight: oklch(0.80 0.155 75);
+  --color-highlight-foreground: oklch(0.26 0.06 60);
+  --color-highlight-ink: oklch(0.58 0.15 62);
+  --color-highlight-soft: oklch(0.96 0.045 85);
+  --color-highlight-on-soft: oklch(0.36 0.08 60);
+  --color-chart2: oklch(0.76 0.15 72);
+}
+.theme-medhamark.dark {
+  --color-highlight: oklch(0.82 0.15 78);
+  --color-highlight-foreground: oklch(0.22 0.05 60);
+  --color-highlight-ink: oklch(0.84 0.14 80);
+  --color-highlight-soft: oklch(0.30 0.05 75);
+  --color-highlight-on-soft: oklch(0.88 0.12 82);
+  --color-chart2: oklch(0.80 0.14 75);
+}
