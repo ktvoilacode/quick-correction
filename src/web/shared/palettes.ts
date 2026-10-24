@@ -15,7 +15,7 @@ export type Palette = {
 };
 
 export const PALETTES: Palette[] = [
-  { id: 'medhamark',          label: 'Peacock', swatch: 'oklch(0.50 0.130 205)' },
+  { id: 'medhamark',          label: 'Maroon',  swatch: 'oklch(0.42 0.150 8)' },
   { id: 'medhamark-teal',     label: 'Teal',    swatch: 'oklch(0.52 0.196 195)' },
   { id: 'medhamark-emerald',  label: 'Emerald', swatch: 'oklch(0.52 0.196 155)' },
   { id: 'medhamark-amber',    label: 'Amber',   swatch: 'oklch(0.52 0.160 68)'  },

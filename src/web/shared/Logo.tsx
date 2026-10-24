@@ -13,8 +13,8 @@ export function LogoMark({ className = 'size-8' }: { className?: string }) {
     <svg viewBox="0 0 48 48" className={className} aria-hidden>
       <defs>
         <linearGradient id="mm-logo-grad" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
-          <stop offset="0" style={{ stopColor: "var(--mm-from, #0AA2B2)" }} />
-          <stop offset="1" style={{ stopColor: "var(--mm-to, #6B4FD8)" }} />
+          <stop offset="0" style={{ stopColor: "var(--mm-from, #9F1239)" }} />
+          <stop offset="1" style={{ stopColor: "var(--mm-to, #5C0A1E)" }} />
         </linearGradient>
       </defs>
       <rect width="48" height="48" rx="13" fill="url(#mm-logo-grad)" />
@@ -22,9 +22,9 @@ export function LogoMark({ className = 'size-8' }: { className?: string }) {
       <circle cx="23" cy="23" r="13" fill="#FFFFFF" />
       <path d="M31.2 31.2L34.4 34.4" stroke="#FFFFFF" strokeWidth="4.6" strokeLinecap="round" />
       <path
-        d="M16.1 22.4l3.9 3.9 7.3-7.6"
+        d="M17.4 22.9l3.9 3.9 7.3-7.6"
         fill="none"
-        stroke="url(#mm-logo-grad)"
+        stroke="var(--color-highlight, #F5B331)"
         strokeWidth="3.8"
         strokeLinecap="round"
         strokeLinejoin="round"
