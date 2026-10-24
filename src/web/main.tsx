@@ -30,7 +30,7 @@
  */
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 import { ThemeProvider, ToastProvider, ConfirmProvider, TooltipProvider } from '@bloomneo/uikit';
 
 import './styles/index.css';
@@ -58,6 +58,14 @@ for (const mod of Object.values(platformModules)) {
   void mod.initNative?.(document.documentElement.classList.contains('dark'));
 }
 
+/*
+ * Static previews (e.g. a hosted demo with no server-side rewrites) build with
+ * VITE_HASH_ROUTER=1 so every route resolves from the hash, and open on /demo.
+ */
+const hashRouter = import.meta.env.VITE_HASH_ROUTER === '1';
+const Router = hashRouter ? HashRouter : BrowserRouter;
+if (hashRouter && !window.location.hash) window.location.hash = '#/demo';
+
 const rootEl = document.getElementById('root');
 if (!rootEl) throw new Error('#root not found in index.html');
 
@@ -74,7 +82,7 @@ createRoot(rootEl).render(
       <TooltipProvider delayDuration={200}>
         <ToastProvider />
         <ConfirmProvider>
-          <BrowserRouter>
+          <Router>
             {/* Layer-contributed providers (auth, etc). Inside BrowserRouter
                 because some of them redirect and need router context. */}
             <Providers>
@@ -96,7 +104,7 @@ createRoot(rootEl).render(
                 }
               />
             </Providers>
-          </BrowserRouter>
+          </Router>
         </ConfirmProvider>
       </TooltipProvider>
     </ThemeProvider>
