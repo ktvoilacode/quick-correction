@@ -19,9 +19,12 @@ No sign-in needed. Pick a role on `/demo`, or switch roles with **View as …** 
 | Teacher | Overview with class average, **Generate paper** (unit test or full board pattern, choose chapters), preview and **Download PDF**, **Assign** to the class with a due date, see the student list and each student's progress report |
 | Parent | **Home**: papers to upload (download & print → child writes on paper → **snap the pages** → submit), the AI-correction progress screen, results with question-wise marks; **Progress**: score trend vs class, chapter mastery, study suggestions |
 
+**Pricing (pay per corrected paper).** The teacher sets a correction fee when assigning (default ₹100, minimum ₹50). The parent pays it when submitting the answer pages. MedhaMark keeps a flat ₹30 + 18% GST per paper and the rest goes to the teacher, the split Razorpay Route would make. Constants live in `PRICING` in `src/web/features/demo/data/store.tsx`; gateway charges are not modelled.
+
 Prototype scope, so nothing here is real yet:
 - Data is sample data in the browser, saved in `localStorage`. Use **Reset demo data** in the sidebar to start over.
 - Only **CBSE Class 10 Mathematics** has a question bank (`src/web/features/demo/data/questions.ts`). The other subjects are listed as "coming soon".
+- Payment is a **mock checkout**: no money moves.
 - AI correction is **simulated**: it takes about 4.5 s and returns made-up marks and feedback. "Download PDF" opens the browser's print dialog, which can save the paper as a PDF.
 
 Code lives in `src/web/features/demo/` (pages, components, data) and `src/web/shared/layout.demo.tsx`. Screenshots are in `docs/screenshots/`.

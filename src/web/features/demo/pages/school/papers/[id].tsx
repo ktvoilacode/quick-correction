@@ -9,7 +9,7 @@ import {
 } from '@bloomneo/uikit';
 import { Download, Send, FileQuestion } from 'lucide-react';
 import { SEO } from '@/shared/SEO';
-import { useDemo, STUDENTS, studentById } from '../../../data/store';
+import { useDemo, STUDENTS, studentById, PRICING, splitFee, rupees } from '../../../data/store';
 import { PaperView, StatusBadge } from '../../../components/parts';
 
 function AssignDialog({ paperId }: { paperId: string }) {
@@ -18,10 +18,13 @@ function AssignDialog({ paperId }: { paperId: string }) {
   const [open, setOpen] = React.useState(false);
   const [picked, setPicked] = React.useState<string[]>(STUDENTS.map((s) => s.id).filter((id) => !already.includes(id)));
   const [due, setDue] = React.useState(() => new Date(Date.now() + 7 * 864e5).toISOString().slice(0, 10));
+  const [fee, setFee] = React.useState(PRICING.defaultFee);
+  const feeOk = fee >= PRICING.minFee;
+  const split = splitFee(fee);
 
   const submit = () => {
-    assignPaper(paperId, picked, due);
-    toast.success(`Assigned to ${picked.length} student${picked.length === 1 ? '' : 's'}`);
+    assignPaper(paperId, picked, due, fee);
+    toast.success(`Assigned to ${picked.length} student${picked.length === 1 ? '' : 's'} · ${rupees(fee)} per correction`);
     setOpen(false);
   };
 
@@ -33,12 +36,37 @@ function AssignDialog({ paperId }: { paperId: string }) {
       <DialogContent>
         <DialogHeader>
           <DialogTitle>Assign paper</DialogTitle>
-          <DialogDescription>Students and their parents are notified. Students download, write and upload their answers.</DialogDescription>
+          <DialogDescription>Parents are notified. They print the paper, the child writes it, and the parent pays your fee when uploading the answers.</DialogDescription>
         </DialogHeader>
         <div className="space-y-4">
-          <div className="space-y-1.5">
-            <Label htmlFor="due">Due date</Label>
-            <Input id="due" type="date" value={due} onChange={(e) => setDue(e.target.value)} />
+          <div className="grid grid-cols-2 gap-3">
+            <div className="space-y-1.5">
+              <Label htmlFor="due">Due date</Label>
+              <Input id="due" type="date" value={due} onChange={(e) => setDue(e.target.value)} />
+            </div>
+            <div className="space-y-1.5">
+              <Label htmlFor="fee">Correction fee (₹)</Label>
+              <Input
+                id="fee"
+                type="number"
+                inputMode="numeric"
+                min={PRICING.minFee}
+                step={10}
+                value={fee}
+                onChange={(e) => setFee(Number(e.target.value) || 0)}
+              />
+            </div>
+          </div>
+          <div className="rounded-lg bg-muted p-3 text-sm">
+            {feeOk ? (
+              <div className="space-y-1">
+                <div className="flex justify-between"><span className="text-muted-foreground">Parent pays per paper</span><span>{rupees(fee)}</span></div>
+                <div className="flex justify-between"><span className="text-muted-foreground">MedhaMark fee + GST</span><span>−{rupees(split.platform + split.gst)}</span></div>
+                <div className="flex justify-between border-t border-border pt-1 font-semibold"><span>You earn</span><span className="text-success">{rupees(split.teacher)}</span></div>
+              </div>
+            ) : (
+              <p className="text-destructive">Minimum fee is {rupees(PRICING.minFee)}.</p>
+            )}
           </div>
           <div className="space-y-2">
             <div className="flex items-center justify-between">
@@ -63,7 +91,7 @@ function AssignDialog({ paperId }: { paperId: string }) {
         </div>
         <DialogFooter>
           <Button variant="outline" onClick={() => setOpen(false)}>Cancel</Button>
-          <Button onClick={submit} disabled={!picked.length}>Assign to {picked.length}</Button>
+          <Button onClick={submit} disabled={!picked.length || !feeOk}>Assign to {picked.length}</Button>
         </DialogFooter>
       </DialogContent>
     </Dialog>
