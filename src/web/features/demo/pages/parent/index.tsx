@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { Card, CardContent, Button, Badge } from '@bloomneo/uikit';
 import { Camera, ChevronRight, PartyPopper, Loader2 } from 'lucide-react';
 import { SEO } from '@/shared/SEO';
-import { useDemo, ME_STUDENT, studentById, pct, rupees } from '../../data/store';
+import { useDemo, ME_STUDENT, studentById, pct } from '../../data/store';
 import { fmt, useStudentProgress } from '../../components/parts';
 
 export default function ParentHome() {
@@ -52,7 +52,7 @@ export default function ParentHome() {
                 <span className="min-w-0 flex-1">
                   <span className="block truncate font-semibold">{p.title}</span>
                   <span className="block text-sm text-primary-foreground/80">
-                    {busy ? 'Being marked…' : `Due ${fmt(s.dueDate)} · ${rupees(s.fee)} · tap to upload`}
+                    {busy ? 'Being marked…' : `Due ${fmt(s.dueDate)} · tap to upload answers`}
                   </span>
                 </span>
                 <ChevronRight className="size-5 shrink-0" />

@@ -31,9 +31,6 @@ export type Submission = {
   studentId: string;
   status: 'assigned' | 'evaluating' | 'evaluated';
   dueDate: string;
-  /** What the parent pays for this paper to be corrected, in rupees. Set by the teacher. */
-  fee: number;
-  paidAt?: string;
   pages: string[];
   submittedAt?: string;
   results?: QuestionResult[];
@@ -45,24 +42,6 @@ export type Submission = {
 type State = { role: Role; papers: Paper[]; submissions: Submission[] };
 
 export const SCHOOL = { name: 'Delhi Public School, Hyderabad', board: 'CBSE' };
-
-/** The teacher in the demo — a home tutor who sets their own correction fee. */
-export const TEACHER = { name: 'Ms. Kavya Nair' };
-
-/* ── pricing: pay per corrected paper ──────────────────────────────────────
- * The parent pays the teacher's fee once per paper. Razorpay Route splits it:
- * MedhaMark keeps a flat platform fee (+18% GST on that fee), the rest goes to
- * the teacher's linked account. Gateway charges are not modelled here. */
-export const PRICING = { platformFee: 30, gstRate: 0.18, defaultFee: 100, minFee: 50 };
-
-export function splitFee(fee: number) {
-  const platform = PRICING.platformFee;
-  const gst = Math.round(platform * PRICING.gstRate * 100) / 100;
-  const teacher = Math.round((fee - platform - gst) * 100) / 100;
-  return { platform, gst, teacher };
-}
-
-export const rupees = (n: number) => `₹${Number.isInteger(n) ? n : n.toFixed(2)}`;
 
 export const STUDENTS: Student[] = [
   { id: 's1', name: 'Aarav Sharma', className: '10-A', roll: 1, parent: 'Rohit Sharma' },
@@ -177,14 +156,14 @@ function seed(): State {
       const [due, done] = dates[p.id];
       const id = `${p.id}-${s.id}`;
       if (p.id === 'p4') {
-        submissions.push({ id, paperId: p.id, studentId: s.id, status: 'assigned', dueDate: due, fee: PRICING.defaultFee, pages: [] });
+        submissions.push({ id, paperId: p.id, studentId: s.id, status: 'assigned', dueDate: due, pages: [] });
         return;
       }
       // Aarav improves across the term — gives the progress chart a story.
       const skill = s.id === 's1' ? skills.s1 + pi * 0.08 : skills[s.id];
       submissions.push({
         id, paperId: p.id, studentId: s.id, status: 'evaluated', dueDate: due,
-        fee: PRICING.defaultFee, paidAt: done, pages: [], submittedAt: done,
+        pages: [], submittedAt: done,
         ...gradePaper(p, skill, (pi + 1) * 31 + (si + 1) * 7),
       });
     });
@@ -195,7 +174,7 @@ function seed(): State {
 
 /* ── context ───────────────────────────────────────────────────────────── */
 
-const KEY = 'medhamark:demo:v3';
+const KEY = 'medhamark:demo:v2';
 
 function load(): State {
   try {
@@ -210,10 +189,9 @@ function load(): State {
 type Ctx = State & {
   setRole: (r: Role) => void;
   createPaper: (p: Omit<Paper, 'id' | 'createdAt'>) => Paper;
-  assignPaper: (paperId: string, studentIds: string[], dueDate: string, fee: number) => void;
+  assignPaper: (paperId: string, studentIds: string[], dueDate: string) => void;
   uploadPages: (submissionId: string, pages: string[]) => void;
-  /** Records the parent's payment and starts the (simulated) AI correction. */
-  payAndSubmit: (submissionId: string) => void;
+  evaluate: (submissionId: string) => void;
   reset: () => void;
 };
 
@@ -240,24 +218,23 @@ export function DemoProvider({ children }: { children: React.ReactNode }) {
       setState((s) => ({ ...s, papers: [paper, ...s.papers] }));
       return paper;
     },
-    assignPaper: (paperId, studentIds, dueDate, fee) =>
+    assignPaper: (paperId, studentIds, dueDate) =>
       setState((s) => ({
         ...s,
         submissions: [
           ...s.submissions.filter((x) => !(x.paperId === paperId && studentIds.includes(x.studentId))),
           ...studentIds.map((studentId) => ({
-            id: `${paperId}-${studentId}`, paperId, studentId, status: 'assigned' as const, dueDate, fee, pages: [],
+            id: `${paperId}-${studentId}`, paperId, studentId, status: 'assigned' as const, dueDate, pages: [],
           })),
         ],
       })),
     uploadPages: (id, pages) =>
       setState((s) => ({ ...s, submissions: s.submissions.map((x) => (x.id === id ? { ...x, pages } : x)) })),
-    payAndSubmit: (id) => {
-      const today = new Date().toISOString().slice(0, 10);
+    evaluate: (id) => {
       setState((s) => ({
         ...s,
         submissions: s.submissions.map((x) =>
-          x.id === id ? { ...x, status: 'evaluating', paidAt: today, submittedAt: today } : x,
+          x.id === id ? { ...x, status: 'evaluating', submittedAt: new Date().toISOString().slice(0, 10) } : x,
         ),
       }));
       // Simulated AI turnaround.

@@ -13,7 +13,7 @@ const STEPS = [
   { icon: FileDown, title: 'Teacher sets a paper', text: 'CBSE board pattern, made in a minute.' },
   { icon: PenLine, title: 'Child writes it on paper', text: 'Just like the real exam. Pen, paper, timer.' },
   { icon: Camera, title: 'Parent snaps & uploads', text: 'A photo of each page, straight from the phone.' },
-  { icon: Sparkles, title: 'Pay per paper, marks in minutes', text: 'Pay the tutor’s fee, get question-wise marks and progress.' },
+  { icon: Sparkles, title: 'Marks in minutes', text: 'Question-wise marks, feedback and progress.' },
 ];
 
 const DOORS: { role: Role; label: string; hint: string; icon: typeof School }[] = [
@@ -71,7 +71,6 @@ export default function Home() {
             <p className="mt-3 text-base text-muted-foreground">
               Write answers on paper, upload a photo, and MedhaMark checks every question.
             </p>
-            <p className="mt-3 text-sm font-medium">No subscription. Pay only for each paper you send for correction.</p>
           </section>
 
           <section className="mt-8 space-y-3" aria-label="Continue as">

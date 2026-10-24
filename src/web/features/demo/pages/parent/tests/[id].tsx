@@ -1,7 +1,7 @@
 /**
  * /demo/parent/tests/:id — the three steps a parent takes: download the
  * paper, have the child write it on paper, upload photos of the pages, submit.
- * Paying the teacher's correction fee submits the pages for (simulated) AI marking.
+ * Submitting kicks off the (simulated) AI correction.
  */
 import * as React from 'react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
@@ -10,9 +10,8 @@ import {
 } from '@bloomneo/uikit';
 import { Download, Upload, Sparkles, X, FileQuestion, Loader2, CheckCircle2, Eye, Camera } from 'lucide-react';
 import { SEO } from '@/shared/SEO';
-import { useDemo, studentById, ME_STUDENT, rupees } from '../../../data/store';
+import { useDemo, studentById, ME_STUDENT } from '../../../data/store';
 import { PaperView, fmt } from '../../../components/parts';
-import { PayDialog } from '../../../components/PayDialog';
 
 function Step({ n, title, done, children }: { n: number; title: string; done?: boolean; children: React.ReactNode }) {
   return (
@@ -35,13 +34,12 @@ const STAGES = ['Reading handwriting', 'Matching answers to questions', 'Marking
 export default function UploadAnswers() {
   const { id = '' } = useParams();
   const navigate = useNavigate();
-  const { submissions, papers, uploadPages, payAndSubmit } = useDemo();
+  const { submissions, papers, uploadPages, evaluate } = useDemo();
   const s = submissions.find((x) => x.id === id);
   const paper = s && papers.find((p) => p.id === s.paperId);
   const [downloaded, setDownloaded] = React.useState(false);
   const [preview, setPreview] = React.useState(false);
   const [stage, setStage] = React.useState(0);
-  const [paying, setPaying] = React.useState(false);
   const fileRef = React.useRef<HTMLInputElement>(null);
 
   // Walk the progress labels while the simulated correction runs.
@@ -156,12 +154,12 @@ export default function UploadAnswers() {
             </div>
           </Step>
 
-          <Step n={3} title="Pay & submit for marking">
+          <Step n={3} title="Submit for marking">
             <p className="text-sm text-muted-foreground">
-              {pages.length ? `${pages.length} page${pages.length > 1 ? 's' : ''} ready.` : 'Add at least one page to submit.'} Correction fee {rupees(s.fee)}, set by the teacher. Marks usually arrive within minutes.
+              {pages.length ? `${pages.length} page${pages.length > 1 ? 's' : ''} ready.` : 'Add at least one page to submit.'} Results usually arrive within minutes.
             </p>
-            <Button disabled={!pages.length} onClick={() => setPaying(true)}>
-              <Upload className="size-4" /> Pay {rupees(s.fee)} & submit
+            <Button disabled={!pages.length} onClick={() => { setStage(0); evaluate(s.id); }}>
+              <Upload className="size-4" /> Submit answers
             </Button>
           </Step>
         </div>
@@ -171,15 +169,6 @@ export default function UploadAnswers() {
       <div className="hidden print:block">
         <PaperView paper={paper} studentName={studentById(ME_STUDENT).name} />
       </div>
-
-      <PayDialog
-        open={paying}
-        onOpenChange={setPaying}
-        amount={s.fee}
-        paperTitle={paper.title}
-        childName={studentById(ME_STUDENT).name}
-        onPaid={() => { setStage(0); payAndSubmit(s.id); }}
-      />
 
       <Dialog open={preview} onOpenChange={setPreview}>
         <DialogContent className="max-h-[90vh] max-w-4xl overflow-y-auto">

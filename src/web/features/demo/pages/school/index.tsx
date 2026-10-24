@@ -3,17 +3,15 @@
  */
 import { Link } from 'react-router-dom';
 import { PageHeader, Button, Card, CardContent, CardHeader, CardTitle, Badge } from '@bloomneo/uikit';
-import { FileText, Wallet, ClipboardCheck, Percent, FilePlus2 } from 'lucide-react';
+import { FileText, Users, ClipboardCheck, Percent, FilePlus2 } from 'lucide-react';
 import { SEO } from '@/shared/SEO';
-import { useDemo, pct, studentById, splitFee, rupees } from '../../data/store';
+import { useDemo, pct, STUDENTS, studentById } from '../../data/store';
 import { Stat, ScoreTrend, fmt } from '../../components/parts';
 
 export default function SchoolHome() {
   const { papers, submissions } = useDemo();
   const evaluated = submissions.filter((s) => s.status === 'evaluated');
   const pending = submissions.filter((s) => s.status === 'assigned');
-  const paid = submissions.filter((s) => s.paidAt);
-  const earned = paid.reduce((n, s) => n + splitFee(s.fee).teacher, 0);
   const classAvg = evaluated.length ? Math.round(evaluated.reduce((n, s) => n + pct(s), 0) / evaluated.length) : 0;
 
   const trend = [...papers]
@@ -37,7 +35,7 @@ export default function SchoolHome() {
 
       <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4">
         <Stat label="Papers created" value={papers.length} icon={FileText} />
-        <Stat label="Your earnings" value={rupees(Math.round(earned))} hint={`${paid.length} paid corrections`} icon={Wallet} />
+        <Stat label="Students" value={STUDENTS.length} hint="Class 10-A" icon={Users} />
         <Stat label="Awaiting upload" value={pending.length} hint="assigned, not yet submitted" icon={ClipboardCheck} />
         <Stat label="Class average" value={`${classAvg}%`} hint="across evaluated tests" icon={Percent} />
       </div>
