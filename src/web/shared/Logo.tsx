@@ -1,7 +1,8 @@
 /**
  * The Quick Correction logo.
  *
- * The mark is a "Q" whose tail is a marigold tick — a corrected answer. Colours come from theme
+ * The mark is a round chat bubble whose tail points out to the bottom-right,
+ * so it reads as a "Q", with a tick inside: chat-first, and a corrected answer. Colours come from theme
  * tokens, so it follows light/dark mode; public/favicon.svg is the same mark
  * with the colours written in.
  */
@@ -9,27 +10,27 @@ import { Link } from 'react-router-dom';
 
 export function LogoMark({ className = 'size-8' }: { className?: string }) {
   return (
-    <svg viewBox="0 0 40 40" className={className} aria-hidden>
+    <svg viewBox="0 0 48 48" className={className} aria-hidden>
       <defs>
-        <linearGradient id="mm-logo-grad" x1="0" y1="0" x2="1" y2="1">
+        <linearGradient id="mm-logo-grad" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
           <stop offset="0" style={{ stopColor: "var(--mm-from, #0AA2B2)" }} />
           <stop offset="1" style={{ stopColor: "var(--mm-to, #6B4FD8)" }} />
         </linearGradient>
       </defs>
-      <rect width="40" height="40" rx="11" fill="url(#mm-logo-grad)" />
+      <rect width="48" height="48" rx="13" fill="url(#mm-logo-grad)" />
+      {/* Round chat bubble whose tail points out to the bottom-right — it reads as a "Q". */}
       <path
-        d="M27.6 25.4A9.6 9.6 0 1 1 29.6 19"
-        fill="none"
+        d="M35.06 25.87L38.5 38.5L25.86 35.06A13 13 0 1 1 35.06 25.87Z"
+        fill="#FFFFFF"
         stroke="#FFFFFF"
-        strokeWidth="3.6"
-        strokeLinecap="round"
+        strokeWidth="1.6"
         strokeLinejoin="round"
       />
       <path
-        d="M21.5 25.5l4 4 8-8.5"
+        d="M16.6 23l4.2 4.2 7.6-8"
         fill="none"
-        stroke="var(--color-highlight, #F5B331)"
-        strokeWidth="3.6"
+        stroke="url(#mm-logo-grad)"
+        strokeWidth="3.8"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
