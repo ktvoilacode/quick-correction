@@ -1,6 +1,6 @@
 # MedhaMark
 
-Board-pattern test papers for schools, students and parents. A school generates a CBSE paper and assigns it. Students download it, write their answers by hand and upload photos. AI marks every answer, and progress is tracked chapter by chapter.
+Board-pattern test papers for schools, students and parents. A teacher generates a CBSE paper and assigns it. The child writes it by hand and the parent uploads photos of the pages. AI marks every answer, and progress is tracked chapter by chapter.
 
 Built on the [Bloom](https://github.com/bloomneo/bloom) `adminapp` template (React + `@bloomneo/uikit` frontend, Express + `@bloomneo/appkit` backend).
 
@@ -16,9 +16,8 @@ No sign-in needed. Pick a role on `/demo`, or switch roles with **View as …** 
 
 | Role | What you can try |
 |---|---|
-| School / Teacher | Overview with class average, **Generate paper** (unit test or full board pattern, choose chapters), preview and **Download PDF**, **Assign** to students with a due date, see the student list and each student's progress report |
-| Student | Assigned tests, download the paper, **upload photos** of answer sheets (camera on phones), submit, watch the AI correction run, see question-wise marks and feedback, open *My progress* |
-| Parent | Child overview: latest result compared with the class, pending tests, score trend, chapter mastery, AI study suggestions |
+| Teacher | Overview with class average, **Generate paper** (unit test or full board pattern, choose chapters), preview and **Download PDF**, **Assign** to the class with a due date, see the student list and each student's progress report |
+| Parent | **Home**: papers to upload (download & print → child writes on paper → **snap the pages** → submit), the AI-correction progress screen, results with question-wise marks; **Progress**: score trend vs class, chapter mastery, study suggestions |
 
 Prototype scope, so nothing here is real yet:
 - Data is sample data in the browser, saved in `localStorage`. Use **Reset demo data** in the sidebar to start over.

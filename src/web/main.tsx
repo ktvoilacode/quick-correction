@@ -80,7 +80,8 @@ createRoot(rootEl).render(
   <React.StrictMode>
     <ThemeProvider theme={brand.themeId} mode="light">
       <TooltipProvider delayDuration={200}>
-        <ToastProvider />
+        {/* Top on every screen size: at the bottom it would cover the phone tab bar. */}
+        <ToastProvider position="top-center" />
         <ConfirmProvider>
           <Router>
             {/* Layer-contributed providers (auth, etc). Inside BrowserRouter

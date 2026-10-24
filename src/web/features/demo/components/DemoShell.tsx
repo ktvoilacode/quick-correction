@@ -2,7 +2,7 @@
  * DemoShell — the clickable prototype's chrome.
  *
  * Deliberately NOT behind AuthGuard: the prototype is for walking someone
- * through the School → Student → Parent flow without accounts. The role
+ * through the Teacher → Parent flow without accounts. The role
  * switcher in the header stands in for signing in as each kind of user.
  *
  * Phone first: below `lg` the sidebar becomes a bottom tab bar, so every
@@ -19,7 +19,7 @@ import {
   Select, SelectTrigger, SelectValue, SelectContent, SelectItem,
 } from '@bloomneo/uikit';
 import {
-  Menu, Gauge, FileText, FilePlus2, Users, Home, TrendingUp, HeartHandshake, RotateCcw, Moon, Sun,
+  Menu, Gauge, FileText, FilePlus2, Users, Home, TrendingUp, RotateCcw, Moon, Sun,
 } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 import { LogoMark, Wordmark } from '@/shared/Logo';
@@ -34,21 +34,17 @@ const NAV: Record<Role, Item[]> = {
     { to: '/demo/school/papers/new', label: 'Generate paper', short: 'Create', icon: FilePlus2 },
     { to: '/demo/school/students', label: 'Students', short: 'Students', icon: Users },
   ],
-  student: [
-    { to: '/demo/student', label: 'My tests', short: 'Tests', icon: Home, end: true },
-    { to: '/demo/student/progress', label: 'My progress', short: 'Progress', icon: TrendingUp },
-  ],
   parent: [
-    { to: '/demo/parent', label: 'Child overview', short: 'Overview', icon: HeartHandshake, end: true },
+    { to: '/demo/parent', label: 'Home', short: 'Home', icon: Home, end: true },
+    { to: '/demo/parent/progress', label: 'Progress', short: 'Progress', icon: TrendingUp },
   ],
 };
 
-const ROLE_LABEL: Record<Role, string> = { school: 'Teacher', student: 'Student', parent: 'Parent' };
+const ROLE_LABEL: Record<Role, string> = { school: 'Teacher', parent: 'Parent' };
 
 function who(role: Role) {
   const me = studentById(ME_STUDENT);
   if (role === 'school') return { name: 'Ms. Kavya Nair', sub: 'Maths teacher · 10-A' };
-  if (role === 'student') return { name: me.name, sub: `Class ${me.className} · Roll ${me.roll}` };
   return { name: me.parent, sub: `Parent of ${me.name}` };
 }
 

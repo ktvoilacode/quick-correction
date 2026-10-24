@@ -7,7 +7,7 @@ export default function ParentResult() {
   return (
     <>
       <SEO title="Result" />
-      <ResultView submissionId={id} back={{ label: 'Child overview', href: '/demo/parent' }} />
+      <ResultView submissionId={id} back={{ label: 'Home', href: '/demo/parent' }} />
     </>
   );
 }

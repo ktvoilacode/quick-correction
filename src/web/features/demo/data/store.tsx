@@ -8,7 +8,7 @@
 import * as React from 'react';
 import { QUESTION_BANK, buildPaper, CHAPTERS, type Question } from './questions';
 
-export type Role = 'school' | 'student' | 'parent';
+export type Role = 'school' | 'parent';
 
 export type Student = { id: string; name: string; className: string; roll: number; parent: string };
 
@@ -52,7 +52,7 @@ export const STUDENTS: Student[] = [
   { id: 's6', name: 'Saanvi Gupta', className: '10-A', roll: 6, parent: 'Neha Gupta' },
 ];
 
-/** The signed-in student and parent in the demo. */
+/** The child whose parent is signed in to the demo. */
 export const ME_STUDENT = 's1';
 
 const FEEDBACK_GOOD = ['Correct method and answer.', 'Well presented with all steps.', 'Correct — neat working.'];
@@ -174,7 +174,7 @@ function seed(): State {
 
 /* ── context ───────────────────────────────────────────────────────────── */
 
-const KEY = 'medhamark:demo:v1';
+const KEY = 'medhamark:demo:v2';
 
 function load(): State {
   try {

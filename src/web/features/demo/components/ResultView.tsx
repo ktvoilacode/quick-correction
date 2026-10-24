@@ -1,6 +1,6 @@
 /**
  * One corrected submission: score, AI summary, per-question marks and the
- * uploaded answer pages. Shared by the school, student and parent views.
+ * uploaded answer pages. Shared by the teacher and parent views.
  */
 import { Link } from 'react-router-dom';
 import { PageHeader, Card, CardContent, CardHeader, CardTitle, Badge, Button, EmptyState } from '@bloomneo/uikit';

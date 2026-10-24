@@ -144,7 +144,7 @@ export function ChapterBars({ data }: { data: { chapter: string; pct: number }[]
   );
 }
 
-/* ── one student's progress, used by school, student and parent ───────── */
+/* ── one student's progress, used by the teacher and parent views ───────── */
 
 export function useStudentProgress(studentId: string) {
   const { submissions, papers } = useDemo();

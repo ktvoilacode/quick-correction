@@ -1,6 +1,6 @@
 /**
- * /demo/student/tests/:id — the three steps a student takes:
- * download the paper, upload photos of the handwritten answers, submit.
+ * /demo/parent/tests/:id — the three steps a parent takes: download the
+ * paper, have the child write it on paper, upload photos of the pages, submit.
  * Submitting kicks off the (simulated) AI correction.
  */
 import * as React from 'react';
@@ -31,7 +31,7 @@ function Step({ n, title, done, children }: { n: number; title: string; done?: b
 
 const STAGES = ['Reading handwriting', 'Matching answers to questions', 'Marking against CBSE scheme', 'Writing feedback'];
 
-export default function TakeTest() {
+export default function UploadAnswers() {
   const { id = '' } = useParams();
   const navigate = useNavigate();
   const { submissions, papers, uploadPages, evaluate } = useDemo();
@@ -53,14 +53,14 @@ export default function TakeTest() {
   const prevStatus = React.useRef(s?.status);
   React.useEffect(() => {
     if (prevStatus.current === 'evaluating' && s?.status === 'evaluated') {
-      toast.success('Your paper has been corrected');
-      navigate(`/demo/student/results/${s.id}`);
+      toast.success('The paper has been corrected');
+      navigate(`/demo/parent/results/${s.id}`);
     }
     prevStatus.current = s?.status;
   }, [s?.status, s?.id, navigate]);
 
   if (!s || !paper) {
-    return <EmptyState icon={<FileQuestion className="size-6" />} title="Test not found" action={<Button asChild variant="outline"><Link to="/demo/student">My tests</Link></Button>} />;
+    return <EmptyState icon={<FileQuestion className="size-6" />} title="Test not found" action={<Button asChild variant="outline"><Link to="/demo/parent">Home</Link></Button>} />;
   }
 
   const pages = s.pages.filter((p) => p.startsWith('data:'));
@@ -85,7 +85,7 @@ export default function TakeTest() {
         <PageHeader
           title={paper.title}
           description={`${paper.subject} · ${paper.durationMins} min · due ${fmt(s.dueDate)}`}
-          breadcrumbs={[{ label: 'My tests', href: '/demo/student' }, { label: paper.title }]}
+          breadcrumbs={[{ label: 'Home', href: '/demo/parent' }, { label: paper.title }]}
         />
       </div>
 
@@ -94,8 +94,8 @@ export default function TakeTest() {
           <CardContent className="space-y-5 py-10 text-center">
             <Sparkles className="mx-auto size-8 animate-pulse text-primary" />
             <div>
-              <p className="text-lg font-semibold">AI is correcting your paper</p>
-              <p className="text-sm text-muted-foreground">You can leave this page — we’ll notify you and your parent when it’s ready.</p>
+              <p className="text-lg font-semibold">AI is correcting the paper</p>
+              <p className="text-sm text-muted-foreground">You can leave this page — we’ll notify you and the teacher when it’s ready.</p>
             </div>
             <ol className="mx-auto max-w-xs space-y-2 text-left text-sm">
               {STAGES.map((label, i) => (
@@ -109,16 +109,16 @@ export default function TakeTest() {
         </Card>
       ) : (
         <div className="mt-6 max-w-3xl space-y-4 print:hidden">
-          <Step n={1} title="Download the question paper" done={downloaded}>
-            <p className="text-sm text-muted-foreground">Print it or keep it open on another device. Write your answers on plain sheets.</p>
+          <Step n={1} title="Download & print the paper" done={downloaded}>
+            <p className="text-sm text-muted-foreground">Print it (or show it on a tablet). Your child writes the answers on plain sheets, with a timer.</p>
             <div className="flex flex-wrap gap-2">
               <Button variant="outline" onClick={() => setPreview(true)}><Eye className="size-4" /> Preview</Button>
               <Button onClick={() => { setDownloaded(true); window.print(); }}><Download className="size-4" /> Download PDF</Button>
             </div>
           </Step>
 
-          <Step n={2} title="Upload photos of your answer sheets" done={pages.length > 0}>
-            <p className="text-sm text-muted-foreground">One photo per page, in order. Good light, whole page in frame, name on every page.</p>
+          <Step n={2} title="Snap the answer sheets" done={pages.length > 0}>
+            <p className="text-sm text-muted-foreground">One photo per page, in order. Good light, whole page in frame.</p>
             <input
               ref={fileRef}
               type="file"
@@ -154,7 +154,7 @@ export default function TakeTest() {
             </div>
           </Step>
 
-          <Step n={3} title="Submit for AI correction">
+          <Step n={3} title="Submit for marking">
             <p className="text-sm text-muted-foreground">
               {pages.length ? `${pages.length} page${pages.length > 1 ? 's' : ''} ready.` : 'Add at least one page to submit.'} Results usually arrive within minutes.
             </p>

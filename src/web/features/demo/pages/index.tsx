@@ -1,25 +1,24 @@
 /**
  * /demo — the MedhaMark homepage. Phone first: one column, big tap targets,
- * three steps and three doors. Picking a door stands in for signing in.
+ * three steps and two doors. Picking a door stands in for signing in.
  */
 import { useNavigate } from 'react-router-dom';
 import { Button, useTheme } from '@bloomneo/uikit';
-import { GraduationCap, HeartHandshake, School, ChevronRight, FileDown, PenLine, Camera, Sparkles, Moon, Sun } from 'lucide-react';
+import { HeartHandshake, School, ChevronRight, FileDown, PenLine, Camera, Sparkles, Moon, Sun } from 'lucide-react';
 import { SEO } from '@/shared/SEO';
 import { LogoMark, Wordmark } from '@/shared/Logo';
 import { useDemo, type Role } from '../data/store';
 
 const STEPS = [
-  { icon: FileDown, title: 'Get a board-style paper', text: 'CBSE pattern, from your teacher or for practice.' },
-  { icon: PenLine, title: 'Write it on paper', text: 'Just like the real exam. Pen, paper, timer.' },
-  { icon: Camera, title: 'Snap & upload', text: 'Photo of each page, straight from your phone.' },
+  { icon: FileDown, title: 'Teacher sets a paper', text: 'CBSE board pattern, made in a minute.' },
+  { icon: PenLine, title: 'Child writes it on paper', text: 'Just like the real exam. Pen, paper, timer.' },
+  { icon: Camera, title: 'Parent snaps & uploads', text: 'A photo of each page, straight from the phone.' },
   { icon: Sparkles, title: 'Marks in minutes', text: 'Question-wise marks, feedback and progress.' },
 ];
 
 const DOORS: { role: Role; label: string; hint: string; icon: typeof School }[] = [
-  { role: 'student', label: 'I’m a student', hint: 'Take tests, see your marks', icon: GraduationCap },
-  { role: 'parent', label: 'I’m a parent', hint: 'Follow your child’s progress', icon: HeartHandshake },
-  { role: 'school', label: 'I’m a teacher / school', hint: 'Create & assign papers', icon: School },
+  { role: 'parent', label: 'I’m a parent', hint: 'Upload answers, see marks', icon: HeartHandshake },
+  { role: 'school', label: 'I’m a teacher', hint: 'Create papers, track the class', icon: School },
 ];
 
 export default function Home() {
