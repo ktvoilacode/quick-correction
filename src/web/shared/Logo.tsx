@@ -1,8 +1,8 @@
 /**
  * The Quick Correction logo.
  *
- * The mark is a round chat bubble whose tail points out to the bottom-right,
- * so it reads as a "Q", with a tick inside: chat-first, and a corrected answer. Colours come from theme
+ * The mark is a round bubble with a small tail nub at the bottom-right, so it
+ * reads as a "Q", with a tick inside: chat-first, and a corrected answer. Colours come from theme
  * tokens, so it follows light/dark mode; public/favicon.svg is the same mark
  * with the colours written in.
  */
@@ -18,16 +18,11 @@ export function LogoMark({ className = 'size-8' }: { className?: string }) {
         </linearGradient>
       </defs>
       <rect width="48" height="48" rx="13" fill="url(#mm-logo-grad)" />
-      {/* Round chat bubble whose tail points out to the bottom-right — it reads as a "Q". */}
+      {/* Round bubble with a small tail nub at the bottom-right — it reads as a "Q". */}
+      <circle cx="23" cy="23" r="13" fill="#FFFFFF" />
+      <path d="M31.2 31.2L34.4 34.4" stroke="#FFFFFF" strokeWidth="4.6" strokeLinecap="round" />
       <path
-        d="M35.06 25.87L38.5 38.5L25.86 35.06A13 13 0 1 1 35.06 25.87Z"
-        fill="#FFFFFF"
-        stroke="#FFFFFF"
-        strokeWidth="1.6"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M16.6 23l4.2 4.2 7.6-8"
+        d="M16.1 22.4l3.9 3.9 7.3-7.6"
         fill="none"
         stroke="url(#mm-logo-grad)"
         strokeWidth="3.8"
