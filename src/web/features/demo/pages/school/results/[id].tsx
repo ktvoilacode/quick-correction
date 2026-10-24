@@ -7,7 +7,7 @@ export default function SchoolResult() {
   return (
     <>
       <SEO title="Result" />
-      <ResultView submissionId={id} back={{ label: 'Overview', href: '/demo/school' }} />
+      <ResultView submissionId={id} back={{ label: 'Insights', href: '/demo/school/insights' }} />
     </>
   );
 }

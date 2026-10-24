@@ -19,6 +19,8 @@ export type Paper = {
   className: string;
   pattern: 'board' | 'unit';
   durationMins: number;
+  /** Marks the teacher asked for, if they named a number ("40-mark test"). */
+  targetMarks?: number;
   questionIds: string[];
   createdAt: string;
 };
@@ -189,6 +191,7 @@ function load(): State {
 type Ctx = State & {
   setRole: (r: Role) => void;
   createPaper: (p: Omit<Paper, 'id' | 'createdAt'>) => Paper;
+  updatePaper: (id: string, patch: Partial<Omit<Paper, 'id'>>) => void;
   assignPaper: (paperId: string, studentIds: string[], dueDate: string) => void;
   uploadPages: (submissionId: string, pages: string[]) => void;
   evaluate: (submissionId: string) => void;
@@ -218,6 +221,8 @@ export function DemoProvider({ children }: { children: React.ReactNode }) {
       setState((s) => ({ ...s, papers: [paper, ...s.papers] }));
       return paper;
     },
+    updatePaper: (id, patch) =>
+      setState((s) => ({ ...s, papers: s.papers.map((p) => (p.id === id ? { ...p, ...patch } : p)) })),
     assignPaper: (paperId, studentIds, dueDate) =>
       setState((s) => ({
         ...s,

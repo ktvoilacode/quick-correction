@@ -18,7 +18,7 @@ const STEPS = [
 
 const DOORS: { role: Role; label: string; hint: string; icon: typeof School }[] = [
   { role: 'parent', label: 'I’m a parent', hint: 'Upload answers, see marks', icon: HeartHandshake },
-  { role: 'school', label: 'I’m a teacher', hint: 'Create papers, track the class', icon: School },
+  { role: 'school', label: 'I’m a teacher', hint: 'Make papers just by chatting', icon: School },
 ];
 
 export default function Home() {

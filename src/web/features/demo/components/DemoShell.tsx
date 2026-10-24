@@ -6,8 +6,8 @@
  * switcher in the header stands in for signing in as each kind of user.
  *
  * Phone first: below `lg` the sidebar becomes a bottom tab bar, so every
- * section is one thumb-tap away. The homepage (/demo) renders bare — it has
- * its own header.
+ * section is one thumb-tap away. The homepage (/demo) and the teacher's chat
+ * assistant (/demo/school) render bare — each has its own header.
  *
  * Everything inside is `print:hidden` except the page body, so a paper opened
  * in the shell prints as a clean question paper.
@@ -19,7 +19,7 @@ import {
   Select, SelectTrigger, SelectValue, SelectContent, SelectItem,
 } from '@bloomneo/uikit';
 import {
-  Menu, Gauge, FileText, FilePlus2, Users, Home, TrendingUp, RotateCcw, Moon, Sun,
+  Menu, Gauge, FileText, Sparkles, Users, Home, TrendingUp, RotateCcw, Moon, Sun,
 } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 import { LogoMark, Wordmark } from '@/shared/Logo';
@@ -29,10 +29,10 @@ type Item = { to: string; label: string; short: string; icon: LucideIcon; end?: 
 
 const NAV: Record<Role, Item[]> = {
   school: [
-    { to: '/demo/school', label: 'Overview', short: 'Home', icon: Gauge, end: true },
-    { to: '/demo/school/papers', label: 'Test papers', short: 'Papers', icon: FileText, end: true },
-    { to: '/demo/school/papers/new', label: 'Generate paper', short: 'Create', icon: FilePlus2 },
+    { to: '/demo/school', label: 'Assistant', short: 'Assistant', icon: Sparkles, end: true },
+    { to: '/demo/school/papers', label: 'Test papers', short: 'Papers', icon: FileText },
     { to: '/demo/school/students', label: 'Students', short: 'Students', icon: Users },
+    { to: '/demo/school/insights', label: 'Insights', short: 'Insights', icon: Gauge },
   ],
   parent: [
     { to: '/demo/parent', label: 'Home', short: 'Home', icon: Home, end: true },
@@ -68,7 +68,7 @@ function Row({ to, label, icon: Icon, end, onNavigate }: Item & { onNavigate?: (
   );
 }
 
-function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
+export function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
   const { role, reset } = useDemo();
   const navigate = useNavigate();
   const me = who(role);
@@ -131,7 +131,7 @@ function BottomNav() {
   );
 }
 
-function RoleSwitcher() {
+export function RoleSwitcher() {
   const { role, setRole } = useDemo();
   const navigate = useNavigate();
   return (
@@ -151,7 +151,7 @@ function RoleSwitcher() {
   );
 }
 
-function ModeToggle() {
+export function ModeToggle() {
   const { mode, setMode } = useTheme();
   return (
     <Button
@@ -184,6 +184,8 @@ function Frame() {
   React.useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
 
   if (pathname === '/demo' || pathname === '/demo/') return <Outlet />;
+  // The teacher's assistant is a full-screen chat with its own slim top bar.
+  if (pathname === '/demo/school' || pathname === '/demo/school/') return <><RoleFromUrl /><Outlet /></>;
 
   return (
     <div className="flex min-h-screen bg-background text-foreground">

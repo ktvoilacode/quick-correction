@@ -113,14 +113,37 @@ export const QUESTION_BANK: Question[] = [
   q('e3', 'E', 'Probability', 'Case study — A bag contains 5 red, 8 green and 7 white balls. One ball is drawn at random. Find the probability that it is (i) red (ii) not green (iii) red or white.'),
 ];
 
-/** Build a paper by picking questions per section from the chosen chapters. */
-export function buildPaper(chapters: string[], pattern: 'board' | 'unit'): Question[] {
+/**
+ * Build a paper by picking questions per section from the chosen chapters.
+ * `variant` rotates each section's pool, so "shuffle" gives a different set
+ * from the same chapters while keeping the section mix.
+ */
+export function buildPaper(chapters: string[], pattern: 'board' | 'unit', variant = 0, targetMarks?: number): Question[] {
   const pool = QUESTION_BANK.filter((x) => chapters.includes(x.chapter));
-  const out: Question[] = [];
-  (Object.keys(SECTIONS) as SectionId[]).forEach((s) => {
+  const order = Object.keys(SECTIONS) as SectionId[];
+  let out: Question[] = [];
+  order.forEach((s) => {
     const want = pattern === 'board' ? SECTIONS[s].count : Math.ceil(SECTIONS[s].count / 3);
-    out.push(...pool.filter((x) => x.section === s).slice(0, want));
+    const inSection = pool.filter((x) => x.section === s);
+    const k = inSection.length ? variant % inSection.length : 0;
+    out.push(...[...inSection.slice(k), ...inSection.slice(0, k)].slice(0, want));
   });
+
+  // A requested total ("40-mark test") wins over the section template: top up
+  // with unused questions, biggest first, or trim long answers if over.
+  if (targetMarks) {
+    let total = totalMarks(out);
+    const unused = pool.filter((q) => !out.includes(q)).sort((a, b) => b.marks - a.marks);
+    for (const q of unused) {
+      if (total >= targetMarks) break;
+      if (total + q.marks <= targetMarks) { out.push(q); total += q.marks; }
+    }
+    for (const q of [...out].sort((a, b) => b.marks - a.marks)) {
+      if (total <= targetMarks) break;
+      if (total - q.marks >= targetMarks) { out = out.filter((x) => x !== q); total -= q.marks; }
+    }
+    out.sort((a, b) => order.indexOf(a.section) - order.indexOf(b.section));
+  }
   return out;
 }
 
