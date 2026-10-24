@@ -4,16 +4,19 @@
  */
 import { useNavigate } from 'react-router-dom';
 import { Button, useTheme } from '@bloomneo/uikit';
-import { HeartHandshake, School, ChevronRight, FileDown, PenLine, Camera, Sparkles, Moon, Sun } from 'lucide-react';
+import { HeartHandshake, School, ChevronRight, FileText, Camera, Sparkles, Mic, TrendingUp, BellRing, Moon, Sun } from 'lucide-react';
 import { SEO } from '@/shared/SEO';
 import { LogoMark, Wordmark } from '@/shared/Logo';
 import { useDemo, type Role } from '../data/store';
 
-const STEPS = [
-  { icon: FileDown, title: 'Teacher sets a paper', text: 'CBSE board pattern, made in a minute.' },
-  { icon: PenLine, title: 'Child writes it on paper', text: 'Just like the real exam. Pen, paper, timer.' },
-  { icon: Camera, title: 'Parent snaps & uploads', text: 'A photo of each page, straight from the phone.' },
-  { icon: Sparkles, title: 'Marks in minutes', text: 'Question-wise marks, feedback and progress.' },
+/** Shown as a slowly moving strip of cards under the two doors. */
+const FEATURES = [
+  { icon: FileText, title: 'Board-exact papers', text: 'CBSE sections A–E, made in a minute' },
+  { icon: Camera, title: 'Snap & upload', text: 'A photo of each page from the phone' },
+  { icon: Sparkles, title: 'Marked in minutes', text: 'Question-wise marks and feedback' },
+  { icon: Mic, title: 'Just say it', text: '“40-mark trig test, due Friday”' },
+  { icon: TrendingUp, title: 'Chapter progress', text: 'See exactly what to revise next' },
+  { icon: BellRing, title: 'Teacher in the loop', text: 'Notified the moment answers land' },
 ];
 
 const DOORS: { role: Role; label: string; hint: string; icon: typeof School }[] = [
@@ -91,24 +94,26 @@ export default function Home() {
             ))}
           </section>
 
-          <section className="mt-10" aria-labelledby="how">
-            <h2 id="how" className="text-sm font-semibold uppercase tracking-wider text-muted-foreground">How it works</h2>
-            <ol className="mt-4 space-y-0">
-              {STEPS.map(({ icon: Icon, title, text }, i) => (
-                <li key={title} className="relative flex gap-4 pb-6 last:pb-0">
-                  {i < STEPS.length - 1 && (
-                    <span aria-hidden className="absolute left-5 top-11 h-[calc(100%-2.75rem)] w-px bg-border" />
-                  )}
-                  <span className="mm-tint grid size-10 shrink-0 place-items-center rounded-full text-primary">
-                    <Icon className="size-5" />
-                  </span>
-                  <span className="pt-1">
-                    <span className="block font-medium">{title}</span>
-                    <span className="block text-sm text-muted-foreground">{text}</span>
-                  </span>
-                </li>
+          {/* Moving feature strip. The list is rendered twice so the loop is seamless;
+              the copy is hidden from screen readers. Stops for reduced motion. */}
+          <section className="mm-marquee -mx-5 mt-10" aria-label="What Quick Correction does">
+            <div className="mm-marquee-track">
+              {[0, 1].map((copy) => (
+                <ul key={copy} className="flex shrink-0 gap-3 pr-3" aria-hidden={copy === 1 || undefined}>
+                  {FEATURES.map(({ icon: Icon, title, text }) => (
+                    <li key={title} className="mm-glass flex w-56 shrink-0 items-start gap-3 rounded-2xl p-3.5">
+                      <span className="mm-tint grid size-9 shrink-0 place-items-center rounded-xl text-primary">
+                        <Icon className="size-[18px]" />
+                      </span>
+                      <span className="min-w-0">
+                        <span className="block text-sm font-semibold">{title}</span>
+                        <span className="block text-xs leading-snug text-muted-foreground">{text}</span>
+                      </span>
+                    </li>
+                  ))}
+                </ul>
               ))}
-            </ol>
+            </div>
           </section>
 
           <footer className="mt-auto pt-10 text-center text-xs text-muted-foreground">
