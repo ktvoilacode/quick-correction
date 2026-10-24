@@ -1,0 +1,174 @@
+/*
+ * medhamark — the brand.
+ *
+ * This is the only file you edit to change how the whole app looks.
+ *
+ * ── How it works ────────────────────────────────────────────────────────────
+ *
+ * Every accent in the app derives from ONE number: `--brand-h`, a hue angle.
+ * The neutrals, the surfaces and the state colours are written once against
+ * that variable, so a whole palette is a single line:
+ *
+ *     .theme-medhamark-teal { --brand-h: 195; }
+ *
+ * That is only possible because these are OKLCH, not hex. OKLCH is
+ * perceptually uniform — `oklch(L C H)` keeps lightness and saturation fixed
+ * while H rotates, so every palette below is equally readable and equally
+ * weighted. Rotating a hex value does not work that way: #4F46E5 → yellow at
+ * the same numbers is far brighter and the text on it stops being legible.
+ *
+ * ── To make it yours ────────────────────────────────────────────────────────
+ *
+ * Change `--brand-h` in the default block. That is usually the whole job.
+ * For a bespoke accent, override `--color-primary` directly — anything you set
+ * explicitly wins over the derived value.
+ *
+ * Contrast was checked against WCAG AA (4.5:1 body, 3:1 large text and UI).
+ */
+
+/* ── shared: everything that is not the accent hue ──────────────────────── */
+.theme-medhamark,
+.theme-medhamark-teal,
+.theme-medhamark-emerald,
+.theme-medhamark-amber,
+.theme-medhamark-rose,
+.theme-medhamark-slate {
+  color-scheme: light;
+
+  /* Chroma, so a palette can be muted without touching every token.
+   * `slate` below sets this near zero for a monochrome identity. */
+  --brand-c: 0.196;
+
+  /* Surfaces — a hair of warmth (hue 90) rather than pure grey. A small
+   * thing that stops an interface reading as cold or unfinished. */
+  --color-background: oklch(0.994 0.002 90);
+  --color-foreground: oklch(0.22 0.014 268);
+  --color-card: oklch(1 0 0);
+  --color-card-foreground: oklch(0.22 0.014 268);
+  --color-popover: oklch(1 0 0);
+  --color-popover-foreground: oklch(0.22 0.014 268);
+
+  --color-muted: oklch(0.965 0.004 90);
+  --color-muted-foreground: oklch(0.52 0.016 268);
+
+  --color-border: oklch(0.918 0.005 90);
+  --color-input: oklch(0.878 0.007 90);
+
+  /* Brand — all derived from --brand-h / --brand-c. */
+  --color-primary: oklch(0.52 var(--brand-c) var(--brand-h));
+  --color-primary-foreground: oklch(0.99 0.002 90);
+  --color-ring: oklch(0.52 var(--brand-c) var(--brand-h));
+  --color-secondary: oklch(0.955 0.018 var(--brand-h));
+  --color-secondary-foreground: oklch(0.36 calc(var(--brand-c) * 0.6) var(--brand-h));
+  --color-accent: oklch(0.955 0.018 var(--brand-h));
+  --color-accent-foreground: oklch(0.36 calc(var(--brand-c) * 0.6) var(--brand-h));
+
+  /* State — deliberately NOT derived. Rebranding must never turn "success"
+   * into something that isn't green. */
+  --color-destructive: oklch(0.577 0.222 27);
+  --color-destructive-foreground: oklch(0.99 0.002 90);
+  --color-success: oklch(0.596 0.132 156);
+  --color-success-foreground: oklch(0.99 0.002 90);
+  --color-warning: oklch(0.705 0.162 74);
+  --color-warning-foreground: oklch(0.24 0.05 74);
+
+  /* Inverted surface, for tone="contrast". */
+  --color-contrast: oklch(0.22 0.014 268);
+  --color-contrast-foreground: oklch(0.98 0.002 90);
+  --color-contrast-muted: oklch(0.30 0.016 268);
+  --color-contrast-muted-foreground: oklch(0.72 0.014 268);
+  --color-contrast-border: oklch(0.34 0.016 268);
+
+  /* Charts — the brand hue plus four fixed offsets around the wheel, so the
+   * ramp rotates with the palette and never collapses into one colour.
+   * A monochrome ramp is unreadable in a donut; this is the fix. */
+  --color-chart1: oklch(0.58 0.19 var(--brand-h));
+  --color-chart2: oklch(0.62 0.14 calc(var(--brand-h) + 78));
+  --color-chart3: oklch(0.64 0.14 calc(var(--brand-h) + 156));
+  --color-chart4: oklch(0.74 0.16 calc(var(--brand-h) + 232));
+  --color-chart5: oklch(0.63 0.19 calc(var(--brand-h) + 300));
+
+  --color-sidebar: oklch(0.982 0.003 90);
+  --color-sidebar-foreground: oklch(0.22 0.014 268);
+  --color-sidebar-primary: oklch(0.52 var(--brand-c) var(--brand-h));
+  --color-sidebar-primary-foreground: oklch(0.99 0.002 90);
+  --color-sidebar-accent: oklch(0.955 0.018 var(--brand-h));
+  --color-sidebar-accent-foreground: oklch(0.36 calc(var(--brand-c) * 0.6) var(--brand-h));
+  --color-sidebar-border: oklch(0.918 0.005 90);
+  --color-sidebar-ring: oklch(0.52 var(--brand-c) var(--brand-h));
+
+  --color-radius: 0.625rem;
+}
+
+/* ── dark: not the light palette inverted, which always looks wrong ────────
+ * Surfaces lift as they come forward (background → card → popover) so depth
+ * reads without borders doing all the work, and the accent is lightened and
+ * slightly desaturated — a colour comfortable on white is too loud on black. */
+.theme-medhamark.dark,
+.theme-medhamark-teal.dark,
+.theme-medhamark-emerald.dark,
+.theme-medhamark-amber.dark,
+.theme-medhamark-rose.dark,
+.theme-medhamark-slate.dark {
+  color-scheme: dark;
+
+  --color-background: oklch(0.178 0.013 268);
+  --color-foreground: oklch(0.96 0.003 90);
+  --color-card: oklch(0.216 0.015 268);
+  --color-card-foreground: oklch(0.96 0.003 90);
+  --color-popover: oklch(0.238 0.016 268);
+  --color-popover-foreground: oklch(0.96 0.003 90);
+
+  --color-muted: oklch(0.252 0.015 268);
+  --color-muted-foreground: oklch(0.702 0.016 268);
+
+  --color-border: oklch(0.288 0.016 268);
+  --color-input: oklch(0.336 0.018 268);
+
+  --color-primary: oklch(0.70 calc(var(--brand-c) * 0.8) var(--brand-h));
+  --color-primary-foreground: oklch(0.17 0.02 var(--brand-h));
+  --color-ring: oklch(0.70 calc(var(--brand-c) * 0.8) var(--brand-h));
+  --color-secondary: oklch(0.272 0.038 var(--brand-h));
+  --color-secondary-foreground: oklch(0.88 0.04 var(--brand-h));
+  --color-accent: oklch(0.272 0.038 var(--brand-h));
+  --color-accent-foreground: oklch(0.88 0.04 var(--brand-h));
+
+  --color-destructive: oklch(0.68 0.18 22);
+  --color-destructive-foreground: oklch(0.16 0.03 22);
+  --color-success: oklch(0.72 0.148 156);
+  --color-success-foreground: oklch(0.16 0.03 156);
+  --color-warning: oklch(0.80 0.15 74);
+  --color-warning-foreground: oklch(0.20 0.04 74);
+
+  --color-contrast: oklch(0.96 0.003 90);
+  --color-contrast-foreground: oklch(0.178 0.013 268);
+  --color-contrast-muted: oklch(0.86 0.006 90);
+  --color-contrast-muted-foreground: oklch(0.42 0.016 268);
+  --color-contrast-border: oklch(0.72 0.010 268);
+
+  --color-chart1: oklch(0.72 0.16 var(--brand-h));
+  --color-chart2: oklch(0.74 0.13 calc(var(--brand-h) + 78));
+  --color-chart3: oklch(0.76 0.14 calc(var(--brand-h) + 156));
+  --color-chart4: oklch(0.82 0.15 calc(var(--brand-h) + 232));
+  --color-chart5: oklch(0.72 0.17 calc(var(--brand-h) + 300));
+
+  --color-sidebar: oklch(0.198 0.014 268);
+  --color-sidebar-foreground: oklch(0.96 0.003 90);
+  --color-sidebar-primary: oklch(0.70 calc(var(--brand-c) * 0.8) var(--brand-h));
+  --color-sidebar-primary-foreground: oklch(0.17 0.02 var(--brand-h));
+  --color-sidebar-accent: oklch(0.272 0.038 var(--brand-h));
+  --color-sidebar-accent-foreground: oklch(0.88 0.04 var(--brand-h));
+  --color-sidebar-border: oklch(0.288 0.016 268);
+  --color-sidebar-ring: oklch(0.70 calc(var(--brand-c) * 0.8) var(--brand-h));
+}
+
+/* ── the palettes ──────────────────────────────────────────────────────────
+ * One line each. Add your own by appending a hue here and to PALETTES in
+ * shared/palettes.ts — the switcher in the header picks it up automatically. */
+
+.theme-medhamark          { --brand-h: 272; }                      /* Indigo  */
+.theme-medhamark-teal     { --brand-h: 195; }                      /* Teal    */
+.theme-medhamark-emerald  { --brand-h: 155; }                      /* Emerald */
+.theme-medhamark-amber    { --brand-h: 68;  --brand-c: 0.16; }     /* Amber   */
+.theme-medhamark-rose     { --brand-h: 14;  --brand-c: 0.19; }     /* Rose    */
+.theme-medhamark-slate    { --brand-h: 268; --brand-c: 0.028; }    /* Slate   */

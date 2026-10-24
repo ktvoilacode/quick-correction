@@ -1,0 +1,52 @@
+/*
+ * Self-hosted variable fonts.
+ *
+ * Two files cover the entire weight range 100–900, because these are variable
+ * fonts — the old approach of shipping one file per weight is what made UIKit's
+ * font bundle 3.4 MB before 4.1 removed it.
+ *
+ *   Inter          48 KB  — UI and body
+ *   Inter Italic   51 KB  — emphasis
+ *   JetBrains Mono 40 KB  — code, tabular figures, IDs
+ *
+ * `font-display: swap` renders immediately in the fallback and swaps when the
+ * file lands, so text is never invisible. The fallback stacks below are chosen
+ * to have similar metrics, which keeps the swap from shifting layout.
+ *
+ * Self-hosted rather than Google Fonts on purpose: no third-party request on
+ * every page load, works offline and behind a firewall, and no privacy note to
+ * write. Delete this file and the `--font-*` tokens if you want system fonts.
+ */
+
+@font-face {
+  font-family: 'Inter Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('/fonts/inter-latin-wght-normal.woff2') format('woff2-variations');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Inter Variable';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('/fonts/inter-latin-wght-italic.woff2') format('woff2-variations');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 800;
+  src: url('/fonts/jetbrains-mono-latin-wght-normal.woff2') format('woff2-variations');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}

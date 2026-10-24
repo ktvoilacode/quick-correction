@@ -1,0 +1,230 @@
+###
+# Auth Feature HTTP Tests
+# @file src/api/features/auth/auth.http
+#
+# Test all authentication endpoints including login, register, email verification, and password reset
+# Make sure to run the seeding first: node prisma/seeding/user.seed.js
+###
+
+@baseUrl = http://localhost:3000
+@frontendKey = bloom_rpqek3wa3mamvtdkiv378
+@token =
+@verificationToken =
+@resetToken =
+
+### 2. Register a new user
+POST {{baseUrl}}/api/auth/register
+Content-Type: application/json
+X-Frontend-Key: {{frontendKey}}
+
+{
+  "email": "newuser@example.com",
+  "password": "Password123!",
+  "name": "New Test User",
+  "phone": "+1-555-1234",
+  "role": "user",
+  "level": "basic"
+}
+
+### 3. Login with registered user
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+X-Frontend-Key: {{frontendKey}}
+
+{
+  "email": "newuser@example.com",
+  "password": "Password123!",
+  "rememberMe": false
+}
+
+### 4. Login with seeded basic user
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+X-Frontend-Key: {{frontendKey}}
+
+{
+  "email": "user.basic@bloom-basicapp.com",
+  "password": "t7xszag09c",
+  "rememberMe": true
+}
+
+### 5. Login with seeded admin user
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+X-Frontend-Key: {{frontendKey}}
+
+{
+  "email": "admin.system@bloom-basicapp.com",
+  "password": "t7xszag09c",
+  "rememberMe": false
+}
+
+### 6. Register user with email verification (uses working email)
+POST {{baseUrl}}/api/auth/register
+Content-Type: application/json
+X-Frontend-Key: {{frontendKey}}
+
+{
+  "email": "krishnatejags@gmail.com",
+  "password": "Password123!",
+  "name": "Krishna Test",
+  "phone": "+1-555-5678"
+}
+
+### 7. Verify email with token (get token from email)
+POST {{baseUrl}}/api/auth/verify-email
+Content-Type: application/json
+X-Frontend-Key: {{frontendKey}}
+
+{
+  "token": "{{verificationToken}}"
+}
+
+### 8. Resend verification email
+POST {{baseUrl}}/api/auth/resend-verification
+Content-Type: application/json
+X-Frontend-Key: {{frontendKey}}
+
+{
+  "email": "krishnatejags@gmail.com"
+}
+
+### 9. Forgot password request
+POST {{baseUrl}}/api/auth/forgot-password
+Content-Type: application/json
+X-Frontend-Key: {{frontendKey}}
+
+{
+  "email": "krishnatejags@gmail.com"
+}
+
+### 10. Reset password with token (get token from email)
+POST {{baseUrl}}/api/auth/reset-password
+Content-Type: application/json
+X-Frontend-Key: {{frontendKey}}
+
+{
+  "token": "{{resetToken}}",
+  "password": "NewPassword123!"
+}
+
+### 11. Test invalid login credentials
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+X-Frontend-Key: {{frontendKey}}
+
+{
+  "email": "invalid@example.com",
+  "password": "wrongpassword"
+}
+
+### 12. Test register with existing email
+POST {{baseUrl}}/api/auth/register
+Content-Type: application/json
+X-Frontend-Key: {{frontendKey}}
+
+{
+  "email": "user.basic@bloom-basicapp.com",
+  "password": "t7xszag09c"
+}
+
+### 13. Test invalid email format
+POST {{baseUrl}}/api/auth/register
+Content-Type: application/json
+X-Frontend-Key: {{frontendKey}}
+
+{
+  "email": "invalid-email",
+  "password": "Password123!"
+}
+
+### 14. Test weak password
+POST {{baseUrl}}/api/auth/register
+Content-Type: application/json
+X-Frontend-Key: {{frontendKey}}
+
+{
+  "email": "weakpass@example.com",
+  "password": "123"
+}
+
+### 15. Test verify with invalid token
+POST {{baseUrl}}/api/auth/verify-email
+Content-Type: application/json
+X-Frontend-Key: {{frontendKey}}
+
+{
+  "token": "invalid-token-12345"
+}
+
+### 16. Test reset password with invalid token
+POST {{baseUrl}}/api/auth/reset-password
+Content-Type: application/json
+X-Frontend-Key: {{frontendKey}}
+
+{
+  "token": "invalid-reset-token",
+  "password": "NewPassword123!"
+}
+
+### 17. Test forgot password with non-existent email (should still return success)
+POST {{baseUrl}}/api/auth/forgot-password
+Content-Type: application/json
+X-Frontend-Key: {{frontendKey}}
+
+{
+  "email": "nonexistent@example.com"
+}
+
+### 18. Test missing required fields - login
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+X-Frontend-Key: {{frontendKey}}
+
+{
+  "email": "test@example.com"
+}
+
+### 19. Test missing required fields - register
+POST {{baseUrl}}/api/auth/register
+Content-Type: application/json
+X-Frontend-Key: {{frontendKey}}
+
+{
+  "email": "incomplete@example.com"
+}
+
+### 20. Test missing required fields - verify email
+POST {{baseUrl}}/api/auth/verify-email
+Content-Type: application/json
+X-Frontend-Key: {{frontendKey}}
+
+{}
+
+###
+# Instructions:
+# 1. First run: node prisma/seeding/user.seed.js (if needed)
+# 2. Start the API server: npm run dev:api
+# 3. Test registration to create new users
+# 4. Test login endpoints to get JWT tokens
+# 5. Copy verification/reset tokens from emails to variables above
+# 6. Test email verification and password reset flows
+# 7. Test error cases to ensure proper validation
+###
+
+###
+# Expected Responses:
+#
+# Success cases:
+# - Register: 201 with user object and "User registered successfully"
+# - Login: 200 with user object, token, and "Login successful"
+# - Verify: 200 with "Email verified successfully"
+# - Forgot: 200 with generic success message (security)
+# - Reset: 200 with "Password reset successfully"
+#
+# Error cases:
+# - Invalid credentials: 400/500 with error message
+# - Duplicate email: 400 with "User already exists"
+# - Invalid token: 400 with "Invalid or expired token"
+# - Missing fields: 400 with validation error
+###

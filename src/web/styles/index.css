@@ -1,0 +1,142 @@
+/*
+ * medhamark — stylesheet entry.
+ *
+ * Import order matters and is not arbitrary:
+ *
+ *   1. tailwindcss              the framework itself
+ *   2. @bloomneo/uikit/theme    design tokens + the palette lockdown
+ *   3. ./fonts.css              @font-face for the self-hosted variable fonts
+ *   4. ./brand.css              this app's colours, overriding the defaults
+ *
+ * Step 2 is why `bg-blue-600` produces nothing in this app while `bg-primary`
+ * works. UIKit removes Tailwind's default palette so a design rule other
+ * libraries can only document is enforced by the compiler here. If an element
+ * renders unstyled, you used a colour that is not a token — that is the check
+ * working, not a bug.
+ *
+ * It must be imported into YOUR Tailwind build (this file), not loaded as a
+ * prebuilt stylesheet: a compiled sheet cannot constrain which utilities your
+ * build generates.
+ */
+
+@import "tailwindcss";
+@import "@bloomneo/uikit/theme";
+@import "./fonts.css";
+@import "./brand.css";
+/* Inert on web; the mobile layer replaces it. See mobile.css. */
+@import "./mobile.css";
+
+/*
+ * No `@source` for UIKit is needed here: since 4.1.2 `@bloomneo/uikit/theme`
+ * carries its own, so importing it is enough for Tailwind to find the classes
+ * UIKit's components use internally. Before that fix, 22 of them were never
+ * generated and components rendered partly unstyled with no error.
+ */
+
+@theme {
+  --font-sans: 'Inter Variable', ui-sans-serif, system-ui, -apple-system,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'JetBrains Mono Variable', ui-monospace, SFMono-Regular,
+    'SF Mono', Menlo, Consolas, monospace;
+}
+
+@layer base {
+  html {
+    /* Opt into the OpenType features Inter ships: contextual alternates and
+     * proper fractions. `cv11` gives the single-storey 'a' in headings. */
+    font-feature-settings: 'cv11', 'ss01';
+    font-variation-settings: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  /* Numbers in tables, money and IDs should line up. */
+  .num,
+  [data-slot='table'] td,
+  th {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Headings tighten as they grow — large type needs less tracking. */
+  h1, h2, h3 {
+    @apply tracking-tight;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /*
+   * A visible focus ring for the elements UIKit does NOT already style.
+   *
+   * Scoped deliberately. A bare `:focus-visible` rule looks tidier and is
+   * wrong twice over:
+   *
+   *   1. Overlay containers (menu, dialog and popover content) carry
+   *      `tabindex="-1"` and receive focus programmatically when they open.
+   *      They match :focus-visible, so a global rule paints a ring around the
+   *      whole dropdown the moment it appears.
+   *   2. UIKit's interactive components already ship their own
+   *      `focus-visible:ring-*`. A global rule stacks a second ring on top.
+   *
+   * So: links, disclosure summaries, and anything explicitly made tabbable —
+   * the cases nothing else covers.
+   */
+  a:focus-visible,
+  summary:focus-visible,
+  [tabindex='0']:focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+
+  ::selection {
+    @apply bg-primary/20;
+  }
+}
+
+/* ── hero motion ────────────────────────────────────────────────────────────
+ * Two gradient blooms drifting slowly behind the headline. Deliberately slow
+ * (28s and 34s, offset) so it reads as ambient light rather than something
+ * demanding attention — a hero that visibly loops is a hero people close.
+ *
+ * Only `transform` and `opacity` are animated, both of which the compositor
+ * handles without repainting.
+ */
+@keyframes bloom-drift-a {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50%      { transform: translate3d(6%, 4%, 0) scale(1.12); }
+}
+@keyframes bloom-drift-b {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1.06); }
+  50%      { transform: translate3d(-7%, -3%, 0) scale(0.96); }
+}
+@keyframes bloom-rise {
+  from { opacity: 0; transform: translate3d(0, 12px, 0); }
+  to   { opacity: 1; transform: none; }
+}
+
+.bloom-blob-a { animation: bloom-drift-a 28s ease-in-out infinite; }
+.bloom-blob-b { animation: bloom-drift-b 34s ease-in-out infinite; }
+
+/* Staggered entrance for the hero. `both` keeps the pre-animation state, so
+ * nothing flashes at full opacity before the delay elapses. */
+.bloom-rise   { animation: bloom-rise 0.6s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.bloom-rise-1 { animation-delay: 0.06s; }
+.bloom-rise-2 { animation-delay: 0.12s; }
+.bloom-rise-3 { animation-delay: 0.18s; }
+.bloom-rise-4 { animation-delay: 0.24s; }
+
+/* Motion is decoration here, so it is the first thing to go. Everything stays
+ * exactly where it lands — only the movement stops. */
+@media (prefers-reduced-motion: reduce) {
+  .bloom-blob-a,
+  .bloom-blob-b,
+  .bloom-rise {
+    animation: none;
+  }
+}

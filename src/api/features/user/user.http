@@ -1,0 +1,121 @@
+###
+# User Feature HTTP Tests
+# @file src/api/features/user/user.http
+#
+# Test user profile management and admin endpoints
+# Authentication endpoints have been moved to /api/auth/*
+# Make sure to run the seeding first: node prisma/seeding/user.seed.js
+###
+
+@baseUrl = http://localhost:3000
+@frontendKey = bloom_rpqek3wa3mamvtdkiv378
+@token =
+
+# =============================================================================
+# PROFILE MANAGEMENT ROUTES - /api/user/*
+# =============================================================================
+
+### 2. Get user profile (requires auth token from /api/auth/login)
+GET {{baseUrl}}/api/user/profile
+Authorization: Bearer {{token}}
+X-Frontend-Key: {{frontendKey}}
+
+### 3. Update user profile (requires auth token)
+PUT {{baseUrl}}/api/user/profile
+Authorization: Bearer {{token}}
+Content-Type: application/json
+X-Frontend-Key: {{frontendKey}}
+
+{
+  "name": "Updated Profile Name",
+  "phone": "+1-555-9999"
+}
+
+### 4. Change password (requires auth token)
+POST {{baseUrl}}/api/user/change-password
+Authorization: Bearer {{token}}
+Content-Type: application/json
+X-Frontend-Key: {{frontendKey}}
+
+{
+  "currentPassword": "t7xszag09c",
+  "newPassword": "NewPassword123!"
+}
+
+# =============================================================================
+# ADMIN ROUTES - /api/user/admin/*
+# =============================================================================
+
+### 5. Get all users (admin only)
+GET {{baseUrl}}/api/user/admin/users
+Authorization: Bearer {{token}}
+X-Frontend-Key: {{frontendKey}}
+
+### 6. Get users list (moderator+ access)
+GET {{baseUrl}}/api/user/admin/list
+Authorization: Bearer {{token}}
+X-Frontend-Key: {{frontendKey}}
+
+### 7. Create new user (admin only)
+POST {{baseUrl}}/api/user/admin/create
+Authorization: Bearer {{token}}
+Content-Type: application/json
+X-Frontend-Key: {{frontendKey}}
+
+{
+  "name": "New Admin User",
+  "email": "newuser@example.com",
+  "phone": "+1-555-1234",
+  "password": "NewPassword123!",
+  "role": "user",
+  "level": "basic",
+  "isActive": true,
+  "isVerified": false
+}
+
+### 8. Get single user by ID (moderator+ access)
+GET {{baseUrl}}/api/user/admin/users/2
+Authorization: Bearer {{token}}
+X-Frontend-Key: {{frontendKey}}
+
+### 9. Update user by admin (admin only)
+PUT {{baseUrl}}/api/user/admin/users/2
+Authorization: Bearer {{token}}
+Content-Type: application/json
+X-Frontend-Key: {{frontendKey}}
+
+{
+  "name": "Admin Updated Name",
+  "role": "moderator",
+  "level": "review",
+  "isActive": true,
+  "isVerified": true
+}
+
+### 10. Delete user (admin only)
+DELETE {{baseUrl}}/api/user/admin/users/2
+Authorization: Bearer {{token}}
+X-Frontend-Key: {{frontendKey}}
+
+### 11. Admin change user password (admin only)
+PUT {{baseUrl}}/api/user/admin/users/2/password
+Authorization: Bearer {{token}}
+Content-Type: application/json
+X-Frontend-Key: {{frontendKey}}
+
+{
+  "newPassword": "AdminChangedPassword123!"
+}
+
+###
+# Instructions:
+# 1. First run: node prisma/seeding/user.seed.js (if needed)
+# 2. Start the API server: npm run dev:api
+# 3. Use /api/auth/login to get JWT token (see auth.http)
+# 4. Copy the token to @token variable at the top
+# 5. Test profile management and admin endpoints
+#
+# Note: Authentication endpoints moved to /api/auth/*
+# - Use auth.http for login, register, email verification, password reset
+# - Use user.http for profile management and admin operations
+###

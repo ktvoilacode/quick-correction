@@ -1,0 +1,1 @@
+export { AuthGuard, ProtectedRoute } from './AuthGuard';

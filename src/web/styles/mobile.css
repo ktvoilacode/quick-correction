@@ -1,0 +1,11 @@
+/**
+ * Platform styles for native builds. INERT unless the mobile layer is installed.
+ *
+ * styles/index.css imports this unconditionally because CSS has no equivalent
+ * of import.meta.glob — there is no way to conditionally pull a stylesheet at
+ * build time. A stable, empty import target is the alternative: the mobile
+ * layer overwrites this file, and index.css never has to know either way.
+ *
+ * Nothing here on purpose. Do not put web styles in this file; the mobile
+ * layer replaces it wholesale.
+ */

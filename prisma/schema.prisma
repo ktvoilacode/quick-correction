@@ -1,0 +1,88 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  // SQLite so `bloom create --auth` works with no database server to install:
+  // `npx prisma db push` creates dev.db in place and you can sign in.
+  //
+  // For Postgres, change this to `postgresql` and point DATABASE_URL at your
+  // server. The schema below uses no provider-specific types, so nothing else
+  // has to change.
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  // Primary key is a CUID (short, URL-safe, Prisma-native). Adopted as the
+  // Bloom 4.1 framework-wide default so user IDs don't leak sequence
+  // information and all templates share the same User shape.
+  id                 String    @id @default(cuid())
+  email              String    @unique
+  password           String
+  name               String?
+  phone              String?
+  role               String    @default("user")
+  level              String    @default("basic")
+  tenantId           String?
+  isVerified         Boolean   @default(false)
+  isActive           Boolean   @default(true)
+  lastLogin          DateTime?
+  resetToken         String?
+  resetTokenExpiry   DateTime?
+  verificationToken  String?
+  verificationExpiry DateTime?
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+
+  @@index([tenantId]) // MANDATORY: AppKit performance index
+  @@map("users")
+}
+
+
+// ── added by the `admin` layer ────────────────────────────────────────────
+// Appended to the base schema rather than replacing it, so this composes with
+// whatever the auth layer (and any future layer) already declared.
+
+// Append-only trail of consequential actions. Written by audit.service.ts,
+// never updated or deleted — an audit log you can edit is not an audit log.
+model AuditLog {
+  id          String   @id @default(cuid())
+  actorId     String?
+  actorType   String   @default("user") // 'user' | 'admin' | 'system'
+  action      String // e.g. 'user.create', 'settings.update', 'login.failure'
+  entityType  String? // e.g. 'user', 'setting', 'session'
+  entityId    String? // stringified — entity PKs may vary by model
+  oldValue    Json?
+  newValue    Json?
+  description String?
+  ipAddress   String?
+  userAgent   String?
+  createdAt   DateTime @default(now())
+
+  @@index([actorId])
+  @@index([action])
+  @@index([entityType, entityId])
+  @@index([createdAt])
+  @@map("audit_logs")
+}
+
+// App settings — a simple key-value store. Strings only; parse at the edge if
+// you need numbers or booleans.
+//
+// `isPublic` controls whether the value is exposed through the
+// unauthenticated /api/settings/public endpoint. Default false: a setting is
+// private until someone decides otherwise, so adding one cannot leak it.
+model AppSetting {
+  key         String   @id
+  value       String
+  isPublic    Boolean  @default(false)
+  description String?
+  updatedAt   DateTime @updatedAt
+  updatedBy   String?
+
+  @@map("app_settings")
+}
