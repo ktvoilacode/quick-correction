@@ -1,5 +1,5 @@
 /**
- * /demo — the MedhaMark homepage. Phone first: one column, big tap targets,
+ * /demo — the Quick Correction homepage. Phone first: one column, big tap targets,
  * three steps and two doors. Picking a door stands in for signing in.
  */
 import { useNavigate } from 'react-router-dom';
@@ -29,20 +29,9 @@ export default function Home() {
 
   return (
     <>
-      <SEO title="MedhaMark" description="Board-pattern tests, written by hand, marked by AI." />
+      <SEO title="Quick Correction" description="Board-pattern tests, written by hand, marked by AI." />
 
-      <div className="relative min-h-screen overflow-hidden bg-background">
-        {/* Soft brand wash behind the top of the page. */}
-        <div
-          aria-hidden
-          className="pointer-events-none absolute inset-x-0 top-0 h-[26rem]"
-          style={{
-            background:
-              'radial-gradient(60% 70% at 15% 0%, color-mix(in oklch, var(--color-primary) 22%, transparent), transparent 70%),' +
-              'radial-gradient(50% 60% at 95% 10%, color-mix(in oklch, var(--color-highlight) 30%, transparent), transparent 70%)',
-          }}
-        />
-
+      <div className="mm-mesh relative min-h-screen overflow-hidden">
         <div className="relative mx-auto flex min-h-screen w-full max-w-md flex-col px-5 pb-8 pt-[max(1rem,env(safe-area-inset-top))]">
           <header className="flex h-14 items-center justify-between">
             <span className="flex items-center gap-2.5">
@@ -64,12 +53,12 @@ export default function Home() {
             <span className="inline-flex items-center gap-1.5 rounded-full bg-[var(--color-highlight-soft)] px-3 py-1 text-xs font-medium text-[var(--color-highlight-on-soft)]">
               <span className="size-1.5 rounded-full bg-[var(--color-highlight)]" /> CBSE Class 10 · Board practice
             </span>
-            <h1 className="mt-4 text-[2.15rem] font-bold leading-[1.1] tracking-tight">
+            <h1 className="mt-4 text-[2.25rem] font-bold leading-[1.08] tracking-[-0.03em]">
               Practice like the board exam.{' '}
-              <span className="text-primary">Get marked in minutes.</span>
+              <span className="mm-gradient-text">Get marked in minutes.</span>
             </h1>
             <p className="mt-3 text-base text-muted-foreground">
-              Write answers on paper, upload a photo, and MedhaMark checks every question.
+              Write answers on paper, upload a photo, and Quick Correction checks every question.
             </p>
           </section>
 
@@ -81,21 +70,21 @@ export default function Home() {
                 className={[
                   'flex w-full cursor-pointer items-center gap-4 rounded-2xl p-4 text-left transition active:scale-[0.98]',
                   i === 0
-                    ? 'bg-primary text-primary-foreground shadow-lg shadow-primary/25'
-                    : 'border border-border bg-card hover:border-primary/50',
+                    ? 'mm-gradient mm-glow'
+                    : 'mm-glass hover:-translate-y-px',
                 ].join(' ')}
               >
                 <span
                   className={[
                     'grid size-12 shrink-0 place-items-center rounded-xl',
-                    i === 0 ? 'bg-primary-foreground/15' : 'bg-secondary text-secondary-foreground',
+                    i === 0 ? 'bg-white/20' : 'mm-tint text-primary',
                   ].join(' ')}
                 >
                   <Icon className="size-6" />
                 </span>
                 <span className="min-w-0 flex-1">
                   <span className="block text-base font-semibold">{label}</span>
-                  <span className={`block text-sm ${i === 0 ? 'text-primary-foreground/80' : 'text-muted-foreground'}`}>{hint}</span>
+                  <span className={`block text-sm ${i === 0 ? 'text-white/85' : 'text-muted-foreground'}`}>{hint}</span>
                 </span>
                 <ChevronRight className={`size-5 shrink-0 ${i === 0 ? '' : 'text-muted-foreground'}`} />
               </button>
@@ -110,7 +99,7 @@ export default function Home() {
                   {i < STEPS.length - 1 && (
                     <span aria-hidden className="absolute left-5 top-11 h-[calc(100%-2.75rem)] w-px bg-border" />
                   )}
-                  <span className="grid size-10 shrink-0 place-items-center rounded-full bg-[var(--color-highlight-soft)] text-[var(--color-highlight-ink)]">
+                  <span className="mm-tint grid size-10 shrink-0 place-items-center rounded-full text-primary">
                     <Icon className="size-5" />
                   </span>
                   <span className="pt-1">

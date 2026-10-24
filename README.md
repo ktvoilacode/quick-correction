@@ -1,4 +1,4 @@
-# MedhaMark
+# Quick Correction
 
 Board-pattern test papers for schools, students and parents. A teacher generates a CBSE paper and assigns it. The child writes it by hand and the parent uploads photos of the pages. AI marks every answer, and progress is tracked chapter by chapter.
 

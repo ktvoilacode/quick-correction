@@ -50,7 +50,7 @@ export default function NewPaper() {
       <SEO title="Generate paper" />
       <PageHeader
         title="Generate a test paper"
-        description="Choose the pattern and chapters. MedhaMark picks questions to match the CBSE blueprint."
+        description="Choose the pattern and chapters. Quick Correction picks questions to match the CBSE blueprint."
         breadcrumbs={[{ label: 'Test papers', href: '/demo/school/papers' }, { label: 'Generate' }]}
       />
 

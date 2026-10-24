@@ -16,7 +16,7 @@ interface SEOOptions {
 }
 
 export const useSEO = ({
-  title = 'Medhamark',
+  title = 'Quick Correction',
   description = 'Feature-Based Component Architecture with UIKit components and auto-discovery routing',
   keywords = 'react, fbca, uikit, components, typescript',
   ogTitle,

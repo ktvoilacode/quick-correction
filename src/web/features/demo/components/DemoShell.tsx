@@ -206,7 +206,7 @@ function Frame() {
               <Sidebar onNavigate={() => setOpen(false)} />
             </SheetContent>
           </Sheet>
-          <Link to="/demo" className="flex items-center gap-2 lg:hidden" aria-label="MedhaMark home">
+          <Link to="/demo" className="flex items-center gap-2 lg:hidden" aria-label="Quick Correction home">
             <LogoMark className="size-7" />
             <Wordmark className="hidden min-[400px]:inline" />
           </Link>

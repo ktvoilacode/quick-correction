@@ -11,11 +11,11 @@ export const brand = {
   /** Theme id — matches `.theme-medhamark` in styles/brand.css. */
   themeId: 'medhamark',
 
-  name: 'MedhaMark',
+  name: 'Quick Correction',
   tagline: 'Board-pattern tests, handwritten answers, AI correction.',
 
   /** Shown in the shell and the browser tab. */
-  shortName: 'MedhaMark',
+  shortName: 'Quick Correction',
 
   /**
    * Primary navigation. Empty by default — a one-page scaffold has nowhere to
