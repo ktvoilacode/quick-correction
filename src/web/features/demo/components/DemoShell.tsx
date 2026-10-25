@@ -120,13 +120,42 @@ function BottomTab({ to, short, icon: Icon, end }: Item) {
   );
 }
 
-function BottomNav() {
+/** The logo as the first tab: opens the menu (role switch, theme, all sections). */
+function BrandTab() {
+  const [open, setOpen] = React.useState(false);
+  return (
+    <Sheet open={open} onOpenChange={setOpen}>
+      <SheetTrigger asChild>
+        <button
+          type="button"
+          aria-label="Open menu"
+          className="flex flex-1 cursor-pointer flex-col items-center gap-1 py-2 text-[11px] font-medium text-muted-foreground"
+        >
+          <span className="grid h-7 w-12 place-items-center"><LogoMark className="size-7" /></span>
+          Menu
+        </button>
+      </SheetTrigger>
+      <SheetContent side="left" className="w-72 bg-sidebar p-0">
+        <div className="flex h-full flex-col">
+          <div className="flex items-center gap-2 border-b border-sidebar-border py-3 pl-4 pr-12">
+            <RoleSwitcher />
+            <span className="ml-auto"><ModeToggle /></span>
+          </div>
+          <div className="min-h-0 flex-1"><Sidebar onNavigate={() => setOpen(false)} /></div>
+        </div>
+      </SheetContent>
+    </Sheet>
+  );
+}
+
+function BottomNav({ withBrand = false }: { withBrand?: boolean }) {
   const { role } = useDemo();
   return (
     <nav
       aria-label="Sections"
       className="qc-tabbar fixed inset-x-0 bottom-0 z-30 flex border-t border-border bg-background/95 px-2 pb-[env(safe-area-inset-bottom)] backdrop-blur print:hidden lg:hidden"
     >
+      {withBrand && <BrandTab />}
       {NAV[role].map((item) => <BottomTab key={item.to} {...item} />)}
     </nav>
   );
@@ -186,7 +215,7 @@ function Frame() {
 
   if (pathname === '/demo' || pathname === '/demo/') return <Outlet />;
   // The teacher's assistant is a full-screen chat with its own slim top bar.
-  if (pathname === '/demo/school' || pathname === '/demo/school/') return <><RoleFromUrl /><Outlet /><BottomNav /></>;
+  if (pathname === '/demo/school' || pathname === '/demo/school/') return <><RoleFromUrl /><Outlet /><BottomNav withBrand /></>;
 
   return (
     <div className="flex min-h-screen bg-background text-foreground">

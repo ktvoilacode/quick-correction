@@ -657,8 +657,13 @@ export function TeacherChat() {
   ) : (
     <form
       onSubmit={(e) => { e.preventDefault(); send(text); }}
-      className="mm-glass mm-glow flex items-end gap-2 rounded-[1.75rem] p-2 pl-4 transition focus-within:ring-2 focus-within:ring-primary/30"
+      className={`mm-glass mm-glow flex items-end gap-2 rounded-[1.75rem] p-2 ${empty ? 'pl-4' : 'pl-2'} transition focus-within:ring-2 focus-within:ring-primary/30 lg:pl-4`}
     >
+      {!empty && (
+        <Button type="button" variant="ghost" size="icon" className="size-10 shrink-0 rounded-full text-muted-foreground lg:hidden" aria-label="New chat" onClick={newChat}>
+          <SquarePen className="size-5" />
+        </Button>
+      )}
       <textarea
         ref={inputRef}
         rows={1}
@@ -694,9 +699,10 @@ export function TeacherChat() {
 
   return (
     <>
-      <div className="mm-mesh flex h-dvh flex-col print:hidden">
+      <div className="mm-mesh flex h-dvh flex-col pt-[env(safe-area-inset-top)] print:hidden lg:pt-0">
         {/* Slim top bar — everything else lives behind the menu. */}
-        <header className="flex h-14 shrink-0 items-center gap-1 px-2 pt-[env(safe-area-inset-top)]">
+        {/* Desktop only: on phones the logo/menu live in the bottom tab bar and New chat sits in the composer. */}
+        <header className="hidden h-14 shrink-0 items-center gap-1 px-2 pt-[env(safe-area-inset-top)] lg:flex">
           <Sheet open={menuOpen} onOpenChange={setMenuOpen}>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon" className="size-10" aria-label="Open menu">
