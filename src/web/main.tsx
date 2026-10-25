@@ -78,7 +78,8 @@ installGlobalErrorReporting();
 
 createRoot(rootEl).render(
   <React.StrictMode>
-    <ThemeProvider theme={brand.themeId} mode="light">
+    {/* Own storage key: the default `uikit-theme` is shared by every bloom app on the same localhost origin. */}
+    <ThemeProvider theme={brand.themeId} mode="light" storageKey={`uikit-theme:${brand.themeId}`}>
       <TooltipProvider delayDuration={200}>
         {/* Top on every screen size: at the bottom it would cover the phone tab bar. */}
         <ToastProvider position="top-center" />
