@@ -27,11 +27,12 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "postinstall": "node scripts/copy-agent-docs.js && node scripts/gen-api-routes.mjs",
     "preview": "vite preview",
-    "start": "node -e \"if(!require('fs').existsSync('./dist/api/server.js')){console.error('❌ Build required: run npm run build first');process.exit(1)}\" && node dist/api/server.js",
+    "start": "node -e \"if(!require('fs').existsSync('./dist/api/server.js')){console.error('\u274c Build required: run npm run build first');process.exit(1)}\" && node dist/api/server.js",
     "start:api": "node dist/api/server.js",
     "start:prod": "npm run start",
     "start:web": "npm run preview",
-    "typecheck": "npm run gen:routes && tsc --noEmit && tsc --noEmit -p tsconfig.api.json"
+    "typecheck": "npm run gen:routes && tsc --noEmit && tsc --noEmit -p tsconfig.api.json",
+    "db:seed:qc": "tsx prisma/seeding/qc.seed.ts"
   },
   "dependencies": {
     "@bloomneo/appkit": "^5.1.2",

@@ -1,30 +1,44 @@
 # Quick Correction
 
-Board-pattern test papers for schools, students and parents. A teacher generates a CBSE paper and assigns it. The child writes it by hand and the parent uploads photos of the pages. AI marks every answer, and progress is tracked chapter by chapter.
+Board-pattern practice papers for tuition centres, home tutors and parents. A teacher makes a CBSE paper by chatting with the assistant and assigns it. The child writes it by hand, the parent uploads photos of the pages, AI marks every answer, and the teacher checks the marks. Progress is tracked chapter by chapter.
 
 Built on the [Bloom](https://github.com/bloomneo/bloom) `adminapp` template (React + `@bloomneo/uikit` frontend, Express + `@bloomneo/appkit` backend).
 
-## Clickable prototype (`/demo`)
+## Setup
 
 ```bash
 npm install
-npx prisma db push
-npm run dev            # open http://localhost:5173/demo
+npx prisma db push        # SQLite dev database (prisma/dev.db)
+npm run db:seed:qc        # demo teacher, parent, 6 students, 3 papers
+npm run dev               # web on :5173, API on :3000
 ```
 
-No sign-in needed. Pick a role on `/demo`, or switch roles with **View as …** in the header.
+`.env` needs `DATABASE_URL`, `BLOOM_AUTH_SECRET` and `DEFAULT_USER_PASSWORD` (the seed's password for the demo accounts). `bloom create` generated these; `.env` is git-ignored.
 
-| Role | What you can try |
+Demo accounts: `teacher@quickcorrection.app` and `parent@quickcorrection.app`, password `DEFAULT_USER_PASSWORD`.
+
+## What is real and what is not yet
+
+| Part | State |
 |---|---|
-| Teacher | Overview with class average, **Generate paper** (unit test or full board pattern, choose chapters), preview and **Download PDF**, **Assign** to the class with a due date, see the student list and each student's progress report |
-| Parent | **Home**: papers to upload (download & print → child writes on paper → **snap the pages** → submit), the AI-correction progress screen, results with question-wise marks; **Progress**: score trend vs class, chapter mastery, study suggestions |
+| Clickable prototype at `/demo` | Done. Sample data in the browser, scripted chat and voice, simulated marking. Not wired to the API yet. |
+| API: teacher and parent | Done. `/api/tutor` and `/api/parent`, see [docs/quick-correction-api.md](docs/quick-correction-api.md). |
+| Answer-page uploads | Done. Stored with appkit storage (local `./uploads` in dev, S3/R2 in prod), served only through owner-checked routes. |
+| Marking queue | Done. appkit queue, database transport, so jobs survive a restart. |
+| AI marking | **Placeholder.** `markAnswerPages()` in `src/api/lib/qc/marking.ts` returns plausible marks and says "Placeholder marking" in the summary. The vision model plugs in there. |
+| Question bank | CBSE Class 10 Maths only, in code (`src/api/lib/qc/question-bank.ts`). To move into the database. |
+| Payments, earnings | Not started (the Earnings tab is sample data). |
 
-Prototype scope, so nothing here is real yet:
-- Data is sample data in the browser, saved in `localStorage`. Use **Reset demo data** in the sidebar to start over.
-- Only **CBSE Class 10 Mathematics** has a question bank (`src/web/features/demo/data/questions.ts`). The other subjects are listed as "coming soon".
-- AI correction is **simulated**: it takes about 4.5 s and returns made-up marks and feedback. "Download PDF" opens the browser's print dialog, which can save the paper as a PDF.
+## Clickable prototype (`/demo`)
 
-Code lives in `src/web/features/demo/` (pages, components, data) and `src/web/shared/layout.demo.tsx`. Screenshots are in `docs/screenshots/`.
+No sign-in. Pick a role on `/demo`, or switch with **Settings → View as**.
+
+| Role | Tabs |
+|---|---|
+| Teacher | **Assistant** (make papers by chat or voice, "to review" and "not in yet" cards), **Papers**, **Students** (batch weak chapters), **Earnings** (sample) |
+| Parent | **Assistant** (upload, latest result, how is my child doing, what to revise), **Papers**, **Corrections**, **Progress** |
+
+Code: `src/web/features/demo/` and `src/web/shared/layout.demo.tsx`.
 
 ---
 

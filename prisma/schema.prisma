@@ -38,6 +38,13 @@ model User {
   createdAt          DateTime  @default(now())
   updatedAt          DateTime  @updatedAt
 
+  // Quick Correction: which side of the app this account uses — 'teacher' or
+  // 'parent'. Null until the person picks on first sign-in.
+  appRole            String?
+  students           Student[] @relation("TeacherStudents")
+  children           Student[] @relation("ParentChildren")
+  papers             Paper[]
+
   @@index([tenantId]) // MANDATORY: AppKit performance index
   @@map("users")
 }
@@ -85,4 +92,99 @@ model AppSetting {
   updatedBy   String?
 
   @@map("app_settings")
+}
+
+
+// ── Quick Correction ──────────────────────────────────────────────────────
+// A teacher has students; a parent links to their child with the student's
+// invite code. A paper is a list of question ids from the bank; assigning it
+// creates one submission per student, which the parent fills with photos of
+// the answer pages and the marker fills with results.
+
+model Student {
+  id         String       @id @default(cuid())
+  teacherId  String
+  teacher    User         @relation("TeacherStudents", fields: [teacherId], references: [id], onDelete: Cascade)
+  parentId   String?
+  parent     User?        @relation("ParentChildren", fields: [parentId], references: [id], onDelete: SetNull)
+  name       String
+  className  String       @default("10")
+  // Short code the teacher shares with the parent to link the child.
+  inviteCode String       @unique
+  createdAt  DateTime     @default(now())
+  submissions Submission[]
+
+  @@index([teacherId])
+  @@index([parentId])
+  @@map("students")
+}
+
+model Paper {
+  id           String       @id @default(cuid())
+  teacherId    String
+  teacher      User         @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+  title        String
+  subject      String       @default("Mathematics (Standard)")
+  className    String       @default("10")
+  pattern      String // 'board' | 'unit'
+  durationMins Int
+  targetMarks  Int?
+  questionIds  Json // string[] of question-bank ids, in paper order
+  createdAt    DateTime     @default(now())
+  submissions  Submission[]
+
+  @@index([teacherId])
+  @@map("papers")
+}
+
+model Submission {
+  id          String    @id @default(cuid())
+  paperId     String
+  paper       Paper     @relation(fields: [paperId], references: [id], onDelete: Cascade)
+  studentId   String
+  student     Student   @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  status      String    @default("assigned") // 'assigned' | 'evaluating' | 'evaluated' | 'failed'
+  dueDate     DateTime
+  pages       Json      @default("[]") // storage keys of the uploaded answer pages
+  submittedAt DateTime?
+  results     Json? // [{ questionId, awarded, max, feedback }]
+  score       Int?
+  max         Int?
+  summary     String?
+  // The teacher has checked the marks. Parents see them either way.
+  reviewed    Boolean   @default(false)
+  createdAt   DateTime  @default(now())
+
+  @@unique([paperId, studentId])
+  @@index([studentId])
+  @@map("submissions")
+}
+
+// Background jobs for the appkit queue's database transport (picked
+// automatically when DATABASE_URL is set). Marking jobs live here, so a
+// restart doesn't lose a paper that was waiting to be marked.
+model QueueJob {
+  id          String    @id @default(cuid())
+  queue       String // Job type
+  type        String // Job type (compatibility)
+  payload     Json // Job data
+  result      Json? // Job result
+  error       Json? // Error details
+
+  status      String    @default("pending") // pending, processing, completed, failed
+  attempts    Int       @default(0)
+  maxAttempts Int       @default(3)
+  priority    Int       @default(0)
+
+  runAt       DateTime  @default(now())
+  processedAt DateTime?
+  completedAt DateTime?
+  failedAt    DateTime?
+
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@index([queue, status, priority, runAt])
+  @@index([status, runAt])
+  @@map("queue_jobs")
 }

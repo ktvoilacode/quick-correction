@@ -1,0 +1,82 @@
+/**
+ * Tutor routes — /api/tutor. Teacher accounts only, except /onboard, which
+ * is how a signed-in account becomes a teacher in the first place.
+ * @file src/api/features/tutor/tutor.route.ts
+ */
+import express from 'express';
+import { errorClass } from '@bloomneo/appkit/error';
+import { authClass } from '@bloomneo/appkit/auth';
+import { requireAppRole, claimAppRole, userIdOf } from '../../lib/qc/app-role.js';
+import { readPage } from '../../lib/qc/pages.js';
+import { tutorService } from './tutor.service.js';
+
+const router = express.Router();
+const error = errorClass.get();
+const auth = authClass.get();
+
+router.use(auth.requireLoginToken());
+
+router.post('/onboard', error.asyncRoute(async (req, res) => {
+  await claimAppRole(userIdOf(req), 'teacher');
+  res.json({ ok: true, appRole: 'teacher' });
+}));
+
+router.use(requireAppRole('teacher'));
+
+router.get('/chapters', error.asyncRoute(async (_req, res) => {
+  res.json({ chapters: tutorService.chapters() });
+}));
+
+router.get('/students', error.asyncRoute(async (req, res) => {
+  res.json({ students: await tutorService.listStudents(userIdOf(req)) });
+}));
+
+router.post('/students', error.asyncRoute(async (req: any, res) => {
+  res.status(201).json({ student: await tutorService.addStudent(userIdOf(req), req.body ?? {}) });
+}));
+
+router.get('/papers', error.asyncRoute(async (req, res) => {
+  res.json({ papers: await tutorService.listPapers(userIdOf(req)) });
+}));
+
+router.post('/papers', error.asyncRoute(async (req: any, res) => {
+  res.status(201).json({ paper: await tutorService.createPaper(userIdOf(req), req.body ?? {}) });
+}));
+
+router.get('/papers/:id', error.asyncRoute(async (req: any, res) => {
+  res.json({ paper: await tutorService.getPaper(userIdOf(req), req.params.id) });
+}));
+
+router.post('/papers/:id/assign', error.asyncRoute(async (req: any, res) => {
+  res.json(await tutorService.assignPaper(userIdOf(req), req.params.id, req.body ?? {}));
+}));
+
+router.get('/review', error.asyncRoute(async (req, res) => {
+  res.json({ submissions: await tutorService.toReview(userIdOf(req)) });
+}));
+
+router.get('/submissions/:id', error.asyncRoute(async (req: any, res) => {
+  res.json({ submission: await tutorService.getSubmission(userIdOf(req), req.params.id) });
+}));
+
+router.get('/submissions/:id/pages/:n', async (req, res, next) => {
+  try {
+    const sub = await tutorService.getSubmission(userIdOf(req), req.params.id);
+    const key = (sub.pages as string[])[Number(req.params.n)];
+    if (!key) throw error.notFound('Page not found');
+    const { data, type } = await readPage(key);
+    res.type(type).send(data);
+  } catch (err) {
+    next(err);
+  }
+});
+
+router.post('/submissions/:id/approve', error.asyncRoute(async (req: any, res) => {
+  res.json(await tutorService.approve(userIdOf(req), req.params.id));
+}));
+
+router.patch('/submissions/:id/results', error.asyncRoute(async (req: any, res) => {
+  res.json(await tutorService.correctMarks(userIdOf(req), req.params.id, req.body?.results));
+}));
+
+export default router;

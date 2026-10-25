@@ -17,11 +17,29 @@ export type ApiRoute =
   | '/api/auth/verify-email'
   | '/api/client-error'
   | '/api/contact-message'
+  | '/api/parent/children'
+  | '/api/parent/link'
+  | '/api/parent/submissions'
+  | `/api/parent/submissions/${string}`
+  | `/api/parent/submissions/${string}/pages`
+  | `/api/parent/submissions/${string}/pages/${string}`
+  | `/api/parent/submissions/${string}/submit`
   | `/api/settings/admin/${string}`
   | '/api/settings/admin/email-env'
   | '/api/settings/admin/email-test'
   | '/api/settings/admin/list'
   | '/api/settings/public'
+  | '/api/tutor/chapters'
+  | '/api/tutor/onboard'
+  | '/api/tutor/papers'
+  | `/api/tutor/papers/${string}`
+  | `/api/tutor/papers/${string}/assign`
+  | '/api/tutor/review'
+  | '/api/tutor/students'
+  | `/api/tutor/submissions/${string}`
+  | `/api/tutor/submissions/${string}/approve`
+  | `/api/tutor/submissions/${string}/pages/${string}`
+  | `/api/tutor/submissions/${string}/results`
   | '/api/user/admin/create'
   | '/api/user/admin/list'
   | '/api/user/admin/users'
@@ -45,10 +63,18 @@ export const API_ROUTES = [
   '/api/auth/verify-email',
   '/api/client-error',
   '/api/contact-message',
+  '/api/parent/children',
+  '/api/parent/link',
+  '/api/parent/submissions',
   '/api/settings/admin/email-env',
   '/api/settings/admin/email-test',
   '/api/settings/admin/list',
   '/api/settings/public',
+  '/api/tutor/chapters',
+  '/api/tutor/onboard',
+  '/api/tutor/papers',
+  '/api/tutor/review',
+  '/api/tutor/students',
   '/api/user/admin/create',
   '/api/user/admin/list',
   '/api/user/admin/users',
