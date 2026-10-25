@@ -32,7 +32,7 @@ export default function ResetPasswordPage() {
       const result = await resetPassword({ token, password: form.password });
       if (result.success) {
         toast.success('Password updated. Please sign in.');
-        navigate('/login', { replace: true });
+        navigate('/auth/login', { replace: true });
       } else {
         setError(result.error ?? 'That link is invalid or has expired.');
       }
@@ -53,7 +53,7 @@ export default function ResetPasswordPage() {
           <AlertDescription>Request a new reset link and try again.</AlertDescription>
         </Alert>
         <Button variant="ghost" asChild className="mt-6">
-          <Link to="/forgot-password"><ArrowLeft className="size-4" /> Request a new link</Link>
+          <Link to="/auth/forgot-password"><ArrowLeft className="size-4" /> Request a new link</Link>
         </Button>
       </>
     );

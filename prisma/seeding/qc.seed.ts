@@ -14,17 +14,24 @@ import { markAnswerPages } from '../../src/api/lib/qc/marking.js';
 
 const TEACHER = 'teacher@quickcorrection.app';
 const PARENT = 'parent@quickcorrection.app';
+const ADMIN = 'admin@quickcorrection.app';
 
 async function main() {
   const db = await databaseClass.get();
   const auth = authClass.get();
-  if (await db.user.findUnique({ where: { email: TEACHER } })) {
-    console.log('⚠️  Demo teacher already exists. Skipping.');
-    return;
-  }
   const password = process.env.DEFAULT_USER_PASSWORD;
   if (!password) throw new Error('DEFAULT_USER_PASSWORD is required for seeding');
   const hash = await auth.hashPassword(password);
+  await db.user.upsert({
+    where: { email: ADMIN },
+    update: {},
+    create: { email: ADMIN, password: hash, name: 'Quick Correction Admin', role: 'admin', level: 'system', isVerified: true },
+  });
+
+  if (await db.user.findUnique({ where: { email: TEACHER } })) {
+    console.log('⚠️  Demo teacher already exists. Skipping demo data (admin ensured).');
+    return;
+  }
 
   const teacher = await db.user.create({ data: { email: TEACHER, password: hash, name: 'Kavya Nair', role: 'user', level: 'basic', isVerified: true, appRole: 'teacher' } });
   const parent = await db.user.create({ data: { email: PARENT, password: hash, name: 'Rohit Sharma', role: 'user', level: 'basic', isVerified: true, appRole: 'parent' } });
@@ -59,7 +66,7 @@ async function main() {
       });
     }
   }
-  console.log(`✅ Demo data ready. Sign in as ${TEACHER} or ${PARENT} with DEFAULT_USER_PASSWORD.`);
+  console.log(`✅ Demo data ready. Sign in as ${TEACHER} or ${PARENT} with DEFAULT_USER_PASSWORD. Admin: admin@quickcorrection.app.`);
 }
 
 main().then(() => process.exit(0)).catch((err) => { console.error(err); process.exit(1); });

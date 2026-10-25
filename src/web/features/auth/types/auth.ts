@@ -7,6 +7,8 @@ export interface User {
   phone: string | null;
   role: string;
   level: string;
+  /** teacher | parent. Separate from `role`, which is the admin/user level. */
+  appRole?: string | null;
   tenantId: string | null;
   isVerified: boolean;
   isActive: boolean;

@@ -41,6 +41,8 @@ export function toPublicUser(user: {
   role: string; level: string; tenantId: string | null;
   isVerified: boolean; isActive: boolean; lastLogin: Date | null;
   createdAt: Date; updatedAt: Date;
+  /** teacher | parent — which Quick Correction screens this account lands on. */
+  appRole?: string | null;
 }) {
   return {
     id: user.id,
@@ -55,6 +57,7 @@ export function toPublicUser(user: {
     lastLogin: user.lastLogin,
     createdAt: user.createdAt,
     updatedAt: user.updatedAt,
+    appRole: user.appRole ?? null,
   };
 }
 
