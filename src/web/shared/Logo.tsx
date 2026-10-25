@@ -24,7 +24,7 @@ export function LogoMark({ className = 'size-8' }: { className?: string }) {
       <path
         d="M17.4 22.9l3.9 3.9 7.3-7.6"
         fill="none"
-        stroke="#DC2626" /* red-pen red */
+        stroke="url(#mm-logo-grad)" /* same maroon as the tile */
         strokeWidth="3.8"
         strokeLinecap="round"
         strokeLinejoin="round"
