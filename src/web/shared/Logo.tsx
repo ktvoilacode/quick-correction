@@ -17,8 +17,8 @@ export function LogoMark({ className = 'size-8' }: { className?: string }) {
     <svg viewBox="0 0 48 48" className={className} aria-hidden>
       <defs>
         <linearGradient id={grad} x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
-          <stop offset="0" style={{ stopColor: "var(--mm-from, #9F1239)" }} />
-          <stop offset="1" style={{ stopColor: "var(--mm-to, #5C0A1E)" }} />
+          <stop offset="0" style={{ stopColor: "var(--mm-from, #1D4ED8)" }} />
+          <stop offset="1" style={{ stopColor: "var(--mm-to, #1E3A8A)" }} />
         </linearGradient>
       </defs>
       <rect width="48" height="48" rx="13" fill={`url(#${grad})`} />
@@ -28,7 +28,7 @@ export function LogoMark({ className = 'size-8' }: { className?: string }) {
       <path
         d="M17.4 22.9l3.9 3.9 7.3-7.6"
         fill="none"
-        stroke={`url(#${grad})`} /* same maroon as the tile */
+        stroke={`url(#${grad})`} /* same blue as the tile */
         strokeWidth="3.8"
         strokeLinecap="round"
         strokeLinejoin="round"
