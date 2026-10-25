@@ -47,11 +47,11 @@ export default function Home() {
             <span className="flex items-center gap-1">
             {!isLoading && (isAuthenticated ? (
               <>
-                <Button variant="ghost" size="sm" className="h-9" asChild>
+                <Button size="sm" className="h-9" asChild>
                   <Link to={homeFor(user)}>Open app</Link>
                 </Button>
-                <Button variant="outline" size="sm" className="h-9" onClick={() => logout()}>
-                  <LogOut className="size-4" /> Sign out
+                <Button variant="ghost" size="icon" className="size-10 rounded-full" aria-label="Sign out" title="Sign out" onClick={() => logout()}>
+                  <LogOut className="size-5" />
                 </Button>
               </>
             ) : (
