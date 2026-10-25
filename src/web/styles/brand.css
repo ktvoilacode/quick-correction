@@ -312,3 +312,8 @@
   .mm-marquee-track { animation: none; }
   .mm-marquee-track > ul[aria-hidden] { display: none; }
 }
+
+/* Teacher assistant: the phone tab bar hides while a voice message is recording,
+ * and the composer drops down into the space it leaves. */
+html[data-qc-recording] .qc-tabbar { display: none; }
+html[data-qc-recording] .qc-above-tabs { padding-bottom: max(0.75rem, env(safe-area-inset-bottom)); }

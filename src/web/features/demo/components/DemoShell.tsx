@@ -7,7 +7,8 @@
  *
  * Phone first: below `lg` the sidebar becomes a bottom tab bar, so every
  * section is one thumb-tap away. The homepage (/demo) and the teacher's chat
- * assistant (/demo/school) render bare — each has its own header.
+ * assistant (/demo/school) render bare — each has its own header; the
+ * assistant still gets the phone tab bar.
  *
  * Everything inside is `print:hidden` except the page body, so a paper opened
  * in the shell prints as a clean question paper.
@@ -124,7 +125,7 @@ function BottomNav() {
   return (
     <nav
       aria-label="Sections"
-      className="fixed inset-x-0 bottom-0 z-30 flex border-t border-border bg-background/95 px-2 pb-[env(safe-area-inset-bottom)] backdrop-blur print:hidden lg:hidden"
+      className="qc-tabbar fixed inset-x-0 bottom-0 z-30 flex border-t border-border bg-background/95 px-2 pb-[env(safe-area-inset-bottom)] backdrop-blur print:hidden lg:hidden"
     >
       {NAV[role].map((item) => <BottomTab key={item.to} {...item} />)}
     </nav>
@@ -185,7 +186,7 @@ function Frame() {
 
   if (pathname === '/demo' || pathname === '/demo/') return <Outlet />;
   // The teacher's assistant is a full-screen chat with its own slim top bar.
-  if (pathname === '/demo/school' || pathname === '/demo/school/') return <><RoleFromUrl /><Outlet /></>;
+  if (pathname === '/demo/school' || pathname === '/demo/school/') return <><RoleFromUrl /><Outlet /><BottomNav /></>;
 
   return (
     <div className="flex min-h-screen bg-background text-foreground">

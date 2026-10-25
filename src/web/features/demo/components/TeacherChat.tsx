@@ -406,6 +406,14 @@ export function TeacherChat() {
   const [menuOpen, setMenuOpen] = React.useState(false);
   const [recording, setRecording] = React.useState(false);
   const [fromVoice, setFromVoice] = React.useState(false);
+
+  // While recording, the phone tab bar steps aside (see .qc-tabbar in brand.css).
+  React.useEffect(() => {
+    const root = document.documentElement;
+    if (recording) root.dataset.qcRecording = '';
+    else delete root.dataset.qcRecording;
+    return () => { delete root.dataset.qcRecording; };
+  }, [recording]);
   const draft = React.useRef<Draft>(memory.draft);
   const active = React.useRef<string | undefined>(memory.active);
   const end = React.useRef<HTMLDivElement>(null);
@@ -715,7 +723,7 @@ export function TeacherChat() {
         </header>
 
         {empty ? (
-          <div className="flex flex-1 flex-col items-center justify-center px-4 pb-16">
+          <div className="flex flex-1 flex-col items-center justify-center px-4 pb-28 lg:pb-16">
             <div className="w-full max-w-2xl">
               <p className="mb-2 text-center text-sm font-medium text-muted-foreground">Hi Kavya 👋</p>
               <h1 className="mb-7 text-center text-[1.75rem] font-semibold leading-tight tracking-[-0.02em] sm:text-4xl">What should we <span className="mm-gradient-text">prepare</span> today?</h1>
@@ -802,7 +810,7 @@ export function TeacherChat() {
                 <div ref={end} />
               </div>
             </div>
-            <div className="mx-auto w-full max-w-2xl shrink-0 px-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] pt-2">
+            <div className="qc-above-tabs mx-auto w-full max-w-2xl shrink-0 px-3 pb-[calc(4.75rem+env(safe-area-inset-bottom))] pt-2 lg:pb-[max(0.75rem,env(safe-area-inset-bottom))]">
               {composer}
               {voiceHint || <p className="mt-2 text-center text-[11px] text-muted-foreground">Prototype · voice and replies are simulated</p>}
             </div>
