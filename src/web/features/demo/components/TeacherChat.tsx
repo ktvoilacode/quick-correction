@@ -13,11 +13,11 @@
 import * as React from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
-  Button, Card, CardContent, Badge, Dialog, DialogContent, DialogHeader, DialogTitle, Sheet, SheetContent, SheetTrigger,
+  Button, Card, CardContent, Badge, Dialog, DialogContent, DialogHeader, DialogTitle, Sheet, SheetContent, SheetTrigger, toast,
 } from '@bloomneo/uikit';
 import {
   ArrowUp, Eye, Download, Send, Shuffle, Plus, Check, FileText, Timer, Layers,
-  CalendarDays, Users, CheckCircle2, Zap, GraduationCap, Target, Loader2, Menu, SquarePen, Mic, X,
+  CalendarDays, Users, CheckCircle2, Zap, GraduationCap, Target, Loader2, Menu, SquarePen, Mic, X, ClipboardCheck, BellRing,
 } from 'lucide-react';
 import { LogoMark, Wordmark } from '@/shared/Logo';
 import { Sidebar, RoleSwitcher, ModeToggle } from './DemoShell';
@@ -81,6 +81,44 @@ const SUGGESTIONS: { label: string; hint: string; text: string; icon: React.Comp
 ];
 
 /* ── small pieces ───────────────────────────────────────────────────────── */
+
+/** "Needs you" cards on the empty assistant: marks to check, late submissions. */
+function NeedsYou() {
+  const { submissions } = useDemo();
+  const navigate = useNavigate();
+  const [nudged, setNudged] = React.useState(false);
+  const toReview = submissions.filter((s) => s.status === 'evaluated' && !s.reviewed).length;
+  const notIn = submissions.filter((s) => s.status === 'assigned').length;
+  if (!toReview && !notIn) return null;
+
+  const card = 'mm-glass flex min-w-0 flex-1 cursor-pointer items-center gap-3 rounded-2xl p-3 text-left transition active:scale-[0.98] disabled:cursor-default disabled:opacity-70';
+  return (
+    <div className="mb-6 flex gap-2.5">
+      {toReview > 0 && (
+        <button className={card} onClick={() => navigate('/demo/school/review')}>
+          <span className="mm-tint grid size-9 shrink-0 place-items-center rounded-xl text-primary"><ClipboardCheck className="size-[18px]" /></span>
+          <span className="min-w-0">
+            <span className="block text-sm font-semibold">{toReview} to review</span>
+            <span className="block truncate text-xs text-muted-foreground">Check AI marks</span>
+          </span>
+        </button>
+      )}
+      {notIn > 0 && (
+        <button
+          className={card}
+          disabled={nudged}
+          onClick={() => { setNudged(true); toast.success(`Reminder sent to ${notIn} parents on WhatsApp`); }}
+        >
+          <span className="mm-tint grid size-9 shrink-0 place-items-center rounded-xl text-primary"><BellRing className="size-[18px]" /></span>
+          <span className="min-w-0">
+            <span className="block text-sm font-semibold">{notIn} not in yet</span>
+            <span className="block truncate text-xs text-muted-foreground">{nudged ? 'Parents reminded' : 'Nudge parents'}</span>
+          </span>
+        </button>
+      )}
+    </div>
+  );
+}
 
 function AiRow({ children }: { children: React.ReactNode }) {
   return (
@@ -731,6 +769,7 @@ export function TeacherChat() {
         {empty ? (
           <div className="flex flex-1 flex-col items-center justify-center px-4 pb-28 lg:pb-16">
             <div className="w-full max-w-2xl">
+              <NeedsYou />
               <p className="mb-2 text-center text-sm font-medium text-muted-foreground">Hi Kavya 👋</p>
               <h1 className="mb-7 text-center text-[1.75rem] font-semibold leading-tight tracking-[-0.02em] sm:text-4xl">What should we <span className="mm-gradient-text">prepare</span> today?</h1>
               {composer}
@@ -805,7 +844,7 @@ export function TeacherChat() {
                             chips={[
                               { label: 'Make another paper', act: { t: 'say', text: 'Make a new test paper' }, icon: Plus },
                               { label: 'Open paper', act: { t: 'nav', to: `/demo/school/papers/${m.paperId}` }, icon: FileText },
-                              { label: 'Class insights', act: { t: 'nav', to: '/demo/school/insights' }, icon: Target },
+                              { label: 'Students', act: { t: 'nav', to: '/demo/school/students' }, icon: Users },
                             ]}
                           />
                         </AiRow>

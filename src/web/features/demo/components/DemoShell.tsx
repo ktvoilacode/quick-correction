@@ -20,7 +20,7 @@ import {
   Select, SelectTrigger, SelectValue, SelectContent, SelectItem,
 } from '@bloomneo/uikit';
 import {
-  Menu, Gauge, FileText, Sparkles, Users, Home, TrendingUp, RotateCcw, Moon, Sun,
+  Menu, IndianRupee, FileText, Sparkles, Users, Home, TrendingUp, RotateCcw, Moon, Sun,
 } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 import { LogoMark, Wordmark } from '@/shared/Logo';
@@ -33,7 +33,7 @@ const NAV: Record<Role, Item[]> = {
     { to: '/demo/school', label: 'Assistant', short: 'Assistant', icon: Sparkles, end: true },
     { to: '/demo/school/papers', label: 'Test papers', short: 'Papers', icon: FileText },
     { to: '/demo/school/students', label: 'Students', short: 'Students', icon: Users },
-    { to: '/demo/school/insights', label: 'Insights', short: 'Insights', icon: Gauge },
+    { to: '/demo/school/earnings', label: 'Earnings', short: 'Earnings', icon: IndianRupee },
   ],
   parent: [
     { to: '/demo/parent', label: 'Home', short: 'Home', icon: Home, end: true },

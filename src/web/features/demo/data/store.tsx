@@ -39,6 +39,8 @@ export type Submission = {
   score?: number;
   max?: number;
   summary?: string;
+  /** The teacher has checked the AI's marks; parents see them either way. */
+  reviewed?: boolean;
 };
 
 type State = { role: Role; papers: Paper[]; submissions: Submission[] };
@@ -163,9 +165,11 @@ function seed(): State {
       }
       // Aarav improves across the term — gives the progress chart a story.
       const skill = s.id === 's1' ? skills.s1 + pi * 0.08 : skills[s.id];
+      // A few of the latest marks are still waiting for the teacher's check.
+      const reviewed = !(p.id === 'p3' && ['s3', 's5', 's6'].includes(s.id));
       submissions.push({
         id, paperId: p.id, studentId: s.id, status: 'evaluated', dueDate: due,
-        pages: [], submittedAt: done,
+        pages: [], submittedAt: done, reviewed,
         ...gradePaper(p, skill, (pi + 1) * 31 + (si + 1) * 7),
       });
     });
@@ -176,7 +180,7 @@ function seed(): State {
 
 /* ── context ───────────────────────────────────────────────────────────── */
 
-const KEY = 'medhamark:demo:v2';
+const KEY = 'medhamark:demo:v3';
 
 function load(): State {
   try {
@@ -195,6 +199,7 @@ type Ctx = State & {
   assignPaper: (paperId: string, studentIds: string[], dueDate: string) => void;
   uploadPages: (submissionId: string, pages: string[]) => void;
   evaluate: (submissionId: string) => void;
+  approve: (submissionId: string) => void;
   reset: () => void;
 };
 
@@ -249,11 +254,13 @@ export function DemoProvider({ children }: { children: React.ReactNode }) {
           submissions: s.submissions.map((x) => {
             if (x.id !== id) return x;
             const paper = s.papers.find((p) => p.id === x.paperId)!;
-            return { ...x, status: 'evaluated', ...gradePaper(paper, 0.82, Date.now() % 1000) };
+            return { ...x, status: 'evaluated', reviewed: false, ...gradePaper(paper, 0.82, Date.now() % 1000) };
           }),
         }));
       }, 4500);
     },
+    approve: (id) =>
+      setState((s) => ({ ...s, submissions: s.submissions.map((x) => (x.id === id ? { ...x, reviewed: true } : x)) })),
     reset: () => setState({ ...seed(), role: state.role }),
   };
 

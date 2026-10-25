@@ -4,13 +4,18 @@
  */
 import { Link } from 'react-router-dom';
 import { PageHeader, Card, CardContent, CardHeader, CardTitle, Badge, Button, EmptyState } from '@bloomneo/uikit';
-import { Sparkles, FileQuestion, ImageIcon, Loader2 } from 'lucide-react';
+import { Sparkles, FileQuestion, ImageIcon, Loader2, ShieldCheck, CheckCircle2 } from 'lucide-react';
 import { QUESTION_BANK, SECTIONS } from '../data/questions';
 import { useDemo, pct, studentById, weakChapters } from '../data/store';
 import { fmt } from './parts';
 
-export function ResultView({ submissionId, back }: { submissionId: string; back: { label: string; href: string } }) {
-  const { submissions, papers } = useDemo();
+export function ResultView({ submissionId, back, review = false }: {
+  submissionId: string;
+  back: { label: string; href: string };
+  /** Teacher view: show the "check the AI's marks" banner. */
+  review?: boolean;
+}) {
+  const { submissions, papers, approve } = useDemo();
   const s = submissions.find((x) => x.id === submissionId);
   const paper = s && papers.find((p) => p.id === s.paperId);
 
@@ -41,6 +46,21 @@ export function ResultView({ submissionId, back }: { submissionId: string; back:
         description={`${st.name} · Class ${st.className} · submitted ${fmt(s.submittedAt)}`}
         breadcrumbs={[{ label: back.label, href: back.href }, { label: 'Result' }]}
       />
+
+      {review && (s.reviewed ? (
+        <p className="mt-4 flex items-center gap-2 text-sm text-success"><CheckCircle2 className="size-4" /> You approved these marks.</p>
+      ) : (
+        <Card className="mt-4 border-primary/30">
+          <CardContent className="flex flex-col gap-3 py-4 sm:flex-row sm:items-center">
+            <ShieldCheck className="hidden size-5 shrink-0 text-primary sm:block" />
+            <p className="flex-1 text-sm">
+              <span className="font-medium">Marked by AI — check before you approve.</span>{' '}
+              <span className="text-muted-foreground">Look over the question-wise marks below; the parent is told once you approve.</span>
+            </p>
+            <Button onClick={() => approve(s.id)} className="shrink-0"><CheckCircle2 className="size-4" /> Approve marks</Button>
+          </CardContent>
+        </Card>
+      ))}
 
       <div className="mt-6 grid grid-cols-1 gap-6 lg:grid-cols-[18rem_minmax(0,1fr)]">
         <div className="space-y-6">

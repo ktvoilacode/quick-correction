@@ -2,10 +2,10 @@
  * /demo/school/students — class roster with progress at a glance.
  */
 import { Link } from 'react-router-dom';
-import { PageHeader, Card, Badge, Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from '@bloomneo/uikit';
-import { TrendingUp, TrendingDown, Minus } from 'lucide-react';
+import { PageHeader, Card, CardContent, Badge, Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from '@bloomneo/uikit';
+import { TrendingUp, TrendingDown, Minus, Target } from 'lucide-react';
 import { SEO } from '@/shared/SEO';
-import { STUDENTS } from '../../../data/store';
+import { STUDENTS, useDemo, weakChapters } from '../../../data/store';
 import { useStudentProgress } from '../../../components/parts';
 
 function StudentRow({ id }: { id: string }) {
@@ -35,11 +35,31 @@ function StudentRow({ id }: { id: string }) {
   );
 }
 
+/** The batch's three weakest chapters across every marked paper. */
+function BatchWeak() {
+  const { submissions } = useDemo();
+  const weak = weakChapters(submissions.flatMap((s) => (s.status === 'evaluated' ? s.results ?? [] : []))).slice(0, 3);
+  if (!weak.length) return null;
+  return (
+    <Card className="mt-6">
+      <CardContent className="flex flex-col gap-3 py-4 sm:flex-row sm:items-center">
+        <span className="flex items-center gap-2 text-sm font-medium"><Target className="size-4 text-primary" /> Batch is weakest in</span>
+        <div className="flex flex-wrap gap-2">
+          {weak.map((w) => (
+            <Badge key={w.chapter} variant={w.pct < 50 ? 'destructive' : 'outline'}>{w.chapter} · {w.pct}%</Badge>
+          ))}
+        </div>
+      </CardContent>
+    </Card>
+  );
+}
+
 export default function Students() {
   return (
     <>
       <SEO title="Students" />
       <PageHeader title="Students" description="Class 10-A · Mathematics. Open a student for the full progress report." />
+      <BatchWeak />
       <Card className="mt-6 overflow-hidden p-0">
         <Table>
           <TableHeader>
