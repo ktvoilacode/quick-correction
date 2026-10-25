@@ -26,20 +26,22 @@ export default function Papers() {
             const done = subs.filter((s) => s.status === 'evaluated').length;
             return (
               <li key={p.id}>
-                <Link to={`/demo/school/papers/${p.id}`} className="flex flex-wrap items-center gap-x-4 gap-y-2 px-5 py-4 hover:bg-accent/40">
+                <Link to={`/demo/school/papers/${p.id}`} className="flex items-center gap-3 px-4 py-4 hover:bg-accent/40 sm:px-5">
                   <span className="min-w-0 flex-1">
-                    <span className="block font-medium">{p.title}</span>
-                    <span className="text-sm text-muted-foreground">
-                      {p.subject} · {questionsOf(p).length} questions · {totalMarks(questionsOf(p))} marks · created {fmt(p.createdAt)}
+                    <span className="block truncate font-medium">{p.title}</span>
+                    <span className="block text-sm text-muted-foreground">
+                      {questionsOf(p).length} questions · {totalMarks(questionsOf(p))} marks · {fmt(p.createdAt)}
+                    </span>
+                    <span className="mt-2 flex flex-wrap gap-1.5">
+                      <Badge variant="outline">{p.pattern === 'board' ? 'Full board pattern' : 'Unit test'}</Badge>
+                      {subs.length ? (
+                        <Badge variant={done === subs.length ? 'secondary' : 'default'}>{done}/{subs.length} corrected</Badge>
+                      ) : (
+                        <Badge variant="outline">Not assigned</Badge>
+                      )}
                     </span>
                   </span>
-                  <Badge variant="outline">{p.pattern === 'board' ? 'Full board pattern' : 'Unit test'}</Badge>
-                  {subs.length ? (
-                    <Badge variant={done === subs.length ? 'secondary' : 'default'}>{done}/{subs.length} corrected</Badge>
-                  ) : (
-                    <Badge variant="outline">Not assigned</Badge>
-                  )}
-                  <ChevronRight className="size-4 text-muted-foreground" />
+                  <ChevronRight className="size-4 shrink-0 text-muted-foreground" />
                 </Link>
               </li>
             );

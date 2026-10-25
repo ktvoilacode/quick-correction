@@ -60,7 +60,7 @@ export default function UploadAnswers() {
   }, [s?.status, s?.id, navigate]);
 
   if (!s || !paper) {
-    return <EmptyState icon={<FileQuestion className="size-6" />} title="Test not found" action={<Button asChild variant="outline"><Link to="/demo/parent">Home</Link></Button>} />;
+    return <EmptyState icon={<FileQuestion className="size-6" />} title="Test not found" action={<Button asChild variant="outline"><Link to="/demo/parent/papers">Papers</Link></Button>} />;
   }
 
   const pages = s.pages.filter((p) => p.startsWith('data:'));
@@ -85,7 +85,7 @@ export default function UploadAnswers() {
         <PageHeader
           title={paper.title}
           description={`${paper.subject} · ${paper.durationMins} min · due ${fmt(s.dueDate)}`}
-          breadcrumbs={[{ label: 'Home', href: '/demo/parent' }, { label: paper.title }]}
+          breadcrumbs={[{ label: 'Papers', href: '/demo/parent/papers' }, { label: paper.title }]}
         />
       </div>
 
