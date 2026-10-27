@@ -10,40 +10,11 @@ import { Link, useParams } from 'react-router-dom';
 import { Button, Input, Badge, Alert, AlertDescription, AlertTitle, toast } from '@bloomneo/uikit';
 import { ArrowLeft, Camera, ImagePlus, Send, Loader2, AlertTriangle, CheckCircle2, ChevronDown, Info } from 'lucide-react';
 import { SEO } from '@/shared/SEO';
-import { api, sendFile, fetchBlob } from '@/shared/api';
+import { api, sendFile } from '@/shared/api';
 import { MathText } from '@/shared/MathText';
+import { PageThumb, samplePage } from '@/shared/AnswerPages';
 import { useLoad, fmtDate } from '../../lib/useLoad';
 import type { SubmissionDetail, QuestionResult } from '../../lib/types';
-
-/** A plain page of lined paper with a title, so a test needs no real photo. */
-function samplePage(): Promise<Blob> {
-  const c = document.createElement('canvas');
-  c.width = 800; c.height = 1100;
-  const g = c.getContext('2d')!;
-  g.fillStyle = '#fff'; g.fillRect(0, 0, c.width, c.height);
-  g.strokeStyle = '#cbd5e1';
-  for (let y = 120; y < 1060; y += 40) { g.beginPath(); g.moveTo(50, y); g.lineTo(750, y); g.stroke(); }
-  g.fillStyle = '#334155'; g.font = '28px sans-serif';
-  g.fillText('Sample answer page (for testing)', 50, 80);
-  return new Promise((resolve) => c.toBlob((b) => resolve(b!), 'image/png'));
-}
-
-function PageThumb({ submissionId, n }: { submissionId: string; n: number }) {
-  const [url, setUrl] = React.useState<string | null>(null);
-  React.useEffect(() => {
-    let revoke: string | null = null;
-    let live = true;
-    fetchBlob(`/api/tutor/submissions/${submissionId}/pages/${n}`).then((b) => {
-      if (!live) return;
-      revoke = URL.createObjectURL(b);
-      setUrl(revoke);
-    }).catch(() => undefined);
-    return () => { live = false; if (revoke) URL.revokeObjectURL(revoke); };
-  }, [submissionId, n]);
-  return url
-    ? <img src={url} alt={`Answer page ${n + 1}`} className="h-28 w-20 rounded-md border border-border object-cover" />
-    : <div className="grid h-28 w-20 place-items-center rounded-md border border-border bg-muted"><Loader2 className="size-4 animate-spin text-muted-foreground" /></div>;
-}
 
 export default function ResultPage() {
   const { id = '' } = useParams();
@@ -101,7 +72,7 @@ export default function ResultPage() {
 
       {data.pages.length > 0 && (
         <div className="mb-6 flex flex-wrap gap-2" aria-label="Answer pages">
-          {data.pages.map((_, n) => <PageThumb key={n} submissionId={id} n={n} />)}
+          {data.pages.map((_, n) => <PageThumb key={n} base={`/api/tutor/submissions/${id}/pages`} n={n} />)}
         </div>
       )}
 
