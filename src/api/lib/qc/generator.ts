@@ -14,19 +14,45 @@ import type { LayoutSection, QuestionType } from './questions.js';
 const error = errorClass.get();
 
 type Sec = { title: string; type: QuestionType; count: number; marksEach: number; note: string };
-type Q = { id: string; type: string; marks: number; topicId: string; topicPos: number };
+type Q = { id: string; type: string; marks: number; topicId: string; topicPos: number; hasAnswer: boolean };
 
-/** Round-robin across topics, each topic's own list rotated by `variant`. */
+/** Small seeded generator, so a given variant always builds the same paper. */
+function rng(seed: number) {
+  let a = (seed * 2654435761) >>> 0;
+  return () => {
+    a = (a + 0x6d2b79f5) >>> 0;
+    let t = a;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function shuffled<T>(arr: T[], r: () => number): T[] {
+  const out = [...arr];
+  for (let i = out.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [out[i], out[j]] = [out[j], out[i]]; }
+  return out;
+}
+
+/**
+ * Round-robin across topics so a paper covers the chapters evenly. Which topic
+ * goes first and which question each topic gives up are shuffled by `variant`,
+ * so different variants give genuinely different papers, not the same one shifted.
+ */
 function spread(qs: Q[], variant: number): Q[] {
+  const r = rng(variant + 1);
   const groups = new Map<string, Q[]>();
   for (const q of [...qs].sort((a, b) => a.topicPos - b.topicPos || a.id.localeCompare(b.id))) {
     groups.set(q.topicId, [...(groups.get(q.topicId) ?? []), q]);
   }
-  const lists = [...groups.values()].map((l) => { const k = l.length ? variant % l.length : 0; return [...l.slice(k), ...l.slice(0, k)]; });
+  const lists = shuffled([...groups.values()].map((l) => shuffled(l, r)), r);
   const out: Q[] = [];
   for (let i = 0; lists.some((l) => i < l.length); i++) for (const l of lists) if (i < l.length) out.push(l[i]);
   return out;
 }
+
+/** Questions with an answer key come first; ones without are used only when nothing else fits. */
+const prefer = (qs: Q[], variant: number) => [...spread(qs.filter((q) => q.hasAnswer), variant), ...spread(qs.filter((q) => !q.hasAnswer), variant)];
 
 export type Generated = {
   patternId: string;
@@ -55,13 +81,13 @@ export async function generatePaper(input: { patternId: string; chapterIds?: str
   const topics = await db.curriculumNode.findMany({ where: { parentId: { in: wanted.map((c: any) => c.id) }, kind: 'topic', isActive: true } });
   const topicPos = new Map<string, number>(topics.map((t: any) => [t.id, t.position]));
   const pool: Q[] = (await db.question.findMany({ where: { isActive: true, topicId: { in: topics.map((t: any) => t.id) } } }))
-    .map((q: any) => ({ id: q.id, type: q.type, marks: q.marks, topicId: q.topicId, topicPos: topicPos.get(q.topicId) ?? 0 }));
+    .map((q: any) => ({ id: q.id, type: q.type, marks: q.marks, topicId: q.topicId, topicPos: topicPos.get(q.topicId) ?? 0, hasAnswer: !!q.answer }));
 
   const variant = input.variant ?? 0;
   const used = new Set<string>();
   let missing = 0;
   const layout: LayoutSection[] = sections.map((s) => {
-    const fit = spread(pool.filter((q) => q.type === s.type && q.marks === s.marksEach && !used.has(q.id)), variant).slice(0, s.count);
+    const fit = prefer(pool.filter((q) => q.type === s.type && q.marks === s.marksEach && !used.has(q.id)), variant).slice(0, s.count);
     fit.forEach((q) => used.add(q.id));
     missing += s.count - fit.length;
     return { title: s.title, note: s.note, type: s.type, marksEach: s.marksEach, questionIds: fit.map((q) => q.id) };
@@ -74,7 +100,7 @@ export async function generatePaper(input: { patternId: string; chapterIds?: str
   // unused questions, biggest first, or drop the biggest while over.
   const target = input.targetMarks;
   if (target) {
-    for (const q of pool.filter((x) => !used.has(x.id)).sort((a, b) => b.marks - a.marks)) {
+    for (const q of prefer(pool.filter((x) => !used.has(x.id)), variant).sort((a, b) => b.marks - a.marks)) {
       if (marks >= target) break;
       if (marks + q.marks > target) continue;
       const home = layout.find((s) => s.type === q.type && s.marksEach === q.marks)
