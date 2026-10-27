@@ -29,6 +29,7 @@ export type ApiRoute =
   | `/api/people/${string}/approve`
   | `/api/people/${string}/reject`
   | `/api/people/${string}/reset-password`
+  | `/api/people/${string}/sign-in-as`
   | '/api/people/me'
   | `/api/settings/admin/${string}`
   | '/api/settings/admin/email-env'

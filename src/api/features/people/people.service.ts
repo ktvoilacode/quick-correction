@@ -11,6 +11,7 @@ import { databaseClass } from '@bloomneo/appkit/database';
 import { authClass } from '@bloomneo/appkit/auth';
 import { errorClass } from '@bloomneo/appkit/error';
 import { auditService } from '../audit/audit.service.js';
+import { toPublicUser } from '../auth/auth.service.js';
 
 const error = errorClass.get();
 const auth = authClass.get();
@@ -110,5 +111,23 @@ export const peopleService = {
     await db.user.update({ where: { id }, data: { password: await auth.hashPassword(password) } });
     auditService.logAudit({ actorId, actorType: 'admin', action: 'people.password_reset', entityType: 'user', entityId: id });
     return { temporaryPassword: password };
+  },
+
+  /**
+   * "Sign in as": a short-lived login token for a teacher or parent so an admin
+   * can see exactly what they see. Only for accounts that can sign in today, and
+   * never for another admin. Audited with the person it was used on.
+   */
+  async signInAs(actorId: string, id: string) {
+    const db = await databaseClass.get();
+    const user = await db.user.findUnique({ where: { id } });
+    if (!user?.appRole) throw error.notFound('Person not found');
+    if (!user.isActive) throw error.badRequest('This account is disabled. Enable it first.');
+    const token = auth.generateLoginToken(
+      { userId: user.id, role: user.role, level: user.level, tenantId: user.tenantId ?? null },
+      '1h',
+    );
+    auditService.logAudit({ actorId, actorType: 'admin', action: 'people.sign_in_as', entityType: 'user', entityId: id });
+    return { message: 'Login successful', token, user: toPublicUser(user) };
   },
 };

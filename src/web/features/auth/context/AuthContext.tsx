@@ -145,6 +145,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const logout = useCallback((redirectTo: string = config.auth.redirects.afterLogout) => {
     localStorage.removeItem(config.auth.storage.token);
     localStorage.removeItem(config.auth.storage.user);
+    sessionStorage.removeItem('qc_admin_session');
 
     setAuthState({
       user: null,

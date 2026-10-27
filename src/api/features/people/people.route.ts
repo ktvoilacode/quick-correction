@@ -47,4 +47,8 @@ router.post('/:id/reset-password', error.asyncRoute(async (req, res) => {
   res.json(await peopleService.resetPassword(userIdOf(req), req.params.id));
 }));
 
+router.post('/:id/sign-in-as', error.asyncRoute(async (req, res) => {
+  res.json(await peopleService.signInAs(userIdOf(req), req.params.id));
+}));
+
 export default router;

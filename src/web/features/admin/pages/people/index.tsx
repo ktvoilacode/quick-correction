@@ -13,9 +13,10 @@ import {
   Select, SelectContent, SelectItem, SelectTrigger, SelectValue,
   Alert, AlertTitle, AlertDescription, toast, useConfirm,
 } from '@bloomneo/uikit';
-import { Plus, Search, Check, X, KeyRound, Ban, RotateCcw, Loader2, AlertTriangle, Users, Copy } from 'lucide-react';
+import { Plus, Search, Check, X, KeyRound, Ban, RotateCcw, Loader2, AlertTriangle, Users, Copy, LogIn } from 'lucide-react';
 import { SEO } from '@/shared/SEO';
 import { api } from '@/shared/api';
+import { startImpersonation } from '@/features/auth/lib/impersonate';
 import { AdminPageHeader } from '../../components/AdminPageHeader';
 import { PageLoading } from '../../components/PageLoading';
 
@@ -127,6 +128,17 @@ export default function AdminPeoplePage() {
     } catch (err) {
       toast.error(err instanceof Error ? err.message : 'Could not reset the password.');
     } finally {
+      setBusy(null);
+    }
+  }
+
+  async function signInAs(p: Person) {
+    setBusy(p.id);
+    try {
+      const r = await api.post<{ token: string; user: Parameters<typeof startImpersonation>[1] }>(`/api/people/${p.id}/sign-in-as`, {});
+      startImpersonation(r.token, r.user);
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : 'Could not sign in as this person.');
       setBusy(null);
     }
   }
@@ -264,6 +276,11 @@ export default function AdminPeoplePage() {
                         {p.appStatus === 'pending' && (
                           <Button size="sm" variant="outline" className="mr-1 h-8" aria-label={`Reject ${p.email}`} onClick={() => reject(p)}>
                             <X className="size-4" /> <span className="hidden xl:inline">Reject</span>
+                          </Button>
+                        )}
+                        {p.isActive && (
+                          <Button variant="ghost" size="icon" aria-label={`Sign in as ${p.email}`} title="Sign in as this person" onClick={() => signInAs(p)}>
+                            <LogIn className="size-4" />
                           </Button>
                         )}
                         <Button variant="ghost" size="icon" aria-label={`Reset password for ${p.email}`} title="Reset password" onClick={() => resetPassword(p)}>
