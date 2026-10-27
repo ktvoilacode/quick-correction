@@ -177,6 +177,12 @@ model CurriculumNode {
   patterns  PaperPattern[]
   position  Int              @default(0)
   isActive  Boolean          @default(true)
+  // Topics only: how this topic is tested. questionTypes is a subset of
+  // mcq | short | long | case; complexity is easy | medium | hard; marks is
+  // the usual marks for a question on it.
+  questionTypes Json?
+  complexity    String?
+  marks         Int?
   createdAt DateTime         @default(now())
   updatedAt DateTime         @updatedAt
 

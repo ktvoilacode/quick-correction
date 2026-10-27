@@ -13,14 +13,43 @@ const error = errorClass.get();
 export const KINDS = ['board', 'class', 'subject', 'chapter', 'topic'] as const;
 export type Kind = (typeof KINDS)[number];
 
-type Row = { id: string; kind: string; name: string; parentId: string | null; position: number; isActive: boolean };
+export const QUESTION_TYPES = ['mcq', 'short', 'long', 'case'] as const;
+export const COMPLEXITIES = ['easy', 'medium', 'hard'] as const;
+
+type Row = {
+  id: string; kind: string; name: string; parentId: string | null; position: number; isActive: boolean;
+  questionTypes: string[] | null; complexity: string | null; marks: number | null;
+};
+
+type TopicFields = { questionTypes?: string[] | null; complexity?: string | null; marks?: number | null };
+
+/** Validates the topic-only fields. Undefined means "not provided"; null clears. */
+function topicFields(data: TopicFields): TopicFields {
+  const out: TopicFields = {};
+  if (data.questionTypes !== undefined) {
+    if (data.questionTypes === null) out.questionTypes = null;
+    else {
+      if (!Array.isArray(data.questionTypes) || data.questionTypes.some((t) => !(QUESTION_TYPES as readonly string[]).includes(t))) throw error.badRequest('Unknown question type');
+      out.questionTypes = [...new Set(data.questionTypes)];
+    }
+  }
+  if (data.complexity !== undefined) {
+    if (data.complexity !== null && !(COMPLEXITIES as readonly string[]).includes(data.complexity)) throw error.badRequest('Complexity must be easy, medium or hard');
+    out.complexity = data.complexity;
+  }
+  if (data.marks !== undefined) {
+    if (data.marks !== null && (!Number.isInteger(data.marks) || data.marks < 1 || data.marks > 20)) throw error.badRequest('Marks must be a whole number from 1 to 20');
+    out.marks = data.marks;
+  }
+  return out;
+}
 
 export const libraryService = {
   /** The whole tree, nested. Small enough (hundreds of rows) to send in one go. */
   async tree() {
     const db = await databaseClass.get();
     const rows: Row[] = await db.curriculumNode.findMany({
-      select: { id: true, kind: true, name: true, parentId: true, position: true, isActive: true },
+      select: { id: true, kind: true, name: true, parentId: true, position: true, isActive: true, questionTypes: true, complexity: true, marks: true },
       orderBy: [{ position: 'asc' }, { name: 'asc' }],
     });
     const byParent = new Map<string | null, Row[]>();
@@ -30,7 +59,7 @@ export const libraryService = {
     return { nodes: build(null) };
   },
 
-  async create(actorId: string, data: { kind?: string; name?: string; parentId?: string | null }) {
+  async create(actorId: string, data: { kind?: string; name?: string; parentId?: string | null } & TopicFields) {
     const db = await databaseClass.get();
     const name = data.name?.trim();
     if (!name) throw error.badRequest('Name is required');
@@ -49,16 +78,17 @@ export const libraryService = {
     const clash = await db.curriculumNode.findFirst({ where: { parentId, name } });
     if (clash) throw error.conflict(`"${name}" already exists here`);
     const last = await db.curriculumNode.findFirst({ where: { parentId }, orderBy: { position: 'desc' }, select: { position: true } });
-    const node = await db.curriculumNode.create({ data: { kind, name, parentId, position: (last?.position ?? -1) + 1 } });
+    const extra = kind === 'topic' ? topicFields(data) : {};
+    const node = await db.curriculumNode.create({ data: { kind, name, parentId, position: (last?.position ?? -1) + 1, ...(extra as any) } });
     auditService.logAudit({ actorId, actorType: 'admin', action: 'library.create', entityType: 'curriculum', entityId: node.id, newValue: { kind, name } });
     return node;
   },
 
-  async update(actorId: string, id: string, data: { name?: string; isActive?: boolean }) {
+  async update(actorId: string, id: string, data: { name?: string; isActive?: boolean } & TopicFields) {
     const db = await databaseClass.get();
     const existing = await db.curriculumNode.findUnique({ where: { id } });
     if (!existing) throw error.notFound('Not found');
-    const patch: { name?: string; isActive?: boolean } = {};
+    const patch: Record<string, unknown> = {};
     if (typeof data.name === 'string') {
       const name = data.name.trim();
       if (!name) throw error.badRequest('Name is required');
@@ -67,6 +97,7 @@ export const libraryService = {
       patch.name = name;
     }
     if (typeof data.isActive === 'boolean') patch.isActive = data.isActive;
+    if (existing.kind === 'topic') Object.assign(patch, topicFields(data));
     const node = await db.curriculumNode.update({ where: { id }, data: patch });
     auditService.logAudit({ actorId, actorType: 'admin', action: 'library.update', entityType: 'curriculum', entityId: id, oldValue: { name: existing.name, isActive: existing.isActive }, newValue: patch });
     return node;
