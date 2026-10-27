@@ -26,6 +26,8 @@ export type ApiRoute =
   | `/api/parent/submissions/${string}/pages`
   | `/api/parent/submissions/${string}/pages/${string}`
   | `/api/parent/submissions/${string}/submit`
+  | '/api/patterns'
+  | `/api/patterns/${string}`
   | '/api/people'
   | `/api/people/${string}/active`
   | `/api/people/${string}/approve`
@@ -76,6 +78,7 @@ export const API_ROUTES = [
   '/api/parent/children',
   '/api/parent/link',
   '/api/parent/submissions',
+  '/api/patterns',
   '/api/people',
   '/api/people/me',
   '/api/settings/admin/email-env',

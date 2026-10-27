@@ -174,6 +174,7 @@ model CurriculumNode {
   parentId  String?
   parent    CurriculumNode?  @relation("CurriculumTree", fields: [parentId], references: [id], onDelete: Cascade)
   children  CurriculumNode[] @relation("CurriculumTree")
+  patterns  PaperPattern[]
   position  Int              @default(0)
   isActive  Boolean          @default(true)
   createdAt DateTime         @default(now())
@@ -182,6 +183,28 @@ model CurriculumNode {
   @@unique([parentId, name])
   @@index([parentId])
   @@map("curriculum_nodes")
+}
+
+// How a paper is laid out for a subject: sections, marks per question, time.
+// `sections` is [{ title, type, count, marksEach, note }] in paper order.
+// Linked to a subject node of the skill library; the generator will read it
+// in place of the hard-coded board/unit templates.
+model PaperPattern {
+  id           String         @id @default(cuid())
+  subjectId    String
+  subject      CurriculumNode @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  name         String
+  description  String?
+  durationMins Int
+  sections     Json
+  isActive     Boolean        @default(true)
+  position     Int            @default(0)
+  createdAt    DateTime       @default(now())
+  updatedAt    DateTime       @updatedAt
+
+  @@unique([subjectId, name])
+  @@index([subjectId])
+  @@map("paper_patterns")
 }
 
 // Background jobs for the appkit queue's database transport (picked
