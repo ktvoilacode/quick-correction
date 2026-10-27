@@ -7,7 +7,7 @@ import express from 'express';
 import { errorClass } from '@bloomneo/appkit/error';
 import { authClass } from '@bloomneo/appkit/auth';
 import { requireAppRole, claimAppRole, userIdOf } from '../../lib/qc/app-role.js';
-import { readPage } from '../../lib/qc/pages.js';
+import { readPage, MAX_PAGE_BYTES } from '../../lib/qc/pages.js';
 import { tutorService } from './tutor.service.js';
 
 const router = express.Router();
@@ -51,6 +51,10 @@ router.get('/papers/:id', error.asyncRoute(async (req: any, res) => {
   res.json({ paper: await tutorService.getPaper(userIdOf(req), req.params.id) });
 }));
 
+router.delete('/papers/:id', error.asyncRoute(async (req: any, res) => {
+  res.json(await tutorService.deletePaper(userIdOf(req), req.params.id));
+}));
+
 router.post('/papers/:id/assign', error.asyncRoute(async (req: any, res) => {
   res.json(await tutorService.assignPaper(userIdOf(req), req.params.id, req.body ?? {}));
 }));
@@ -74,6 +78,19 @@ router.get('/submissions/:id/pages/:n', async (req, res, next) => {
     next(err);
   }
 });
+
+// One photo per request, sent as the raw image body (Content-Type: image/jpeg ...).
+router.post(
+  '/submissions/:id/pages',
+  express.raw({ type: 'image/*', limit: MAX_PAGE_BYTES }),
+  error.asyncRoute(async (req: any, res) => {
+    res.status(201).json(await tutorService.addPage(userIdOf(req), req.params.id, req.headers['content-type'], req.body));
+  }),
+);
+
+router.post('/submissions/:id/submit', error.asyncRoute(async (req: any, res) => {
+  res.json(await tutorService.submit(userIdOf(req), req.params.id));
+}));
 
 router.post('/submissions/:id/approve', error.asyncRoute(async (req: any, res) => {
   res.json(await tutorService.approve(userIdOf(req), req.params.id));

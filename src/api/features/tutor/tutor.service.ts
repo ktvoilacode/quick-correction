@@ -10,6 +10,8 @@ import { databaseClass } from '@bloomneo/appkit/database';
 import { errorClass } from '@bloomneo/appkit/error';
 import { questionsByIds, totalMarks, type LayoutSection } from '../../lib/qc/questions.js';
 import { generatePaper } from '../../lib/qc/generator.js';
+import { queueMarking } from '../../lib/qc/marking.js';
+import { storePage, MAX_PAGES } from '../../lib/qc/pages.js';
 import type { QuestionResult } from '../../lib/qc/marking.js';
 
 const error = errorClass.get();
@@ -115,17 +117,30 @@ export const tutorService = {
 
   async createPaper(
     _teacherId: string,
-    input: { patternId?: string; chapterIds?: string[]; targetMarks?: number; title?: string; variant?: number },
+    input: { patternId?: string; chapterIds?: string[]; targetMarks?: number; title?: string; variant?: number; preview?: boolean },
   ) {
     const teacherId = _teacherId;
     if (!input.patternId) throw error.badRequest('Pick a paper pattern');
     const targetMarks = input.targetMarks && input.targetMarks > 0 ? Math.min(Math.round(input.targetMarks), 200) : undefined;
     const gen = await generatePaper({ patternId: input.patternId, chapterIds: input.chapterIds, variant: input.variant ?? 0, targetMarks });
+    const title = input.title?.trim() || (gen.allChapters ? gen.patternName : `${gen.patternName} — ${gen.chapterNames.length === 1 ? gen.chapterNames[0] : `${gen.chapterNames.length} chapters`}`);
+    const shortBy = targetMarks && gen.marks < targetMarks ? targetMarks - gen.marks : 0;
+
+    // A dry run: show what the generator would set, save nothing. The teacher
+    // can shuffle (a new variant) until they like it, then create it for real.
+    if (input.preview) {
+      return {
+        preview: true, title, pattern: gen.patternName, durationMins: gen.durationMins, marks: gen.marks,
+        shortBy, missingQuestions: gen.missing, layout: gen.layout,
+        questions: await questionsByIds(gen.questionIds, { layout: gen.layout, withAnswers: true }),
+      };
+    }
+
     const db = await databaseClass.get();
     const paper = await db.paper.create({
       data: {
         teacherId,
-        title: input.title?.trim() || (gen.allChapters ? gen.patternName : `${gen.patternName} — ${gen.chapterNames.length === 1 ? gen.chapterNames[0] : `${gen.chapterNames.length} chapters`}`),
+        title,
         pattern: gen.patternName,
         patternId: gen.patternId,
         durationMins: gen.durationMins,
@@ -138,7 +153,7 @@ export const tutorService = {
     return {
       ...paper,
       marks: gen.marks,
-      shortBy: targetMarks && gen.marks < targetMarks ? targetMarks - gen.marks : 0,
+      shortBy,
       missingQuestions: gen.missing,
     };
   },
@@ -150,7 +165,8 @@ export const tutorService = {
       include: { submissions: { include: { student: { select: { id: true, name: true } } } } },
     });
     if (!paper) throw error.notFound('Paper not found');
-    const questions = await questionsByIds(paper.questionIds as string[], { layout: paper.layout as LayoutSection[] | null });
+    // The teacher sees the answer key; parents never do (their route leaves it out).
+    const questions = await questionsByIds(paper.questionIds as string[], { layout: paper.layout as LayoutSection[] | null, withAnswers: true });
     return { ...paper, questions, marks: totalMarks(questions) };
   },
 
@@ -194,7 +210,48 @@ export const tutorService = {
       include: { paper: true, student: { select: { id: true, name: true, className: true } } },
     });
     if (!sub) throw error.notFound('Submission not found');
-    return { ...sub, questions: await questionsByIds(sub.paper.questionIds as string[], { layout: sub.paper.layout as LayoutSection[] | null }) };
+    return { ...sub, questions: await questionsByIds(sub.paper.questionIds as string[], { layout: sub.paper.layout as LayoutSection[] | null, withAnswers: true }) };
+  },
+
+  /**
+   * The teacher uploads an answer page for a student: how a paper is tried out
+   * without a parent account. Same limits and storage as the parent's upload.
+   */
+  async addPage(teacherId: string, id: string, contentType: string | undefined, body: unknown) {
+    const sub = await this.getSubmission(teacherId, id);
+    if (sub.status !== 'assigned') throw error.badRequest('This paper has already been submitted');
+    const pages = sub.pages as string[];
+    if (pages.length >= MAX_PAGES) throw error.badRequest(`At most ${MAX_PAGES} pages per paper`);
+    const key = await storePage(sub.id, contentType, body);
+    const db = await databaseClass.get();
+    await db.submission.update({ where: { id: sub.id }, data: { pages: [...pages, key] } });
+    return { pages: pages.length + 1 };
+  },
+
+  /** Lock the submission and queue it for marking. */
+  async submit(teacherId: string, id: string) {
+    const db = await databaseClass.get();
+    const sub = await this.getSubmission(teacherId, id);
+    if (!(sub.pages as string[]).length) throw error.badRequest('Add at least one page first');
+    const { count } = await db.submission.updateMany({
+      where: { id: sub.id, status: 'assigned' },
+      data: { status: 'evaluating', submittedAt: new Date() },
+    });
+    if (!count) throw error.badRequest('This paper has already been submitted');
+    try {
+      await queueMarking(sub.id);
+    } catch (err) {
+      await db.submission.update({ where: { id: sub.id }, data: { status: 'assigned', submittedAt: null } });
+      throw err;
+    }
+    return { ok: true, status: 'evaluating' };
+  },
+
+  async deletePaper(teacherId: string, id: string) {
+    const db = await databaseClass.get();
+    const { count } = await db.paper.deleteMany({ where: { id, teacherId } });
+    if (!count) throw error.notFound('Paper not found');
+    return { ok: true };
   },
 
   async approve(teacherId: string, id: string) {

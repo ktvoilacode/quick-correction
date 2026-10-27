@@ -53,8 +53,10 @@ export type ApiRoute =
   | '/api/tutor/students'
   | `/api/tutor/submissions/${string}`
   | `/api/tutor/submissions/${string}/approve`
+  | `/api/tutor/submissions/${string}/pages`
   | `/api/tutor/submissions/${string}/pages/${string}`
   | `/api/tutor/submissions/${string}/results`
+  | `/api/tutor/submissions/${string}/submit`
   | '/api/user/admin/create'
   | '/api/user/admin/list'
   | '/api/user/admin/users'
