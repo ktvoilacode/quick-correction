@@ -47,7 +47,7 @@ export async function seedLibrary(db: any) {
   for (const q of QUESTION_BANK) {
     if (await db.question.findUnique({ where: { id: q.id } })) continue;
     await db.question.create({
-      data: { id: q.id, topicId: topicByChapter.get(q.chapter)!, type: TYPE[q.section], complexity: 'medium', marks: q.marks, text: q.text, options: q.options ?? undefined },
+      data: { id: q.id, topicId: topicByChapter.get(q.chapter)!, type: TYPE[q.section], complexity: 'medium', marks: q.marks, text: q.text, options: q.options ?? undefined, source: 'seed' },
     });
   }
 }

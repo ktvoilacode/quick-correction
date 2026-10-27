@@ -16,7 +16,12 @@ const TYPES = ['mcq', 'short', 'long', 'case'];
 const COMPLEXITIES = ['easy', 'medium', 'hard'];
 const PAGE = 50;
 
-type Input = { topicId?: string; type?: string; complexity?: string; marks?: number; text?: string; options?: string[] | null; answer?: string | null; isActive?: boolean };
+const REVIEW = ['draft', 'approved', 'rejected', 'flagged'];
+
+type Input = {
+  topicId?: string; type?: string; complexity?: string; marks?: number; text?: string; options?: string[] | null; answer?: string | null;
+  isActive?: boolean; competency?: boolean; reviewStatus?: string; reviewNote?: string | null;
+};
 
 async function pathOf(db: any, topicId: string) {
   const names: string[] = [];
@@ -63,6 +68,14 @@ async function clean(db: any, data: Input, partial: boolean) {
   }
   if (data.answer !== undefined) out.answer = data.answer === null ? null : String(data.answer).trim() || null;
   if (typeof data.isActive === 'boolean') out.isActive = data.isActive;
+  if (typeof data.competency === 'boolean') out.competency = data.competency;
+  if (data.reviewNote !== undefined) out.reviewNote = data.reviewNote === null ? null : String(data.reviewNote).trim() || null;
+  if (data.reviewStatus !== undefined) {
+    if (!REVIEW.includes(data.reviewStatus)) throw error.badRequest('Unknown review status');
+    out.reviewStatus = data.reviewStatus;
+    // Only approved questions are live; anything else is held back from papers.
+    out.isActive = data.reviewStatus === 'approved';
+  }
   return out;
 }
 
@@ -76,7 +89,7 @@ async function usedQuestionIds(db: any): Promise<Set<string>> {
 }
 
 export const questionsService = {
-  async list(f: { topicId?: string; chapterId?: string; type?: string; complexity?: string; status?: string; q?: string; page?: number }) {
+  async list(f: { topicId?: string; chapterId?: string; type?: string; complexity?: string; status?: string; review?: string; q?: string; page?: number }) {
     const db = await databaseClass.get();
     const where: any = {};
     if (f.topicId) where.topicId = f.topicId;
@@ -85,15 +98,19 @@ export const questionsService = {
     if (f.complexity && COMPLEXITIES.includes(f.complexity)) where.complexity = f.complexity;
     if (f.status === 'active') where.isActive = true;
     if (f.status === 'hidden') where.isActive = false;
+    if (f.review && REVIEW.includes(f.review)) where.reviewStatus = f.review;
     if (f.q?.trim()) where.text = { contains: f.q.trim() };
     const page = Math.max(1, Math.floor(f.page ?? 1));
 
-    const [total, rows, used] = await Promise.all([
+    const [total, rows, used, reviewCounts] = await Promise.all([
       db.question.count({ where }),
       db.question.findMany({ where, orderBy: [{ createdAt: 'desc' }, { id: 'asc' }], skip: (page - 1) * PAGE, take: PAGE }),
       usedQuestionIds(db),
+      db.question.groupBy({ by: ['reviewStatus'], _count: { _all: true } }),
     ]);
-    return { questions: await Promise.all(rows.map((r: any) => shape(db, r, used))), total, page, pageSize: PAGE };
+    const counts = Object.fromEntries(REVIEW.map((s) => [s, 0]));
+    for (const c of reviewCounts as { reviewStatus: string; _count: { _all: number } }[]) counts[c.reviewStatus] = c._count._all;
+    return { questions: await Promise.all(rows.map((r: any) => shape(db, r, used))), total, page, pageSize: PAGE, counts };
   },
 
   async create(actorId: string, data: Input) {
@@ -111,6 +128,20 @@ export const questionsService = {
     const row = await db.question.update({ where: { id }, data: patch as any });
     auditService.logAudit({ actorId, actorType: 'admin', action: 'question.update', entityType: 'question', entityId: id, newValue: Object.keys(patch) });
     return shape(db, row);
+  },
+
+  /** Approve or reject many at once (the review queue). Approved ones go live. */
+  async review(actorId: string, ids: string[], status: string, note?: string) {
+    if (!Array.isArray(ids) || !ids.length) throw error.badRequest('Pick at least one question');
+    if (ids.length > 500) throw error.badRequest('At most 500 at a time');
+    if (!['approved', 'rejected'].includes(status)) throw error.badRequest('Status must be approved or rejected');
+    const db = await databaseClass.get();
+    const { count } = await db.question.updateMany({
+      where: { id: { in: ids } },
+      data: { reviewStatus: status, isActive: status === 'approved', ...(note !== undefined ? { reviewNote: note || null } : {}) },
+    });
+    auditService.logAudit({ actorId, actorType: 'admin', action: `question.${status}`, entityType: 'question', entityId: ids[0], newValue: { count } });
+    return { updated: count };
   },
 
   async remove(actorId: string, id: string) {

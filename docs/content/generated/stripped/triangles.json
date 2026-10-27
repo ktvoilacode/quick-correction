@@ -1,0 +1,338 @@
+[
+ {
+  "idx": 0,
+  "marks": 1,
+  "type": "mcq",
+  "text": "In \u2206ABC, D lies on AB and E on AC with DE \u2225 BC. If AD = 4 cm, DB = 6 cm and AE = 6 cm, then EC =",
+  "options": [
+   "4 cm",
+   "6 cm",
+   "9 cm",
+   "10 cm"
+  ]
+ },
+ {
+  "idx": 1,
+  "marks": 1,
+  "type": "mcq",
+  "text": "In \u2206ABC, DE \u2225 BC with D on AB and E on AC. If AD = x cm, DB = (x \u2212 2) cm, AE = (x + 2) cm and EC = (x \u2212 1) cm, then x =",
+  "options": [
+   "3",
+   "4",
+   "5",
+   "6"
+  ]
+ },
+ {
+  "idx": 2,
+  "marks": 1,
+  "type": "mcq",
+  "text": "In \u2206PQR, S lies on PQ and T on PR with ST \u2225 QR. If PS : SQ = 3 : 5 and PR = 24 cm, then PT =",
+  "options": [
+   "9 cm",
+   "15 cm",
+   "8 cm",
+   "10 cm"
+  ]
+ },
+ {
+  "idx": 3,
+  "marks": 1,
+  "type": "mcq",
+  "text": "In \u2206ABC, DE \u2225 BC where D is on AB and E is on AC. If AD = 4 cm, AB = 10 cm and AC = 15 cm, then AE =",
+  "options": [
+   "5 cm",
+   "6 cm",
+   "7.5 cm",
+   "9 cm"
+  ]
+ },
+ {
+  "idx": 4,
+  "marks": 1,
+  "type": "mcq",
+  "text": "D and E are points on sides AB and AC of \u2206ABC. For which of the following sets of measures is DE \u2225 BC?",
+  "options": [
+   "AD = 3 cm, DB = 5 cm, AE = 4 cm, EC = 6 cm",
+   "AD = 2 cm, DB = 3 cm, AE = 4 cm, EC = 6 cm",
+   "AD = 4 cm, DB = 6 cm, AE = 5 cm, EC = 8 cm",
+   "AD = 6 cm, DB = 9 cm, AE = 8 cm, EC = 10 cm"
+  ]
+ },
+ {
+  "idx": 5,
+  "marks": 1,
+  "type": "mcq",
+  "text": "ABCD is a trapezium with AB \u2225 CD. Its diagonals AC and BD intersect at O. If OA = x cm, OC = (x + 4) cm, OB = 9 cm and OD = 15 cm, then OA =",
+  "options": [
+   "4 cm",
+   "5 cm",
+   "6 cm",
+   "8 cm"
+  ]
+ },
+ {
+  "idx": 6,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A line is drawn through the midpoint D of side AB of \u2206ABC parallel to BC and meets AC at E. If AC = 18.6 cm, then CE =",
+  "options": [
+   "4.65 cm",
+   "9.3 cm",
+   "18.6 cm",
+   "12.4 cm"
+  ]
+ },
+ {
+  "idx": 7,
+  "marks": 1,
+  "type": "mcq",
+  "text": "If \u2206ABC \u223c \u2206PQR with \u2220A = 47\u00b0 and \u2220R = 63\u00b0, then \u2220B =",
+  "options": [
+   "47\u00b0",
+   "63\u00b0",
+   "70\u00b0",
+   "110\u00b0"
+  ]
+ },
+ {
+  "idx": 8,
+  "marks": 1,
+  "type": "mcq",
+  "text": "AB \u2225 PQ, and the line segments AQ and BP intersect at O. If AB = 6 cm, PQ = 15 cm and OP = 10 cm, then OB =",
+  "options": [
+   "25 cm",
+   "9 cm",
+   "5 cm",
+   "4 cm"
+  ]
+ },
+ {
+  "idx": 9,
+  "marks": 1,
+  "type": "mcq",
+  "text": "In \u2206ABC, AB = 6 cm, AC = 9 cm and \u2220A = 50\u00b0. In \u2206PQR, PQ = 4 cm, PR = 6 cm and \u2220P = 50\u00b0. The two triangles are similar by the criterion",
+  "options": [
+   "AA",
+   "SSS",
+   "SAS",
+   "RHS"
+  ]
+ },
+ {
+  "idx": 10,
+  "marks": 1,
+  "type": "mcq",
+  "text": "In \u2206ABC and \u2206DEF, \u2220B = \u2220E and \u2220C = \u2220F. If AB = 3 DE, which of the following is true?",
+  "options": [
+   "AC = 3 EF",
+   "BC = 3 EF",
+   "BC = 3 DF",
+   "AC = 3 DE"
+  ]
+ },
+ {
+  "idx": 11,
+  "marks": 1,
+  "type": "mcq",
+  "text": "In \u2206ABC, \u2220B = 90\u00b0 and BD \u22a5 AC where D lies on AC. If AD = 4 cm and DC = 9 cm, then BD =",
+  "options": [
+   "5 cm",
+   "6 cm",
+   "6.5 cm",
+   "13 cm"
+  ]
+ },
+ {
+  "idx": 12,
+  "marks": 1,
+  "type": "mcq",
+  "text": "In \u2206ABC, D is a point on AB and E a point on AC such that DE \u2225 BC. If AD = 3 cm and DB = 2 cm, then DE : BC =",
+  "options": [
+   "3 : 2",
+   "3 : 5",
+   "2 : 5",
+   "2 : 3"
+  ]
+ },
+ {
+  "idx": 13,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The areas of two similar triangles are 36 cm\u00b2 and 100 cm\u00b2. If a median of the smaller triangle is 4.5 cm, the corresponding median of the larger triangle is",
+  "options": [
+   "2.7 cm",
+   "7.5 cm",
+   "12.5 cm",
+   "8.1 cm"
+  ]
+ },
+ {
+  "idx": 14,
+  "marks": 1,
+  "type": "mcq",
+  "text": "In \u2206ABC, DE \u2225 BC with D on AB and E on AC, and AD : DB = 2 : 3. If the area of \u2206ADE is 20 cm\u00b2, the area of quadrilateral DBCE is",
+  "options": [
+   "45 cm\u00b2",
+   "105 cm\u00b2",
+   "125 cm\u00b2",
+   "50 cm\u00b2"
+  ]
+ },
+ {
+  "idx": 15,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A vertical pole 3.6 m high casts a shadow 2.4 m long on level ground. At the same time a tower casts a shadow 28 m long. The height of the tower is",
+  "options": [
+   "18.7 m",
+   "31.6 m",
+   "42 m",
+   "60 m"
+  ]
+ },
+ {
+  "idx": 16,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Which of the following can be the sides of a right-angled triangle?",
+  "options": [
+   "9 cm, 12 cm, 16 cm",
+   "10 cm, 24 cm, 26 cm",
+   "6 cm, 8 cm, 11 cm",
+   "5 cm, 11 cm, 13 cm"
+  ]
+ },
+ {
+  "idx": 17,
+  "marks": 1,
+  "type": "mcq",
+  "text": "In \u2206ABC, D is a point on BC such that \u2220ADC = \u2220BAC. If BC = 16 cm and CD = 4 cm, then AC =",
+  "options": [
+   "6 cm",
+   "8 cm",
+   "10 cm",
+   "12 cm"
+  ]
+ },
+ {
+  "idx": 18,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Assertion (A): A triangle with sides 7 cm, 24 cm and 25 cm is right-angled, with the right angle opposite the side of 25 cm.\nReason (R): If in a triangle the square of one side equals the sum of the squares of the other two sides, then the angle opposite the first side is a right angle.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ]
+ },
+ {
+  "idx": 19,
+  "marks": 2,
+  "type": "short",
+  "text": "In \u2206ABC, D lies on AB and E on AC with DE \u2225 BC. If AD = (x + 1) cm, DB = 2x cm, AE = (x + 3) cm and EC = 3x cm, find x and the length of AC."
+ },
+ {
+  "idx": 20,
+  "marks": 2,
+  "type": "short",
+  "text": "In \u2206ABC, D is a point on AB and E is a point on AC such that DE \u2225 BC. A line through E parallel to CD meets AB at F. Prove that AD\u00b2 = AF \u00d7 AB."
+ },
+ {
+  "idx": 21,
+  "marks": 2,
+  "type": "short",
+  "text": "In \u2206ABC, P lies on AB and Q lies on AC such that \u2220APQ = \u2220ACB. Prove that \u2206APQ \u223c \u2206ACB and hence that AP \u00d7 AB = AQ \u00d7 AC."
+ },
+ {
+  "idx": 22,
+  "marks": 2,
+  "type": "short",
+  "text": "ABCD is a parallelogram. E is a point on side AD, and BE, when extended, meets CD produced at F. Prove that \u2206ABE \u223c \u2206DFE."
+ },
+ {
+  "idx": 23,
+  "marks": 2,
+  "type": "short",
+  "text": "In \u2206ABC, AB = 6 cm, BC = 8 cm and CA = 10 cm. In \u2206PQR, PQ = 9 cm, QR = 12 cm and RP = 15 cm. Show that the triangles are similar and find \u2220Q."
+ },
+ {
+  "idx": 24,
+  "marks": 2,
+  "type": "short",
+  "text": "\u2206ABC \u223c \u2206PQR. The areas of \u2206ABC and \u2206PQR are 48 cm\u00b2 and 108 cm\u00b2 respectively. If BC = 8 cm, find QR."
+ },
+ {
+  "idx": 25,
+  "marks": 2,
+  "type": "short",
+  "text": "A 25 m long ladder rests against a vertical wall with its foot 7 m from the base of the wall. The top of the ladder slips down 4 m along the wall. How far does the foot of the ladder move away from the wall?"
+ },
+ {
+  "idx": 26,
+  "marks": 3,
+  "type": "short",
+  "text": "The diagonals AC and BD of a quadrilateral ABCD intersect at O at right angles. Prove that AB\u00b2 + CD\u00b2 = BC\u00b2 + DA\u00b2."
+ },
+ {
+  "idx": 27,
+  "marks": 5,
+  "type": "long",
+  "text": "State and prove the Basic Proportionality Theorem (Thales theorem)."
+ },
+ {
+  "idx": 28,
+  "marks": 5,
+  "type": "long",
+  "text": "ABCD is a trapezium with AB \u2225 DC. A line EF parallel to AB meets AD at E and BC at F. Prove that AE/ED = BF/FC."
+ },
+ {
+  "idx": 29,
+  "marks": 5,
+  "type": "long",
+  "text": "In \u2206ABC, \u2220BAC = 90\u00b0 and AD \u22a5 BC, where D lies on BC. (a) Prove that AB\u00b2 = BD \u00d7 BC and AD\u00b2 = BD \u00d7 DC. (b) If BD = 9 cm and DC = 16 cm, find AB, AC and AD."
+ },
+ {
+  "idx": 30,
+  "marks": 5,
+  "type": "long",
+  "text": "ABCD is a trapezium with AB \u2225 DC and AB = 2 DC. Its diagonals AC and BD intersect at O. (a) Prove that \u2206AOB \u223c \u2206COD. (b) Prove that O divides each diagonal in the ratio 2 : 1 (OA = 2 OC and OB = 2 OD). (c) If the area of \u2206COD is 15 cm\u00b2, find the area of \u2206AOB."
+ },
+ {
+  "idx": 31,
+  "marks": 5,
+  "type": "long",
+  "text": "In \u2206ABC, D lies on AB and E lies on AC such that \u2220ADE = \u2220ACB. (a) Prove that \u2206ADE \u223c \u2206ACB. (b) If AB = 12 cm, AD = 5 cm, AC = 10 cm and BC = 14 cm, find AE and DE. (c) Find the ratio of the areas of \u2206ADE and \u2206ACB."
+ },
+ {
+  "idx": 32,
+  "marks": 5,
+  "type": "long",
+  "text": "ABCD is a parallelogram. A point P lies on side DC. The line AP meets the diagonal BD at R and meets BC produced at Q. Prove that AR\u00b2 = PR \u00d7 RQ."
+ },
+ {
+  "idx": 33,
+  "marks": 5,
+  "type": "long",
+  "text": "In \u2206ABC, AB = 15 cm, AC = 20 cm and BC = 10 cm. D lies on AB with AD = 6 cm, and E lies on AC with DE \u2225 BC. A line through E parallel to AB meets BC at F. (a) Find AE and EC. (b) Find CF and FB. (c) Find DE and hence show that DE = BF."
+ },
+ {
+  "idx": 34,
+  "marks": 5,
+  "type": "long",
+  "text": "Prove that the ratio of the areas of two similar triangles is equal to the square of the ratio of their corresponding sides."
+ },
+ {
+  "idx": 35,
+  "marks": 5,
+  "type": "long",
+  "text": "ABC is an equilateral triangle of side a. D is a point on BC such that BD = BC/4. Prove that 16 AD\u00b2 = 13 AB\u00b2. Hence find AD when AB = 8 cm."
+ },
+ {
+  "idx": 36,
+  "marks": 4,
+  "type": "case",
+  "text": "A school is installing a vertical flag mast on level ground. To estimate its height, Meera, who is 1.5 m tall, stands upright near the mast. At that moment her shadow is 2 m long while the shadow of the mast is 12 m long. The mast will be held by a steel wire fixed to its top and to a point on the ground in line with the mast's base.\n(i) Name the similarity criterion by which the triangle formed by Meera and her shadow is similar to the triangle formed by the mast and its shadow. [1]\n(ii) Find the height of the mast. [1]\n(iii) The wire is fixed to the ground at a point 12 m from the foot of the mast. Find the length of the wire. [2]\nOR\n(iii) Instead, a second wire is fixed to a point on the mast 6 m above the ground and to a ground point 8 m from the foot of the mast. Find the length of this wire. [2]"
+ }
+]

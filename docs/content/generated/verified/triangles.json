@@ -1,0 +1,671 @@
+[
+  {
+    "chapter": "Triangles",
+    "topic": "Basic proportionality theorem",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "In ∆ABC, D lies on AB and E on AC with DE ∥ BC. If AD = 4 cm, DB = 6 cm and AE = 6 cm, then EC =",
+    "options": [
+      "4 cm",
+      "6 cm",
+      "9 cm",
+      "10 cm"
+    ],
+    "answer": "Correct option: c) 9 cm. By the Basic Proportionality Theorem, AD/DB = AE/EC, so 4/6 = 6/EC and EC = 9 cm.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Basic proportionality theorem",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "In ∆ABC, DE ∥ BC with D on AB and E on AC. If AD = x cm, DB = (x − 2) cm, AE = (x + 2) cm and EC = (x − 1) cm, then x =",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "Correct option: b) 4. AD/DB = AE/EC gives x/(x−2) = (x+2)/(x−1), so x² − x = x² − 4, hence x = 4.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Basic proportionality theorem",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "In ∆PQR, S lies on PQ and T on PR with ST ∥ QR. If PS : SQ = 3 : 5 and PR = 24 cm, then PT =",
+    "options": [
+      "9 cm",
+      "15 cm",
+      "8 cm",
+      "10 cm"
+    ],
+    "answer": "Correct option: a) 9 cm. PT : TR = PS : SQ = 3 : 5, so PT = (3/8) × 24 = 9 cm.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Basic proportionality theorem",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "In ∆ABC, DE ∥ BC where D is on AB and E is on AC. If AD = 4 cm, AB = 10 cm and AC = 15 cm, then AE =",
+    "options": [
+      "5 cm",
+      "6 cm",
+      "7.5 cm",
+      "9 cm"
+    ],
+    "answer": "Correct option: b) 6 cm. By BPT (equivalently ∆ADE ∼ ∆ABC), AD/AB = AE/AC, so AE = 15 × 4/10 = 6 cm.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Basic proportionality theorem",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "D and E are points on sides AB and AC of ∆ABC. For which of the following sets of measures is DE ∥ BC?",
+    "options": [
+      "AD = 3 cm, DB = 5 cm, AE = 4 cm, EC = 6 cm",
+      "AD = 2 cm, DB = 3 cm, AE = 4 cm, EC = 6 cm",
+      "AD = 4 cm, DB = 6 cm, AE = 5 cm, EC = 8 cm",
+      "AD = 6 cm, DB = 9 cm, AE = 8 cm, EC = 10 cm"
+    ],
+    "answer": "Correct option: b) AD = 2 cm, DB = 3 cm, AE = 4 cm, EC = 6 cm. By the converse of BPT, DE ∥ BC iff AD/DB = AE/EC. Only in option b) is 2/3 = 4/6. The ratios in a), c), d) are 3/5 ≠ 2/3, 2/3 ≠ 5/8 and 2/3 ≠ 4/5.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Basic proportionality theorem",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "ABCD is a trapezium with AB ∥ CD. Its diagonals AC and BD intersect at O. If OA = x cm, OC = (x + 4) cm, OB = 9 cm and OD = 15 cm, then OA =",
+    "options": [
+      "4 cm",
+      "5 cm",
+      "6 cm",
+      "8 cm"
+    ],
+    "answer": "Correct option: c) 6 cm. ∆OAB ∼ ∆OCD (AA), so OA/OC = OB/OD: x/(x+4) = 9/15 = 3/5, so 5x = 3x + 12 and x = 6. Thus OA = 6 cm.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Basic proportionality theorem",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "A line is drawn through the midpoint D of side AB of ∆ABC parallel to BC and meets AC at E. If AC = 18.6 cm, then CE =",
+    "options": [
+      "4.65 cm",
+      "9.3 cm",
+      "18.6 cm",
+      "12.4 cm"
+    ],
+    "answer": "Correct option: b) 9.3 cm. Since AD/DB = 1, BPT gives AE/EC = 1, so E is the midpoint of AC and CE = 18.6/2 = 9.3 cm.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Similarity criteria",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "If ∆ABC ∼ ∆PQR with ∠A = 47° and ∠R = 63°, then ∠B =",
+    "options": [
+      "47°",
+      "63°",
+      "70°",
+      "110°"
+    ],
+    "answer": "Correct option: c) 70°. ∠C = ∠R = 63°, so ∠B = 180° − 47° − 63° = 70°.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Similarity criteria",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "AB ∥ PQ, and the line segments AQ and BP intersect at O. If AB = 6 cm, PQ = 15 cm and OP = 10 cm, then OB =",
+    "options": [
+      "25 cm",
+      "9 cm",
+      "5 cm",
+      "4 cm"
+    ],
+    "answer": "Correct option: d) 4 cm. ∆OAB ∼ ∆OQP (AA, since AB ∥ QP and the vertical angles at O are equal). So OB/OP = AB/QP = 6/15, giving OB = 10 × 6/15 = 4 cm.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Similarity criteria",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "In ∆ABC, AB = 6 cm, AC = 9 cm and ∠A = 50°. In ∆PQR, PQ = 4 cm, PR = 6 cm and ∠P = 50°. The two triangles are similar by the criterion",
+    "options": [
+      "AA",
+      "SSS",
+      "SAS",
+      "RHS"
+    ],
+    "answer": "Correct option: c) SAS. AB/PQ = 6/4 = 3/2 and AC/PR = 9/6 = 3/2, and the included angles ∠A = ∠P. Hence ∆ABC ∼ ∆PQR by SAS similarity.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Similarity criteria",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "In ∆ABC and ∆DEF, ∠B = ∠E and ∠C = ∠F. If AB = 3 DE, which of the following is true?",
+    "options": [
+      "AC = 3 EF",
+      "BC = 3 EF",
+      "BC = 3 DF",
+      "AC = 3 DE"
+    ],
+    "answer": "Correct option: b) BC = 3 EF. By AA, ∆ABC ∼ ∆DEF with A↔D, B↔E, C↔F. Hence AB/DE = BC/EF = AC/DF = 3, so BC = 3 EF.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Similarity criteria",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "In ∆ABC, ∠B = 90° and BD ⊥ AC where D lies on AC. If AD = 4 cm and DC = 9 cm, then BD =",
+    "options": [
+      "5 cm",
+      "6 cm",
+      "6.5 cm",
+      "13 cm"
+    ],
+    "answer": "Correct option: b) 6 cm. ∆ADB ∼ ∆BDC, so AD/BD = BD/DC and BD² = AD × DC = 36. Hence BD = 6 cm.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Similarity criteria",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "In ∆ABC, D is a point on AB and E a point on AC such that DE ∥ BC. If AD = 3 cm and DB = 2 cm, then DE : BC =",
+    "options": [
+      "3 : 2",
+      "3 : 5",
+      "2 : 5",
+      "2 : 3"
+    ],
+    "answer": "Correct option: b) 3 : 5. ∆ADE ∼ ∆ABC (AA), so DE/BC = AD/AB = 3/(3+2) = 3/5.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Areas of similar triangles",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The areas of two similar triangles are 36 cm² and 100 cm². If a median of the smaller triangle is 4.5 cm, the corresponding median of the larger triangle is",
+    "options": [
+      "2.7 cm",
+      "7.5 cm",
+      "12.5 cm",
+      "8.1 cm"
+    ],
+    "answer": "Correct option: b) 7.5 cm. Ratio of corresponding sides (and medians) = √(100/36) = 10/6. So the median = 4.5 × 10/6 = 7.5 cm.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Areas of similar triangles",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": true,
+    "text": "In ∆ABC, DE ∥ BC with D on AB and E on AC, and AD : DB = 2 : 3. If the area of ∆ADE is 20 cm², the area of quadrilateral DBCE is",
+    "options": [
+      "45 cm²",
+      "105 cm²",
+      "125 cm²",
+      "50 cm²"
+    ],
+    "answer": "Correct option: b) 105 cm². AD/AB = 2/5, so ar(ADE)/ar(ABC) = 4/25. Hence ar(ABC) = 20 × 25/4 = 125 cm², and ar(DBCE) = 125 − 20 = 105 cm².",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Pythagoras theorem and its converse",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A vertical pole 3.6 m high casts a shadow 2.4 m long on level ground. At the same time a tower casts a shadow 28 m long. The height of the tower is",
+    "options": [
+      "18.7 m",
+      "31.6 m",
+      "42 m",
+      "60 m"
+    ],
+    "answer": "Correct option: c) 42 m. The sun's rays make equal angles, so the two right triangles are similar (AA): H/28 = 3.6/2.4, so H = 28 × 1.5 = 42 m.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Pythagoras theorem and its converse",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Which of the following can be the sides of a right-angled triangle?",
+    "options": [
+      "9 cm, 12 cm, 16 cm",
+      "10 cm, 24 cm, 26 cm",
+      "6 cm, 8 cm, 11 cm",
+      "5 cm, 11 cm, 13 cm"
+    ],
+    "answer": "Correct option: b) 10 cm, 24 cm, 26 cm. By the converse of Pythagoras theorem: 10² + 24² = 100 + 576 = 676 = 26². The other sets fail (225 ≠ 256, 100 ≠ 121, 146 ≠ 169).",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Proofs on similar triangles",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "In ∆ABC, D is a point on BC such that ∠ADC = ∠BAC. If BC = 16 cm and CD = 4 cm, then AC =",
+    "options": [
+      "6 cm",
+      "8 cm",
+      "10 cm",
+      "12 cm"
+    ],
+    "answer": "Correct option: b) 8 cm. In ∆CDA and ∆CAB, ∠C is common and ∠CDA = ∠CAB, so ∆CDA ∼ ∆CAB. Then CD/CA = CA/CB, so AC² = CD × CB = 64 and AC = 8 cm.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Pythagoras theorem and its converse",
+    "slot": "A-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Assertion (A): A triangle with sides 7 cm, 24 cm and 25 cm is right-angled, with the right angle opposite the side of 25 cm.\nReason (R): If in a triangle the square of one side equals the sum of the squares of the other two sides, then the angle opposite the first side is a right angle.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: a) Both A and R are true and R is the correct explanation of A. Here 7² + 24² = 49 + 576 = 625 = 25², so by the converse of Pythagoras theorem (R, which is a true statement) the angle opposite the 25 cm side is 90°. R directly justifies A.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Basic proportionality theorem",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "In ∆ABC, D lies on AB and E on AC with DE ∥ BC. If AD = (x + 1) cm, DB = 2x cm, AE = (x + 3) cm and EC = 3x cm, find x and the length of AC.",
+    "answer": "DE ∥ BC, so by BPT AD/DB = AE/EC.\n(x+1)/(2x) = (x+3)/(3x) ⇒ 3(x+1) = 2(x+3) ⇒ 3x + 3 = 2x + 6 ⇒ x = 3.\nThen AE = 6 cm, EC = 9 cm, so AC = 6 + 9 = 15 cm.\nAnswer: x = 3, AC = 15 cm.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Basic proportionality theorem",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "In ∆ABC, D is a point on AB and E is a point on AC such that DE ∥ BC. A line through E parallel to CD meets AB at F. Prove that AD² = AF × AB.",
+    "answer": "In ∆ABC, DE ∥ BC, so by BPT AD/AB = AE/AC ... (1)\nIn ∆ADC, EF ∥ DC (F on AD, E on AC), so by BPT AF/AD = AE/AC ... (2)\nFrom (1) and (2): AD/AB = AF/AD, hence AD² = AF × AB. Hence proved.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Proofs on similar triangles",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "In ∆ABC, P lies on AB and Q lies on AC such that ∠APQ = ∠ACB. Prove that ∆APQ ∼ ∆ACB and hence that AP × AB = AQ × AC.",
+    "answer": "In ∆APQ and ∆ACB: ∠A = ∠A (common) and ∠APQ = ∠ACB (given). So ∆APQ ∼ ∆ACB by AA, with A↔A, P↔C, Q↔B.\nCorresponding sides are proportional: AP/AC = AQ/AB, hence AP × AB = AQ × AC. Hence proved.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Proofs on similar triangles",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": false,
+    "text": "ABCD is a parallelogram. E is a point on side AD, and BE, when extended, meets CD produced at F. Prove that ∆ABE ∼ ∆DFE.",
+    "answer": "Since ABCD is a parallelogram, AB ∥ CD, i.e. AB ∥ DF with BF a transversal. So ∠ABE = ∠DFE (alternate angles).\nAlso ∠AEB = ∠DEF (vertically opposite angles, as AD and BF intersect at E).\nHence ∆ABE ∼ ∆DFE by AA similarity. Hence proved.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Similarity criteria",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": false,
+    "text": "In ∆ABC, AB = 6 cm, BC = 8 cm and CA = 10 cm. In ∆PQR, PQ = 9 cm, QR = 12 cm and RP = 15 cm. Show that the triangles are similar and find ∠Q.",
+    "answer": "AB/PQ = 6/9 = 2/3, BC/QR = 8/12 = 2/3, CA/RP = 10/15 = 2/3. All ratios are equal, so ∆ABC ∼ ∆PQR (SSS similarity), with ∠B = ∠Q.\nNow AB² + BC² = 36 + 64 = 100 = CA², so by the converse of Pythagoras theorem ∠B = 90°.\nHence ∠Q = 90°.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Areas of similar triangles",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": false,
+    "text": "∆ABC ∼ ∆PQR. The areas of ∆ABC and ∆PQR are 48 cm² and 108 cm² respectively. If BC = 8 cm, find QR.",
+    "answer": "Ratio of areas = square of ratio of corresponding sides: ar(PQR)/ar(ABC) = QR²/BC².\n108/48 = QR²/64 ⇒ QR² = 64 × 9/4 = 144 ⇒ QR = 12 cm.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Pythagoras theorem and its converse",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A 25 m long ladder rests against a vertical wall with its foot 7 m from the base of the wall. The top of the ladder slips down 4 m along the wall. How far does the foot of the ladder move away from the wall?",
+    "answer": "Initially the height reached = √(25² − 7²) = √576 = 24 m.\nAfter slipping 4 m the height is 20 m, so the new distance of the foot from the wall = √(25² − 20²) = √225 = 15 m.\nThe foot moves 15 − 7 = 8 m away from the wall.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Pythagoras theorem and its converse",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The diagonals AC and BD of a quadrilateral ABCD intersect at O at right angles. Prove that AB² + CD² = BC² + DA².",
+    "answer": "Since AC ⊥ BD, each of the triangles OAB, OBC, OCD, ODA is right-angled at O. By Pythagoras theorem:\nAB² = OA² + OB²\nBC² = OB² + OC²\nCD² = OC² + OD²\nDA² = OD² + OA²\nAdding the first and third: AB² + CD² = OA² + OB² + OC² + OD².\nAdding the second and fourth: BC² + DA² = OB² + OC² + OD² + OA².\nThe right-hand sides are equal, so AB² + CD² = BC² + DA². Hence proved.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Basic proportionality theorem",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "easy",
+    "competency": false,
+    "text": "State and prove the Basic Proportionality Theorem (Thales theorem).",
+    "answer": "Statement: If a line is drawn parallel to one side of a triangle to intersect the other two sides at distinct points, the other two sides are divided in the same ratio.\nGiven: In ∆ABC, DE ∥ BC with D on AB and E on AC.\nTo prove: AD/DB = AE/EC.\nConstruction: Join BE and CD. Draw EM ⊥ AB and DN ⊥ AC.\nProof: ar(∆ADE) = ½ × AD × EM and ar(∆BDE) = ½ × DB × EM. So ar(ADE)/ar(BDE) = AD/DB ... (1)\nSimilarly ar(ADE)/ar(CDE) = (½ × AE × DN)/(½ × EC × DN) = AE/EC ... (2)\n∆BDE and ∆CDE are on the same base DE and between the same parallels DE and BC, so ar(BDE) = ar(CDE) ... (3)\nFrom (1), (2), (3): AD/DB = AE/EC. Hence proved.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Basic proportionality theorem",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": false,
+    "text": "ABCD is a trapezium with AB ∥ DC. A line EF parallel to AB meets AD at E and BC at F. Prove that AE/ED = BF/FC.",
+    "answer": "Join AC, meeting EF at G.\nIn ∆ADC, EG ∥ DC (since EF ∥ AB ∥ DC). By BPT, AE/ED = AG/GC ... (1)\nIn ∆CAB, GF ∥ AB (since EF ∥ AB). By BPT, CG/GA = CF/FB, i.e. AG/GC = BF/FC ... (2)\nFrom (1) and (2): AE/ED = BF/FC. Hence proved.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Proofs on similar triangles",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": false,
+    "text": "In ∆ABC, ∠BAC = 90° and AD ⊥ BC, where D lies on BC. (a) Prove that AB² = BD × BC and AD² = BD × DC. (b) If BD = 9 cm and DC = 16 cm, find AB, AC and AD.",
+    "answer": "(a) In ∆ADB and ∆CAB: ∠B is common and ∠ADB = ∠CAB = 90°, so ∆ADB ∼ ∆CAB (AA). Hence BD/AB = AB/BC, i.e. AB² = BD × BC.\nIn ∆ADB and ∆CDA: ∠ADB = ∠CDA = 90°, and ∠BAD = 90° − ∠B = ∠C (as ∠B + ∠C = 90°). So ∆ADB ∼ ∆CDA (AA), giving AD/CD = BD/AD, i.e. AD² = BD × DC.\n(b) BC = 9 + 16 = 25 cm.\nAB² = 9 × 25 = 225 ⇒ AB = 15 cm.\nAC² = CD × CB = 16 × 25 = 400 ⇒ AC = 20 cm (by the same argument with ∆CDA ∼ ∆CAB).\nAD² = 9 × 16 = 144 ⇒ AD = 12 cm.\nCheck: AB² + AC² = 225 + 400 = 625 = BC².",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Proofs on similar triangles",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": false,
+    "text": "ABCD is a trapezium with AB ∥ DC and AB = 2 DC. Its diagonals AC and BD intersect at O. (a) Prove that ∆AOB ∼ ∆COD. (b) Prove that O divides each diagonal in the ratio 2 : 1 (OA = 2 OC and OB = 2 OD). (c) If the area of ∆COD is 15 cm², find the area of ∆AOB.",
+    "answer": "(a) In ∆AOB and ∆COD: ∠AOB = ∠COD (vertically opposite angles); ∠OAB = ∠OCD (alternate angles, AB ∥ DC with transversal AC). So ∆AOB ∼ ∆COD by AA, with A↔C, B↔D, O↔O.\n(b) Corresponding sides are proportional: OA/OC = OB/OD = AB/CD = 2. Hence OA = 2 OC and OB = 2 OD, so O divides AC and BD in the ratio 2 : 1.\n(c) The ratio of areas of similar triangles equals the square of the ratio of corresponding sides: ar(AOB)/ar(COD) = (AB/CD)² = 4. So ar(AOB) = 4 × 15 = 60 cm².",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Proofs on similar triangles",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": false,
+    "text": "In ∆ABC, D lies on AB and E lies on AC such that ∠ADE = ∠ACB. (a) Prove that ∆ADE ∼ ∆ACB. (b) If AB = 12 cm, AD = 5 cm, AC = 10 cm and BC = 14 cm, find AE and DE. (c) Find the ratio of the areas of ∆ADE and ∆ACB.",
+    "answer": "(a) In ∆ADE and ∆ACB: ∠A = ∠A (common) and ∠ADE = ∠ACB (given). So ∆ADE ∼ ∆ACB by AA, with A↔A, D↔C, E↔B.\n(b) Corresponding sides: AD/AC = AE/AB = DE/CB.\nAD/AC = 5/10 = 1/2. So AE = AB/2 = 6 cm and DE = BC/2 = 7 cm.\n(c) ar(ADE)/ar(ACB) = (AD/AC)² = (1/2)² = 1/4, i.e. 1 : 4.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Proofs on similar triangles",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": false,
+    "text": "ABCD is a parallelogram. A point P lies on side DC. The line AP meets the diagonal BD at R and meets BC produced at Q. Prove that AR² = PR × RQ.",
+    "answer": "R lies between D and B and between A and P; P lies between R and Q.\nIn ∆RDP and ∆RBA: DP ∥ AB (DC ∥ AB), so ∠RDP = ∠RBA (alternate angles), and ∠DRP = ∠BRA (vertically opposite). So ∆RDP ∼ ∆RBA by AA. Hence PR/AR = DR/BR ... (1)\nIn ∆RAD and ∆RQB: AD ∥ BQ (AD ∥ BC), so ∠RDA = ∠RBQ (alternate angles), and ∠ARD = ∠QRB (vertically opposite). So ∆RAD ∼ ∆RQB by AA. Hence AR/QR = DR/BR ... (2)\nFrom (1) and (2): PR/AR = AR/QR, so AR² = PR × RQ. Hence proved.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Basic proportionality theorem",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": true,
+    "text": "In ∆ABC, AB = 15 cm, AC = 20 cm and BC = 10 cm. D lies on AB with AD = 6 cm, and E lies on AC with DE ∥ BC. A line through E parallel to AB meets BC at F. (a) Find AE and EC. (b) Find CF and FB. (c) Find DE and hence show that DE = BF.",
+    "answer": "(a) By BPT in ∆ABC with DE ∥ BC: AD/AB = AE/AC ⇒ AE = 20 × 6/15 = 8 cm, so EC = 20 − 8 = 12 cm.\n(b) EF ∥ AB, so in ∆ABC by BPT: CF/FB = CE/EA = 12/8 = 3/2. Hence CF = (3/5) × 10 = 6 cm and FB = (2/5) × 10 = 4 cm.\n(c) ∆ADE ∼ ∆ABC (DE ∥ BC), so DE/BC = AD/AB = 6/15, giving DE = 10 × 6/15 = 4 cm.\nThus DE = 4 cm = BF. (Indeed DE ∥ BF and DB ∥ EF, so DBFE is a parallelogram and DE = BF.)",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Areas of similar triangles",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Prove that the ratio of the areas of two similar triangles is equal to the square of the ratio of their corresponding sides.",
+    "answer": "Given: ∆ABC ∼ ∆PQR.\nTo prove: ar(ABC)/ar(PQR) = (AB/PQ)² = (BC/QR)² = (CA/RP)².\nConstruction: Draw AM ⊥ BC and PN ⊥ QR.\nProof: ar(ABC) = ½ × BC × AM and ar(PQR) = ½ × QR × PN, so ar(ABC)/ar(PQR) = (BC × AM)/(QR × PN) ... (1)\nSince ∆ABC ∼ ∆PQR, ∠B = ∠Q and AB/PQ = BC/QR = CA/RP ... (2)\nIn ∆ABM and ∆PQN: ∠B = ∠Q and ∠M = ∠N = 90°, so ∆ABM ∼ ∆PQN (AA). Hence AM/PN = AB/PQ ... (3)\nFrom (2) and (3): AM/PN = AB/PQ = BC/QR.\nSubstituting in (1): ar(ABC)/ar(PQR) = (BC/QR) × (AM/PN) = (BC/QR) × (BC/QR) = (BC/QR)².\nBy (2), this equals (AB/PQ)² = (BC/QR)² = (CA/RP)². Hence proved.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Pythagoras theorem and its converse",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": false,
+    "text": "ABC is an equilateral triangle of side a. D is a point on BC such that BD = BC/4. Prove that 16 AD² = 13 AB². Hence find AD when AB = 8 cm.",
+    "answer": "Draw AE ⊥ BC. In an equilateral triangle the altitude bisects the base, so BE = a/2, and AE² = AB² − BE² = a² − a²/4 = 3a²/4.\nBD = a/4, so DE = BE − BD = a/2 − a/4 = a/4.\nIn right ∆AED: AD² = AE² + DE² = 3a²/4 + a²/16 = 12a²/16 + a²/16 = 13a²/16.\nHence 16 AD² = 13 a² = 13 AB². Hence proved.\nFor AB = 8 cm: AD² = 13 × 64/16 = 52, so AD = √52 = 2√13 cm ≈ 7.21 cm.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Pythagoras theorem and its converse",
+    "slot": "E-case-study (4 marks, with sub-parts)",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A school is installing a vertical flag mast on level ground. To estimate its height, Meera, who is 1.5 m tall, stands upright near the mast. At that moment her shadow is 2 m long while the shadow of the mast is 12 m long. The mast will be held by a steel wire fixed to its top and to a point on the ground in line with the mast's base.\n(i) Name the similarity criterion by which the triangle formed by Meera and her shadow is similar to the triangle formed by the mast and its shadow. [1]\n(ii) Find the height of the mast. [1]\n(iii) The wire is fixed to the ground at a point 12 m from the foot of the mast. Find the length of the wire. [2]\nOR\n(iii) Instead, a second wire is fixed to a point on the mast 6 m above the ground and to a ground point 8 m from the foot of the mast. Find the length of this wire. [2]",
+    "answer": "(i) The sun's rays strike at the same angle, so the angles of elevation are equal; each triangle also has a right angle (person and mast are vertical). Hence the triangles are similar by AA similarity.\n(ii) Let the height be h. By similarity, h/1.5 = 12/2, so h = 1.5 × 6 = 9 m.\n(iii) The mast, the ground and the wire form a right triangle with legs 9 m and 12 m. Wire length = √(9² + 12²) = √225 = 15 m.\nOR (iii) Length = √(6² + 8²) = √100 = 10 m.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  }
+]

@@ -13,7 +13,7 @@ import {
   Select, SelectContent, SelectItem, SelectTrigger, SelectValue,
   Alert, AlertDescription, AlertTitle, toast, useConfirm,
 } from '@bloomneo/uikit';
-import { Plus, Pencil, Trash2, Eye, EyeOff, Search, Loader2, AlertTriangle, FileQuestion, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Plus, Pencil, Trash2, Eye, EyeOff, Search, Loader2, AlertTriangle, FileQuestion, ChevronLeft, ChevronRight, Check, X, Sparkles } from 'lucide-react';
 import { SEO } from '@/shared/SEO';
 import { api } from '@/shared/api';
 import { AdminPageHeader } from '../../components/AdminPageHeader';
@@ -21,14 +21,20 @@ import { PageLoading } from '../../components/PageLoading';
 
 type QType = 'mcq' | 'short' | 'long' | 'case';
 type Complexity = 'easy' | 'medium' | 'hard';
+type Review = 'draft' | 'approved' | 'rejected' | 'flagged';
 type Question = {
   id: string; topicId: string; topicPath: string[]; type: QType; complexity: Complexity; marks: number;
   text: string; options: string[] | null; answer: string | null; isActive: boolean; used?: boolean;
+  source: 'seed' | 'ai' | 'manual'; reviewStatus: Review; reviewNote: string | null;
 };
+type Counts = Record<Review, number>;
 type LibNode = { id: string; kind: string; name: string; children: LibNode[] };
 type Choice = { id: string; label: string; chapterId: string };
 
 const TYPE_LABEL: Record<QType, string> = { mcq: 'Multiple choice', short: 'Short answer', long: 'Long answer', case: 'Case study' };
+const REVIEW_TABS: { id: 'all' | Review; label: string }[] = [
+  { id: 'draft', label: 'To review' }, { id: 'flagged', label: 'Flagged' }, { id: 'approved', label: 'Approved' }, { id: 'rejected', label: 'Rejected' }, { id: 'all', label: 'All' },
+];
 const COMPLEXITY_LABEL: Record<Complexity, string> = { easy: 'Easy', medium: 'Medium', hard: 'Hard' };
 
 /** Every topic with its "Class › Subject › Chapter › Topic" label, and every chapter. */
@@ -55,7 +61,11 @@ export default function AdminQuestionsPage() {
   const [total, setTotal] = React.useState(0);
   const [pageSize, setPageSize] = React.useState(50);
   const [page, setPage] = React.useState(1);
-  const [filters, setFilters] = React.useState({ q: '', chapterId: 'all', type: 'all', complexity: 'all', status: 'all' });
+  const [filters, setFilters] = React.useState({ q: '', chapterId: 'all', type: 'all', complexity: 'all', status: 'all', review: 'all' });
+  const [counts, setCounts] = React.useState<Counts>({ draft: 0, approved: 0, rejected: 0, flagged: 0 });
+  const [picked, setPicked] = React.useState<Set<string>>(new Set());
+  const [reviewing, setReviewing] = React.useState(false);
+  const [preview, setPreview] = React.useState<Question | null>(null);
   const [topics, setTopics] = React.useState<Choice[]>([]);
   const [chapters, setChapters] = React.useState<{ id: string; label: string }[]>([]);
   const [loadError, setLoadError] = React.useState<string | null>(null);
@@ -76,10 +86,12 @@ export default function AdminQuestionsPage() {
     try {
       const query: Record<string, string> = { page: String(page) };
       if (filters.q.trim()) query.q = filters.q.trim();
-      for (const k of ['type', 'complexity', 'status'] as const) if (filters[k] !== 'all') query[k] = filters[k];
+      for (const k of ['type', 'complexity', 'status', 'review'] as const) if (filters[k] !== 'all') query[k] = filters[k];
       if (filters.chapterId !== 'all') query.chapterId = filters.chapterId;
-      const r = await api.get<{ questions: Question[]; total: number; pageSize: number }>('/api/questions', { query });
+      const r = await api.get<{ questions: Question[]; total: number; pageSize: number; counts: Counts }>('/api/questions', { query });
       setRows(r.questions);
+      setCounts(r.counts);
+      setPicked(new Set());
       setTotal(r.total);
       setPageSize(r.pageSize);
     } catch (err) {
@@ -92,6 +104,21 @@ export default function AdminQuestionsPage() {
     const t = setTimeout(() => void load(), filters.q ? 250 : 0);
     return () => clearTimeout(t);
   }, [load, filters.q]);
+
+  async function review(ids: string[], status: 'approved' | 'rejected') {
+    if (!ids.length || reviewing) return;
+    setReviewing(true);
+    try {
+      const r = await api.post<{ updated: number }>('/api/questions/review', { ids, status });
+      toast.success(`${r.updated} question${r.updated === 1 ? '' : 's'} ${status}`);
+      setPreview(null);
+      await load();
+    } catch (err) {
+      toast.error(err instanceof Error ? err.message : 'Could not update the review.');
+    } finally {
+      setReviewing(false);
+    }
+  }
 
   const setFilter = (patch: Partial<typeof filters>) => { setPage(1); setFilters((f) => ({ ...f, ...patch })); };
 
@@ -145,6 +172,18 @@ export default function AdminQuestionsPage() {
         actions={<Button onClick={() => { setFormError(null); setForm(blank(topics[0]?.id)); }} disabled={topics.length === 0}><Plus className="size-4" /> Add question</Button>}
       />
 
+      <div className="mb-3 flex flex-wrap gap-1.5" role="tablist" aria-label="Review status">
+        {REVIEW_TABS.map((t) => {
+          const n = t.id === 'all' ? counts.draft + counts.approved + counts.rejected + counts.flagged : counts[t.id];
+          const on = filters.review === t.id;
+          return (
+            <Button key={t.id} size="sm" variant={on ? 'default' : 'outline'} role="tab" aria-selected={on} onClick={() => setFilter({ review: t.id })}>
+              {t.label} <span className="ml-1.5 opacity-70">{n}</span>
+            </Button>
+          );
+        })}
+      </div>
+
       <div className="mb-4 grid gap-2 sm:grid-cols-2 lg:grid-cols-[1fr_12rem_10rem_9rem_9rem]">
         <div className="relative sm:col-span-2 lg:col-span-1">
           <Search className="absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" aria-hidden />
@@ -179,10 +218,22 @@ export default function AdminQuestionsPage() {
         </div>
       ) : (
         <>
+          {picked.size > 0 && (
+            <div className="mb-2 flex flex-wrap items-center gap-2 rounded-lg border border-border bg-muted px-3 py-2 text-sm">
+              <span>{picked.size} selected</span>
+              <Button size="sm" disabled={reviewing} onClick={() => review([...picked], 'approved')}><Check className="size-4" /> Approve</Button>
+              <Button size="sm" variant="outline" disabled={reviewing} onClick={() => review([...picked], 'rejected')}><X className="size-4" /> Reject</Button>
+              <Button size="sm" variant="ghost" onClick={() => setPicked(new Set())}>Clear</Button>
+            </div>
+          )}
           <div className="rounded-xl border border-border">
             <Table>
               <TableHeader>
                 <TableRow>
+                  <TableHead className="w-8">
+                    <input type="checkbox" aria-label="Select all on this page" checked={rows.length > 0 && picked.size === rows.length}
+                      onChange={(e) => setPicked(e.target.checked ? new Set(rows.map((r) => r.id)) : new Set())} />
+                  </TableHead>
                   <TableHead>Question</TableHead>
                   <TableHead className="hidden lg:table-cell">Topic</TableHead>
                   <TableHead className="hidden sm:table-cell">Type</TableHead>
@@ -192,9 +243,21 @@ export default function AdminQuestionsPage() {
               </TableHeader>
               <TableBody>
                 {rows.map((q) => (
-                  <TableRow key={q.id} className={q.isActive ? '' : 'opacity-60'}>
+                  <TableRow key={q.id} className={q.isActive || q.reviewStatus === 'draft' || q.reviewStatus === 'flagged' ? '' : 'opacity-60'}>
+                    <TableCell className="align-top">
+                      <input type="checkbox" aria-label="Select question" checked={picked.has(q.id)}
+                        onChange={(e) => setPicked((s) => { const n = new Set(s); e.target.checked ? n.add(q.id) : n.delete(q.id); return n; })} />
+                    </TableCell>
                     <TableCell className="min-w-44 align-top">
-                      <p className="line-clamp-2 whitespace-normal text-sm">{q.text}</p>
+                      <button type="button" className="text-left" onClick={() => setPreview(q)} aria-label="Open question">
+                        <p className="line-clamp-2 whitespace-normal text-sm">{q.text}</p>
+                      </button>
+                      <div className="mt-1 flex flex-wrap items-center gap-1.5">
+                        {q.source === 'ai' && <Badge variant="outline"><Sparkles className="mr-1 size-3" />AI</Badge>}
+                        {q.reviewStatus === 'draft' && <Badge variant="secondary">To review</Badge>}
+                        {q.reviewStatus === 'flagged' && <Badge variant="outline" className="text-destructive">Flagged</Badge>}
+                        {q.reviewStatus === 'rejected' && <Badge variant="outline">Rejected</Badge>}
+                      </div>
                       <div className="mt-1 flex flex-wrap items-center gap-1.5 sm:hidden">
                         <Badge variant="outline">{TYPE_LABEL[q.type]}</Badge>
                         <Badge variant="secondary">{COMPLEXITY_LABEL[q.complexity]}</Badge>
@@ -207,8 +270,11 @@ export default function AdminQuestionsPage() {
                         <span className="text-xs text-muted-foreground">{COMPLEXITY_LABEL[q.complexity]}</span>
                       </div>
                     </TableCell>
-                    <TableCell className="align-top">{q.marks}{!q.isActive && <Badge variant="secondary" className="ml-2">Hidden</Badge>}</TableCell>
+                    <TableCell className="align-top">{q.marks}{!q.isActive && q.reviewStatus === 'approved' && <Badge variant="secondary" className="ml-2">Hidden</Badge>}</TableCell>
                     <TableCell className="whitespace-nowrap text-right align-top">
+                      {(q.reviewStatus === 'draft' || q.reviewStatus === 'flagged') && (
+                        <Button size="icon" variant="ghost" aria-label="Approve question" title="Approve — makes it live" disabled={reviewing} onClick={() => review([q.id], 'approved')}><Check className="size-4 text-success" /></Button>
+                      )}
                       <Button variant="ghost" size="icon" aria-label="Edit question" title="Edit" onClick={() => edit(q)}><Pencil className="size-4" /></Button>
                       <Button variant="ghost" size="icon" aria-label={q.isActive ? 'Hide question' : 'Show question'} title={q.isActive ? 'Hide from new papers' : 'Show in new papers'} onClick={() => toggle(q)}>
                         {q.isActive ? <Eye className="size-4" /> : <EyeOff className="size-4" />}
@@ -231,6 +297,40 @@ export default function AdminQuestionsPage() {
           )}
         </>
       )}
+
+      <Dialog open={preview !== null} onOpenChange={(o) => !o && setPreview(null)}>
+        <DialogContent className="max-h-[90vh] overflow-y-auto sm:max-w-2xl">
+          {preview && (
+            <>
+              <DialogHeader>
+                <DialogTitle>{preview.topicPath.slice(-2).join(' › ')}</DialogTitle>
+                <DialogDescription>
+                  {TYPE_LABEL[preview.type]} · {COMPLEXITY_LABEL[preview.complexity]} · {preview.marks} mark{preview.marks === 1 ? '' : 's'}
+                  {preview.source === 'ai' ? ' · written by AI' : ''}
+                </DialogDescription>
+              </DialogHeader>
+              {preview.reviewNote && (
+                <Alert className="border-destructive/40 bg-destructive/8"><AlertTriangle className="size-4 text-destructive" /><AlertTitle>Reviewer note</AlertTitle><AlertDescription>{preview.reviewNote}</AlertDescription></Alert>
+              )}
+              <div className="space-y-3 text-sm">
+                <p className="whitespace-pre-wrap">{preview.text}</p>
+                {preview.options && (
+                  <ol className="list-[upper-alpha] space-y-1 pl-6">{preview.options.map((o, i) => <li key={i}>{o}</li>)}</ol>
+                )}
+                <div className="rounded-lg border border-border bg-muted p-3">
+                  <p className="mb-1 text-xs font-medium uppercase tracking-wide text-muted-foreground">Answer</p>
+                  <p className="whitespace-pre-wrap">{preview.answer || 'No answer recorded.'}</p>
+                </div>
+              </div>
+              <DialogFooter>
+                <Button variant="ghost" onClick={() => { const q = preview; setPreview(null); edit(q); }}><Pencil className="size-4" /> Edit</Button>
+                <Button variant="outline" disabled={reviewing} onClick={() => review([preview.id], 'rejected')}><X className="size-4" /> Reject</Button>
+                <Button disabled={reviewing || preview.reviewStatus === 'approved'} onClick={() => review([preview.id], 'approved')}><Check className="size-4" /> Approve</Button>
+              </DialogFooter>
+            </>
+          )}
+        </DialogContent>
+      </Dialog>
 
       <Dialog open={form !== null} onOpenChange={(o) => !o && setForm(null)}>
         <DialogContent className="max-h-[90vh] overflow-y-auto sm:max-w-2xl">

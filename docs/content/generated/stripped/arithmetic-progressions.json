@@ -1,0 +1,206 @@
+[
+ {
+  "idx": 0,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The 10th term of the AP 7, 11, 15, 19, ... is",
+  "options": [
+   "39",
+   "43",
+   "47",
+   "51"
+  ]
+ },
+ {
+  "idx": 1,
+  "marks": 1,
+  "type": "mcq",
+  "text": "In an AP, the 3rd term is 13 and the 7th term is 29. Its 10th term is",
+  "options": [
+   "37",
+   "41",
+   "45",
+   "33"
+  ]
+ },
+ {
+  "idx": 2,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The 7th term from the end of the AP 4, 9, 14, ..., 254 is",
+  "options": [
+   "219",
+   "224",
+   "229",
+   "249"
+  ]
+ },
+ {
+  "idx": 3,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The sum of the first 20 terms of the AP 5, 8, 11, 14, ... is",
+  "options": [
+   "650",
+   "670",
+   "635",
+   "1340"
+  ]
+ },
+ {
+  "idx": 4,
+  "marks": 1,
+  "type": "mcq",
+  "text": "If the sum of the first n terms of an AP is Sn = 3n\u00b2 + 2n, then its 10th term is",
+  "options": [
+   "59",
+   "61",
+   "320",
+   "53"
+  ]
+ },
+ {
+  "idx": 5,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Which term of the AP 3, 10, 17, 24, ... is 185?",
+  "options": [
+   "25th",
+   "26th",
+   "27th",
+   "28th"
+  ]
+ },
+ {
+  "idx": 6,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The first term of an AP is 5, the last term is 45 and the sum of all its terms is 250. The number of terms is",
+  "options": [
+   "5",
+   "8",
+   "10",
+   "12"
+  ]
+ },
+ {
+  "idx": 7,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The common difference of the AP whose nth term is an = 4 \u2212 3n is",
+  "options": [
+   "3",
+   "\u22123",
+   "4",
+   "1"
+  ]
+ },
+ {
+  "idx": 8,
+  "marks": 1,
+  "type": "mcq",
+  "text": "In an AP, the 12th term exceeds the 7th term by 35. The common difference is",
+  "options": [
+   "5",
+   "7",
+   "35",
+   "3"
+  ]
+ },
+ {
+  "idx": 9,
+  "marks": 1,
+  "type": "mcq",
+  "text": "If k + 2, 4k \u2212 6 and 3k \u2212 2 are three consecutive terms of an AP, then k is",
+  "options": [
+   "2",
+   "3",
+   "4",
+   "6"
+  ]
+ },
+ {
+  "idx": 10,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Assertion (A): If 5, x, 21 are three consecutive terms of an AP, then x = 13.\nReason (R): Three numbers a, b, c are in AP if and only if 2b = a + c.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ]
+ },
+ {
+  "idx": 11,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Assertion (A): The sequence whose nth term is an = n\u00b2 + 1 is an AP.\nReason (R): In an AP the difference between any two consecutive terms is the same constant.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ]
+ },
+ {
+  "idx": 12,
+  "marks": 2,
+  "type": "short",
+  "text": "Find the sum of all two-digit natural numbers that are divisible by 7."
+ },
+ {
+  "idx": 13,
+  "marks": 3,
+  "type": "short",
+  "text": "Find the first negative term of the AP 100, 94, 88, ... and state which term it is."
+ },
+ {
+  "idx": 14,
+  "marks": 3,
+  "type": "short",
+  "text": "Meera starts saving by putting \u20b9150 in her piggy bank in the first week and increases her deposit by \u20b925 every week. In which week will she deposit \u20b9400, and how much will she have saved by the end of that week?"
+ },
+ {
+  "idx": 15,
+  "marks": 3,
+  "type": "short",
+  "text": "The sum of the first 7 terms of an AP is 63 and the sum of the next 7 terms is 161. Find the 28th term of the AP."
+ },
+ {
+  "idx": 16,
+  "marks": 5,
+  "type": "long",
+  "text": "The 4th term of an AP is 11 and the sum of its 5th and 7th terms is 34. Find the common difference and the first term. Hence find which term of the AP is 59 and the sum of the first 20 terms."
+ },
+ {
+  "idx": 17,
+  "marks": 5,
+  "type": "long",
+  "text": "How many terms of the AP 24, 21, 18, ... must be taken so that their sum is 78? Explain why there are two answers, and verify them."
+ },
+ {
+  "idx": 18,
+  "marks": 4,
+  "type": "case",
+  "text": "A small auditorium has 25 rows of seats. The first row has 18 seats and each row has 2 more seats than the row in front of it.\n(i) How many seats are there in the 10th row? [1]\n(ii) Which row has 60 seats? [1]\n(iii) Find the total number of seats in the auditorium. [2]"
+ },
+ {
+  "idx": 19,
+  "marks": 4,
+  "type": "case",
+  "text": "Kabir is preparing for a race. He runs 3 km on the first day of his training and increases his distance by 0.4 km every day.\n(i) How far does he run on the 8th day? [1]\n(ii) On which day does he run 7 km? [1]\n(iii) What is the total distance he runs in the first 15 days? [2]"
+ },
+ {
+  "idx": 20,
+  "marks": 4,
+  "type": "case",
+  "text": "A school gives 7 cash prizes at its annual day. The first prize is \u20b9700 and every next prize is \u20b920 less than the prize before it.\n(i) What is the common difference of the AP formed by the prize amounts? [1]\n(ii) What is the amount of the 7th prize? [1]\n(iii) Find the total prize money for the 7 prizes. [2]\nOR\n(iii) If the school had given 9 prizes in the same way, what would the total prize money be? [2]"
+ },
+ {
+  "idx": 21,
+  "marks": 4,
+  "type": "case",
+  "text": "Ananya is reading a 300-page novel. She reads 12 pages on the first day and, every day after that, reads 4 pages more than on the previous day.\n(i) How many pages does she read on the 6th day? [1]\n(ii) How many pages has she read in total in the first 5 days? [1]\n(iii) In how many days does she finish the book, and how many pages does she read on the last day? [2]"
+ }
+]

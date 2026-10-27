@@ -24,6 +24,11 @@ router.post('/', error.asyncRoute(async (req, res) => {
   res.status(201).json({ question: await questionsService.create(userIdOf(req), req.body ?? {}) });
 }));
 
+router.post('/review', error.asyncRoute(async (req, res) => {
+  const { ids, status, note } = req.body ?? {};
+  res.json(await questionsService.review(userIdOf(req), ids, status, note));
+}));
+
 router.patch('/:id', error.asyncRoute(async (req, res) => {
   res.json({ question: await questionsService.update(userIdOf(req), req.params.id, req.body ?? {}) });
 }));

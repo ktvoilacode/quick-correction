@@ -233,11 +233,18 @@ model Question {
   text       String
   options    Json? // string[] for multiple choice
   answer     String?
+  competency Boolean        @default(false)
   isActive   Boolean        @default(true)
+  // Where it came from and whether an admin has checked it. AI-written
+  // questions arrive as 'draft' and hidden; approving makes them live.
+  source       String       @default("manual") // 'seed' | 'ai' | 'manual'
+  reviewStatus String       @default("approved") // 'draft' | 'approved' | 'rejected' | 'flagged'
+  reviewNote   String?
   createdAt  DateTime       @default(now())
   updatedAt  DateTime       @updatedAt
 
   @@index([topicId])
+  @@index([reviewStatus])
   @@map("questions")
 }
 

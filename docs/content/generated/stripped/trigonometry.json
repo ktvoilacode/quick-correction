@@ -1,0 +1,470 @@
+[
+ {
+  "idx": 0,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The value of sin 60\u00b0 cos 30\u00b0 \u2212 cos 60\u00b0 sin 30\u00b0 is",
+  "options": [
+   "0",
+   "1/2",
+   "1",
+   "\u221a3/2"
+  ]
+ },
+ {
+  "idx": 1,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The value of sec 60\u00b0 \u00b7 cos 30\u00b0 is",
+  "options": [
+   "\u221a3/2",
+   "1",
+   "2",
+   "\u221a3"
+  ]
+ },
+ {
+  "idx": 2,
+  "marks": 1,
+  "type": "mcq",
+  "text": "If tan 3A = \u221a3, where 3A is an acute angle, then A equals",
+  "options": [
+   "10\u00b0",
+   "30\u00b0",
+   "20\u00b0",
+   "60\u00b0"
+  ]
+ },
+ {
+  "idx": 3,
+  "marks": 1,
+  "type": "mcq",
+  "text": "If sin \u03b8 \u2212 cos \u03b8 = 1/2, then the value of sin \u03b8 cos \u03b8 is",
+  "options": [
+   "3/8",
+   "1/4",
+   "3/4",
+   "5/8"
+  ]
+ },
+ {
+  "idx": 4,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The value of (1 + tan\u00b2\u03b8)(1 \u2212 sin \u03b8)(1 + sin \u03b8) is",
+  "options": [
+   "sin\u00b2\u03b8",
+   "cos\u00b2\u03b8",
+   "tan\u00b2\u03b8",
+   "1"
+  ]
+ },
+ {
+  "idx": 5,
+  "marks": 1,
+  "type": "mcq",
+  "text": "If 7 sin\u00b2\u03b8 + 3 cos\u00b2\u03b8 = 4 and \u03b8 is acute, then tan \u03b8 equals",
+  "options": [
+   "\u221a3",
+   "1/\u221a3",
+   "1",
+   "1/2"
+  ]
+ },
+ {
+  "idx": 6,
+  "marks": 1,
+  "type": "mcq",
+  "text": "If sec \u03b8 = 13/12, then (2 sin \u03b8 \u2212 3 cos \u03b8)/(4 sin \u03b8 \u2212 9 cos \u03b8) equals",
+  "options": [
+   "13/22",
+   "\u221213/44",
+   "13/44",
+   "5/44"
+  ]
+ },
+ {
+  "idx": 7,
+  "marks": 1,
+  "type": "mcq",
+  "text": "If cosec A = 17/8 and A is acute, then tan A equals",
+  "options": [
+   "8/17",
+   "15/8",
+   "8/15",
+   "15/17"
+  ]
+ },
+ {
+  "idx": 8,
+  "marks": 1,
+  "type": "mcq",
+  "text": "sec \u03b8 (1 \u2212 sin \u03b8)(sec \u03b8 + tan \u03b8) is equal to",
+  "options": [
+   "sin \u03b8",
+   "1",
+   "cos \u03b8",
+   "sec\u00b2\u03b8"
+  ]
+ },
+ {
+  "idx": 9,
+  "marks": 1,
+  "type": "mcq",
+  "text": "sin\u2074\u03b8 \u2212 cos\u2074\u03b8 is equal to",
+  "options": [
+   "1 \u2212 2 sin\u00b2\u03b8",
+   "2 sin\u00b2\u03b8 \u2212 1",
+   "1",
+   "sin\u00b2\u03b8 cos\u00b2\u03b8"
+  ]
+ },
+ {
+  "idx": 10,
+  "marks": 1,
+  "type": "mcq",
+  "text": "tan\u00b2\u03b8 \u2212 sin\u00b2\u03b8 is equal to",
+  "options": [
+   "sin\u00b2\u03b8 cos\u00b2\u03b8",
+   "tan\u00b2\u03b8 cos\u00b2\u03b8",
+   "cot\u00b2\u03b8 sin\u00b2\u03b8",
+   "tan\u00b2\u03b8 sin\u00b2\u03b8"
+  ]
+ },
+ {
+  "idx": 11,
+  "marks": 1,
+  "type": "mcq",
+  "text": "1/(1 + sin A) + 1/(1 \u2212 sin A) is equal to",
+  "options": [
+   "2 sec A",
+   "2 sec\u00b2A",
+   "2 cosec\u00b2A",
+   "2 cos\u00b2A"
+  ]
+ },
+ {
+  "idx": 12,
+  "marks": 1,
+  "type": "mcq",
+  "text": "(1 + tan\u00b2A)/(1 + cot\u00b2A) is equal to",
+  "options": [
+   "cot\u00b2A",
+   "sec\u00b2A",
+   "tan\u00b2A",
+   "1"
+  ]
+ },
+ {
+  "idx": 13,
+  "marks": 1,
+  "type": "mcq",
+  "text": "If x = sec \u03b8 + tan \u03b8, then sec \u03b8 \u2212 tan \u03b8 is equal to",
+  "options": [
+   "x",
+   "\u2212x",
+   "1/x",
+   "x \u2212 1"
+  ]
+ },
+ {
+  "idx": 14,
+  "marks": 1,
+  "type": "mcq",
+  "text": "cos \u03b8/(1 \u2212 sin \u03b8) is equal to",
+  "options": [
+   "sec \u03b8 \u2212 tan \u03b8",
+   "cosec \u03b8 + cot \u03b8",
+   "sec \u03b8 + tan \u03b8",
+   "cosec \u03b8 \u2212 cot \u03b8"
+  ]
+ },
+ {
+  "idx": 15,
+  "marks": 1,
+  "type": "mcq",
+  "text": "(sin \u03b8 + cosec \u03b8)\u00b2 + (cos \u03b8 + sec \u03b8)\u00b2 is equal to",
+  "options": [
+   "5 + tan\u00b2\u03b8 + cot\u00b2\u03b8",
+   "7 + sec\u00b2\u03b8 + cosec\u00b2\u03b8",
+   "7 + tan\u00b2\u03b8 cot\u00b2\u03b8",
+   "7 + tan\u00b2\u03b8 + cot\u00b2\u03b8"
+  ]
+ },
+ {
+  "idx": 16,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A kite string, 40 m long, is held taut and makes an angle of 60\u00b0 with the level ground. Ignoring any sag and taking the hand at ground level, the height of the kite above the ground is",
+  "options": [
+   "20 m",
+   "20\u221a3 m",
+   "40\u221a3 m",
+   "40/\u221a3 m"
+  ]
+ },
+ {
+  "idx": 17,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A ladder reaches a window 9 m above the ground and makes an angle of 30\u00b0 with the ground. The length of the ladder is",
+  "options": [
+   "9 m",
+   "9\u221a3 m",
+   "18 m",
+   "18\u221a3 m"
+  ]
+ },
+ {
+  "idx": 18,
+  "marks": 1,
+  "type": "mcq",
+  "text": "An observer on the roof of a 20 m high building sees a car on level ground at an angle of depression of 30\u00b0. The distance of the car from the foot of the building is",
+  "options": [
+   "20/\u221a3 m",
+   "20 m",
+   "40 m",
+   "20\u221a3 m"
+  ]
+ },
+ {
+  "idx": 19,
+  "marks": 1,
+  "type": "mcq",
+  "text": "From a point on level ground the angle of elevation of the top of a tower is 45\u00b0. After walking 30 m towards the foot of the tower the angle of elevation becomes 60\u00b0. The height of the tower is",
+  "options": [
+   "15(\u221a3 + 1) m",
+   "15(3 + \u221a3) m",
+   "30(\u221a3 \u2212 1) m",
+   "30(\u221a3 + 1) m"
+  ]
+ },
+ {
+  "idx": 20,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A vertical pole 12 m high casts a shadow 4\u221a3 m long on level ground. The angle of elevation of the Sun is",
+  "options": [
+   "30\u00b0",
+   "45\u00b0",
+   "60\u00b0",
+   "75\u00b0"
+  ]
+ },
+ {
+  "idx": 21,
+  "marks": 1,
+  "type": "mcq",
+  "text": "From the top of a 60 m high cliff, the angles of depression of two boats on the same side, in line with the foot of the cliff, are 30\u00b0 and 60\u00b0. The distance between the boats is",
+  "options": [
+   "20\u221a3 m",
+   "40\u221a3 m",
+   "80\u221a3 m",
+   "60(\u221a3 \u2212 1) m"
+  ]
+ },
+ {
+  "idx": 22,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Assertion (A): (1 + tan\u00b2\u03b8) cos\u00b2\u03b8 = 1 for every acute angle \u03b8.\nReason (R): 1 + tan\u00b2\u03b8 = sec\u00b2\u03b8.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ]
+ },
+ {
+  "idx": 23,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Assertion (A): There is an acute angle \u03b8 for which sec \u03b8 = 3/5.\nReason (R): In a right-angled triangle the hypotenuse is the longest side, so sec \u03b8 = hypotenuse/base is always greater than 1 for an acute angle \u03b8.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ]
+ },
+ {
+  "idx": 24,
+  "marks": 2,
+  "type": "short",
+  "text": "Evaluate: 4 sin\u00b230\u00b0 + 3 tan\u00b260\u00b0 \u2212 2 sec\u00b245\u00b0."
+ },
+ {
+  "idx": 25,
+  "marks": 2,
+  "type": "short",
+  "text": "If sin (A + B) = 1 and cos (A \u2212 B) = \u221a3/2, where 0\u00b0 < A + B \u2264 90\u00b0 and A > B, find the values of A and B."
+ },
+ {
+  "idx": 26,
+  "marks": 2,
+  "type": "short",
+  "text": "If sin \u03b8 + cos \u03b8 = 5/4, find the value of sin \u03b8 cos \u03b8 and hence of tan \u03b8 + cot \u03b8."
+ },
+ {
+  "idx": 27,
+  "marks": 2,
+  "type": "short",
+  "text": "Find the value of p if p sin 30\u00b0 + 4 cos\u00b260\u00b0 = 3 tan\u00b245\u00b0 + cosec 30\u00b0."
+ },
+ {
+  "idx": 28,
+  "marks": 2,
+  "type": "short",
+  "text": "If 13 sin A = 5 and A is acute, evaluate (5 sin A \u2212 2 cos A)/tan A."
+ },
+ {
+  "idx": 29,
+  "marks": 2,
+  "type": "short",
+  "text": "Prove that cos \u03b8/(1 + sin \u03b8) + (1 + sin \u03b8)/cos \u03b8 = 2 sec \u03b8."
+ },
+ {
+  "idx": 30,
+  "marks": 2,
+  "type": "short",
+  "text": "Prove that sin \u03b8 (1 + tan \u03b8) + cos \u03b8 (1 + cot \u03b8) = sec \u03b8 + cosec \u03b8."
+ },
+ {
+  "idx": 31,
+  "marks": 2,
+  "type": "short",
+  "text": "A vertical tower casts a shadow 15 m long on level ground when the angle of elevation of the Sun is 60\u00b0. Find the height of the tower. (Use \u221a3 = 1.73)"
+ },
+ {
+  "idx": 32,
+  "marks": 2,
+  "type": "short",
+  "text": "From a point on level ground 30 m from the foot of a vertical pole, the angle of elevation of the top of the pole is 30\u00b0. Find the height of the pole and the distance of the top of the pole from the point. (Leave answers in surd form.)"
+ },
+ {
+  "idx": 33,
+  "marks": 2,
+  "type": "short",
+  "text": "A boy 1.5 m tall stands 20 m away from a vertical pole. The angle of elevation of the top of the pole from his eyes (take eye level as 1.5 m above ground) is 45\u00b0. Find the height of the pole above the ground."
+ },
+ {
+  "idx": 34,
+  "marks": 3,
+  "type": "short",
+  "text": "Prove that (cot \u03b8 \u2212 cos \u03b8)/(cot \u03b8 + cos \u03b8) = (cosec \u03b8 \u2212 1)/(cosec \u03b8 + 1)."
+ },
+ {
+  "idx": 35,
+  "marks": 3,
+  "type": "short",
+  "text": "Prove that (sec \u03b8 \u2212 cos \u03b8)/(sec \u03b8 + cos \u03b8) = sin\u00b2\u03b8/(1 + cos\u00b2\u03b8)."
+ },
+ {
+  "idx": 36,
+  "marks": 3,
+  "type": "short",
+  "text": "Prove that (1 + sin \u03b8)/(1 \u2212 sin \u03b8) = (sec \u03b8 + tan \u03b8)\u00b2."
+ },
+ {
+  "idx": 37,
+  "marks": 3,
+  "type": "short",
+  "text": "Prove that tan\u00b2\u03b8/(1 + tan\u00b2\u03b8) + cot\u00b2\u03b8/(1 + cot\u00b2\u03b8) = 1."
+ },
+ {
+  "idx": 38,
+  "marks": 3,
+  "type": "short",
+  "text": "Prove that (cosec \u03b8 \u2212 sin \u03b8)(sec \u03b8 \u2212 cos \u03b8)(tan \u03b8 + cot \u03b8) = 1."
+ },
+ {
+  "idx": 39,
+  "marks": 3,
+  "type": "short",
+  "text": "If tan \u03b8 + sin \u03b8 = m and tan \u03b8 \u2212 sin \u03b8 = n, prove that m\u00b2 \u2212 n\u00b2 = 4\u221a(mn)."
+ },
+ {
+  "idx": 40,
+  "marks": 3,
+  "type": "short",
+  "text": "A flagstaff 10 m high stands on top of a tower. From a point on level ground, the angles of elevation of the bottom and the top of the flagstaff are 30\u00b0 and 45\u00b0 respectively. Find the height of the tower. (Use \u221a3 = 1.73)"
+ },
+ {
+  "idx": 41,
+  "marks": 3,
+  "type": "short",
+  "text": "Two points A and B lie on level ground on opposite sides of a 30 m high tower and in line with its foot. The angles of elevation of the top of the tower from A and B are 30\u00b0 and 60\u00b0 respectively. Find the distance AB. (Use \u221a3 = 1.73)"
+ },
+ {
+  "idx": 42,
+  "marks": 3,
+  "type": "short",
+  "text": "Evaluate: (sin 35\u00b0/cos 55\u00b0)\u00b2 + tan 20\u00b0 tan 70\u00b0 + 3 sec 25\u00b0 sin 65\u00b0 \u2212 2 tan 17\u00b0 tan 73\u00b0."
+ },
+ {
+  "idx": 43,
+  "marks": 3,
+  "type": "short",
+  "text": "If 15 cot A = 8 and A is acute, find sin A, sec A and the value of (1 + sin A)/(1 \u2212 sin A)."
+ },
+ {
+  "idx": 44,
+  "marks": 5,
+  "type": "long",
+  "text": "A tower stands on top of a 20 m high building. From a point P on level ground, the angle of elevation of the top of the building is 45\u00b0 and that of the top of the tower is 60\u00b0. Find (i) the distance of P from the foot of the building and (ii) the height of the tower. (Use \u221a3 = 1.73)"
+ },
+ {
+  "idx": 45,
+  "marks": 5,
+  "type": "long",
+  "text": "A boat approaches the foot of a 90 m high lighthouse in a straight line. A keeper at the top first sees the boat at an angle of depression of 30\u00b0; 6 minutes later the angle of depression is 60\u00b0. Assuming the boat moves at constant speed, find (i) the distance the boat covered in the 6 minutes, (ii) its speed in metres per minute, and (iii) how much more time it will take to reach the foot of the lighthouse. (Use \u221a3 = 1.73)"
+ },
+ {
+  "idx": 46,
+  "marks": 5,
+  "type": "long",
+  "text": "A point is 40 m above the surface of a lake. The angle of elevation of a cloud from this point is 45\u00b0 and the angle of depression of the cloud's reflection in the lake, from the same point, is 60\u00b0. Find the height of the cloud above the lake. (Use \u221a3 = 1.73)"
+ },
+ {
+  "idx": 47,
+  "marks": 5,
+  "type": "long",
+  "text": "Standing on the roof of a 24 m high building, a surveyor observes the foot of a transmission tower at an angle of depression of 45\u00b0 and its top at an angle of elevation of 30\u00b0. The tower and building are on level ground. Find (i) the horizontal distance between the building and the tower, and (ii) the height of the tower. (Use \u221a3 = 1.73)"
+ },
+ {
+  "idx": 48,
+  "marks": 5,
+  "type": "long",
+  "text": "An aeroplane flies horizontally at a constant height of 900 m directly away from an observer on the ground. When first seen, its angle of elevation is 45\u00b0; after 20 seconds it is 30\u00b0. Find the distance flown in 20 seconds and the speed of the aeroplane in m/s and in km/h. (Use \u221a3 = 1.73)"
+ },
+ {
+  "idx": 49,
+  "marks": 5,
+  "type": "long",
+  "text": "The angle of elevation of the top of a vertical tower from a point A on level ground is 60\u00b0. From a point B on a vertical pole, 20 m above A, in the same vertical plane as the tower, the angle of elevation of the top of the tower is 45\u00b0. Find (i) the height of the tower and (ii) the horizontal distance of the tower from the pole. (Use \u221a3 = 1.73)"
+ },
+ {
+  "idx": 50,
+  "marks": 4,
+  "type": "case",
+  "text": "Kite flying. Aarav stands on level ground and flies a kite. The string is taut and straight, 100 m long, and makes an angle of 30\u00b0 with the horizontal ground. Take Aarav's hand to be at ground level.\n(i) Find the height of the kite above the ground. [1]\n(ii) Find the horizontal distance between Aarav and the point on the ground directly below the kite. [1]\n(iii) The kite stays at the same height. Aarav walks towards the point below it until the string makes 45\u00b0 with the ground. Find the new length of the string. (Use \u221a2 = 1.41) [2]\nOR\n(iii) Find how far Aarav walked in the situation above. (Use \u221a3 = 1.73) [2]"
+ },
+ {
+  "idx": 51,
+  "marks": 4,
+  "type": "case",
+  "text": "Apartment and the ground. A residential apartment block is 30 m high and stands on level ground. A point P on the ground, in line with the foot of the block, sees the top of the block at an angle of elevation of 60\u00b0.\n(i) Find the distance of P from the foot of the block. [1]\n(ii) What is the angle of depression of P as seen from the top of the block? Justify your answer. [1]\n(iii) Rohan walks directly away from the block until the angle of elevation of the top becomes 30\u00b0. Find the distance he walked. (Use \u221a3 = 1.73) [2]\nOR\n(iii) Find the length of the line of sight from Rohan to the top of the block when the angle of elevation is 30\u00b0. [2]"
+ },
+ {
+  "idx": 52,
+  "marks": 4,
+  "type": "case",
+  "text": "The painter's ladder. A painter uses a 16 m long ladder to reach a wall. The ladder rests against a vertical wall on level ground and makes an angle of 60\u00b0 with the ground.\n(i) How far is the foot of the ladder from the wall? [1]\n(ii) How high up the wall does the ladder reach? (Leave in surd form.) [1]\n(iii) For safety the painter changes the position of the foot of the ladder so that the same ladder makes 45\u00b0 with the ground. Find how much lower the top of the ladder now is on the wall. (Use \u221a2 = 1.41, \u221a3 = 1.73) [2]\nOR\n(iii) Find how much farther from the wall the foot of the ladder now is. (Use \u221a2 = 1.41) [2]"
+ },
+ {
+  "idx": 53,
+  "marks": 4,
+  "type": "case",
+  "text": "Balloon festival. A hot-air balloon hovers 90 m above level ground at a point directly above a spot O. Two observers A and B stand on opposite sides of O, in line with it. From A the angle of elevation of the balloon is 30\u00b0 and from B it is 60\u00b0.\n(i) Find the distance OA. [1]\n(ii) Find the distance OB. [1]\n(iii) Observer A walks towards O until the angle of elevation of the balloon is 45\u00b0. Find the distance A walked and the new distance between A and B (B has not moved). (Use \u221a3 = 1.73) [2]"
+ }
+]
