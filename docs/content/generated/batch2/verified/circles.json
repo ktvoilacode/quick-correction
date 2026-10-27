@@ -1,0 +1,236 @@
+[
+  {
+    "chapter": "Circles",
+    "topic": "Tangent perpendicular to radius",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "A point $P$ lies $41\\text{ cm}$ from the centre $O$ of a circle of radius $9\\text{ cm}$. The length of the tangent from $P$ to the circle is",
+    "options": [
+      "$32\\text{ cm}$",
+      "$40\\text{ cm}$",
+      "$50\\text{ cm}$",
+      "$\\sqrt{1762}\\text{ cm}$"
+    ],
+    "answer": "Correct option: B) $40\\text{ cm}$. The radius to the point of contact is perpendicular to the tangent, so tangent length $= \\sqrt{41^{2} - 9^{2}} = \\sqrt{1681 - 81} = \\sqrt{1600} = 40\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Circles",
+    "topic": "Tangents from an external point",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "A quadrilateral $ABCD$ is drawn to circumscribe a circle. If its perimeter is $68\\text{ cm}$, then $AB + CD$ is equal to",
+    "options": [
+      "$34\\text{ cm}$",
+      "$17\\text{ cm}$",
+      "$68\\text{ cm}$",
+      "$136\\text{ cm}$"
+    ],
+    "answer": "Correct option: A) $34\\text{ cm}$. For a quadrilateral circumscribing a circle, $AB + CD = AD + BC$. Hence $2(AB + CD) = 68$, so $AB + CD = 34\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Circles",
+    "topic": "Circle touching the sides of a figure",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Assertion $(A)$: A circle is inscribed in a triangle with sides $8\\text{ cm}$, $15\\text{ cm}$ and $17\\text{ cm}$; its radius is $3\\text{ cm}$. Reason $(R)$: In a right triangle with perpendicular sides $a$, $b$ and hypotenuse $c$, the radius of the inscribed circle is $\\dfrac{a + b - c}{2}$.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: A) Both A and R are true and R is the correct explanation of A. Since $8^{2} + 15^{2} = 17^{2}$ the triangle is right-angled, and the tangent lengths from the right-angle vertex equal $r$, so $r = \\dfrac{a + b - c}{2} = \\dfrac{8 + 15 - 17}{2} = 3\\text{ cm}$. This is exactly the result given in R.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Circles",
+    "topic": "Angle and length problems with tangents",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Tangents $PA$ and $PB$ are drawn from an external point $P$ to a circle with centre $O$ and radius $5\\text{ cm}$, touching it at $A$ and $B$. If $\\angle AOB = 90^\\circ$, then the length of $PA$ is",
+    "options": [
+      "$5\\sqrt{2}\\text{ cm}$",
+      "$10\\text{ cm}$",
+      "$5\\text{ cm}$",
+      "$2.5\\text{ cm}$"
+    ],
+    "answer": "Correct option: C) $5\\text{ cm}$. In quadrilateral $OAPB$, $\\angle OAP = \\angle OBP = 90^\\circ$ and $\\angle AOB = 90^\\circ$, so $\\angle APB = 90^\\circ$. All four angles are right angles and $OA = OB$, $PA = PB$, so $OAPB$ is a square and $PA = OA = 5\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Circles",
+    "topic": "Tangent perpendicular to radius",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": false,
+    "text": "$PT$ is a tangent to a circle with centre $O$ at the point $T$. If the radius is $12\\text{ cm}$ and $PT = 35\\text{ cm}$, find the shortest distance from $P$ to the circle.",
+    "answer": "$OT \\perp PT$, so $OP^{2} = OT^{2} + PT^{2} = 144 + 1225 = 1369$, giving $OP = 37\\text{ cm}$. The nearest point of the circle to $P$ lies on $OP$, so the shortest distance is $OP - OT = 37 - 12 = 25\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Circles",
+    "topic": "Angle and length problems with tangents",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Tangents $PA$ and $PB$ are drawn from an external point $P$ to a circle with centre $O$, touching it at $A$ and $B$. If $\\angle OAB = 24^\\circ$, find $\\angle APB$.",
+    "answer": "$OA \\perp PA$, so $\\angle PAB = 90^\\circ - 24^\\circ = 66^\\circ$. Since $PA = PB$, $\\angle PBA = \\angle PAB = 66^\\circ$. Therefore $\\angle APB = 180^\\circ - 66^\\circ - 66^\\circ = 48^\\circ$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Circles",
+    "topic": "Tangents from an external point",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A circle is inscribed in $\\triangle ABC$ and touches $BC$, $CA$ and $AB$ at $D$, $E$ and $F$ respectively. The perimeter of the triangle is $44\\text{ cm}$, $AF = 7\\text{ cm}$ and $BD = 9\\text{ cm}$. Find the lengths of the three sides of the triangle.",
+    "answer": "Tangents from a point are equal: $AE = AF = 7$, $BF = BD = 9$, $CD = CE = x$. Perimeter $= 2(7 + 9 + x) = 44$, so $x = 6$. Then $AB = 7 + 9 = 16\\text{ cm}$, $BC = 9 + 6 = 15\\text{ cm}$, $CA = 6 + 7 = 13\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Circles",
+    "topic": "Proofs with tangents",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Tangents $PA$ and $PB$ are drawn from an external point $P$ to a circle with centre $O$, touching it at $A$ and $B$. Prove that $OP$ is the perpendicular bisector of the chord $AB$.",
+    "answer": "$PA = PB$ (tangents from an external point) and $OA = OB$ (radii), so both $P$ and $O$ are equidistant from $A$ and $B$. Let $OP$ meet $AB$ at $M$. In $\\triangle PAM$ and $\\triangle PBM$: $PA = PB$, $PM = PM$, and $\\angle APM = \\angle BPM$ (since $\\triangle OAP \\cong \\triangle OBP$ by RHS, $OP$ bisects $\\angle APB$). So $\\triangle PAM \\cong \\triangle PBM$ (SAS), giving $AM = BM$ and $\\angle PMA = \\angle PMB$. As these are equal and form a linear pair, each is $90^\\circ$. Hence $OP$ is the perpendicular bisector of $AB$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Circles",
+    "topic": "Circle touching the sides of a figure",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "hard",
+    "competency": true,
+    "text": "A circle with centre $O$ is inscribed in $\\triangle ABC$, right-angled at $B$, and touches the hypotenuse $AC$ at $E$. If $AE = 4\\text{ cm}$ and $CE = 21\\text{ cm}$, find the radius of the circle and the lengths of $AB$ and $BC$.",
+    "answer": "Let the circle touch $AB$ at $F$ and $BC$ at $D$. $OFBD$ is a square, so $BF = BD = r$. Tangents from a point are equal: $AF = AE = 4$ and $CD = CE = 21$. So $AB = 4 + r$, $BC = 21 + r$, $AC = 25$. By Pythagoras, $(4 + r)^{2} + (21 + r)^{2} = 25^{2}$, so $2r^{2} + 50r + 457 = 625$, i.e. $r^{2} + 25r - 84 = 0$, i.e. $(r + 28)(r - 3) = 0$. Since $r > 0$, $r = 3\\text{ cm}$. Hence $AB = 7\\text{ cm}$ and $BC = 24\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Circles",
+    "topic": "Proofs with tangents",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A circle with centre $O$ and radius $r$ is inscribed in $\\triangle ABC$ with $\\angle B = 90^\\circ$, touching $AB$, $BC$ and $CA$ at $P$, $Q$ and $R$ respectively. Prove that $r = \\dfrac{AB + BC - AC}{2}$. Hence find $r$ and the length $AP$ if $AB = 16\\text{ cm}$ and $BC = 30\\text{ cm}$.",
+    "answer": "Proof: $OP \\perp AB$ and $OQ \\perp BC$, so in quadrilateral $OPBQ$ the angles at $P$, $B$, $Q$ are $90^\\circ$, hence the angle at $O$ is $90^\\circ$ as well. With $OP = OQ = r$, $OPBQ$ is a square and $BP = BQ = r$. Tangents from a point are equal: $AR = AP = AB - r$ and $CR = CQ = BC - r$. Then $AC = AR + RC = (AB - r) + (BC - r)$, so $2r = AB + BC - AC$, i.e. $r = \\dfrac{AB + BC - AC}{2}$. Numbers: $AC = \\sqrt{16^{2} + 30^{2}} = \\sqrt{1156} = 34\\text{ cm}$. So $r = \\dfrac{16 + 30 - 34}{2} = 6\\text{ cm}$ and $AP = AB - r = 16 - 6 = 10\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Circles",
+    "topic": "Angle and length problems with tangents",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": true,
+    "text": "Tangents $TP$ and $TQ$ are drawn from a point $T$ to a circle with centre $O$ and radius $5\\text{ cm}$, where $OT = 13\\text{ cm}$. The segment $OT$ meets the circle at $R$, and the tangent at $R$ meets $TP$ at $A$ and $TQ$ at $B$. (a) Prove that the perimeter of $\\triangle TAB$ equals $TP + TQ$. (b) Find the perimeter of $\\triangle TAB$ and the length $AB$.",
+    "answer": "(a) Tangents from a point are equal: $AR = AP$ and $BR = BQ$. Perimeter $= TA + AB + BT = TA + (AR + RB) + BT = (TA + AP) + (BQ + BT) = TP + TQ$.  (b) $TP = \\sqrt{13^{2} - 5^{2}} = 12\\text{ cm}$, and $TQ = 12\\text{ cm}$, so the perimeter is $24\\text{ cm}$. Also $TR = 13 - 5 = 8\\text{ cm}$ and the tangent at $R$ is perpendicular to $OR$, so $\\angle TRA = 90^\\circ$. Let $AR = x$; then $AP = x$ and $TA = 12 - x$. In right $\\triangle TRA$: $(12 - x)^{2} = 8^{2} + x^{2}$, so $144 - 24x = 64$, $x = \\dfrac{10}{3}$. By symmetry about $OT$, $BR = x$ as well, so $AB = 2x = \\dfrac{20}{3}\\text{ cm}$ (about $6.67\\text{ cm}$).",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Circles",
+    "topic": "Circle touching the sides of a figure",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": true,
+    "text": "$ABCD$ is a quadrilateral with $\\angle A = \\angle B = 90^\\circ$ and $AD \\parallel BC$. A circle of radius $6\\text{ cm}$ touches $AB$, $BC$, $CD$ and $DA$ at $P$, $Q$, $R$ and $S$ respectively. If $AD = 10\\text{ cm}$, find $AB$, $BC$ and $CD$.",
+    "answer": "The parallel tangents $AD$ and $BC$ are $2r$ apart, so $AB = 12\\text{ cm}$. Since $\\angle A = 90^\\circ$ and $OP \\perp AB$, $OS \\perp AD$, $APOS$ is a square, so $AS = r = 6$ and $DS = 10 - 6 = 4$. Hence $DR = DS = 4$. Similarly $BQ = BP = 6$. Let $CQ = CR = x$. Then $BC = 6 + x$ and $CD = 4 + x$. Draw $DM \\perp BC$ with $M$ on $BC$: $DM = AB = 12$ and $CM = BC - AD = (6 + x) - 10 = x - 4$. In right $\\triangle DMC$: $(4 + x)^{2} = 12^{2} + (x - 4)^{2}$, so $16 + 8x = 144 + 16 - 8x$, giving $16x = 144$ and $x = 9$. Therefore $BC = 15\\text{ cm}$ and $CD = 13\\text{ cm}$ (check: $AB + CD = 25 = AD + BC$). Answer: $AB = 12\\text{ cm}$, $BC = 15\\text{ cm}$, $CD = 13\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Circles",
+    "topic": "Tangent perpendicular to radius",
+    "slot": "E-case-study (4 marks, with sub-parts)",
+    "type": "case",
+    "marks": 4,
+    "complexity": "easy",
+    "competency": true,
+    "text": "A circular roundabout has centre $O$ and radius $20\\text{ m}$. A straight road touches the roundabout at $T$. A signboard stands at a point $P$ on this road, $21\\text{ m}$ from $T$. A second straight road from $P$ also touches the roundabout, at $S$. (i) Find $\\angle OTP$. [1] (ii) Find the distance $OP$. [1] (iii) Find the perimeter and the area of quadrilateral $OTPS$. [2]",
+    "answer": "(i) The tangent is perpendicular to the radius at the point of contact, so $\\angle OTP = 90^\\circ$. (ii) $OP = \\sqrt{20^{2} + 21^{2}} = \\sqrt{841} = 29\\text{ m}$. (iii) $PS = PT = 21\\text{ m}$ (tangents from $P$) and $OS = OT = 20\\text{ m}$, so the perimeter is $2(20 + 21) = 82\\text{ m}$. The quadrilateral splits into two congruent right triangles $OTP$ and $OSP$, so area $= 2 \\times \\dfrac{1}{2} \\times 20 \\times 21 = 420\\text{ m}^{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Circles",
+    "topic": "Circle touching the sides of a figure",
+    "slot": "E-case-study (4 marks, with sub-parts)",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A triangular plot $ABC$ has $AB = 11\\text{ m}$, $BC = 13\\text{ m}$ and $CA = 20\\text{ m}$, and its area is $66\\text{ m}^{2}$. A circular pond touches the sides $BC$, $CA$ and $AB$ at $D$, $E$ and $F$ respectively. (i) Find the perimeter of the plot. [1] (ii) Find the length $AF$. [1] (iii) Find the radius of the pond and the length $BD$. [2]",
+    "answer": "(i) Perimeter $= 11 + 13 + 20 = 44\\text{ m}$. (ii) Let $AF = AE = x$, $BF = BD = y$, $CD = CE = z$. Then $x + y + z = 22$ and $y + z = BC = 13$, so $AF = 22 - 13 = 9\\text{ m}$. (iii) $x + y = 11$ gives $y = 2$, so $BD = 2\\text{ m}$. Joining the centre $O$ to $A$, $B$, $C$ splits the triangle into three triangles of height $r$, so area $= \\dfrac{1}{2} r (11 + 13 + 20) = 22r = 66$, giving $r = 3\\text{ m}$. Answer: radius $3\\text{ m}$, $BD = 2\\text{ m}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  }
+]

@@ -1,0 +1,92 @@
+[
+ {
+  "idx": 0,
+  "myAnswer": "B) 150 cm^2",
+  "how": "python"
+ },
+ {
+  "idx": 1,
+  "myAnswer": "B) 68 cm",
+  "how": "python"
+ },
+ {
+  "idx": 2,
+  "myAnswer": "D (A false: 7/20 differs; R true)",
+  "how": "by hand"
+ },
+ {
+  "idx": 3,
+  "myAnswer": "B) 15 cm",
+  "how": "python"
+ },
+ {
+  "idx": 4,
+  "myAnswer": "C) 16 cm",
+  "how": "python"
+ },
+ {
+  "idx": 5,
+  "myAnswer": "63 cm",
+  "how": "python"
+ },
+ {
+  "idx": 6,
+  "myAnswer": "true; triangles ADB~CDA by SAS, so angle BAC=90",
+  "how": "proof"
+ },
+ {
+  "idx": 7,
+  "myAnswer": "a) 2/3 both; DE=5 cm",
+  "how": "python"
+ },
+ {
+  "idx": 8,
+  "myAnswer": "22 cm",
+  "how": "python"
+ },
+ {
+  "idx": 9,
+  "myAnswer": "AEB~AFC by AA; AE=3.6 cm",
+  "how": "python"
+ },
+ {
+  "idx": 10,
+  "myAnswer": "true (AF=AC/3)",
+  "how": "proof"
+ },
+ {
+  "idx": 11,
+  "myAnswer": "SAS similarity; DE=3.75 cm",
+  "how": "python"
+ },
+ {
+  "idx": 12,
+  "myAnswer": "a) 4 m b) 4 m",
+  "how": "python"
+ },
+ {
+  "idx": 13,
+  "myAnswer": "a) 1:2 b) 6 cm",
+  "how": "python"
+ },
+ {
+  "idx": 14,
+  "myAnswer": "48 and 75 cm^2; 27+48=75",
+  "how": "python"
+ },
+ {
+  "idx": 15,
+  "myAnswer": "AD=8 cm; area 84; perpendicular 16.8 cm",
+  "how": "python"
+ },
+ {
+  "idx": 16,
+  "myAnswer": "AA; 2:1, TR:RU=2:1; width 18 m, TU=45 m",
+  "how": "python"
+ },
+ {
+  "idx": 17,
+  "myAnswer": "ratio 5:3; right angle at B; area 150 m^2; cost Rs3000",
+  "how": "python"
+ }
+]

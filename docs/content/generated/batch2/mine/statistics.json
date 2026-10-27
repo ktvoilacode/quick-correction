@@ -1,0 +1,162 @@
+[
+ {
+  "idx": 0,
+  "myAnswer": "A) 30.5",
+  "how": "python"
+ },
+ {
+  "idx": 1,
+  "myAnswer": "B) 59.5",
+  "how": "python"
+ },
+ {
+  "idx": 2,
+  "myAnswer": "C) 24.2",
+  "how": "python"
+ },
+ {
+  "idx": 3,
+  "myAnswer": "D) 35.2",
+  "how": "python"
+ },
+ {
+  "idx": 4,
+  "myAnswer": "A) 50",
+  "how": "python"
+ },
+ {
+  "idx": 5,
+  "myAnswer": "B) 300-400",
+  "how": "python"
+ },
+ {
+  "idx": 6,
+  "myAnswer": "C) 16",
+  "how": "python"
+ },
+ {
+  "idx": 7,
+  "myAnswer": "D) 49.5",
+  "how": "python"
+ },
+ {
+  "idx": 8,
+  "myAnswer": "A) 57",
+  "how": "python"
+ },
+ {
+  "idx": 9,
+  "myAnswer": "B) 12",
+  "how": "python"
+ },
+ {
+  "idx": 10,
+  "myAnswer": "C) 10",
+  "how": "python"
+ },
+ {
+  "idx": 11,
+  "myAnswer": "D) A false R true",
+  "how": "by hand"
+ },
+ {
+  "idx": 12,
+  "myAnswer": "C) A true R false",
+  "how": "by hand"
+ },
+ {
+  "idx": 13,
+  "myAnswer": "9.9",
+  "how": "python"
+ },
+ {
+  "idx": 14,
+  "myAnswer": "97",
+  "how": "python"
+ },
+ {
+  "idx": 15,
+  "myAnswer": "53.33",
+  "how": "python"
+ },
+ {
+  "idx": 16,
+  "myAnswer": "34.5 (class boundaries 30.5-40.5)",
+  "how": "python"
+ },
+ {
+  "idx": 17,
+  "myAnswer": "25",
+  "how": "python"
+ },
+ {
+  "idx": 18,
+  "myAnswer": "165.5",
+  "how": "python"
+ },
+ {
+  "idx": 19,
+  "myAnswer": "40",
+  "how": "python"
+ },
+ {
+  "idx": 20,
+  "myAnswer": "mean 67, mode 49",
+  "how": "python"
+ },
+ {
+  "idx": 21,
+  "myAnswer": "p=9",
+  "how": "python"
+ },
+ {
+  "idx": 22,
+  "myAnswer": "x=20",
+  "how": "python"
+ },
+ {
+  "idx": 23,
+  "myAnswer": "36",
+  "how": "python"
+ },
+ {
+  "idx": 24,
+  "myAnswer": "27.6",
+  "how": "python"
+ },
+ {
+  "idx": 25,
+  "myAnswer": "x=20",
+  "how": "python"
+ },
+ {
+  "idx": 26,
+  "myAnswer": "34.25",
+  "how": "python"
+ },
+ {
+  "idx": 27,
+  "myAnswer": "x=14,y=10",
+  "how": "python"
+ },
+ {
+  "idx": 28,
+  "myAnswer": "33.75",
+  "how": "python"
+ },
+ {
+  "idx": 29,
+  "myAnswer": "mean 49.6, mode 50.8",
+  "how": "python"
+ },
+ {
+  "idx": 30,
+  "myAnswer": "52",
+  "how": "python"
+ },
+ {
+  "idx": 31,
+  "myAnswer": "(i) 60-80 (ii) 28 (iii) 68",
+  "how": "python"
+ }
+]

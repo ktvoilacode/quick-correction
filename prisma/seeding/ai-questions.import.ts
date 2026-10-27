@@ -3,7 +3,9 @@
  * the question bank as hidden drafts for admin review. A question the
  * independent verifier disputed is imported as 'flagged' with its note.
  * Safe to re-run: a question whose text already exists is skipped.
- * Run: npm run db:import:ai [-- --raw]   (--raw reads generated/*.json, unverified)
+ * Run: npm run db:import:ai [-- --dir batch2/verified] [-- --raw]
+ *   --dir  folder under docs/content/generated to read (default verified/)
+ *   --raw  read generated/*.json without verifier verdicts
  */
 import 'dotenv/config';
 import { readdirSync, readFileSync, existsSync } from 'node:fs';
@@ -17,7 +19,8 @@ type Row = {
 
 async function main() {
   const raw = process.argv.includes('--raw');
-  const dir = new URL(`../../docs/content/generated/${raw ? '' : 'verified/'}`, import.meta.url);
+  const argDir = process.argv.includes('--dir') ? process.argv[process.argv.indexOf('--dir') + 1] : null;
+  const dir = new URL(`../../docs/content/generated/${argDir ? argDir.replace(/\/?$/, '/') : raw ? '' : 'verified/'}`, import.meta.url);
   if (!existsSync(dir)) throw new Error(`${dir.pathname} not found`);
   const db = await databaseClass.get();
   const subject = await db.curriculumNode.findFirst({ where: { kind: 'subject', name: 'Mathematics (Standard)' } });

@@ -1,0 +1,415 @@
+[
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Solving by factorisation or formula",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The roots of the equation $2x^{2} + 9x + 10 = 0$ are",
+  "options": [
+   "$-2$ and $-\\frac{5}{2}$",
+   "$2$ and $\\frac{5}{2}$",
+   "$-2$ and $\\frac{5}{2}$",
+   "$2$ and $-\\frac{5}{2}$"
+  ],
+  "answer": "Correct option: A) $-2$ and $-\\frac{5}{2}$ $2x^{2} + 9x + 10 = (2x + 5)(x + 2)$, so $x = -\\frac{5}{2}$ or $x = -2$."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Nature of roots by discriminant",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The quadratic equation $2x^{2} - 7x + 9 = 0$ has",
+  "options": [
+   "two distinct real roots",
+   "two equal real roots",
+   "no real roots",
+   "two distinct rational roots"
+  ],
+  "answer": "Correct option: C) no real roots $D = (-7)^{2} - 4(2)(9) = 49 - 72 = -23 < 0$."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Value of k for equal roots",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The value of $k$ for which the equation $x^{2} + 2(k + 1)x + k^{2} = 0$ has equal roots is",
+  "options": [
+   "$-\\frac{1}{2}$",
+   "$\\frac{1}{2}$",
+   "$-2$",
+   "$2$"
+  ],
+  "answer": "Correct option: A) $-\\frac{1}{2}$ Equal roots need $D = 4(k + 1)^{2} - 4k^{2} = 8k + 4 = 0$, so $k = -\\frac{1}{2}$."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Nature of roots by discriminant",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Assertion (A): The equation $2x^{2} - 4x + 3 = 0$ has no real roots.\nReason (R): If $b^{2} - 4ac < 0$, the equation $ax^{2} + bx + c = 0$ has no real roots.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: A) Both A and R are true and R is the correct explanation of A. Here $D = 16 - 24 = -8 < 0$, so A is true, and this is exactly what R states."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Sum and product of roots",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "If $\\alpha$ and $\\beta$ are the roots of $2x^{2} - 7x + 3 = 0$, then $\\frac{1}{\\alpha} + \\frac{1}{\\beta}$ equals",
+  "options": [
+   "$\\frac{7}{3}$",
+   "$\\frac{3}{7}$",
+   "$\\frac{7}{2}$",
+   "$\\frac{2}{7}$"
+  ],
+  "answer": "Correct option: A) $\\frac{7}{3}$ $\\alpha + \\beta = \\frac{7}{2}$ and $\\alpha\\beta = \\frac{3}{2}$, so $\\frac{1}{\\alpha} + \\frac{1}{\\beta} = \\frac{\\alpha + \\beta}{\\alpha\\beta} = \\frac{7}{3}$."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Sum and product of roots",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The quadratic equation whose roots are $2$ and $-\\frac{1}{3}$ is",
+  "options": [
+   "$3x^{2} - 5x - 2 = 0$",
+   "$3x^{2} + 5x - 2 = 0$",
+   "$3x^{2} - 5x + 2 = 0$",
+   "$x^{2} - 5x - 2 = 0$"
+  ],
+  "answer": "Correct option: A) $3x^{2} - 5x - 2 = 0$ Sum $= \\frac{5}{3}$, product $= -\\frac{2}{3}$, so $x^{2} - \\frac{5}{3}x - \\frac{2}{3} = 0$, i.e. $3x^{2} - 5x - 2 = 0$."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Nature of roots by discriminant",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The equation $x^{2} + kx + 4 = 0$ has real roots for",
+  "options": [
+   "$-4 \\le k \\le 4$",
+   "$k \\le -4$ or $k \\ge 4$",
+   "$k = 4$ or $k = -4$ only",
+   "$k \\le -2$ or $k \\ge 2$"
+  ],
+  "answer": "Correct option: B) $k \\le -4$ or $k \\ge 4$ Real roots need $k^{2} - 16 \\ge 0$, so $k \\le -4$ or $k \\ge 4$."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Solving by factorisation or formula",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The values of $x$ that satisfy $\\frac{1}{x} - \\frac{1}{x + 4} = \\frac{1}{3}$ are",
+  "options": [
+   "$2$ and $-6$",
+   "$-2$ and $6$",
+   "$2$ and $6$",
+   "$-2$ and $-6$"
+  ],
+  "answer": "Correct option: A) $2$ and $-6$ Cross-multiplying gives $12 = x^{2} + 4x$, i.e. $x^{2} + 4x - 12 = (x + 6)(x - 2) = 0$, so $x = 2$ or $x = -6$ (neither is $0$ or $-4$)."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Sum and product of roots",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Assertion (A): The sum of the roots of $3x^{2} - 6x - 7 = 0$ is $-2$.\nReason (R): For $ax^{2} + bx + c = 0$ with $a \\ne 0$, the sum of the roots is $-\\frac{b}{a}$.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: D) A is false but R is true. R is true, and gives sum $= -\\frac{-6}{3} = 2$, not $-2$, so A is false."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Sum and product of roots",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "hard",
+  "competency": false,
+  "text": "One root of $2x^{2} + kx - 6 = 0$ is $\\frac{3}{2}$. The other root is",
+  "options": [
+   "$-2$",
+   "$2$",
+   "$-3$",
+   "$-\\frac{3}{2}$"
+  ],
+  "answer": "Correct option: A) $-2$ Putting $x = \\frac{3}{2}$ gives $\\frac{9}{2} + \\frac{3k}{2} - 6 = 0$, so $k = 1$. Product of roots $= -3$, so the other root is $\\frac{-3}{3/2} = -2$."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Nature of roots by discriminant",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The number of real roots of the equation $(x - 3)^{2} + 4 = 0$ is",
+  "options": [
+   "$0$",
+   "$1$",
+   "$2$",
+   "$4$"
+  ],
+  "answer": "Correct option: A) $0$ $(x - 3)^{2} \\ge 0$, so $(x - 3)^{2} + 4 \\ge 4$ and can never be $0$. (In standard form $x^{2} - 6x + 13 = 0$, $D = 36 - 52 < 0$.)"
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The product of two consecutive positive integers is 156. The sum of these two integers is",
+  "options": [
+   "$25$",
+   "$23$",
+   "$26$",
+   "$24$"
+  ],
+  "answer": "Correct option: A) $25$ If the integers are $x$ and $x + 1$, then $x^{2} + x - 156 = (x - 12)(x + 13) = 0$. Since $x > 0$, $x = 12$ and the integers are $12$ and $13$, with sum $25$."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Sum and product of roots",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The sum of the roots of the equation $3x^{2} - (k + 1)x - 6 = 0$ is equal to the product of its roots. Find the value of $k$.",
+  "answer": "Sum of roots $= \\frac{k + 1}{3}$ and product of roots $= \\frac{-6}{3} = -2$.\nEquating: $\\frac{k + 1}{3} = -2$, so $k + 1 = -6$. Hence $k = -7$."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Solving by factorisation or formula",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Solve $5x^{2} - 11x + 2 = 0$ by factorisation.",
+  "answer": "Split the middle term: $5x^{2} - 10x - x + 2 = 5x(x - 2) - 1(x - 2) = (5x - 1)(x - 2) = 0$.\nSo $x = \\frac{1}{5}$ or $x = 2$."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Nature of roots by discriminant",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Show that the equation $x^{2} + 2(p + q)x + 2(p^{2} + q^{2}) = 0$ has no real roots if $p \\ne q$.",
+  "answer": "$D = 4(p + q)^{2} - 8(p^{2} + q^{2}) = 4p^{2} + 8pq + 4q^{2} - 8p^{2} - 8q^{2} = -4(p - q)^{2}$.\nIf $p \\ne q$, then $(p - q)^{2} > 0$, so $D < 0$. Hence the equation has no real roots."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Value of k for equal roots",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Find the value of $k$ for which $5x^{2} - 4x + k = 0$ has two equal roots. Also find the root.",
+  "answer": "Equal roots need $D = 16 - 20k = 0$, so $k = \\frac{4}{5}$.\nThe repeated root is $x = \\frac{-b}{2a} = \\frac{4}{10} = \\frac{2}{5}$."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": true,
+  "text": "The product of two consecutive positive multiples of 3 is 270. Find the numbers.",
+  "answer": "Let the numbers be $x$ and $x + 3$. Then $x(x + 3) = 270$, i.e. $x^{2} + 3x - 270 = 0$, so $(x + 18)(x - 15) = 0$.\n$x = -18$ is rejected because the numbers are positive. So $x = 15$ and the numbers are $15$ and $18$."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Sum and product of roots",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "If $\\alpha$ and $\\beta$ are the roots of $2x^{2} - 5x - 3 = 0$, find the value of $\\alpha^{2} + \\beta^{2}$ without solving the equation.",
+  "answer": "$\\alpha + \\beta = \\frac{5}{2}$ and $\\alpha\\beta = -\\frac{3}{2}$.\n$\\alpha^{2} + \\beta^{2} = (\\alpha + \\beta)^{2} - 2\\alpha\\beta = \\frac{25}{4} + 3 = \\frac{37}{4}$."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Solving by factorisation or formula",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Solve $3x^{2} - 8x + 2 = 0$ using the quadratic formula.",
+  "answer": "$D = (-8)^{2} - 4(3)(2) = 64 - 24 = 40$.\n$x = \\frac{8 \\pm \\sqrt{40}}{6} = \\frac{8 \\pm 2\\sqrt{10}}{6} = \\frac{4 \\pm \\sqrt{10}}{3}$."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A rectangular park has an area of $480\\text{ m}^{2}$ and a perimeter of 94 m. Find its length and breadth.",
+  "answer": "Semi-perimeter $= 47$ m. Let the length be $x$ m, so the breadth is $(47 - x)$ m. Then $x(47 - x) = 480$, i.e. $x^{2} - 47x + 480 = 0$.\n$D = 2209 - 1920 = 289$, so $x = \\frac{47 \\pm 17}{2} = 32$ or $15$.\nThe length is 32 m and the breadth is 15 m."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The product of Meena's age 2 years ago and her age 4 years from now is 112. Find her present age.",
+  "answer": "Let her present age be $x$ years. Then $(x - 2)(x + 4) = 112$, so $x^{2} + 2x - 120 = 0$, i.e. $(x + 12)(x - 10) = 0$.\nAge cannot be negative, so $x = 10$. Meena is 10 years old."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A cyclist rides 45 km to a lake at a steady speed and returns by the same route at a speed 6 km/h more. The round trip takes 8 hours in all. Find the speed of the cyclist on the onward journey.",
+  "answer": "Let the onward speed be $x$ km/h. Then $\\frac{45}{x} + \\frac{45}{x + 6} = 8$.\n$45(2x + 6) = 8x(x + 6)$, so $8x^{2} - 42x - 270 = 0$, i.e. $4x^{2} - 21x - 135 = 0$.\n$D = 441 + 2160 = 2601 = 51^{2}$, so $x = \\frac{21 \\pm 51}{8} = 9$ or $-\\frac{15}{4}$.\nSpeed cannot be negative, so the onward speed is 9 km/h."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "hard",
+  "competency": true,
+  "text": "A rectangular swimming pool measures 20 m by 12 m. It is surrounded by a path of uniform width, and the total area of the pool and the path together is $468\\text{ m}^{2}$. Find the width of the path.",
+  "answer": "Let the width be $x$ m. The outer rectangle is $(20 + 2x)$ m by $(12 + 2x)$ m, so $(20 + 2x)(12 + 2x) = 468$.\n$240 + 64x + 4x^{2} = 468$, so $x^{2} + 16x - 57 = 0$, i.e. $(x + 19)(x - 3) = 0$.\nWidth cannot be negative, so $x = 3$. The path is 3 m wide."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "easy",
+  "competency": true,
+  "text": "The difference of two natural numbers is 5 and the difference of their reciprocals is $\\frac{5}{84}$. Find the numbers.",
+  "answer": "Let the numbers be $x$ and $x + 5$. Then $\\frac{1}{x} - \\frac{1}{x + 5} = \\frac{5}{84}$, so $\\frac{5}{x(x + 5)} = \\frac{5}{84}$.\n$x^{2} + 5x - 84 = 0$, i.e. $(x + 12)(x - 7) = 0$. Natural numbers are positive, so $x = 7$.\nThe numbers are 7 and 12."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "easy",
+  "competency": true,
+  "text": "A shopkeeper buys some notebooks for ₹ 600. If each notebook had cost ₹ 5 less, he could have bought 10 more notebooks for the same money. Find the cost of one notebook.",
+  "answer": "Let the cost of one notebook be ₹ $x$. Then $\\frac{600}{x - 5} - \\frac{600}{x} = 10$.\n$600 \\times 5 = 10x(x - 5)$, so $x^{2} - 5x - 300 = 0$, i.e. $(x - 20)(x + 15) = 0$.\nCost cannot be negative, so $x = 20$. One notebook costs ₹ 20."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Value of k for equal roots",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Find the values of $k$ for which the equation $(k + 1)x^{2} - 2(k - 1)x + 1 = 0$ has equal roots.",
+  "answer": "For equal roots, $D = 4(k - 1)^{2} - 4(k + 1) = 0$.\n$k^{2} - 2k + 1 - k - 1 = k^{2} - 3k = k(k - 3) = 0$, so $k = 0$ or $k = 3$.\nBoth keep $k + 1 \\ne 0$, so both are valid."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Value of k for equal roots",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "hard",
+  "competency": false,
+  "text": "Find the values of $k$ for which the equation $x^{2} + (k + 3)x + (k + 6) = 0$ has equal roots. For each value of $k$, find the repeated root.",
+  "answer": "$D = (k + 3)^{2} - 4(k + 6) = k^{2} + 2k - 15 = (k + 5)(k - 3) = 0$, so $k = 3$ or $k = -5$.\nFor $k = 3$: $x^{2} + 6x + 9 = (x + 3)^{2} = 0$, root $x = -3$.\nFor $k = -5$: $x^{2} - 2x + 1 = (x - 1)^{2} = 0$, root $x = 1$."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Nature of roots by discriminant",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": true,
+  "text": "Is it possible to design a rectangular plot whose perimeter is 50 m and whose area is $200\\text{ m}^{2}$? Give a reason, using the discriminant.",
+  "answer": "Let the length be $x$ m, so the breadth is $(25 - x)$ m. Then $x(25 - x) = 200$, i.e. $x^{2} - 25x + 200 = 0$.\n$D = 625 - 800 = -175 < 0$, so there is no real value of $x$.\nHence such a plot is not possible."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Solving by factorisation or formula",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Solve for $x$: $\\frac{3}{x - 1} + \\frac{4}{x + 2} = \\frac{5}{2}$, where $x \\ne 1, -2$.",
+  "answer": "Multiplying through by $2(x - 1)(x + 2)$: $2[3(x + 2) + 4(x - 1)] = 5(x - 1)(x + 2)$.\n$14x + 4 = 5x^{2} + 5x - 10$, so $5x^{2} - 9x - 14 = 0$, i.e. $(5x - 14)(x + 1) = 0$.\nSo $x = \\frac{14}{5}$ or $x = -1$. Both are allowed."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "slot": "E-case-study (4 marks, with sub-parts)",
+  "type": "case",
+  "marks": 4,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A farmer fences a rectangular vegetable plot using 90 m of wire. One side of the plot lies along a long straight wall and needs no wire, so the wire is used only on the other three sides. The area of the plot is $1000\\text{ m}^{2}$. Let the length of each side perpendicular to the wall be $x$ metres.\n(i) Form a quadratic equation in $x$ for the area. [1]\n(ii) Find the discriminant and state the nature of the roots. [1]\n(iii) Find the possible dimensions of the plot. [2]",
+  "answer": "(i) The side along the wall is $(90 - 2x)$ m, so $x(90 - 2x) = 1000$, which gives $x^{2} - 45x + 500 = 0$.\n(ii) $D = 2025 - 2000 = 25 > 0$, so the roots are real, distinct and rational.\n(iii) $x = \\frac{45 \\pm 5}{2} = 25$ or $20$. Both are positive and the side along the wall is positive in each case. If $x = 25$ m, the other side is $40$ m. If $x = 20$ m, the other side is $50$ m. So the plot is either $25\\text{ m} \\times 40\\text{ m}$ or $20\\text{ m} \\times 50\\text{ m}$."
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "slot": "E-case-study (4 marks, with sub-parts)",
+  "type": "case",
+  "marks": 4,
+  "complexity": "easy",
+  "competency": true,
+  "text": "A school bus covers a 120 km trip at a uniform speed of $x$ km/h. The driver notices that if the speed were 10 km/h more, the trip would take exactly 1 hour less.\n(i) Form a quadratic equation in $x$. [1]\n(ii) Find the discriminant of the equation. Are the roots rational? [1]\n(iii) Find the usual speed of the bus and the time the trip takes at the increased speed. [2]",
+  "answer": "(i) $\\frac{120}{x} - \\frac{120}{x + 10} = 1$ gives $1200 = x(x + 10)$, i.e. $x^{2} + 10x - 1200 = 0$.\n(ii) $D = 100 + 4800 = 4900 = 70^{2}$, a perfect square, so the roots are real and rational.\n(iii) $x = \\frac{-10 \\pm 70}{2} = 30$ or $-40$. Speed cannot be negative, so the usual speed is 30 km/h. At $40$ km/h the trip takes $\\frac{120}{40} = 3$ hours."
+ }
+]

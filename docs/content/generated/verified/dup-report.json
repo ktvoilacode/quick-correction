@@ -1,0 +1,901 @@
+[
+  {
+    "id": "cmvq9r2ja00dh7gcn225upftx",
+    "chapter": "Real Numbers",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.98,
+    "sameNumbers": 0,
+    "sameOptions": 0,
+    "against": "c1",
+    "againstSource": "seed",
+    "text": "Prove that √15 is irrational.",
+    "otherText": "Prove that √5 is irrational.",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2ja00dd7gcnch69e276",
+    "chapter": "Real Numbers",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.97,
+    "sameNumbers": 0,
+    "sameOptions": 0,
+    "against": "c1",
+    "againstSource": "seed",
+    "text": "Prove that √7 is irrational.",
+    "otherText": "Prove that √5 is irrational.",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2ja00dd7gcnch69e276",
+    "chapter": "Real Numbers",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.95,
+    "sameNumbers": 0,
+    "sameOptions": 0,
+    "against": "cmvq9r2ja00dh7gcn225upftx",
+    "againstSource": "ai",
+    "text": "Prove that √7 is irrational.",
+    "otherText": "Prove that √15 is irrational.",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2j700d17gcn9pmz8wah",
+    "chapter": "Real Numbers",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.94,
+    "sameNumbers": 0.67,
+    "sameOptions": 0,
+    "against": "cmvq9r2jb00dj7gcn1mn2y0sq",
+    "againstSource": "ai",
+    "text": "Given that √5 is irrational, prove that 3 + 2√5 is irrational.",
+    "otherText": "Given that √2 is irrational, prove that √2 + √3 is irrational.",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2gn003j7gcnibh905bs",
+    "chapter": "Circles",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.93,
+    "sameNumbers": 0,
+    "sameOptions": 0,
+    "against": "cmvq9r2gp003t7gcn50ig5psp",
+    "againstSource": "ai",
+    "text": "Tangents PA and PB are drawn from an external point P to a circle with centre O, touching it at A and B. If ∠APB = 72°, find ∠OAB.",
+    "otherText": "Tangents PA and PB are drawn from an external point P to a circle with centre O, touching it at A and B. Prove that ∠APB = 2∠OAB.",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2j700d17gcn9pmz8wah",
+    "chapter": "Real Numbers",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.93,
+    "sameNumbers": 0.5,
+    "sameOptions": 0,
+    "against": "cmvq9r2ja00df7gcnkbfy89dg",
+    "againstSource": "ai",
+    "text": "Given that √5 is irrational, prove that 3 + 2√5 is irrational.",
+    "otherText": "Given that √7 is irrational, prove that 2/(3√7) is irrational.",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2hp007t7gcnikl7tgl3",
+    "chapter": "Polynomials",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.92,
+    "sameNumbers": 0,
+    "sameOptions": 0,
+    "against": "cmvq9r2hq007x7gcnr53x7kwx",
+    "againstSource": "ai",
+    "text": "If α and β are the zeroes of the polynomial x² − 9x + 14, then 1/α + 1/β is equal to",
+    "otherText": "If α and β are the zeroes of the polynomial x² − 4x + 3, then α² + β² is equal to",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2hz008p7gcnqriwhz4v",
+    "chapter": "Polynomials",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.92,
+    "sameNumbers": 0.2,
+    "sameOptions": 0,
+    "against": "cmvq9r2hz008t7gcnqltplukj",
+    "againstSource": "ai",
+    "text": "If α and β are the zeroes of the polynomial 3x² − 5x − 2, find the value of α²β + αβ².",
+    "otherText": "If α and β are the zeroes of the polynomial 6x² + x − 2, find the value of 1/α + 1/β − 2αβ.",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2hy008n7gcnv3llzvla",
+    "chapter": "Polynomials",
+    "kind": "bank",
+    "level": "duplicate",
+    "score": 0.91,
+    "sameNumbers": 1,
+    "sameOptions": 0,
+    "against": "c2",
+    "againstSource": "seed",
+    "text": "Find the zeroes of the polynomial 6x² − 7x − 3 and verify the relationship between the zeroes and the coefficients.",
+    "otherText": "Find the zeroes of 6x² − 3 − 7x and verify the relationship between the zeroes and the coefficients.",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2ja00df7gcnkbfy89dg",
+    "chapter": "Real Numbers",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.91,
+    "sameNumbers": 0.67,
+    "sameOptions": 0,
+    "against": "cmvq9r2jb00dj7gcn1mn2y0sq",
+    "againstSource": "ai",
+    "text": "Given that √7 is irrational, prove that 2/(3√7) is irrational.",
+    "otherText": "Given that √2 is irrational, prove that √2 + √3 is irrational.",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2j700d37gcn23yn6b5d",
+    "chapter": "Real Numbers",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.9,
+    "sameNumbers": 0,
+    "sameOptions": 0,
+    "against": "cmvq9r2jc00dp7gcnemt38v1w",
+    "againstSource": "ai",
+    "text": "Find the HCF and LCM of 96 and 360 using prime factorisation.",
+    "otherText": "Find the HCF and LCM of 120, 144 and 180 using prime factorisation.",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2kk00ih7gcn7olo1r68",
+    "chapter": "Trigonometry",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.9,
+    "sameNumbers": 0.5,
+    "sameOptions": 0.33,
+    "against": "a13",
+    "againstSource": "seed",
+    "text": "The value of sec 60° · cos 30° is",
+    "otherText": "The value of sin²30° + cos²30° is:",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2gh002x7gcnud4a59me",
+    "chapter": "Circles",
+    "kind": "board",
+    "level": "copy",
+    "score": 0.88,
+    "numbersCovered": 1,
+    "against": "2025/30_5_1_Mathematics_Standard",
+    "text": "The number of tangents that can be drawn to a circle from a point lying inside the circle is",
+    "boardText": "following statements is false 1 a infinite number of tangents can be drawn to a circle. b infinite number of tangents can be drawn to a circle from a point outside the circle. c infinite number of secants can be drawn to a circle",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2gv004h7gcnsmg0xy2f",
+    "chapter": "Coordinate Geometry",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.88,
+    "sameNumbers": 0,
+    "sameOptions": 0,
+    "against": "a11",
+    "againstSource": "seed",
+    "text": "The distance between the points A(−3, 4) and B(5, −2) is",
+    "otherText": "The distance between the points (0, 0) and (6, 8) is:",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2fm00017gcnd64vc9go",
+    "chapter": "Areas Related to Circles",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.87,
+    "sameNumbers": 0.4,
+    "sameOptions": 0,
+    "against": "cmvq9r2fo00057gcn8zpj7wfg",
+    "againstSource": "ai",
+    "text": "The area of a sector of a circle of radius 14 cm with central angle 90° is (use π = 22/7)",
+    "otherText": "The perimeter of a sector of a circle of radius 7 cm and central angle 120° is (use π = 22/7)",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2ko00ix7gcn8i61rtka",
+    "chapter": "Trigonometry",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.87,
+    "sameNumbers": 0,
+    "sameOptions": 0.14,
+    "against": "cmvq9r2ko00iz7gcnfw72e3mo",
+    "againstSource": "ai",
+    "text": "sin⁴θ − cos⁴θ is equal to",
+    "otherText": "tan²θ − sin²θ is equal to",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2hu00897gcn45uw088x",
+    "chapter": "Polynomials",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.86,
+    "sameNumbers": 0.33,
+    "sameOptions": 0,
+    "against": "cmvq9r2hv008d7gcn1dkwak8v",
+    "againstSource": "ai",
+    "text": "A quadratic polynomial whose zeroes are 3 and −5 is",
+    "otherText": "A quadratic polynomial whose zeroes are 2 + √3 and 2 − √3 is",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2i9009v7gcno2omrm0j",
+    "chapter": "Probability",
+    "kind": "bank",
+    "level": "duplicate",
+    "score": 0.86,
+    "sameNumbers": 1,
+    "sameOptions": 0.14,
+    "against": "cmvq9r2ia009x7gcn31lxdo71",
+    "againstSource": "ai",
+    "text": "A card is drawn from a well-shuffled pack of 52 cards. The probability that it is a red face card is",
+    "otherText": "One card is drawn from a well-shuffled deck of 52 cards. The probability that it is a king or a heart is",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2is00bl7gcnjq79k3is",
+    "chapter": "Quadratic Equations",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.86,
+    "sameNumbers": 0,
+    "sameOptions": 0,
+    "against": "d1",
+    "againstSource": "seed",
+    "text": "A train travels 240 km at a uniform speed. If its speed had been 10 km/h more, it would have taken 2 hours less for the same journey. Find the original speed of the train.",
+    "otherText": "A train travels 360 km at a uniform speed. If the speed had been 5 km/h more, it would have taken 1 hour less. Find the speed of the train.",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2kf00hv7gcninc3h67h",
+    "chapter": "Triangles",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.86,
+    "sameNumbers": 0,
+    "sameOptions": 0,
+    "against": "d2",
+    "againstSource": "seed",
+    "text": "State and prove the Basic Proportionality Theorem (Thales theorem).",
+    "otherText": "State and prove the Basic Proportionality Theorem.",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2ko00iv7gcn8bvqmg28",
+    "chapter": "Trigonometry",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.86,
+    "sameNumbers": 0,
+    "sameOptions": 0,
+    "against": "cmvq9r2kp00j57gcn0ziujt5g",
+    "againstSource": "ai",
+    "text": "sec θ (1 − sin θ)(sec θ + tan θ) is equal to",
+    "otherText": "If x = sec θ + tan θ, then sec θ − tan θ is equal to",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2ky00kb7gcnolq8crno",
+    "chapter": "Trigonometry",
+    "kind": "bank",
+    "level": "duplicate",
+    "score": 0.86,
+    "sameNumbers": 1,
+    "sameOptions": 0,
+    "against": "cmvq9r2kz00kd7gcn90di0p53",
+    "againstSource": "ai",
+    "text": "Prove that (cot θ − cos θ)/(cot θ + cos θ) = (cosec θ − 1)/(cosec θ + 1).",
+    "otherText": "Prove that (sec θ − cos θ)/(sec θ + cos θ) = sin²θ/(1 + cos²θ).",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2i200917gcnbu166p5v",
+    "chapter": "Probability",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.85,
+    "sameNumbers": 0,
+    "sameOptions": 1,
+    "against": "cmvq9r2i300977gcn8y229qm4",
+    "againstSource": "ai",
+    "text": "Two fair dice are thrown together. The probability that the sum of the numbers on the top faces is 9 is",
+    "otherText": "Two dice are thrown together. The probability that the sum of the numbers is either 5 or 11 is",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2ko00iz7gcnfw72e3mo",
+    "chapter": "Trigonometry",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.85,
+    "sameNumbers": 0,
+    "sameOptions": 0,
+    "against": "cmvq9r2kq00j77gcndigoz07u",
+    "againstSource": "ai",
+    "text": "tan²θ − sin²θ is equal to",
+    "otherText": "cos θ/(1 − sin θ) is equal to",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2fv000p7gcn89i60vha",
+    "chapter": "Areas Related to Circles",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.84,
+    "sameNumbers": 0.17,
+    "sameOptions": 0,
+    "against": "c6",
+    "againstSource": "seed",
+    "text": "A chord of a circle of radius 12 cm subtends an angle of 60° at the centre. Find the area of the corresponding minor segment. (Use π = 3.14 and √3 = 1.73)",
+    "otherText": "A chord of a circle of radius 10 cm subtends a right angle at the centre. Find the area of the minor segment. (Use π = 3.14)",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2gn003j7gcnibh905bs",
+    "chapter": "Circles",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.83,
+    "sameNumbers": 0,
+    "sameOptions": 0,
+    "against": "cmvq9r2gr00437gcn7yzi3sqz",
+    "againstSource": "ai",
+    "text": "Tangents PA and PB are drawn from an external point P to a circle with centre O, touching it at A and B. If ∠APB = 72°, find ∠OAB.",
+    "otherText": "Tangents PA and PB are drawn from an external point P to a circle with centre O. If ∠PAB = (2x + 10)° and ∠PBA = (3x − 20)°, find x and ∠AOB.",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2gv004j7gcnyhizt3gh",
+    "chapter": "Coordinate Geometry",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.83,
+    "sameNumbers": 0,
+    "sameOptions": 0.14,
+    "against": "cmvq9r2h300577gcnpaaccggd",
+    "againstSource": "ai",
+    "text": "The distance of the point P(5, −12) from the origin is",
+    "otherText": "The distance of the point (−7, 4) from the y-axis is",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2ho007p7gcn01pq69l5",
+    "chapter": "Polynomials",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.83,
+    "sameNumbers": 0,
+    "sameOptions": 0.33,
+    "against": "cmvq9r2hp007r7gcnu3wt37lb",
+    "againstSource": "ai",
+    "text": "The sum of the zeroes of the polynomial p(x) = 2x² − 8x + 6 is",
+    "otherText": "The product of the zeroes of the polynomial 3x² + 5x − 12 is",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2ko00ix7gcn8i61rtka",
+    "chapter": "Trigonometry",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.82,
+    "sameNumbers": 0,
+    "sameOptions": 0,
+    "against": "cmvq9r2kq00j77gcndigoz07u",
+    "againstSource": "ai",
+    "text": "sin⁴θ − cos⁴θ is equal to",
+    "otherText": "cos θ/(1 − sin θ) is equal to",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2l000kj7gcnq6fg9kge",
+    "chapter": "Trigonometry",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.82,
+    "sameNumbers": 0,
+    "sameOptions": 0,
+    "against": "c5",
+    "againstSource": "seed",
+    "text": "Prove that (cosec θ − sin θ)(sec θ − cos θ)(tan θ + cot θ) = 1.",
+    "otherText": "Prove that (sin θ + cosec θ)² + (cos θ + sec θ)² = 7 + tan²θ + cot²θ.",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2g000177gcng0c1t805",
+    "chapter": "Arithmetic Progressions",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.81,
+    "sameNumbers": 0.29,
+    "sameOptions": 0.14,
+    "against": "a8",
+    "againstSource": "seed",
+    "text": "The 10th term of the AP 7, 11, 15, 19, ... is",
+    "otherText": "The 10th term of the AP 2, 7, 12, … is:",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2gx004p7gcny2je1pib",
+    "chapter": "Coordinate Geometry",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.81,
+    "sameNumbers": 0.43,
+    "sameOptions": 0,
+    "against": "cmvq9r2gy004t7gcnp46tov2j",
+    "againstSource": "ai",
+    "text": "The point P divides the line segment joining A(1, −2) and B(7, 4) internally in the ratio 1 : 2. The coordinates of P are",
+    "otherText": "The point P(4, p) divides the line segment joining A(2, −3) and B(8, 9) in the ratio 1 : 2. The value of p is",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2hp007v7gcnhwh98dbb",
+    "chapter": "Polynomials",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.81,
+    "sameNumbers": 0,
+    "sameOptions": 0.14,
+    "against": "cmvq9r2hw008f7gcnmetorp9p",
+    "againstSource": "ai",
+    "text": "If the sum of the zeroes of the polynomial x² − (k + 3)x + 5 is 9, then the value of k is",
+    "otherText": "If 2 is a zero of the polynomial 2x² + kx − 14, then the value of k is",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2j700d37gcn23yn6b5d",
+    "chapter": "Real Numbers",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.81,
+    "sameNumbers": 0,
+    "sameOptions": 0,
+    "against": "b1",
+    "againstSource": "seed",
+    "text": "Find the HCF and LCM of 96 and 360 using prime factorisation.",
+    "otherText": "Find the LCM and HCF of 26 and 91 by prime factorisation.",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2j700d37gcn23yn6b5d",
+    "chapter": "Real Numbers",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.81,
+    "sameNumbers": 0,
+    "sameOptions": 0,
+    "against": "cmvq9r2jc00dn7gcnek7ooqpb",
+    "againstSource": "ai",
+    "text": "Find the HCF and LCM of 96 and 360 using prime factorisation.",
+    "otherText": "Find the HCF and LCM of 1260 and 3150 by the prime factorisation method.",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2jc00dn7gcnek7ooqpb",
+    "chapter": "Real Numbers",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.81,
+    "sameNumbers": 0,
+    "sameOptions": 0,
+    "against": "b1",
+    "againstSource": "seed",
+    "text": "Find the HCF and LCM of 1260 and 3150 by the prime factorisation method.",
+    "otherText": "Find the LCM and HCF of 26 and 91 by prime factorisation.",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2jc00dn7gcnek7ooqpb",
+    "chapter": "Real Numbers",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.81,
+    "sameNumbers": 0,
+    "sameOptions": 0,
+    "against": "cmvq9r2jc00dp7gcnemt38v1w",
+    "againstSource": "ai",
+    "text": "Find the HCF and LCM of 1260 and 3150 by the prime factorisation method.",
+    "otherText": "Find the HCF and LCM of 120, 144 and 180 using prime factorisation.",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2gh002x7gcnud4a59me",
+    "chapter": "Circles",
+    "kind": "bank",
+    "level": "similar wording",
+    "score": 0.8,
+    "sameNumbers": 0,
+    "sameOptions": 0.33,
+    "against": "a15",
+    "againstSource": "seed",
+    "text": "The number of tangents that can be drawn to a circle from a point lying inside the circle is",
+    "otherText": "The number of tangents that can be drawn to a circle from an external point is:",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2il00b17gcnaogg8z2m",
+    "chapter": "Quadratic Equations",
+    "kind": "board",
+    "level": "lead",
+    "score": 0.71,
+    "numbersCovered": 0.33,
+    "against": "2023/30_4_1_Maths_Standard",
+    "text": "The roots of the equation x² − 3x − 10 = 0 are",
+    "boardText": "ratio of hcf to lcm of the least composite number and the least prime number is 1 a 1 2 b 2 1 c 1 1 d 1 3 2. the roots of the equation",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2i200957gcn8w5ftjwu",
+    "chapter": "Probability",
+    "kind": "board",
+    "level": "copy",
+    "score": 0.7,
+    "numbersCovered": 1,
+    "against": "2025/30_3_1_Mathematics_Standard",
+    "text": "A die is thrown once. The probability of getting a prime number is",
+    "boardText": "a sector of circle of radius 36 cm is 54x cm2 then the length of the corresponding arc of the sector is a 8xcm b 6xcm c 4ccm d 3xcm 14. a die is thrown once. the probability",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2hq007x7gcnr53x7kwx",
+    "chapter": "Polynomials",
+    "kind": "board",
+    "level": "copy",
+    "score": 0.67,
+    "numbersCovered": 1,
+    "against": "2024/30_4_1_Mathematics_Standard_",
+    "text": "If α and β are the zeroes of the polynomial x² − 4x + 3, then α² + β² is equal to",
+    "boardText": "of 50 and 100 did she receive. 29. a b 30. prove that find the zeroes of the polynomial 4x2 4x 3 and verify the relationship between zeroes and coefficients of the polynomial. or if and are the zeroes of",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2fv000p7gcn89i60vha",
+    "chapter": "Areas Related to Circles",
+    "kind": "board",
+    "level": "lead",
+    "score": 0.66,
+    "numbersCovered": 0.2,
+    "against": "2023/30_1_1_Maths_Standard",
+    "text": "A chord of a circle of radius 12 cm subtends an angle of 60° at the centre. Find the area of the corresponding minor segment. (Use π = 3.14 and √3 = 1.73)",
+    "boardText": "aart at x hl le rat am at baahea hl 220 cm h wa fat thats 30/1/1 r0nrnn page 18 page 19 mgm ok bry 34. a chord of a circle of radius 14 cm subtends an angle of 60 at the centre. find the area of the corresponding minor segment of the circle. also find the",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2h8005v7gcnwk709abo",
+    "chapter": "Coordinate Geometry",
+    "kind": "board",
+    "level": "lead",
+    "score": 0.64,
+    "numbersCovered": 0.33,
+    "against": "2024/30_3_1_Mathematics_Standard_",
+    "text": "Find a relation between x and y such that the point P(x, y) is equidistant from A(3, 6) and B(−3, 4).",
+    "boardText": "22. a if2x y 13 and 4x y 17 find the value of x y . 2 or b sum of two numbers is 105 and their difference is 45. find the numbers. 2 23. a find a relation between x and y such that the point p x y",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2i7009n7gcnieap3bn4",
+    "chapter": "Probability",
+    "kind": "board",
+    "level": "copy",
+    "score": 0.62,
+    "numbersCovered": 1,
+    "against": "2026/1172_1_30_5_1_Mathematics_Standard_",
+    "text": "Which of the following can be the probability of an event?",
+    "boardText": "5 9 ians 9 cosec 8 1 80 a 0 b 3 82 1 o 3 380/5/1 page 8 of 24 page 09 ohio apt be 10. which of the following can not be the probability",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2ib00a37gcnknbqhtch",
+    "chapter": "Probability",
+    "kind": "board",
+    "level": "lead",
+    "score": 0.61,
+    "numbersCovered": 0.2,
+    "against": "2023/30_4_1_Maths_Standard",
+    "text": "Assertion (A): The probability that a non-leap year has 53 Sundays is 2/7.\nReason (R): A non-leap year has 52 complete weeks and 1 extra day.",
+    "boardText": "in the question number 19 and 20 a statement of assertion a is followed by a statement of reason r . choose the correct option out of the following 19. assertion a the probability that a leap year has 53 sundays is z. reason r the probability that a non leap y",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2hp007t7gcnikl7tgl3",
+    "chapter": "Polynomials",
+    "kind": "board",
+    "level": "lead",
+    "score": 0.57,
+    "numbersCovered": 0,
+    "against": "2024/30_4_1_Mathematics_Standard_",
+    "text": "If α and β are the zeroes of the polynomial x² − 9x + 14, then 1/α + 1/β is equal to",
+    "boardText": "many notes of 50 and 100 did she receive. 29. a b 30. prove that find the zeroes of the polynomial 4x2 4x 3 and verify the relationship between zeroes and coefficients of the polynomial. or if and are the zeroes of",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2fr000b7gcnig5thuda",
+    "chapter": "Areas Related to Circles",
+    "kind": "board",
+    "level": "lead",
+    "score": 0.54,
+    "numbersCovered": 0.5,
+    "against": "2025/30_3_1_Mathematics_Standard",
+    "text": "A chord of a circle of radius 10 cm subtends a right angle at the centre. The area of the corresponding minor segment is (use π = 3.14)",
+    "boardText": "a prove that cn 1 eca 1 seca 1 seca 1 or 1 1 1 b p that cosa sina w b rovewne i cos ean sun tana cota 29. achord of a circle of radius 10 cm subtends a right angle at the centre of the circle. find the area of",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2h5005j7gcn5y0mmrkh",
+    "chapter": "Coordinate Geometry",
+    "kind": "board",
+    "level": "copy",
+    "score": 0.54,
+    "numbersCovered": 1,
+    "against": "2026/30_1_1P_Maths_Std_X",
+    "text": "Find the ratio in which the x-axis divides the line segment joining A(3, −6) and B(5, 3). Also find the point of division.",
+    "boardText": "circle. 2 section c question numbers 26 to 31 are short answer sa type questions carrying 3 marks each. 26. prove that /3 is an irrational number. 3 27. find the ratio in which the x axis divides the line segment joining the points 6 5 and 4 1 . also find",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2hz008p7gcnqriwhz4v",
+    "chapter": "Polynomials",
+    "kind": "board",
+    "level": "lead",
+    "score": 0.54,
+    "numbersCovered": 0.67,
+    "against": "2024/30_4_1_Mathematics_Standard_",
+    "text": "If α and β are the zeroes of the polynomial 3x² − 5x − 2, find the value of α²β + αβ².",
+    "boardText": "many notes of 50 and 100 did she receive. 29. a b 30. prove that find the zeroes of the polynomial 4x2 4x 3 and verify the relationship between zeroes and coefficients of the polynomial. or if and are the zeroes",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2gx004r7gcnxdpkeh4l",
+    "chapter": "Coordinate Geometry",
+    "kind": "board",
+    "level": "lead",
+    "score": 0.53,
+    "numbersCovered": 0.25,
+    "against": "2025/30_1_1_Mathematics_Standard",
+    "text": "The ratio in which the y-axis divides the line segment joining A(−2, 5) and B(6, −3) is",
+    "boardText": "27. a prove that tan 0 cot 0 1 sec 0 cosec 0 1 cot 9 1 tan or sma cosa sina cosa 2 b prove that sina cosa sina cosa 2gin a 1 28. find the ratio in which the y axis divides the",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2jj00ef7gcn55kfml5n",
+    "chapter": "Statistics",
+    "kind": "board",
+    "level": "lead",
+    "score": 0.52,
+    "numbersCovered": 0.6,
+    "against": "2022/30_1_1_Maths_Standard",
+    "text": "The mode of the following data is: Class: 10-20 | 20-30 | 30-40 | 40-50 | 50-60 ; Frequency: 4 | 8 | 20 | 12 | 6.",
+    "boardText": "1 x2 2 m 1 x 1 0 has two real and equal roots. 2 or b solve the following quadratic equation for x 2 j3 x2 10x 7v3 0 4 find the mode of the following frequency distribution 2 class 10 20 20 30 30 40 40 50",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2g4001j7gcnnveknp08",
+    "chapter": "Arithmetic Progressions",
+    "kind": "board",
+    "level": "lead",
+    "score": 0.5,
+    "numbersCovered": 0.67,
+    "against": "2024/30_5_1_Mathematics_Standard_",
+    "text": "The first term of an AP is 5, the last term is 45 and the sum of all its terms is 250. The number of terms is",
+    "boardText": "sum of the first 14 terms of an a.p. is 1050 and the first term is 10 then find the 20 term and the n term. or b the first term of an a.p. is 5 the last term is 45 and the sum of all the terms is 400. find the",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2hy008n7gcnv3llzvla",
+    "chapter": "Polynomials",
+    "kind": "board",
+    "level": "lead",
+    "score": 0.5,
+    "numbersCovered": 0.33,
+    "against": "2024/30_3_1_Mathematics_Standard_",
+    "text": "Find the zeroes of the polynomial 6x² − 7x − 3 and verify the relationship between the zeroes and the coefficients.",
+    "boardText": "term of an a.p. is 1 3 and the sum of its first six terms is 42. find the first term and the common difference of a.p. 3 27. find the zeroes of the quadratic polynomial x 15 and verify the relationship between the",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2jq00f77gcn07jvqsfj",
+    "chapter": "Surface Areas and Volumes",
+    "kind": "board",
+    "level": "lead",
+    "score": 0.46,
+    "numbersCovered": 0,
+    "against": "2023/30_2_1_Maths_Standard",
+    "text": "The total surface area of a solid hemisphere of radius 7 cm is (use π = 22/7)",
+    "boardText": "ae 9. if one zero of the polynomial 6x 37x k 2 is reciprocal of the other then what is the value of k a 4 b 6 c 6 dq 4 10. what is the total surface area of a",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  },
+  {
+    "id": "cmvq9r2ib009z7gcnw9hh0kxb",
+    "chapter": "Probability",
+    "kind": "board",
+    "level": "lead",
+    "score": 0.45,
+    "numbersCovered": 1,
+    "against": "2023/30_5_1_Maths_Standard",
+    "text": "Three fair coins are tossed together. The probability of getting exactly two heads is",
+    "boardText": "dd i1eaaen 30/5/1 page 8 page 09 ae 14. the 11 term from the end of the ap. 10 7 4 ....... 62 is a 25 b 16 c 32 da 0 15. two coins are tossed together. the",
+    "verification": {
+      "status": "invalid",
+      "note": "No verifier verdict for this question."
+    }
+  }
+]

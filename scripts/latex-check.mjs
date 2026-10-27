@@ -1,5 +1,6 @@
 /**
  * Checks a LaTeX conversion of questions: node scripts/latex-check.mjs <in.json> <out.json>
+ *   or, for freshly written questions with no original: node scripts/latex-check.mjs <file.json>
  *   - same ids, same order, same options count
  *   - dollars balanced; every $…$ / $$…$$ span parses in KaTeX (throwOnError)
  *   - no Unicode maths characters left (√ π θ ² ³ ° ≤ ≥ ≠ ∠ ∆ ∥ ⊥ × ÷ − …) outside \text{}
@@ -11,9 +12,11 @@ import { readFileSync } from 'node:fs';
 import katex from 'katex';
 import { splitMath } from './latex-split.mjs';
 
-const [inFile, outFile] = process.argv.slice(2);
-const inp = JSON.parse(readFileSync(inFile, 'utf8'));
-const out = JSON.parse(readFileSync(outFile, 'utf8'));
+// One file = "solo" mode for newly written LaTeX questions (syntax checks only, nothing to compare with).
+const [inFile, outFile = inFile] = process.argv.slice(2);
+const solo = inFile === outFile;
+const inp = JSON.parse(readFileSync(inFile, 'utf8')).map((q, i) => ({ id: q.id ?? `#${i}`, ...q }));
+const out = solo ? inp : JSON.parse(readFileSync(outFile, 'utf8'));
 const problems = [];
 const SUP = '⁰¹²³⁴⁵⁶⁷⁸⁹', SUB = '₀₁₂₃₄₅₆₇₈₉';
 const DIGITS = Object.fromEntries([...SUP].map((c, i) => [c, String(i)]).concat([...SUB].map((c, i) => [c, String(i)]), [['⁻', ''], ['ⁿ', '']]));
@@ -27,6 +30,8 @@ const byId = new Map(out.map((q) => [q.id, q]));
 
 const checkField = (id, label, before, after) => {
   if (typeof after !== 'string') { problems.push(`${id} ${label}: missing`); return; }
+  // A LaTeX command written in a non-raw string loses its backslash escape (\triangle becomes TAB + riangle).
+  if (/[\x00-\x08\x0b-\x1f\t]/.test(after)) problems.push(`${id} ${label}: control character in text (a \\t, \\f, \\b or \\r escape ate a LaTeX command)`);
   const parts = splitMath(after);
   // dollars: after removing \$ and the spans, no lone $ may remain in text parts
   if (parts.some((p) => p.kind === 'text' && p.value.includes('$') && !/\\\$/.test(p.value))) problems.push(`${id} ${label}: unbalanced $`);

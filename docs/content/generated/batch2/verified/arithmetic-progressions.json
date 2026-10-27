@@ -1,0 +1,524 @@
+[
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Common difference",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "The common difference of the AP $-4.5, -2, 0.5, 3, \\dots$ is",
+    "options": [
+      "$-2.5$",
+      "$2$",
+      "$2.5$",
+      "$3.5$"
+    ],
+    "answer": "Correct option: C) $2.5$. $d = a_{2} - a_{1} = -2 - (-4.5) = 2.5$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Common difference",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "In an AP, the 20th term is $27$ less than the 11th term. The common difference is",
+    "options": [
+      "$3$",
+      "$-2.7$",
+      "$-9$",
+      "$-3$"
+    ],
+    "answer": "Correct option: D) $-3$. $a_{20} - a_{11} = 9d = -27$, so $d = -3$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Finding n",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Which term of the AP $21, 18, 15, \\dots$ is $-81$?",
+    "options": [
+      "$34$th term",
+      "$35$th term",
+      "$36$th term",
+      "$33$rd term"
+    ],
+    "answer": "Correct option: B) $35$th term. $21 + (n-1)(-3) = -81$ gives $n - 1 = 34$, so $n = 35$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Finding n",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The AP $8, 14, 20, \\dots$ ends with the term $152$. The number of terms in it is",
+    "options": [
+      "$24$",
+      "$26$",
+      "$25$",
+      "$27$"
+    ],
+    "answer": "Correct option: C) $25$. $152 = 8 + (n-1)6$ gives $n - 1 = 24$, so $n = 25$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Middle terms and conditions for an AP",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "If $2p$, $p + 10$ and $3p + 2$ are three consecutive terms of an AP, then $p$ is",
+    "options": [
+      "$4$",
+      "$8$",
+      "$6$",
+      "$12$"
+    ],
+    "answer": "Correct option: C) $6$. $2(p+10) = 2p + 3p + 2$ gives $20 + 2p = 5p + 2$, hence $3p = 18$, so $p = 6$ (terms $12, 16, 20$).",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Middle terms and conditions for an AP",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Assertion (A): If the sum of three consecutive terms of an AP is $42$, then the middle term is $14$.\nReason (R): For consecutive terms of an AP, $a_{n-1} + a_{n+1} = 2a_{n}$.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: A) Both A and R are true and R is the correct explanation of A. Sum $= a_{n-1} + a_{n} + a_{n+1} = 3a_{n} = 42$, so $a_{n} = 14$. Both are true and R gives the step $a_{n-1}+a_{n+1}=2a_{n}$ used in A.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "nth term",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "The 12th term of the AP $-3, 1, 5, 9, \\dots$ is",
+    "options": [
+      "$45$",
+      "$37$",
+      "$41$",
+      "$49$"
+    ],
+    "answer": "Correct option: C) $41$. $a_{12} = -3 + 11 \\times 4 = 41$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "nth term",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "In an AP, $a_{4} = 14$ and $a_{9} = 39$. Its first term is",
+    "options": [
+      "$-6$",
+      "$-1$",
+      "$1$",
+      "$5$"
+    ],
+    "answer": "Correct option: B) $-1$. $5d = 39 - 14 = 25$, so $d = 5$; then $a = 14 - 3 \\times 5 = -1$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Word problems",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": true,
+    "text": "Rahul saves ₹30 in the first month and ₹10 more each month than in the previous month. His saving in the 9th month is",
+    "options": [
+      "₹120",
+      "₹110",
+      "₹100",
+      "₹90"
+    ],
+    "answer": "Correct option: B) ₹110. Savings form an AP: $a_{9} = 30 + 8 \\times 10 = 110$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Common difference",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The sum of the first $n$ terms of an AP is $S_{n} = 5n^{2} - 2n$. Its common difference is",
+    "options": [
+      "$3$",
+      "$13$",
+      "$5$",
+      "$10$"
+    ],
+    "answer": "Correct option: D) $10$. $a_{1} = S_{1} = 3$, $a_{2} = S_{2} - S_{1} = 16 - 3 = 13$, so $d = 13 - 3 = 10$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Sum of n terms",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Assertion (A): The sum of the first 10 terms of the AP with first term $4$ and common difference $3$ is $185$.\nReason (R): The sum of the first $n$ terms of an AP is $S_{n} = \\frac{n}{2}[2a + (n-1)d]$.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: D) A is false but R is true. $S_{10} = 5[8 + 27] = 175$, not $185$, so A is false. R is the standard true formula.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Sum of n terms",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "hard",
+    "competency": false,
+    "text": "The sum of the first $n$ terms of the AP $25, 22, 19, \\dots$ is greatest when $n$ equals",
+    "options": [
+      "$8$",
+      "$10$",
+      "$13$",
+      "$9$"
+    ],
+    "answer": "Correct option: D) $9$. $a_{n} = 28 - 3n > 0$ for $n \\le 9$ ($a_{9} = 1$, $a_{10} = -2$), so adding terms after the 9th lowers the sum; $S_{9} = 117$ is the greatest.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Finding n",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Is $187$ a term of the AP $7, 16, 25, 34, \\dots$? If yes, which term is it?",
+    "answer": "Here $a = 7$, $d = 9$. Put $7 + (n-1)9 = 187$, so $(n-1)9 = 180$ and $n - 1 = 20$, $n = 21$, a positive integer. Hence $187$ is a term: the 21st term.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Common difference",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "In an AP, $a_{5} = 22$ and the 9th term exceeds the 6th term by $15$. Find the first four terms of the AP.",
+    "answer": "$a_{9} - a_{6} = 3d = 15$, so $d = 5$. From $a + 4d = 22$: $a = 2$. The AP begins $2, 7, 12, 17$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Middle terms and conditions for an AP",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "For what value of $p$ are $3p + 1$, $5p - 3$ and $6p + 2$ three consecutive terms of an AP?",
+    "answer": "Condition: $2(5p-3) = (3p+1) + (6p+2)$. So $10p - 6 = 9p + 3$, giving $p = 9$. (Terms are $28, 42, 56$ with $d=14$.)",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Sum of n terms",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Find the sum of the first 16 terms of the AP $11, 8, 5, 2, \\dots$",
+    "answer": "$a = 11$, $d = -3$, $n = 16$. $S_{16} = \\frac{16}{2}[2(11) + 15(-3)] = 8(22 - 45) = 8 \\times (-23) = -184$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "nth term",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The 6th term of an AP is $19$ and its 11th term is $44$. Find its 16th term.",
+    "answer": "$5d = 44 - 19 = 25$, so $d = 5$. $a + 5d = 19$ gives $a = -6$. $a_{16} = -6 + 15 \\times 5 = 69$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Sum of n terms",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Find the sum of all natural numbers between $50$ and $250$ that are multiples of $8$.",
+    "answer": "The numbers are $56, 64, \\dots, 248$: $a = 56$, $d = 8$, $l = 248$. $248 = 56 + (n-1)8$ gives $n = 25$. $S_{25} = \\frac{25}{2}(56 + 248) = \\frac{25}{2} \\times 304 = 3800$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Word problems",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": true,
+    "text": "A taxi charges ₹50 for the first kilometre and ₹12 for every additional kilometre. The fares for 1 km, 2 km, 3 km, $\\dots$ form an AP. Find the fare for a journey of 11 km.",
+    "answer": "Fares: $50, 62, 74, \\dots$ so $a = 50$, $d = 12$. $a_{11} = 50 + 10 \\times 12 = 170$. The fare is ₹170.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Common difference",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The sum of the first $n$ terms of an AP is $S_{n} = 4n - n^{2}$. Find the first term, the common difference and the 10th term.",
+    "answer": "$a_{1} = S_{1} = 3$. $a_{2} = S_{2} - S_{1} = 4 - 3 = 1$, so $d = 1 - 3 = -2$. $a_{10} = 3 + 9(-2) = -15$ (check: $S_{10} - S_{9} = -60 + 45 = -15$).",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Finding n",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": false,
+    "text": "How many terms of the AP $18, 16, 14, \\dots$ must be added to get the sum $0$?",
+    "answer": "$S_{n} = \\frac{n}{2}[36 + (n-1)(-2)] = 0$ with $n \\ne 0$ gives $36 - 2(n-1) = 0$, so $n - 1 = 18$ and $n = 19$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Middle terms and conditions for an AP",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Three numbers in AP have sum $27$ and product $693$. Find the numbers, taking them in increasing order.",
+    "answer": "Let the numbers be $9-d$, $9$, $9+d$ (sum $27$ gives middle term $9$). Product: $9(81 - d^{2}) = 693$, so $81 - d^{2} = 77$, $d^{2} = 4$, $d = 2$ (increasing order). The numbers are $7, 9, 11$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Word problems",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "hard",
+    "competency": true,
+    "text": "Kamal repays a loan of ₹6800 in monthly instalments. The first instalment is ₹500 and each later instalment is ₹40 more than the one before. Find the number of instalments and the amount of the last instalment.",
+    "answer": "$a = 500$, $d = 40$, $S_{n} = 6800$. $\\frac{n}{2}[1000 + 40(n-1)] = 6800$ gives $20n^{2} + 480n = 6800$, i.e. $n^{2} + 24n - 340 = 0$, so $(n + 34)(n - 10) = 0$. Since $n > 0$, $n = 10$. Last instalment $a_{10} = 500 + 9 \\times 40 = 860$, i.e. ₹860.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Finding n",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The 3rd term of an AP is $14$ and its 8th term is $39$. Which term of the AP is $124$?",
+    "answer": "$5d = 39 - 14$, so $d = 5$. $a + 2d = 14$ gives $a = 4$. Then $4 + (n-1)5 = 124$, so $n - 1 = 24$ and $n = 25$. It is the 25th term.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "nth term",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "In an AP, the sum of the 3rd and 8th terms is $19$ and the sum of the 5th and 12th terms is $37$. Find the first three terms and the 20th term.",
+    "answer": "$a_{3} + a_{8} = 2a + 9d = 19$ and $a_{5} + a_{12} = 2a + 15d = 37$. Subtracting, $6d = 18$, so $d = 3$; then $2a = 19 - 27$, $a = -4$. First three terms: $-4, -1, 2$. $a_{20} = -4 + 19 \\times 3 = 53$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Sum of n terms",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Find the sum of all natural numbers from $1$ to $100$ that are not divisible by $3$.",
+    "answer": "Sum of $1$ to $100 = \\frac{100}{2}(1 + 100) = 5050$. Multiples of $3$: $3, 6, \\dots, 99$ has $n = 33$ terms, sum $= \\frac{33}{2}(3 + 99) = 1683$. Required sum $= 5050 - 1683 = 3367$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Word problems",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "hard",
+    "competency": true,
+    "text": "Pipes are stacked in rows with 20 pipes in the bottom row, and each row above has one pipe fewer than the row below it. Altogether there are 132 pipes. Find the number of rows and the number of pipes in the top row.",
+    "answer": "$a = 20$, $d = -1$, $S_{n} = 132$: $\\frac{n}{2}[40 - (n-1)] = 132$ gives $n(41 - n) = 264$, i.e. $n^{2} - 41n + 264 = 0$, so $(n - 8)(n - 33) = 0$. Rows cannot exceed $20$ (the pipes would run out), so $n = 33$ is rejected and $n = 8$. Top row: $a_{8} = 20 - 7 = 13$ pipes.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "nth term",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": false,
+    "text": "In an AP, the 8th term is $7$ more than twice the 3rd term, and the sum of the 2nd and 6th terms is $34$. Find the first term and the common difference. Hence find which term of the AP is $97$ and the sum of that many terms from the start.",
+    "answer": "$a_{8} = 2a_{3} + 7$: $a + 7d = 2(a + 2d) + 7$, so $3d - a = 7$ ... (1). $a_{2} + a_{6} = 2a + 6d = 34$, so $a + 3d = 17$ ... (2). Adding (1) and (2): $6d = 24$, $d = 4$; then $a = 17 - 12 = 5$. Now $5 + (n-1)4 = 97$ gives $n - 1 = 23$, $n = 24$: $97$ is the 24th term. $S_{24} = \\frac{24}{2}(5 + 97) = 12 \\times 102 = 1224$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Sum of n terms",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Find how many three-digit natural numbers leave remainder $2$ when divided by $5$, and find their sum. Hence find the sum of all the other three-digit numbers.",
+    "answer": "Such numbers: $102, 107, \\dots, 997$, an AP with $a = 102$, $d = 5$, $l = 997$. $997 = 102 + (n-1)5$ gives $n - 1 = 179$, $n = 180$. Sum $= \\frac{180}{2}(102 + 997) = 90 \\times 1099 = 98910$. All three-digit numbers $100, 101, \\dots, 999$ (900 terms) have sum $\\frac{900}{2}(100 + 999) = 494550$. Sum of the others $= 494550 - 98910 = 395640$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Word problems",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": true,
+    "text": "Ishita starts a job with a monthly salary of ₹24000. At the start of each later year her monthly salary rises by ₹1200, and it stays the same throughout a year. Find (a) her monthly salary in the 10th year, (b) the year in which her monthly salary becomes ₹36000, and (c) her total earnings in the first 10 years.",
+    "answer": "Monthly salaries form an AP with $a = 24000$, $d = 1200$. (a) $a_{10} = 24000 + 9 \\times 1200 = 34800$, i.e. ₹34800. (b) $24000 + (n-1)1200 = 36000$ gives $n - 1 = 10$, $n = 11$: the 11th year. (c) Sum of monthly salaries over 10 years: $S_{10} = \\frac{10}{2}(24000 + 34800) = 5 \\times 58800 = 294000$. Each monthly salary is paid for 12 months, so total $= 12 \\times 294000 = 3528000$, i.e. ₹35,28,000.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  }
+]
