@@ -1,9 +1,6 @@
 /**
- * Server copy of the CBSE Class 10 Maths question bank and paper builder.
- *
- * Copied from src/web/features/demo/data/questions.ts so the API owns the
- * questions it serves; the prototype keeps its own copy until it is wired to
- * the API. Next step: move the bank into the database.
+ * Starter question bank (CBSE Class 10 Maths) used only by the seed scripts.
+ * The live bank is the `questions` table, managed at /admin/questions.
  */
 
 export type SectionId = 'A' | 'B' | 'C' | 'D' | 'E';
@@ -109,39 +106,3 @@ export const QUESTION_BANK: Question[] = [
   q('e2', 'E', 'Coordinate Geometry', 'Case study — Students plant saplings at points A(2, 3), B(6, 3) and C(6, 6) on a grid of the school garden. (i) Find AB. (ii) Find AC. (iii) What kind of triangle is ABC?'),
   q('e3', 'E', 'Probability', 'Case study — A bag contains 5 red, 8 green and 7 white balls. One ball is drawn at random. Find the probability that it is (i) red (ii) not green (iii) red or white.'),
 ];
-
-export function buildPaper(chapters: string[], pattern: 'board' | 'unit', variant = 0, targetMarks?: number): Question[] {
-  const pool = QUESTION_BANK.filter((x) => chapters.includes(x.chapter));
-  const order = Object.keys(SECTIONS) as SectionId[];
-  let out: Question[] = [];
-  order.forEach((s) => {
-    const want = pattern === 'board' ? SECTIONS[s].count : Math.ceil(SECTIONS[s].count / 3);
-    const inSection = pool.filter((x) => x.section === s);
-    const k = inSection.length ? variant % inSection.length : 0;
-    out.push(...[...inSection.slice(k), ...inSection.slice(0, k)].slice(0, want));
-  });
-
-  // A requested total ("40-mark test") wins over the section template: top up
-  // with unused questions, biggest first, or trim long answers if over.
-  if (targetMarks) {
-    let total = totalMarks(out);
-    const unused = pool.filter((q) => !out.includes(q)).sort((a, b) => b.marks - a.marks);
-    for (const q of unused) {
-      if (total >= targetMarks) break;
-      if (total + q.marks <= targetMarks) { out.push(q); total += q.marks; }
-    }
-    for (const q of [...out].sort((a, b) => b.marks - a.marks)) {
-      if (total <= targetMarks) break;
-      if (total - q.marks >= targetMarks) { out = out.filter((x) => x !== q); total -= q.marks; }
-    }
-    out.sort((a, b) => order.indexOf(a.section) - order.indexOf(b.section));
-  }
-  return out;
-}
-
-export const totalMarks = (qs: Question[]) => qs.reduce((n, x) => n + x.marks, 0);
-
-/** Questions for stored ids, in the stored order. Unknown ids are dropped. */
-export function questionsByIds(ids: string[]): Question[] {
-  return ids.map((id) => QUESTION_BANK.find((x) => x.id === id)).filter((x): x is Question => !!x);
-}

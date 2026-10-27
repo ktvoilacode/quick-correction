@@ -15,7 +15,7 @@ import { createHash } from 'node:crypto';
 import { databaseClass } from '@bloomneo/appkit/database';
 import { queueClass } from '@bloomneo/appkit/queue';
 import { loggerClass } from '@bloomneo/appkit/logger';
-import { questionsByIds, type Question } from './question-bank.js';
+import { questionsByIds, type Question, type LayoutSection } from './questions.js';
 
 const logger = loggerClass.get('marking');
 const JOB = 'qc-mark-submission';
@@ -58,7 +58,7 @@ async function runJob({ submissionId }: { submissionId: string }) {
   const sub = await db.submission.findUnique({ where: { id: submissionId }, include: { paper: true } });
   if (!sub || sub.status !== 'evaluating') return;
   try {
-    const questions = questionsByIds(sub.paper.questionIds as string[]);
+    const questions = await questionsByIds(sub.paper.questionIds as string[], { layout: sub.paper.layout as LayoutSection[] | null, withAnswers: true });
     const out = await markAnswerPages(questions, sub.pages as string[], sub.id);
     await db.submission.update({
       where: { id: sub.id },

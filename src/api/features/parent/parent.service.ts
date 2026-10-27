@@ -8,7 +8,7 @@
 import { databaseClass } from '@bloomneo/appkit/database';
 import { errorClass } from '@bloomneo/appkit/error';
 import { claimAppRole } from '../../lib/qc/app-role.js';
-import { questionsByIds } from '../../lib/qc/question-bank.js';
+import { questionsByIds, type LayoutSection } from '../../lib/qc/questions.js';
 import { queueMarking } from '../../lib/qc/marking.js';
 import { storePage, MAX_PAGES } from '../../lib/qc/pages.js';
 
@@ -56,7 +56,7 @@ export const parentService = {
       include: { paper: true, student: { select: { id: true, name: true, className: true } } },
     });
     if (!sub) throw error.notFound('Paper not found');
-    return { ...sub, questions: questionsByIds(sub.paper.questionIds as string[]) };
+    return { ...sub, questions: await questionsByIds(sub.paper.questionIds as string[], { layout: sub.paper.layout as LayoutSection[] | null }) };
   },
 
   /** Add one photographed page. Allowed until the paper is submitted. */

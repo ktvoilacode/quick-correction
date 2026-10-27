@@ -133,6 +133,11 @@ model Paper {
   durationMins Int
   targetMarks  Int?
   questionIds  Json // string[] of question-bank ids, in paper order
+  // Which pattern it was built from, and the section layout as it was then
+  // ([{ title, note, type, marksEach, questionIds }]), so editing a pattern
+  // later does not rewrite papers already set. Null on older papers.
+  patternId    String?
+  layout       Json?
   createdAt    DateTime     @default(now())
   submissions  Submission[]
 
@@ -175,6 +180,7 @@ model CurriculumNode {
   parent    CurriculumNode?  @relation("CurriculumTree", fields: [parentId], references: [id], onDelete: Cascade)
   children  CurriculumNode[] @relation("CurriculumTree")
   patterns  PaperPattern[]
+  questions Question[]
   position  Int              @default(0)
   isActive  Boolean          @default(true)
   // Topics only: how this topic is tested. questionTypes is a subset of
@@ -211,6 +217,28 @@ model PaperPattern {
   @@unique([subjectId, name])
   @@index([subjectId])
   @@map("paper_patterns")
+}
+
+// The question bank: each question is tagged to a topic of the skill library.
+// Papers keep question ids, so a question that has been used is hidden, not
+// deleted. `answer` is the marking scheme and never leaves the admin and
+// marking code.
+model Question {
+  id         String         @id @default(cuid())
+  topicId    String
+  topic      CurriculumNode @relation(fields: [topicId], references: [id], onDelete: Restrict)
+  type       String // 'mcq' | 'short' | 'long' | 'case'
+  complexity String         @default("medium") // 'easy' | 'medium' | 'hard'
+  marks      Int
+  text       String
+  options    Json? // string[] for multiple choice
+  answer     String?
+  isActive   Boolean        @default(true)
+  createdAt  DateTime       @default(now())
+  updatedAt  DateTime       @updatedAt
+
+  @@index([topicId])
+  @@map("questions")
 }
 
 // Background jobs for the appkit queue's database transport (picked

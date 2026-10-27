@@ -9,7 +9,9 @@
 import 'dotenv/config';
 import { databaseClass } from '@bloomneo/appkit/database';
 import { authClass } from '@bloomneo/appkit/auth';
-import { buildPaper, CHAPTERS } from '../../src/api/lib/qc/question-bank.js';
+import { seedLibrary } from './library.seed.js';
+import { generatePaper } from '../../src/api/lib/qc/generator.js';
+import { questionsByIds } from '../../src/api/lib/qc/questions.js';
 import { markAnswerPages } from '../../src/api/lib/qc/marking.js';
 
 const TEACHER = 'teacher@quickcorrection.app';
@@ -44,15 +46,21 @@ async function main() {
     }));
   }
 
+  // Papers come from the generator, so the skill library and patterns must exist.
+  await seedLibrary(db);
+  const patternId = async (name: string) => (await db.paperPattern.findFirstOrThrow({ where: { name } })).id;
+  const chapterId = async (name: string) => (await db.curriculumNode.findFirstOrThrow({ where: { kind: 'chapter', name } })).id;
+
   const plans = [
-    { title: 'Unit Test 1 — Algebra', chapters: ['Real Numbers', 'Polynomials', 'Quadratic Equations'], pattern: 'unit' as const, due: '2026-09-10', marked: true },
-    { title: 'Half-Yearly Pre-Board', chapters: [...CHAPTERS], pattern: 'board' as const, due: '2026-10-02', marked: true },
-    { title: 'Practice Paper — Statistics & Probability', chapters: ['Statistics', 'Probability'], pattern: 'unit' as const, due: '2026-11-05', marked: false },
+    { title: 'Unit Test 1 — Algebra', chapters: ['Real Numbers', 'Polynomials', 'Quadratic Equations'], pattern: 'Unit test', due: '2026-09-10', marked: true },
+    { title: 'Half-Yearly Pre-Board', chapters: [] as string[], pattern: 'Board paper', due: '2026-10-02', marked: true },
+    { title: 'Practice Paper — Statistics & Probability', chapters: ['Statistics', 'Probability'], pattern: 'Unit test', due: '2026-11-05', marked: false },
   ];
   for (const plan of plans) {
-    const qs = buildPaper(plan.chapters, plan.pattern);
+    const gen = await generatePaper({ patternId: await patternId(plan.pattern), chapterIds: await Promise.all(plan.chapters.map(chapterId)) });
+    const qs = await questionsByIds(gen.questionIds, { layout: gen.layout });
     const paper = await db.paper.create({
-      data: { teacherId: teacher.id, title: plan.title, pattern: plan.pattern, durationMins: plan.pattern === 'board' ? 180 : 60, questionIds: qs.map((q) => q.id) },
+      data: { teacherId: teacher.id, title: plan.title, pattern: gen.patternName, patternId: gen.patternId, durationMins: gen.durationMins, questionIds: gen.questionIds, layout: gen.layout },
     });
     for (const s of students) {
       const base = { paperId: paper.id, studentId: s.id, dueDate: new Date(plan.due) };

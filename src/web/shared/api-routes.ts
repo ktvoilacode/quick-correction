@@ -35,6 +35,8 @@ export type ApiRoute =
   | `/api/people/${string}/reset-password`
   | `/api/people/${string}/sign-in-as`
   | '/api/people/me'
+  | '/api/questions'
+  | `/api/questions/${string}`
   | `/api/settings/admin/${string}`
   | '/api/settings/admin/email-env'
   | '/api/settings/admin/email-test'
@@ -46,6 +48,7 @@ export type ApiRoute =
   | `/api/tutor/papers/${string}`
   | `/api/tutor/papers/${string}/assign`
   | '/api/tutor/review'
+  | '/api/tutor/setup'
   | '/api/tutor/students'
   | `/api/tutor/submissions/${string}`
   | `/api/tutor/submissions/${string}/approve`
@@ -81,6 +84,7 @@ export const API_ROUTES = [
   '/api/patterns',
   '/api/people',
   '/api/people/me',
+  '/api/questions',
   '/api/settings/admin/email-env',
   '/api/settings/admin/email-test',
   '/api/settings/admin/list',
@@ -89,6 +93,7 @@ export const API_ROUTES = [
   '/api/tutor/onboard',
   '/api/tutor/papers',
   '/api/tutor/review',
+  '/api/tutor/setup',
   '/api/tutor/students',
   '/api/user/admin/create',
   '/api/user/admin/list',

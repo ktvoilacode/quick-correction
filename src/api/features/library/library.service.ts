@@ -108,6 +108,15 @@ export const libraryService = {
     const db = await databaseClass.get();
     const existing = await db.curriculumNode.findUnique({ where: { id } });
     if (!existing) throw error.notFound('Not found');
+    // Questions are tagged to topics; refuse rather than orphan or silently drop them.
+    let level = [id];
+    const subtree = [id];
+    while (level.length) {
+      level = (await db.curriculumNode.findMany({ where: { parentId: { in: level } }, select: { id: true } })).map((n: { id: string }) => n.id);
+      subtree.push(...level);
+    }
+    const tagged = await db.question.count({ where: { topicId: { in: subtree } } });
+    if (tagged) throw error.conflict(`${tagged} question${tagged === 1 ? ' is' : 's are'} tagged under "${existing.name}". Move or delete them in the question bank first.`);
     await db.curriculumNode.delete({ where: { id } });
     auditService.logAudit({ actorId, actorType: 'admin', action: 'library.delete', entityType: 'curriculum', entityId: id, oldValue: { kind: existing.kind, name: existing.name } });
     return { ok: true };

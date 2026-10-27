@@ -23,8 +23,12 @@ router.post('/onboard', error.asyncRoute(async (req, res) => {
 
 router.use(requireAppRole('teacher'));
 
+router.get('/setup', error.asyncRoute(async (_req, res) => {
+  res.json(await tutorService.setup());
+}));
+
 router.get('/chapters', error.asyncRoute(async (_req, res) => {
-  res.json({ chapters: tutorService.chapters() });
+  res.json({ chapters: await tutorService.chapters() });
 }));
 
 router.get('/students', error.asyncRoute(async (req, res) => {
