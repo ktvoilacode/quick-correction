@@ -62,3 +62,7 @@ Thumbs.db
 
 # Uploaded answer-sheet photos (local storage strategy)
 uploads/
+
+# Downloaded CBSE papers (copyrighted; local reference only)
+docs/content/pyq/
+docs/content/pyq-text/
