@@ -30,7 +30,7 @@ async function main() {
   const topicCache = new Map<string, string>();
   let added = 0, flagged = 0, skipped = 0;
 
-  for (const file of readdirSync(dir).filter((f) => f.endsWith('.json') && f !== 'brief.json').sort()) {
+  for (const file of readdirSync(dir).filter((f) => f.endsWith('.json') && f !== 'brief.json' && f !== 'dup-report.json').sort()) {
     const rows: Row[] = JSON.parse(readFileSync(new URL(file, dir), 'utf8'));
     for (const r of rows) {
       const key = `${r.chapter}|${r.topic}`;

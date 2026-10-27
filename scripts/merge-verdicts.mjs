@@ -15,7 +15,7 @@ const dir = new URL(`../docs/content/generated/${sub}`, import.meta.url).pathnam
 const needsMine = Boolean(sub);
 mkdirSync(dir + 'verified', { recursive: true });
 const tally = {};
-for (const f of readdirSync(dir).filter((x) => x.endsWith('.json') && x !== 'brief.json').sort()) {
+for (const f of readdirSync(dir).filter((x) => x.endsWith('.json') && x !== 'brief.json' && x !== 'dup-report.json').sort()) {
   const rows = JSON.parse(readFileSync(dir + f, 'utf8'));
   const vFile = `${dir}verdicts/${f}`;
   const verdicts = existsSync(vFile) ? JSON.parse(readFileSync(vFile, 'utf8')) : null;
