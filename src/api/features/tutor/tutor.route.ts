@@ -1,6 +1,6 @@
 /**
- * Tutor routes — /api/tutor. Teacher accounts only, except /onboard, which
- * is how a signed-in account becomes a teacher in the first place.
+ * Tutor routes — /api/tutor. Approved teacher accounts only, except /onboard, which
+ * files a teacher request (pending until an admin approves it).
  * @file src/api/features/tutor/tutor.route.ts
  */
 import express from 'express';
@@ -18,7 +18,7 @@ router.use(auth.requireLoginToken());
 
 router.post('/onboard', error.asyncRoute(async (req, res) => {
   await claimAppRole(userIdOf(req), 'teacher');
-  res.json({ ok: true, appRole: 'teacher' });
+  res.json({ ok: true, appRole: 'teacher', appStatus: 'pending' });
 }));
 
 router.use(requireAppRole('teacher'));

@@ -41,6 +41,9 @@ model User {
   // Quick Correction: which side of the app this account uses — 'teacher' or
   // 'parent'. Null until the person picks on first sign-in.
   appRole            String?
+  // 'active' | 'pending' | 'rejected'. Parents are active at once; a teacher
+  // who signs up themselves waits as 'pending' until an admin approves.
+  appStatus          String    @default("active")
   students           Student[] @relation("TeacherStudents")
   children           Student[] @relation("ParentChildren")
   papers             Paper[]

@@ -9,6 +9,8 @@ export interface User {
   level: string;
   /** teacher | parent. Separate from `role`, which is the admin/user level. */
   appRole?: string | null;
+  /** 'active' | 'pending' | 'rejected'. A self-registered teacher is pending until an admin approves. */
+  appStatus?: string | null;
   tenantId: string | null;
   isVerified: boolean;
   isActive: boolean;
@@ -40,6 +42,8 @@ export interface RegisterData {
    * did not collect a number. Add a field to the register form if you want it.
    */
   phone?: string;
+  /** Who is signing up. A teacher waits for admin approval. */
+  appRole?: 'parent' | 'teacher';
 }
 
 export interface VerifyEmailData {

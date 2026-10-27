@@ -18,6 +18,8 @@ export interface AuthRegisterRequest {
   password: string;
   name?: string;
   phone?: string;
+  /** 'parent' or 'teacher'. A teacher waits for admin approval. */
+  appRole?: 'parent' | 'teacher';
 }
 
 export interface AuthLoginResponse {
@@ -32,6 +34,8 @@ export interface AuthLoginResponse {
     tenantId: string | null;
     isVerified: boolean;
     isActive: boolean;
+    appRole?: string | null;
+    appStatus?: string | null;
     lastLogin: Date | null;
     createdAt: Date;
     updatedAt: Date;
@@ -52,6 +56,8 @@ export interface AuthRegisterResponse {
     tenantId: string | null;
     isVerified: boolean;
     isActive: boolean;
+    appRole?: string | null;
+    appStatus?: string | null;
     createdAt: Date;
     updatedAt: Date;
   };
