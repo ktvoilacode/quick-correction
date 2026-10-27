@@ -29,6 +29,6 @@ const chapters = Object.entries(TOPICS).map(([chapter, topics]) => {
     topics: topics.map((t) => ({ name: t.name, boardWeight: raws.filter((r) => t.from.includes(r.topic)).reduce((n, r) => n + r.askedInPapers, 0), foldsInto: t.from })),
   };
 });
-writeFileSync(root + 'generated/brief.json', JSON.stringify({ papersAnalysed: PAPERS, scale: SCALE, chapters }, null, 2));
+writeFileSync(root + 'generated/brief.json', JSON.stringify({ papersAnalysed: PAPERS, scale: SCALE, textFormat: 'Write maths as LaTeX between dollar signs (rendered with KaTeX). Follow docs/content/generated/latex/CONVENTIONS.md and check with node scripts/latex-check.mjs.', chapters }, null, 2));
 console.log(chapters.map((c) => `${c.chapter}: ${c.totalQuestions} ${JSON.stringify(c.quota)}`).join('\n'));
 console.log('TOTAL', chapters.reduce((n, c) => n + c.totalQuestions, 0));

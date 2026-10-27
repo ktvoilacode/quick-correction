@@ -16,6 +16,7 @@ import {
 import { Plus, Pencil, Trash2, Eye, EyeOff, Search, Loader2, AlertTriangle, FileQuestion, ChevronLeft, ChevronRight, Check, X, Sparkles } from 'lucide-react';
 import { SEO } from '@/shared/SEO';
 import { api } from '@/shared/api';
+import { MathText } from '@/shared/MathText';
 import { AdminPageHeader } from '../../components/AdminPageHeader';
 import { PageLoading } from '../../components/PageLoading';
 
@@ -250,7 +251,7 @@ export default function AdminQuestionsPage() {
                     </TableCell>
                     <TableCell className="min-w-44 align-top">
                       <button type="button" className="text-left" onClick={() => setPreview(q)} aria-label="Open question">
-                        <p className="line-clamp-2 whitespace-normal text-sm">{q.text}</p>
+                        <p className="line-clamp-2 whitespace-normal text-sm"><MathText text={q.text} /></p>
                       </button>
                       <div className="mt-1 flex flex-wrap items-center gap-1.5">
                         {q.source === 'ai' && <Badge variant="outline"><Sparkles className="mr-1 size-3" />AI</Badge>}
@@ -313,13 +314,13 @@ export default function AdminQuestionsPage() {
                 <Alert className="border-destructive/40 bg-destructive/8"><AlertTriangle className="size-4 text-destructive" /><AlertTitle>Reviewer note</AlertTitle><AlertDescription>{preview.reviewNote}</AlertDescription></Alert>
               )}
               <div className="space-y-3 text-sm">
-                <p className="whitespace-pre-wrap">{preview.text}</p>
+                <p className="whitespace-pre-wrap"><MathText text={preview.text} /></p>
                 {preview.options && (
-                  <ol className="list-[upper-alpha] space-y-1 pl-6">{preview.options.map((o, i) => <li key={i}>{o}</li>)}</ol>
+                  <ol className="list-[upper-alpha] space-y-1 pl-6">{preview.options.map((o, i) => <li key={i}><MathText text={String(o)} /></li>)}</ol>
                 )}
                 <div className="rounded-lg border border-border bg-muted p-3">
                   <p className="mb-1 text-xs font-medium uppercase tracking-wide text-muted-foreground">Answer</p>
-                  <p className="whitespace-pre-wrap">{preview.answer || 'No answer recorded.'}</p>
+                  <p className="whitespace-pre-wrap">{preview.answer ? <MathText text={preview.answer} /> : 'No answer recorded.'}</p>
                 </div>
               </div>
               <DialogFooter>
@@ -368,9 +369,15 @@ export default function AdminQuestionsPage() {
                   <Input required type="number" min={1} max={20} value={form.marks} onChange={(e) => setForm({ ...form, marks: e.target.value })} />
                 </FormField>
                 <div className="sm:col-span-3">
-                  <FormField label="Question" required>
+                  <FormField label="Question" required helper="Put maths between dollar signs, for example $x^2 - 3x - 10 = 0$ or $\frac{a}{b}$.">
                     <Textarea required rows={4} value={form.text} onChange={(e) => setForm({ ...form, text: e.target.value })} />
                   </FormField>
+                  {form.text.includes('$') && (
+                    <div className="mt-2 rounded-lg border border-border bg-muted/50 p-3 text-sm" aria-label="Preview">
+                      <p className="mb-1 text-xs font-medium uppercase tracking-wide text-muted-foreground">Preview</p>
+                      <p className="whitespace-pre-wrap"><MathText text={form.text} /></p>
+                    </div>
+                  )}
                 </div>
                 {form.type === 'mcq' && (
                   <div className="grid gap-2 sm:col-span-3 sm:grid-cols-2">

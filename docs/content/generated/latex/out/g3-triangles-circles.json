@@ -1,0 +1,880 @@
+[
+ {
+  "id": "a15",
+  "chapter": "Circles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The number of tangents that can be drawn to a circle from an external point is:",
+  "options": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "infinite"
+  ],
+  "answer": null
+ },
+ {
+  "id": "b5",
+  "chapter": "Circles",
+  "type": "short",
+  "marks": 2,
+  "text": "Prove that the tangents drawn at the ends of a diameter of a circle are parallel.",
+  "answer": null
+ },
+ {
+  "id": "cmvq9r2gd002f7gcnkbeaoeph",
+  "chapter": "Circles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "From an external point $P$, a tangent $PT$ is drawn to a circle with centre $O$ and radius $8\\text{ cm}$. If $OP = 17\\text{ cm}$, the length of the tangent $PT$ is",
+  "options": [
+   "$9\\text{ cm}$",
+   "$12\\text{ cm}$",
+   "$15\\text{ cm}$",
+   "$25\\text{ cm}$"
+  ],
+  "answer": "Correct option: C) $15\\text{ cm}$. $OT \\perp PT$, so $PT^{2} = OP^{2} - OT^{2} = 289 - 64 = 225$, giving $PT = 15\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2ge002h7gcn066ovp2j",
+  "chapter": "Circles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Tangents $PA$ and $PB$ are drawn from an external point $P$ to a circle with centre $O$, touching it at $A$ and $B$. If $\\angle APB = 50^\\circ$, then $\\angle AOB$ is equal to",
+  "options": [
+   "$40^\\circ$",
+   "$130^\\circ$",
+   "$100^\\circ$",
+   "$50^\\circ$"
+  ],
+  "answer": "Correct option: B) $130^\\circ$. In quadrilateral $OAPB$, $\\angle OAP = \\angle OBP = 90^\\circ$, so $\\angle AOB = 360^\\circ - 90^\\circ - 90^\\circ - 50^\\circ = 130^\\circ$."
+ },
+ {
+  "id": "cmvq9r2ge002j7gcnvk8kwomw",
+  "chapter": "Circles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The tangents drawn at points $A$ and $B$ of a circle with centre $O$ meet at $P$. If $\\angle AOB = 110^\\circ$, then $\\angle PAB$ is equal to",
+  "options": [
+   "$35^\\circ$",
+   "$55^\\circ$",
+   "$70^\\circ$",
+   "$110^\\circ$"
+  ],
+  "answer": "Correct option: B) $55^\\circ$. $\\angle APB = 180^\\circ - 110^\\circ = 70^\\circ$. Since $PA = PB$, $\\angle PAB = (180^\\circ - 70^\\circ) \\div 2 = 55^\\circ$."
+ },
+ {
+  "id": "cmvq9r2gf002l7gcnjsccs8q0",
+  "chapter": "Circles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A point $P$ lies outside a circle with centre $O$. The length of the tangent from $P$ is $24\\text{ cm}$ and $OP = 25\\text{ cm}$. The radius of the circle is",
+  "options": [
+   "$5\\text{ cm}$",
+   "$6\\text{ cm}$",
+   "$7\\text{ cm}$",
+   "$12\\text{ cm}$"
+  ],
+  "answer": "Correct option: C) $7\\text{ cm}$. $r^{2} = OP^{2} - PT^{2} = 625 - 576 = 49$, so $r = 7\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2gf002n7gcnn0x55k1s",
+  "chapter": "Circles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Two concentric circles have radii $13\\text{ cm}$ and $5\\text{ cm}$. A chord of the larger circle touches the smaller circle. The length of this chord is",
+  "options": [
+   "$12\\text{ cm}$",
+   "$18\\text{ cm}$",
+   "$24\\text{ cm}$",
+   "$26\\text{ cm}$"
+  ],
+  "answer": "Correct option: C) $24\\text{ cm}$. Half-chord$^{2} = 13^{2} - 5^{2} = 144$, half-chord $= 12\\text{ cm}$ (the radius to the point of contact bisects the chord), so the chord is $24\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2gf002p7gcnw4liul62",
+  "chapter": "Circles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "$PQ$ is a tangent to a circle with centre $O$ at the point $Q$, and $P$ is outside the circle. If $\\angle POQ = 62^\\circ$, then $\\angle OPQ$ is equal to",
+  "options": [
+   "$28^\\circ$",
+   "$38^\\circ$",
+   "$62^\\circ$",
+   "$118^\\circ$"
+  ],
+  "answer": "Correct option: A) $28^\\circ$. $\\angle OQP = 90^\\circ$ (tangent $\\perp$ radius), so $\\angle OPQ = 180^\\circ - 90^\\circ - 62^\\circ = 28^\\circ$."
+ },
+ {
+  "id": "cmvq9r2gg002r7gcn41av2gsw",
+  "chapter": "Circles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Tangents $PA$ and $PB$ from an external point $P$ touch a circle at $A$ and $B$. If $\\angle APB = 64^\\circ$, then $\\angle PAB$ is",
+  "options": [
+   "$32^\\circ$",
+   "$58^\\circ$",
+   "$64^\\circ$",
+   "$116^\\circ$"
+  ],
+  "answer": "Correct option: B) $58^\\circ$. $PA = PB$, so $\\angle PAB = \\angle PBA = (180^\\circ - 64^\\circ) \\div 2 = 58^\\circ$."
+ },
+ {
+  "id": "cmvq9r2gg002t7gcn83o58cxz",
+  "chapter": "Circles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The distance of an external point $P$ from the centre $O$ of a circle of radius $6\\text{ cm}$ is $10\\text{ cm}$. Tangents $PA$ and $PB$ touch the circle at $A$ and $B$. The perimeter of quadrilateral $OAPB$ is",
+  "options": [
+   "$14\\text{ cm}$",
+   "$28\\text{ cm}$",
+   "$32\\text{ cm}$",
+   "$48\\text{ cm}$"
+  ],
+  "answer": "Correct option: B) $28\\text{ cm}$. $PA = PB = \\sqrt{100 - 36} = 8\\text{ cm}$. Perimeter $= OA + AP + PB + BO = 6 + 8 + 8 + 6 = 28\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2gh002v7gcnhz3b4at0",
+  "chapter": "Circles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A tangent is drawn at point $A$ of a circle with centre $O$, and $AB$ is a chord. If $\\angle OAB = 35^\\circ$, the smaller angle between the tangent at $A$ and the chord $AB$ is",
+  "options": [
+   "$35^\\circ$",
+   "$55^\\circ$",
+   "$70^\\circ$",
+   "$125^\\circ$"
+  ],
+  "answer": "Correct option: B) $55^\\circ$. The tangent is perpendicular to $OA$, so the angle between tangent and chord $= 90^\\circ - 35^\\circ = 55^\\circ$."
+ },
+ {
+  "id": "cmvq9r2gh002x7gcnud4a59me",
+  "chapter": "Circles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The number of tangents that can be drawn to a circle from a point lying inside the circle is",
+  "options": [
+   "$0$",
+   "$1$",
+   "$2$",
+   "infinitely many"
+  ],
+  "answer": "Correct option: A) $0$. Any line through an interior point cuts the circle at two points, so no tangent exists."
+ },
+ {
+  "id": "cmvq9r2gh002z7gcn84a4kuah",
+  "chapter": "Circles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A tangent $PT$ is drawn at the point $T$ of a circle with centre $O$, where $P$ is outside. If $OT = 9\\text{ cm}$ and $PT = 12\\text{ cm}$, then $OP$ is",
+  "options": [
+   "$13\\text{ cm}$",
+   "$15\\text{ cm}$",
+   "$18\\text{ cm}$",
+   "$21\\text{ cm}$"
+  ],
+  "answer": "Correct option: B) $15\\text{ cm}$. $\\angle OTP = 90^\\circ$, so $OP^{2} = 81 + 144 = 225$ and $OP = 15\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2gi00317gcnikvtfpr6",
+  "chapter": "Circles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Two parallel tangents are drawn to a circle of radius $4.5\\text{ cm}$, one at each end of a diameter. The distance between them is",
+  "options": [
+   "$4.5\\text{ cm}$",
+   "$9\\text{ cm}$",
+   "$13.5\\text{ cm}$",
+   "$18\\text{ cm}$"
+  ],
+  "answer": "Correct option: B) $9\\text{ cm}$. Both tangents are perpendicular to the same diameter, so the distance between them equals the diameter $= 9\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2gj00337gcn6kcl3sj3",
+  "chapter": "Circles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A tangent $PT$ of length $7\\text{ cm}$ touches a circle of radius $7\\text{ cm}$ at $T$, with centre $O$. The length $OP$ is",
+  "options": [
+   "$7\\text{ cm}$",
+   "$7\\sqrt{2}\\text{ cm}$",
+   "$7\\sqrt{3}\\text{ cm}$",
+   "$14\\text{ cm}$"
+  ],
+  "answer": "Correct option: B) $7\\sqrt{2}\\text{ cm}$. $\\angle OTP = 90^\\circ$ and $OT = PT = 7$, so $OP^{2} = 49 + 49 = 98$ and $OP = 7\\sqrt{2}\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2gj00357gcnam8ea4oj",
+  "chapter": "Circles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A quadrilateral $ABCD$ circumscribes a circle. If $AB = 9\\text{ cm}$, $BC = 8\\text{ cm}$ and $CD = 7\\text{ cm}$, then $AD$ is",
+  "options": [
+   "$6\\text{ cm}$",
+   "$8\\text{ cm}$",
+   "$10\\text{ cm}$",
+   "$24\\text{ cm}$"
+  ],
+  "answer": "Correct option: B) $8\\text{ cm}$. For a quadrilateral circumscribing a circle, $AB + CD = BC + AD$. So $9 + 7 = 8 + AD$, giving $AD = 8\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2gk00377gcn3u1nu10h",
+  "chapter": "Circles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "$PA$ and $PB$ are the tangents from an external point $P$ to a circle. If $PA = (2x + 3)\\text{ cm}$ and $PB = (x + 8)\\text{ cm}$, then $PA$ equals",
+  "options": [
+   "$8\\text{ cm}$",
+   "$13\\text{ cm}$",
+   "$18\\text{ cm}$",
+   "$23\\text{ cm}$"
+  ],
+  "answer": "Correct option: B) $13\\text{ cm}$. $PA = PB$ gives $2x + 3 = x + 8$, so $x = 5$ and $PA = 13\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2gk00397gcnrf0c1gwg",
+  "chapter": "Circles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A circle is inscribed in triangle $ABC$ with $AB = 7\\text{ cm}$, $BC = 9\\text{ cm}$ and $CA = 8\\text{ cm}$. It touches $BC$ at $D$. The length $BD$ is",
+  "options": [
+   "$3\\text{ cm}$",
+   "$4\\text{ cm}$",
+   "$5\\text{ cm}$",
+   "$6\\text{ cm}$"
+  ],
+  "answer": "Correct option: B) $4\\text{ cm}$. Let $AF = AE = x$, $BD = BF = y$, $CD = CE = z$. $x + y = 7$, $y + z = 9$, $x + z = 8$; adding, $x + y + z = 12$, so $y = 12 - 8 = 4\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2gl003b7gcn2wq7rssk",
+  "chapter": "Circles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A circle is inscribed in a right triangle with perpendicular sides $9\\text{ cm}$ and $12\\text{ cm}$ and hypotenuse $15\\text{ cm}$. The radius of the circle is",
+  "options": [
+   "$2\\text{ cm}$",
+   "$3\\text{ cm}$",
+   "$4.5\\text{ cm}$",
+   "$6\\text{ cm}$"
+  ],
+  "answer": "Correct option: B) $3\\text{ cm}$. The tangent lengths from the right-angle vertex equal $r$, so $(9 - r) + (12 - r) = 15$, giving $r = 3\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2gl003d7gcnuinfbfxy",
+  "chapter": "Circles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A parallelogram circumscribes a circle. Then the parallelogram must be a",
+  "options": [
+   "rectangle",
+   "rhombus",
+   "trapezium that is not a parallelogram",
+   "parallelogram with unequal adjacent sides"
+  ],
+  "answer": "Correct option: B) rhombus. For a circumscribing quadrilateral $AB + CD = AD + BC$. In a parallelogram $AB = CD$ and $AD = BC$, so $2AB = 2BC$, $AB = BC$. All sides are equal, so it is a rhombus."
+ },
+ {
+  "id": "cmvq9r2gm003f7gcnmc3voi23",
+  "chapter": "Circles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Assertion $(A)$: A point $P$ is $13\\text{ cm}$ from the centre $O$ of a circle of radius $5\\text{ cm}$. The length of a tangent from $P$ to the circle is $12\\text{ cm}$.\nReason $(R)$: The tangent at any point of a circle is perpendicular to the radius through the point of contact.",
+  "options": [
+   "Both $A$ and $R$ are true and $R$ is the correct explanation of $A$",
+   "Both $A$ and $R$ are true but $R$ is not the correct explanation of $A$",
+   "$A$ is true but $R$ is false",
+   "$A$ is false but $R$ is true"
+  ],
+  "answer": "Correct option: A) Both $A$ and $R$ are true and $R$ is the correct explanation of $A$. $R$ is a true theorem; because of it $\\angle OTP = 90^\\circ$, so $PT^{2} = OP^{2} - OT^{2} = 169 - 25 = 144$ and $PT = 12\\text{ cm}$, which makes $A$ true."
+ },
+ {
+  "id": "cmvq9r2gm003h7gcnnoj805y5",
+  "chapter": "Circles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Assertion $(A)$: Two tangents drawn from an external point to a circle are always perpendicular to each other.\nReason $(R)$: The lengths of the two tangents drawn from an external point to a circle are equal.",
+  "options": [
+   "Both $A$ and $R$ are true and $R$ is the correct explanation of $A$",
+   "Both $A$ and $R$ are true but $R$ is not the correct explanation of $A$",
+   "$A$ is true but $R$ is false",
+   "$A$ is false but $R$ is true"
+  ],
+  "answer": "Correct option: D) $A$ is false but $R$ is true. $R$ is the standard theorem (tangent lengths from an external point are equal). $A$ is false: the angle between the tangents is $180^\\circ - \\angle AOB$ and varies with the distance of the point from the centre (e.g. it is $60^\\circ$ when $OP = 2r$); it is $90^\\circ$ only when $OP = r\\sqrt{2}$."
+ },
+ {
+  "id": "cmvq9r2gn003j7gcnibh905bs",
+  "chapter": "Circles",
+  "type": "short",
+  "marks": 2,
+  "text": "Tangents $PA$ and $PB$ are drawn from an external point $P$ to a circle with centre $O$, touching it at $A$ and $B$. If $\\angle APB = 72^\\circ$, find $\\angle OAB$.",
+  "answer": "$\\angle OAP = \\angle OBP = 90^\\circ$, so $\\angle AOB = 360^\\circ - 90^\\circ - 90^\\circ - 72^\\circ = 108^\\circ$.\nIn $\\triangle OAB$, $OA = OB$ (radii), so $\\angle OAB = (180^\\circ - 108^\\circ) \\div 2 = 36^\\circ$.\nAnswer: $\\angle OAB = 36^\\circ$."
+ },
+ {
+  "id": "cmvq9r2gn003l7gcn2kth7flw",
+  "chapter": "Circles",
+  "type": "short",
+  "marks": 2,
+  "text": "Two concentric circles have radii $10\\text{ cm}$ and $6\\text{ cm}$. A chord $AB$ of the larger circle touches the smaller circle at $P$. Find the length of $AB$.",
+  "answer": "The radius $OP$ of the smaller circle is perpendicular to the tangent $AB$ at $P$, and the perpendicular from the centre bisects the chord, so $AP = PB$.\nIn right $\\triangle OPA$: $AP^{2} = OA^{2} - OP^{2} = 100 - 36 = 64$, so $AP = 8\\text{ cm}$.\n$AB = 2 \\times 8 = 16\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2gn003n7gcnyp0uv44s",
+  "chapter": "Circles",
+  "type": "short",
+  "marks": 2,
+  "text": "A circle has centre $O$ and diameter $AB$. Tangents are drawn at $A$ and at $B$. Prove that these two tangents are parallel to each other.",
+  "answer": "Let the tangent at $A$ be $l$ and the tangent at $B$ be $m$. The tangent at a point is perpendicular to the radius through that point, so $OA \\perp l$, giving $\\angle (l, AB) = 90^\\circ$, and $OB \\perp m$, giving $\\angle (m, AB) = 90^\\circ$.\n$AB$ is a transversal and the interior angles on the same side are $90^\\circ + 90^\\circ = 180^\\circ$ (equivalently the alternate angles are equal), hence $l \\parallel m$. Proved."
+ },
+ {
+  "id": "cmvq9r2go003p7gcnigjbukl0",
+  "chapter": "Circles",
+  "type": "short",
+  "marks": 2,
+  "text": "$O$ is the centre of a circle of radius $6\\text{ cm}$ and $Q$ is a point $10\\text{ cm}$ from $O$. A student claims that a line $QT$ touches the circle at $T$ and that $QT = 9\\text{ cm}$. Is the claim possible? Justify.",
+  "answer": "If $QT$ touched the circle at $T$ then $OT \\perp QT$, so $QT^{2} = OQ^{2} - OT^{2} = 100 - 36 = 64$ and $QT = 8\\text{ cm}$.\nThe tangent length from $Q$ is therefore exactly $8\\text{ cm}$, not $9\\text{ cm}$ (indeed $6^{2} + 9^{2} = 117 \\ne 100$). So the claim is not possible."
+ },
+ {
+  "id": "cmvq9r2go003r7gcnu306ppbb",
+  "chapter": "Circles",
+  "type": "short",
+  "marks": 2,
+  "text": "A circle is inscribed in $\\triangle ABC$ and touches sides $BC$, $CA$ and $AB$ at $D$, $E$ and $F$ respectively. If $AB = 10\\text{ cm}$, $BC = 12\\text{ cm}$ and $CA = 14\\text{ cm}$, find $AF$, $BD$ and $CE$.",
+  "answer": "Tangent lengths from a point are equal: $AF = AE = x$, $BF = BD = y$, $CD = CE = z$.\n$x + y = 10$, $y + z = 12$, $x + z = 14$. Adding: $x + y + z = 18$.\n$x = 18 - 12 = 6$, $y = 18 - 14 = 4$, $z = 18 - 10 = 8$.\n$AF = 6\\text{ cm}$, $BD = 4\\text{ cm}$, $CE = 8\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2gp003t7gcn50ig5psp",
+  "chapter": "Circles",
+  "type": "short",
+  "marks": 3,
+  "text": "Tangents $PA$ and $PB$ are drawn from an external point $P$ to a circle with centre $O$, touching it at $A$ and $B$. Prove that $\\angle APB = 2\\angle OAB$.",
+  "answer": "Let $\\angle OAB = \\theta$. $OA = OB$, so $\\angle OBA = \\theta$ and $\\angle AOB = 180^\\circ - 2\\theta$.\n$OA \\perp PA$ and $OB \\perp PB$, so in quadrilateral $OAPB$: $\\angle APB = 360^\\circ - 90^\\circ - 90^\\circ - (180^\\circ - 2\\theta) = 2\\theta$.\nHence $\\angle APB = 2\\angle OAB$. Proved."
+ },
+ {
+  "id": "cmvq9r2gp003v7gcn988sj3ty",
+  "chapter": "Circles",
+  "type": "short",
+  "marks": 3,
+  "text": "A circle is inscribed in $\\triangle ABC$ and touches $BC$, $CA$, $AB$ at $D$, $E$, $F$. Prove that $BD = (AB + BC - CA) \\div 2$.",
+  "answer": "Tangents from an external point are equal: $AF = AE$, $BF = BD$, $CD = CE$.\n$AB + BC - CA = (AF + FB) + (BD + DC) - (CE + EA) = AF + BD + BD + DC - DC - AF$ (using $FB = BD$, $CE = DC$, $EA = AF$) $= 2BD$.\nTherefore $BD = (AB + BC - CA) \\div 2$. Proved."
+ },
+ {
+  "id": "cmvq9r2gp003x7gcn2uxirb6r",
+  "chapter": "Circles",
+  "type": "short",
+  "marks": 3,
+  "text": "A quadrilateral $ABCD$ is drawn to circumscribe a circle, touching $AB$, $BC$, $CD$ and $DA$ at $P$, $Q$, $R$ and $S$. Prove that $AB + CD = AD + BC$.",
+  "answer": "Tangent lengths from an external point are equal: $AP = AS$, $BP = BQ$, $CR = CQ$, $DR = DS$.\n$AB + CD = (AP + PB) + (CR + RD) = AS + BQ + CQ + DS = (AS + DS) + (BQ + CQ) = AD + BC$. Proved."
+ },
+ {
+  "id": "cmvq9r2gq003z7gcnh0eyuoch",
+  "chapter": "Circles",
+  "type": "short",
+  "marks": 3,
+  "text": "Two concentric circles have centre $O$. A chord $AB$ of the larger circle touches the smaller circle at $P$. Prove that $P$ is the midpoint of $AB$. Hence, if the radii are $17\\text{ cm}$ and $8\\text{ cm}$, find $AB$.",
+  "answer": "Proof: $OP$ is a radius of the smaller circle and $AB$ is tangent at $P$, so $OP \\perp AB$. In the larger circle, the perpendicular from the centre to a chord bisects it, so $AP = PB$. (Alternatively, right $\\triangle OPA \\cong \\triangle OPB$ by RHS, as $OA = OB$ and $OP$ is common.)\nIn right $\\triangle OPA$: $AP^{2} = 17^{2} - 8^{2} = 289 - 64 = 225$, $AP = 15\\text{ cm}$. So $AB = 30\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2gq00417gcnodcd48qc",
+  "chapter": "Circles",
+  "type": "short",
+  "marks": 3,
+  "text": "Tangents $PA$ and $PB$ are drawn from a point $P$, $25\\text{ cm}$ from the centre $O$, to a circle of radius $7\\text{ cm}$, touching it at $A$ and $B$. Find the length of the chord $AB$.",
+  "answer": "$PA = \\sqrt{625 - 49} = 24\\text{ cm}$. $OP$ is the perpendicular bisector of $AB$; let it meet $AB$ at $M$.\nArea of $\\triangle OAP = \\frac{1}{2} \\times OA \\times AP = \\frac{1}{2} \\times 7 \\times 24 = 84$, and also $= \\frac{1}{2} \\times OP \\times AM = \\frac{1}{2} \\times 25 \\times AM$. So $AM = 168 \\div 25 = 6.72\\text{ cm}$.\n$AB = 2 \\times 6.72 = 13.44\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2gr00437gcn7yzi3sqz",
+  "chapter": "Circles",
+  "type": "short",
+  "marks": 3,
+  "text": "Tangents $PA$ and $PB$ are drawn from an external point $P$ to a circle with centre $O$. If $\\angle PAB = (2x + 10)^\\circ$ and $\\angle PBA = (3x - 20)^\\circ$, find $x$ and $\\angle AOB$.",
+  "answer": "$PA = PB$, so $\\angle PAB = \\angle PBA$: $2x + 10 = 3x - 20$, giving $x = 30$.\n$\\angle PAB = \\angle PBA = 70^\\circ$, so $\\angle APB = 180^\\circ - 140^\\circ = 40^\\circ$.\n$\\angle AOB = 180^\\circ - \\angle APB = 140^\\circ$ ($OAPB$ has two right angles at $A$ and $B$).\nAnswer: $x = 30$, $\\angle AOB = 140^\\circ$."
+ },
+ {
+  "id": "cmvq9r2gr00457gcnevh34sba",
+  "chapter": "Circles",
+  "type": "short",
+  "marks": 3,
+  "text": "A circle has centre $O$ and radius $10\\text{ cm}$. $PT$ is the tangent at $T$ with $PT = 24\\text{ cm}$. Find $OP$ and the area of $\\triangle OTP$.",
+  "answer": "$OT \\perp PT$ (tangent $\\perp$ radius), so $\\triangle OTP$ is right-angled at $T$.\n$OP^{2} = 10^{2} + 24^{2} = 100 + 576 = 676$, so $OP = 26\\text{ cm}$.\nArea $= \\frac{1}{2} \\times OT \\times PT = \\frac{1}{2} \\times 10 \\times 24 = 120\\text{ cm}^{2}$."
+ },
+ {
+  "id": "cmvq9r2gr00477gcnrkp0t271",
+  "chapter": "Circles",
+  "type": "short",
+  "marks": 3,
+  "text": "In $\\triangle ABC$, $AB = AC = 13\\text{ cm}$ and $BC = 10\\text{ cm}$. The incircle touches $AB$ at $P$, $AC$ at $Q$ and $BC$ at $D$. Find $AP$, and show that $D$ is the midpoint of $BC$.",
+  "answer": "Let $AP = AQ = x$, $BP = BD = y$, $CQ = CD = z$ (equal tangents).\n$x + y = 13$, $x + z = 13$, $y + z = 10$. Adding: $x + y + z = 18$, so $x = 18 - 10 = 8$.\n$AP = 8\\text{ cm}$. Then $y = 13 - 8 = 5$ and $z = 5$, so $BD = DC = 5\\text{ cm}$ and $D$ is the midpoint of $BC$."
+ },
+ {
+  "id": "cmvq9r2gt00497gcn2tms5r2p",
+  "chapter": "Circles",
+  "type": "short",
+  "marks": 3,
+  "text": "In $\\triangle ABC$, $\\angle B = 90^\\circ$, $AB = 20\\text{ cm}$ and $BC = 21\\text{ cm}$, so $AC = 29\\text{ cm}$. A circle with centre $O$ touches $AB$, $BC$ and $CA$ at $P$, $Q$ and $R$. Find the radius of the circle and the length $AR$.",
+  "answer": "Check $AC$: $400 + 441 = 841 = 29^{2}$.\n$OP \\perp AB$ and $OQ \\perp BC$, and $\\angle B = 90^\\circ$, so $OPBQ$ is a square and $BP = BQ = r$.\n$AP = 20 - r$, $CQ = 21 - r$. Equal tangents: $AR = AP$, $CR = CQ$, so $AC = AR + RC = (20 - r) + (21 - r) = 41 - 2r = 29$, giving $r = 6\\text{ cm}$.\n$AR = AP = 20 - 6 = 14\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2gt004b7gcn01d2oaxl",
+  "chapter": "Circles",
+  "type": "long",
+  "marks": 5,
+  "text": "A circle with centre $O$ and radius $4\\text{ cm}$ is inscribed in $\\triangle ABC$ and touches $BC$ at $D$. $BD = 8\\text{ cm}$ and $DC = 6\\text{ cm}$. The area of $\\triangle ABC$ is $84\\text{ cm}^{2}$. Find the lengths of $AB$ and $AC$.",
+  "answer": "Let the circle touch $AB$ at $F$ and $AC$ at $E$, and let $AF = AE = x$. Then $BF = BD = 8$ and $CE = CD = 6$.\nSo $AB = x + 8$, $AC = x + 6$, $BC = 14$, and the semi-perimeter $s = (x + 8 + x + 6 + 14) \\div 2 = x + 14$.\nThe area of the triangle $= \\operatorname{area}(OBC) + \\operatorname{area}(OCA) + \\operatorname{area}(OAB) = \\frac{1}{2} r (BC + CA + AB) = r \\times s = 4(x + 14)$.\nGiven $4(x + 14) = 84$, so $x + 14 = 21$ and $x = 7$.\n$AB = 7 + 8 = 15\\text{ cm}$, $AC = 7 + 6 = 13\\text{ cm}$.\nCheck: sides 15, 14, 13 with $s = 21$: area $= \\sqrt{21 \\times 6 \\times 7 \\times 8} = \\sqrt{7056} = 84$. ✓"
+ },
+ {
+  "id": "cmvq9r2gt004d7gcnt68kjxj0",
+  "chapter": "Circles",
+  "type": "long",
+  "marks": 5,
+  "text": "Prove that the lengths of the two tangents drawn from an external point to a circle are equal. Using this result, prove that if a circle touches all four sides of a parallelogram $PQRS$, then $PQRS$ is a rhombus.",
+  "answer": "Part 1: Let tangents $PA$ and $PB$ be drawn from external point $P$ to a circle with centre $O$, touching it at $A$ and $B$. Join $OA$, $OB$, $OP$. $OA \\perp PA$ and $OB \\perp PB$ (tangent $\\perp$ radius), so $\\triangle OAP$ and $\\triangle OBP$ are right-angled. $OA = OB$ (radii), $OP$ is common, so $\\triangle OAP \\cong \\triangle OBP$ by RHS. Hence $PA = PB$.\nPart 2: Let the circle touch $PQ$, $QR$, $RS$, $SP$ at $A$, $B$, $C$, $D$. By Part 1: $PA = PD$, $QA = QB$, $RC = RB$, $SC = SD$.\n$PQ + RS = (PA + AQ) + (RC + CS) = PD + QB + RB + SD = (PD + SD) + (QB + RB) = PS + QR$.\nIn a parallelogram $PQ = RS$ and $PS = QR$, so $2PQ = 2PS$, i.e. $PQ = PS$. Adjacent sides are equal, so $PQRS$ is a rhombus. Proved."
+ },
+ {
+  "id": "cmvq9r2gu004f7gcnucymbgq9",
+  "chapter": "Circles",
+  "type": "case",
+  "marks": 4,
+  "text": "A circular park has centre $O$ and radius $15\\text{ m}$. A straight road touches the boundary of the park at $T$. A lamp post $P$ stands on the road, $20\\text{ m}$ from $T$. A second straight road from $P$ also touches the park, at $S$.\n(i) What is the measure of the angle between the radius $OT$ and the road? [1]\n(ii) Find the distance $OP$ of the lamp post from the centre of the park. [1]\n(iii) Find the length of the chord $TS$ joining the two points of contact. [2]\nOR\n(iii) Find the area of quadrilateral $OTPS$. [2]",
+  "answer": "(i) The road is a tangent at $T$, so it is perpendicular to the radius $OT$: the angle is $90^\\circ$.\n(ii) In right $\\triangle OTP$, $OP^{2} = OT^{2} + TP^{2} = 225 + 400 = 625$, so $OP = 25\\text{ m}$.\n(iii) $PS = PT = 20\\text{ m}$ (equal tangents), and $OP$ bisects $TS$ at right angles at $M$. Area of $\\triangle OTP = \\frac{1}{2} \\times 15 \\times 20 = 150 = \\frac{1}{2} \\times OP \\times TM = \\frac{1}{2} \\times 25 \\times TM$, so $TM = 12\\text{ m}$. Chord $TS = 24\\text{ m}$.\nOR (iii) Area of $OTPS = 2 \\times \\operatorname{area}(\\triangle OTP) = 2 \\times 150 = 300\\text{ m}^{2}$."
+ },
+ {
+  "id": "a10",
+  "chapter": "Triangles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "If $\\triangle ABC \\sim \\triangle PQR$ with $\\frac{AB}{PQ} = \\frac{2}{3}$, the ratio of their perimeters is:",
+  "options": [
+   "$4 : 9$",
+   "$2 : 3$",
+   "$3 : 2$",
+   "$9 : 4$"
+  ],
+  "answer": null
+ },
+ {
+  "id": "b3",
+  "chapter": "Triangles",
+  "type": "short",
+  "marks": 2,
+  "text": "In $\\triangle ABC$, $DE \\parallel BC$. If $AD = 2\\text{ cm}$, $DB = 3\\text{ cm}$ and $AE = 4\\text{ cm}$, find $EC$.",
+  "answer": null
+ },
+ {
+  "id": "d2",
+  "chapter": "Triangles",
+  "type": "long",
+  "marks": 5,
+  "text": "State and prove the Basic Proportionality Theorem.",
+  "answer": null
+ },
+ {
+  "id": "cmvq9r2k100gd7gcnxkwj28yb",
+  "chapter": "Triangles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "In $\\triangle ABC$, $D$ lies on $AB$ and $E$ on $AC$ with $DE \\parallel BC$. If $AD = 4\\text{ cm}$, $DB = 6\\text{ cm}$ and $AE = 6\\text{ cm}$, then $EC =$",
+  "options": [
+   "$4\\text{ cm}$",
+   "$6\\text{ cm}$",
+   "$9\\text{ cm}$",
+   "$10\\text{ cm}$"
+  ],
+  "answer": "Correct option: c) $9\\text{ cm}$. By the Basic Proportionality Theorem, $\\frac{AD}{DB} = \\frac{AE}{EC}$, so $\\frac{4}{6} = \\frac{6}{EC}$ and $EC = 9\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2k100gf7gcn44j6c5ni",
+  "chapter": "Triangles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "In $\\triangle ABC$, $DE \\parallel BC$ with $D$ on $AB$ and $E$ on $AC$. If $AD = x\\text{ cm}$, $DB = (x - 2)\\text{ cm}$, $AE = (x + 2)\\text{ cm}$ and $EC = (x - 1)\\text{ cm}$, then $x =$",
+  "options": [
+   "$3$",
+   "$4$",
+   "$5$",
+   "$6$"
+  ],
+  "answer": "Correct option: b) $4$. $\\frac{AD}{DB} = \\frac{AE}{EC}$ gives $\\frac{x}{x-2} = \\frac{x+2}{x-1}$, so $x^{2} - x = x^{2} - 4$, hence $x = 4$."
+ },
+ {
+  "id": "cmvq9r2k200gh7gcnqkse4ivq",
+  "chapter": "Triangles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "In $\\triangle PQR$, $S$ lies on $PQ$ and $T$ on $PR$ with $ST \\parallel QR$. If $PS : SQ = 3 : 5$ and $PR = 24\\text{ cm}$, then $PT =$",
+  "options": [
+   "$9\\text{ cm}$",
+   "$15\\text{ cm}$",
+   "$8\\text{ cm}$",
+   "$10\\text{ cm}$"
+  ],
+  "answer": "Correct option: a) $9\\text{ cm}$. $PT : TR = PS : SQ = 3 : 5$, so $PT = (\\frac{3}{8}) \\times 24 = 9\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2k200gj7gcnx65qupxr",
+  "chapter": "Triangles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "In $\\triangle ABC$, $DE \\parallel BC$ where $D$ is on $AB$ and $E$ is on $AC$. If $AD = 4\\text{ cm}$, $AB = 10\\text{ cm}$ and $AC = 15\\text{ cm}$, then $AE =$",
+  "options": [
+   "$5\\text{ cm}$",
+   "$6\\text{ cm}$",
+   "$7.5\\text{ cm}$",
+   "$9\\text{ cm}$"
+  ],
+  "answer": "Correct option: b) $6\\text{ cm}$. By BPT (equivalently $\\triangle ADE \\sim \\triangle ABC$), $\\frac{AD}{AB} = \\frac{AE}{AC}$, so $AE = 15 \\times \\frac{4}{10} = 6\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2k200gl7gcnjmqnz4hi",
+  "chapter": "Triangles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "$D$ and $E$ are points on sides $AB$ and $AC$ of $\\triangle ABC$. For which of the following sets of measures is $DE \\parallel BC$?",
+  "options": [
+   "$AD = 3\\text{ cm}$, $DB = 5\\text{ cm}$, $AE = 4\\text{ cm}$, $EC = 6\\text{ cm}$",
+   "$AD = 2\\text{ cm}$, $DB = 3\\text{ cm}$, $AE = 4\\text{ cm}$, $EC = 6\\text{ cm}$",
+   "$AD = 4\\text{ cm}$, $DB = 6\\text{ cm}$, $AE = 5\\text{ cm}$, $EC = 8\\text{ cm}$",
+   "$AD = 6\\text{ cm}$, $DB = 9\\text{ cm}$, $AE = 8\\text{ cm}$, $EC = 10\\text{ cm}$"
+  ],
+  "answer": "Correct option: b) $AD = 2\\text{ cm}$, $DB = 3\\text{ cm}$, $AE = 4\\text{ cm}$, $EC = 6\\text{ cm}$. By the converse of BPT, $DE \\parallel BC$ iff $\\frac{AD}{DB} = \\frac{AE}{EC}$. Only in option b) is $\\frac{2}{3} = \\frac{4}{6}$. The ratios in a), c), d) are $\\frac{3}{5} \\ne \\frac{2}{3}$, $\\frac{2}{3} \\ne \\frac{5}{8}$ and $\\frac{2}{3} \\ne \\frac{4}{5}$."
+ },
+ {
+  "id": "cmvq9r2k300gn7gcnn3kcnk9l",
+  "chapter": "Triangles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "$ABCD$ is a trapezium with $AB \\parallel CD$. Its diagonals $AC$ and $BD$ intersect at $O$. If $OA = x\\text{ cm}$, $OC = (x + 4)\\text{ cm}$, $OB = 9\\text{ cm}$ and $OD = 15\\text{ cm}$, then $OA =$",
+  "options": [
+   "$4\\text{ cm}$",
+   "$5\\text{ cm}$",
+   "$6\\text{ cm}$",
+   "$8\\text{ cm}$"
+  ],
+  "answer": "Correct option: c) $6\\text{ cm}$. $\\triangle OAB \\sim \\triangle OCD$ (AA), so $\\frac{OA}{OC} = \\frac{OB}{OD}$: $\\frac{x}{x+4} = \\frac{9}{15} = \\frac{3}{5}$, so $5x = 3x + 12$ and $x = 6$. Thus $OA = 6\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2k300gp7gcnmrslj6vk",
+  "chapter": "Triangles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A line is drawn through the midpoint $D$ of side $AB$ of $\\triangle ABC$ parallel to $BC$ and meets $AC$ at $E$. If $AC = 18.6\\text{ cm}$, then $CE =$",
+  "options": [
+   "$4.65\\text{ cm}$",
+   "$9.3\\text{ cm}$",
+   "$18.6\\text{ cm}$",
+   "$12.4\\text{ cm}$"
+  ],
+  "answer": "Correct option: b) $9.3\\text{ cm}$. Since $\\frac{AD}{DB} = 1$, BPT gives $\\frac{AE}{EC} = 1$, so $E$ is the midpoint of $AC$ and $CE = \\frac{18.6}{2} = 9.3\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2k400gr7gcncv0o7ekl",
+  "chapter": "Triangles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "If $\\triangle ABC \\sim \\triangle PQR$ with $\\angle A = 47^\\circ$ and $\\angle R = 63^\\circ$, then $\\angle B =$",
+  "options": [
+   "$47^\\circ$",
+   "$63^\\circ$",
+   "$70^\\circ$",
+   "$110^\\circ$"
+  ],
+  "answer": "Correct option: c) $70^\\circ$. $\\angle C = \\angle R = 63^\\circ$, so $\\angle B = 180^\\circ - 47^\\circ - 63^\\circ = 70^\\circ$."
+ },
+ {
+  "id": "cmvq9r2k400gt7gcnjc45sbby",
+  "chapter": "Triangles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "$AB \\parallel PQ$, and the line segments $AQ$ and $BP$ intersect at $O$. If $AB = 6\\text{ cm}$, $PQ = 15\\text{ cm}$ and $OP = 10\\text{ cm}$, then $OB =$",
+  "options": [
+   "$25\\text{ cm}$",
+   "$9\\text{ cm}$",
+   "$5\\text{ cm}$",
+   "$4\\text{ cm}$"
+  ],
+  "answer": "Correct option: d) $4\\text{ cm}$. $\\triangle OAB \\sim \\triangle OQP$ (AA, since $AB \\parallel QP$ and the vertical angles at $O$ are equal). So $\\frac{OB}{OP} = \\frac{AB}{QP} = \\frac{6}{15}$, giving $OB = 10 \\times \\frac{6}{15} = 4\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2k500gv7gcnfywyh98o",
+  "chapter": "Triangles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "In $\\triangle ABC$, $AB = 6\\text{ cm}$, $AC = 9\\text{ cm}$ and $\\angle A = 50^\\circ$. In $\\triangle PQR$, $PQ = 4\\text{ cm}$, $PR = 6\\text{ cm}$ and $\\angle P = 50^\\circ$. The two triangles are similar by the criterion",
+  "options": [
+   "AA",
+   "SSS",
+   "SAS",
+   "RHS"
+  ],
+  "answer": "Correct option: c) SAS. $\\frac{AB}{PQ} = \\frac{6}{4} = \\frac{3}{2}$ and $\\frac{AC}{PR} = \\frac{9}{6} = \\frac{3}{2}$, and the included angles $\\angle A = \\angle P$. Hence $\\triangle ABC \\sim \\triangle PQR$ by SAS similarity."
+ },
+ {
+  "id": "cmvq9r2k700gx7gcnxrz3jpvf",
+  "chapter": "Triangles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "In $\\triangle ABC$ and $\\triangle DEF$, $\\angle B = \\angle E$ and $\\angle C = \\angle F$. If $AB = 3 DE$, which of the following is true?",
+  "options": [
+   "$AC = 3 EF$",
+   "$BC = 3 EF$",
+   "$BC = 3 DF$",
+   "$AC = 3 DE$"
+  ],
+  "answer": "Correct option: b) $BC = 3 EF$. By AA, $\\triangle ABC \\sim \\triangle DEF$ with $A\\leftrightarrow D$, $B\\leftrightarrow E$, $C\\leftrightarrow F$. Hence $\\frac{AB}{DE} = \\frac{BC}{EF} = \\frac{AC}{DF} = 3$, so $BC = 3 EF$."
+ },
+ {
+  "id": "cmvq9r2k700gz7gcnkv2cjujo",
+  "chapter": "Triangles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "In $\\triangle ABC$, $\\angle B = 90^\\circ$ and $BD \\perp AC$ where $D$ lies on $AC$. If $AD = 4\\text{ cm}$ and $DC = 9\\text{ cm}$, then $BD =$",
+  "options": [
+   "$5\\text{ cm}$",
+   "$6\\text{ cm}$",
+   "$6.5\\text{ cm}$",
+   "$13\\text{ cm}$"
+  ],
+  "answer": "Correct option: b) $6\\text{ cm}$. $\\triangle ADB \\sim \\triangle BDC$, so $\\frac{AD}{BD} = \\frac{BD}{DC}$ and $BD^{2} = AD \\times DC = 36$. Hence $BD = 6\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2k800h17gcnefbyvxsj",
+  "chapter": "Triangles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "In $\\triangle ABC$, $D$ is a point on $AB$ and $E$ a point on $AC$ such that $DE \\parallel BC$. If $AD = 3\\text{ cm}$ and $DB = 2\\text{ cm}$, then $DE : BC =$",
+  "options": [
+   "$3 : 2$",
+   "$3 : 5$",
+   "$2 : 5$",
+   "$2 : 3$"
+  ],
+  "answer": "Correct option: b) $3 : 5$. $\\triangle ADE \\sim \\triangle ABC$ (AA), so $\\frac{DE}{BC} = \\frac{AD}{AB} = \\frac{3}{3+2} = \\frac{3}{5}$."
+ },
+ {
+  "id": "cmvq9r2k800h37gcnqvcf4w6g",
+  "chapter": "Triangles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The areas of two similar triangles are $36\\text{ cm}^{2}$ and $100\\text{ cm}^{2}$. If a median of the smaller triangle is $4.5\\text{ cm}$, the corresponding median of the larger triangle is",
+  "options": [
+   "$2.7\\text{ cm}$",
+   "$7.5\\text{ cm}$",
+   "$12.5\\text{ cm}$",
+   "$8.1\\text{ cm}$"
+  ],
+  "answer": "Correct option: b) $7.5\\text{ cm}$. Ratio of corresponding sides (and medians) $= \\sqrt{\\frac{100}{36}} = \\frac{10}{6}$. So the median $= 4.5 \\times \\frac{10}{6} = 7.5\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2k900h57gcnc4ay519j",
+  "chapter": "Triangles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "In $\\triangle ABC$, $DE \\parallel BC$ with $D$ on $AB$ and $E$ on $AC$, and $AD : DB = 2 : 3$. If the area of $\\triangle ADE$ is $20\\text{ cm}^{2}$, the area of quadrilateral $DBCE$ is",
+  "options": [
+   "$45\\text{ cm}^{2}$",
+   "$105\\text{ cm}^{2}$",
+   "$125\\text{ cm}^{2}$",
+   "$50\\text{ cm}^{2}$"
+  ],
+  "answer": "Correct option: b) $105\\text{ cm}^{2}$. $\\frac{AD}{AB} = \\frac{2}{5}$, so $\\frac{\\operatorname{ar}(ADE)}{\\operatorname{ar}(ABC)} = \\frac{4}{25}$. Hence $\\operatorname{ar}(ABC) = 20 \\times \\frac{25}{4} = 125\\text{ cm}^{2}$, and $\\operatorname{ar}(DBCE) = 125 - 20 = 105\\text{ cm}^{2}$."
+ },
+ {
+  "id": "cmvq9r2k900h77gcn39xxb0ug",
+  "chapter": "Triangles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A vertical pole $3.6\\text{ m}$ high casts a shadow $2.4\\text{ m}$ long on level ground. At the same time a tower casts a shadow $28\\text{ m}$ long. The height of the tower is",
+  "options": [
+   "$18.7\\text{ m}$",
+   "$31.6\\text{ m}$",
+   "$42\\text{ m}$",
+   "$60\\text{ m}$"
+  ],
+  "answer": "Correct option: c) $42\\text{ m}$. The sun's rays make equal angles, so the two right triangles are similar (AA): $\\frac{H}{28} = \\frac{3.6}{2.4}$, so $H = 28 \\times 1.5 = 42\\text{ m}$."
+ },
+ {
+  "id": "cmvq9r2ka00h97gcngvp24czc",
+  "chapter": "Triangles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Which of the following can be the sides of a right-angled triangle?",
+  "options": [
+   "$9\\text{ cm}$, $12\\text{ cm}$, $16\\text{ cm}$",
+   "$10\\text{ cm}$, $24\\text{ cm}$, $26\\text{ cm}$",
+   "$6\\text{ cm}$, $8\\text{ cm}$, $11\\text{ cm}$",
+   "$5\\text{ cm}$, $11\\text{ cm}$, $13\\text{ cm}$"
+  ],
+  "answer": "Correct option: b) $10\\text{ cm}$, $24\\text{ cm}$, $26\\text{ cm}$. By the converse of Pythagoras theorem: $10^{2} + 24^{2} = 100 + 576 = 676 = 26^{2}$. The other sets fail $(225 \\ne 256, 100 \\ne 121, 146 \\ne 169)$."
+ },
+ {
+  "id": "cmvq9r2ka00hb7gcnqgc856ik",
+  "chapter": "Triangles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "In $\\triangle ABC$, $D$ is a point on $BC$ such that $\\angle ADC = \\angle BAC$. If $BC = 16\\text{ cm}$ and $CD = 4\\text{ cm}$, then $AC =$",
+  "options": [
+   "$6\\text{ cm}$",
+   "$8\\text{ cm}$",
+   "$10\\text{ cm}$",
+   "$12\\text{ cm}$"
+  ],
+  "answer": "Correct option: b) $8\\text{ cm}$. In $\\triangle CDA$ and $\\triangle CAB$, $\\angle C$ is common and $\\angle CDA = \\angle CAB$, so $\\triangle CDA \\sim \\triangle CAB$. Then $\\frac{CD}{CA} = \\frac{CA}{CB}$, so $AC^{2} = CD \\times CB = 64$ and $AC = 8\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2kb00hd7gcn5mao136o",
+  "chapter": "Triangles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Assertion $(A)$: A triangle with sides $7\\text{ cm}$, $24\\text{ cm}$ and $25\\text{ cm}$ is right-angled, with the right angle opposite the side of $25\\text{ cm}$.\nReason $(R)$: If in a triangle the square of one side equals the sum of the squares of the other two sides, then the angle opposite the first side is a right angle.",
+  "options": [
+   "Both $A$ and $R$ are true and $R$ is the correct explanation of $A$",
+   "Both $A$ and $R$ are true but $R$ is not the correct explanation of $A$",
+   "$A$ is true but $R$ is false",
+   "$A$ is false but $R$ is true"
+  ],
+  "answer": "Correct option: a) Both $A$ and $R$ are true and $R$ is the correct explanation of $A$. Here $7^{2} + 24^{2} = 49 + 576 = 625 = 25^{2}$, so by the converse of Pythagoras theorem ($R$, which is a true statement) the angle opposite the $25\\text{ cm}$ side is $90^\\circ$. $R$ directly justifies $A$."
+ },
+ {
+  "id": "cmvq9r2kb00hf7gcnwlybvydr",
+  "chapter": "Triangles",
+  "type": "short",
+  "marks": 2,
+  "text": "In $\\triangle ABC$, $D$ lies on $AB$ and $E$ on $AC$ with $DE \\parallel BC$. If $AD = (x + 1)\\text{ cm}$, $DB = 2x\\text{ cm}$, $AE = (x + 3)\\text{ cm}$ and $EC = 3x\\text{ cm}$, find $x$ and the length of $AC$.",
+  "answer": "$DE \\parallel BC$, so by BPT $\\frac{AD}{DB} = \\frac{AE}{EC}$.\n$\\frac{x+1}{2x} = \\frac{x+3}{3x} \\Rightarrow 3(x+1) = 2(x+3) \\Rightarrow 3x + 3 = 2x + 6 \\Rightarrow x = 3$.\nThen $AE = 6\\text{ cm}$, $EC = 9\\text{ cm}$, so $AC = 6 + 9 = 15\\text{ cm}$.\nAnswer: $x = 3$, $AC = 15\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2kc00hh7gcnosw99kli",
+  "chapter": "Triangles",
+  "type": "short",
+  "marks": 2,
+  "text": "In $\\triangle ABC$, $D$ is a point on $AB$ and $E$ is a point on $AC$ such that $DE \\parallel BC$. A line through $E$ parallel to $CD$ meets $AB$ at $F$. Prove that $AD^{2} = AF \\times AB$.",
+  "answer": "In $\\triangle ABC$, $DE \\parallel BC$, so by BPT $\\frac{AD}{AB} = \\frac{AE}{AC}$ ... (1)\nIn $\\triangle ADC$, $EF \\parallel DC$ ($F$ on $AD$, $E$ on $AC$), so by BPT $\\frac{AF}{AD} = \\frac{AE}{AC}$ ... (2)\nFrom (1) and (2): $\\frac{AD}{AB} = \\frac{AF}{AD}$, hence $AD^{2} = AF \\times AB$. Hence proved."
+ },
+ {
+  "id": "cmvq9r2kc00hj7gcn6u48lxpo",
+  "chapter": "Triangles",
+  "type": "short",
+  "marks": 2,
+  "text": "In $\\triangle ABC$, $P$ lies on $AB$ and $Q$ lies on $AC$ such that $\\angle APQ = \\angle ACB$. Prove that $\\triangle APQ \\sim \\triangle ACB$ and hence that $AP \\times AB = AQ \\times AC$.",
+  "answer": "In $\\triangle APQ$ and $\\triangle ACB$: $\\angle A = \\angle A$ (common) and $\\angle APQ = \\angle ACB$ (given). So $\\triangle APQ \\sim \\triangle ACB$ by AA, with $A\\leftrightarrow A$, $P\\leftrightarrow C$, $Q\\leftrightarrow B$.\nCorresponding sides are proportional: $\\frac{AP}{AC} = \\frac{AQ}{AB}$, hence $AP \\times AB = AQ \\times AC$. Hence proved."
+ },
+ {
+  "id": "cmvq9r2kd00hl7gcnmplx1gbk",
+  "chapter": "Triangles",
+  "type": "short",
+  "marks": 2,
+  "text": "$ABCD$ is a parallelogram. $E$ is a point on side $AD$, and $BE$, when extended, meets $CD$ produced at $F$. Prove that $\\triangle ABE \\sim \\triangle DFE$.",
+  "answer": "Since $ABCD$ is a parallelogram, $AB \\parallel CD$, i.e. $AB \\parallel DF$ with $BF$ a transversal. So $\\angle ABE = \\angle DFE$ (alternate angles).\nAlso $\\angle AEB = \\angle DEF$ (vertically opposite angles, as $AD$ and $BF$ intersect at $E$).\nHence $\\triangle ABE \\sim \\triangle DFE$ by AA similarity. Hence proved."
+ },
+ {
+  "id": "cmvq9r2kd00hn7gcnzqqzul8w",
+  "chapter": "Triangles",
+  "type": "short",
+  "marks": 2,
+  "text": "In $\\triangle ABC$, $AB = 6\\text{ cm}$, $BC = 8\\text{ cm}$ and $CA = 10\\text{ cm}$. In $\\triangle PQR$, $PQ = 9\\text{ cm}$, $QR = 12\\text{ cm}$ and $RP = 15\\text{ cm}$. Show that the triangles are similar and find $\\angle Q$.",
+  "answer": "$\\frac{AB}{PQ} = \\frac{6}{9} = \\frac{2}{3}$, $\\frac{BC}{QR} = \\frac{8}{12} = \\frac{2}{3}$, $\\frac{CA}{RP} = \\frac{10}{15} = \\frac{2}{3}$. All ratios are equal, so $\\triangle ABC \\sim \\triangle PQR$ (SSS similarity), with $\\angle B = \\angle Q$.\nNow $AB^{2} + BC^{2} = 36 + 64 = 100 = CA^{2}$, so by the converse of Pythagoras theorem $\\angle B = 90^\\circ$.\nHence $\\angle Q = 90^\\circ$."
+ },
+ {
+  "id": "cmvq9r2kd00hp7gcngvb32j4b",
+  "chapter": "Triangles",
+  "type": "short",
+  "marks": 2,
+  "text": "$\\triangle ABC \\sim \\triangle PQR$. The areas of $\\triangle ABC$ and $\\triangle PQR$ are $48\\text{ cm}^{2}$ and $108\\text{ cm}^{2}$ respectively. If $BC = 8\\text{ cm}$, find $QR$.",
+  "answer": "Ratio of areas $=$ square of ratio of corresponding sides: $\\frac{\\operatorname{ar}(PQR)}{\\operatorname{ar}(ABC)} = \\frac{QR^{2}}{BC^{2}}$.\n$\\frac{108}{48} = \\frac{QR^{2}}{64} \\Rightarrow QR^{2} = 64 \\times \\frac{9}{4} = 144 \\Rightarrow QR = 12\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2ke00hr7gcn9638n55j",
+  "chapter": "Triangles",
+  "type": "short",
+  "marks": 2,
+  "text": "A $25\\text{ m}$ long ladder rests against a vertical wall with its foot $7\\text{ m}$ from the base of the wall. The top of the ladder slips down $4\\text{ m}$ along the wall. How far does the foot of the ladder move away from the wall?",
+  "answer": "Initially the height reached $= \\sqrt{25^{2} - 7^{2}} = \\sqrt{576} = 24\\text{ m}$.\nAfter slipping $4\\text{ m}$ the height is $20\\text{ m}$, so the new distance of the foot from the wall $= \\sqrt{25^{2} - 20^{2}} = \\sqrt{225} = 15\\text{ m}$.\nThe foot moves $15 - 7 = 8\\text{ m}$ away from the wall."
+ },
+ {
+  "id": "cmvq9r2ke00ht7gcnw2d78mry",
+  "chapter": "Triangles",
+  "type": "short",
+  "marks": 3,
+  "text": "The diagonals $AC$ and $BD$ of a quadrilateral $ABCD$ intersect at $O$ at right angles. Prove that $AB^{2} + CD^{2} = BC^{2} + DA^{2}$.",
+  "answer": "Since $AC \\perp BD$, each of the triangles $OAB$, $OBC$, $OCD$, $ODA$ is right-angled at $O$. By Pythagoras theorem:\n$AB^{2} = OA^{2} + OB^{2}$\n$BC^{2} = OB^{2} + OC^{2}$\n$CD^{2} = OC^{2} + OD^{2}$\n$DA^{2} = OD^{2} + OA^{2}$\nAdding the first and third: $AB^{2} + CD^{2} = OA^{2} + OB^{2} + OC^{2} + OD^{2}$.\nAdding the second and fourth: $BC^{2} + DA^{2} = OB^{2} + OC^{2} + OD^{2} + OA^{2}$.\nThe right-hand sides are equal, so $AB^{2} + CD^{2} = BC^{2} + DA^{2}$. Hence proved."
+ },
+ {
+  "id": "cmvq9r2kf00hv7gcninc3h67h",
+  "chapter": "Triangles",
+  "type": "long",
+  "marks": 5,
+  "text": "State and prove the Basic Proportionality Theorem (Thales theorem).",
+  "answer": "Statement: If a line is drawn parallel to one side of a triangle to intersect the other two sides at distinct points, the other two sides are divided in the same ratio.\nGiven: In $\\triangle ABC$, $DE \\parallel BC$ with $D$ on $AB$ and $E$ on $AC$.\nTo prove: $\\frac{AD}{DB} = \\frac{AE}{EC}$.\nConstruction: Join $BE$ and $CD$. Draw $EM \\perp AB$ and $DN \\perp AC$.\nProof: $\\operatorname{ar}(\\triangle ADE) = \\frac{1}{2} \\times AD \\times EM$ and $\\operatorname{ar}(\\triangle BDE) = \\frac{1}{2} \\times DB \\times EM$. So $\\frac{\\operatorname{ar}(ADE)}{\\operatorname{ar}(BDE)} = \\frac{AD}{DB}$ ... (1)\nSimilarly $\\frac{\\operatorname{ar}(ADE)}{\\operatorname{ar}(CDE)} = \\frac{\\frac{1}{2} \\times AE \\times DN}{\\frac{1}{2} \\times EC \\times DN} = \\frac{AE}{EC}$ ... (2)\n$\\triangle BDE$ and $\\triangle CDE$ are on the same base $DE$ and between the same parallels $DE$ and $BC$, so $\\operatorname{ar}(BDE) = \\operatorname{ar}(CDE)$ ... (3)\nFrom (1), (2), (3): $\\frac{AD}{DB} = \\frac{AE}{EC}$. Hence proved."
+ },
+ {
+  "id": "cmvq9r2kf00hx7gcnqn4wyxaj",
+  "chapter": "Triangles",
+  "type": "long",
+  "marks": 5,
+  "text": "$ABCD$ is a trapezium with $AB \\parallel DC$. A line $EF$ parallel to $AB$ meets $AD$ at $E$ and $BC$ at $F$. Prove that $\\frac{AE}{ED} = \\frac{BF}{FC}$.",
+  "answer": "Join $AC$, meeting $EF$ at $G$.\nIn $\\triangle ADC$, $EG \\parallel DC$ (since $EF \\parallel AB \\parallel DC$). By BPT, $\\frac{AE}{ED} = \\frac{AG}{GC}$ ... (1)\nIn $\\triangle CAB$, $GF \\parallel AB$ (since $EF \\parallel AB$). By BPT, $\\frac{CG}{GA} = \\frac{CF}{FB}$, i.e. $\\frac{AG}{GC} = \\frac{BF}{FC}$ ... (2)\nFrom (1) and (2): $\\frac{AE}{ED} = \\frac{BF}{FC}$. Hence proved."
+ },
+ {
+  "id": "cmvq9r2kf00hz7gcnxnmp23dc",
+  "chapter": "Triangles",
+  "type": "long",
+  "marks": 5,
+  "text": "In $\\triangle ABC$, $\\angle BAC = 90^\\circ$ and $AD \\perp BC$, where $D$ lies on $BC$. (a) Prove that $AB^{2} = BD \\times BC$ and $AD^{2} = BD \\times DC$. (b) If $BD = 9\\text{ cm}$ and $DC = 16\\text{ cm}$, find $AB$, $AC$ and $AD$.",
+  "answer": "(a) In $\\triangle ADB$ and $\\triangle CAB$: $\\angle B$ is common and $\\angle ADB = \\angle CAB = 90^\\circ$, so $\\triangle ADB \\sim \\triangle CAB$ (AA). Hence $\\frac{BD}{AB} = \\frac{AB}{BC}$, i.e. $AB^{2} = BD \\times BC$.\nIn $\\triangle ADB$ and $\\triangle CDA$: $\\angle ADB = \\angle CDA = 90^\\circ$, and $\\angle BAD = 90^\\circ - \\angle B = \\angle C$ (as $\\angle B + \\angle C = 90^\\circ$). So $\\triangle ADB \\sim \\triangle CDA$ (AA), giving $\\frac{AD}{CD} = \\frac{BD}{AD}$, i.e. $AD^{2} = BD \\times DC$.\n(b) $BC = 9 + 16 = 25\\text{ cm}$.\n$AB^{2} = 9 \\times 25 = 225 \\Rightarrow AB = 15\\text{ cm}$.\n$AC^{2} = CD \\times CB = 16 \\times 25 = 400 \\Rightarrow AC = 20\\text{ cm}$ (by the same argument with $\\triangle CDA \\sim \\triangle CAB$).\n$AD^{2} = 9 \\times 16 = 144 \\Rightarrow AD = 12\\text{ cm}$.\nCheck: $AB^{2} + AC^{2} = 225 + 400 = 625 = BC^{2}$."
+ },
+ {
+  "id": "cmvq9r2kg00i17gcn59i66ye2",
+  "chapter": "Triangles",
+  "type": "long",
+  "marks": 5,
+  "text": "$ABCD$ is a trapezium with $AB \\parallel DC$ and $AB = 2 DC$. Its diagonals $AC$ and $BD$ intersect at $O$. (a) Prove that $\\triangle AOB \\sim \\triangle COD$. (b) Prove that $O$ divides each diagonal in the ratio $2 : 1$ ($OA = 2 OC$ and $OB = 2 OD$). (c) If the area of $\\triangle COD$ is $15\\text{ cm}^{2}$, find the area of $\\triangle AOB$.",
+  "answer": "(a) In $\\triangle AOB$ and $\\triangle COD$: $\\angle AOB = \\angle COD$ (vertically opposite angles); $\\angle OAB = \\angle OCD$ (alternate angles, $AB \\parallel DC$ with transversal $AC$). So $\\triangle AOB \\sim \\triangle COD$ by AA, with $A\\leftrightarrow C$, $B\\leftrightarrow D$, $O\\leftrightarrow O$.\n(b) Corresponding sides are proportional: $\\frac{OA}{OC} = \\frac{OB}{OD} = \\frac{AB}{CD} = 2$. Hence $OA = 2 OC$ and $OB = 2 OD$, so $O$ divides $AC$ and $BD$ in the ratio $2 : 1$.\n(c) The ratio of areas of similar triangles equals the square of the ratio of corresponding sides: $\\frac{\\operatorname{ar}(AOB)}{\\operatorname{ar}(COD)} = (\\frac{AB}{CD})^{2} = 4$. So $\\operatorname{ar}(AOB) = 4 \\times 15 = 60\\text{ cm}^{2}$."
+ },
+ {
+  "id": "cmvq9r2kg00i37gcnbwoxx8ai",
+  "chapter": "Triangles",
+  "type": "long",
+  "marks": 5,
+  "text": "In $\\triangle ABC$, $D$ lies on $AB$ and $E$ lies on $AC$ such that $\\angle ADE = \\angle ACB$. (a) Prove that $\\triangle ADE \\sim \\triangle ACB$. (b) If $AB = 12\\text{ cm}$, $AD = 5\\text{ cm}$, $AC = 10\\text{ cm}$ and $BC = 14\\text{ cm}$, find $AE$ and $DE$. (c) Find the ratio of the areas of $\\triangle ADE$ and $\\triangle ACB$.",
+  "answer": "(a) In $\\triangle ADE$ and $\\triangle ACB$: $\\angle A = \\angle A$ (common) and $\\angle ADE = \\angle ACB$ (given). So $\\triangle ADE \\sim \\triangle ACB$ by AA, with $A\\leftrightarrow A$, $D\\leftrightarrow C$, $E\\leftrightarrow B$.\n(b) Corresponding sides: $\\frac{AD}{AC} = \\frac{AE}{AB} = \\frac{DE}{CB}$.\n$\\frac{AD}{AC} = \\frac{5}{10} = \\frac{1}{2}$. So $AE = \\frac{AB}{2} = 6\\text{ cm}$ and $DE = \\frac{BC}{2} = 7\\text{ cm}$.\n(c) $\\frac{\\operatorname{ar}(ADE)}{\\operatorname{ar}(ACB)} = (\\frac{AD}{AC})^{2} = (\\frac{1}{2})^{2} = \\frac{1}{4}$, i.e. $1 : 4$."
+ },
+ {
+  "id": "cmvq9r2kh00i57gcnzwfncpng",
+  "chapter": "Triangles",
+  "type": "long",
+  "marks": 5,
+  "text": "$ABCD$ is a parallelogram. A point $P$ lies on side $DC$. The line $AP$ meets the diagonal $BD$ at $R$ and meets $BC$ produced at $Q$. Prove that $AR^{2} = PR \\times RQ$.",
+  "answer": "$R$ lies between $D$ and $B$ and between $A$ and $P$; $P$ lies between $R$ and $Q$.\nIn $\\triangle RDP$ and $\\triangle RBA$: $DP \\parallel AB (DC \\parallel AB)$, so $\\angle RDP = \\angle RBA$ (alternate angles), and $\\angle DRP = \\angle BRA$ (vertically opposite). So $\\triangle RDP \\sim \\triangle RBA$ by AA. Hence $\\frac{PR}{AR} = \\frac{DR}{BR}$ ... (1)\nIn $\\triangle RAD$ and $\\triangle RQB$: $AD \\parallel BQ (AD \\parallel BC)$, so $\\angle RDA = \\angle RBQ$ (alternate angles), and $\\angle ARD = \\angle QRB$ (vertically opposite). So $\\triangle RAD \\sim \\triangle RQB$ by AA. Hence $\\frac{AR}{QR} = \\frac{DR}{BR}$ ... (2)\nFrom (1) and (2): $\\frac{PR}{AR} = \\frac{AR}{QR}$, so $AR^{2} = PR \\times RQ$. Hence proved."
+ },
+ {
+  "id": "cmvq9r2kh00i77gcnca7uncw3",
+  "chapter": "Triangles",
+  "type": "long",
+  "marks": 5,
+  "text": "In $\\triangle ABC$, $AB = 15\\text{ cm}$, $AC = 20\\text{ cm}$ and $BC = 10\\text{ cm}$. $D$ lies on $AB$ with $AD = 6\\text{ cm}$, and $E$ lies on $AC$ with $DE \\parallel BC$. A line through $E$ parallel to $AB$ meets $BC$ at $F$. (a) Find $AE$ and $EC$. (b) Find $CF$ and $FB$. (c) Find $DE$ and hence show that $DE = BF$.",
+  "answer": "(a) By BPT in $\\triangle ABC$ with $DE \\parallel BC$: $\\frac{AD}{AB} = \\frac{AE}{AC} \\Rightarrow AE = 20 \\times \\frac{6}{15} = 8\\text{ cm}$, so $EC = 20 - 8 = 12\\text{ cm}$.\n(b) $EF \\parallel AB$, so in $\\triangle ABC$ by BPT: $\\frac{CF}{FB} = \\frac{CE}{EA} = \\frac{12}{8} = \\frac{3}{2}$. Hence $CF = (\\frac{3}{5}) \\times 10 = 6\\text{ cm}$ and $FB = (\\frac{2}{5}) \\times 10 = 4\\text{ cm}$.\n(c) $\\triangle ADE \\sim \\triangle ABC (DE \\parallel BC)$, so $\\frac{DE}{BC} = \\frac{AD}{AB} = \\frac{6}{15}$, giving $DE = 10 \\times \\frac{6}{15} = 4\\text{ cm}$.\nThus $DE = 4\\text{ cm}= BF$. (Indeed $DE \\parallel BF$ and $DB \\parallel EF$, so $DBFE$ is a parallelogram and $DE = BF$.)"
+ },
+ {
+  "id": "cmvq9r2ki00i97gcnzbbak8u9",
+  "chapter": "Triangles",
+  "type": "long",
+  "marks": 5,
+  "text": "Prove that the ratio of the areas of two similar triangles is equal to the square of the ratio of their corresponding sides.",
+  "answer": "Given: $\\triangle ABC \\sim \\triangle PQR$.\nTo prove: $\\frac{\\operatorname{ar}(ABC)}{\\operatorname{ar}(PQR)} = (\\frac{AB}{PQ})^{2} = (\\frac{BC}{QR})^{2} = (\\frac{CA}{RP})^{2}$.\nConstruction: Draw $AM \\perp BC$ and $PN \\perp QR$.\nProof: $\\operatorname{ar}(ABC) = \\frac{1}{2} \\times BC \\times AM$ and $\\operatorname{ar}(PQR) = \\frac{1}{2} \\times QR \\times PN$, so $\\frac{\\operatorname{ar}(ABC)}{\\operatorname{ar}(PQR)} = \\frac{BC \\times AM}{QR \\times PN}$ ... (1)\nSince $\\triangle ABC \\sim \\triangle PQR$, $\\angle B = \\angle Q$ and $\\frac{AB}{PQ} = \\frac{BC}{QR} = \\frac{CA}{RP}$ ... (2)\nIn $\\triangle ABM$ and $\\triangle PQN$: $\\angle B = \\angle Q$ and $\\angle M = \\angle N = 90^\\circ$, so $\\triangle ABM \\sim \\triangle PQN$ (AA). Hence $\\frac{AM}{PN} = \\frac{AB}{PQ}$ ... (3)\nFrom (2) and (3): $\\frac{AM}{PN} = \\frac{AB}{PQ} = \\frac{BC}{QR}$.\nSubstituting in (1): $\\frac{\\operatorname{ar}(ABC)}{\\operatorname{ar}(PQR)} = (\\frac{BC}{QR}) \\times (\\frac{AM}{PN}) = (\\frac{BC}{QR}) \\times (\\frac{BC}{QR}) = (\\frac{BC}{QR})^{2}$.\nBy (2), this equals $(\\frac{AB}{PQ})^{2} = (\\frac{BC}{QR})^{2} = (\\frac{CA}{RP})^{2}$. Hence proved."
+ },
+ {
+  "id": "cmvq9r2ki00ib7gcnyhzv8jgn",
+  "chapter": "Triangles",
+  "type": "long",
+  "marks": 5,
+  "text": "$ABC$ is an equilateral triangle of side $a$. $D$ is a point on $BC$ such that $BD = \\frac{BC}{4}$. Prove that $16 AD^{2} = 13 AB^{2}$. Hence find $AD$ when $AB = 8\\text{ cm}$.",
+  "answer": "Draw $AE \\perp BC$. In an equilateral triangle the altitude bisects the base, so $BE = \\frac{a}{2}$, and $AE^{2} = AB^{2} - BE^{2} = a^{2} - \\frac{a^{2}}{4} = \\frac{3a^{2}}{4}$.\n$BD = \\frac{a}{4}$, so $DE = BE - BD = \\frac{a}{2} - \\frac{a}{4} = \\frac{a}{4}$.\nIn right $\\triangle AED$: $AD^{2} = AE^{2} + DE^{2} = \\frac{3a^{2}}{4} + \\frac{a^{2}}{16} = \\frac{12a^{2}}{16} + \\frac{a^{2}}{16} = \\frac{13a^{2}}{16}$.\nHence $16 AD^{2} = 13 a^{2} = 13 AB^{2}$. Hence proved.\nFor $AB = 8\\text{ cm}$: $AD^{2} = 13 \\times \\frac{64}{16} = 52$, so $AD = \\sqrt{52} = 2\\sqrt{13}\\text{ cm}\\approx 7.21\\text{ cm}$."
+ },
+ {
+  "id": "cmvq9r2kj00id7gcn4dhd9p9f",
+  "chapter": "Triangles",
+  "type": "case",
+  "marks": 4,
+  "text": "A school is installing a vertical flag mast on level ground. To estimate its height, Meera, who is $1.5\\text{ m}$ tall, stands upright near the mast. At that moment her shadow is $2\\text{ m}$ long while the shadow of the mast is $12\\text{ m}$ long. The mast will be held by a steel wire fixed to its top and to a point on the ground in line with the mast's base.\n(i) Name the similarity criterion by which the triangle formed by Meera and her shadow is similar to the triangle formed by the mast and its shadow. [1]\n(ii) Find the height of the mast. [1]\n(iii) The wire is fixed to the ground at a point $12\\text{ m}$ from the foot of the mast. Find the length of the wire. [2]\nOR\n(iii) Instead, a second wire is fixed to a point on the mast $6\\text{ m}$ above the ground and to a ground point $8\\text{ m}$ from the foot of the mast. Find the length of this wire. [2]",
+  "answer": "(i) The sun's rays strike at the same angle, so the angles of elevation are equal; each triangle also has a right angle (person and mast are vertical). Hence the triangles are similar by AA similarity.\n(ii) Let the height be $h$. By similarity, $\\frac{h}{1.5} = \\frac{12}{2}$, so $h = 1.5 \\times 6 = 9\\text{ m}$.\n(iii) The mast, the ground and the wire form a right triangle with legs $9\\text{ m}$ and $12\\text{ m}$. Wire length $= \\sqrt{9^{2} + 12^{2}} = \\sqrt{225} = 15\\text{ m}$.\nOR (iii) Length $= \\sqrt{6^{2} + 8^{2}} = \\sqrt{100} = 10\\text{ m}$."
+ }
+]

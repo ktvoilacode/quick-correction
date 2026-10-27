@@ -1,6 +1,7 @@
 {
   "papersAnalysed": 21,
   "scale": 10,
+  "textFormat": "Write maths as LaTeX between dollar signs (rendered with KaTeX). Follow docs/content/generated/latex/CONVENTIONS.md and check with node scripts/latex-check.mjs.",
   "chapters": [
     {
       "chapter": "Real Numbers",

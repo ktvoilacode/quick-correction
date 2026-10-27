@@ -66,3 +66,5 @@ uploads/
 # Downloaded CBSE papers (copyrighted; local reference only)
 docs/content/pyq/
 docs/content/pyq-text/
+docs/content/generated/latex/in/
+docs/content/generated/stripped/
