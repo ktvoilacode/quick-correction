@@ -17,6 +17,8 @@ export type ApiRoute =
   | '/api/auth/verify-email'
   | '/api/client-error'
   | '/api/contact-message'
+  | '/api/library'
+  | `/api/library/${string}`
   | '/api/parent/children'
   | '/api/parent/link'
   | '/api/parent/submissions'
@@ -70,6 +72,7 @@ export const API_ROUTES = [
   '/api/auth/verify-email',
   '/api/client-error',
   '/api/contact-message',
+  '/api/library',
   '/api/parent/children',
   '/api/parent/link',
   '/api/parent/submissions',

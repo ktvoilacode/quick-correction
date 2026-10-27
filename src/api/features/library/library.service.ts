@@ -1,0 +1,84 @@
+/**
+ * Skill library service — the board > class > subject > chapter > topic tree.
+ * @file src/api/features/library/library.service.ts
+ *
+ * Runs after the route has checked the caller is an admin.
+ */
+import { databaseClass } from '@bloomneo/appkit/database';
+import { errorClass } from '@bloomneo/appkit/error';
+import { auditService } from '../audit/audit.service.js';
+
+const error = errorClass.get();
+
+export const KINDS = ['board', 'class', 'subject', 'chapter', 'topic'] as const;
+export type Kind = (typeof KINDS)[number];
+
+type Row = { id: string; kind: string; name: string; parentId: string | null; position: number; isActive: boolean };
+
+export const libraryService = {
+  /** The whole tree, nested. Small enough (hundreds of rows) to send in one go. */
+  async tree() {
+    const db = await databaseClass.get();
+    const rows: Row[] = await db.curriculumNode.findMany({
+      select: { id: true, kind: true, name: true, parentId: true, position: true, isActive: true },
+      orderBy: [{ position: 'asc' }, { name: 'asc' }],
+    });
+    const byParent = new Map<string | null, Row[]>();
+    for (const r of rows) byParent.set(r.parentId, [...(byParent.get(r.parentId) ?? []), r]);
+    const build = (parentId: string | null): any[] =>
+      (byParent.get(parentId) ?? []).map((r) => ({ ...r, children: build(r.id) }));
+    return { nodes: build(null) };
+  },
+
+  async create(actorId: string, data: { kind?: string; name?: string; parentId?: string | null }) {
+    const db = await databaseClass.get();
+    const name = data.name?.trim();
+    if (!name) throw error.badRequest('Name is required');
+    const kind = data.kind as Kind;
+    const level = KINDS.indexOf(kind);
+    if (level < 0) throw error.badRequest('Unknown level');
+
+    let parentId: string | null = null;
+    if (level > 0) {
+      const parent = data.parentId ? await db.curriculumNode.findUnique({ where: { id: data.parentId } }) : null;
+      if (!parent) throw error.badRequest(`A ${kind} needs a ${KINDS[level - 1]} to sit under`);
+      if (parent.kind !== KINDS[level - 1]) throw error.badRequest(`A ${kind} goes under a ${KINDS[level - 1]}, not a ${parent.kind}`);
+      parentId = parent.id;
+    }
+
+    const clash = await db.curriculumNode.findFirst({ where: { parentId, name } });
+    if (clash) throw error.conflict(`"${name}" already exists here`);
+    const last = await db.curriculumNode.findFirst({ where: { parentId }, orderBy: { position: 'desc' }, select: { position: true } });
+    const node = await db.curriculumNode.create({ data: { kind, name, parentId, position: (last?.position ?? -1) + 1 } });
+    auditService.logAudit({ actorId, actorType: 'admin', action: 'library.create', entityType: 'curriculum', entityId: node.id, newValue: { kind, name } });
+    return node;
+  },
+
+  async update(actorId: string, id: string, data: { name?: string; isActive?: boolean }) {
+    const db = await databaseClass.get();
+    const existing = await db.curriculumNode.findUnique({ where: { id } });
+    if (!existing) throw error.notFound('Not found');
+    const patch: { name?: string; isActive?: boolean } = {};
+    if (typeof data.name === 'string') {
+      const name = data.name.trim();
+      if (!name) throw error.badRequest('Name is required');
+      const clash = await db.curriculumNode.findFirst({ where: { parentId: existing.parentId, name, NOT: { id } } });
+      if (clash) throw error.conflict(`"${name}" already exists here`);
+      patch.name = name;
+    }
+    if (typeof data.isActive === 'boolean') patch.isActive = data.isActive;
+    const node = await db.curriculumNode.update({ where: { id }, data: patch });
+    auditService.logAudit({ actorId, actorType: 'admin', action: 'library.update', entityType: 'curriculum', entityId: id, oldValue: { name: existing.name, isActive: existing.isActive }, newValue: patch });
+    return node;
+  },
+
+  /** Deletes the node and everything under it (cascade). */
+  async remove(actorId: string, id: string) {
+    const db = await databaseClass.get();
+    const existing = await db.curriculumNode.findUnique({ where: { id } });
+    if (!existing) throw error.notFound('Not found');
+    await db.curriculumNode.delete({ where: { id } });
+    auditService.logAudit({ actorId, actorType: 'admin', action: 'library.delete', entityType: 'curriculum', entityId: id, oldValue: { kind: existing.kind, name: existing.name } });
+    return { ok: true };
+  },
+};

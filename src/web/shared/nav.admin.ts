@@ -9,12 +9,13 @@
  * that matter are AdminLayoutRoute's role check on /admin and the API's own
  * check on every /admin endpoint.
  */
-import { Gauge, Users, GraduationCap, ScrollText, Settings } from 'lucide-react';
+import { Gauge, Users, GraduationCap, Library, ScrollText, Settings } from 'lucide-react';
 import type { NavItem } from './nav.base';
 
 export const items: NavItem[] = [
   { to: '/admin', label: 'Overview', icon: Gauge, end: true, role: 'admin', section: 'Admin', order: 100 },
   { to: '/admin/people', label: 'Teachers & parents', icon: GraduationCap, role: 'admin', order: 105 },
+  { to: '/admin/library', label: 'Skill library', icon: Library, role: 'admin', order: 107 },
   { to: '/admin/users', label: 'Users', icon: Users, role: 'admin', order: 110 },
   { to: '/admin/audit', label: 'Audit log', icon: ScrollText, role: 'admin', order: 120 },
   { to: '/admin/settings', label: 'Settings', icon: Settings, role: 'admin', order: 130 },

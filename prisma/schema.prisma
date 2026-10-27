@@ -163,6 +163,27 @@ model Submission {
   @@map("submissions")
 }
 
+// Skill library: the curriculum the admin maintains and papers are built from.
+// One tree, five fixed levels: board > class > subject > chapter > topic. A
+// node's `kind` says which level it is; `parentId` is the level above (null
+// for a board).
+model CurriculumNode {
+  id        String           @id @default(cuid())
+  kind      String // 'board' | 'class' | 'subject' | 'chapter' | 'topic'
+  name      String
+  parentId  String?
+  parent    CurriculumNode?  @relation("CurriculumTree", fields: [parentId], references: [id], onDelete: Cascade)
+  children  CurriculumNode[] @relation("CurriculumTree")
+  position  Int              @default(0)
+  isActive  Boolean          @default(true)
+  createdAt DateTime         @default(now())
+  updatedAt DateTime         @updatedAt
+
+  @@unique([parentId, name])
+  @@index([parentId])
+  @@map("curriculum_nodes")
+}
+
 // Background jobs for the appkit queue's database transport (picked
 // automatically when DATABASE_URL is set). Marking jobs live here, so a
 // restart doesn't lose a paper that was waiting to be marked.

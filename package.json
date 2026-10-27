@@ -32,7 +32,8 @@
     "start:prod": "npm run start",
     "start:web": "npm run preview",
     "typecheck": "npm run gen:routes && tsc --noEmit && tsc --noEmit -p tsconfig.api.json",
-    "db:seed:qc": "tsx prisma/seeding/qc.seed.ts"
+    "db:seed:qc": "tsx prisma/seeding/qc.seed.ts",
+    "db:seed:library": "tsx prisma/seeding/library.seed.ts"
   },
   "dependencies": {
     "@bloomneo/appkit": "^5.1.2",
