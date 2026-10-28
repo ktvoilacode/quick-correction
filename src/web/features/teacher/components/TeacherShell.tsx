@@ -9,6 +9,7 @@ import { Link, NavLink, Navigate, Outlet, useLocation } from 'react-router-dom';
 import { Button } from '@bloomneo/uikit';
 import { Home, FileText, Users, ClipboardCheck, LogOut, Loader2 } from 'lucide-react';
 import { LogoMark } from '@/shared/Logo';
+import { ThemeControls } from '@/shared/ThemeControls';
 import { api } from '@/shared/api';
 import { useAuth } from '@/features/auth/hooks';
 import { homeFor } from '@/features/auth/lib/home';
@@ -52,7 +53,7 @@ function Shell({ name }: { name: string }) {
         <div className="mx-auto flex h-14 max-w-5xl items-center gap-4 px-4">
           <Link to="/teacher" className="flex items-center gap-2 font-semibold" aria-label="Quick Correction home">
             <LogoMark className="size-7" />
-            <span className="hidden sm:inline">Quick Correction</span>
+            <span className="truncate">Quick Correction</span>
           </Link>
           <nav className="ml-2 hidden items-center gap-1 md:flex" aria-label="Teacher">
             {TABS.map(({ to, label, icon: Icon, end }) => (
@@ -62,8 +63,9 @@ function Shell({ name }: { name: string }) {
               </NavLink>
             ))}
           </nav>
-          <div className="ml-auto flex items-center gap-2">
-            <span className="hidden max-w-40 truncate text-sm text-muted-foreground sm:inline">{name}</span>
+          <div className="ml-auto flex items-center gap-1">
+            <span className="mr-1 hidden max-w-40 truncate text-sm text-muted-foreground sm:inline">{name}</span>
+            <ThemeControls />
             <Button asChild variant="ghost" size="icon" aria-label="Sign out" title="Sign out">
               <Link to="/auth/logout"><LogOut className="size-4" /></Link>
             </Button>

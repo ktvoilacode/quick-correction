@@ -6,6 +6,7 @@
  */
 
 export type ApiRoute =
+  | '/api/admin/overview'
   | '/api/admin/roles'
   | '/api/admin/summary'
   | '/api/audit/list'
@@ -70,6 +71,7 @@ export type ApiRoute =
 
 /** Every route, for runtime assertions and tooling. */
 export const API_ROUTES = [
+  '/api/admin/overview',
   '/api/admin/roles',
   '/api/admin/summary',
   '/api/audit/list',

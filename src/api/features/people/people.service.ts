@@ -20,14 +20,18 @@ export type PersonRole = 'teacher' | 'parent';
 export type PersonStatus = 'active' | 'pending' | 'rejected';
 
 const SELECT = {
-  id: true, name: true, email: true, phone: true,
+  id: true, name: true, email: true, phone: true, role: true,
   appRole: true, appStatus: true, isActive: true, lastLogin: true, createdAt: true,
   _count: { select: { students: true, children: true } },
 } as const;
 
+/** Which kind of account this is: teachers and parents by app role, admins by login role. */
+const kindOf = (u: { appRole: string | null; role: string }) =>
+  u.appRole === 'teacher' ? 'teacher' : u.appRole === 'parent' ? 'parent' : u.role === 'admin' ? 'admin' : 'other';
+
 function shape(u: any) {
-  const { _count, ...rest } = u;
-  return { ...rest, studentCount: _count.students, childCount: _count.children };
+  const { _count, role, ...rest } = u;
+  return { ...rest, kind: kindOf({ appRole: u.appRole, role }), studentCount: _count.students, childCount: _count.children };
 }
 
 const tempPassword = () => randomBytes(9).toString('base64url') + 'Aa1!';
@@ -40,27 +44,31 @@ export const peopleService = {
     return u;
   },
 
-  async list(filters: { appRole?: string; status?: string; q?: string }) {
+  /** Everyone who can sign in: teachers, parents and admins. `kind` narrows to one group. */
+  async list(filters: { kind?: string; status?: string; q?: string }) {
     const db = await databaseClass.get();
-    const where: any = { appRole: { in: ['teacher', 'parent'] } };
-    if (filters.appRole === 'teacher' || filters.appRole === 'parent') where.appRole = filters.appRole;
+    const where: any = {};
+    if (filters.kind === 'teacher' || filters.kind === 'parent') where.appRole = filters.kind;
+    if (filters.kind === 'admin') where.role = 'admin';
     if (filters.status) where.appStatus = filters.status;
     const q = filters.q?.trim();
     if (q) where.OR = [{ name: { contains: q } }, { email: { contains: q } }];
 
-    const [rows, pending, teachers, parents] = await Promise.all([
+    const [rows, pending, teachers, parents, admins, all] = await Promise.all([
       db.user.findMany({ where, select: SELECT, orderBy: [{ createdAt: 'desc' }] }),
       db.user.count({ where: { appRole: 'teacher', appStatus: 'pending' } }),
       db.user.count({ where: { appRole: 'teacher' } }),
       db.user.count({ where: { appRole: 'parent' } }),
+      db.user.count({ where: { role: 'admin' } }),
+      db.user.count(),
     ]);
-    return { people: rows.map(shape), counts: { pending, teachers, parents } };
+    return { people: rows.map(shape), counts: { pending, teachers, parents, admins, all } };
   },
 
   async create(actorId: string, data: { name?: string; email?: string; phone?: string; appRole?: string; password?: string }) {
     const email = data.email?.trim().toLowerCase();
     if (!email || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) throw error.badRequest('A valid email is required');
-    if (data.appRole !== 'teacher' && data.appRole !== 'parent') throw error.badRequest('Choose teacher or parent');
+    if (data.appRole !== 'teacher' && data.appRole !== 'parent' && data.appRole !== 'admin') throw error.badRequest('Choose teacher, parent or admin');
     if (data.password && data.password.length < 8) throw error.badRequest('Password must be at least 8 characters');
 
     const db = await databaseClass.get();
@@ -72,8 +80,11 @@ export const peopleService = {
       data: {
         email, name: data.name?.trim() || null, phone: data.phone?.trim() || null,
         password: await auth.hashPassword(password),
-        role: 'user', level: 'basic', isVerified: true, isActive: true,
-        appRole: data.appRole, appStatus: 'active',
+        // An admin signs in to the console and has no teacher or parent screens; the others are ordinary users.
+        ...(data.appRole === 'admin'
+          ? { role: 'admin', level: 'system', appRole: null, appStatus: 'active' }
+          : { role: 'user', level: 'basic', appRole: data.appRole, appStatus: 'active' }),
+        isVerified: true, isActive: true,
       },
       select: SELECT,
     });
@@ -84,7 +95,7 @@ export const peopleService = {
   async setStatus(actorId: string, id: string, status: 'active' | 'rejected') {
     const db = await databaseClass.get();
     const existing = await db.user.findUnique({ where: { id }, select: { appRole: true, appStatus: true } });
-    if (!existing?.appRole) throw error.notFound('Person not found');
+    if (existing?.appRole !== 'teacher') throw error.notFound('Teacher not found');
     const user = await db.user.update({ where: { id }, data: { appStatus: status }, select: SELECT });
     auditService.logAudit({
       actorId, actorType: 'admin', action: status === 'active' ? 'people.approve' : 'people.reject',
@@ -96,8 +107,7 @@ export const peopleService = {
   async setActive(actorId: string, id: string, isActive: boolean) {
     if (id === actorId) throw error.badRequest('You cannot deactivate your own account');
     const db = await databaseClass.get();
-    const existing = await db.user.findUnique({ where: { id }, select: { appRole: true } });
-    if (!existing?.appRole) throw error.notFound('Person not found');
+    if (!(await db.user.findUnique({ where: { id }, select: { id: true } }))) throw error.notFound('Person not found');
     const user = await db.user.update({ where: { id }, data: { isActive }, select: SELECT });
     auditService.logAudit({ actorId, actorType: 'admin', action: isActive ? 'people.enable' : 'people.disable', entityType: 'user', entityId: id });
     return shape(user);
@@ -105,8 +115,7 @@ export const peopleService = {
 
   async resetPassword(actorId: string, id: string) {
     const db = await databaseClass.get();
-    const existing = await db.user.findUnique({ where: { id }, select: { appRole: true } });
-    if (!existing?.appRole) throw error.notFound('Person not found');
+    if (!(await db.user.findUnique({ where: { id }, select: { id: true } }))) throw error.notFound('Person not found');
     const password = tempPassword();
     await db.user.update({ where: { id }, data: { password: await auth.hashPassword(password) } });
     auditService.logAudit({ actorId, actorType: 'admin', action: 'people.password_reset', entityType: 'user', entityId: id });

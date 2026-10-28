@@ -6,6 +6,7 @@
  * here. Data comes from `/api/questions`; topics from `/api/library`.
  */
 import * as React from 'react';
+import { useSearchParams } from 'react-router-dom';
 import {
   Button, Input, Textarea, FormField, Badge,
   Table, TableBody, TableCell, TableHead, TableHeader, TableRow,
@@ -62,7 +63,8 @@ export default function AdminQuestionsPage() {
   const [total, setTotal] = React.useState(0);
   const [pageSize, setPageSize] = React.useState(50);
   const [page, setPage] = React.useState(1);
-  const [filters, setFilters] = React.useState({ q: '', chapterId: 'all', type: 'all', complexity: 'all', status: 'all', review: 'all' });
+  const [params] = useSearchParams();
+  const [filters, setFilters] = React.useState({ q: '', chapterId: 'all', type: 'all', complexity: 'all', status: 'all', review: ['draft', 'flagged', 'approved', 'rejected'].includes(params.get('review') ?? '') ? params.get('review')! : 'all' });
   const [counts, setCounts] = React.useState<Counts>({ draft: 0, approved: 0, rejected: 0, flagged: 0 });
   const [picked, setPicked] = React.useState<Set<string>>(new Set());
   const [reviewing, setReviewing] = React.useState(false);

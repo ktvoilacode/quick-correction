@@ -55,18 +55,11 @@ import {
   toast,
   useTheme,
 } from '@bloomneo/uikit';
-import { Moon, Sun, Info, Send, Check } from 'lucide-react';
+import { Moon, Sun, Info, Send } from 'lucide-react';
 import { SEO } from '@/shared/SEO';
-import { PALETTES } from '@/shared/palettes';
 import { AdminPageHeader } from '../components/AdminPageHeader';
 import { PageLoading } from '../components/PageLoading';
 import { adminFetch, adminFetchJson } from '../lib/admin-api';
-import {
-  ALL_WIDGET_KEYS,
-  readDashboardWidgets,
-  writeDashboardWidgets,
-  type WidgetKey,
-} from '../lib/dashboard-widgets';
 
 interface SettingRow {
   key: string;
@@ -230,78 +223,17 @@ export default function AdminSettings() {
 /* -------------------------------------------------------------------------- */
 
 function AppearanceCard() {
-  const { theme, mode, setTheme, toggleMode } = useTheme();
-  const [widgets, setWidgets] = useState<WidgetKey[]>(() =>
-    readDashboardWidgets(),
-  );
-
-  function toggleWidget(key: WidgetKey) {
-    const next = widgets.includes(key)
-      ? widgets.filter((k) => k !== key)
-      : [...widgets, key];
-    setWidgets(next);
-    writeDashboardWidgets(next);
-    toast.success('Dashboard updated');
-  }
+  const { mode, toggleMode } = useTheme();
 
   return (
     <Card>
       <CardHeader>
         <CardTitle>Appearance</CardTitle>
         <CardDescription>
-          Palette, colour mode, and which blocks appear on the admin home.
-          Saved in this browser, not on the server.
+          Light or dark. Saved in this browser, not on the server.
         </CardDescription>
       </CardHeader>
       <CardContent className="space-y-6">
-        {/*
-          * Palettes come from the app's own PALETTES list, NOT from
-          * useTheme().availableThemes.
-          *
-          * availableThemes reports the themes UIKit itself registers — for a
-          * Bloom app that is just "base". The six brand palettes are defined in
-          * styles/brand.css as `.theme-<slug>-*` classes, which UIKit has no
-          * way to enumerate. Reading availableThemes here showed a single
-          * "Base" button and no way to reach any real palette.
-          *
-          * PALETTES is also what the header picker uses, so the two controls
-          * now agree and either one updates the other.
-          */}
-        <div className="space-y-2">
-          <span className="text-sm font-medium">Palette</span>
-          <p className="text-xs text-muted-foreground">
-            Every colour in the app derives from one hue, so this recolours
-            components this page has never heard of.
-          </p>
-          <div className="flex flex-wrap gap-2 pt-1">
-            {PALETTES.map((p) => {
-              const active = theme === p.id;
-              return (
-                <button
-                  key={p.id}
-                  type="button"
-                  onClick={() => setTheme(p.id)}
-                  aria-pressed={active}
-                  className={[
-                    'flex cursor-pointer items-center gap-2 rounded-md border px-2.5 py-1.5 text-sm transition-colors',
-                    active
-                      ? 'border-primary bg-primary/10 font-medium text-foreground'
-                      : 'border-border text-muted-foreground hover:bg-accent hover:text-accent-foreground',
-                  ].join(' ')}
-                >
-                  <span
-                    aria-hidden
-                    className="size-3.5 shrink-0 rounded-full ring-1 ring-inset ring-black/10"
-                    style={{ background: p.swatch }}
-                  />
-                  {p.label}
-                  {active && <Check className="size-3.5" />}
-                </button>
-              );
-            })}
-          </div>
-        </div>
-
         {/* Mode — an explicit button rather than a toggle, so the current
             state is readable without hovering. */}
         <div className="space-y-2">
@@ -322,50 +254,9 @@ function AppearanceCard() {
             </Button>
           </div>
         </div>
-
-        {/* Dashboard widgets — one Switch per known key. An empty selection
-            falls back to the default set on the dashboard itself. */}
-        <div className="space-y-2">
-          <span className="text-sm font-medium">Dashboard widgets</span>
-          <p className="text-xs text-muted-foreground">
-            Pick which blocks show on the admin home. Changes apply immediately.
-          </p>
-          <div className="space-y-3 pt-2">
-            {ALL_WIDGET_KEYS.map((key) => (
-              <div
-                key={key}
-                className="flex items-center justify-between border-b border-border pb-3 last:border-b-0 last:pb-0"
-              >
-                <div>
-                  <p className="text-sm font-medium capitalize">{key}</p>
-                  <p className="text-xs text-muted-foreground">
-                    {describeWidget(key)}
-                  </p>
-                </div>
-                <Switch
-                  checked={widgets.includes(key)}
-                  onCheckedChange={() => toggleWidget(key)}
-                />
-              </div>
-            ))}
-          </div>
-        </div>
       </CardContent>
     </Card>
   );
-}
-
-function describeWidget(key: WidgetKey): string {
-  switch (key) {
-    case 'users':
-      return 'Active user count + breakdown by role';
-    case 'signups':
-      return '30-day signup count + daily area chart';
-    case 'activity':
-      return 'Most recent audit events';
-    default:
-      return '';
-  }
 }
 
 /* -------------------------------------------------------------------------- */

@@ -23,8 +23,8 @@ router.get('/me', error.asyncRoute(async (req, res) => {
 router.use(auth.requireUserRoles(['admin.system']));
 
 router.get('/', error.asyncRoute(async (req, res) => {
-  const { appRole, status, q } = req.query as Record<string, string | undefined>;
-  res.json(await peopleService.list({ appRole, status, q }));
+  const { kind, status, q } = req.query as Record<string, string | undefined>;
+  res.json(await peopleService.list({ kind, status, q }));
 }));
 
 router.post('/', error.asyncRoute(async (req, res) => {
