@@ -90,19 +90,24 @@ export function toOutcome(questions: Question[], parsed: z.infer<typeof Marking>
   return { results, score, max, summary };
 }
 
-export async function markWithClaude(input: { questions: Question[]; pageKeys: string[]; paperTitle: string }): Promise<MarkingOutcome> {
-  const { questions, pageKeys, paperTitle } = input;
-  if (!pageKeys.length) throw new MarkerError('There are no answer pages to mark.');
+export type PageImage = { bytes: Buffer; type: 'image/jpeg' | 'image/png' | 'image/webp' | 'image/gif' };
+export type Usage = { input_tokens: number; output_tokens: number };
 
-  // Read the pages and check each one can go to the model.
-  const pages = [];
-  for (const [i, key] of pageKeys.entries()) {
-    const { data, type } = await readPage(key);
-    const bytes = Buffer.isBuffer(data) ? data : Buffer.from(data as Uint8Array);
-    if (!IMAGE_TYPES.has(type)) throw new MarkerError(`Page ${i + 1} is in a format that cannot be read (${type.replace('image/', '').toUpperCase()}). Add it again as a JPEG or PNG photo.`);
-    if (bytes.length > MAX_IMAGE_BYTES) throw new MarkerError(`Page ${i + 1} is too large to read (${(bytes.length / 1048576).toFixed(1)} MB). Add it again as a smaller photo.`);
-    pages.push({ bytes, type: type as 'image/jpeg' | 'image/png' | 'image/webp' | 'image/gif' });
-  }
+/** Check one page can go to the model; `label` names it in the message. */
+function checkPage(bytes: Buffer, type: string, label: string): PageImage {
+  if (!IMAGE_TYPES.has(type)) throw new MarkerError(`${label} is in a format that cannot be read (${type.replace('image/', '').toUpperCase()}). Add it again as a JPEG or PNG photo.`);
+  if (bytes.length > MAX_IMAGE_BYTES) throw new MarkerError(`${label} is too large to read (${(bytes.length / 1048576).toFixed(1)} MB). Add it again as a smaller photo.`);
+  return { bytes, type: type as PageImage['type'] };
+}
+
+/**
+ * Mark photos of answer pages. Used by the marking job (pages from storage) and
+ * by the accuracy check (pages from a folder). Returns the marks and the tokens
+ * the call used, so a run can be costed.
+ */
+export async function markPages(input: { questions: Question[]; pages: PageImage[]; paperTitle: string; model?: string }): Promise<{ outcome: MarkingOutcome; usage: Usage }> {
+  const { questions, pages, paperTitle } = input;
+  if (!pages.length) throw new MarkerError('There are no answer pages to mark.');
 
   const content: Anthropic.ContentBlockParam[] = [
     { type: 'text', text: `Paper: ${paperTitle}\n\nQUESTIONS AND MARKING SCHEMES\n\n${questionBlock(questions)}\n\nThe student's answer pages follow (${pages.length}).` },
@@ -116,7 +121,7 @@ export async function markWithClaude(input: { questions: Question[]; pageKeys: s
   let response;
   try {
     response = await client.messages.parse({
-      model: MODEL(),
+      model: input.model || MODEL(),
       max_tokens: 16000,
       system: SYSTEM,
       // Marking is judged work, so think it through; the model's default effort is a notch lower.
@@ -135,5 +140,17 @@ export async function markWithClaude(input: { questions: Question[]; pageKeys: s
   if (response.stop_reason === 'refusal') throw new MarkerError('The marker declined to mark these pages. Please ask your teacher to mark them.');
   if (response.stop_reason === 'max_tokens') throw new MarkerError('The marker ran out of room for this paper. Please try again, or split a very long paper.');
   if (!response.parsed_output) throw new MarkerError('The marker did not return usable marks. Please try again.');
-  return toOutcome(questions, response.parsed_output);
+  return { outcome: toOutcome(questions, response.parsed_output), usage: { input_tokens: response.usage.input_tokens, output_tokens: response.usage.output_tokens } };
 }
+
+/** The marking job's entry point: the pages are read from storage by key. */
+export async function markWithClaude(input: { questions: Question[]; pageKeys: string[]; paperTitle: string }): Promise<MarkingOutcome> {
+  const pages: PageImage[] = [];
+  for (const [i, key] of input.pageKeys.entries()) {
+    const { data, type } = await readPage(key);
+    pages.push(checkPage(Buffer.isBuffer(data) ? data : Buffer.from(data as Uint8Array), type, `Page ${i + 1}`));
+  }
+  return (await markPages({ questions: input.questions, pages, paperTitle: input.paperTitle })).outcome;
+}
+
+export { checkPage };

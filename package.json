@@ -35,7 +35,8 @@
     "db:seed:qc": "tsx prisma/seeding/qc.seed.ts",
     "db:seed:library": "tsx prisma/seeding/library.seed.ts",
     "db:seed:topics": "tsx prisma/seeding/topics.seed.ts",
-    "db:import:ai": "tsx prisma/seeding/ai-questions.import.ts"
+    "db:import:ai": "tsx prisma/seeding/ai-questions.import.ts",
+    "eval:marking": "tsx scripts/marking-eval.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.3.0",

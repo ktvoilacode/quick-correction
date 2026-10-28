@@ -33,6 +33,10 @@ paper re-runs the marker and replaces any edits.
 The marker reads JPEG, PNG and WebP up to 5 MB per page. The web app shrinks photos to 2000 px on
 the long side before upload; HEIC is not accepted by the API (phones convert to JPEG on upload).
 
+## Checking accuracy
+
+See `evals/marking/README.md` for how to compare the marker with your own marks on real answer sheets.
+
 ## Privacy
 
 Answer photos and question text are sent to the Anthropic API to be marked. Tell parents and
