@@ -1,11 +1,10 @@
 /**
  * Marking — turns a submission's answer pages into question-wise marks.
  *
- * The AI marker is not connected yet. `markAnswerPages` is the one seam it
- * plugs into: it receives the paper's questions and the stored page images
- * and must return results in this shape. Until then a PLACEHOLDER marker
- * returns plausible marks and says so in the summary, so nobody mistakes
- * them for a real correction.
+ * With ANTHROPIC_API_KEY set, pages are marked by Claude (ai-marker.ts) against
+ * each question's answer key. Without it, `markAnswerPages` is a PLACEHOLDER that
+ * returns plausible marks and says so in the summary, so nobody mistakes them for
+ * a real correction.
  *
  * Jobs run on the appkit queue (memory transport in dev, Redis when
  * REDIS_URL is set), so an upload returns straight away and the marks land
@@ -16,11 +15,13 @@ import { databaseClass } from '@bloomneo/appkit/database';
 import { queueClass } from '@bloomneo/appkit/queue';
 import { loggerClass } from '@bloomneo/appkit/logger';
 import { questionsByIds, type Question, type LayoutSection } from './questions.js';
+import { aiMarkerEnabled, markWithClaude, MarkerError } from './ai-marker.js';
 
 const logger = loggerClass.get('marking');
 const JOB = 'qc-mark-submission';
 
-export type QuestionResult = { questionId: string; awarded: number; max: number; feedback: string };
+/** `legible: false` means the marker could not read the answer well; the teacher should look at it first. */
+export type QuestionResult = { questionId: string; awarded: number; max: number; feedback: string; legible?: boolean };
 export type MarkingOutcome = { results: QuestionResult[]; score: number; max: number; summary: string };
 
 const GOOD = ['Correct method and answer.', 'Well presented with all steps.'];
@@ -59,14 +60,19 @@ async function runJob({ submissionId }: { submissionId: string }) {
   if (!sub || sub.status !== 'evaluating') return;
   try {
     const questions = await questionsByIds(sub.paper.questionIds as string[], { layout: sub.paper.layout as LayoutSection[] | null, withAnswers: true });
-    const out = await markAnswerPages(questions, sub.pages as string[], sub.id);
+    // The real marker when an API key is set; otherwise the placeholder, which says so in its summary.
+    const out = aiMarkerEnabled()
+      ? await markWithClaude({ questions, pageKeys: sub.pages as string[], paperTitle: sub.paper.title })
+      : await markAnswerPages(questions, sub.pages as string[], sub.id);
     await db.submission.update({
       where: { id: sub.id },
       data: { status: 'evaluated', results: out.results, score: out.score, max: out.max, summary: out.summary, reviewed: false },
     });
     logger.info('Submission marked', { submissionId, score: out.score, max: out.max });
   } catch (err: any) {
-    await db.submission.update({ where: { id: sub.id }, data: { status: 'failed' } });
+    // Keep the reason where the teacher can see it; a bad photo or a busy service is something they can act on.
+    const why = err instanceof MarkerError ? err.message : 'Something went wrong while marking. Please try again.';
+    await db.submission.update({ where: { id: sub.id }, data: { status: 'failed', summary: `Marking did not finish: ${why}` } });
     logger.error('Marking failed', { submissionId, error: err?.message });
     throw err;
   }

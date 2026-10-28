@@ -32,7 +32,7 @@ export type Student = {
   parentLinked: boolean; average: number | null; pending: number;
 };
 
-export type QuestionResult = { questionId: string; awarded: number; max: number; feedback: string };
+export type QuestionResult = { questionId: string; awarded: number; max: number; feedback: string; legible?: boolean };
 export type SubmissionDetail = {
   id: string; status: SubmissionStatus; dueDate: string; submittedAt: string | null;
   pages: string[]; results: QuestionResult[] | null; score: number | null; max: number | null;

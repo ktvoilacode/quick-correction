@@ -247,6 +247,25 @@ export const tutorService = {
     return { ok: true, status: 'evaluating' };
   },
 
+  /** Run the marker again: a failed submission, or marks the teacher does not trust. Edits made since are replaced. */
+  async remark(teacherId: string, id: string) {
+    const db = await databaseClass.get();
+    const sub = await this.getSubmission(teacherId, id);
+    if (!(sub.pages as string[]).length) throw error.badRequest('There are no answer pages to mark');
+    const { count } = await db.submission.updateMany({
+      where: { id: sub.id, status: { in: ['failed', 'evaluated'] } },
+      data: { status: 'evaluating', reviewed: false, summary: null },
+    });
+    if (!count) throw error.badRequest('Only a marked or failed paper can be marked again');
+    try {
+      await queueMarking(sub.id);
+    } catch (err) {
+      await db.submission.update({ where: { id: sub.id }, data: { status: sub.status, reviewed: sub.reviewed, summary: sub.summary } });
+      throw err;
+    }
+    return { ok: true, status: 'evaluating' };
+  },
+
   async deletePaper(teacherId: string, id: string) {
     const db = await databaseClass.get();
     const { count } = await db.paper.deleteMany({ where: { id, teacherId } });

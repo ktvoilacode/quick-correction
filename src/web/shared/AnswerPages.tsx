@@ -8,6 +8,28 @@ import { Loader2 } from 'lucide-react';
 import { fetchBlob } from './api';
 import type { ApiRoute } from './api-routes';
 
+/**
+ * Shrink a phone photo before it is sent: the marker reads images up to 5 MB,
+ * and a 12-megapixel photo can be bigger than that. Long side 2000 px keeps
+ * handwriting readable. If the browser cannot decode the file (HEIC outside
+ * Safari, say) it is sent as it is and the server says if it cannot be read.
+ */
+export async function prepareImage(file: Blob, longSide = 2000): Promise<Blob> {
+  try {
+    const bitmap = await createImageBitmap(file);
+    const scale = Math.min(1, longSide / Math.max(bitmap.width, bitmap.height));
+    if (scale === 1 && file.size < 1_500_000 && /^image\/(jpeg|png|webp)$/.test(file.type)) return file;
+    const c = document.createElement('canvas');
+    c.width = Math.round(bitmap.width * scale);
+    c.height = Math.round(bitmap.height * scale);
+    c.getContext('2d')!.drawImage(bitmap, 0, 0, c.width, c.height);
+    bitmap.close();
+    return await new Promise<Blob>((resolve) => c.toBlob((b) => resolve(b ?? file), 'image/jpeg', 0.85));
+  } catch {
+    return file;
+  }
+}
+
 /** A plain page of lined paper with a title, so a test needs no real photo. */
 export function samplePage(): Promise<Blob> {
   const c = document.createElement('canvas');

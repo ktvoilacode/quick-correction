@@ -92,6 +92,10 @@ router.post('/submissions/:id/submit', error.asyncRoute(async (req: any, res) =>
   res.json(await tutorService.submit(userIdOf(req), req.params.id));
 }));
 
+router.post('/submissions/:id/remark', error.asyncRoute(async (req: any, res) => {
+  res.json(await tutorService.remark(userIdOf(req), req.params.id));
+}));
+
 router.post('/submissions/:id/approve', error.asyncRoute(async (req: any, res) => {
   res.json(await tutorService.approve(userIdOf(req), req.params.id));
 }));

@@ -12,7 +12,7 @@ import { ArrowLeft, Camera, ImagePlus, Send, Loader2, AlertTriangle, Info, Print
 import { SEO } from '@/shared/SEO';
 import { api, sendFile } from '@/shared/api';
 import { MathText } from '@/shared/MathText';
-import { PageThumb, samplePage } from '@/shared/AnswerPages';
+import { PageThumb, samplePage, prepareImage } from '@/shared/AnswerPages';
 import { useLoad, fmtDate } from '@/shared/useLoad';
 import { PaperSheet } from '@/features/teacher/components/PaperSheet';
 import type { SubDetail } from '../../lib/types';
@@ -37,7 +37,7 @@ export default function ParentPaperPage() {
     catch (err) { toast.error(err instanceof Error ? err.message : 'Something went wrong.'); }
     finally { setBusy(null); }
   }
-  const upload = (files: Blob[]) => run('upload', async () => { for (const f of files) await sendFile(`/api/parent/submissions/${id}/pages`, f); });
+  const upload = (files: Blob[]) => run('upload', async () => { for (const f of files) await sendFile(`/api/parent/submissions/${id}/pages`, await prepareImage(f)); });
 
   if (loading) return <div className="grid place-items-center py-20"><Loader2 className="size-5 animate-spin text-muted-foreground" aria-label="Loading" /></div>;
   if (error || !data) return <Alert variant="destructive"><AlertTriangle className="size-4" /><AlertDescription>{error ?? 'Not found.'}</AlertDescription></Alert>;

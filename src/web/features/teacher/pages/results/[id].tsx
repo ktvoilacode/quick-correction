@@ -7,17 +7,18 @@
  */
 import * as React from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { Button, Input, Badge, Alert, AlertDescription, AlertTitle, toast } from '@bloomneo/uikit';
-import { ArrowLeft, Camera, ImagePlus, Send, Loader2, AlertTriangle, CheckCircle2, ChevronDown, Info } from 'lucide-react';
+import { Button, Input, Badge, Alert, AlertDescription, AlertTitle, toast, useConfirm } from '@bloomneo/uikit';
+import { ArrowLeft, Camera, ImagePlus, Send, Loader2, AlertTriangle, CheckCircle2, ChevronDown, Info, RotateCw } from 'lucide-react';
 import { SEO } from '@/shared/SEO';
 import { api, sendFile } from '@/shared/api';
 import { MathText } from '@/shared/MathText';
-import { PageThumb, samplePage } from '@/shared/AnswerPages';
+import { PageThumb, samplePage, prepareImage } from '@/shared/AnswerPages';
 import { useLoad, fmtDate } from '../../lib/useLoad';
 import type { SubmissionDetail, QuestionResult } from '../../lib/types';
 
 export default function ResultPage() {
   const { id = '' } = useParams();
+  const confirm = useConfirm();
   const { data, error, loading, reload } = useLoad(async () => (await api.get<{ submission: SubmissionDetail }>(`/api/tutor/submissions/${id}`)).submission, [id]);
   const [busy, setBusy] = React.useState<string | null>(null);
   const [edits, setEdits] = React.useState<Record<string, { awarded: number; feedback: string }>>({});
@@ -43,7 +44,7 @@ export default function ResultPage() {
   }
 
   async function upload(files: Blob[]) {
-    await run('upload', async () => { for (const f of files) await sendFile(`/api/tutor/submissions/${id}/pages`, f); });
+    await run('upload', async () => { for (const f of files) await sendFile(`/api/tutor/submissions/${id}/pages`, await prepareImage(f)); });
   }
 
   if (loading) return <div className="grid place-items-center py-20"><Loader2 className="size-5 animate-spin text-muted-foreground" aria-label="Loading" /></div>;
@@ -101,7 +102,16 @@ export default function ResultPage() {
       )}
 
       {data.status === 'failed' && (
-        <Alert variant="destructive"><AlertTriangle className="size-4" /><AlertTitle>Marking failed</AlertTitle><AlertDescription>The marks could not be worked out. Try another paper or add the pages again.</AlertDescription></Alert>
+        <Alert variant="destructive">
+          <AlertTriangle className="size-4" />
+          <AlertTitle>Marking failed</AlertTitle>
+          <AlertDescription>
+            <p>{data.summary?.replace(/^Marking did not finish:\s*/, '') || 'The marks could not be worked out.'}</p>
+            <Button className="mt-3" variant="outline" size="sm" disabled={!!busy} onClick={() => run('remark', () => api.post(`/api/tutor/submissions/${id}/remark`, {}), 'Marking again')}>
+              {busy === 'remark' ? <Loader2 className="size-4 animate-spin" /> : <RotateCw className="size-4" />} Try again
+            </Button>
+          </AlertDescription>
+        </Alert>
       )}
 
       {data.status === 'evaluated' && (
@@ -124,6 +134,12 @@ export default function ResultPage() {
                   {busy === 'save' && <Loader2 className="size-4 animate-spin" />} Save changes
                 </Button>
               )}
+              {!dirty && (
+                <Button variant="ghost" disabled={!!busy} title="Run the marker again; changes you made are replaced"
+                  onClick={async () => { if (await confirm({ title: 'Mark this paper again?', description: 'The marker runs again and replaces the marks and any changes you made.', confirmLabel: 'Mark again' })) await run('remark', () => api.post(`/api/tutor/submissions/${id}/remark`, {}), 'Marking again'); }}>
+                  {busy === 'remark' ? <Loader2 className="size-4 animate-spin" /> : <RotateCw className="size-4" />} Mark again
+                </Button>
+              )}
               {!data.reviewed && !dirty && (
                 <Button disabled={!!busy} onClick={() => run('approve', () => api.post(`/api/tutor/submissions/${id}/approve`, {}), 'Marks approved')}>
                   {busy === 'approve' ? <Loader2 className="size-4 animate-spin" /> : <CheckCircle2 className="size-4" />} Approve marks
@@ -143,7 +159,10 @@ export default function ResultPage() {
                     <button type="button" className="flex min-w-0 flex-1 items-center gap-2 text-left" aria-expanded={expanded} onClick={() => setOpen(expanded ? null : r.questionId)}>
                       <span className="min-w-0 flex-1">
                         <span className="line-clamp-2 text-sm">{q ? <MathText text={q.text} /> : r.questionId}</span>
-                        <span className="block text-xs text-muted-foreground">{q?.section}{q?.chapter ? ` · ${q.chapter}` : ''}</span>
+                        <span className="block text-xs text-muted-foreground">
+                          {q?.section}{q?.chapter ? ` · ${q.chapter}` : ''}
+                          {r.legible === false && <Badge variant="outline" className="ml-2 border-amber-500/50 text-amber-600">Hard to read</Badge>}
+                        </span>
                       </span>
                       <ChevronDown className={`size-4 shrink-0 text-muted-foreground transition ${expanded ? 'rotate-180' : ''}`} aria-hidden />
                     </button>
