@@ -104,8 +104,8 @@ export default function AdminOverview() {
   const attention: Attention[] = [
     teachers.pending > 0 && { key: 'pending', icon: UserCheck, text: `${plural(teachers.pending, 'teacher')} waiting for your approval`, to: '/admin/users?tab=pending' },
     sub.failed > 0 && { key: 'failed', icon: AlertTriangle, text: `${plural(sub.failed, 'answer sheet')} failed marking. The teacher can try again from the sheet.` },
-    q.flagged > 0 && { key: 'flagged', icon: Flag, text: `${plural(q.flagged, 'flagged question')} to look at`, to: '/admin/questions?review=flagged' },
-    q.draft > 0 && { key: 'draft', icon: Sparkles, text: `${plural(q.draft, 'question')} waiting for review before they go live`, to: '/admin/questions?review=draft' },
+    q.flagged > 0 && { key: 'flagged', icon: Flag, text: `${plural(q.flagged, 'flagged question')} to look at`, to: '/admin/content?tab=questions&review=flagged' },
+    q.draft > 0 && { key: 'draft', icon: Sparkles, text: `${plural(q.draft, 'question')} waiting for review before they go live`, to: '/admin/content?tab=questions&review=draft' },
   ].filter(Boolean) as Attention[];
 
   return (
@@ -153,7 +153,7 @@ export default function AdminOverview() {
           sub={papers.last7d ? `${papers.last7d} made this week` : 'none this week'} />
         <Kpi label="Marked" icon={ClipboardCheck} value={`${sub.evaluated}/${assignedAll}`}
           sub={sub.toCheck ? `${sub.toCheck} waiting for a teacher's check` : assignedAll ? 'all checked' : 'no papers set yet'} />
-        <Kpi label="Question bank" icon={FileQuestion} value={q.live} to="/admin/questions"
+        <Kpi label="Question bank" icon={FileQuestion} value={q.live} to="/admin/content?tab=questions"
           sub={q.draft || q.flagged ? `${q.draft} to review · ${q.flagged} flagged` : 'all reviewed'} />
       </section>
 

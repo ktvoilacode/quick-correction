@@ -45,17 +45,27 @@ function topicFields(data: TopicFields): TopicFields {
 }
 
 export const libraryService = {
-  /** The whole tree, nested. Small enough (hundreds of rows) to send in one go. */
+  /** The whole tree, nested. Small enough (hundreds of rows) to send in one go. Each node carries how many questions sit under it. */
   async tree() {
     const db = await databaseClass.get();
-    const rows: Row[] = await db.curriculumNode.findMany({
-      select: { id: true, kind: true, name: true, parentId: true, position: true, isActive: true, questionTypes: true, complexity: true, marks: true },
-      orderBy: [{ position: 'asc' }, { name: 'asc' }],
-    });
+    const [rows, counts]: [Row[], { topicId: string; _count: { _all: number } }[]] = await Promise.all([
+      db.curriculumNode.findMany({
+        select: { id: true, kind: true, name: true, parentId: true, position: true, isActive: true, questionTypes: true, complexity: true, marks: true },
+        orderBy: [{ position: 'asc' }, { name: 'asc' }],
+      }),
+      db.question.groupBy({ by: ['topicId'], _count: { _all: true } }),
+    ]);
+    const perTopic = new Map(counts.map((c) => [c.topicId, c._count._all]));
     const byParent = new Map<string | null, Row[]>();
     for (const r of rows) byParent.set(r.parentId, [...(byParent.get(r.parentId) ?? []), r]);
-    const build = (parentId: string | null): any[] =>
-      (byParent.get(parentId) ?? []).map((r) => ({ ...r, children: build(r.id) }));
+    type Node = Row & { questionCount: number; children: Node[] };
+    const build = (parentId: string | null): Node[] =>
+      (byParent.get(parentId) ?? []).map((r) => {
+        const children = build(r.id);
+        // Questions are tagged to topics; every level above shows the total beneath it.
+        const questionCount = r.kind === 'topic' ? perTopic.get(r.id) ?? 0 : children.reduce((n, c) => n + c.questionCount, 0);
+        return { ...r, questionCount, children };
+      });
     return { nodes: build(null) };
   },
 
