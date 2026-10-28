@@ -1,5 +1,5 @@
 /**
- * Skill library service — the board > class > subject > chapter > topic tree.
+ * Categories service — the board > class > subject > chapter > topic tree.
  * @file src/api/features/library/library.service.ts
  *
  * Runs after the route has checked the caller is an admin.

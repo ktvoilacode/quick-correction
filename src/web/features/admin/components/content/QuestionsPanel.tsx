@@ -1,7 +1,7 @@
 /**
  * Question bank — `/admin/questions`.
  *
- * Every question is tagged to a topic of the skill library, with a type,
+ * Every question is tagged to a topic of the categories, with a type,
  * complexity and marks. The paper generator fills a pattern's sections from
  * here. Data comes from `/api/questions`; topics from `/api/library`.
  */
@@ -169,7 +169,7 @@ export function QuestionsPanel() {
   return (
     <>
       <PanelTop
-        description={`${total} question${total === 1 ? '' : 's'}, each tagged to a topic in the skill library.`}
+        description={`${total} question${total === 1 ? '' : 's'}, each tagged to a topic in Categories.`}
         actions={<Button onClick={() => { setFormError(null); setForm(blank(topics[0]?.id)); }} disabled={topics.length === 0}><Plus className="size-4" /> Add question</Button>}
       />
 

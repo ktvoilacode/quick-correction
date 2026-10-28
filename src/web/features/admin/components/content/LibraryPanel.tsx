@@ -1,5 +1,5 @@
 /**
- * Skill library — `/admin/library`.
+ * Categories — `/admin/library`.
  *
  * The curriculum papers are built from: board > class > subject > chapter >
  * topic. The admin adds, renames, hides and removes nodes; teachers will pick

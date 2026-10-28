@@ -2,7 +2,7 @@
  * Question bank service — admin CRUD over the `questions` table.
  * @file src/api/features/questions/questions.service.ts
  *
- * Every question is tagged to a topic of the skill library. A question that a
+ * Every question is tagged to a topic of the categories. A question that a
  * paper already uses is hidden rather than deleted, so old papers keep their
  * text. Runs after the route has checked the caller is an admin.
  */
@@ -38,7 +38,7 @@ async function clean(db: any, data: Input, partial: boolean) {
   const out: Record<string, unknown> = {};
   if (!partial || data.topicId !== undefined) {
     const topic = data.topicId ? await db.curriculumNode.findUnique({ where: { id: data.topicId } }) : null;
-    if (topic?.kind !== 'topic') throw error.badRequest('Tag the question to a topic from the skill library');
+    if (topic?.kind !== 'topic') throw error.badRequest('Tag the question to a topic from Categories');
     out.topicId = topic.id;
   }
   if (!partial || data.type !== undefined) {

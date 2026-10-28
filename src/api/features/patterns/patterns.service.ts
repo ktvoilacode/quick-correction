@@ -58,7 +58,7 @@ export const patternsService = {
     const name = String(data?.name ?? '').trim();
     if (!name) throw error.badRequest('Name is required');
     const subject = data?.subjectId ? await db.curriculumNode.findUnique({ where: { id: data.subjectId } }) : null;
-    if (subject?.kind !== 'subject') throw error.badRequest('Pick a subject from the skill library');
+    if (subject?.kind !== 'subject') throw error.badRequest('Pick a subject from Categories');
     const durationMins = Number(data?.durationMins);
     if (!Number.isInteger(durationMins) || durationMins < 5 || durationMins > 600) throw error.badRequest('Duration must be between 5 and 600 minutes');
     const sections = cleanSections(data?.sections);

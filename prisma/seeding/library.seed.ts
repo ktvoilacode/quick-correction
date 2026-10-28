@@ -1,5 +1,5 @@
 /**
- * Skill library starter: CBSE > Class 10 > Mathematics (Standard) with its
+ * Categories starter: CBSE > Class 10 > Mathematics (Standard) with its
  * thirteen chapters, a "General" topic in each, the board and unit-test paper
  * patterns, and the starter question bank tagged to those topics.
  * Safe to re-run: it only adds what is missing.
@@ -55,7 +55,7 @@ export async function seedLibrary(db: any) {
 async function main() {
   const db = await databaseClass.get();
   await seedLibrary(db);
-  console.log('✅ Skill library ready (CBSE › Class 10 › Mathematics (Standard)): chapters, patterns and questions.');
+  console.log('✅ Categories ready (CBSE › Class 10 › Mathematics (Standard)): chapters, patterns and questions.');
 }
 
 if (process.argv[1]?.endsWith('library.seed.ts')) {

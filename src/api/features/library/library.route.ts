@@ -1,5 +1,5 @@
 /**
- * Skill library routes — /api/library. Admin only.
+ * Categories routes — /api/library. Admin only.
  * @file src/api/features/library/library.route.ts
  */
 import express from 'express';

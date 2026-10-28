@@ -1,6 +1,6 @@
 /**
  * Questions as papers see them: read from the `questions` table, tagged with
- * the chapter and topic they belong to in the skill library.
+ * the chapter and topic they belong to in Categories.
  */
 import { databaseClass } from '@bloomneo/appkit/database';
 

@@ -168,7 +168,7 @@ model Submission {
   @@map("submissions")
 }
 
-// Skill library: the curriculum the admin maintains and papers are built from.
+// Categories: the curriculum the admin maintains and papers are built from.
 // One tree, five fixed levels: board > class > subject > chapter > topic. A
 // node's `kind` says which level it is; `parentId` is the level above (null
 // for a board).
@@ -199,7 +199,7 @@ model CurriculumNode {
 
 // How a paper is laid out for a subject: sections, marks per question, time.
 // `sections` is [{ title, type, count, marksEach, note }] in paper order.
-// Linked to a subject node of the skill library; the generator will read it
+// Linked to a subject node of the categories; the generator will read it
 // in place of the hard-coded board/unit templates.
 model PaperPattern {
   id           String         @id @default(cuid())
@@ -219,7 +219,7 @@ model PaperPattern {
   @@map("paper_patterns")
 }
 
-// The question bank: each question is tagged to a topic of the skill library.
+// The question bank: each question is tagged to a topic of the categories.
 // Papers keep question ids, so a question that has been used is hidden, not
 // deleted. `answer` is the marking scheme and never leaves the admin and
 // marking code.

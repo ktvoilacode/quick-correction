@@ -29,7 +29,7 @@ const pct = (s: { score: number | null; max: number | null }) => (s.max ? Math.r
 
 export const tutorService = {
   /**
-   * What a teacher can build a paper from: every subject in the skill library
+   * What a teacher can build a paper from: every subject in the categories
    * with its active paper patterns and chapters.
    */
   async setup() {

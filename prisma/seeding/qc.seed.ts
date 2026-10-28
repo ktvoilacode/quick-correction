@@ -46,7 +46,7 @@ async function main() {
     }));
   }
 
-  // Papers come from the generator, so the skill library and patterns must exist.
+  // Papers come from the generator, so the categories and patterns must exist.
   await seedLibrary(db);
   const patternId = async (name: string) => (await db.paperPattern.findFirstOrThrow({ where: { name } })).id;
   const chapterId = async (name: string) => (await db.curriculumNode.findFirstOrThrow({ where: { kind: 'chapter', name } })).id;

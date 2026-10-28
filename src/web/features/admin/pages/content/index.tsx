@@ -2,7 +2,7 @@
  * Content — `/admin/content`. The curriculum, the paper layouts and the
  * questions they are built from, in one place with a tab each:
  *
- *   Skill library  board > class > subject > chapter > topic
+ *   Categories  board > class > subject > chapter > topic
  *   Paper patterns sections, question types and marks per subject
  *   Question bank  every question, tagged to a topic
  *
@@ -17,7 +17,7 @@ import { PatternsPanel } from '../../components/content/PatternsPanel';
 import { QuestionsPanel } from '../../components/content/QuestionsPanel';
 
 const TABS = [
-  { id: 'library', label: 'Skill library' },
+  { id: 'library', label: 'Categories' },
   { id: 'patterns', label: 'Paper patterns' },
   { id: 'questions', label: 'Question bank' },
 ] as const;

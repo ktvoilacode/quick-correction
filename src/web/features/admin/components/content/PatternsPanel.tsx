@@ -1,7 +1,7 @@
 /**
  * Paper patterns — `/admin/patterns`.
  *
- * How a paper is laid out for a subject in the skill library: sections, the
+ * How a paper is laid out for a subject in the categories: sections, the
  * question type, how many questions and marks each. Data comes from
  * `/api/patterns`; subjects come from `/api/library`.
  */
@@ -111,7 +111,7 @@ export function PatternsPanel() {
   return (
     <>
       <PanelTop
-        description="Sections, question types and marks for each subject in the skill library."
+        description="Sections, question types and marks for each subject in Categories."
         actions={
           <Button onClick={() => { setFormError(null); setForm(blank(subjects[0]?.id)); }} disabled={subjects.length === 0}>
             <Plus className="size-4" /> Add pattern
@@ -126,7 +126,7 @@ export function PatternsPanel() {
       ) : patterns.length === 0 ? (
         <div className="flex flex-col items-center gap-2 py-16 text-center text-muted-foreground">
           <ClipboardList className="size-8" aria-hidden />
-          <p>{subjects.length ? 'No patterns yet. Add one for a subject.' : 'Add a subject in the Skill library first, then come back to add a pattern.'}</p>
+          <p>{subjects.length ? 'No patterns yet. Add one for a subject.' : 'Add a subject in Categories first, then come back to add a pattern.'}</p>
         </div>
       ) : (
         <div className="grid gap-4 lg:grid-cols-2">
