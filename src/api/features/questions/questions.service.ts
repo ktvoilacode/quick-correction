@@ -89,10 +89,18 @@ async function usedQuestionIds(db: any): Promise<Set<string>> {
 }
 
 export const questionsService = {
-  async list(f: { topicId?: string; chapterId?: string; type?: string; complexity?: string; status?: string; review?: string; q?: string; page?: number }) {
+  async list(f: { nodeId?: string; topicId?: string; chapterId?: string; type?: string; complexity?: string; status?: string; review?: string; q?: string; page?: number }) {
     const db = await databaseClass.get();
     const where: any = {};
-    if (f.topicId) where.topicId = f.topicId;
+    if (f.nodeId) {
+      // Any level of the tree: the node itself and everything beneath it.
+      const nodes = await db.curriculumNode.findMany({ select: { id: true, parentId: true } });
+      const kids = new Map<string, string[]>();
+      for (const n of nodes as { id: string; parentId: string | null }[]) if (n.parentId) kids.set(n.parentId, [...(kids.get(n.parentId) ?? []), n.id]);
+      const ids: string[] = [];
+      for (let stack = [f.nodeId]; stack.length;) { const id = stack.pop()!; ids.push(id); stack.push(...(kids.get(id) ?? [])); }
+      where.topicId = { in: ids };
+    } else if (f.topicId) where.topicId = f.topicId;
     else if (f.chapterId) where.topic = { parentId: f.chapterId };
     if (f.type && TYPES.includes(f.type)) where.type = f.type;
     if (f.complexity && COMPLEXITIES.includes(f.complexity)) where.complexity = f.complexity;
@@ -102,11 +110,12 @@ export const questionsService = {
     if (f.q?.trim()) where.text = { contains: f.q.trim() };
     const page = Math.max(1, Math.floor(f.page ?? 1));
 
+    const { reviewStatus: _tab, ...scope } = where;
     const [total, rows, used, reviewCounts] = await Promise.all([
       db.question.count({ where }),
       db.question.findMany({ where, orderBy: [{ createdAt: 'desc' }, { id: 'asc' }], skip: (page - 1) * PAGE, take: PAGE }),
       usedQuestionIds(db),
-      db.question.groupBy({ by: ['reviewStatus'], _count: { _all: true } }),
+      db.question.groupBy({ by: ['reviewStatus'], where: scope, _count: { _all: true } }),
     ]);
     const counts = Object.fromEntries(REVIEW.map((s) => [s, 0]));
     for (const c of reviewCounts as { reviewStatus: string; _count: { _all: number } }[]) counts[c.reviewStatus] = c._count._all;

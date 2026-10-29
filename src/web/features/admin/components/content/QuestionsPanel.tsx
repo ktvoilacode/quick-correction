@@ -14,7 +14,7 @@ import {
   Select, SelectContent, SelectItem, SelectTrigger, SelectValue,
   Alert, AlertDescription, AlertTitle, toast, useConfirm,
 } from '@bloomneo/uikit';
-import { Plus, Pencil, Trash2, Eye, EyeOff, Search, Loader2, AlertTriangle, FileQuestion, ChevronLeft, ChevronRight, Check, X, Sparkles } from 'lucide-react';
+import { Plus, Pencil, Trash2, Eye, EyeOff, Search, Loader2, AlertTriangle, FileQuestion, ChevronLeft, ChevronRight, ChevronDown, Check, X, Sparkles, FolderTree } from 'lucide-react';
 import { api } from '@/shared/api';
 import { MathText } from '@/shared/MathText';
 import { PanelTop } from './PanelTop';
@@ -29,7 +29,7 @@ type Question = {
   source: 'seed' | 'ai' | 'manual'; reviewStatus: Review; reviewNote: string | null;
 };
 type Counts = Record<Review, number>;
-type LibNode = { id: string; kind: string; name: string; children: LibNode[] };
+type LibNode = { id: string; kind: string; name: string; questionCount?: number; children: LibNode[] };
 type Choice = { id: string; label: string; chapterId: string };
 
 const TYPE_LABEL: Record<QType, string> = { mcq: 'Multiple choice', short: 'Short answer', long: 'Long answer', case: 'Case study' };
@@ -53,6 +53,63 @@ function flatten(nodes: LibNode[], trail: string[] = [], chapterId = ''): { topi
   return { topics, chapters };
 }
 
+/** A small row of exclusive choices, in place of a dropdown. */
+function ChipGroup({ label, value, onChange, options }: { label: string; value: string; onChange: (v: string) => void; options: [string, string][] }) {
+  return (
+    <div className="flex flex-wrap items-center gap-1.5" role="group" aria-label={label}>
+      <span className="text-xs text-muted-foreground">{label}</span>
+      {options.map(([id, name]) => (
+        <Button key={id} size="sm" className="h-7 px-2.5 text-xs" variant={value === id ? 'secondary' : 'ghost'} aria-pressed={value === id} onClick={() => onChange(id)}>{name}</Button>
+      ))}
+    </div>
+  );
+}
+
+/** Every node's path from the board down, and its parent, so a selection can show where it sits. */
+function indexTree(nodes: LibNode[]): Map<string, { node: LibNode; path: string[]; parent: string | null }> {
+  const m = new Map<string, { node: LibNode; path: string[]; parent: string | null }>();
+  const walk = (list: LibNode[], path: string[], parent: string | null) => {
+    for (const n of list) { const here = [...path, n.name]; m.set(n.id, { node: n, path: here, parent }); walk(n.children, here, n.id); }
+  };
+  walk(nodes, [], null);
+  return m;
+}
+
+/** The side tree: pick any board, class, subject, chapter or topic to see just its questions. */
+function CategoryTree({ nodes, selected, open, onToggle, onPick, total }: {
+  nodes: LibNode[]; selected: string; open: Set<string>; onToggle: (id: string) => void; onPick: (id: string) => void; total: number;
+}) {
+  const row = (n: LibNode, depth: number): React.ReactNode => {
+    const expandable = n.children.length > 0;
+    const isOpen = open.has(n.id);
+    const on = selected === n.id;
+    return (
+      <li key={n.id}>
+        <div className={`flex items-center gap-0.5 rounded-md ${on ? 'bg-primary/10 text-primary' : 'hover:bg-muted'}`} style={{ paddingLeft: depth * 12 }}>
+          {expandable
+            ? <button type="button" className="grid size-7 shrink-0 place-items-center text-muted-foreground" aria-label={`${isOpen ? 'Collapse' : 'Expand'} ${n.name}`} aria-expanded={isOpen} onClick={() => onToggle(n.id)}>
+                {isOpen ? <ChevronDown className="size-4" /> : <ChevronRight className="size-4" />}
+              </button>
+            : <span className="size-7 shrink-0" aria-hidden />}
+          <button type="button" className={`flex min-w-0 flex-1 items-start justify-between gap-2 py-1.5 pr-2 text-left text-sm ${on ? 'font-medium' : ''}`} aria-current={on ? 'true' : undefined} onClick={() => onPick(n.id)}>
+            <span className="line-clamp-2 break-words">{n.name}</span>
+            <span className="shrink-0 text-xs tabular-nums text-muted-foreground">{n.questionCount ?? 0}</span>
+          </button>
+        </div>
+        {expandable && isOpen && <ul>{n.children.map((c) => row(c, depth + 1))}</ul>}
+      </li>
+    );
+  };
+  return (
+    <nav aria-label="Categories">
+      <button type="button" className={`mb-1 flex w-full items-center justify-between gap-2 rounded-md px-2 py-1.5 text-left text-sm ${selected === '' ? 'bg-primary/10 font-medium text-primary' : 'hover:bg-muted'}`} onClick={() => onPick('')}>
+        <span>All questions</span><span className="text-xs tabular-nums text-muted-foreground">{total}</span>
+      </button>
+      <ul>{nodes.map((n) => row(n, 0))}</ul>
+    </nav>
+  );
+}
+
 type Form = { id: string | null; topicId: string; type: QType; complexity: Complexity; marks: string; text: string; options: string[]; answer: string };
 const blank = (topicId = ''): Form => ({ id: null, topicId, type: 'short', complexity: 'medium', marks: '2', text: '', options: ['', '', '', ''], answer: '' });
 
@@ -63,13 +120,15 @@ export function QuestionsPanel() {
   const [pageSize, setPageSize] = React.useState(50);
   const [page, setPage] = React.useState(1);
   const [params] = useSearchParams();
-  const [filters, setFilters] = React.useState({ q: '', chapterId: params.get('chapter') ?? 'all', type: 'all', complexity: 'all', status: 'all', topicId: params.get('topic') ?? '', review: ['draft', 'flagged', 'approved', 'rejected'].includes(params.get('review') ?? '') ? params.get('review')! : 'all' });
+  const [filters, setFilters] = React.useState({ q: '', nodeId: params.get('topic') ?? params.get('chapter') ?? '', type: 'all', complexity: 'all', status: 'all', review: ['draft', 'flagged', 'approved', 'rejected'].includes(params.get('review') ?? '') ? params.get('review')! : 'all' });
   const [counts, setCounts] = React.useState<Counts>({ draft: 0, approved: 0, rejected: 0, flagged: 0 });
   const [picked, setPicked] = React.useState<Set<string>>(new Set());
   const [reviewing, setReviewing] = React.useState(false);
   const [preview, setPreview] = React.useState<Question | null>(null);
   const [topics, setTopics] = React.useState<Choice[]>([]);
-  const [chapters, setChapters] = React.useState<{ id: string; label: string }[]>([]);
+  const [tree, setTree] = React.useState<LibNode[]>([]);
+  const [open, setOpen] = React.useState<Set<string>>(new Set());
+  const [treeShown, setTreeShown] = React.useState(false);
   const [loadError, setLoadError] = React.useState<string | null>(null);
   const [form, setForm] = React.useState<Form | null>(null);
   const [saving, setSaving] = React.useState(false);
@@ -79,7 +138,13 @@ export function QuestionsPanel() {
     api.get<{ nodes: LibNode[] }>('/api/library').then((r) => {
       const f = flatten(r.nodes);
       setTopics(f.topics);
-      setChapters(f.chapters);
+      setTree(r.nodes);
+      // Open down to subjects, and to wherever the page was opened at.
+      const idx = indexTree(r.nodes);
+      const o = new Set<string>();
+      for (const [id, e] of idx) if (e.node.kind !== 'chapter' && e.node.kind !== 'topic') o.add(id);
+      for (let cur = idx.get(filters.nodeId)?.parent; cur; cur = idx.get(cur)?.parent ?? null) o.add(cur);
+      setOpen(o);
     }).catch(() => { /* the list's own error covers a dead API */ });
   }, []);
 
@@ -89,8 +154,7 @@ export function QuestionsPanel() {
       const query: Record<string, string> = { page: String(page) };
       if (filters.q.trim()) query.q = filters.q.trim();
       for (const k of ['type', 'complexity', 'status', 'review'] as const) if (filters[k] !== 'all') query[k] = filters[k];
-      if (filters.topicId) query.topicId = filters.topicId;
-      else if (filters.chapterId !== 'all') query.chapterId = filters.chapterId;
+      if (filters.nodeId) query.nodeId = filters.nodeId;
       const r = await api.get<{ questions: Question[]; total: number; pageSize: number; counts: Counts }>('/api/questions', { query });
       setRows(r.questions);
       setCounts(r.counts);
@@ -165,57 +229,68 @@ export function QuestionsPanel() {
   }
 
   const pages = Math.max(1, Math.ceil(total / pageSize));
+  const index = React.useMemo(() => indexTree(tree), [tree]);
+  const here = filters.nodeId ? index.get(filters.nodeId) : undefined;
+  const allCount = counts.draft + counts.approved + counts.rejected + counts.flagged;
+  const toggleNode = (id: string) => setOpen((s) => { const n = new Set(s); n.has(id) ? n.delete(id) : n.add(id); return n; });
+  const pickNode = (id: string) => { setFilter({ nodeId: id }); setTreeShown(false); };
+  // New questions start in the topic being browsed, or the first topic beneath it.
+  function startTopic(): string {
+    const sel = here?.node;
+    const first = (n: LibNode): string | undefined => (n.kind === 'topic' ? n.id : n.children.map(first).find(Boolean));
+    return (sel && first(sel)) || topics[0]?.id || '';
+  }
 
   return (
     <>
       <PanelTop
-        description={`${total} question${total === 1 ? '' : 's'}, each tagged to a topic in Categories.`}
-        actions={<Button onClick={() => { setFormError(null); setForm(blank(topics[0]?.id)); }} disabled={topics.length === 0}><Plus className="size-4" /> Add question</Button>}
+        description={`${allCount} question${allCount === 1 ? '' : 's'}${here ? ` in ${here.node.name}` : ''}, each tagged to a topic in Categories.`}
+        actions={<Button onClick={() => { setFormError(null); setForm(blank(startTopic())); }} disabled={topics.length === 0}><Plus className="size-4" /> Add question</Button>}
       />
 
-      <div className="mb-3 flex flex-wrap gap-1.5" role="tablist" aria-label="Review status">
-        {REVIEW_TABS.map((t) => {
-          const n = t.id === 'all' ? counts.draft + counts.approved + counts.rejected + counts.flagged : counts[t.id];
-          const on = filters.review === t.id;
-          return (
-            <Button key={t.id} size="sm" variant={on ? 'default' : 'outline'} role="tab" aria-selected={on} onClick={() => setFilter({ review: t.id })}>
-              {t.label} <span className="ml-1.5 opacity-70">{n}</span>
-            </Button>
-          );
-        })}
-      </div>
+      <div className="lg:grid lg:grid-cols-[17rem_minmax(0,1fr)] lg:gap-6">
+        {/* Side tree: a drawer-style panel under a button on a phone, always open on a wide screen */}
+        <aside className="mb-4 lg:mb-0">
+          <Button variant="outline" className="w-full justify-between lg:hidden" aria-expanded={treeShown} onClick={() => setTreeShown((v) => !v)}>
+            <span className="flex min-w-0 items-center gap-2"><FolderTree className="size-4 shrink-0" /><span className="truncate">{here ? here.path.slice(-2).join(' › ') : 'All questions'}</span></span>
+            <ChevronDown className={`size-4 shrink-0 transition-transform ${treeShown ? 'rotate-180' : ''}`} />
+          </Button>
+          <div className={`${treeShown ? 'mt-2 block' : 'hidden'} max-h-[60vh] overflow-y-auto rounded-xl border border-border bg-card p-2 lg:sticky lg:top-4 lg:mt-0 lg:block lg:max-h-[calc(100vh-8rem)]`}>
+            <CategoryTree nodes={tree} selected={filters.nodeId} open={open} onToggle={toggleNode} onPick={pickNode} total={allCount} />
+          </div>
+        </aside>
 
-      {filters.topicId && (
-        <p className="mb-3 flex items-center gap-2 text-sm">
-          <Badge variant="secondary" className="gap-1 py-1">
-            Topic: {topics.find((t) => t.id === filters.topicId)?.label.split(' › ').slice(-2).join(' › ') ?? 'selected topic'}
-            <button type="button" aria-label="Clear the topic filter" className="ml-1 rounded hover:text-destructive" onClick={() => setFilter({ topicId: '' })}><X className="size-3" /></button>
-          </Badge>
-        </p>
-      )}
+        <div className="min-w-0">
+          {here && (
+            <p className="mb-3 flex flex-wrap items-center gap-1 text-sm text-muted-foreground" aria-label="Where you are">
+              {here.path.map((name, i) => <React.Fragment key={i}>{i > 0 && <ChevronRight className="size-3" aria-hidden />}<span className={i === here.path.length - 1 ? 'font-medium text-foreground' : ''}>{name}</span></React.Fragment>)}
+              <button type="button" aria-label="Show all questions" className="ml-1 rounded p-0.5 hover:text-destructive" onClick={() => pickNode('')}><X className="size-3.5" /></button>
+            </p>
+          )}
 
-      <div className="mb-4 grid gap-2 sm:grid-cols-2 lg:grid-cols-[1fr_12rem_10rem_9rem_9rem]">
-        <div className="relative sm:col-span-2 lg:col-span-1">
-          <Search className="absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" aria-hidden />
-          <Input className="pl-9" placeholder="Search question text" aria-label="Search question text" value={filters.q} onChange={(e) => setFilter({ q: e.target.value })} />
-        </div>
-        <Select value={filters.chapterId} onValueChange={(v) => setFilter({ chapterId: v })}>
-          <SelectTrigger aria-label="Chapter"><SelectValue /></SelectTrigger>
-          <SelectContent><SelectItem value="all">All chapters</SelectItem>{chapters.map((c) => <SelectItem key={c.id} value={c.id}>{c.label}</SelectItem>)}</SelectContent>
-        </Select>
-        <Select value={filters.type} onValueChange={(v) => setFilter({ type: v })}>
-          <SelectTrigger aria-label="Type"><SelectValue /></SelectTrigger>
-          <SelectContent><SelectItem value="all">All types</SelectItem>{(Object.keys(TYPE_LABEL) as QType[]).map((t) => <SelectItem key={t} value={t}>{TYPE_LABEL[t]}</SelectItem>)}</SelectContent>
-        </Select>
-        <Select value={filters.complexity} onValueChange={(v) => setFilter({ complexity: v })}>
-          <SelectTrigger aria-label="Complexity"><SelectValue /></SelectTrigger>
-          <SelectContent><SelectItem value="all">Any complexity</SelectItem>{(Object.keys(COMPLEXITY_LABEL) as Complexity[]).map((c) => <SelectItem key={c} value={c}>{COMPLEXITY_LABEL[c]}</SelectItem>)}</SelectContent>
-        </Select>
-        <Select value={filters.status} onValueChange={(v) => setFilter({ status: v })}>
-          <SelectTrigger aria-label="Status"><SelectValue /></SelectTrigger>
-          <SelectContent><SelectItem value="all">Any status</SelectItem><SelectItem value="active">Active</SelectItem><SelectItem value="hidden">Hidden</SelectItem></SelectContent>
-        </Select>
-      </div>
+          <div className="mb-3 flex flex-wrap gap-1.5" role="tablist" aria-label="Review status">
+            {REVIEW_TABS.map((t) => {
+              const n = t.id === 'all' ? allCount : counts[t.id];
+              const on = filters.review === t.id;
+              return (
+                <Button key={t.id} size="sm" variant={on ? 'default' : 'outline'} role="tab" aria-selected={on} onClick={() => setFilter({ review: t.id })}>
+                  {t.label} <span className="ml-1.5 opacity-70">{n}</span>
+                </Button>
+              );
+            })}
+          </div>
+
+          <div className="mb-4 space-y-2">
+            <div className="relative">
+              <Search className="absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" aria-hidden />
+              <Input className="pl-9" placeholder="Search question text" aria-label="Search question text" value={filters.q} onChange={(e) => setFilter({ q: e.target.value })} />
+            </div>
+            <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+              <ChipGroup label="Type" value={filters.type} onChange={(v) => setFilter({ type: v })} options={[['all', 'All'], ...(Object.keys(TYPE_LABEL) as QType[]).map((t) => [t, TYPE_LABEL[t]] as [string, string])]} />
+              <ChipGroup label="Level" value={filters.complexity} onChange={(v) => setFilter({ complexity: v })} options={[['all', 'Any'], ...(Object.keys(COMPLEXITY_LABEL) as Complexity[]).map((c) => [c, COMPLEXITY_LABEL[c]] as [string, string])]} />
+              <ChipGroup label="Shown" value={filters.status} onChange={(v) => setFilter({ status: v })} options={[['all', 'All'], ['active', 'Active'], ['hidden', 'Hidden']]} />
+            </div>
+          </div>
 
       {loadError ? (
         <Alert variant="destructive"><AlertTriangle className="size-4" /><AlertTitle>Could not load questions</AlertTitle><AlertDescription>{loadError}</AlertDescription></Alert>
@@ -307,6 +382,9 @@ export function QuestionsPanel() {
           )}
         </>
       )}
+
+        </div>
+      </div>
 
       <Dialog open={preview !== null} onOpenChange={(o) => !o && setPreview(null)}>
         <DialogContent className="max-h-[90vh] overflow-y-auto sm:max-w-2xl">
