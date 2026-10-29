@@ -148,6 +148,14 @@ export default function PaperPage() {
             <p className="text-sm text-muted-foreground">You have no students yet. <Link to="/teacher/students" className="text-primary underline">Add some</Link>, or use <strong>Test it</strong>.</p>
           ) : (
             <div className="space-y-4">
+              {[...new Set(students.map((s) => s.className))].length > 1 && (
+                <div className="flex flex-wrap gap-1.5" role="group" aria-label="Pick a class">
+                  {[...new Set(students.map((s) => s.className))].sort().map((c) => (
+                    <Button key={c} size="sm" variant="outline" onClick={() => setPicked(students.filter((s) => s.className === c).map((s) => s.id))}>Class {c} only</Button>
+                  ))}
+                  <Button size="sm" variant="ghost" onClick={() => setPicked(students.map((s) => s.id))}>Everyone</Button>
+                </div>
+              )}
               <ul className="max-h-60 space-y-1 overflow-y-auto">
                 {students.map((s) => (
                   <li key={s.id}>

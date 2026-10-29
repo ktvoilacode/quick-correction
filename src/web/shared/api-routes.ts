@@ -52,6 +52,8 @@ export type ApiRoute =
   | '/api/tutor/review'
   | '/api/tutor/setup'
   | '/api/tutor/students'
+  | `/api/tutor/students/${string}`
+  | '/api/tutor/students/import'
   | `/api/tutor/submissions/${string}`
   | `/api/tutor/submissions/${string}/approve`
   | `/api/tutor/submissions/${string}/pages`
@@ -102,6 +104,7 @@ export const API_ROUTES = [
   '/api/tutor/review',
   '/api/tutor/setup',
   '/api/tutor/students',
+  '/api/tutor/students/import',
   '/api/user/admin/create',
   '/api/user/admin/list',
   '/api/user/admin/users',

@@ -96,6 +96,39 @@ export const tutorService = {
     throw error.serverError('Could not create a unique invite code');
   },
 
+  async updateStudent(teacherId: string, id: string, input: { name?: string; className?: string }) {
+    const db = await databaseClass.get();
+    const data: { name?: string; className?: string } = {};
+    if (input.name !== undefined) { data.name = input.name.trim(); if (!data.name) throw error.badRequest('Student name is required'); }
+    if (input.className !== undefined) data.className = input.className.trim() || '10';
+    const r = await db.student.updateMany({ where: { id, teacherId }, data });
+    if (!r.count) throw error.notFound('Student not found');
+    return { ok: true };
+  },
+
+  /** Removes the student and their papers' submissions with them. */
+  async removeStudent(teacherId: string, id: string) {
+    const db = await databaseClass.get();
+    const r = await db.student.deleteMany({ where: { id, teacherId } });
+    if (!r.count) throw error.notFound('Student not found');
+    return { ok: true };
+  },
+
+  /** One student per line: "Name" or "Name, class". Lines without a class get `className`. */
+  async importStudents(teacherId: string, input: { text?: string; className?: string }) {
+    const lines = (input.text ?? '').split('\n').map((l) => l.trim()).filter(Boolean).slice(0, 200);
+    if (!lines.length) throw error.badRequest('Add at least one name');
+    const fallback = input.className?.trim() || '10';
+    let added = 0;
+    for (const line of lines) {
+      const [name, cls] = line.split(',').map((x) => x.trim());
+      if (!name) continue;
+      await this.addStudent(teacherId, { name, className: cls || fallback });
+      added++;
+    }
+    return { added };
+  },
+
   async listPapers(teacherId: string) {
     const db = await databaseClass.get();
     const papers = await db.paper.findMany({

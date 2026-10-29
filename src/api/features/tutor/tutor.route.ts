@@ -39,6 +39,18 @@ router.post('/students', error.asyncRoute(async (req: any, res) => {
   res.status(201).json({ student: await tutorService.addStudent(userIdOf(req), req.body ?? {}) });
 }));
 
+router.post('/students/import', error.asyncRoute(async (req: any, res) => {
+  res.status(201).json(await tutorService.importStudents(userIdOf(req), req.body ?? {}));
+}));
+
+router.patch('/students/:id', error.asyncRoute(async (req: any, res) => {
+  res.json(await tutorService.updateStudent(userIdOf(req), req.params.id, req.body ?? {}));
+}));
+
+router.delete('/students/:id', error.asyncRoute(async (req: any, res) => {
+  res.json(await tutorService.removeStudent(userIdOf(req), req.params.id));
+}));
+
 router.get('/papers', error.asyncRoute(async (req, res) => {
   res.json({ papers: await tutorService.listPapers(userIdOf(req)) });
 }));
