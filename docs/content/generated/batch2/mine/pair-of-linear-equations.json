@@ -1,0 +1,137 @@
+[
+ {
+  "idx": 0,
+  "myAnswer": "C) 15",
+  "how": "by hand"
+ },
+ {
+  "idx": 1,
+  "myAnswer": "B) 3",
+  "how": "by hand"
+ },
+ {
+  "idx": 2,
+  "myAnswer": "D) all real k except -6",
+  "how": "by hand"
+ },
+ {
+  "idx": 3,
+  "myAnswer": "A",
+  "how": "by hand"
+ },
+ {
+  "idx": 4,
+  "myAnswer": "D (A false, R true)",
+  "how": "by hand"
+ },
+ {
+  "idx": 5,
+  "myAnswer": "C) 6",
+  "how": "by hand"
+ },
+ {
+  "idx": 6,
+  "myAnswer": "A) 4sqrt5",
+  "how": "python"
+ },
+ {
+  "idx": 7,
+  "myAnswer": "D) (2,4)",
+  "how": "python"
+ },
+ {
+  "idx": 8,
+  "myAnswer": "B) 5",
+  "how": "python"
+ },
+ {
+  "idx": 9,
+  "myAnswer": "C) 2",
+  "how": "python"
+ },
+ {
+  "idx": 10,
+  "myAnswer": "A) 25 m",
+  "how": "python"
+ },
+ {
+  "idx": 11,
+  "myAnswer": "B) 9",
+  "how": "python"
+ },
+ {
+  "idx": 12,
+  "myAnswer": "C) infinitely many",
+  "how": "by hand"
+ },
+ {
+  "idx": 13,
+  "myAnswer": "x=4,y=-1",
+  "how": "python"
+ },
+ {
+  "idx": 14,
+  "myAnswer": "k=6",
+  "how": "by hand"
+ },
+ {
+  "idx": 15,
+  "myAnswer": "(8,0),(0,6); area 24",
+  "how": "by hand"
+ },
+ {
+  "idx": 16,
+  "myAnswer": "mother 39, daughter 6",
+  "how": "python"
+ },
+ {
+  "idx": 17,
+  "myAnswer": "p=4,q=1",
+  "how": "python"
+ },
+ {
+  "idx": 18,
+  "myAnswer": "x=-2,y=5",
+  "how": "python"
+ },
+ {
+  "idx": 19,
+  "myAnswer": "13 correct, 7 wrong",
+  "how": "python"
+ },
+ {
+  "idx": 20,
+  "myAnswer": "vertices (2,2),(0,3),(0,-4); area 7",
+  "how": "python"
+ },
+ {
+  "idx": 21,
+  "myAnswer": "k=5",
+  "how": "by hand"
+ },
+ {
+  "idx": 22,
+  "myAnswer": "x=2,y=3",
+  "how": "python"
+ },
+ {
+  "idx": 23,
+  "myAnswer": "53",
+  "how": "python"
+ },
+ {
+  "idx": 24,
+  "myAnswer": "plane 525 km/h, wind 75 km/h",
+  "how": "python"
+ },
+ {
+  "idx": 25,
+  "myAnswer": "length 20, breadth 12, area 240",
+  "how": "python"
+ },
+ {
+  "idx": 26,
+  "myAnswer": "y=40+10x, y=20+15x; 4 kg, Rs80; P cheaper by 15 for 7kg; Q cheaper for x<4",
+  "how": "python"
+ }
+]

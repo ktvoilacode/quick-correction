@@ -2,11 +2,13 @@
  * /demo — the Quick Correction homepage. Phone first: one column, big tap targets,
  * three steps and two doors. Picking a door stands in for signing in.
  */
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Button, useTheme } from '@bloomneo/uikit';
-import { HeartHandshake, School, ChevronRight, FileText, Camera, Sparkles, Mic, TrendingUp, BellRing, Moon, Sun } from 'lucide-react';
+import { HeartHandshake, School, ChevronRight, FileText, Camera, Sparkles, Mic, TrendingUp, BellRing, Moon, Sun, LogIn, LogOut } from 'lucide-react';
 import { SEO } from '@/shared/SEO';
 import { LogoMark, Wordmark } from '@/shared/Logo';
+import { useAuth } from '@/features/auth';
+import { homeFor } from '@/features/auth/lib/home';
 import { useDemo, type Role } from '../data/store';
 
 /** Shown as a slowly moving strip of cards under the two doors. */
@@ -28,6 +30,7 @@ export default function Home() {
   const { setRole } = useDemo();
   const navigate = useNavigate();
   const { mode, setMode } = useTheme();
+  const { isAuthenticated, isLoading, user, logout } = useAuth();
   const go = (r: Role) => { setRole(r); navigate(`/demo/${r}`); };
 
   return (
@@ -41,6 +44,21 @@ export default function Home() {
               <LogoMark className="size-9" />
               <Wordmark className="text-lg" />
             </span>
+            <span className="flex items-center gap-1">
+            {!isLoading && (isAuthenticated ? (
+              <>
+                <Button size="sm" className="h-9" asChild>
+                  <Link to={homeFor(user)}>Open app</Link>
+                </Button>
+                <Button variant="ghost" size="icon" className="size-10 rounded-full" aria-label="Sign out" title="Sign out" onClick={() => logout()}>
+                  <LogOut className="size-5" />
+                </Button>
+              </>
+            ) : (
+              <Button variant="outline" size="sm" className="h-9" asChild>
+                <Link to="/auth/login"><LogIn className="size-4" /> Sign in</Link>
+              </Button>
+            ))}
             <Button
               variant="ghost"
               size="icon"
@@ -50,6 +68,7 @@ export default function Home() {
             >
               {mode === 'dark' ? <Sun className="size-5" /> : <Moon className="size-5" />}
             </Button>
+            </span>
           </header>
 
           <section className="pt-8">

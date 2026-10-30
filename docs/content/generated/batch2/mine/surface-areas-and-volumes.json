@@ -1,0 +1,157 @@
+[
+ {
+  "idx": 0,
+  "myAnswer": "A) 160",
+  "how": "by hand"
+ },
+ {
+  "idx": 1,
+  "myAnswer": "B) 63\u03c0",
+  "how": "by hand"
+ },
+ {
+  "idx": 2,
+  "myAnswer": "C) 176\u03c0",
+  "how": "by hand"
+ },
+ {
+  "idx": 3,
+  "myAnswer": "D) 1275.84",
+  "how": "by hand"
+ },
+ {
+  "idx": 4,
+  "myAnswer": "A) 3\u03c0r^3",
+  "how": "by hand"
+ },
+ {
+  "idx": 5,
+  "myAnswer": "B) 543.48",
+  "how": "by hand"
+ },
+ {
+  "idx": 6,
+  "myAnswer": "D) A false, R true",
+  "how": "by hand"
+ },
+ {
+  "idx": 7,
+  "myAnswer": "A) 753.6",
+  "how": "by hand"
+ },
+ {
+  "idx": 8,
+  "myAnswer": "C) 280\u03c0",
+  "how": "by hand"
+ },
+ {
+  "idx": 9,
+  "myAnswer": "B) 5:4",
+  "how": "by hand"
+ },
+ {
+  "idx": 10,
+  "myAnswer": "D) 154",
+  "how": "by hand"
+ },
+ {
+  "idx": 11,
+  "myAnswer": "B) 2310",
+  "how": "by hand"
+ },
+ {
+  "idx": 12,
+  "myAnswer": "A) both true, R explains A",
+  "how": "by hand"
+ },
+ {
+  "idx": 13,
+  "myAnswer": "C) 54 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 14,
+  "myAnswer": "616 cm^3",
+  "how": "python"
+ },
+ {
+  "idx": 15,
+  "myAnswer": "549.76 cm^3",
+  "how": "python"
+ },
+ {
+  "idx": 16,
+  "myAnswer": "452.16 cm^3",
+  "how": "python"
+ },
+ {
+  "idx": 17,
+  "myAnswer": "r=3 cm, V=396 cm^3",
+  "how": "python"
+ },
+ {
+  "idx": 18,
+  "myAnswer": "659.4 cm^2",
+  "how": "python"
+ },
+ {
+  "idx": 19,
+  "myAnswer": "1033.56 cm^2",
+  "how": "python"
+ },
+ {
+  "idx": 20,
+  "myAnswer": "Rs 3850",
+  "how": "python"
+ },
+ {
+  "idx": 21,
+  "myAnswer": "12 drums",
+  "how": "python"
+ },
+ {
+  "idx": 22,
+  "myAnswer": "18 cm",
+  "how": "python"
+ },
+ {
+  "idx": 23,
+  "myAnswer": "539 cm^3",
+  "how": "python"
+ },
+ {
+  "idx": 24,
+  "myAnswer": "4410 cm^3",
+  "how": "python"
+ },
+ {
+  "idx": 25,
+  "myAnswer": "h=16 cm; TSA 1582.56 cm^2",
+  "how": "python"
+ },
+ {
+  "idx": 26,
+  "myAnswer": "235.5 cm^2",
+  "how": "python"
+ },
+ {
+  "idx": 27,
+  "myAnswer": "418 cm^2",
+  "how": "python"
+ },
+ {
+  "idx": 28,
+  "myAnswer": "3:4",
+  "how": "python"
+ },
+ {
+  "idx": 29,
+  "myAnswer": "23.1 m^2; Rs 2772; 12.936 m^3",
+  "how": "python"
+ },
+ {
+  "idx": 30,
+  "myAnswer": "edge 6 cm; TSA 216 cm^2",
+  "how": "python"
+ }
+]

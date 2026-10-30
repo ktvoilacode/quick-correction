@@ -1,0 +1,740 @@
+[
+ {
+  "chapter": "Trigonometry",
+  "topic": "Ratios of standard angles",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The value of sin 60° cos 30° − cos 60° sin 30° is",
+  "options": [
+   "0",
+   "1/2",
+   "1",
+   "√3/2"
+  ],
+  "answer": "Correct option: B) 1/2. sin 60° cos 30° = (√3/2)(√3/2) = 3/4 and cos 60° sin 30° = (1/2)(1/2) = 1/4, so the value is 3/4 − 1/4 = 1/2."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Ratios of standard angles",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The value of sec 60° · cos 30° is",
+  "options": [
+   "√3/2",
+   "1",
+   "2",
+   "√3"
+  ],
+  "answer": "Correct option: D) √3. sec 60° = 2 and cos 30° = √3/2, so the product is 2 × √3/2 = √3."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Ratios of standard angles",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "If tan 3A = √3, where 3A is an acute angle, then A equals",
+  "options": [
+   "10°",
+   "30°",
+   "20°",
+   "60°"
+  ],
+  "answer": "Correct option: C) 20°. tan 60° = √3, so 3A = 60° and A = 20°."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Evaluating expressions",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "If sin θ − cos θ = 1/2, then the value of sin θ cos θ is",
+  "options": [
+   "3/8",
+   "1/4",
+   "3/4",
+   "5/8"
+  ],
+  "answer": "Correct option: A) 3/8. Squaring: sin²θ + cos²θ − 2 sin θ cos θ = 1/4, so 1 − 2 sin θ cos θ = 1/4, giving sin θ cos θ = (3/4)/2 = 3/8."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Evaluating expressions",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The value of (1 + tan²θ)(1 − sin θ)(1 + sin θ) is",
+  "options": [
+   "sin²θ",
+   "cos²θ",
+   "tan²θ",
+   "1"
+  ],
+  "answer": "Correct option: D) 1. (1 − sin θ)(1 + sin θ) = 1 − sin²θ = cos²θ and 1 + tan²θ = sec²θ, so the product is sec²θ · cos²θ = 1."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Evaluating expressions",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "If 7 sin²θ + 3 cos²θ = 4 and θ is acute, then tan θ equals",
+  "options": [
+   "√3",
+   "1/√3",
+   "1",
+   "1/2"
+  ],
+  "answer": "Correct option: B) 1/√3. 7 sin²θ + 3(1 − sin²θ) = 4 gives 4 sin²θ = 1, so sin θ = 1/2, θ = 30° and tan 30° = 1/√3."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Ratio from a given ratio",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "If sec θ = 13/12, then (2 sin θ − 3 cos θ)/(4 sin θ − 9 cos θ) equals",
+  "options": [
+   "13/22",
+   "−13/44",
+   "13/44",
+   "5/44"
+  ],
+  "answer": "Correct option: C) 13/44. cos θ = 12/13 and sin θ = 5/13. Numerator = 10/13 − 36/13 = −26/13; denominator = 20/13 − 108/13 = −88/13. Ratio = 26/88 = 13/44."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Ratio from a given ratio",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "If cosec A = 17/8 and A is acute, then tan A equals",
+  "options": [
+   "8/17",
+   "15/8",
+   "8/15",
+   "15/17"
+  ],
+  "answer": "Correct option: C) 8/15. sin A = 8/17, so with hypotenuse 17 and perpendicular 8 the base is √(289 − 64) = 15. Hence tan A = 8/15."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "sec θ (1 − sin θ)(sec θ + tan θ) is equal to",
+  "options": [
+   "sin θ",
+   "1",
+   "cos θ",
+   "sec²θ"
+  ],
+  "answer": "Correct option: B) 1. sec θ + tan θ = (1 + sin θ)/cos θ, so the expression = (1/cos θ)(1 − sin θ)(1 + sin θ)/cos θ = (1 − sin²θ)/cos²θ = 1."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "sin⁴θ − cos⁴θ is equal to",
+  "options": [
+   "1 − 2 sin²θ",
+   "2 sin²θ − 1",
+   "1",
+   "sin²θ cos²θ"
+  ],
+  "answer": "Correct option: B) 2 sin²θ − 1. sin⁴θ − cos⁴θ = (sin²θ − cos²θ)(sin²θ + cos²θ) = sin²θ − (1 − sin²θ) = 2 sin²θ − 1."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "tan²θ − sin²θ is equal to",
+  "options": [
+   "sin²θ cos²θ",
+   "tan²θ cos²θ",
+   "cot²θ sin²θ",
+   "tan²θ sin²θ"
+  ],
+  "answer": "Correct option: D) tan²θ sin²θ. tan²θ − sin²θ = tan²θ − tan²θ cos²θ = tan²θ(1 − cos²θ) = tan²θ sin²θ."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "1/(1 + sin A) + 1/(1 − sin A) is equal to",
+  "options": [
+   "2 sec A",
+   "2 sec²A",
+   "2 cosec²A",
+   "2 cos²A"
+  ],
+  "answer": "Correct option: B) 2 sec²A. Sum = (1 − sin A + 1 + sin A)/(1 − sin²A) = 2/cos²A = 2 sec²A."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "(1 + tan²A)/(1 + cot²A) is equal to",
+  "options": [
+   "cot²A",
+   "sec²A",
+   "tan²A",
+   "1"
+  ],
+  "answer": "Correct option: C) tan²A. 1 + tan²A = sec²A and 1 + cot²A = cosec²A, so the ratio = sin²A/cos²A = tan²A."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "If x = sec θ + tan θ, then sec θ − tan θ is equal to",
+  "options": [
+   "x",
+   "−x",
+   "1/x",
+   "x − 1"
+  ],
+  "answer": "Correct option: C) 1/x. (sec θ + tan θ)(sec θ − tan θ) = sec²θ − tan²θ = 1, so sec θ − tan θ = 1/x."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "cos θ/(1 − sin θ) is equal to",
+  "options": [
+   "sec θ − tan θ",
+   "cosec θ + cot θ",
+   "sec θ + tan θ",
+   "cosec θ − cot θ"
+  ],
+  "answer": "Correct option: C) sec θ + tan θ. Multiply numerator and denominator by (1 + sin θ): cos θ(1 + sin θ)/(1 − sin²θ) = (1 + sin θ)/cos θ = sec θ + tan θ."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "hard",
+  "competency": false,
+  "text": "(sin θ + cosec θ)² + (cos θ + sec θ)² is equal to",
+  "options": [
+   "5 + tan²θ + cot²θ",
+   "7 + sec²θ + cosec²θ",
+   "7 + tan²θ cot²θ",
+   "7 + tan²θ + cot²θ"
+  ],
+  "answer": "Correct option: D) 7 + tan²θ + cot²θ. Expanding: sin²θ + 2 + cosec²θ + cos²θ + 2 + sec²θ = 1 + 4 + (1 + cot²θ) + (1 + tan²θ) = 7 + tan²θ + cot²θ."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": true,
+  "text": "A kite string, 40 m long, is held taut and makes an angle of 60° with the level ground. Ignoring any sag and taking the hand at ground level, the height of the kite above the ground is",
+  "options": [
+   "20 m",
+   "20√3 m",
+   "40√3 m",
+   "40/√3 m"
+  ],
+  "answer": "Correct option: B) 20√3 m. Height = 40 sin 60° = 40 × √3/2 = 20√3 m."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": true,
+  "text": "A ladder reaches a window 9 m above the ground and makes an angle of 30° with the ground. The length of the ladder is",
+  "options": [
+   "9 m",
+   "9√3 m",
+   "18 m",
+   "18√3 m"
+  ],
+  "answer": "Correct option: C) 18 m. sin 30° = 9/L, so L = 9/(1/2) = 18 m."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": true,
+  "text": "An observer on the roof of a 20 m high building sees a car on level ground at an angle of depression of 30°. The distance of the car from the foot of the building is",
+  "options": [
+   "20/√3 m",
+   "20 m",
+   "40 m",
+   "20√3 m"
+  ],
+  "answer": "Correct option: D) 20√3 m. The angle of elevation of the roof from the car is also 30°, so tan 30° = 20/d, giving d = 20√3 m."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": true,
+  "text": "From a point on level ground the angle of elevation of the top of a tower is 45°. After walking 30 m towards the foot of the tower the angle of elevation becomes 60°. The height of the tower is",
+  "options": [
+   "15(√3 + 1) m",
+   "15(3 + √3) m",
+   "30(√3 − 1) m",
+   "30(√3 + 1) m"
+  ],
+  "answer": "Correct option: B) 15(3 + √3) m. Let height h. Distances from foot: h/tan 45° = h and h/tan 60° = h/√3. So h − h/√3 = 30, h = 30√3/(√3 − 1) = 15√3(√3 + 1) = 15(3 + √3) m."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": true,
+  "text": "A vertical pole 12 m high casts a shadow 4√3 m long on level ground. The angle of elevation of the Sun is",
+  "options": [
+   "30°",
+   "45°",
+   "60°",
+   "75°"
+  ],
+  "answer": "Correct option: C) 60°. tan θ = 12/(4√3) = 3/√3 = √3, so θ = 60°."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": true,
+  "text": "From the top of a 60 m high cliff, the angles of depression of two boats on the same side, in line with the foot of the cliff, are 30° and 60°. The distance between the boats is",
+  "options": [
+   "20√3 m",
+   "40√3 m",
+   "80√3 m",
+   "60(√3 − 1) m"
+  ],
+  "answer": "Correct option: B) 40√3 m. Distances from the foot: 60/tan 30° = 60√3 and 60/tan 60° = 20√3. Difference = 40√3 m."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "slot": "A-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Assertion (A): (1 + tan²θ) cos²θ = 1 for every acute angle θ.\nReason (R): 1 + tan²θ = sec²θ.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: A) Both A and R are true and R is the correct explanation of A. R is the standard identity; using it, (1 + tan²θ) cos²θ = sec²θ cos²θ = 1, so A follows directly from R."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Ratio from a given ratio",
+  "slot": "A-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Assertion (A): There is an acute angle θ for which sec θ = 3/5.\nReason (R): In a right-angled triangle the hypotenuse is the longest side, so sec θ = hypotenuse/base is always greater than 1 for an acute angle θ.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: D) A is false but R is true. R is true. Since sec θ > 1 for every acute angle, sec θ = 3/5 < 1 is impossible, so A is false."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Ratios of standard angles",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Evaluate: 4 sin²30° + 3 tan²60° − 2 sec²45°.",
+  "answer": "sin 30° = 1/2, tan 60° = √3, sec 45° = √2.\nValue = 4(1/4) + 3(3) − 2(2) = 1 + 9 − 4 = 6.\nAnswer: 6"
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Ratios of standard angles",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "If sin (A + B) = 1 and cos (A − B) = √3/2, where 0° < A + B ≤ 90° and A > B, find the values of A and B.",
+  "answer": "sin (A + B) = 1 = sin 90°, so A + B = 90°.\ncos (A − B) = √3/2 = cos 30°, so A − B = 30°.\nAdding: 2A = 120°, A = 60°; then B = 30°.\nAnswer: A = 60°, B = 30°"
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Evaluating expressions",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "If sin θ + cos θ = 5/4, find the value of sin θ cos θ and hence of tan θ + cot θ.",
+  "answer": "Squaring: 1 + 2 sin θ cos θ = 25/16, so 2 sin θ cos θ = 9/16 and sin θ cos θ = 9/32.\ntan θ + cot θ = (sin²θ + cos²θ)/(sin θ cos θ) = 1/(9/32) = 32/9.\nAnswer: sin θ cos θ = 9/32; tan θ + cot θ = 32/9"
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Evaluating expressions",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Find the value of p if p sin 30° + 4 cos²60° = 3 tan²45° + cosec 30°.",
+  "answer": "LHS = p(1/2) + 4(1/4) = p/2 + 1. RHS = 3(1) + 2 = 5.\np/2 + 1 = 5, so p/2 = 4 and p = 8.\nAnswer: p = 8"
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Ratio from a given ratio",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "If 13 sin A = 5 and A is acute, evaluate (5 sin A − 2 cos A)/tan A.",
+  "answer": "sin A = 5/13. Base = √(169 − 25) = 12, so cos A = 12/13 and tan A = 5/12.\n5 sin A − 2 cos A = 25/13 − 24/13 = 1/13.\nValue = (1/13) ÷ (5/12) = 12/65.\nAnswer: 12/65"
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Prove that cos θ/(1 + sin θ) + (1 + sin θ)/cos θ = 2 sec θ.",
+  "answer": "LHS = [cos²θ + (1 + sin θ)²]/[cos θ (1 + sin θ)]\n= [cos²θ + 1 + 2 sin θ + sin²θ]/[cos θ (1 + sin θ)]\n= [2 + 2 sin θ]/[cos θ (1 + sin θ)] = 2(1 + sin θ)/[cos θ (1 + sin θ)] = 2/cos θ = 2 sec θ = RHS. Hence proved."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Prove that sin θ (1 + tan θ) + cos θ (1 + cot θ) = sec θ + cosec θ.",
+  "answer": "LHS = sin θ + sin²θ/cos θ + cos θ + cos²θ/sin θ\n= (sin θ + cos²θ/sin θ) + (cos θ + sin²θ/cos θ)\n= (sin²θ + cos²θ)/sin θ + (cos²θ + sin²θ)/cos θ\n= 1/sin θ + 1/cos θ = cosec θ + sec θ = RHS. Hence proved."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": true,
+  "text": "A vertical tower casts a shadow 15 m long on level ground when the angle of elevation of the Sun is 60°. Find the height of the tower. (Use √3 = 1.73)",
+  "answer": "Let height = h. tan 60° = h/15, so h = 15√3 = 15 × 1.73 = 25.95 m.\nAnswer: 25.95 m"
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": true,
+  "text": "From a point on level ground 30 m from the foot of a vertical pole, the angle of elevation of the top of the pole is 30°. Find the height of the pole and the distance of the top of the pole from the point. (Leave answers in surd form.)",
+  "answer": "tan 30° = h/30, so h = 30/√3 = 10√3 m.\nDistance of top = √(30² + (10√3)²) = √(900 + 300) = √1200 = 20√3 m (also 30/cos 30° = 20√3).\nAnswer: height 10√3 m; distance 20√3 m"
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": true,
+  "text": "A boy 1.5 m tall stands 20 m away from a vertical pole. The angle of elevation of the top of the pole from his eyes (take eye level as 1.5 m above ground) is 45°. Find the height of the pole above the ground.",
+  "answer": "Height of the pole above his eye level = 20 tan 45° = 20 m.\nTotal height = 20 + 1.5 = 21.5 m.\nAnswer: 21.5 m"
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Prove that (cot θ − cos θ)/(cot θ + cos θ) = (cosec θ − 1)/(cosec θ + 1).",
+  "answer": "LHS = (cos θ/sin θ − cos θ)/(cos θ/sin θ + cos θ) = cos θ(1/sin θ − 1)/[cos θ(1/sin θ + 1)]\n= (cosec θ − 1)/(cosec θ + 1) = RHS. Hence proved."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Prove that (sec θ − cos θ)/(sec θ + cos θ) = sin²θ/(1 + cos²θ).",
+  "answer": "LHS = (1/cos θ − cos θ)/(1/cos θ + cos θ) = [(1 − cos²θ)/cos θ]/[(1 + cos²θ)/cos θ] = (1 − cos²θ)/(1 + cos²θ) = sin²θ/(1 + cos²θ) = RHS. Hence proved."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Prove that (1 + sin θ)/(1 − sin θ) = (sec θ + tan θ)².",
+  "answer": "RHS = (1/cos θ + sin θ/cos θ)² = (1 + sin θ)²/cos²θ = (1 + sin θ)²/(1 − sin²θ) = (1 + sin θ)²/[(1 − sin θ)(1 + sin θ)] = (1 + sin θ)/(1 − sin θ) = LHS. Hence proved."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Prove that tan²θ/(1 + tan²θ) + cot²θ/(1 + cot²θ) = 1.",
+  "answer": "tan²θ/(1 + tan²θ) = tan²θ/sec²θ = (sin²θ/cos²θ) × cos²θ = sin²θ.\ncot²θ/(1 + cot²θ) = cot²θ/cosec²θ = (cos²θ/sin²θ) × sin²θ = cos²θ.\nSum = sin²θ + cos²θ = 1 = RHS. Hence proved."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Prove that (cosec θ − sin θ)(sec θ − cos θ)(tan θ + cot θ) = 1.",
+  "answer": "cosec θ − sin θ = (1 − sin²θ)/sin θ = cos²θ/sin θ.\nsec θ − cos θ = (1 − cos²θ)/cos θ = sin²θ/cos θ.\ntan θ + cot θ = (sin²θ + cos²θ)/(sin θ cos θ) = 1/(sin θ cos θ).\nProduct = (cos²θ/sin θ)(sin²θ/cos θ)(1/(sin θ cos θ)) = (sin θ cos θ)/(sin θ cos θ) = 1. Hence proved."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "hard",
+  "competency": false,
+  "text": "If tan θ + sin θ = m and tan θ − sin θ = n, prove that m² − n² = 4√(mn).",
+  "answer": "m² − n² = (m + n)(m − n) = (2 tan θ)(2 sin θ) = 4 tan θ sin θ.\nmn = tan²θ − sin²θ = sin²θ(1/cos²θ − 1) = sin²θ tan²θ.\nSo √(mn) = tan θ sin θ (for acute θ) and 4√(mn) = 4 tan θ sin θ = m² − n². Hence proved."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A flagstaff 10 m high stands on top of a tower. From a point on level ground, the angles of elevation of the bottom and the top of the flagstaff are 30° and 45° respectively. Find the height of the tower. (Use √3 = 1.73)",
+  "answer": "Let tower height = h and distance of the point from its foot = d.\nBottom of flagstaff (top of tower): tan 30° = h/d, so d = h√3.\nTop of flagstaff: tan 45° = (h + 10)/d = 1, so d = h + 10.\nh√3 = h + 10, so h(√3 − 1) = 10, h = 10/(√3 − 1) = 5(√3 + 1) = 5 × 2.73 = 13.65 m.\nAnswer: 13.65 m"
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": true,
+  "text": "Two points A and B lie on level ground on opposite sides of a 30 m high tower and in line with its foot. The angles of elevation of the top of the tower from A and B are 30° and 60° respectively. Find the distance AB. (Use √3 = 1.73)",
+  "answer": "Distance of A from foot = 30/tan 30° = 30√3 m. Distance of B from foot = 30/tan 60° = 10√3 m.\nSince A and B are on opposite sides, AB = 30√3 + 10√3 = 40√3 = 40 × 1.73 = 69.2 m.\nAnswer: 69.2 m"
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Evaluating expressions",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Evaluate: (sin 35°/cos 55°)² + tan 20° tan 70° + 3 sec 25° sin 65° − 2 tan 17° tan 73°.",
+  "answer": "Using sin (90° − x) = cos x etc.: sin 35° = cos 55°, so the first term is 1² = 1.\ntan 70° = cot 20°, so tan 20° tan 70° = 1.\nsin 65° = cos 25°, so sec 25° sin 65° = 1 and the third term is 3.\ntan 73° = cot 17°, so tan 17° tan 73° = 1 and the last term is 2.\nValue = 1 + 1 + 3 − 2 = 3.\nAnswer: 3"
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Ratio from a given ratio",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "If 15 cot A = 8 and A is acute, find sin A, sec A and the value of (1 + sin A)/(1 − sin A).",
+  "answer": "cot A = 8/15: base 8, perpendicular 15, hypotenuse = √(64 + 225) = 17.\nsin A = 15/17, sec A = 17/8.\n(1 + sin A)/(1 − sin A) = (32/17)/(2/17) = 16.\nAnswer: sin A = 15/17, sec A = 17/8, expression = 16"
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "slot": "D-long (5 marks)",
+  "type": "long",
+  "marks": 5,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A tower stands on top of a 20 m high building. From a point P on level ground, the angle of elevation of the top of the building is 45° and that of the top of the tower is 60°. Find (i) the distance of P from the foot of the building and (ii) the height of the tower. (Use √3 = 1.73)",
+  "answer": "(i) tan 45° = 20/d, so d = 20 m.\n(ii) Let the tower height be x; its top is at height 20 + x. tan 60° = (20 + x)/20, so 20 + x = 20√3 and x = 20(√3 − 1) = 20 × 0.73 = 14.6 m.\nAnswer: 20 m; 14.6 m"
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "slot": "D-long (5 marks)",
+  "type": "long",
+  "marks": 5,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A boat approaches the foot of a 90 m high lighthouse in a straight line. A keeper at the top first sees the boat at an angle of depression of 30°; 6 minutes later the angle of depression is 60°. Assuming the boat moves at constant speed, find (i) the distance the boat covered in the 6 minutes, (ii) its speed in metres per minute, and (iii) how much more time it will take to reach the foot of the lighthouse. (Use √3 = 1.73)",
+  "answer": "Let initial distance from the foot be d1 and later distance d2.\nd1 = 90/tan 30° = 90√3 m; d2 = 90/tan 60° = 30√3 m.\n(i) Distance covered = 90√3 − 30√3 = 60√3 = 60 × 1.73 = 103.8 m.\n(ii) Speed = 103.8/6 = 17.3 m per minute.\n(iii) Remaining distance = 30√3 = 51.9 m; time = 51.9/17.3 = 3 minutes.\n(Check: ratio 30√3 : 60√3 = 1 : 2, so remaining time is half of 6 minutes.)\nAnswer: 103.8 m; 17.3 m/min; 3 minutes"
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "slot": "D-long (5 marks)",
+  "type": "long",
+  "marks": 5,
+  "complexity": "hard",
+  "competency": true,
+  "text": "A point is 40 m above the surface of a lake. The angle of elevation of a cloud from this point is 45° and the angle of depression of the cloud's reflection in the lake, from the same point, is 60°. Find the height of the cloud above the lake. (Use √3 = 1.73)",
+  "answer": "Let the cloud be H m above the lake and let the horizontal distance of the cloud from the point be d. The reflection is H m below the lake surface.\nCloud is (H − 40) m above the point: tan 45° = (H − 40)/d, so d = H − 40.\nReflection is (H + 40) m below the point: tan 60° = (H + 40)/d, so H + 40 = √3 d = √3 (H − 40).\nH(√3 − 1) = 40(√3 + 1), H = 40(√3 + 1)/(√3 − 1) = 40(√3 + 1)²/2 = 20(4 + 2√3) = 40(2 + √3).\nH = 40 × 3.73 = 149.2 m.\nAnswer: about 149.2 m"
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "slot": "D-long (5 marks)",
+  "type": "long",
+  "marks": 5,
+  "complexity": "medium",
+  "competency": true,
+  "text": "Standing on the roof of a 24 m high building, a surveyor observes the foot of a transmission tower at an angle of depression of 45° and its top at an angle of elevation of 30°. The tower and building are on level ground. Find (i) the horizontal distance between the building and the tower, and (ii) the height of the tower. (Use √3 = 1.73)",
+  "answer": "(i) Angle of depression of the foot is 45°, so tan 45° = 24/d, giving d = 24 m.\n(ii) The top of the tower is above roof level by y: tan 30° = y/24, so y = 24/√3 = 8√3 = 8 × 1.73 = 13.84 m.\nHeight of the tower = 24 + 13.84 = 37.84 m.\nAnswer: 24 m; 37.84 m"
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "slot": "D-long (5 marks)",
+  "type": "long",
+  "marks": 5,
+  "complexity": "medium",
+  "competency": true,
+  "text": "An aeroplane flies horizontally at a constant height of 900 m directly away from an observer on the ground. When first seen, its angle of elevation is 45°; after 20 seconds it is 30°. Find the distance flown in 20 seconds and the speed of the aeroplane in m/s and in km/h. (Use √3 = 1.73)",
+  "answer": "Horizontal distances from the observer: d1 = 900/tan 45° = 900 m; d2 = 900/tan 30° = 900√3 m.\nDistance flown = 900√3 − 900 = 900(0.73) = 657 m.\nSpeed = 657/20 = 32.85 m/s.\nIn km/h: 32.85 × 18/5 = 118.26 km/h.\nAnswer: 657 m; 32.85 m/s (118.26 km/h)"
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "slot": "D-long (5 marks)",
+  "type": "long",
+  "marks": 5,
+  "complexity": "hard",
+  "competency": true,
+  "text": "The angle of elevation of the top of a vertical tower from a point A on level ground is 60°. From a point B on a vertical pole, 20 m above A, in the same vertical plane as the tower, the angle of elevation of the top of the tower is 45°. Find (i) the height of the tower and (ii) the horizontal distance of the tower from the pole. (Use √3 = 1.73)",
+  "answer": "Let tower height = h and horizontal distance = d.\nFrom A: tan 60° = h/d, so h = d√3.\nFrom B (20 m up): the top is (h − 20) above B, so tan 45° = (h − 20)/d, giving h − 20 = d.\nd√3 − 20 = d, so d(√3 − 1) = 20, d = 20/(√3 − 1) = 10(√3 + 1) = 10 × 2.73 = 27.3 m.\nh = d√3 = 10(3 + √3) = 10 × 4.73 = 47.3 m.\nAnswer: tower 47.3 m high; horizontal distance 27.3 m"
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "slot": "E-case-study (4 marks, with sub-parts)",
+  "type": "case",
+  "marks": 4,
+  "complexity": "medium",
+  "competency": true,
+  "text": "Kite flying. Aarav stands on level ground and flies a kite. The string is taut and straight, 100 m long, and makes an angle of 30° with the horizontal ground. Take Aarav's hand to be at ground level.\n(i) Find the height of the kite above the ground. [1]\n(ii) Find the horizontal distance between Aarav and the point on the ground directly below the kite. [1]\n(iii) The kite stays at the same height. Aarav walks towards the point below it until the string makes 45° with the ground. Find the new length of the string. (Use √2 = 1.41) [2]\nOR\n(iii) Find how far Aarav walked in the situation above. (Use √3 = 1.73) [2]",
+  "answer": "(i) Height = 100 sin 30° = 50 m.\n(ii) Horizontal distance = 100 cos 30° = 50√3 m (about 86.5 m).\n(iii) Kite height is still 50 m. At 45°: string length = 50/sin 45° = 50√2 = 50 × 1.41 = 70.5 m.\nOR (iii) At 45° the horizontal distance = 50/tan 45° = 50 m. Distance walked = 50√3 − 50 = 50(0.73) = 36.5 m."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "slot": "E-case-study (4 marks, with sub-parts)",
+  "type": "case",
+  "marks": 4,
+  "complexity": "medium",
+  "competency": true,
+  "text": "Apartment and the ground. A residential apartment block is 30 m high and stands on level ground. A point P on the ground, in line with the foot of the block, sees the top of the block at an angle of elevation of 60°.\n(i) Find the distance of P from the foot of the block. [1]\n(ii) What is the angle of depression of P as seen from the top of the block? Justify your answer. [1]\n(iii) Rohan walks directly away from the block until the angle of elevation of the top becomes 30°. Find the distance he walked. (Use √3 = 1.73) [2]\nOR\n(iii) Find the length of the line of sight from Rohan to the top of the block when the angle of elevation is 30°. [2]",
+  "answer": "(i) tan 60° = 30/d, so d = 30/√3 = 10√3 m (about 17.3 m).\n(ii) The line of sight from P to the top and the horizontal line through the top are parallel to the ground, so the angle of depression equals the angle of elevation (alternate angles): 60°.\n(iii) At 30°: distance = 30/tan 30° = 30√3 m. Distance walked = 30√3 − 10√3 = 20√3 = 20 × 1.73 = 34.6 m.\nOR (iii) Line of sight = 30/sin 30° = 60 m."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "slot": "E-case-study (4 marks, with sub-parts)",
+  "type": "case",
+  "marks": 4,
+  "complexity": "easy",
+  "competency": true,
+  "text": "The painter's ladder. A painter uses a 16 m long ladder to reach a wall. The ladder rests against a vertical wall on level ground and makes an angle of 60° with the ground.\n(i) How far is the foot of the ladder from the wall? [1]\n(ii) How high up the wall does the ladder reach? (Leave in surd form.) [1]\n(iii) For safety the painter changes the position of the foot of the ladder so that the same ladder makes 45° with the ground. Find how much lower the top of the ladder now is on the wall. (Use √2 = 1.41, √3 = 1.73) [2]\nOR\n(iii) Find how much farther from the wall the foot of the ladder now is. (Use √2 = 1.41) [2]",
+  "answer": "(i) Distance = 16 cos 60° = 8 m.\n(ii) Height = 16 sin 60° = 8√3 m.\n(iii) New height = 16 sin 45° = 8√2 = 8 × 1.41 = 11.28 m. Original height = 8 × 1.73 = 13.84 m. The top is lower by 13.84 − 11.28 = 2.56 m.\nOR (iii) New distance = 16 cos 45° = 8√2 = 11.28 m. The foot is farther by 11.28 − 8 = 3.28 m."
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "slot": "E-case-study (4 marks, with sub-parts)",
+  "type": "case",
+  "marks": 4,
+  "complexity": "hard",
+  "competency": true,
+  "text": "Balloon festival. A hot-air balloon hovers 90 m above level ground at a point directly above a spot O. Two observers A and B stand on opposite sides of O, in line with it. From A the angle of elevation of the balloon is 30° and from B it is 60°.\n(i) Find the distance OA. [1]\n(ii) Find the distance OB. [1]\n(iii) Observer A walks towards O until the angle of elevation of the balloon is 45°. Find the distance A walked and the new distance between A and B (B has not moved). (Use √3 = 1.73) [2]",
+  "answer": "(i) OA = 90/tan 30° = 90√3 m.\n(ii) OB = 90/tan 60° = 30√3 m.\n(iii) At 45° the new distance from O is 90/tan 45° = 90 m. Distance walked by A = 90√3 − 90 = 90(0.73) = 65.7 m.\nNew distance AB = 90 + 30√3 = 90 + 51.9 = 141.9 m (A and B are still on opposite sides of O)."
+ }
+]

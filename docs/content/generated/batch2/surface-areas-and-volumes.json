@@ -1,0 +1,427 @@
+[
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Surface area of solids",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Two identical solid cubes, each of volume $64 \\text{ cm}^{3}$, are joined face to face to form a cuboid. The total surface area of the cuboid is",
+  "options": [
+   "$160 \\text{ cm}^{2}$",
+   "$192 \\text{ cm}^{2}$",
+   "$128 \\text{ cm}^{2}$",
+   "$176 \\text{ cm}^{2}$"
+  ],
+  "answer": "Correct option: A) $160 \\text{ cm}^{2}$. Edge of each cube $= \\sqrt[3]{64} = 4 \\text{ cm}$, so the cuboid measures $8 \\text{ cm} \\times 4 \\text{ cm} \\times 4 \\text{ cm}$. Total surface area $= 2(8 \\times 4 + 4 \\times 4 + 8 \\times 4) = 2(32 + 16 + 32) = 160 \\text{ cm}^{2}$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of combined solids",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "A solid is formed by placing a solid hemisphere of radius $3 \\text{ cm}$ on one flat end of a solid cylinder of radius $3 \\text{ cm}$ and height $5 \\text{ cm}$. The volume of the solid is",
+  "options": [
+   "$81\\pi \\text{ cm}^{3}$",
+   "$63\\pi \\text{ cm}^{3}$",
+   "$99\\pi \\text{ cm}^{3}$",
+   "$72\\pi \\text{ cm}^{3}$"
+  ],
+  "answer": "Correct option: B) $63\\pi \\text{ cm}^{3}$. Volume $= \\pi r^{2}h + \\frac{2}{3}\\pi r^{3} = \\pi(9)(5) + \\frac{2}{3}\\pi(27) = 45\\pi + 18\\pi = 63\\pi \\text{ cm}^{3}$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of combined solids",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A solid is formed by fixing a solid cone of base radius $4 \\text{ cm}$ and height $6 \\text{ cm}$ on top of a solid cylinder of radius $4 \\text{ cm}$ and height $9 \\text{ cm}$, the base of the cone coinciding with a circular face of the cylinder. Its volume is",
+  "options": [
+   "$240\\pi \\text{ cm}^{3}$",
+   "$192\\pi \\text{ cm}^{3}$",
+   "$176\\pi \\text{ cm}^{3}$",
+   "$160\\pi \\text{ cm}^{3}$"
+  ],
+  "answer": "Correct option: C) $176\\pi \\text{ cm}^{3}$. Volume $= \\pi r^{2}h + \\frac{1}{3}\\pi r^{2}h_{1} = \\pi(16)(9) + \\frac{1}{3}\\pi(16)(6) = 144\\pi + 32\\pi = 176\\pi \\text{ cm}^{3}$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of combined solids",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The largest possible solid cone is carved out of a solid cube of edge $12 \\text{ cm}$, with its base on one face of the cube. The volume of the wood left is (use $\\pi = 3.14$)",
+  "options": [
+   "$371.52 \\text{ cm}^{3}$",
+   "$1577.28 \\text{ cm}^{3}$",
+   "$452.16 \\text{ cm}^{3}$",
+   "$1275.84 \\text{ cm}^{3}$"
+  ],
+  "answer": "Correct option: D) $1275.84 \\text{ cm}^{3}$. The largest cone has base radius $6 \\text{ cm}$ and height $12 \\text{ cm}$, so its volume is $\\frac{1}{3}(3.14)(36)(12) = 452.16 \\text{ cm}^{3}$. Wood left $= 1728 - 452.16 = 1275.84 \\text{ cm}^{3}$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of combined solids",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A solid consists of a cylinder of radius $r$ and height $2r$, with a solid hemisphere of radius $r$ fixed on one circular end and a solid cone of radius $r$ and height $r$ fixed on the other circular end. Its total volume is",
+  "options": [
+   "$3\\pi r^{3}$",
+   "$\\frac{7}{3}\\pi r^{3}$",
+   "$\\frac{8}{3}\\pi r^{3}$",
+   "$\\frac{11}{3}\\pi r^{3}$"
+  ],
+  "answer": "Correct option: A) $3\\pi r^{3}$. Volume $= \\pi r^{2}(2r) + \\frac{2}{3}\\pi r^{3} + \\frac{1}{3}\\pi r^{2}(r) = 2\\pi r^{3} + \\frac{2}{3}\\pi r^{3} + \\frac{1}{3}\\pi r^{3} = 3\\pi r^{3}$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of combined solids",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A hemispherical depression of radius $3 \\text{ cm}$ is scooped out from the top face of a solid cuboid measuring $12 \\text{ cm} \\times 10 \\text{ cm} \\times 5 \\text{ cm}$, the circular edge of the depression lying on the top face. The volume of the remaining solid is (use $\\pi = 3.14$)",
+  "options": [
+   "$486.96 \\text{ cm}^{3}$",
+   "$543.48 \\text{ cm}^{3}$",
+   "$430.44 \\text{ cm}^{3}$",
+   "$656.52 \\text{ cm}^{3}$"
+  ],
+  "answer": "Correct option: B) $543.48 \\text{ cm}^{3}$. Volume of cuboid $= 12 \\times 10 \\times 5 = 600 \\text{ cm}^{3}$. Volume of hemisphere $= \\frac{2}{3}(3.14)(27) = 56.52 \\text{ cm}^{3}$. Remaining $= 600 - 56.52 = 543.48 \\text{ cm}^{3}$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Surface area of solids",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": true,
+  "text": "Assertion ($A$): A solid is formed by fixing a solid hemisphere on one flat face of a solid cylinder, both of the same radius. The total surface area of the combined solid is the sum of the total surface areas of the cylinder and the hemisphere.\nReason ($R$): The circular face of the hemisphere that is attached to the cylinder is no longer part of the outer surface of the combined solid.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: D) A is false but R is true. When the solids are joined, the cylinder's circular face and the hemisphere's flat face both disappear from the outer surface, so the total surface area is less than the sum of the two total surface areas. R states this correctly."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Surface area of solids",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The curved surface area of a cone of base radius $12 \\text{ cm}$ and height $16 \\text{ cm}$ is (use $\\pi = 3.14$)",
+  "options": [
+   "$753.6 \\text{ cm}^{2}$",
+   "$602.88 \\text{ cm}^{2}$",
+   "$1205.76 \\text{ cm}^{2}$",
+   "$251.2 \\text{ cm}^{2}$"
+  ],
+  "answer": "Correct option: A) $753.6 \\text{ cm}^{2}$. Slant height $l = \\sqrt{12^{2} + 16^{2}} = 20 \\text{ cm}$. Curved surface area $= \\pi r l = 3.14 \\times 12 \\times 20 = 753.6 \\text{ cm}^{2}$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Surface area of solids",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A solid is made by placing a solid cone of base radius $8 \\text{ cm}$ and slant height $17 \\text{ cm}$ on a solid cylinder of radius $8 \\text{ cm}$ and height $5 \\text{ cm}$, the base of the cone coinciding with the top face of the cylinder. The total surface area of the solid is",
+  "options": [
+   "$344\\pi \\text{ cm}^{2}$",
+   "$216\\pi \\text{ cm}^{2}$",
+   "$280\\pi \\text{ cm}^{2}$",
+   "$144\\pi \\text{ cm}^{2}$"
+  ],
+  "answer": "Correct option: C) $280\\pi \\text{ cm}^{2}$. The outer surface is the base of the cylinder, its curved surface and the curved surface of the cone: $\\pi r^{2} + 2\\pi r h + \\pi r l = 64\\pi + 80\\pi + 136\\pi = 280\\pi \\text{ cm}^{2}$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Surface area of solids",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "hard",
+  "competency": true,
+  "text": "A hemispherical hollow of radius $r$ is scooped out of one flat face of a solid cylinder of radius $r$ and height $r$, the hollow having the same radius as the cylinder. The ratio of the total surface area of the remaining solid to the total surface area of the original cylinder is",
+  "options": [
+   "$3 : 2$",
+   "$5 : 4$",
+   "$1 : 1$",
+   "$7 : 4$"
+  ],
+  "answer": "Correct option: B) $5 : 4$. Original cylinder: $2\\pi r^{2} + 2\\pi r^{2} = 4\\pi r^{2}$. After scooping, the top face is lost ($-\\pi r^{2}$) and the inner hemispherical surface is gained ($+2\\pi r^{2}$), giving $4\\pi r^{2} - \\pi r^{2} + 2\\pi r^{2} = 5\\pi r^{2}$. Ratio $= 5\\pi r^{2} : 4\\pi r^{2} = 5 : 4$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Capacity and cost problems",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "A conical vessel has base radius $3.5 \\text{ cm}$ and height $12 \\text{ cm}$. Its capacity is (use $\\pi = \\frac{22}{7}$)",
+  "options": [
+   "$462 \\text{ cm}^{3}$",
+   "$308 \\text{ cm}^{3}$",
+   "$77 \\text{ cm}^{3}$",
+   "$154 \\text{ cm}^{3}$"
+  ],
+  "answer": "Correct option: D) $154 \\text{ cm}^{3}$. Capacity $= \\frac{1}{3}\\pi r^{2}h = \\frac{1}{3} \\times \\frac{22}{7} \\times 3.5 \\times 3.5 \\times 12 = 154 \\text{ cm}^{3}$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Capacity and cost problems",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A cylindrical drum has base radius $0.7 \\text{ m}$ and height $1.5 \\text{ m}$. The number of litres of oil it can hold when full is (use $\\pi = \\frac{22}{7}$; $1 \\text{ m}^{3} = 1000$ litres)",
+  "options": [
+   "$231$ litres",
+   "$2310$ litres",
+   "$23100$ litres",
+   "$9240$ litres"
+  ],
+  "answer": "Correct option: B) $2310$ litres. Volume $= \\frac{22}{7} \\times 0.7 \\times 0.7 \\times 1.5 = 2.31 \\text{ m}^{3} = 2.31 \\times 1000 = 2310$ litres."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Conversion and recasting of solids",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Assertion ($A$): A solid metal sphere of radius $3 \\text{ cm}$ is melted and recast into $27$ equal small solid spheres. The radius of each small sphere is $1 \\text{ cm}$.\nReason ($R$): When a solid is melted and recast, the total volume of the new solids equals the volume of the original solid.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: A) Both A and R are true and R is the correct explanation of A. Volume is conserved, so $27 \\times \\frac{4}{3}\\pi r^{3} = \\frac{4}{3}\\pi (3)^{3}$, giving $r^{3} = 1$ and $r = 1 \\text{ cm}$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Conversion and recasting of solids",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "A solid metal cylinder of base radius $4 \\text{ cm}$ and height $18 \\text{ cm}$ is melted and recast into a solid cone of the same base radius. The height of the cone is",
+  "options": [
+   "$18 \\text{ cm}$",
+   "$27 \\text{ cm}$",
+   "$54 \\text{ cm}$",
+   "$6 \\text{ cm}$"
+  ],
+  "answer": "Correct option: C) $54 \\text{ cm}$. Volume is conserved: $\\pi (4)^{2}(18) = \\frac{1}{3}\\pi (4)^{2} H$, so $H = 3 \\times 18 = 54 \\text{ cm}$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of combined solids",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Two identical solid cones, each of base radius $7 \\text{ cm}$ and height $6 \\text{ cm}$, are joined base to base to form a double cone. Find the volume of the double cone. (Use $\\pi = \\frac{22}{7}$.)",
+  "answer": "Volume of one cone $= \\frac{1}{3} \\times \\frac{22}{7} \\times 7 \\times 7 \\times 6 = 308 \\text{ cm}^{3}$. Volume of the double cone $= 2 \\times 308 = 616 \\text{ cm}^{3}$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of combined solids",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A rectangular block measures $15 \\text{ cm} \\times 10 \\text{ cm} \\times 4 \\text{ cm}$. A cylindrical hole of diameter $4 \\text{ cm}$ is drilled straight through the block along its $4 \\text{ cm}$ thickness. Find the volume of the block that remains. (Use $\\pi = 3.14$.)",
+  "answer": "Volume of block $= 15 \\times 10 \\times 4 = 600 \\text{ cm}^{3}$. The hole is a cylinder of radius $2 \\text{ cm}$ and height $4 \\text{ cm}$: volume $= 3.14 \\times 2 \\times 2 \\times 4 = 50.24 \\text{ cm}^{3}$. Remaining volume $= 600 - 50.24 = 549.76 \\text{ cm}^{3}$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of combined solids",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A candle is made of wax in the shape of a solid cylinder of radius $3 \\text{ cm}$ and height $14 \\text{ cm}$ with a solid cone of the same radius and height $6 \\text{ cm}$ on top of it. Find the volume of wax in the candle. (Use $\\pi = 3.14$.)",
+  "answer": "Cylinder: $3.14 \\times 3 \\times 3 \\times 14 = 395.64 \\text{ cm}^{3}$. Cone: $\\frac{1}{3} \\times 3.14 \\times 3 \\times 3 \\times 6 = 56.52 \\text{ cm}^{3}$. Total volume $= 395.64 + 56.52 = 452.16 \\text{ cm}^{3}$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Surface area of solids",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The curved surface area of a solid cylinder is $264 \\text{ cm}^{2}$ and its height is $14 \\text{ cm}$. Find its base radius and its volume. (Use $\\pi = \\frac{22}{7}$.)",
+  "answer": "$2\\pi r h = 264 \\Rightarrow 2 \\times \\frac{22}{7} \\times r \\times 14 = 264 \\Rightarrow 88r = 264 \\Rightarrow r = 3 \\text{ cm}$. Volume $= \\frac{22}{7} \\times 3 \\times 3 \\times 14 = 396 \\text{ cm}^{3}$. Radius $= 3 \\text{ cm}$, volume $= 396 \\text{ cm}^{3}$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Surface area of solids",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "From a solid cylinder of radius $5 \\text{ cm}$ and height $12 \\text{ cm}$, a conical cavity of the same radius and the same height $12 \\text{ cm}$ is hollowed out from one circular face. Find the total surface area of the remaining solid. (Use $\\pi = 3.14$.)",
+  "answer": "Slant height of the cavity $l = \\sqrt{5^{2} + 12^{2}} = 13 \\text{ cm}$. The outer surface is the curved surface of the cylinder, the untouched circular base and the curved surface of the cone: $2\\pi r h + \\pi r^{2} + \\pi r l = 120\\pi + 25\\pi + 65\\pi = 210\\pi = 210 \\times 3.14 = 659.4 \\text{ cm}^{2}$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Surface area of solids",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A solid cube of edge $12 \\text{ cm}$ has a cylindrical hole of diameter $6 \\text{ cm}$ drilled straight through from one face to the opposite face. Find the total surface area of the remaining solid, including the inner surface of the hole. (Use $\\pi = 3.14$.)",
+  "answer": "Surface of cube $= 6 \\times 144 = 864 \\text{ cm}^{2}$. Two circular openings of radius $3 \\text{ cm}$ are removed: $2\\pi(3)^{2} = 18\\pi$. Inner curved surface $= 2\\pi(3)(12) = 72\\pi$. Total $= 864 - 18\\pi + 72\\pi = 864 + 54\\pi = 864 + 169.56 = 1033.56 \\text{ cm}^{2}$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Capacity and cost problems",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The roof of a hall is a hemispherical dome of radius $7 \\text{ m}$. Find the cost of painting its outer curved surface at ₹ $12.50$ per $\\text{m}^{2}$. (Use $\\pi = \\frac{22}{7}$.)",
+  "answer": "Curved surface area $= 2\\pi r^{2} = 2 \\times \\frac{22}{7} \\times 7 \\times 7 = 308 \\text{ m}^{2}$. Cost $= 308 \\times 12.50 = 3850$, that is ₹ 3850."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Capacity and cost problems",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A full cuboidal tank measures $4.4 \\text{ m} \\times 3 \\text{ m} \\times 2.1 \\text{ m}$. Its water is emptied completely into identical cylindrical drums, each of base radius $0.7 \\text{ m}$ and height $1.5 \\text{ m}$. How many drums are filled exactly? (Use $\\pi = \\frac{22}{7}$.)",
+  "answer": "Volume of tank $= 4.4 \\times 3 \\times 2.1 = 27.72 \\text{ m}^{3}$. Volume of one drum $= \\frac{22}{7} \\times 0.7 \\times 0.7 \\times 1.5 = 2.31 \\text{ m}^{3}$. Number of drums $= \\frac{27.72}{2.31} = 12$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Conversion and recasting of solids",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": false,
+  "text": "A solid metal cuboid measuring $22 \\text{ cm} \\times 14 \\text{ cm} \\times 9 \\text{ cm}$ is melted and recast into a solid cylinder of base radius $7 \\text{ cm}$. Find the height of the cylinder. (Use $\\pi = \\frac{22}{7}$.)",
+  "answer": "Volume of cuboid $= 22 \\times 14 \\times 9 = 2772 \\text{ cm}^{3}$. Let the height of the cylinder be $h$: $\\frac{22}{7} \\times 7 \\times 7 \\times h = 2772 \\Rightarrow 154h = 2772 \\Rightarrow h = 18 \\text{ cm}$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of combined solids",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A solid is made of a cylinder of radius $3.5 \\text{ cm}$ and height $10 \\text{ cm}$, with a solid hemisphere of the same radius fixed on one circular end and a solid cone of the same radius and height $5 \\text{ cm}$ fixed on the other circular end. Find the volume of the solid. (Use $\\pi = \\frac{22}{7}$.)",
+  "answer": "Cylinder: $\\frac{22}{7} \\times 3.5^{2} \\times 10 = 385 \\text{ cm}^{3}$. Hemisphere: $\\frac{2}{3} \\times \\frac{22}{7} \\times 3.5^{3} = \\frac{539}{6} \\text{ cm}^{3}$. Cone: $\\frac{1}{3} \\times \\frac{22}{7} \\times 3.5^{2} \\times 5 = \\frac{385}{6} \\text{ cm}^{3}$. Total $= 385 + \\frac{539 + 385}{6} = 385 + 154 = 539 \\text{ cm}^{3}$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of combined solids",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "easy",
+  "competency": false,
+  "text": "A solid metal ball of diameter $21 \\text{ cm}$ just fits inside a cubical box of edge $21 \\text{ cm}$. Find the volume of the empty space between the ball and the box. (Use $\\pi = \\frac{22}{7}$.)",
+  "answer": "Volume of cube $= 21^{3} = 9261 \\text{ cm}^{3}$. Radius of ball $= 10.5 \\text{ cm}$, so its volume $= \\frac{4}{3} \\times \\frac{22}{7} \\times 10.5^{3} = 4851 \\text{ cm}^{3}$. Empty space $= 9261 - 4851 = 4410 \\text{ cm}^{3}$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of combined solids",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "hard",
+  "competency": true,
+  "text": "A solid is made by placing a solid cone of base radius $9 \\text{ cm}$ and height $12 \\text{ cm}$ on a solid cylinder of the same radius, the base of the cone coinciding with a circular face of the cylinder. The total volume of the solid is $5086.8 \\text{ cm}^{3}$. Use $\\pi = 3.14$. Find (i) the height of the cylinder, (ii) the total surface area of the solid.",
+  "answer": "(i) Volume $= \\pi r^{2}h + \\frac{1}{3}\\pi r^{2}(12)$, so $3.14 \\times 81 \\times (h + 4) = 5086.8$, giving $h + 4 = 20$ and $h = 16 \\text{ cm}$. (ii) Slant height of the cone $l = \\sqrt{9^{2} + 12^{2}} = 15 \\text{ cm}$. Total surface area $= \\pi r^{2} + 2\\pi r h + \\pi r l = 81\\pi + 288\\pi + 135\\pi = 504\\pi = 1582.56 \\text{ cm}^{2}$. Height $= 16 \\text{ cm}$ and total surface area $= 1582.56 \\text{ cm}^{2}$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Surface area of solids",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A toy is made of a solid cylinder of radius $3 \\text{ cm}$ and height $7 \\text{ cm}$. A solid hemisphere of the same radius is fixed on one circular end and a solid cone of the same radius and height $4 \\text{ cm}$ is fixed on the other circular end. Find the total surface area of the toy. (Use $\\pi = 3.14$.)",
+  "answer": "Slant height of the cone $l = \\sqrt{3^{2} + 4^{2}} = 5 \\text{ cm}$. Hemisphere: $2\\pi r^{2} = 18\\pi$. Cylinder (curved): $2\\pi r h = 42\\pi$. Cone (curved): $\\pi r l = 15\\pi$. Total $= 75\\pi = 75 \\times 3.14 = 235.5 \\text{ cm}^{2}$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Surface area of solids",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A wooden block is a solid cylinder of radius $3.5 \\text{ cm}$ and height $12 \\text{ cm}$. A hemispherical depression of radius $3.5 \\text{ cm}$ is scooped out from each of its two circular faces. Find the total surface area of the block now. (Use $\\pi = \\frac{22}{7}$.)",
+  "answer": "Each depression removes a circular face and adds a hemispherical surface, so the whole circular face is replaced. Surface $=$ curved surface of cylinder $+$ two hemispherical surfaces $= 2\\pi r h + 2(2\\pi r^{2}) = 2 \\times \\frac{22}{7} \\times 3.5 \\times 12 + 4 \\times \\frac{22}{7} \\times 3.5^{2} = 264 + 154 = 418 \\text{ cm}^{2}$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Surface area of solids",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "easy",
+  "competency": false,
+  "text": "A solid cube of edge $6 \\text{ cm}$ is cut into two identical cuboids by a plane parallel to one of its faces and passing through the midpoints of the edges perpendicular to that face. Find the ratio of the total surface area of the original cube to the sum of the total surface areas of the two cuboids.",
+  "answer": "Cube: $6 \\times 6^{2} = 216 \\text{ cm}^{2}$. Each cuboid measures $6 \\text{ cm} \\times 6 \\text{ cm} \\times 3 \\text{ cm}$, with surface area $2(36 + 18 + 18) = 144 \\text{ cm}^{2}$, so the two together have $288 \\text{ cm}^{2}$. Ratio $= 216 : 288 = 3 : 4$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Capacity and cost problems",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A conical tent has base radius $2.1 \\text{ m}$ and height $2.8 \\text{ m}$. Find (i) the area of canvas needed for its curved surface, (ii) the cost of the canvas at ₹ $120$ per $\\text{m}^{2}$, (iii) the volume of air inside the tent. (Use $\\pi = \\frac{22}{7}$.)",
+  "answer": "Slant height $l = \\sqrt{2.1^{2} + 2.8^{2}} = 3.5 \\text{ m}$. (i) Canvas $= \\pi r l = \\frac{22}{7} \\times 2.1 \\times 3.5 = 23.1 \\text{ m}^{2}$. (ii) Cost $= 23.1 \\times 120 = 2772$, that is ₹ 2772. (iii) Volume $= \\frac{1}{3} \\times \\frac{22}{7} \\times 2.1^{2} \\times 2.8 = 12.936 \\text{ m}^{3}$."
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Conversion and recasting of solids",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Three solid metal cubes of edges $3 \\text{ cm}$, $4 \\text{ cm}$ and $5 \\text{ cm}$ are melted together and recast into a single solid cube. Find the edge of the new cube and its total surface area.",
+  "answer": "Total volume $= 3^{3} + 4^{3} + 5^{3} = 27 + 64 + 125 = 216 \\text{ cm}^{3}$. Edge of new cube $= \\sqrt[3]{216} = 6 \\text{ cm}$. Total surface area $= 6 \\times 6^{2} = 216 \\text{ cm}^{2}$. Edge $= 6 \\text{ cm}$, total surface area $= 216 \\text{ cm}^{2}$."
+ }
+]

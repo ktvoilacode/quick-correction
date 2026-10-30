@@ -1,0 +1,142 @@
+/**
+ * People service — the admin's view of teachers and parents.
+ * @file src/api/features/people/people.service.ts
+ *
+ * Accounts are `User` rows; `appRole` says teacher or parent and `appStatus`
+ * says whether a teacher has been approved. Everything here runs after the
+ * route has checked the caller is an admin.
+ */
+import { randomBytes } from 'node:crypto';
+import { databaseClass } from '@bloomneo/appkit/database';
+import { authClass } from '@bloomneo/appkit/auth';
+import { errorClass } from '@bloomneo/appkit/error';
+import { auditService } from '../audit/audit.service.js';
+import { toPublicUser } from '../auth/auth.service.js';
+
+const error = errorClass.get();
+const auth = authClass.get();
+
+export type PersonRole = 'teacher' | 'parent';
+export type PersonStatus = 'active' | 'pending' | 'rejected';
+
+const SELECT = {
+  id: true, name: true, email: true, phone: true, role: true,
+  appRole: true, appStatus: true, isActive: true, lastLogin: true, createdAt: true,
+  _count: { select: { students: true, children: true } },
+} as const;
+
+/** Which kind of account this is: teachers and parents by app role, admins by login role. */
+const kindOf = (u: { appRole: string | null; role: string }) =>
+  u.appRole === 'teacher' ? 'teacher' : u.appRole === 'parent' ? 'parent' : u.role === 'admin' ? 'admin' : 'other';
+
+function shape(u: any) {
+  const { _count, role, ...rest } = u;
+  return { ...rest, kind: kindOf({ appRole: u.appRole, role }), studentCount: _count.students, childCount: _count.children };
+}
+
+const tempPassword = () => randomBytes(9).toString('base64url') + 'Aa1!';
+
+export const peopleService = {
+  async me(userId: string) {
+    const db = await databaseClass.get();
+    const u = await db.user.findUnique({ where: { id: userId }, select: { appRole: true, appStatus: true, isActive: true } });
+    if (!u) throw error.notFound('Account not found');
+    return u;
+  },
+
+  /** Everyone who can sign in: teachers, parents and admins. `kind` narrows to one group. */
+  async list(filters: { kind?: string; status?: string; q?: string }) {
+    const db = await databaseClass.get();
+    const where: any = {};
+    if (filters.kind === 'teacher' || filters.kind === 'parent') where.appRole = filters.kind;
+    if (filters.kind === 'admin') where.role = 'admin';
+    if (filters.status) where.appStatus = filters.status;
+    const q = filters.q?.trim();
+    if (q) where.OR = [{ name: { contains: q } }, { email: { contains: q } }];
+
+    const [rows, pending, teachers, parents, admins, all] = await Promise.all([
+      db.user.findMany({ where, select: SELECT, orderBy: [{ createdAt: 'desc' }] }),
+      db.user.count({ where: { appRole: 'teacher', appStatus: 'pending' } }),
+      db.user.count({ where: { appRole: 'teacher' } }),
+      db.user.count({ where: { appRole: 'parent' } }),
+      db.user.count({ where: { role: 'admin' } }),
+      db.user.count(),
+    ]);
+    return { people: rows.map(shape), counts: { pending, teachers, parents, admins, all } };
+  },
+
+  async create(actorId: string, data: { name?: string; email?: string; phone?: string; appRole?: string; password?: string }) {
+    const email = data.email?.trim().toLowerCase();
+    if (!email || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) throw error.badRequest('A valid email is required');
+    if (data.appRole !== 'teacher' && data.appRole !== 'parent' && data.appRole !== 'admin') throw error.badRequest('Choose teacher, parent or admin');
+    if (data.password && data.password.length < 8) throw error.badRequest('Password must be at least 8 characters');
+
+    const db = await databaseClass.get();
+    if (await db.user.findUnique({ where: { email } })) throw error.badRequest('An account with this email already exists');
+
+    // Shown to the admin once so they can pass it on; only the hash is stored.
+    const password = data.password || tempPassword();
+    const user = await db.user.create({
+      data: {
+        email, name: data.name?.trim() || null, phone: data.phone?.trim() || null,
+        password: await auth.hashPassword(password),
+        // An admin signs in to the console and has no teacher or parent screens; the others are ordinary users.
+        ...(data.appRole === 'admin'
+          ? { role: 'admin', level: 'system', appRole: null, appStatus: 'active' }
+          : { role: 'user', level: 'basic', appRole: data.appRole, appStatus: 'active' }),
+        isVerified: true, isActive: true,
+      },
+      select: SELECT,
+    });
+    auditService.logAudit({ actorId, actorType: 'admin', action: 'people.create', entityType: 'user', entityId: user.id, newValue: { email, appRole: data.appRole } });
+    return { person: shape(user), temporaryPassword: data.password ? null : password };
+  },
+
+  async setStatus(actorId: string, id: string, status: 'active' | 'rejected') {
+    const db = await databaseClass.get();
+    const existing = await db.user.findUnique({ where: { id }, select: { appRole: true, appStatus: true } });
+    if (existing?.appRole !== 'teacher') throw error.notFound('Teacher not found');
+    const user = await db.user.update({ where: { id }, data: { appStatus: status }, select: SELECT });
+    auditService.logAudit({
+      actorId, actorType: 'admin', action: status === 'active' ? 'people.approve' : 'people.reject',
+      entityType: 'user', entityId: id, oldValue: { appStatus: existing.appStatus }, newValue: { appStatus: status },
+    });
+    return shape(user);
+  },
+
+  async setActive(actorId: string, id: string, isActive: boolean) {
+    if (id === actorId) throw error.badRequest('You cannot deactivate your own account');
+    const db = await databaseClass.get();
+    if (!(await db.user.findUnique({ where: { id }, select: { id: true } }))) throw error.notFound('Person not found');
+    const user = await db.user.update({ where: { id }, data: { isActive }, select: SELECT });
+    auditService.logAudit({ actorId, actorType: 'admin', action: isActive ? 'people.enable' : 'people.disable', entityType: 'user', entityId: id });
+    return shape(user);
+  },
+
+  async resetPassword(actorId: string, id: string) {
+    const db = await databaseClass.get();
+    if (!(await db.user.findUnique({ where: { id }, select: { id: true } }))) throw error.notFound('Person not found');
+    const password = tempPassword();
+    await db.user.update({ where: { id }, data: { password: await auth.hashPassword(password) } });
+    auditService.logAudit({ actorId, actorType: 'admin', action: 'people.password_reset', entityType: 'user', entityId: id });
+    return { temporaryPassword: password };
+  },
+
+  /**
+   * "Sign in as": a short-lived login token for a teacher or parent so an admin
+   * can see exactly what they see. Only for accounts that can sign in today, and
+   * never for another admin. Audited with the person it was used on.
+   */
+  async signInAs(actorId: string, id: string) {
+    const db = await databaseClass.get();
+    const user = await db.user.findUnique({ where: { id } });
+    if (!user?.appRole) throw error.notFound('Person not found');
+    if (!user.isActive) throw error.badRequest('This account is disabled. Enable it first.');
+    const token = auth.generateLoginToken(
+      { userId: user.id, role: user.role, level: user.level, tenantId: user.tenantId ?? null },
+      '1h',
+    );
+    auditService.logAudit({ actorId, actorType: 'admin', action: 'people.sign_in_as', entityType: 'user', entityId: id });
+    return { message: 'Login successful', token, user: toPublicUser(user) };
+  },
+};

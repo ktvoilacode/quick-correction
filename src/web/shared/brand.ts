@@ -25,7 +25,7 @@ export const brand = {
    *   nav: [{ label: 'Pricing', to: '/pricing' }],
    */
   nav: [
-    { label: 'Prototype', to: '/demo' },
+    { label: 'Prototype', to: '/' },
     { label: 'About', to: '/about' },
     { label: 'Contact', to: '/contact' },
   ] as { label: string; to: string }[],

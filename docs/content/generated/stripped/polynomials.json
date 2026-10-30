@@ -1,0 +1,248 @@
+[
+ {
+  "idx": 0,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The sum of the zeroes of the polynomial p(x) = 2x\u00b2 \u2212 8x + 6 is",
+  "options": [
+   "4",
+   "\u22124",
+   "3",
+   "8"
+  ]
+ },
+ {
+  "idx": 1,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The product of the zeroes of the polynomial 3x\u00b2 + 5x \u2212 12 is",
+  "options": [
+   "\u22124",
+   "4",
+   "\u22125/3",
+   "12"
+  ]
+ },
+ {
+  "idx": 2,
+  "marks": 1,
+  "type": "mcq",
+  "text": "If \u03b1 and \u03b2 are the zeroes of the polynomial x\u00b2 \u2212 9x + 14, then 1/\u03b1 + 1/\u03b2 is equal to",
+  "options": [
+   "9/14",
+   "14/9",
+   "\u22129/14",
+   "5/14"
+  ]
+ },
+ {
+  "idx": 3,
+  "marks": 1,
+  "type": "mcq",
+  "text": "If the sum of the zeroes of the polynomial x\u00b2 \u2212 (k + 3)x + 5 is 9, then the value of k is",
+  "options": [
+   "6",
+   "12",
+   "\u22126",
+   "3"
+  ]
+ },
+ {
+  "idx": 4,
+  "marks": 1,
+  "type": "mcq",
+  "text": "If \u03b1 and \u03b2 are the zeroes of the polynomial x\u00b2 \u2212 4x + 3, then \u03b1\u00b2 + \u03b2\u00b2 is equal to",
+  "options": [
+   "10",
+   "22",
+   "16",
+   "7"
+  ]
+ },
+ {
+  "idx": 5,
+  "marks": 1,
+  "type": "mcq",
+  "text": "One zero of the polynomial 3x\u00b2 \u2212 8x + (2k \u2212 1) is the reciprocal of the other. The value of k is",
+  "options": [
+   "2",
+   "1",
+   "3/2",
+   "\u22121"
+  ]
+ },
+ {
+  "idx": 6,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The zeroes \u03b1 and \u03b2 of the polynomial x\u00b2 \u2212 8x + k satisfy \u03b1 \u2212 \u03b2 = 2. The value of k is",
+  "options": [
+   "15",
+   "12",
+   "16",
+   "10"
+  ]
+ },
+ {
+  "idx": 7,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The graph of y = p(x) cuts the x-axis at exactly three distinct points. The number of zeroes of p(x) is",
+  "options": [
+   "3",
+   "2",
+   "1",
+   "0"
+  ]
+ },
+ {
+  "idx": 8,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The graph of a quadratic polynomial y = p(x) is a parabola opening upwards that just touches the x-axis at the point (4, 0) and does not cross it. The number of zeroes of p(x) is",
+  "options": [
+   "1",
+   "2",
+   "0",
+   "4"
+  ]
+ },
+ {
+  "idx": 9,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The graph of a cubic polynomial y = p(x) meets the x-axis at exactly the three points (\u22123, 0), (0, 0) and (2, 0). The sum of the zeroes of p(x) is",
+  "options": [
+   "\u22121",
+   "1",
+   "5",
+   "0"
+  ]
+ },
+ {
+  "idx": 10,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A quadratic polynomial whose zeroes are 3 and \u22125 is",
+  "options": [
+   "x\u00b2 + 2x \u2212 15",
+   "x\u00b2 \u2212 2x \u2212 15",
+   "x\u00b2 + 2x + 15",
+   "x\u00b2 \u2212 8x \u2212 15"
+  ]
+ },
+ {
+  "idx": 11,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The number of quadratic polynomials having 2 and 7 as their zeroes is",
+  "options": [
+   "infinitely many",
+   "only one",
+   "exactly two",
+   "none"
+  ]
+ },
+ {
+  "idx": 12,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A quadratic polynomial whose zeroes are 2 + \u221a3 and 2 \u2212 \u221a3 is",
+  "options": [
+   "x\u00b2 \u2212 4x + 1",
+   "x\u00b2 + 4x + 1",
+   "x\u00b2 \u2212 4x \u2212 1",
+   "x\u00b2 \u2212 4x + 7"
+  ]
+ },
+ {
+  "idx": 13,
+  "marks": 1,
+  "type": "mcq",
+  "text": "If 2 is a zero of the polynomial 2x\u00b2 + kx \u2212 14, then the value of k is",
+  "options": [
+   "3",
+   "\u22123",
+   "11",
+   "\u221211"
+  ]
+ },
+ {
+  "idx": 14,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Which of the following polynomials has no real zero?",
+  "options": [
+   "x\u00b2 + 4",
+   "x\u00b2 \u2212 4",
+   "x\u00b2 + 4x",
+   "x\u00b2 \u2212 4x + 4"
+  ]
+ },
+ {
+  "idx": 15,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Assertion (A): The polynomial x\u00b2 + 3x + 4 has no real zeroes.\nReason (R): A quadratic polynomial ax\u00b2 + bx + c has real zeroes if and only if b\u00b2 \u2212 4ac \u2265 0.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ]
+ },
+ {
+  "idx": 16,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Assertion (A): The sum of the zeroes of the polynomial 2x\u00b2 \u2212 6x + 1 is \u22123.\nReason (R): For a quadratic polynomial ax\u00b2 + bx + c, the sum of the zeroes is \u2212b/a.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ]
+ },
+ {
+  "idx": 17,
+  "marks": 2,
+  "type": "short",
+  "text": "Find the zeroes of the polynomial 6x\u00b2 \u2212 7x \u2212 3 and verify the relationship between the zeroes and the coefficients."
+ },
+ {
+  "idx": 18,
+  "marks": 2,
+  "type": "short",
+  "text": "If \u03b1 and \u03b2 are the zeroes of the polynomial 3x\u00b2 \u2212 5x \u2212 2, find the value of \u03b1\u00b2\u03b2 + \u03b1\u03b2\u00b2."
+ },
+ {
+  "idx": 19,
+  "marks": 2,
+  "type": "short",
+  "text": "The zeroes of the polynomial 3x\u00b2 + (2k \u2212 4)x \u2212 12 are equal in magnitude but opposite in sign. Find the value of k and the zeroes of the polynomial."
+ },
+ {
+  "idx": 20,
+  "marks": 3,
+  "type": "short",
+  "text": "If \u03b1 and \u03b2 are the zeroes of the polynomial 6x\u00b2 + x \u2212 2, find the value of 1/\u03b1 + 1/\u03b2 \u2212 2\u03b1\u03b2."
+ },
+ {
+  "idx": 21,
+  "marks": 3,
+  "type": "short",
+  "text": "If \u03b1 and \u03b2 are the zeroes of the polynomial 5x\u00b2 \u2212 7x + 2, find a quadratic polynomial whose zeroes are (\u03b1 + \u03b2) and \u03b1\u03b2."
+ },
+ {
+  "idx": 22,
+  "marks": 4,
+  "type": "case",
+  "text": "A water fountain throws a jet of water. The height h (in metres) of a drop of water above the nozzle after t seconds is given by h(t) = 8t \u2212 2t\u00b2, until it falls back to the nozzle level.\n(i) Find the zeroes of the polynomial h(t) = 8t \u2212 2t\u00b2. [1]\n(ii) Will the graph of h against t open upwards or downwards? Give a reason. [1]\n(iii) Find the height of the drop at t = 1 s and at t = 3 s. What do you observe about the two heights and the zeroes you found in (i)? [2]\nOR\n(iii) Find the sum and product of the zeroes of h(t) using the coefficients and check them against your answer to (i). [2]"
+ },
+ {
+  "idx": 23,
+  "marks": 4,
+  "type": "case",
+  "text": "The length and breadth (in metres) of a rectangular vegetable plot are the zeroes of the polynomial p(x) = x\u00b2 \u2212 17x + 60.\n(i) Find the perimeter of the plot. [1]\n(ii) Find the area of the plot. [1]\n(iii) The farmer plans a new plot whose length and breadth are each twice those of the first plot. Find a quadratic polynomial whose zeroes are the length and breadth of the new plot. [2]"
+ }
+]

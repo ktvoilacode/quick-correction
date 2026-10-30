@@ -1,0 +1,844 @@
+[
+ {
+  "id": "a8",
+  "chapter": "Arithmetic Progressions",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The 10th term of the AP $2, 7, 12, \\dots$ is:",
+  "options": [
+   "$47$",
+   "$52$",
+   "$45$",
+   "$50$"
+  ],
+  "answer": null
+ },
+ {
+  "id": "a9",
+  "chapter": "Arithmetic Progressions",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The common difference of the AP $\\frac{1}{3}, \\frac{5}{3}, \\frac{9}{3}, \\dots$ is:",
+  "options": [
+   "$\\frac{1}{3}$",
+   "$\\frac{4}{3}$",
+   "$1$",
+   "$\\frac{5}{3}$"
+  ],
+  "answer": null
+ },
+ {
+  "id": "c3",
+  "chapter": "Arithmetic Progressions",
+  "type": "short",
+  "marks": 3,
+  "text": "How many terms of the AP $9, 17, 25, \\dots$ must be taken to give a sum of $636$?",
+  "answer": null
+ },
+ {
+  "id": "e1",
+  "chapter": "Arithmetic Progressions",
+  "type": "case",
+  "marks": 4,
+  "text": "Case study — A school auditorium has 20 seats in the first row, 22 in the second, 24 in the third, and so on for 30 rows. (i) How many seats are in the 15th row? (ii) How many seats are there in total? (iii) Which row has 50 seats?",
+  "answer": null
+ },
+ {
+  "id": "cmvq9r2g000177gcng0c1t805",
+  "chapter": "Arithmetic Progressions",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The 10th term of the AP $7, 11, 15, 19, \\dots$ is",
+  "options": [
+   "$39$",
+   "$43$",
+   "$47$",
+   "$51$"
+  ],
+  "answer": "Correct option: B) $43$. Here $a = 7$, $d = 4$, so $a_{10} = 7 + 9 \\times 4 = 43$."
+ },
+ {
+  "id": "cmvq9r2g100197gcn9ecxam6m",
+  "chapter": "Arithmetic Progressions",
+  "type": "mcq",
+  "marks": 1,
+  "text": "In an AP, the 3rd term is 13 and the 7th term is 29. Its 10th term is",
+  "options": [
+   "$37$",
+   "$41$",
+   "$45$",
+   "$33$"
+  ],
+  "answer": "Correct option: B) $41$. $4d = 29 - 13 = 16$, so $d = 4$ and $a = 13 - 8 = 5$. Then $a_{10} = 5 + 9 \\times 4 = 41$."
+ },
+ {
+  "id": "cmvq9r2g1001b7gcnltamxnm2",
+  "chapter": "Arithmetic Progressions",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The 7th term from the end of the AP $4, 9, 14, \\dots, 254$ is",
+  "options": [
+   "$219$",
+   "$224$",
+   "$229$",
+   "$249$"
+  ],
+  "answer": "Correct option: B) $224$. The common difference is 5 and the last term is 254. Counting backwards, the 7th term from the end $= 254 - 6 \\times 5 = 224$."
+ },
+ {
+  "id": "cmvq9r2g2001d7gcnntfrd5e5",
+  "chapter": "Arithmetic Progressions",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The sum of the first 20 terms of the AP $5, 8, 11, 14, \\dots$ is",
+  "options": [
+   "$650$",
+   "$670$",
+   "$635$",
+   "$1340$"
+  ],
+  "answer": "Correct option: B) $670$. $S_{20} = \\frac{20}{2}[2 \\times 5 + 19 \\times 3] = 10 \\times 67 = 670$."
+ },
+ {
+  "id": "cmvq9r2g3001f7gcnup1v0d5v",
+  "chapter": "Arithmetic Progressions",
+  "type": "mcq",
+  "marks": 1,
+  "text": "If the sum of the first $n$ terms of an AP is $S_{n} = 3n^{2} + 2n$, then its 10th term is",
+  "options": [
+   "$59$",
+   "$61$",
+   "$320$",
+   "$53$"
+  ],
+  "answer": "Correct option: A) $59$. $a_{10} = S_{10} - S_{9} = (300 + 20) - (243 + 18) = 320 - 261 = 59$."
+ },
+ {
+  "id": "cmvq9r2g3001h7gcnp4agx4gf",
+  "chapter": "Arithmetic Progressions",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Which term of the AP $3, 10, 17, 24, \\dots$ is $185$?",
+  "options": [
+   "25th",
+   "26th",
+   "27th",
+   "28th"
+  ],
+  "answer": "Correct option: C) 27th. $a = 3$, $d = 7$. $3 + (n - 1) \\times 7 = 185$ gives $n - 1 = 26$, so $n = 27$."
+ },
+ {
+  "id": "cmvq9r2g4001j7gcnnveknp08",
+  "chapter": "Arithmetic Progressions",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The first term of an AP is 5, the last term is 45 and the sum of all its terms is 250. The number of terms is",
+  "options": [
+   "$5$",
+   "$8$",
+   "$10$",
+   "$12$"
+  ],
+  "answer": "Correct option: C) $10$. $S = \\frac{n}{2}(a + l)$ gives $250 = \\frac{n}{2}(50) = 25n$, so $n = 10$."
+ },
+ {
+  "id": "cmvq9r2g5001l7gcnpoh3eaig",
+  "chapter": "Arithmetic Progressions",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The common difference of the AP whose $n$th term is $a_{n} = 4 - 3n$ is",
+  "options": [
+   "$3$",
+   "$-3$",
+   "$4$",
+   "$1$"
+  ],
+  "answer": "Correct option: B) $-3$. $a_{n+1} - a_{n} = [4 - 3(n+1)] - [4 - 3n] = -3$."
+ },
+ {
+  "id": "cmvq9r2g5001n7gcnzlndiv57",
+  "chapter": "Arithmetic Progressions",
+  "type": "mcq",
+  "marks": 1,
+  "text": "In an AP, the 12th term exceeds the 7th term by 35. The common difference is",
+  "options": [
+   "$5$",
+   "$7$",
+   "$35$",
+   "$3$"
+  ],
+  "answer": "Correct option: B) $7$. $a_{12} - a_{7} = 5d = 35$, so $d = 7$."
+ },
+ {
+  "id": "cmvq9r2g6001p7gcna37tiekx",
+  "chapter": "Arithmetic Progressions",
+  "type": "mcq",
+  "marks": 1,
+  "text": "If $k + 2$, $4k - 6$ and $3k - 2$ are three consecutive terms of an AP, then $k$ is",
+  "options": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$6$"
+  ],
+  "answer": "Correct option: B) $3$. Using $2b = a + c$: $2(4k - 6) = (k + 2) + (3k - 2)$, so $8k - 12 = 4k$ and $k = 3$."
+ },
+ {
+  "id": "cmvq9r2g8001r7gcno0ru10v7",
+  "chapter": "Arithmetic Progressions",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Assertion (A): If $5, x, 21$ are three consecutive terms of an AP, then $x = 13$.\nReason (R): Three numbers $a, b, c$ are in AP if and only if $2b = a + c$.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: A) Both A and R are true and R is the correct explanation of A. By R, $2x = 5 + 21 = 26$, so $x = 13$. Hence A is true and R is the property used to get it."
+ },
+ {
+  "id": "cmvq9r2g8001t7gcnof4jdoha",
+  "chapter": "Arithmetic Progressions",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Assertion (A): The sequence whose $n$th term is $a_{n} = n^{2} + 1$ is an AP.\nReason (R): In an AP the difference between any two consecutive terms is the same constant.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: D) A is false but R is true. The terms are $2, 5, 10, \\dots$; the differences 3 and 5 are unequal, so A is false. R is the definition of an AP, so it is true."
+ },
+ {
+  "id": "cmvq9r2g9001v7gcnwind0ohp",
+  "chapter": "Arithmetic Progressions",
+  "type": "short",
+  "marks": 2,
+  "text": "Find the sum of all two-digit natural numbers that are divisible by 7.",
+  "answer": "The numbers are $14, 21, \\dots, 98$, an AP with $a = 14$, $d = 7$, $l = 98$.\n$98 = 14 + (n - 1) \\times 7$ gives $n = 13$.\nSum $= \\frac{13}{2}(14 + 98) = \\frac{13}{2}(112) = 728$.\nAnswer: 728."
+ },
+ {
+  "id": "cmvq9r2g9001x7gcnjrpcqwuz",
+  "chapter": "Arithmetic Progressions",
+  "type": "short",
+  "marks": 3,
+  "text": "Find the first negative term of the AP $100, 94, 88, \\dots$ and state which term it is.",
+  "answer": "$a = 100$, $d = -6$, $a_{n} = 100 - 6(n - 1) = 106 - 6n$.\nFor $a_{n} < 0$: $106 - 6n < 0$, so $n > 17.67$. The least integer is $n = 18$.\n$a_{18} = 106 - 108 = -2$ (while $a_{17} = 4$ is positive).\nAnswer: the first negative term is the 18th term, $-2$."
+ },
+ {
+  "id": "cmvq9r2ga001z7gcnu3k2vhyx",
+  "chapter": "Arithmetic Progressions",
+  "type": "short",
+  "marks": 3,
+  "text": "Meera starts saving by putting ₹150 in her piggy bank in the first week and increases her deposit by ₹25 every week. In which week will she deposit ₹400, and how much will she have saved by the end of that week?",
+  "answer": "Weekly deposits form an AP with $a = 150$, $d = 25$.\n$150 + (n - 1) \\times 25 = 400$ gives $n - 1 = 10$, so $n = 11$.\nTotal saved $= \\frac{11}{2}(150 + 400) = \\frac{11}{2}(550) = 3025$.\nAnswer: 11th week; ₹3025."
+ },
+ {
+  "id": "cmvq9r2ga00217gcnhlqtge2s",
+  "chapter": "Arithmetic Progressions",
+  "type": "short",
+  "marks": 3,
+  "text": "The sum of the first 7 terms of an AP is 63 and the sum of the next 7 terms is 161. Find the 28th term of the AP.",
+  "answer": "$S_{7} = 63$ gives $\\frac{7}{2}(2a + 6d) = 63$, so $a + 3d = 9$ ... (1).\n$S_{14} = 63 + 161 = 224$ gives $7(2a + 13d) = 224$, so $2a + 13d = 32$ ... (2).\n(2) $- 2 \\times$(1): $7d = 14$, so $d = 2$ and $a = 3$.\n$a_{28} = 3 + 27 \\times 2 = 57$.\nAnswer: 57."
+ },
+ {
+  "id": "cmvq9r2gb00237gcnwrbdm2nm",
+  "chapter": "Arithmetic Progressions",
+  "type": "long",
+  "marks": 5,
+  "text": "The 4th term of an AP is 11 and the sum of its 5th and 7th terms is 34. Find the common difference and the first term. Hence find which term of the AP is 59 and the sum of the first 20 terms.",
+  "answer": "$a + 3d = 11$ ... (1). $a_{5} + a_{7} = 2a + 10d = 34$, so $a + 5d = 17$ ... (2).\n(2) $-$ (1): $2d = 6$, $d = 3$, and $a = 11 - 9 = 2$.\nThe AP is $2, 5, 8, 11, \\dots$\n$2 + (n - 1) \\times 3 = 59$ gives $n - 1 = 19$, so $n = 20$ (the 20th term).\n$S_{20} = \\frac{20}{2}(2 + 59) = 10 \\times 61 = 610$.\nAnswer: $d = 3$, $a = 2$; 59 is the 20th term; $S_{20} = 610$."
+ },
+ {
+  "id": "cmvq9r2gb00257gcnxi5h99cy",
+  "chapter": "Arithmetic Progressions",
+  "type": "long",
+  "marks": 5,
+  "text": "How many terms of the AP $24, 21, 18, \\dots$ must be taken so that their sum is 78? Explain why there are two answers, and verify them.",
+  "answer": "$a = 24$, $d = -3$. $S_{n} = \\frac{n}{2}[48 + (n - 1)(-3)] = \\frac{n}{2}(51 - 3n) = 78$.\nSo $51n - 3n^{2} = 156$, i.e. $n^{2} - 17n + 52 = 0$, so $(n - 4)(n - 13) = 0$, $n = 4$ or $n = 13$.\nCheck: $24 + 21 + 18 + 15 = 78$ ($n = 4$).\nThe terms keep decreasing and become zero and then negative: $a_{5} = 12$, $a_{6} = 9$, $\\dots$, $a_{9} = 0$, $a_{10} = -3$, $\\dots$, $a_{13} = -12$. Terms $a_{5}$ to $a_{13}$ are $12, 9, 6, 3, 0, -3, -6, -9, -12$, whose sum is 0, so the sum is 78 again after 13 terms.\nAnswer: 4 or 13 terms."
+ },
+ {
+  "id": "cmvq9r2gb00277gcntyqrz0sw",
+  "chapter": "Arithmetic Progressions",
+  "type": "case",
+  "marks": 4,
+  "text": "A small auditorium has 25 rows of seats. The first row has 18 seats and each row has 2 more seats than the row in front of it.\n(i) How many seats are there in the 10th row? [1]\n(ii) Which row has 60 seats? [1]\n(iii) Find the total number of seats in the auditorium. [2]",
+  "answer": "The seats form an AP with $a = 18$, $d = 2$.\n(i) $a_{10} = 18 + 9 \\times 2 = 36$ seats.\n(ii) $18 + (n - 1) \\times 2 = 60$ gives $n - 1 = 21$, so $n = 22$. The 22nd row.\n(iii) $a_{25} = 18 + 24 \\times 2 = 66$. $S_{25} = \\frac{25}{2}(18 + 66) = \\frac{25}{2}(84) = 1050$ seats."
+ },
+ {
+  "id": "cmvq9r2gc00297gcnc00uj9kb",
+  "chapter": "Arithmetic Progressions",
+  "type": "case",
+  "marks": 4,
+  "text": "Kabir is preparing for a race. He runs 3 km on the first day of his training and increases his distance by 0.4 km every day.\n(i) How far does he run on the 8th day? [1]\n(ii) On which day does he run 7 km? [1]\n(iii) What is the total distance he runs in the first 15 days? [2]",
+  "answer": "AP with $a = 3$, $d = 0.4$.\n(i) $a_{8} = 3 + 7 \\times 0.4 = 5.8$ km.\n(ii) $3 + (n - 1)(0.4) = 7$ gives $n - 1 = 10$, so $n = 11$. The 11th day.\n(iii) $a_{15} = 3 + 14 \\times 0.4 = 8.6$. $S_{15} = \\frac{15}{2}(3 + 8.6) = 7.5 \\times 11.6 = 87$ km."
+ },
+ {
+  "id": "cmvq9r2gc002b7gcn6pzf267i",
+  "chapter": "Arithmetic Progressions",
+  "type": "case",
+  "marks": 4,
+  "text": "A school gives 7 cash prizes at its annual day. The first prize is ₹700 and every next prize is ₹20 less than the prize before it.\n(i) What is the common difference of the AP formed by the prize amounts? [1]\n(ii) What is the amount of the 7th prize? [1]\n(iii) Find the total prize money for the 7 prizes. [2]\nOR\n(iii) If the school had given 9 prizes in the same way, what would the total prize money be? [2]",
+  "answer": "The prizes form an AP: $700, 680, 660, \\dots$\n(i) $d = -20$.\n(ii) $a_{7} = 700 + 6 \\times (-20) = 580$, so the 7th prize is ₹580.\n(iii) $S_{7} = \\frac{7}{2}(700 + 580) = \\frac{7}{2}(1280) = $ ₹4480.\nOR (iii) $a_{9} = 700 - 160 = 540$. $S_{9} = \\frac{9}{2}(700 + 540) = \\frac{9}{2}(1240) = $ ₹5580."
+ },
+ {
+  "id": "cmvq9r2gd002d7gcnuxj8gspr",
+  "chapter": "Arithmetic Progressions",
+  "type": "case",
+  "marks": 4,
+  "text": "Ananya is reading a 300-page novel. She reads 12 pages on the first day and, every day after that, reads 4 pages more than on the previous day.\n(i) How many pages does she read on the 6th day? [1]\n(ii) How many pages has she read in total in the first 5 days? [1]\n(iii) In how many days does she finish the book, and how many pages does she read on the last day? [2]",
+  "answer": "AP with $a = 12$, $d = 4$.\n(i) $a_{6} = 12 + 5 \\times 4 = 32$ pages.\n(ii) $S_{5} = \\frac{5}{2}(24 + 16) = \\frac{5}{2}(40) = 100$ pages.\n(iii) $S_{n} = \\frac{n}{2}[24 + 4(n - 1)] = n(2n + 10) = 300$, so $n^{2} + 5n - 150 = 0$, $(n + 15)(n - 10) = 0$. Since $n > 0$, $n = 10$ days.\nLast day: $a_{10} = 12 + 9 \\times 4 = 48$ pages."
+ },
+ {
+  "id": "a5",
+  "chapter": "Pair of Linear Equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The pair of equations $x + 2y = 5$ and $2x + 4y = 10$ has:",
+  "options": [
+   "a unique solution",
+   "no solution",
+   "infinitely many solutions",
+   "exactly two solutions"
+  ],
+  "answer": null
+ },
+ {
+  "id": "b2",
+  "chapter": "Pair of Linear Equations",
+  "type": "short",
+  "marks": 2,
+  "text": "Solve: $2x + 3y = 11$ and $2x - 4y = -24$.",
+  "answer": null
+ },
+ {
+  "id": "cmvq9r2hc006d7gcntsp7c4p5",
+  "chapter": "Pair of Linear Equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The pair of equations $3x + ky = 9$ and $6x + 8y = 18$ has infinitely many solutions. The value of $k$ is",
+  "options": [
+   "$2$",
+   "$4$",
+   "$6$",
+   "$8$"
+  ],
+  "answer": "Correct option: B) $4$. For infinitely many solutions $\\frac{a_{1}}{a_{2}} = \\frac{b_{1}}{b_{2}} = \\frac{c_{1}}{c_{2}}$, i.e. $\\frac{3}{6} = \\frac{k}{8} = \\frac{9}{18} = \\frac{1}{2}$, so $k = 4$."
+ },
+ {
+  "id": "cmvq9r2hc006f7gcnlkwlcicv",
+  "chapter": "Pair of Linear Equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "For what value of $k$ does the pair of linear equations $4x + ky = 9$ and $6x + 9y = 11$ have no solution?",
+  "options": [
+   "$6$",
+   "$13.5$",
+   "$4$",
+   "$9$"
+  ],
+  "answer": "Correct option: A) $6$. No solution needs $\\frac{a_{1}}{a_{2}} = \\frac{b_{1}}{b_{2}} \\ne \\frac{c_{1}}{c_{2}}$. Here $\\frac{4}{6} = \\frac{k}{9}$ gives $k = 6$, and $\\frac{c_{1}}{c_{2}} = \\frac{9}{11} \\ne \\frac{2}{3}$, so the condition holds. $k = 6$."
+ },
+ {
+  "id": "cmvq9r2hd006h7gcn69kms059",
+  "chapter": "Pair of Linear Equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The pair of equations $kx + 4y = 7$ and $3x + 2y = 1$ has a unique solution for",
+  "options": [
+   "$k \\ne 2$",
+   "$k = 6$",
+   "$k \\ne 6$",
+   "$k \\ne 12$"
+  ],
+  "answer": "Correct option: C) $k \\ne 6$. Unique solution needs $\\frac{a_{1}}{a_{2}} \\ne \\frac{b_{1}}{b_{2}}$, i.e. $\\frac{k}{3} \\ne \\frac{4}{2} = 2$, so $k \\ne 6$."
+ },
+ {
+  "id": "cmvq9r2hd006j7gcnq1mcgtvz",
+  "chapter": "Pair of Linear Equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "If the pair of equations $(k - 2)x + 3y = k$ and $kx + 6y = k + 4$ has infinitely many solutions, then $k$ equals",
+  "options": [
+   "$2$",
+   "$6$",
+   "$8$",
+   "$4$"
+  ],
+  "answer": "Correct option: D) $4$. Need $\\frac{k - 2}{k} = \\frac{3}{6} = \\frac{k}{k + 4}$. From $\\frac{k - 2}{k} = \\frac{1}{2}$: $2k - 4 = k$, so $k = 4$. Check: $\\frac{k}{k + 4} = \\frac{4}{8} = \\frac{1}{2}$, which matches. $k = 4$."
+ },
+ {
+  "id": "cmvq9r2he006l7gcndn175qru",
+  "chapter": "Pair of Linear Equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "On the same graph the lines $x = 3$ and $y = -2$ are drawn. They intersect at the point",
+  "options": [
+   "$(-2, 3)$",
+   "$(3, -2)$",
+   "$(3, 2)$",
+   "$(0, 0)$"
+  ],
+  "answer": "Correct option: B) $(3, -2)$. $x = 3$ is a vertical line and $y = -2$ is a horizontal line, so they meet at $(3, -2)$."
+ },
+ {
+  "id": "cmvq9r2he006n7gcnutb4h9hg",
+  "chapter": "Pair of Linear Equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The graphs of $2x + y = 6$ and $2x - y = 2$ cut the $x$-axis at points $A$ and $B$ respectively. The distance $AB$ is",
+  "options": [
+   "1 unit",
+   "3 units",
+   "2 units",
+   "4 units"
+  ],
+  "answer": "Correct option: C) 2 units. Put $y = 0$: $2x = 6$ gives $A(3, 0)$; $2x = 2$ gives $B(1, 0)$. $AB = 3 - 1 = 2$ units."
+ },
+ {
+  "id": "cmvq9r2hf006p7gcnavscwrvx",
+  "chapter": "Pair of Linear Equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The sum of two numbers is 40 and their difference is 14. The larger number is",
+  "options": [
+   "$13$",
+   "$26$",
+   "$27$",
+   "$14$"
+  ],
+  "answer": "Correct option: C) $27$. Let the numbers be $x > y$. $x + y = 40$ and $x - y = 14$. Adding: $2x = 54$, so $x = 27$."
+ },
+ {
+  "id": "cmvq9r2hf006r7gcnbkcsviy7",
+  "chapter": "Pair of Linear Equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "3 kg of apples and 1 kg of grapes together cost ₹340, while 1 kg of apples and 2 kg of grapes together cost ₹280. The cost of 2 kg of apples and 3 kg of grapes is",
+  "options": [
+   "₹420",
+   "₹440",
+   "₹480",
+   "₹460"
+  ],
+  "answer": "Correct option: D) ₹460. Let apples be ₹$a$/kg and grapes ₹$g$/kg. $3a + g = 340$, $a + 2g = 280$. Multiply the first by 2: $6a + 2g = 680$; subtract the second: $5a = 400$, $a = 80$, $g = 100$. Cost $= 2(80) + 3(100) = 160 + 300 = $ ₹460."
+ },
+ {
+  "id": "cmvq9r2hg006t7gcnm2cuur8k",
+  "chapter": "Pair of Linear Equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "If $2x + 3y = 13$ and $3x + 2y = 12$, then $x^{2} + y^{2}$ equals",
+  "options": [
+   "$5$",
+   "$25$",
+   "$13$",
+   "$1$"
+  ],
+  "answer": "Correct option: C) $13$. Adding: $5x + 5y = 25$, $x + y = 5$. Subtracting the first from the second: $x - y = -1$, so $x = 2$, $y = 3$. Then $x^{2} + y^{2} = 4 + 9 = 13$."
+ },
+ {
+  "id": "cmvq9r2hg006v7gcnos59icet",
+  "chapter": "Pair of Linear Equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "If $x = 2$, $y = 3$ is the solution of the pair $ax + by = 13$ and $bx + ay = 12$, then $a + b$ equals",
+  "options": [
+   "$1$",
+   "$5$",
+   "$6$",
+   "$13$"
+  ],
+  "answer": "Correct option: B) $5$. Substituting: $2a + 3b = 13$ and $3a + 2b = 12$. Adding: $5a + 5b = 25$, so $a + b = 5$. (Indeed $a = 2$, $b = 3$.)"
+ },
+ {
+  "id": "cmvq9r2hh006x7gcnx9w28cxz",
+  "chapter": "Pair of Linear Equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Assertion (A): The pair of linear equations $2x - 3y = 5$ and $4x - 6y = 9$ has no solution.\nReason (R): A pair $a_{1}x + b_{1}y + c_{1} = 0$ and $a_{2}x + b_{2}y + c_{2} = 0$ is inconsistent when $\\frac{a_{1}}{a_{2}} = \\frac{b_{1}}{b_{2}} \\ne \\frac{c_{1}}{c_{2}}$.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: A) Both A and R are true and R is the correct explanation of A. Here $\\frac{a_{1}}{a_{2}} = \\frac{2}{4} = \\frac{1}{2}$, $\\frac{b_{1}}{b_{2}} = \\frac{-3}{-6} = \\frac{1}{2}$, $\\frac{c_{1}}{c_{2}} = \\frac{-5}{-9} = \\frac{5}{9} \\ne \\frac{1}{2}$, so the lines are parallel and A is true. R is the standard condition for inconsistency and is exactly why A holds."
+ },
+ {
+  "id": "cmvq9r2hh006z7gcnk0b8hv8f",
+  "chapter": "Pair of Linear Equations",
+  "type": "short",
+  "marks": 2,
+  "text": "Without solving, find whether the pair $3x - 5y = 20$ and $6x - 10y = 40$ is consistent. If it is, state the number of solutions and how the two lines look on a graph.",
+  "answer": "$\\frac{a_{1}}{a_{2}} = \\frac{3}{6} = \\frac{1}{2}$, $\\frac{b_{1}}{b_{2}} = \\frac{-5}{-10} = \\frac{1}{2}$, $\\frac{c_{1}}{c_{2}} = \\frac{20}{40} = \\frac{1}{2}$. All three ratios are equal, so the pair is consistent (dependent) with infinitely many solutions, and the two lines coincide on the graph."
+ },
+ {
+  "id": "cmvq9r2hi00717gcno90qcdae",
+  "chapter": "Pair of Linear Equations",
+  "type": "short",
+  "marks": 2,
+  "text": "Draw up a table of values for the lines $x + y = 6$ and $x - y = 2$. From the graphs, find their point of intersection and the area of the triangle formed by the two lines and the $x$-axis.",
+  "answer": "$x + y = 6$: $(0, 6)$, $(2, 4)$, $(6, 0)$. $x - y = 2$: $(0, -2)$, $(2, 0)$, $(4, 2)$. Plotting, the lines meet at $(4, 2)$. They cut the $x$-axis at $(6, 0)$ and $(2, 0)$, so the base on the $x$-axis $= 4$ and the height $= 2$. Area $= \\frac{1}{2} \\times 4 \\times 2 = 4$ square units."
+ },
+ {
+  "id": "cmvq9r2hi00737gcnw2gayj6x",
+  "chapter": "Pair of Linear Equations",
+  "type": "short",
+  "marks": 2,
+  "text": "Solve by elimination: $3x + 4y = 10$ and $x - y = 1$. Verify your answer.",
+  "answer": "Multiply $x - y = 1$ by 4: $4x - 4y = 4$. Add to $3x + 4y = 10$: $7x = 14$, so $x = 2$. Then $y = x - 1 = 1$. Check: $3(2) + 4(1) = 10$ and $2 - 1 = 1$. Solution: $x = 2$, $y = 1$."
+ },
+ {
+  "id": "cmvq9r2hj00757gcngzk3m5rk",
+  "chapter": "Pair of Linear Equations",
+  "type": "short",
+  "marks": 3,
+  "text": "A two-digit number is 4 times the sum of its digits. If 18 is added to the number, the digits get reversed. Find the number.",
+  "answer": "Let tens digit $x$, units digit $y$. $10x + y = 4(x + y)$ gives $6x = 3y$, so $y = 2x$. Also $10x + y + 18 = 10y + x$ gives $9y - 9x = 18$, so $y - x = 2$. Then $2x - x = 2$, $x = 2$, $y = 4$. Number $= 24$. Check: $24 = 4 \\times 6$ and $24 + 18 = 42$."
+ },
+ {
+  "id": "cmvq9r2hj00777gcnwk6r4rg9",
+  "chapter": "Pair of Linear Equations",
+  "type": "short",
+  "marks": 3,
+  "text": "The numerator and denominator of a fraction are $x$ and $y$. If 1 is added to the numerator and 3 to the denominator, the fraction becomes $\\frac{2}{5}$. If 1 is subtracted from both numerator and denominator, it becomes $\\frac{1}{3}$. Find the fraction.",
+  "answer": "$\\frac{x + 1}{y + 3} = \\frac{2}{5}$ gives $5x + 5 = 2y + 6$, i.e. $5x - 2y = 1$. $\\frac{x - 1}{y - 1} = \\frac{1}{3}$ gives $3x - 3 = y - 1$, i.e. $y = 3x - 2$. Substitute: $5x - 2(3x - 2) = 1$, so $-x + 4 = 1$, $x = 3$, $y = 7$. The fraction is $\\frac{3}{7}$. Check: $\\frac{4}{10} = \\frac{2}{5}$ and $\\frac{2}{6} = \\frac{1}{3}$."
+ },
+ {
+  "id": "cmvq9r2hl00797gcnhn0eifpz",
+  "chapter": "Pair of Linear Equations",
+  "type": "short",
+  "marks": 3,
+  "text": "Five years ago a father was 7 times as old as his son. Five years from now he will be 3 times as old as his son. Find their present ages.",
+  "answer": "Let father $= F$, son $= S$. $F - 5 = 7(S - 5)$ gives $F = 7S - 30$. $F + 5 = 3(S + 5)$ gives $F = 3S + 10$. Equate: $7S - 30 = 3S + 10$, $4S = 40$, $S = 10$, $F = 40$. Check: $35 = 7 \\times 5$ and $45 = 3 \\times 15$. Father is 40 years, son is 10 years."
+ },
+ {
+  "id": "cmvq9r2hl007b7gcnq4pmkcks",
+  "chapter": "Pair of Linear Equations",
+  "type": "short",
+  "marks": 3,
+  "text": "The pair of equations $2x + 3y = 7$ and $(2a - b)x + (a + b)y = 4a + b - 3$ has infinitely many solutions. Find the values of $a$ and $b$.",
+  "answer": "Infinitely many solutions: $\\frac{2}{2a - b} = \\frac{3}{a + b} = \\frac{7}{4a + b - 3}$. From the first two: $2(a + b) = 3(2a - b)$, so $5b = 4a$. From the last two: $3(4a + b - 3) = 7(a + b)$, so $12a + 3b - 9 = 7a + 7b$, i.e. $5a - 4b = 9$. Put $a = \\frac{5b}{4}$: $\\frac{25b}{4} - 4b = 9$, so $\\frac{9b}{4} = 9$, $b = 4$ and $a = 5$. Check: $2a - b = 6$, $a + b = 9$, $4a + b - 3 = 21$, and $\\frac{2}{6} = \\frac{3}{9} = \\frac{7}{21} = \\frac{1}{3}$. So $a = 5$, $b = 4$."
+ },
+ {
+  "id": "cmvq9r2hl007d7gcnx0s1866i",
+  "chapter": "Pair of Linear Equations",
+  "type": "short",
+  "marks": 3,
+  "text": "The lines $2x + 3y = 12$ and $x - y = 1$ are drawn on the same graph. Find the point where they intersect, and the area of the triangle formed by these two lines and the $y$-axis.",
+  "answer": "Solve: from $x - y = 1$, $x = y + 1$; $2(y + 1) + 3y = 12$ gives $5y = 10$, $y = 2$, $x = 3$. Intersection $(3, 2)$. On the $y$-axis ($x = 0$): $2x + 3y = 12$ gives $(0, 4)$; $x - y = 1$ gives $(0, -1)$. Base on $y$-axis $= 4 - (-1) = 5$; height $=$ perpendicular distance of $(3, 2)$ from the $y$-axis $= 3$. Area $= \\frac{1}{2} \\times 5 \\times 3 = 7.5$ square units."
+ },
+ {
+  "id": "cmvq9r2hm007f7gcnzljri8bm",
+  "chapter": "Pair of Linear Equations",
+  "type": "long",
+  "marks": 5,
+  "text": "Solve graphically the pair $x + 2y = 8$ and $3x - 2y = 0$. Also find the area of the triangle formed by the two lines and the $x$-axis.",
+  "answer": "$x + 2y = 8$: $(0, 4)$, $(2, 3)$, $(8, 0)$. $3x - 2y = 0$: $(0, 0)$, $(2, 3)$, $(4, 6)$. Plotting both lines, they meet at $(2, 3)$, so $x = 2$, $y = 3$ (check: $2 + 6 = 8$ and $6 - 6 = 0$). The triangle has vertices $(0, 0)$, $(8, 0)$ on the $x$-axis and $(2, 3)$. Base $= 8$, height $= 3$. Area $= \\frac{1}{2} \\times 8 \\times 3 = 12$ square units."
+ },
+ {
+  "id": "cmvq9r2hm007h7gcn3q21l9i0",
+  "chapter": "Pair of Linear Equations",
+  "type": "long",
+  "marks": 5,
+  "text": "A man travels 360 km, partly by bus and partly by train. If he travels 120 km by bus and the rest by train, the journey takes 5 hours. If he travels 200 km by bus and the rest by train, it takes 5 hours 20 minutes. Find the speed of the bus and of the train.",
+  "answer": "Let bus speed $u$ km/h, train speed $v$ km/h. $\\frac{120}{u} + \\frac{240}{v} = 5$ and $\\frac{200}{u} + \\frac{160}{v} = \\frac{16}{3}$. Put $p = \\frac{1}{u}$, $q = \\frac{1}{v}$: $120p + 240q = 5$ and $200p + 160q = \\frac{16}{3}$. Multiply the first by 5 and the second by 3: $600p + 1200q = 25$ and $600p + 480q = 16$. Subtract: $720q = 9$, $q = \\frac{1}{80}$, so $v = 80$. Then $120p = 5 - 3 = 2$, $p = \\frac{1}{60}$, so $u = 60$. Bus: 60 km/h, train: 80 km/h. Check: $2 + 3 = 5$ h; $\\frac{10}{3} + 2 = 5$ h 20 min."
+ },
+ {
+  "id": "cmvq9r2hn007j7gcnavjvzgcx",
+  "chapter": "Pair of Linear Equations",
+  "type": "long",
+  "marks": 5,
+  "text": "A boat takes 8 hours to go 18 km upstream and 50 km downstream. It takes 7 hours to go 30 km upstream and 20 km downstream. Find the speed of the boat in still water and the speed of the stream.",
+  "answer": "Let boat speed $b$, stream $s$ (km/h). Put $u = \\frac{1}{b - s}$, $d = \\frac{1}{b + s}$. $18u + 50d = 8$ and $30u + 20d = 7$. Multiply the first by 2 and the second by 5: $36u + 100d = 16$ and $150u + 100d = 35$. Subtract: $114u = 19$, $u = \\frac{1}{6}$, so $b - s = 6$. Then $50d = 8 - 3 = 5$, $d = \\frac{1}{10}$, so $b + s = 10$. Hence $b = 8$, $s = 2$. Check: $3 + 5 = 8$ h and $5 + 2 = 7$ h. Boat: 8 km/h, stream: 2 km/h."
+ },
+ {
+  "id": "cmvq9r2hn007l7gcnjw4bndvc",
+  "chapter": "Pair of Linear Equations",
+  "type": "case",
+  "marks": 4,
+  "text": "At a village fair, entry tickets are sold at one price for adults and another for children. On Saturday, 2 adults and 3 children together paid ₹600. On Sunday, a group of 4 adults and 1 child paid ₹700. Let an adult ticket cost ₹$a$ and a child ticket cost ₹$c$.\n(i) Write the two linear equations that represent this situation. [1]\n(ii) Find the cost of one child ticket. [1]\n(iii) Find the cost of one adult ticket, and the total amount paid by a family of 2 adults and 5 children. [2]",
+  "answer": "(i) $2a + 3c = 600$ and $4a + c = 700$.\n(ii) From the second, $c = 700 - 4a$. Substitute: $2a + 3(700 - 4a) = 600$, $2a + 2100 - 12a = 600$, $-10a = -1500$, $a = 150$, so $c = 700 - 600 = $ ₹100.\n(iii) Adult ticket $= $ ₹150. Family of 2 adults and 5 children pays $2(150) + 5(100) = 300 + 500 = $ ₹800."
+ },
+ {
+  "id": "cmvq9r2hn007n7gcn6z50uac8",
+  "chapter": "Pair of Linear Equations",
+  "type": "case",
+  "marks": 4,
+  "text": "A taxi company charges a fixed amount (₹$f$) plus a fixed rate per kilometre (₹$r$). Rohan paid ₹175 for a 10 km ride and Seema paid ₹287 for an 18 km ride.\n(i) Write two linear equations in $f$ and $r$ for this information. [1]\n(ii) Find the rate per kilometre. [1]\n(iii) Find the fixed charge and the fare for a 25 km ride. [2]\nOR\n(iii) Find the fixed charge and the distance travelled by a passenger who paid ₹497. [2]",
+  "answer": "(i) $f + 10r = 175$ and $f + 18r = 287$.\n(ii) Subtract: $8r = 112$, so $r = $ ₹14 per km.\n(iii) $f = 175 - 140 = $ ₹35. Fare for 25 km $= 35 + 25 \\times 14 = 35 + 350 = $ ₹385.\nOR (iii) $f = $ ₹35. For ₹497: $35 + 14d = 497$, $14d = 462$, $d = 33$ km."
+ },
+ {
+  "id": "a6",
+  "chapter": "Quadratic Equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The roots of $x^{2} - 4 = 0$ are:",
+  "options": [
+   "$\\pm 2$",
+   "$\\pm 4$",
+   "$2$ only",
+   "$4$ only"
+  ],
+  "answer": null
+ },
+ {
+  "id": "a7",
+  "chapter": "Quadratic Equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The discriminant of $2x^{2} - 4x + 3 = 0$ is:",
+  "options": [
+   "$-8$",
+   "$8$",
+   "$-4$",
+   "$40$"
+  ],
+  "answer": null
+ },
+ {
+  "id": "d1",
+  "chapter": "Quadratic Equations",
+  "type": "long",
+  "marks": 5,
+  "text": "A train travels 360 km at a uniform speed. If the speed had been 5 km/h more, it would have taken 1 hour less. Find the speed of the train.",
+  "answer": null
+ },
+ {
+  "id": "cmvq9r2ii00at7gcnpm64tqdx",
+  "chapter": "Quadratic Equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The quadratic equation $2x^{2} - 6x + 5 = 0$ has",
+  "options": [
+   "two distinct real roots",
+   "two equal real roots",
+   "no real roots",
+   "two rational roots"
+  ],
+  "answer": "Correct option: C) no real roots. Here $a = 2$, $b = -6$, $c = 5$, so $D = b^{2} - 4ac = 36 - 40 = -4 < 0$. A negative discriminant means no real roots."
+ },
+ {
+  "id": "cmvq9r2ij00av7gcnvbrhapim",
+  "chapter": "Quadratic Equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The nature of the roots of the equation $2x^{2} - 7x + 3 = 0$ is",
+  "options": [
+   "two distinct rational roots",
+   "two distinct real roots which are irrational",
+   "two equal real roots",
+   "no real roots"
+  ],
+  "answer": "Correct option: A) two distinct rational roots. $D = (-7)^{2} - 4(2)(3) = 49 - 24 = 25 > 0$ and 25 is a perfect square, so the roots are real, distinct and rational ($x = 3$ and $x = \\frac{1}{2}$)."
+ },
+ {
+  "id": "cmvq9r2ij00ax7gcno0mo4ud9",
+  "chapter": "Quadratic Equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The values of $k$ for which the equation $2x^{2} + kx + 8 = 0$ has equal roots are",
+  "options": [
+   "$4$",
+   "$\\pm 4$",
+   "$8$",
+   "$\\pm 8$"
+  ],
+  "answer": "Correct option: D) $\\pm 8$. For equal roots $D = 0$: $k^{2} - 4(2)(8) = 0$, so $k^{2} = 64$ and $k = \\pm 8$."
+ },
+ {
+  "id": "cmvq9r2ik00az7gcna108zhzp",
+  "chapter": "Quadratic Equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The smallest positive integer $k$ for which the equation $x^{2} - 8x + k = 0$ has no real roots is",
+  "options": [
+   "$17$",
+   "$16$",
+   "$15$",
+   "$32$"
+  ],
+  "answer": "Correct option: A) $17$. No real roots needs $D < 0$: $64 - 4k < 0$, so $k > 16$. The smallest positive integer greater than 16 is 17. ($k = 16$ gives $D = 0$, equal real roots, so it is not valid.)"
+ },
+ {
+  "id": "cmvq9r2il00b17gcnaogg8z2m",
+  "chapter": "Quadratic Equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The roots of the equation $x^{2} - 3x - 10 = 0$ are",
+  "options": [
+   "$-5$ and $2$",
+   "$5$ and $-2$",
+   "$5$ and $2$",
+   "$-5$ and $-2$"
+  ],
+  "answer": "Correct option: B) $5$ and $-2$. $x^{2} - 5x + 2x - 10 = x(x - 5) + 2(x - 5) = (x - 5)(x + 2) = 0$, so $x = 5$ or $x = -2$."
+ },
+ {
+  "id": "cmvq9r2il00b37gcn745uwvmd",
+  "chapter": "Quadratic Equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The values of $x$ satisfying $x + \\frac{1}{x} = \\frac{10}{3}$ ($x \\ne 0$) are",
+  "options": [
+   "$\\frac{1}{3}$ and $-3$",
+   "$-3$ and $-\\frac{1}{3}$",
+   "$3$ and $-\\frac{1}{3}$",
+   "$3$ and $\\frac{1}{3}$"
+  ],
+  "answer": "Correct option: D) $3$ and $\\frac{1}{3}$. Multiply by $3x$: $3x^{2} + 3 = 10x$, so $3x^{2} - 10x + 3 = 0$, i.e. $(3x - 1)(x - 3) = 0$. Hence $x = \\frac{1}{3}$ or $x = 3$."
+ },
+ {
+  "id": "cmvq9r2im00b57gcnsql6nltm",
+  "chapter": "Quadratic Equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Which quadratic equation has the sum of its roots equal to 4 and the product of its roots equal to $-5$?",
+  "options": [
+   "$x^{2} + 4x - 5 = 0$",
+   "$x^{2} - 4x + 5 = 0$",
+   "$x^{2} - 4x - 5 = 0$",
+   "$x^{2} + 4x + 5 = 0$"
+  ],
+  "answer": "Correct option: C) $x^{2} - 4x - 5 = 0$. The equation is $x^{2} - (\\text{sum})x + (\\text{product}) = 0 = x^{2} - 4x + (-5) = x^{2} - 4x - 5 = 0$. (Roots $5$ and $-1$.)"
+ },
+ {
+  "id": "cmvq9r2in00b77gcn8cztiqki",
+  "chapter": "Quadratic Equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The quadratic equation whose roots are $3 + \\sqrt{2}$ and $3 - \\sqrt{2}$ is",
+  "options": [
+   "$x^{2} + 6x + 7 = 0$",
+   "$x^{2} - 6x + 7 = 0$",
+   "$x^{2} - 6x + 11 = 0$",
+   "$x^{2} - 6x - 7 = 0$"
+  ],
+  "answer": "Correct option: B) $x^{2} - 6x + 7 = 0$. Sum $= 6$; product $= 3^{2} - (\\sqrt{2})^{2} = 9 - 2 = 7$. Equation: $x^{2} - 6x + 7 = 0$."
+ },
+ {
+  "id": "cmvq9r2in00b97gcn9jswllla",
+  "chapter": "Quadratic Equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "If $2 + \\sqrt{7}$ is a root of $x^{2} + bx + c = 0$, where $b$ and $c$ are rational numbers, then the value of $b + c$ is",
+  "options": [
+   "$-7$",
+   "$7$",
+   "$-1$",
+   "$1$"
+  ],
+  "answer": "Correct option: A) $-7$. Irrational roots of a rational quadratic occur as conjugates, so the other root is $2 - \\sqrt{7}$. Sum $= 4$ so $b = -4$; product $= 4 - 7 = -3$ so $c = -3$. Hence $b + c = -7$."
+ },
+ {
+  "id": "cmvq9r2io00bb7gcn982ikjw5",
+  "chapter": "Quadratic Equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "If the equation $x^{2} - 2kx + 5k - 6 = 0$ has equal roots, then the possible values of $k$ are",
+  "options": [
+   "$2$ only",
+   "$3$ only",
+   "$2$ or $3$",
+   "$-2$ or $-3$"
+  ],
+  "answer": "Correct option: C) $2$ or $3$. $D = 4k^{2} - 4(5k - 6) = 0$ gives $k^{2} - 5k + 6 = 0$, i.e. $(k - 2)(k - 3) = 0$. So $k = 2$ or $k = 3$."
+ },
+ {
+  "id": "cmvq9r2io00bd7gcnao8j3tph",
+  "chapter": "Quadratic Equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Assertion (A): The equation $x^{2} + kx + 1 = 0$ has real roots for every real value of $k$.\nReason (R): A quadratic equation $ax^{2} + bx + c = 0$ has real roots when its discriminant $b^{2} - 4ac \\ge 0$.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: D) A is false but R is true. R is the standard condition for real roots. For the given equation $D = k^{2} - 4$, which is negative when $-2 < k < 2$ (e.g. $k = 0$ gives $x^{2} + 1 = 0$, no real roots). So A is false."
+ },
+ {
+  "id": "cmvq9r2ip00bf7gcnh85qp8a1",
+  "chapter": "Quadratic Equations",
+  "type": "short",
+  "marks": 2,
+  "text": "Without solving, write the sum and the product of the roots of $3x^{2} - 11x - 4 = 0$. Verify your answer by finding the roots.",
+  "answer": "Sum $= -\\frac{b}{a} = \\frac{11}{3}$; product $= \\frac{c}{a} = -\\frac{4}{3}$. Check: $3x^{2} - 12x + x - 4 = 3x(x - 4) + 1(x - 4) = (3x + 1)(x - 4) = 0$, so $x = 4$ or $x = -\\frac{1}{3}$. Sum $= 4 - \\frac{1}{3} = \\frac{11}{3}$ and product $= 4 \\times \\left(-\\frac{1}{3}\\right) = -\\frac{4}{3}$, verified."
+ },
+ {
+  "id": "cmvq9r2ip00bh7gcnnoaqf92g",
+  "chapter": "Quadratic Equations",
+  "type": "short",
+  "marks": 3,
+  "text": "Find the non-zero value of $k$ for which the equation $kx(x - 5) + 10 = 0$ has two equal real roots.",
+  "answer": "Write as $kx^{2} - 5kx + 10 = 0$, so $a = k$, $b = -5k$, $c = 10$. Equal roots: $D = 25k^{2} - 40k = 0$, so $5k(5k - 8) = 0$. Since $k \\ne 0$, $5k = 8$ and $k = \\frac{8}{5}$."
+ },
+ {
+  "id": "cmvq9r2ir00bj7gcnc3jybxja",
+  "chapter": "Quadratic Equations",
+  "type": "short",
+  "marks": 3,
+  "text": "The sum of the squares of two consecutive odd positive integers is 290. Find the integers.",
+  "answer": "Let the integers be $x$ and $x + 2$. Then $x^{2} + (x + 2)^{2} = 290$, so $2x^{2} + 4x - 286 = 0$, i.e. $x^{2} + 2x - 143 = 0$. Factorise: $(x + 13)(x - 11) = 0$, so $x = -13$ or $11$. $x$ must be positive, so $x = 11$. The integers are 11 and 13 (check: $121 + 169 = 290$)."
+ },
+ {
+  "id": "cmvq9r2is00bl7gcnjq79k3is",
+  "chapter": "Quadratic Equations",
+  "type": "long",
+  "marks": 5,
+  "text": "A train travels 240 km at a uniform speed. If its speed had been 10 km/h more, it would have taken 2 hours less for the same journey. Find the original speed of the train.",
+  "answer": "Let the speed be $x$ km/h. Time taken $= \\frac{240}{x}$ h; at speed $(x + 10)$ the time $= \\frac{240}{x + 10}$ h. Then $\\frac{240}{x} - \\frac{240}{x + 10} = 2$, so $240 \\times 10 = 2x(x + 10)$, giving $x^{2} + 10x - 1200 = 0$. Factorise: $(x + 40)(x - 30) = 0$, so $x = -40$ or $30$. Speed cannot be negative, so $x = 30$. The speed of the train is 30 km/h (check: 8 h vs 6 h)."
+ },
+ {
+  "id": "cmvq9r2is00bn7gcnwqs1l42n",
+  "chapter": "Quadratic Equations",
+  "type": "long",
+  "marks": 5,
+  "text": "Two taps together can fill a tank in 6 hours. The tap of the larger diameter takes 5 hours less than the tap of the smaller diameter to fill the tank separately. Find the time in which each tap can separately fill the tank.",
+  "answer": "Let the larger tap fill the tank in $x$ hours; then the smaller takes $x + 5$ hours. In one hour they fill $\\frac{1}{x} + \\frac{1}{x + 5} = \\frac{1}{6}$ of the tank. So $6(2x + 5) = x(x + 5)$, giving $x^{2} - 7x - 30 = 0$, i.e. $(x - 10)(x + 3) = 0$. Time cannot be negative, so $x = 10$. The larger tap takes 10 hours and the smaller tap 15 hours (check: $\\frac{1}{10} + \\frac{1}{15} = \\frac{1}{6}$)."
+ },
+ {
+  "id": "cmvq9r2it00bp7gcnel8oa76f",
+  "chapter": "Quadratic Equations",
+  "type": "long",
+  "marks": 5,
+  "text": "A motorboat can go 36 km upstream and return 36 km downstream in a total of 5 hours. If the speed of the stream is 3 km/h, find the speed of the boat in still water.",
+  "answer": "Let the speed of the boat in still water be $x$ km/h ($x > 3$). Upstream speed $= x - 3$, downstream speed $= x + 3$. Then $\\frac{36}{x - 3} + \\frac{36}{x + 3} = 5$, so $36(2x) = 5(x^{2} - 9)$, i.e. $5x^{2} - 72x - 45 = 0$. Discriminant $= 5184 + 900 = 6084 = 78^{2}$. $x = \\frac{72 \\pm 78}{10} = 15$ or $-\\frac{3}{5}$. Speed cannot be negative, so $x = 15$. The speed in still water is 15 km/h (check: $\\frac{36}{12} + \\frac{36}{18} = 3 + 2 = 5$ h)."
+ },
+ {
+  "id": "cmvq9r2iu00br7gcngvry4kap",
+  "chapter": "Quadratic Equations",
+  "type": "long",
+  "marks": 5,
+  "text": "The length of a rectangular field is 7 m more than twice its breadth, and its area is $372\\text{ m}^{2}$. Find the dimensions of the field. Also find the cost of fencing it all around at ₹ 40 per metre.",
+  "answer": "Let breadth $= x$ m; length $= 2x + 7$ m. Area: $x(2x + 7) = 372$, so $2x^{2} + 7x - 372 = 0$. $D = 49 + 2976 = 3025 = 55^{2}$. $x = \\frac{-7 \\pm 55}{4} = 12$ or $-15.5$. Breadth cannot be negative, so $x = 12$ m and length $= 31$ m. Perimeter $= 2(12 + 31) = 86$ m. Cost $= 86 \\times 40 = $ ₹ 3440."
+ },
+ {
+  "id": "cmvq9r2iu00bt7gcn0egvveko",
+  "chapter": "Quadratic Equations",
+  "type": "long",
+  "marks": 5,
+  "text": "The two legs of a right-angled triangle differ by 7 cm, and the hypotenuse is 9 cm longer than the shorter leg. Find the lengths of the three sides of the triangle.",
+  "answer": "Let the shorter leg $= x$ cm, the other leg $= x + 7$ cm, hypotenuse $= x + 9$ cm. By Pythagoras: $x^{2} + (x + 7)^{2} = (x + 9)^{2}$. So $2x^{2} + 14x + 49 = x^{2} + 18x + 81$, i.e. $x^{2} - 4x - 32 = 0$, $(x - 8)(x + 4) = 0$. Length cannot be negative, so $x = 8$. The sides are 8 cm, 15 cm and 17 cm (check: $64 + 225 = 289$)."
+ },
+ {
+  "id": "cmvq9r2iv00bv7gcn7pkyy5jz",
+  "chapter": "Quadratic Equations",
+  "type": "long",
+  "marks": 5,
+  "text": "Find the values of $k$ for which the equation $(k + 4)x^{2} + (k + 1)x + 1 = 0$ has equal roots. For each such value of $k$, find the roots of the equation.",
+  "answer": "$a = k + 4$, $b = k + 1$, $c = 1$ (with $k \\ne -4$). Equal roots: $D = (k + 1)^{2} - 4(k + 4) = 0$, so $k^{2} + 2k + 1 - 4k - 16 = 0$, i.e. $k^{2} - 2k - 15 = 0$, $(k - 5)(k + 3) = 0$. So $k = 5$ or $k = -3$ (neither makes $a = 0$). For $k = 5$: $9x^{2} + 6x + 1 = 0$, $(3x + 1)^{2} = 0$, so $x = -\\frac{1}{3}$ (twice). For $k = -3$: $x^{2} - 2x + 1 = 0$, $(x - 1)^{2} = 0$, so $x = 1$ (twice)."
+ },
+ {
+  "id": "cmvq9r2iv00bx7gcnu4yearru",
+  "chapter": "Quadratic Equations",
+  "type": "case",
+  "marks": 4,
+  "text": "A school is buying a rectangular carpet for its reading room. The length of the carpet is 4 m more than its breadth, and its area has to be $96\\text{ m}^{2}$. Let the breadth of the carpet be $x$ metres.\n(i) Form a quadratic equation in $x$ that represents this situation. [1]\n(ii) Find the discriminant of the equation and state the nature of its roots. [1]\n(iii) Find the dimensions of the carpet. Also find the cost of a border laid all around its edge at ₹ 150 per metre. [2]",
+  "answer": "(i) Length $= x + 4$, so $x(x + 4) = 96$, i.e. $x^{2} + 4x - 96 = 0$. [1]\n(ii) $D = 16 + 384 = 400 > 0$ (a perfect square), so the roots are real, distinct and rational. [1]\n(iii) $x = \\frac{-4 \\pm 20}{2} = 8$ or $-12$. Breadth cannot be negative, so breadth $= 8$ m and length $= 12$ m (area $96\\text{ m}^{2}$). Perimeter $= 2(8 + 12) = 40$ m. Cost $= 40 \\times 150 = $ ₹ 6000. [2]"
+ }
+]

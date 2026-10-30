@@ -1,0 +1,188 @@
+[
+ {
+  "idx": 0,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The total surface area of a solid hemisphere of radius 7 cm is (use \u03c0 = 22/7)",
+  "options": [
+   "616 cm\u00b2",
+   "462 cm\u00b2",
+   "308 cm\u00b2",
+   "154 cm\u00b2"
+  ]
+ },
+ {
+  "idx": 1,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A toy is made by placing a cone on a solid hemisphere so that the base radius of the cone equals the radius r of the hemisphere. The height of the cone is also r. The total volume of the toy is",
+  "options": [
+   "2\u03c0r\u00b3/3",
+   "4\u03c0r\u00b3/3",
+   "\u03c0r\u00b3",
+   "5\u03c0r\u00b3/3"
+  ]
+ },
+ {
+  "idx": 2,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A medicine capsule is a solid cylinder of length 10 cm and radius 3.5 cm with a hemisphere of the same radius fixed at each of its two circular ends. Its total surface area is (use \u03c0 = 22/7)",
+  "options": [
+   "297 cm\u00b2",
+   "374 cm\u00b2",
+   "220 cm\u00b2",
+   "484 cm\u00b2"
+  ]
+ },
+ {
+  "idx": 3,
+  "marks": 1,
+  "type": "mcq",
+  "text": "From a solid cylinder of radius 7 cm and height 15 cm, a conical cavity of the same base radius 7 cm and height 6 cm is drilled out, the base of the cone lying on one flat face of the cylinder. The volume of the remaining solid is (use \u03c0 = 22/7)",
+  "options": [
+   "2310 cm\u00b3",
+   "2618 cm\u00b3",
+   "2002 cm\u00b3",
+   "1694 cm\u00b3"
+  ]
+ },
+ {
+  "idx": 4,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A cylindrical water tank has base radius 7 m and height 5 m. Its capacity in kilolitres is (use \u03c0 = 22/7; 1 m\u00b3 = 1 kilolitre)",
+  "options": [
+   "385 kL",
+   "1540 kL",
+   "7700 kL",
+   "770 kL"
+  ]
+ },
+ {
+  "idx": 5,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A solid metal sphere of radius 6 cm is melted and recast into a solid cone of base radius 12 cm. The height of the cone is",
+  "options": [
+   "12 cm",
+   "6 cm",
+   "3 cm",
+   "8 cm"
+  ]
+ },
+ {
+  "idx": 6,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A toy is a cone of base radius 7 cm and slant height 25 cm placed on a solid hemisphere of radius 7 cm, the base of the cone coinciding with the flat face of the hemisphere. The total surface area of the toy is (use \u03c0 = 22/7)",
+  "options": [
+   "858 cm\u00b2",
+   "1012 cm\u00b2",
+   "550 cm\u00b2",
+   "1166 cm\u00b2"
+  ]
+ },
+ {
+  "idx": 7,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A capsule is a solid cylinder with a hemisphere of the same radius attached at each end. The diameter of the capsule is 4.2 cm and its total length (including both hemispherical ends) is 9.2 cm. Its volume is (use \u03c0 = 22/7)",
+  "options": [
+   "88.704 cm\u00b3",
+   "108.108 cm\u00b3",
+   "127.512 cm\u00b3",
+   "166.320 cm\u00b3"
+  ]
+ },
+ {
+  "idx": 8,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A hemispherical bowl has internal radius 10.5 cm. The volume of liquid it can hold when full is (use \u03c0 = 22/7)",
+  "options": [
+   "4851 cm\u00b3",
+   "1212.75 cm\u00b3",
+   "2425.5 cm\u00b3",
+   "3638.25 cm\u00b3"
+  ]
+ },
+ {
+  "idx": 9,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Assertion (A): When a solid cone is placed on a solid cylinder of the same base radius, the volume of the combined solid equals the sum of the volumes of the cone and the cylinder.\nReason (R): The total surface area of the combined solid equals the sum of the total surface areas of the cone and the cylinder.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ]
+ },
+ {
+  "idx": 10,
+  "marks": 2,
+  "type": "short",
+  "text": "A solid is formed by placing a solid hemisphere of radius 7 cm on top of a solid cube of edge 14 cm, so that the circular face of the hemisphere lies on a face of the cube. Find the total surface area of the solid. (Use \u03c0 = 22/7.)"
+ },
+ {
+  "idx": 11,
+  "marks": 3,
+  "type": "short",
+  "text": "A toy is made of a cone of base radius 6 cm and height 8 cm placed on a solid hemisphere of radius 6 cm, with the base of the cone exactly covering the flat face of the hemisphere. Find the volume of the toy. (Use \u03c0 = 3.14.)"
+ },
+ {
+  "idx": 12,
+  "marks": 3,
+  "type": "short",
+  "text": "A circus tent is made of canvas. Its lower part is a cylinder of radius 7 m and height 6 m, and its roof is a cone of the same base radius and slant height 25 m placed on the cylinder. Find the cost of the canvas needed at \u20b9 85 per m\u00b2, ignoring the floor and any wastage. (Use \u03c0 = 22/7.)"
+ },
+ {
+  "idx": 13,
+  "marks": 5,
+  "type": "long",
+  "text": "A solid cylinder has radius 7 cm and height 24 cm. A cone having the same base radius and the same height 24 cm is hollowed out from the cylinder, its base coinciding with one circular face of the cylinder. Find (i) the volume of the remaining solid, (ii) its total surface area. (Use \u03c0 = 22/7.)"
+ },
+ {
+  "idx": 14,
+  "marks": 5,
+  "type": "long",
+  "text": "A solid metal sphere of radius 10.5 cm is melted. (a) If it is recast into small solid cones, each of base radius 3.5 cm and height 3 cm, how many cones are obtained? (b) If instead the same sphere is recast into a solid cylinder of base radius 10.5 cm, find the height of the cylinder."
+ },
+ {
+  "idx": 15,
+  "marks": 5,
+  "type": "long",
+  "text": "A grain store is shaped like a solid cylinder of radius 3 m and height 5 m with a hemispherical dome of the same radius fixed on top. Use \u03c0 = 3.14. Find (i) the capacity of the store in m\u00b3, (ii) the area of the outer surface of the store that is to be painted (the floor is not painted), (iii) the cost of painting at \u20b9 50 per m\u00b2."
+ },
+ {
+  "idx": 16,
+  "marks": 5,
+  "type": "long",
+  "text": "A solid wooden cube of edge 21 cm has a hemispherical depression of the greatest possible diameter scooped out from the middle of its top face. Find (i) the total surface area of the remaining solid, (ii) its volume. (Use \u03c0 = 22/7.)"
+ },
+ {
+  "idx": 17,
+  "marks": 4,
+  "type": "case",
+  "text": "A village panchayat installs a closed water tank. The tank is a cylinder of radius 2.1 m and height 5 m, with a hemispherical dome of the same radius fixed on top. The whole tank (cylinder and dome) holds water. Use \u03c0 = 22/7.\n(i) Find the volume of the cylindrical part. [1]\n(ii) Find the volume of the hemispherical dome. [1]\n(iii) Find the cost of painting the outer curved surface of the tank (cylinder and dome only, not the base) at \u20b9 25 per m\u00b2. [2]"
+ },
+ {
+  "idx": 18,
+  "marks": 4,
+  "type": "case",
+  "text": "A farmer fills a cylindrical storage tank using a pipe of circular cross-section with internal diameter 14 cm. Water flows out of the pipe at a speed of 4 m per second. The tank has a circular base of radius 2.8 m. Use \u03c0 = 22/7.\n(i) Find the area of cross-section of the pipe in cm\u00b2. [1]\n(ii) Find the volume of water, in litres, flowing out of the pipe in one second. (1 litre = 1000 cm\u00b3) [1]\n(iii) The pipe runs for 10 minutes. Find the rise in the water level in the tank. [2]"
+ },
+ {
+  "idx": 19,
+  "marks": 4,
+  "type": "case",
+  "text": "An ice-cream seller fills each cone with ice cream. The cone has base radius 2.1 cm and height 10 cm; it is filled completely and, in addition, a hemispherical scoop of the same radius 2.1 cm is placed on top of the cone. Use \u03c0 = 22/7.\n(i) Find the volume of the ice cream inside the cone. [1]\n(ii) Find the volume of the hemispherical scoop. [1]\n(iii) A tub contains 6560.4 cm\u00b3 of ice cream. How many such cones, each with its scoop, can be served from the tub? [2]"
+ },
+ {
+  "idx": 20,
+  "marks": 4,
+  "type": "case",
+  "text": "A pharmaceutical company makes capsules, each a solid cylinder with a hemisphere of the same radius at each end. Each capsule has diameter 7 mm and total length 25 mm. A thin coating is applied over the entire outer surface. Use \u03c0 = 22/7.\n(i) Find the length of the cylindrical part of a capsule. [1]\n(ii) Find the total area of the two hemispherical ends of one capsule. [1]\n(iii) Find the total outer surface area of one capsule, and hence the area to be coated for 1000 capsules, in cm\u00b2. (1 cm\u00b2 = 100 mm\u00b2) [2]"
+ }
+]

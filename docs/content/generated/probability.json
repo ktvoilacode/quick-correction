@@ -1,0 +1,480 @@
+[
+ {
+  "chapter": "Probability",
+  "topic": "Dice",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Two fair dice are thrown together. The probability that the sum of the numbers on the top faces is 9 is",
+  "options": [
+   "1/9",
+   "1/12",
+   "1/6",
+   "5/36"
+  ],
+  "answer": "Correct option: a) 1/9. Sum 9 occurs in (3,6),(4,5),(5,4),(6,3): 4 outcomes out of 36, so P = 4/36 = 1/9."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Dice",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Two dice are rolled once. The probability that the difference of the numbers on them is 2 is",
+  "options": [
+   "1/9",
+   "1/6",
+   "2/9",
+   "5/18"
+  ],
+  "answer": "Correct option: c) 2/9. Favourable: (1,3),(2,4),(3,5),(4,6) and their reverses = 8 outcomes. P = 8/36 = 2/9."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Dice",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "A die is thrown once. The probability of getting a prime number is",
+  "options": [
+   "1/3",
+   "1/2",
+   "2/3",
+   "5/6"
+  ],
+  "answer": "Correct option: b) 1/2. Primes on a die: 2, 3, 5, so 3 favourable out of 6. P = 3/6 = 1/2 (1 is not prime)."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Dice",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Two dice are thrown together. The probability that the sum of the numbers is either 5 or 11 is",
+  "options": [
+   "1/9",
+   "5/36",
+   "1/12",
+   "1/6"
+  ],
+  "answer": "Correct option: d) 1/6. Sum 5: (1,4),(2,3),(3,2),(4,1) = 4 outcomes; sum 11: (5,6),(6,5) = 2 outcomes. Total 6, so P = 6/36 = 1/6."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Numbers and lottery",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "A card is drawn at random from cards numbered 1 to 30. The probability that the number on it is a multiple of 7 is",
+  "options": [
+   "4/15",
+   "1/7",
+   "2/15",
+   "1/5"
+  ],
+  "answer": "Correct option: c) 2/15. Multiples of 7: 7, 14, 21, 28, i.e. 4 out of 30. P = 4/30 = 2/15."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Numbers and lottery",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Cards numbered 2, 3, 4, ..., 21 are placed in a box and one card is drawn at random. The probability that the number is prime is",
+  "options": [
+   "9/20",
+   "2/5",
+   "7/20",
+   "3/10"
+  ],
+  "answer": "Correct option: b) 2/5. There are 20 cards. Primes: 2, 3, 5, 7, 11, 13, 17, 19 = 8. P = 8/20 = 2/5."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Numbers and lottery",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The probability of winning a raffle is 2/25. If 400 tickets were sold in all, the number of tickets bought by one person who has this winning probability is",
+  "options": [
+   32,
+   16,
+   25,
+   40
+  ],
+  "answer": "Correct option: a) 32. P(win) = tickets bought / 400 = 2/25, so tickets bought = 400 × 2/25 = 32."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Numbers and lottery",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A two-digit number is chosen at random. The probability that it is divisible by 5 is",
+  "options": [
+   "1/9",
+   "2/9",
+   "1/10",
+   "1/5"
+  ],
+  "answer": "Correct option: d) 1/5. Two-digit numbers: 10 to 99, so 90 in all. Multiples of 5: 10, 15, ..., 95 = 18. P = 18/90 = 1/5."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Complementary events",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "If the probability that an event E happens is 0.37, then the probability that E does not happen is",
+  "options": [
+   "0.73",
+   "0.63",
+   "0.37",
+   "0.53"
+  ],
+  "answer": "Correct option: b) 0.63. P(not E) = 1 − P(E) = 1 − 0.37 = 0.63."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Complementary events",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "For an event E, P(E) = 2x and P(not E) = x + 0.4. The value of P(E) is",
+  "options": [
+   "0.2",
+   "0.4",
+   "0.6",
+   "0.8"
+  ],
+  "answer": "Correct option: b) 0.4. P(E) + P(not E) = 1, so 3x + 0.4 = 1, x = 0.2. Hence P(E) = 2x = 0.4."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Complementary events",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "If P(not E) is three times P(E), then P(E) is",
+  "options": [
+   "1/3",
+   "3/4",
+   "1/4",
+   "1/2"
+  ],
+  "answer": "Correct option: c) 1/4. Let P(E) = p. Then p + 3p = 1, so p = 1/4."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Classical probability basics",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Which of the following can be the probability of an event?",
+  "options": [
+   "4/3",
+   "−0.25",
+   "1.05",
+   "11/12"
+  ],
+  "answer": "Correct option: d) 11/12. A probability must lie between 0 and 1 inclusive. Only 11/12 does; 4/3 and 1.05 exceed 1 and −0.25 is negative."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Classical probability basics",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": true,
+  "text": "In a group of 40 persons, 9 cannot swim. One person is chosen at random. The probability that the person can swim is",
+  "options": [
+   "31/40",
+   "9/40",
+   "31/9",
+   "9/31"
+  ],
+  "answer": "Correct option: a) 31/40. Swimmers = 40 − 9 = 31. P = 31/40."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Balls and bags",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A bag contains 5 red, 8 white, 4 green and 3 black balls. One ball is drawn at random. The probability that it is neither white nor green is",
+  "options": [
+   "3/5",
+   "2/5",
+   "1/4",
+   "13/20"
+  ],
+  "answer": "Correct option: b) 2/5. Neither white nor green means red or black: 5 + 3 = 8 out of 20 balls. P = 8/20 = 2/5."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Balls and bags",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A bag contains 9 red balls and some green balls. If the probability of drawing a red ball is 3/7, the number of green balls is",
+  "options": [
+   6,
+   16,
+   12,
+   21
+  ],
+  "answer": "Correct option: c) 12. Total balls n satisfy 9/n = 3/7, so n = 21. Green balls = 21 − 9 = 12."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Cards",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A card is drawn from a well-shuffled pack of 52 cards. The probability that it is a red face card is",
+  "options": [
+   "3/13",
+   "1/13",
+   "3/52",
+   "3/26"
+  ],
+  "answer": "Correct option: d) 3/26. Red face cards: J, Q, K of hearts and of diamonds = 6. P = 6/52 = 3/26."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Cards",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "One card is drawn from a well-shuffled deck of 52 cards. The probability that it is a king or a heart is",
+  "options": [
+   "4/13",
+   "17/52",
+   "1/2",
+   "3/13"
+  ],
+  "answer": "Correct option: a) 4/13. Kings = 4, hearts = 13, king of hearts counted twice, so favourable = 4 + 13 − 1 = 16. P = 16/52 = 4/13."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Coins",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Three fair coins are tossed together. The probability of getting exactly two heads is",
+  "options": [
+   "1/4",
+   "3/8",
+   "1/2",
+   "3/4"
+  ],
+  "answer": "Correct option: b) 3/8. Outcomes HHT, HTH, THH give exactly two heads: 3 out of 8. P = 3/8."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Complementary events",
+  "slot": "A-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Assertion (A): If the probability that it rains tomorrow is 0.58, then the probability that it does not rain tomorrow is 0.42.\nReason (R): For any event E, P(E) + P(not E) = 1.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: a) Both A and R are true and R is the correct explanation of A. P(not E) = 1 − 0.58 = 0.42, so A is true; R is true and is exactly the rule used."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Classical probability basics",
+  "slot": "A-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Assertion (A): The probability that a non-leap year has 53 Sundays is 2/7.\nReason (R): A non-leap year has 52 complete weeks and 1 extra day.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: d) A is false but R is true. The 1 extra day can be any of 7 weekdays, so P(53 Sundays) = 1/7, not 2/7. A is false; R is true."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Coins",
+  "slot": "A-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Assertion (A): When a fair coin is tossed once, the probability of getting a head is 1/2.\nReason (R): The probability of any event always lies between 0 and 1, both inclusive.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: b) Both A and R are true but R is not the correct explanation of A. A is true (1 favourable of 2 equally likely outcomes) and R is true, but R only gives a range and does not explain the value 1/2."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Balls and bags",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": false,
+  "text": "A bag contains 3 red, 5 blue and 7 yellow balls. One ball is drawn at random. Find the probability that it is (i) blue, (ii) not yellow.",
+  "answer": "Total balls = 3 + 5 + 7 = 15.\n(i) P(blue) = 5/15 = 1/3.\n(ii) Balls that are not yellow = 3 + 5 = 8, so P(not yellow) = 8/15.\nAnswer: (i) 1/3, (ii) 8/15."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Balls and bags",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A bag contains 12 red and 8 blue balls. How many red balls must be added to the bag so that the probability of drawing a red ball becomes 4/5?",
+  "answer": "Let x red balls be added. Then red = 12 + x and total = 20 + x.\n(12 + x)/(20 + x) = 4/5 ⇒ 60 + 5x = 80 + 4x ⇒ x = 20.\nCheck: 32/40 = 4/5.\nAnswer: 20 red balls."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Cards",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A card is drawn at random from a well-shuffled pack of 52 cards. Find the probability that it is (i) a red king, (ii) a spade that is not an ace.",
+  "answer": "(i) Red kings: king of hearts and king of diamonds = 2, so P = 2/52 = 1/26.\n(ii) Spades = 13, of which 1 is the ace, leaving 12. P = 12/52 = 3/13.\nAnswer: (i) 1/26, (ii) 3/13."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Coins",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Three coins are tossed together. Find the probability of getting (i) at most one head, (ii) all three faces the same.",
+  "answer": "Sample space has 8 outcomes: HHH, HHT, HTH, THH, HTT, THT, TTH, TTT.\n(i) At most one head: TTT, HTT, THT, TTH = 4, so P = 4/8 = 1/2.\n(ii) All same: HHH, TTT = 2, so P = 2/8 = 1/4.\nAnswer: (i) 1/2, (ii) 1/4."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Complementary events",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": true,
+  "text": "In a class of 48 students, the probability that a randomly chosen student does not cycle to school is 7/12. Find the number of students who cycle to school.",
+  "answer": "P(cycles) = 1 − 7/12 = 5/12.\nNumber who cycle = 5/12 × 48 = 20.\nAnswer: 20 students."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Dice",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "hard",
+  "competency": false,
+  "text": "Two dice are thrown together. Find the probability that (i) the sum of the numbers is a perfect square, (ii) the product of the numbers is 12, (iii) the numbers differ by 3.",
+  "answer": "Total outcomes = 36.\n(i) Perfect-square sums are 4 and 9. Sum 4: (1,3),(2,2),(3,1) = 3; sum 9: (3,6),(4,5),(5,4),(6,3) = 4. Total 7, P = 7/36.\n(ii) Product 12: (2,6),(3,4),(4,3),(6,2) = 4, P = 4/36 = 1/9.\n(iii) Difference 3: (1,4),(2,5),(3,6) and reverses = 6, P = 6/36 = 1/6.\nAnswer: 7/36, 1/9, 1/6."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Coins",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Three coins are tossed together. Find the probability of getting (i) at least one tail, (ii) exactly two heads, (iii) more heads than tails.",
+  "answer": "Total outcomes = 8.\n(i) Only HHH has no tail, so favourable = 7, P = 7/8.\n(ii) HHT, HTH, THH: P = 3/8.\n(iii) More heads than tails means 2 or 3 heads: 3 + 1 = 4, P = 4/8 = 1/2.\nAnswer: 7/8, 3/8, 1/2."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Numbers and lottery",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Discs numbered 1 to 50 are placed in a box and one is drawn at random. Find the probability that the number on it is (i) a multiple of 4, (ii) a multiple of 6, (iii) a multiple of 4 or of 6.",
+  "answer": "Total outcomes = 50.\n(i) Multiples of 4: 4, 8, ..., 48 = 12, P = 12/50 = 6/25.\n(ii) Multiples of 6: 6, 12, ..., 48 = 8, P = 8/50 = 4/25.\n(iii) Multiples of both (i.e. of 12): 12, 24, 36, 48 = 4. Favourable = 12 + 8 − 4 = 16, P = 16/50 = 8/25.\nAnswer: 6/25, 4/25, 8/25."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Numbers and lottery",
+  "slot": "E-case-study (4 marks, with sub-parts)",
+  "type": "case",
+  "marks": 4,
+  "complexity": "medium",
+  "competency": true,
+  "text": "At a school fair, a lucky-draw box contains 60 tickets numbered 1 to 60. A visitor draws one ticket at random.\n(i) Find the probability that the number on the ticket is a multiple of 10. [1]\n(ii) Find the probability that the number is a perfect square. [1]\n(iii) Find the probability that the number is a two-digit prime number. [2]",
+  "answer": "(i) Multiples of 10: 10, 20, 30, 40, 50, 60 = 6. P = 6/60 = 1/10.\n(ii) Perfect squares: 1, 4, 9, 16, 25, 36, 49 = 7. P = 7/60.\n(iii) Two-digit primes up to 60: 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59 = 13. P = 13/60."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Classical probability basics",
+  "slot": "E-case-study (4 marks, with sub-parts)",
+  "type": "case",
+  "marks": 4,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A parking area has 80 vehicles: 32 two-wheelers, 28 cars, 12 autorickshaws and the rest are trucks. A vehicle is picked at random to be checked.\n(i) Find the probability that it is a truck. [1]\n(ii) Find the probability that it is not a car. [1]\n(iii) If 20 more two-wheelers enter the parking area, find the probability that a vehicle picked at random is a two-wheeler. [2]",
+  "answer": "(i) Trucks = 80 − (32 + 28 + 12) = 8. P = 8/80 = 1/10.\n(ii) Not a car = 80 − 28 = 52. P = 52/80 = 13/20.\n(iii) Two-wheelers = 52, total = 100. P = 52/100 = 13/25."
+ },
+ {
+  "chapter": "Probability",
+  "topic": "Dice",
+  "slot": "E-case-study (4 marks, with sub-parts)",
+  "type": "case",
+  "marks": 4,
+  "complexity": "hard",
+  "competency": true,
+  "text": "In a game stall, a player throws two fair dice together. The stall owner announces different prizes for different results.\n(i) Find the probability that the sum of the numbers is 10. [1]\n(ii) Find the probability of getting a doublet (same number on both dice). [1]\n(iii) Neha wins a gift if the sum is at least 10 or the dice show a doublet. Find the probability that Neha wins. [2]",
+  "answer": "Total outcomes = 36.\n(i) Sum 10: (4,6),(5,5),(6,4) = 3. P = 3/36 = 1/12.\n(ii) Doublets: (1,1),...,(6,6) = 6. P = 6/36 = 1/6.\n(iii) Sum at least 10: (4,6),(5,5),(6,4),(5,6),(6,5),(6,6) = 6. Doublets = 6. Common outcomes: (5,5),(6,6) = 2. Favourable = 6 + 6 − 2 = 10. P = 10/36 = 5/18."
+ }
+]

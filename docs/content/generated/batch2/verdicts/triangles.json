@@ -1,0 +1,92 @@
+[
+ {
+  "idx": 0,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 1,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 2,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 3,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 4,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 5,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 6,
+  "status": "ambiguous",
+  "note": "Stock NCERT/board proof reproduced almost verbatim; statement and proof are correct."
+ },
+ {
+  "idx": 7,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 8,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 9,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 10,
+  "status": "ambiguous",
+  "note": "Stock textbook/board proof (midpoint of AD, BE meets AC) reproduced nearly verbatim; proof correct."
+ },
+ {
+  "idx": 11,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 12,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 13,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 14,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 15,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 16,
+  "status": "ambiguous",
+  "note": "Text has corrupted LaTeX: tab character before 'riangle' in (i), so triangle symbol fails; answers themselves correct."
+ },
+ {
+  "idx": 17,
+  "status": "ok",
+  "note": ""
+ }
+]

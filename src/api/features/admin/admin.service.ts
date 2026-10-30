@@ -43,7 +43,80 @@ export interface AdminSummary {
   };
 }
 
+/** The product's own numbers for the admin overview. */
+export interface AdminOverview {
+  teachers: { active: number; pending: number; disabled: number };
+  parents: { total: number };
+  students: { total: number; linked: number };
+  papers: { total: number; last7d: number };
+  submissions: { assigned: number; evaluating: number; evaluated: number; failed: number; toCheck: number; sentLast7d: number };
+  questions: { live: number; draft: number; flagged: number };
+  /** Answer sheets sent for marking, one row per day for the last 14 days. */
+  sentPerDay: Array<{ day: string; count: number }>;
+  recent: AuditLogEntry[];
+}
+
 export const adminService = {
+  async getOverview(): Promise<AdminOverview> {
+    const db = await databaseClass.get();
+    const days = (n: number) => new Date(Date.now() - n * 86_400_000);
+    const week = days(7);
+
+    const [
+      teachersActive, teachersPending, teachersDisabled, parents, students, studentsLinked,
+      papers, papersWeek, subStatus, toCheck, sentWeek, sent14, qLive, qStatus, recent,
+    ] = await Promise.all([
+      db.user.count({ where: { appRole: 'teacher', appStatus: 'active', isActive: true } }),
+      db.user.count({ where: { appRole: 'teacher', appStatus: 'pending' } }),
+      db.user.count({ where: { appRole: 'teacher', isActive: false } }),
+      db.user.count({ where: { appRole: 'parent', isActive: true } }),
+      db.student.count(),
+      db.student.count({ where: { parentId: { not: null } } }),
+      db.paper.count(),
+      db.paper.count({ where: { createdAt: { gte: week } } }),
+      db.submission.groupBy({ by: ['status'], _count: { _all: true } }),
+      db.submission.count({ where: { status: 'evaluated', reviewed: false } }),
+      db.submission.count({ where: { submittedAt: { gte: week } } }),
+      db.submission.findMany({ where: { submittedAt: { gte: days(13) } }, select: { submittedAt: true } }),
+      db.question.count({ where: { isActive: true } }),
+      db.question.groupBy({ by: ['reviewStatus'], _count: { _all: true } }),
+      this.recentActivity(8),
+    ]);
+
+    const sub = Object.fromEntries((subStatus as { status: string; _count: { _all: number } }[]).map((r) => [r.status, r._count._all]));
+    const q = Object.fromEntries((qStatus as { reviewStatus: string; _count: { _all: number } }[]).map((r) => [r.reviewStatus, r._count._all]));
+
+    // One row per day, zero-filled, oldest first.
+    const buckets = new Map<string, number>();
+    for (let i = 13; i >= 0; i--) buckets.set(days(i).toISOString().slice(0, 10), 0);
+    for (const { submittedAt } of sent14 as { submittedAt: Date | null }[]) {
+      const k = submittedAt?.toISOString().slice(0, 10);
+      if (k && buckets.has(k)) buckets.set(k, (buckets.get(k) ?? 0) + 1);
+    }
+
+    return {
+      teachers: { active: teachersActive, pending: teachersPending, disabled: teachersDisabled },
+      parents: { total: parents },
+      students: { total: students, linked: studentsLinked },
+      papers: { total: papers, last7d: papersWeek },
+      submissions: { assigned: sub.assigned ?? 0, evaluating: sub.evaluating ?? 0, evaluated: sub.evaluated ?? 0, failed: sub.failed ?? 0, toCheck, sentLast7d: sentWeek },
+      questions: { live: qLive, draft: q.draft ?? 0, flagged: q.flagged ?? 0 },
+      sentPerDay: Array.from(buckets.entries()).map(([day, count]) => ({ day, count })),
+      recent,
+    };
+  },
+
+  /** The latest audit events with the actor's name and email filled in. */
+  async recentActivity(take: number): Promise<AuditLogEntry[]> {
+    const db = await databaseClass.get();
+    type Actor = { id: string; name: string | null; email: string };
+    const rows = (await db.auditLog.findMany({ orderBy: { createdAt: 'desc' }, take })) as (AuditLogEntry & { actorId: string | null })[];
+    const ids = [...new Set(rows.map((r) => r.actorId).filter((id): id is string => !!id))];
+    const actors = ids.length ? ((await db.user.findMany({ where: { id: { in: ids } }, select: { id: true, name: true, email: true } })) as Actor[]) : [];
+    const byId = new Map(actors.map((a) => [a.id, a]));
+    return rows.map((r) => ({ ...r, actorName: (r.actorId && byId.get(r.actorId)?.name) || null, actorEmail: (r.actorId && byId.get(r.actorId)?.email) || null }) as AuditLogEntry);
+  },
+
   async getSummary(): Promise<AdminSummary> {
     const db = await databaseClass.get();
 

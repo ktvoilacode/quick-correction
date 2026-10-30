@@ -1,0 +1,99 @@
+{
+  "_meta": {
+    "generated": "2026-10-27",
+    "note": "Compiled from secondary sources only; cbseacademic.nic.in could not be opened (TLS certificate mismatch). nulls = not verified. Per-year observed chapter marks are NOT available from any source found; officialMarks are blueprint/syllabus unit and chapter estimates.",
+    "standardVsBasic": "Same 38Q / 80 marks / 5 sections for both 041 and 241. Differ in difficulty/typology: Standard ~54% remember+understand, 24% apply, 22% analyse/evaluate/create; Basic ~75% / 15% / 10% (2025 blueprint, Careers360, Dec 2024)."
+  },
+  "years": {
+    "2023": {
+      "totalMarks": 80, "internalMarks": 20, "durationMins": 180,
+      "sections": [
+        {"id":"A","title":"MCQ","type":"mcq","count":20,"marksEach":1},
+        {"id":"B","title":"Very short answer","type":"vsa","count":5,"marksEach":2},
+        {"id":"C","title":"Short answer","type":"sa","count":6,"marksEach":3},
+        {"id":"D","title":"Long answer","type":"la","count":4,"marksEach":5},
+        {"id":"E","title":"Case study","type":"case_study","count":3,"marksEach":4}
+      ],
+      "assertionReasonInSectionA": null,
+      "competencyPct": 40,
+      "competencyNote": "40% stated for 2022-23 by news summaries (aglasem/Careers360 roundup); not checked against circular",
+      "source": "https://news.careers360.com/cbse-class-10-maths-exam-today-marking-scheme-deleted-syllabus-chapter-wise-weightage-2023"
+    },
+    "2024": {
+      "totalMarks": 80, "internalMarks": 20, "durationMins": 180,
+      "sections": [
+        {"id":"A","title":"MCQ (18) + Assertion-Reason (2)","type":"mcq_ar","count":20,"marksEach":1},
+        {"id":"B","title":"Very short answer","type":"vsa","count":5,"marksEach":2},
+        {"id":"C","title":"Short answer","type":"sa","count":6,"marksEach":3},
+        {"id":"D","title":"Long answer","type":"la","count":4,"marksEach":5},
+        {"id":"E","title":"Case study (1+1+2 sub-parts)","type":"case_study","count":3,"marksEach":4}
+      ],
+      "competencyPct": 50,
+      "competencyNote": "50% competency-based for Class 10 from 2024 per news reports of CBSE circular; MCQ/AR split 18+2 confirmed only from 2023-24 sample paper copy, not the actual 2024 paper",
+      "source": "https://news.careers360.com/cbse-class-10-maths-exam-2024-followed-sample-paper-pattern-difficulty-level-analysis ; https://english.madhyamam.com/lifestyle/education/cbse-revamps-assessment-scheme-for-10th-12th-for-2024-1147345 ; https://www.shaalaa.com/hin/question-paper-solution/cbse-mathematics-class-10-2023-2024-standard-board-sample-paper_18582"
+    },
+    "2025": {
+      "totalMarks": 80, "internalMarks": 20, "durationMins": 180,
+      "sections": [
+        {"id":"A","title":"MCQ (Q1-18) + Assertion-Reason (Q19-20)","type":"mcq_ar","count":20,"marksEach":1},
+        {"id":"B","title":"Very short answer (Q21-25)","type":"vsa","count":5,"marksEach":2},
+        {"id":"C","title":"Short answer (Q26-31)","type":"sa","count":6,"marksEach":3},
+        {"id":"D","title":"Long answer (Q32-35)","type":"la","count":4,"marksEach":5},
+        {"id":"E","title":"Case study (Q36-38; sub-parts 1+1+2)","type":"case_study","count":3,"marksEach":4}
+      ],
+      "internalChoice": "2 questions each in B, C, D; all 2-mark sub-parts in E",
+      "competencyPct": 50,
+      "typologyPct": {"standard": {"rememberUnderstand":54,"apply":24,"analyseEvaluateCreate":22}, "basic": {"rememberUnderstand":75,"apply":15,"analyseEvaluateCreate":10}},
+      "source": "https://school.careers360.com/boards/cbse/cbse-class-10-math-paper-analysis-2025 ; https://news.careers360.com/cbse-2025-10th-maths-exam-live-class-10-mathematics-paper-analysis-answer-key-passing-marks-datesheet-result-sample-papers-updates/amp ; https://school.careers360.com/articles/cbse-class-10-mathematics-blueprint-2025-chapter-wise-weightage-exam-pattern"
+    },
+    "2026": {
+      "totalMarks": 80, "internalMarks": 20, "durationMins": 180,
+      "examDatePhase1": "2026-02-17",
+      "phase2": {"window": "2026-05-15 to 2026-05-21 (some sources say to 1 June / start 5 May; unresolved)", "rule": "optional improvement, up to 3 subjects, best of two scores counts, same full syllabus and similar pattern"},
+      "sections": [
+        {"id":"A","title":"MCQ + Assertion-Reason (2 AR)","type":"mcq_ar","count":20,"marksEach":1},
+        {"id":"B","title":"Very short answer","type":"vsa","count":5,"marksEach":2},
+        {"id":"C","title":"Short answer","type":"sa","count":6,"marksEach":3},
+        {"id":"D","title":"Long answer","type":"la","count":4,"marksEach":5},
+        {"id":"E","title":"Case study","type":"case_study","count":3,"marksEach":4}
+      ],
+      "competencyPct": 50,
+      "competencyNote": "No 2026-specific figure found; 50% carried over from 2024-25 scheme which CBSE said was unchanged for 2025-26 and 2026-27",
+      "source": "https://news.careers360.com/cbse-10th-maths-question-paper-2026-review-lenghty-mcqs-overall-moderate-difficulty-balanced-tricky-ncert-mathematics-analysis ; https://www.prosyllabus.com/hub/cbse-class-10-maths-exam-analysis ; https://www.pw.live/school-prep/exams/cbse-class-10-two-board-exams-from-2026"
+    },
+    "2027_session_2026_27": {
+      "totalMarks": 80, "internalMarks": 20, "durationMins": 180,
+      "sections": "unchanged (38 Q, A-E as above)",
+      "competencyPct": null,
+      "source": "https://www.pw.live/news/cbse-board-exams-2027-sample-papers-marking-schemes-class-10-12 ; https://store.pw.live/blogs/school-exams/cbse-sample-papers-class-10-for-board-exams (sample papers state no change in design for 2026-27; secondary report)"
+    }
+  },
+  "chapters": [
+    {"name":"Real Numbers","unit":"Number Systems","officialMarks":6,"observedMarksByYear":{"2023":null,"2024":null,"2025":null,"2026":null},"commonQuestionStyles":["HCF/LCM of two or three numbers; HCF x LCM = product (assertion-reason)","Prove irrational (sqrt p, a+b sqrt p)","Prime factorisation / word problem on meeting times, bells, equal grouping","Decimal expansion terminating or not (2023 deletion of some topics noted)"]},
+    {"name":"Polynomials","unit":"Algebra","officialMarks":4,"observedMarksByYear":{"2023":null,"2024":null,"2025":null,"2026":null},"commonQuestionStyles":["Zeros from graph (MCQ)","Sum/product of zeros, find quadratic or find k","Relationship between zeros and coefficients"]},
+    {"name":"Pair of Linear Equations in Two Variables","unit":"Algebra","officialMarks":3,"observedMarksByYear":{"2023":null,"2024":null,"2025":null,"2026":null},"commonQuestionStyles":["Consistency conditions with a1/a2, b1/b2, c1/c2; find k","Word problems: speed-distance, age, fractions, cost","Graphical/lines intersecting (Basic)"]},
+    {"name":"Quadratic Equations","unit":"Algebra","officialMarks":9,"observedMarksByYear":{"2023":null,"2024":null,"2025":null,"2026":null},"commonQuestionStyles":["Nature of roots via discriminant, find k","Solve by factorisation or formula","Word problem: speed/time, area, numbers, work-time"]},
+    {"name":"Arithmetic Progressions","unit":"Algebra","officialMarks":4,"observedMarksByYear":{"2023":null,"2024":null,"2025":null,"2026":null},"commonQuestionStyles":["nth term, nth term from end, sum of n terms","Find number of terms / which term equals value","Case study (AP named in 2026 Section E by two sources)"]},
+    {"name":"Coordinate Geometry","unit":"Coordinate Geometry","officialMarks":6,"observedMarksByYear":{"2023":null,"2024":null,"2025":null,"2026":null},"commonQuestionStyles":["Distance formula: collinearity, equidistant point, shape identification","Section formula: ratio, point dividing, midpoint","Find unknown coordinate from condition"]},
+    {"name":"Triangles","unit":"Geometry","officialMarks":9,"observedMarksByYear":{"2023":null,"2024":null,"2025":null,"2026":null},"commonQuestionStyles":["BPT / converse proof or application (named in 2026 Standard)","Similar triangles proofs with parallel lines, ratio of areas","Pythagoras-based word problem"]},
+    {"name":"Circles","unit":"Geometry","officialMarks":6,"observedMarksByYear":{"2023":null,"2024":null,"2025":null,"2026":null},"commonQuestionStyles":["Tangent from external point equal lengths, find angle/length","Tangent perpendicular to radius","Quadrilateral circumscribing circle, cyclic quadrilateral properties (2026 reports)","Flagged tricky in 2026 Standard"]},
+    {"name":"Introduction to Trigonometry","unit":"Trigonometry","officialMarks":4,"observedMarksByYear":{"2023":null,"2024":null,"2025":null,"2026":null},"commonQuestionStyles":["Evaluate expression using standard-angle values","Find ratios from one given ratio"]},
+    {"name":"Trigonometric Identities","unit":"Trigonometry","officialMarks":4,"observedMarksByYear":{"2023":null,"2024":null,"2025":null,"2026":null},"commonQuestionStyles":["Prove an identity using sec2/tan2, sin2/cos2","Simplify expression"]},
+    {"name":"Applications of Trigonometry (Heights and Distances)","unit":"Trigonometry","officialMarks":4,"observedMarksByYear":{"2023":null,"2024":null,"2025":null,"2026":null},"commonQuestionStyles":["Angle of elevation/depression, tower/building/kite, two angles","Case study in Section E (named in 2026 by one source)"]},
+    {"name":"Areas Related to Circles","unit":"Mensuration","officialMarks":4,"observedMarksByYear":{"2023":null,"2024":null,"2025":null,"2026":null},"commonQuestionStyles":["Sector / segment area, arc length","Area of region between circles or in a design/field with wipers, clock, cow tied"]},
+    {"name":"Surface Areas and Volumes","unit":"Mensuration","officialMarks":6,"observedMarksByYear":{"2023":null,"2024":null,"2025":null,"2026":null},"commonQuestionStyles":["Combined solids (cylinder+hemisphere/cone) volume or surface area (2026 Section D example)","Conversion of solid melted/recast","Case study (named in 2026 Section E by one source)"]},
+    {"name":"Statistics","unit":"Statistics & Probability","officialMarks":7,"observedMarksByYear":{"2023":null,"2024":null,"2025":null,"2026":null},"commonQuestionStyles":["Median / mode of grouped data (2026 Standard)","Mean with missing frequencies (two unknowns, 2026 Section D)","Cumulative frequency / ogive if in syllabus: ogive deletion unverified"]},
+    {"name":"Probability","unit":"Statistics & Probability","officialMarks":4,"observedMarksByYear":{"2023":null,"2024":null,"2025":null,"2026":null},"commonQuestionStyles":["Single event with cards, dice, balls, letters, numbers","Two dice sum, probability of event (2026)","Flagged tricky in 2026 Basic"]}
+  ],
+  "unitOfficialMarks": {"Number Systems":6,"Algebra":20,"Coordinate Geometry":6,"Geometry":15,"Trigonometry":12,"Mensuration":10,"Statistics & Probability":11,"total":80,
+    "disagreement":"pw.live 2025-26 page lists Number Systems 5 and Algebra 21; all other sources list 6 and 20"},
+  "patternChanges": [
+    {"year":"2022-23 session","change":"Syllabus rationalised (~30% cut): e.g. Constructions removed, some proofs, frustum, step-deviation, ogive etc. reported; details unreliable across blogs","source":"https://news.careers360.com/cbse-class-10-maths-exam-today-marking-scheme-deleted-syllabus-chapter-wise-weightage-2023"},
+    {"year":"2023","change":"Paper: 38 Q, 80 marks, A-E with case-study Section E (3 x 4). Section A reported as 20 MCQs","source":"https://news.careers360.com/cbse-class-10-maths-exam-today-marking-scheme-deleted-syllabus-chapter-wise-weightage-2023"},
+    {"year":"2024","change":"Competency-based share raised to 50% for Class 10; short/long answers cut to 30%; objective 20%. Section A now 18 MCQ + 2 assertion-reason; internal choice in 2 Q each of B, C, D and 2-mark parts of E","source":"https://english.madhyamam.com/lifestyle/education/cbse-revamps-assessment-scheme-for-10th-12th-for-2024-1147345 ; https://www.shaalaa.com/hin/question-paper-solution/cbse-mathematics-class-10-2023-2024-standard-board-sample-paper_18582"},
+    {"year":"2025","change":"No structural change. Same 38Q/80 marks; Standard typology 54/24/22, Basic 75/15/10 published in blueprint","source":"https://school.careers360.com/articles/cbse-class-10-mathematics-blueprint-2025-chapter-wise-weightage-exam-pattern"},
+    {"year":"2026","change":"Two board exams introduced: Phase 1 (compulsory, Feb 2026; Maths 17 Feb) and optional Phase 2 (May 2026) to improve up to 3 subjects; best score counts; full syllabus; paper design unchanged","source":"https://www.dtnext.in/news/national/twice-a-year-board-exams-for-class-10-from-2026-phase-1-mandatory-phase-2-optional-cbse ; https://news.careers360.com/cbse-class-10-board-exams-2026-around-40-percent-students-take-second-attempt-phase-1-compulsory-eligibility-subjects-loc-pattern"},
+    {"year":"2026-27 session","change":"Sample papers state no change in question paper design/assessment pattern (secondary report); second exam continues","source":"https://www.pw.live/news/cbse-board-exams-2027-sample-papers-marking-schemes-class-10-12"}
+  ],
+  "internalAssessment": {"marks":20,"split":"Pen-paper test + multiple assessment 10 (5+5), portfolio 5, lab practical 5","source":"https://school.careers360.com/articles/cbse-class-10-mathematics-blueprint-2025-chapter-wise-weightage-exam-pattern"}
+}

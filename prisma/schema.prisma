@@ -41,6 +41,9 @@ model User {
   // Quick Correction: which side of the app this account uses — 'teacher' or
   // 'parent'. Null until the person picks on first sign-in.
   appRole            String?
+  // 'active' | 'pending' | 'rejected'. Parents are active at once; a teacher
+  // who signs up themselves waits as 'pending' until an admin approves.
+  appStatus          String    @default("active")
   students           Student[] @relation("TeacherStudents")
   children           Student[] @relation("ParentChildren")
   papers             Paper[]
@@ -130,6 +133,11 @@ model Paper {
   durationMins Int
   targetMarks  Int?
   questionIds  Json // string[] of question-bank ids, in paper order
+  // Which pattern it was built from, and the section layout as it was then
+  // ([{ title, note, type, marksEach, questionIds }]), so editing a pattern
+  // later does not rewrite papers already set. Null on older papers.
+  patternId    String?
+  layout       Json?
   createdAt    DateTime     @default(now())
   submissions  Submission[]
 
@@ -158,6 +166,86 @@ model Submission {
   @@unique([paperId, studentId])
   @@index([studentId])
   @@map("submissions")
+}
+
+// Categories: the curriculum the admin maintains and papers are built from.
+// One tree, five fixed levels: board > class > subject > chapter > topic. A
+// node's `kind` says which level it is; `parentId` is the level above (null
+// for a board).
+model CurriculumNode {
+  id        String           @id @default(cuid())
+  kind      String // 'board' | 'class' | 'subject' | 'chapter' | 'topic'
+  name      String
+  parentId  String?
+  parent    CurriculumNode?  @relation("CurriculumTree", fields: [parentId], references: [id], onDelete: Cascade)
+  children  CurriculumNode[] @relation("CurriculumTree")
+  patterns  PaperPattern[]
+  questions Question[]
+  position  Int              @default(0)
+  isActive  Boolean          @default(true)
+  // Topics only: how this topic is tested. questionTypes is a subset of
+  // mcq | short | long | case; complexity is easy | medium | hard; marks is
+  // the usual marks for a question on it.
+  questionTypes Json?
+  complexity    String?
+  marks         Int?
+  createdAt DateTime         @default(now())
+  updatedAt DateTime         @updatedAt
+
+  @@unique([parentId, name])
+  @@index([parentId])
+  @@map("curriculum_nodes")
+}
+
+// How a paper is laid out for a subject: sections, marks per question, time.
+// `sections` is [{ title, type, count, marksEach, note }] in paper order.
+// Linked to a subject node of the categories; the generator will read it
+// in place of the hard-coded board/unit templates.
+model PaperPattern {
+  id           String         @id @default(cuid())
+  subjectId    String
+  subject      CurriculumNode @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  name         String
+  description  String?
+  durationMins Int
+  sections     Json
+  isActive     Boolean        @default(true)
+  position     Int            @default(0)
+  createdAt    DateTime       @default(now())
+  updatedAt    DateTime       @updatedAt
+
+  @@unique([subjectId, name])
+  @@index([subjectId])
+  @@map("paper_patterns")
+}
+
+// The question bank: each question is tagged to a topic of the categories.
+// Papers keep question ids, so a question that has been used is hidden, not
+// deleted. `answer` is the marking scheme and never leaves the admin and
+// marking code.
+model Question {
+  id         String         @id @default(cuid())
+  topicId    String
+  topic      CurriculumNode @relation(fields: [topicId], references: [id], onDelete: Restrict)
+  type       String // 'mcq' | 'short' | 'long' | 'case'
+  complexity String         @default("medium") // 'easy' | 'medium' | 'hard'
+  marks      Int
+  text       String
+  options    Json? // string[] for multiple choice
+  answer     String?
+  competency Boolean        @default(false)
+  isActive   Boolean        @default(true)
+  // Where it came from and whether an admin has checked it. AI-written
+  // questions arrive as 'draft' and hidden; approving makes them live.
+  source       String       @default("manual") // 'seed' | 'ai' | 'manual'
+  reviewStatus String       @default("approved") // 'draft' | 'approved' | 'rejected' | 'flagged'
+  reviewNote   String?
+  createdAt  DateTime       @default(now())
+  updatedAt  DateTime       @updatedAt
+
+  @@index([topicId])
+  @@index([reviewStatus])
+  @@map("questions")
 }
 
 // Background jobs for the appkit queue's database transport (picked

@@ -1,523 +1,211 @@
 /**
- * /admin — the dashboard home.
- * @file src/web/features/admin/pages/index.tsx
+ * /admin — the overview. What needs the admin's attention, the few numbers
+ * that show whether the product is working, and what has happened lately.
  *
- * Pulls `/api/admin/summary` once on mount and renders:
- *
- *   - Three stat cards (users, 30-day signups, recent events)
- *   - Area chart of daily signups over the last 30 days
- *   - Donut of users by role.level
- *   - Recent-activity table
- *
- * Charts are recharts. recharts lives in the template's package.json
- * (optional peer of uikit) and is tree-shakable, so only the pieces
- * this page imports end up in the bundle.
- *
- * Which stat cards render is gated by `VITE_ADMIN_DASHBOARD_WIDGETS`
- * (defaults to `users,signups,activity`). The server-side summary is
- * always fully computed — cheap indexed queries — and the client
- * decides what to show.
- *
- * TODO: To add a new widget:
- *   1. Extend `AdminSummary` in api/features/admin/admin.service.ts
- *   2. Add a `WidgetXxx` in this file + a case in `renderWidget`
- *   3. Add the key to your `VITE_ADMIN_DASHBOARD_WIDGETS` env var
- *
- * TODO: Hook up real time range filter — today we're fixed to 30 days.
- *
- * @see ../../../../../docs/admin-patterns.md §4 admin-api, §5 loading, §11 perf
- * @see https://dev.bloomneo.com/adminapp/dashboard
- *
- * @llm-rule WHEN: Adding a widget, changing the summary payload, or tweaking chart styling
- * @llm-rule AVOID: useQuery here would be nicer, but staying on useEffect keeps the template free of a React Query dep requirement for readers copying this file
- * @llm-rule NOTE: Widget subcomponents are React.memo'd — keep their prop surface stable (pass primitives / stable arrays) so memoization actually hits
+ * Built phone-first: KPI cards sit two to a row on a phone, three on a
+ * tablet, six across on a wide screen. Data comes from one call,
+ * `/api/admin/overview`.
  */
-
-import { memo, useEffect, useMemo, useState } from 'react';
+import { Link } from 'react-router-dom';
+import { Alert, AlertDescription } from '@bloomneo/uikit';
 import {
-  Area,
-  AreaChart,
-  Cell,
-  Legend,
-  Pie,
-  PieChart,
-  ResponsiveContainer,
-  Tooltip,
-  XAxis,
-  YAxis,
-} from 'recharts';
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-  Table,
-  TableBody,
-  TableCell,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from '@bloomneo/uikit';
+  GraduationCap, HeartHandshake, Users, FileText, ClipboardCheck, FileQuestion,
+  ChevronRight, CheckCircle2, AlertTriangle, UserCheck, Flag, Sparkles, Loader2, type LucideIcon,
+} from 'lucide-react';
 import { SEO } from '@/shared/SEO';
+import { api } from '@/shared/api';
+import { useLoad } from '@/shared/useLoad';
 import { AdminPageHeader } from '../components/AdminPageHeader';
-import { PageLoading } from '../components/PageLoading';
-import { adminFetchJson } from '../lib/admin-api';
-import {
-  readDashboardWidgets,
-  type WidgetKey,
-} from '../lib/dashboard-widgets';
 
-interface AdminSummary {
-  users: {
-    total: number;
-    byRole: Array<{ role: string; level: string; count: number }>;
-  };
-  signups: {
-    last30d: number;
-    daily: Array<{ day: string; count: number }>;
-  };
-  activity: {
-    recent: Array<{
-      id: string;
-      actorId: string | null;
-      actorName: string | null;
-      actorEmail: string | null;
-      actorType: string;
-      action: string;
-      entityType: string | null;
-      createdAt: string;
-    }>;
-  };
+type Overview = {
+  teachers: { active: number; pending: number; disabled: number };
+  parents: { total: number };
+  students: { total: number; linked: number };
+  papers: { total: number; last7d: number };
+  submissions: { assigned: number; evaluating: number; evaluated: number; failed: number; toCheck: number; sentLast7d: number };
+  questions: { live: number; draft: number; flagged: number };
+  sentPerDay: { day: string; count: number }[];
+  recent: { id: string; actorName: string | null; actorEmail: string | null; actorType: string; action: string; entityType: string | null; createdAt: string }[];
+};
+
+/** Plain-language names for the audit actions the app writes. */
+const ACTION: Record<string, string> = {
+  'people.create': 'Created a login',
+  'people.approve': 'Approved a teacher',
+  'people.reject': 'Rejected a teacher',
+  'people.enable': 'Enabled an account',
+  'people.disable': 'Disabled an account',
+  'people.password_reset': 'Reset a password',
+  'people.sign_in_as': 'Signed in as someone',
+  'library.create': 'Added to Categories',
+  'library.update': 'Changed Categories',
+  'library.delete': 'Removed from Categories',
+  'pattern.create': 'Added a paper pattern',
+  'pattern.update': 'Changed a paper pattern',
+  'pattern.delete': 'Removed a paper pattern',
+  'question.create': 'Added a question',
+  'question.update': 'Edited a question',
+  'question.delete': 'Deleted a question',
+  'question.approved': 'Approved questions',
+  'question.rejected': 'Rejected questions',
+};
+
+function ago(iso: string): string {
+  const s = Math.max(0, (Date.now() - new Date(iso).getTime()) / 1000);
+  if (s < 60) return 'just now';
+  if (s < 3600) return `${Math.floor(s / 60)} min ago`;
+  if (s < 86400) return `${Math.floor(s / 3600)} h ago`;
+  if (s < 7 * 86400) return `${Math.floor(s / 86400)} d ago`;
+  return new Date(iso).toLocaleDateString(undefined, { day: 'numeric', month: 'short' });
 }
 
-/**
- * Actor display helper — mirrors the audit page logic so a row looks
- * the same wherever it's rendered (dashboard recent-activity widget,
- * audit detail drawer).
- */
-function displayActor(row: AdminSummary['activity']['recent'][number]): string {
-  if (row.actorName) return row.actorName;
-  if (row.actorEmail) return row.actorEmail;
-  if (row.actorType === 'system') return 'system';
-  return '—';
-}
+const plural = (n: number, one: string, many = `${one}s`) => `${n} ${n === 1 ? one : many}`;
 
-// Widget list is now dynamic — reads localStorage first (the user's
-// choice on the settings page), falls back to the env var, falls back
-// to the full default set. Re-read on the `adminapp:widgets-changed`
-// custom event so saves on the settings page update the dashboard
-// without a reload.
-
-/**
- * Donut slice palette. These map to Tailwind-equivalent hex values
- * so the charts stay readable on light + dark themes without CSS var
- * gymnastics (recharts doesn't pick up CSS vars directly).
- *
- * TODO: Swap to `var(--color-chart1)` once we add a recharts plugin
- * that resolves CSS custom properties at paint time.
- */
-/*
- * Charts render WITHOUT animation on purpose.
- *
- * recharts 2.x animates through react-smooth, which is not React 19 compatible:
- * the enter animation never advances, so a <Pie> emits its sector <g> wrappers
- * with no <path> inside and the donut is simply absent — no error, no warning,
- * an empty card. The area chart degrades the same way.
- *
- * `isAnimationActive={false}` skips that path entirely and the geometry is
- * computed directly. A dashboard chart does not need an entrance animation;
- * it needs to be on screen when the page is.
- *
- * Remove these once this layer moves to recharts 3.x, which supports React 19.
- */
-const CHART_COLORS = ['#0ea5e9', '#8b5cf6', '#f97316', '#10b981', '#f43f5e', '#eab308'];
-
-export default function AdminDashboard() {
-  const [summary, setSummary] = useState<AdminSummary | null>(null);
-  const [error, setError] = useState<string | null>(null);
-  const [widgets, setWidgets] = useState<WidgetKey[]>(() =>
-    readDashboardWidgets(),
+/** One number card. A link when it has somewhere to go. */
+function Kpi({ label, value, sub, icon: Icon, to }: { label: string; value: string | number; sub: string; icon: LucideIcon; to?: string }) {
+  const body = (
+    <>
+      <span className="flex items-center justify-between gap-2 text-xs font-medium text-muted-foreground">
+        <span className="truncate">{label}</span>
+        <Icon className="size-4 shrink-0" aria-hidden />
+      </span>
+      <span className="mt-1.5 block text-2xl font-semibold tabular-nums sm:text-3xl">{value}</span>
+      <span className="mt-0.5 block text-xs leading-snug text-muted-foreground">{sub}</span>
+    </>
   );
+  const cls = 'block min-w-0 rounded-xl border border-border bg-card p-3 sm:p-4';
+  return to
+    ? <Link to={to} className={`${cls} transition hover:bg-muted/50`}>{body}</Link>
+    : <div className={cls}>{body}</div>;
+}
 
-  useEffect(() => {
-    let cancelled = false;
-    adminFetchJson<AdminSummary>('/api/admin/summary')
-      .then((data) => {
-        if (!cancelled) setSummary(data);
-      })
-      .catch((err: unknown) => {
-        if (!cancelled) {
-          setError(err instanceof Error ? err.message : 'Failed to load');
-        }
-      });
-    return () => {
-      cancelled = true;
-    };
-  }, []);
+type Attention = { key: string; icon: LucideIcon; text: string; to?: string };
 
-  // Re-read widget prefs when the settings page saves.
-  useEffect(() => {
-    const onChange = () => setWidgets(readDashboardWidgets());
-    window.addEventListener('adminapp:widgets-changed', onChange);
-    window.addEventListener('storage', onChange);
-    return () => {
-      window.removeEventListener('adminapp:widgets-changed', onChange);
-      window.removeEventListener('storage', onChange);
-    };
-  }, []);
+export default function AdminOverview() {
+  const { data, error, loading } = useLoad(() => api.get<Overview>('/api/admin/overview'));
 
-  // Derive once per summary — stat cards read these fields, and the
-  // memoized child components compare by reference. Pulling the scalar
-  // values here lets us hand each child only what it needs; the child
-  // re-renders only when its own number changes.
-  const stats = useMemo(() => {
-    if (!summary) return null;
-    return {
-      userTotal: summary.users.total,
-      roleCombos: summary.users.byRole.length,
-      signups30d: summary.signups.last30d,
-      peakLabel: computePeakLabel(summary.signups.daily),
-      recentCount: summary.activity.recent.length,
-    };
-  }, [summary]);
+  if (loading) return <><AdminPageHeader title="Overview" /><div className="grid place-items-center py-20"><Loader2 className="size-5 animate-spin text-muted-foreground" aria-label="Loading" /></div></>;
+  if (error || !data) {
+    return (
+      <>
+        <AdminPageHeader title="Overview" />
+        <Alert variant="destructive"><AlertTriangle className="size-4" /><AlertDescription>{error ?? 'Could not load the overview.'}</AlertDescription></Alert>
+      </>
+    );
+  }
+
+  const { teachers, parents, students, papers, submissions: sub, questions: q, sentPerDay, recent } = data;
+  const sentTotal = sentPerDay.reduce((n, d) => n + d.count, 0);
+  const peak = Math.max(1, ...sentPerDay.map((d) => d.count));
+  const assignedAll = sub.assigned + sub.evaluating + sub.evaluated + sub.failed;
+  const linkedPct = students.total ? Math.round((students.linked / students.total) * 100) : 0;
+
+  // Only things the admin can act on, in the order they matter.
+  const attention: Attention[] = [
+    teachers.pending > 0 && { key: 'pending', icon: UserCheck, text: `${plural(teachers.pending, 'teacher')} waiting for your approval`, to: '/admin/users?tab=pending' },
+    sub.failed > 0 && { key: 'failed', icon: AlertTriangle, text: `${plural(sub.failed, 'answer sheet')} failed marking. The teacher can try again from the sheet.` },
+    q.flagged > 0 && { key: 'flagged', icon: Flag, text: `${plural(q.flagged, 'flagged question')} to look at`, to: '/admin/content?tab=questions&review=flagged' },
+    q.draft > 0 && { key: 'draft', icon: Sparkles, text: `${plural(q.draft, 'question')} waiting for review before they go live`, to: '/admin/content?tab=questions&review=draft' },
+  ].filter(Boolean) as Attention[];
 
   return (
     <>
-      <SEO title="Dashboard" />
-      <AdminPageHeader
-        title="Dashboard"
-        breadcrumbs={[{ label: 'Admin', href: '/admin' }, { label: 'Dashboard' }]}
-      />
+      <SEO title="Overview" />
+      <AdminPageHeader title="Overview" description="How Quick Correction is doing, and what needs you." />
 
-      {error && (
-        <Card>
-          <CardContent className="py-6 text-sm text-destructive">
-            Failed to load dashboard: {error}
-          </CardContent>
-        </Card>
-      )}
-
-      {/* One page-level loader until summary resolves. After ~200ms
-          of fetching the spinner appears; fast local fetches paint
-          the real widgets with no visible load state. */}
-      {!summary && !error && <PageLoading label="Loading dashboard" />}
-
-      {/* Top row — compact stat cards. Each card renders based on the
-          widget key being present in VITE_ADMIN_DASHBOARD_WIDGETS. */}
-      {summary && stats && (
-      <div className="grid gap-4 md:grid-cols-3 mb-6">
-        {widgets.map((key) => renderStatCard(key, stats))}
-      </div>
-      )}
-
-      {/* Big charts — area chart for signup trend, donut for role mix.
-          Hidden if the signups/users widgets are disabled. */}
-      {summary && (
-      <div className="grid gap-4 lg:grid-cols-5 mb-6">
-        {widgets.includes('signups') && (
-          <Card className="lg:col-span-3">
-            <CardHeader>
-              <CardTitle className="text-sm font-medium text-muted-foreground">
-                Signups — last 30 days
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <SignupsAreaChart daily={summary.signups.daily} />
-            </CardContent>
-          </Card>
+      {/* Needs you */}
+      <section aria-labelledby="attention" className="mb-6">
+        <h2 id="attention" className="mb-2 text-sm font-medium">Needs your attention</h2>
+        {attention.length === 0 ? (
+          <p className="flex items-center gap-2 rounded-xl border border-border bg-card p-4 text-sm text-muted-foreground">
+            <CheckCircle2 className="size-4 shrink-0 text-success" aria-hidden /> All clear. Nothing is waiting on you.
+          </p>
+        ) : (
+          <ul className="divide-y divide-border overflow-hidden rounded-xl border border-border bg-card">
+            {attention.map((a) => {
+              const row = (
+                <>
+                  <a.icon className="size-4 shrink-0 text-primary" aria-hidden />
+                  <span className="min-w-0 flex-1 text-sm">{a.text}</span>
+                  {a.to && <ChevronRight className="size-4 shrink-0 text-muted-foreground" aria-hidden />}
+                </>
+              );
+              return (
+                <li key={a.key}>
+                  {a.to
+                    ? <Link to={a.to} className="flex items-center gap-3 px-4 py-3 hover:bg-muted/50">{row}</Link>
+                    : <div className="flex items-center gap-3 px-4 py-3">{row}</div>}
+                </li>
+              );
+            })}
+          </ul>
         )}
-        {widgets.includes('users') && (
-          <Card className="lg:col-span-2">
-            <CardHeader>
-              <CardTitle className="text-sm font-medium text-muted-foreground">
-                Users by role
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <RolesDonut byRole={summary.users.byRole} />
-            </CardContent>
-          </Card>
-        )}
-      </div>
-      )}
+      </section>
 
-      {/* Recent activity — always visible when the widget is on. */}
-      {summary && widgets.includes('activity') && (
-        <Card>
-          <CardHeader>
-            <CardTitle className="text-sm font-medium text-muted-foreground">
-              Recent activity
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <ActivityTable recent={summary.activity.recent} />
-          </CardContent>
-        </Card>
-      )}
+      {/* The numbers: two across on a phone, three on a tablet, six on a wide screen */}
+      <section aria-label="Key numbers" className="mb-6 grid grid-cols-2 gap-3 md:grid-cols-3 xl:grid-cols-6">
+        <Kpi label="Teachers" icon={GraduationCap} value={teachers.active} to="/admin/users"
+          sub={teachers.pending ? `${teachers.pending} waiting for approval` : teachers.disabled ? `${teachers.disabled} disabled` : 'all approved'} />
+        <Kpi label="Parents" icon={HeartHandshake} value={parents.total} to="/admin/users" sub="signed up" />
+        <Kpi label="Students" icon={Users} value={students.total}
+          sub={students.total ? `${linkedPct}% have a parent linked` : 'none added yet'} />
+        <Kpi label="Papers" icon={FileText} value={papers.total}
+          sub={papers.last7d ? `${papers.last7d} made this week` : 'none this week'} />
+        <Kpi label="Marked" icon={ClipboardCheck} value={`${sub.evaluated}/${assignedAll}`}
+          sub={sub.toCheck ? `${sub.toCheck} waiting for a teacher's check` : assignedAll ? 'all checked' : 'no papers set yet'} />
+        <Kpi label="Question bank" icon={FileQuestion} value={q.live} to="/admin/content?tab=questions"
+          sub={q.draft || q.flagged ? `${q.draft} to review · ${q.flagged} flagged` : 'all reviewed'} />
+      </section>
+
+      <div className="grid gap-4 lg:grid-cols-2">
+        {/* Usage */}
+        <section className="rounded-xl border border-border bg-card p-4" aria-labelledby="sent">
+          <div className="mb-3 flex items-baseline justify-between gap-2">
+            <h2 id="sent" className="text-sm font-medium">Answer sheets sent for marking</h2>
+            <span className="text-xs text-muted-foreground">last 14 days</span>
+          </div>
+          {sentTotal === 0 ? (
+            <p className="py-8 text-center text-sm text-muted-foreground">None in the last 14 days.</p>
+          ) : (
+            <>
+              <p className="mb-2 text-2xl font-semibold tabular-nums">{sentTotal}</p>
+              <div className="flex h-24 items-end gap-1" role="img" aria-label={`Answer sheets sent per day, most in one day ${peak}`}>
+                {sentPerDay.map((d) => (
+                  <span key={d.day} title={`${new Date(d.day).toLocaleDateString(undefined, { day: 'numeric', month: 'short' })}: ${d.count}`}
+                    className="min-h-0.5 flex-1 rounded-t bg-primary/80" style={{ height: `${Math.max(2, (d.count / peak) * 100)}%` }} />
+                ))}
+              </div>
+              <div className="mt-1 flex justify-between text-[11px] text-muted-foreground">
+                <span>{new Date(sentPerDay[0].day).toLocaleDateString(undefined, { day: 'numeric', month: 'short' })}</span>
+                <span>Today</span>
+              </div>
+            </>
+          )}
+        </section>
+
+        {/* Recent activity */}
+        <section className="rounded-xl border border-border bg-card p-4" aria-labelledby="recent">
+          <div className="mb-3 flex items-baseline justify-between gap-2">
+            <h2 id="recent" className="text-sm font-medium">Recent activity</h2>
+            <Link to="/admin/audit" className="text-xs text-primary hover:underline">All activity</Link>
+          </div>
+          {recent.length === 0 ? (
+            <p className="py-8 text-center text-sm text-muted-foreground">Nothing yet.</p>
+          ) : (
+            <ul className="divide-y divide-border">
+              {recent.map((r) => (
+                <li key={r.id} className="flex items-baseline justify-between gap-3 py-2 text-sm first:pt-0 last:pb-0">
+                  <span className="min-w-0">
+                    <span className="block truncate">{ACTION[r.action] ?? r.action}</span>
+                    <span className="block truncate text-xs text-muted-foreground">{r.actorName || r.actorEmail || (r.actorType === 'system' ? 'System' : 'Unknown')}</span>
+                  </span>
+                  <span className="shrink-0 text-xs text-muted-foreground">{ago(r.createdAt)}</span>
+                </li>
+              ))}
+            </ul>
+          )}
+        </section>
+      </div>
     </>
   );
 }
-
-interface DashStats {
-  userTotal: number;
-  roleCombos: number;
-  signups30d: number;
-  peakLabel: string | undefined;
-  recentCount: number;
-}
-
-function computePeakLabel(
-  daily: AdminSummary['signups']['daily'],
-): string | undefined {
-  const peak = daily.reduce(
-    (best, d) => (d.count > best.count ? d : best),
-    { day: '', count: -1 },
-  );
-  return peak.count > 0 ? `Peak: ${peak.count} on ${peak.day}` : 'No signups yet';
-}
-
-function renderStatCard(key: string, stats: DashStats) {
-  switch (key) {
-    case 'users':
-      return <StatUsers key={key} stats={stats} />;
-    case 'signups':
-      return <StatSignups key={key} stats={stats} />;
-    case 'activity':
-      return <StatActivity key={key} stats={stats} />;
-    default:
-      return null;
-  }
-}
-
-const StatCard = memo(function StatCard({
-  label,
-  value,
-  hint,
-}: {
-  label: string;
-  value: string | null;
-  hint?: string;
-}) {
-  return (
-    <Card>
-      <CardHeader className="pb-2">
-        <CardTitle className="text-sm font-medium text-muted-foreground">
-          {label}
-        </CardTitle>
-      </CardHeader>
-      <CardContent>
-        <div className="text-3xl font-bold">{value ?? '—'}</div>
-        {hint && <p className="mt-1 text-xs text-muted-foreground">{hint}</p>}
-      </CardContent>
-    </Card>
-  );
-});
-
-const StatUsers = memo(function StatUsers({ stats }: { stats: DashStats }) {
-  return (
-    <StatCard
-      label="Active users"
-      value={stats.userTotal.toLocaleString()}
-      hint={`${stats.roleCombos} role combos`}
-    />
-  );
-});
-
-const StatSignups = memo(function StatSignups({ stats }: { stats: DashStats }) {
-  return (
-    <StatCard
-      label="Signups (30 d)"
-      value={stats.signups30d.toLocaleString()}
-      hint={stats.peakLabel}
-    />
-  );
-});
-
-const StatActivity = memo(function StatActivity({ stats }: { stats: DashStats }) {
-  return (
-    <StatCard
-      label="Recent events"
-      value={stats.recentCount.toLocaleString()}
-      hint="Last 5 audit events shown below"
-    />
-  );
-});
-
-/**
- * Area chart for the 30-day signup series. Gradient fill, soft grid,
- * minimal axes — aims to feel like a SaaS admin dashboard rather than
- * an Excel sheet.
- *
- * Memoized: recharts re-lays-out its SVG on every render, which is
- * expensive. With React.memo the chart re-renders only when `daily`
- * actually changes — once per summary fetch, not once per parent
- * render (e.g. when `widgets` toggles).
- */
-const SignupsAreaChart = memo(function SignupsAreaChart({
-  daily,
-}: {
-  daily: AdminSummary['signups']['daily'] | undefined;
-}) {
-  if (!daily) return null;
-  if (daily.length === 0) {
-    return (
-      <p className="text-sm text-muted-foreground py-12 text-center">
-        No signups in the last 30 days.
-      </p>
-    );
-  }
-
-  // Only show every 5th day tick to keep the X-axis readable at
-  // narrow widths. Full day values are in the tooltip.
-  const tickFormatter = (value: string, index: number) =>
-    index % 5 === 0 ? value.slice(5) : '';
-
-  return (
-    <div className="h-[240px] w-full">
-      <ResponsiveContainer>
-        <AreaChart data={daily} margin={{ top: 8, right: 8, left: 0, bottom: 0 }}>
-          <defs>
-            <linearGradient id="signups-gradient" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stopColor={CHART_COLORS[0]} stopOpacity={0.5} />
-              <stop offset="100%" stopColor={CHART_COLORS[0]} stopOpacity={0} />
-            </linearGradient>
-          </defs>
-          <XAxis
-            dataKey="day"
-            tickFormatter={tickFormatter}
-            tick={{ fontSize: 11 }}
-            stroke="currentColor"
-            className="text-muted-foreground"
-          />
-          <YAxis
-            allowDecimals={false}
-            tick={{ fontSize: 11 }}
-            stroke="currentColor"
-            className="text-muted-foreground"
-            width={32}
-          />
-          <Tooltip
-            contentStyle={{
-              background: 'var(--color-popover)',
-              border: '1px solid var(--color-border)',
-              borderRadius: 6,
-              fontSize: 12,
-            }}
-            labelStyle={{ color: 'var(--color-foreground)' }}
-          />
-          <Area
-            type="monotone"
-            dataKey="count"
-            stroke={CHART_COLORS[0]}
-            strokeWidth={2}
-            fill="url(#signups-gradient)"
-            isAnimationActive={false}
-          />
-        </AreaChart>
-      </ResponsiveContainer>
-    </div>
-  );
-});
-
-/**
- * Donut of users grouped by role.level. Slice colors cycle through
- * CHART_COLORS; if you have more role combos than colors the palette
- * repeats (rare — admin apps usually sit at 3–6).
- *
- * Memoized for the same reason as SignupsAreaChart — skip recharts
- * re-layout when only widget toggles changed upstream.
- */
-const RolesDonut = memo(function RolesDonut({
-  byRole,
-}: {
-  byRole: AdminSummary['users']['byRole'] | undefined;
-}) {
-  const data = useMemo(
-    () =>
-      (byRole ?? []).map((r) => ({
-        name: `${r.role}.${r.level}`,
-        value: r.count,
-      })),
-    [byRole],
-  );
-
-  if (!byRole) return null;
-  if (byRole.length === 0) {
-    return (
-      <p className="text-sm text-muted-foreground py-12 text-center">
-        No users yet.
-      </p>
-    );
-  }
-
-  return (
-    <div className="h-[240px] w-full">
-      <ResponsiveContainer>
-        <PieChart>
-          <Pie
-            data={data}
-            dataKey="value"
-            nameKey="name"
-            cx="50%"
-            cy="50%"
-            innerRadius={60}
-            outerRadius={90}
-            paddingAngle={2}
-            isAnimationActive={false}
-          >
-            {data.map((_, i) => (
-              <Cell key={i} fill={CHART_COLORS[i % CHART_COLORS.length]} />
-            ))}
-          </Pie>
-          <Tooltip
-            contentStyle={{
-              background: 'var(--color-popover)',
-              border: '1px solid var(--color-border)',
-              borderRadius: 6,
-              fontSize: 12,
-            }}
-          />
-          <Legend
-            verticalAlign="bottom"
-            height={32}
-            wrapperStyle={{ fontSize: 11 }}
-          />
-        </PieChart>
-      </ResponsiveContainer>
-    </div>
-  );
-});
-
-const ActivityTable = memo(function ActivityTable({
-  recent,
-}: {
-  recent: AdminSummary['activity']['recent'] | undefined;
-}) {
-  if (!recent) return null;
-  if (recent.length === 0) {
-    return <p className="text-sm text-muted-foreground">No activity yet.</p>;
-  }
-
-  return (
-    <Table>
-      <TableHeader>
-        <TableRow>
-          <TableHead>Action</TableHead>
-          <TableHead>Actor</TableHead>
-          <TableHead>Entity</TableHead>
-          <TableHead>When</TableHead>
-        </TableRow>
-      </TableHeader>
-      <TableBody>
-        {recent.map((row) => (
-          <TableRow key={row.id}>
-            <TableCell className="font-mono text-xs">{row.action}</TableCell>
-            <TableCell>{displayActor(row)}</TableCell>
-            <TableCell>{row.entityType ?? '—'}</TableCell>
-            <TableCell>{new Date(row.createdAt).toLocaleString()}</TableCell>
-          </TableRow>
-        ))}
-      </TableBody>
-    </Table>
-  );
-});

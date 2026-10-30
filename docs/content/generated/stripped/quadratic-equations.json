@@ -1,0 +1,194 @@
+[
+ {
+  "idx": 0,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The quadratic equation 2x\u00b2 \u2212 6x + 5 = 0 has",
+  "options": [
+   "two distinct real roots",
+   "two equal real roots",
+   "no real roots",
+   "two rational roots"
+  ]
+ },
+ {
+  "idx": 1,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The nature of the roots of the equation 2x\u00b2 \u2212 7x + 3 = 0 is",
+  "options": [
+   "two distinct rational roots",
+   "two distinct real roots which are irrational",
+   "two equal real roots",
+   "no real roots"
+  ]
+ },
+ {
+  "idx": 2,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The values of k for which the equation 2x\u00b2 + kx + 8 = 0 has equal roots are",
+  "options": [
+   "4",
+   "\u00b14",
+   "8",
+   "\u00b18"
+  ]
+ },
+ {
+  "idx": 3,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The smallest positive integer k for which the equation x\u00b2 \u2212 8x + k = 0 has no real roots is",
+  "options": [
+   "17",
+   "16",
+   "15",
+   "32"
+  ]
+ },
+ {
+  "idx": 4,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The roots of the equation x\u00b2 \u2212 3x \u2212 10 = 0 are",
+  "options": [
+   "\u22125 and 2",
+   "5 and \u22122",
+   "5 and 2",
+   "\u22125 and \u22122"
+  ]
+ },
+ {
+  "idx": 5,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The values of x satisfying x + 1/x = 10/3 (x \u2260 0) are",
+  "options": [
+   "1/3 and \u22123",
+   "\u22123 and \u22121/3",
+   "3 and \u22121/3",
+   "3 and 1/3"
+  ]
+ },
+ {
+  "idx": 6,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Which quadratic equation has the sum of its roots equal to 4 and the product of its roots equal to \u22125?",
+  "options": [
+   "x\u00b2 + 4x \u2212 5 = 0",
+   "x\u00b2 \u2212 4x + 5 = 0",
+   "x\u00b2 \u2212 4x \u2212 5 = 0",
+   "x\u00b2 + 4x + 5 = 0"
+  ]
+ },
+ {
+  "idx": 7,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The quadratic equation whose roots are 3 + \u221a2 and 3 \u2212 \u221a2 is",
+  "options": [
+   "x\u00b2 + 6x + 7 = 0",
+   "x\u00b2 \u2212 6x + 7 = 0",
+   "x\u00b2 \u2212 6x + 11 = 0",
+   "x\u00b2 \u2212 6x \u2212 7 = 0"
+  ]
+ },
+ {
+  "idx": 8,
+  "marks": 1,
+  "type": "mcq",
+  "text": "If 2 + \u221a7 is a root of x\u00b2 + bx + c = 0, where b and c are rational numbers, then the value of b + c is",
+  "options": [
+   "\u22127",
+   "7",
+   "\u22121",
+   "1"
+  ]
+ },
+ {
+  "idx": 9,
+  "marks": 1,
+  "type": "mcq",
+  "text": "If the equation x\u00b2 \u2212 2kx + 5k \u2212 6 = 0 has equal roots, then the possible values of k are",
+  "options": [
+   "2 only",
+   "3 only",
+   "2 or 3",
+   "\u22122 or \u22123"
+  ]
+ },
+ {
+  "idx": 10,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Assertion (A): The equation x\u00b2 + kx + 1 = 0 has real roots for every real value of k.\nReason (R): A quadratic equation ax\u00b2 + bx + c = 0 has real roots when its discriminant b\u00b2 \u2212 4ac \u2265 0.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ]
+ },
+ {
+  "idx": 11,
+  "marks": 2,
+  "type": "short",
+  "text": "Without solving, write the sum and the product of the roots of 3x\u00b2 \u2212 11x \u2212 4 = 0. Verify your answer by finding the roots."
+ },
+ {
+  "idx": 12,
+  "marks": 3,
+  "type": "short",
+  "text": "Find the non-zero value of k for which the equation kx(x \u2212 5) + 10 = 0 has two equal real roots."
+ },
+ {
+  "idx": 13,
+  "marks": 3,
+  "type": "short",
+  "text": "The sum of the squares of two consecutive odd positive integers is 290. Find the integers."
+ },
+ {
+  "idx": 14,
+  "marks": 5,
+  "type": "long",
+  "text": "A train travels 240 km at a uniform speed. If its speed had been 10 km/h more, it would have taken 2 hours less for the same journey. Find the original speed of the train."
+ },
+ {
+  "idx": 15,
+  "marks": 5,
+  "type": "long",
+  "text": "Two taps together can fill a tank in 6 hours. The tap of the larger diameter takes 5 hours less than the tap of the smaller diameter to fill the tank separately. Find the time in which each tap can separately fill the tank."
+ },
+ {
+  "idx": 16,
+  "marks": 5,
+  "type": "long",
+  "text": "A motorboat can go 36 km upstream and return 36 km downstream in a total of 5 hours. If the speed of the stream is 3 km/h, find the speed of the boat in still water."
+ },
+ {
+  "idx": 17,
+  "marks": 5,
+  "type": "long",
+  "text": "The length of a rectangular field is 7 m more than twice its breadth, and its area is 372 m\u00b2. Find the dimensions of the field. Also find the cost of fencing it all around at \u20b9 40 per metre."
+ },
+ {
+  "idx": 18,
+  "marks": 5,
+  "type": "long",
+  "text": "The two legs of a right-angled triangle differ by 7 cm, and the hypotenuse is 9 cm longer than the shorter leg. Find the lengths of the three sides of the triangle."
+ },
+ {
+  "idx": 19,
+  "marks": 5,
+  "type": "long",
+  "text": "Find the values of k for which the equation (k + 4)x\u00b2 + (k + 1)x + 1 = 0 has equal roots. For each such value of k, find the roots of the equation."
+ },
+ {
+  "idx": 20,
+  "marks": 4,
+  "type": "case",
+  "text": "A school is buying a rectangular carpet for its reading room. The length of the carpet is 4 m more than its breadth, and its area has to be 96 m\u00b2. Let the breadth of the carpet be x metres.\n(i) Form a quadratic equation in x that represents this situation. [1]\n(ii) Find the discriminant of the equation and state the nature of its roots. [1]\n(iii) Find the dimensions of the carpet. Also find the cost of a border laid all around its edge at \u20b9 150 per metre. [2]"
+ }
+]

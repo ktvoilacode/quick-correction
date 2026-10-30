@@ -1,0 +1,215 @@
+[
+  {
+    "chapter": "Real Numbers",
+    "topic": "Decimal expansions and number classification",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Which of the following rational numbers has a terminating decimal expansion?",
+    "options": [
+      "$\\frac{11}{2^{2} \\times 3 \\times 5}$",
+      "$\\frac{35}{2 \\times 5 \\times 7^{2}}$",
+      "$\\frac{33}{2^{2} \\times 5 \\times 7}$",
+      "$\\frac{57}{2^{2} \\times 5^{3} \\times 19}$"
+    ],
+    "answer": "Correct option: D) $\\frac{57}{2^{2} \\times 5^{3} \\times 19}$\nIt simplifies to $\\frac{3}{2^{2} \\times 5^{3}}$, whose denominator has only the prime factors 2 and 5. The others keep a factor 3 or 7 in the denominator in lowest terms.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Real Numbers",
+    "topic": "Decimal expansions and number classification",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": true,
+    "text": "The smallest positive integer $k$ for which $\\frac{k}{84}$ has a terminating decimal expansion is",
+    "options": [
+      "$3$",
+      "$7$",
+      "$21$",
+      "$42$"
+    ],
+    "answer": "Correct option: C) $21$\n$84 = 2^{2} \\times 3 \\times 7$. To cancel the factors 3 and 7 we need $k$ to be a multiple of $21$, so the smallest is $21$, giving $\\frac{21}{84} = \\frac{1}{4} = 0.25$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Real Numbers",
+    "topic": "HCF-LCM relation",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Assertion (A): There exist two positive integers whose HCF is $12$ and whose LCM is $90$.\nReason (R): The HCF of two positive integers always divides their LCM.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: D) A is false but R is true\nHCF divides both numbers and the LCM is a multiple of each number, so HCF divides LCM; R is true. But $12$ does not divide $90$ ($90 = 7 \\times 12 + 6$), so such numbers cannot exist; A is false.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Real Numbers",
+    "topic": "HCF-LCM relation",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": false,
+    "text": "The HCF of two positive integers is $12$ and their LCM is $504$. If one of the integers is $72$, find the other.",
+    "answer": "Using HCF $\\times$ LCM = product of the two numbers: $12 \\times 504 = 72 \\times x$.\n$x = \\frac{6048}{72} = 84$.\nThe other integer is $84$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Real Numbers",
+    "topic": "Fundamental theorem of arithmetic",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": true,
+    "text": "Find the smallest natural number by which $1350$ must be multiplied so that the product is a perfect square.",
+    "answer": "$1350 = 2 \\times 3^{3} \\times 5^{2}$. The primes $2$ and $3$ have odd powers, so we need one more factor $2 \\times 3 = 6$.\n$1350 \\times 6 = 8100 = 90^{2}$.\nThe required number is $6$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Real Numbers",
+    "topic": "Irrational numbers and proofs",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Simplify $(2\\sqrt{3} + \\sqrt{5})^{2} - 4\\sqrt{15}$ and state whether the result is rational or irrational.",
+    "answer": "$(2\\sqrt{3} + \\sqrt{5})^{2} = 12 + 5 + 4\\sqrt{15} = 17 + 4\\sqrt{15}$.\nSubtracting $4\\sqrt{15}$ gives $17$.\nThe result is $17$, which is a rational number.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Real Numbers",
+    "topic": "Irrational numbers and proofs",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Prove that $\\sqrt{3}$ is irrational. Hence show that $(2 + \\sqrt{3})^{2}$ is irrational.",
+    "answer": "Suppose $\\sqrt{3}$ is rational: $\\sqrt{3} = \\frac{p}{q}$ with $p, q$ integers, $q \\ne 0$, and $p, q$ co-prime.\nThen $3q^{2} = p^{2}$, so $3$ divides $p^{2}$, hence $3$ divides $p$. Let $p = 3m$.\nThen $3q^{2} = 9m^{2}$, so $q^{2} = 3m^{2}$, hence $3$ divides $q$.\nThus $3$ is a common factor of $p$ and $q$, contradicting that they are co-prime. So $\\sqrt{3}$ is irrational.\nNow $(2 + \\sqrt{3})^{2} = 7 + 4\\sqrt{3}$. Suppose it is rational, equal to $r$. Then $\\sqrt{3} = \\frac{r - 7}{4}$, which is rational, a contradiction.\nHence $(2 + \\sqrt{3})^{2}$ is irrational.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Real Numbers",
+    "topic": "HCF and LCM word problems",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A dairy has three tanks holding $252$ litres, $336$ litres and $420$ litres of milk. It wants to sell the milk using a measuring can of the same capacity for all three tanks, so that each tank is emptied in an exact number of full cans. Find the greatest possible capacity of the can, and the number of times the can is filled for each tank and in total.",
+    "answer": "The greatest capacity is HCF$(252, 336, 420)$.\n$252 = 2^{2} \\times 3^{2} \\times 7$, $336 = 2^{4} \\times 3 \\times 7$, $420 = 2^{2} \\times 3 \\times 5 \\times 7$.\nHCF $= 2^{2} \\times 3 \\times 7 = 84$.\nNumber of cans: $\\frac{252}{84} = 3$, $\\frac{336}{84} = 4$, $\\frac{420}{84} = 5$.\nTotal $= 3 + 4 + 5 = 12$.\nThe can holds $84$ litres; it is filled $3$, $4$ and $5$ times, $12$ times in all.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Real Numbers",
+    "topic": "HCF and LCM word problems",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": true,
+    "text": "Three lighthouses flash their lamps every $28$ seconds, $42$ seconds and $70$ seconds respectively. They flash together at 9:00:00 p.m. After what time will they next flash together? How many more times will they flash together between 9:00 p.m. and 10:00 p.m. (do not count the flash at 9:00 p.m.)? At what time is the last of these?",
+    "answer": "Time between joint flashes $=$ LCM$(28, 42, 70)$.\n$28 = 2^{2} \\times 7$, $42 = 2 \\times 3 \\times 7$, $70 = 2 \\times 5 \\times 7$.\nLCM $= 2^{2} \\times 3 \\times 5 \\times 7 = 420$ seconds $= 7$ minutes.\nThey next flash together at 9:07:00 p.m.\nIn $60$ minutes: $\\frac{60}{7} = 8.57$, so the joint flashes occur at $7, 14, \\dots, 56$ minutes, which is $8$ more times.\nThe last one is at $8 \\times 7 = 56$ minutes, i.e. 9:56:00 p.m.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Real Numbers",
+    "topic": "HCF-LCM relation",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": false,
+    "text": "The HCF of two positive integers is $15$ and their LCM is $1260$. If the sum of the two integers is $285$, find the integers.",
+    "answer": "Let the integers be $15a$ and $15b$ with $a, b$ co-prime.\nHCF $\\times$ LCM $= 15 \\times 1260 = 15a \\times 15b$, so $ab = 84$.\nCo-prime pairs with product $84$: $(1, 84), (3, 28), (4, 21), (7, 12)$.\nSums $15(a + b)$: $1275$, $465$, $375$, $285$.\nOnly $(7, 12)$ gives $285$.\nThe integers are $105$ and $180$ (check: HCF $15$, LCM $1260$, sum $285$).",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Real Numbers",
+    "topic": "HCF and LCM by prime factorisation",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Find the HCF and LCM of $234$, $390$ and $546$ by the prime factorisation method. Also verify that HCF $\\times$ LCM $=$ product of the numbers for the first two numbers $234$ and $390$.",
+    "answer": "$234 = 2 \\times 3^{2} \\times 13$, $390 = 2 \\times 3 \\times 5 \\times 13$, $546 = 2 \\times 3 \\times 7 \\times 13$.\nHCF $= 2 \\times 3 \\times 13 = 78$.\nLCM $= 2 \\times 3^{2} \\times 5 \\times 7 \\times 13 = 8190$.\nFor $234$ and $390$: HCF $= 78$, LCM $= 2 \\times 3^{2} \\times 5 \\times 13 = 1170$.\nHCF $\\times$ LCM $= 78 \\times 1170 = 91260$ and $234 \\times 390 = 91260$. Verified.\nFor the three numbers: HCF $= 78$, LCM $= 8190$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Real Numbers",
+    "topic": "HCF and LCM by prime factorisation",
+    "slot": "E-case-study (4 marks, with sub-parts)",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A community hall has a rectangular floor of $720$ cm by $504$ cm. The committee wants to cover it completely with identical square tiles, without cutting any tile, using tiles of the largest possible size.\n(i) Write the prime factorisation of $720$ and of $504$. [1]\n(ii) Find the side of the largest square tile. [1]\n(iii) Find the number of tiles needed and the total cost if each tile costs ₹ 15. [2]",
+    "answer": "(i) $720 = 2^{4} \\times 3^{2} \\times 5$ and $504 = 2^{3} \\times 3^{2} \\times 7$.\n(ii) HCF $= 2^{3} \\times 3^{2} = 72$, so the side is $72$ cm.\n(iii) Tiles along length $= \\frac{720}{72} = 10$, along breadth $= \\frac{504}{72} = 7$. Number of tiles $= 10 \\times 7 = 70$. Cost $= 70 \\times 15 = $ ₹ 1050.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Real Numbers",
+    "topic": "Irrational numbers and proofs",
+    "slot": "E-case-study (4 marks, with sub-parts)",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A landscape designer plans two flower beds. Bed 1 is a rectangle with length $(5 + \\sqrt{3})$ m and breadth $(5 - \\sqrt{3})$ m. Bed 2 is a square with each side $(2 + \\sqrt{3})$ m. It is given that $\\sqrt{3}$ is irrational.\n(i) Find the area of Bed 1. [1]\n(ii) Find the perimeter of Bed 1 and state whether it is rational. [1]\n(iii) Find the perimeter of Bed 2 and prove that it is irrational. [2]",
+    "answer": "(i) Area $= (5 + \\sqrt{3})(5 - \\sqrt{3}) = 25 - 3 = 22$ square metres.\n(ii) Perimeter $= 2[(5 + \\sqrt{3}) + (5 - \\sqrt{3})] = 2 \\times 10 = 20$ m, which is rational.\n(iii) Perimeter of Bed 2 $= 4(2 + \\sqrt{3}) = 8 + 4\\sqrt{3}$. Suppose it equals a rational number $r$. Then $\\sqrt{3} = \\frac{r - 8}{4}$ is rational, contradicting that $\\sqrt{3}$ is irrational. Hence the perimeter is irrational.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  }
+]

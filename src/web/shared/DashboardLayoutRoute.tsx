@@ -166,7 +166,7 @@ function SidebarNav({
   collapsed, onNavigate,
 }: { collapsed?: boolean; onNavigate?: () => void }) {
   const { logout, user } = useAuth();
-  const visible = NAV.filter((item) => !item.role || item.role === user?.role);
+  const visible = NAV.filter((item) => (!item.role || item.role === user?.role) && !(user?.role && item.hideForRoles?.includes(user.role)));
 
   const signOut = (
     <button
@@ -291,6 +291,13 @@ export function Shell() {
             </TooltipTrigger>
             <TooltipContent>{collapsed ? 'Expand sidebar' : 'Collapse sidebar'}</TooltipContent>
           </Tooltip>
+
+          {/* The name beside the mark. The sidebar carries it at lg and up while expanded; everywhere else
+              (narrow screens, a collapsed sidebar) the header does, so it is never just a bare icon. */}
+          <Link to="/admin" className={`items-center gap-2 ${collapsed ? 'flex' : 'flex lg:hidden'}`} aria-label={`${brand.name} home`}>
+            <LogoMark className="size-7 shrink-0" />
+            <span className="truncate font-semibold tracking-tight">{brand.name}</span>
+          </Link>
 
           <div className="ml-auto flex items-center gap-1.5">
             <ThemeControls />

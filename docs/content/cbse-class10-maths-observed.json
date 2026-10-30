@@ -1,0 +1,1100 @@
+{
+  "generatedFrom": "854 questions in 25 papers (2022, 2023, 2024, 2025, 2026)",
+  "fullPapers": {
+    "count": 21,
+    "years": [
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "papersPerYear": {
+      "2022": 4,
+      "2023": 5,
+      "2024": 5,
+      "2025": 6,
+      "2026": 5
+    }
+  },
+  "overall": {
+    "competencyShare": 0.18,
+    "complexity": {
+      "easy": 258,
+      "medium": 467,
+      "hard": 73
+    },
+    "typeBySection": {
+      "A:mcq": 378,
+      "A:assertion_reason": 42,
+      "B:short": 105,
+      "C:short": 126,
+      "D:long": 84,
+      "E:case": 63
+    },
+    "internalChoiceQuestionsPerPaper": 9.2,
+    "withFigureShare": 0.2,
+    "lowConfidenceRows": 3
+  },
+  "chapters": [
+    {
+      "name": "Real Numbers",
+      "avgMarksPerPaper": 6,
+      "avgQuestionsPerPaper": 3.4,
+      "byYear": {
+        "2023": {
+          "avgQuestions": 3,
+          "avgMarks": 6
+        },
+        "2024": {
+          "avgQuestions": 3.4,
+          "avgMarks": 6.2
+        },
+        "2025": {
+          "avgQuestions": 3.8,
+          "avgMarks": 6
+        },
+        "2026": {
+          "avgQuestions": 3.4,
+          "avgMarks": 6
+        }
+      },
+      "bySection": {
+        "A": 39,
+        "B": 12,
+        "C": 20,
+        "E": 1
+      },
+      "byType": {
+        "assertion_reason": 6,
+        "short": 32,
+        "mcq": 33,
+        "case": 1
+      },
+      "byComplexity": {
+        "medium": 38,
+        "easy": 33,
+        "hard": 1
+      },
+      "competencyShare": 0.1,
+      "internalChoiceShare": 0.17,
+      "topics": [
+        {
+          "topic": "irrational numbers proof",
+          "count": 23,
+          "perPaper": 1.1
+        },
+        {
+          "topic": "HCF and LCM by prime factorisation",
+          "count": 15,
+          "perPaper": 0.71
+        },
+        {
+          "topic": "fundamental theorem of arithmetic",
+          "count": 12,
+          "perPaper": 0.57
+        },
+        {
+          "topic": "word problems on HCF/LCM",
+          "count": 8,
+          "perPaper": 0.38
+        },
+        {
+          "topic": "HCF-LCM relation",
+          "count": 8,
+          "perPaper": 0.38
+        },
+        {
+          "topic": "decimal expansions of rationals",
+          "count": 2,
+          "perPaper": 0.1
+        },
+        {
+          "topic": "NEW: rational and irrational sums",
+          "count": 1,
+          "perPaper": 0.05
+        },
+        {
+          "topic": "NEW: rational vs irrational classification",
+          "count": 1,
+          "perPaper": 0.05
+        },
+        {
+          "topic": "NEW: parity and powers of -1",
+          "count": 1,
+          "perPaper": 0.05
+        },
+        {
+          "topic": "NEW: operations on surds",
+          "count": 1,
+          "perPaper": 0.05
+        }
+      ]
+    },
+    {
+      "name": "Polynomials",
+      "avgMarksPerPaper": 3.8,
+      "avgQuestionsPerPaper": 2.4,
+      "byYear": {
+        "2023": {
+          "avgQuestions": 3,
+          "avgMarks": 3.8
+        },
+        "2024": {
+          "avgQuestions": 2.4,
+          "avgMarks": 4
+        },
+        "2025": {
+          "avgQuestions": 2,
+          "avgMarks": 3.3
+        },
+        "2026": {
+          "avgQuestions": 2.4,
+          "avgMarks": 4.2
+        }
+      },
+      "bySection": {
+        "A": 35,
+        "B": 7,
+        "E": 4,
+        "C": 5
+      },
+      "byType": {
+        "mcq": 31,
+        "assertion_reason": 4,
+        "short": 12,
+        "case": 4
+      },
+      "byComplexity": {
+        "easy": 23,
+        "medium": 28
+      },
+      "competencyShare": 0.08,
+      "internalChoiceShare": 0.1,
+      "topics": [
+        {
+          "topic": "zeroes and coefficients relations",
+          "count": 27,
+          "perPaper": 1.29
+        },
+        {
+          "topic": "zeroes from a graph",
+          "count": 10,
+          "perPaper": 0.48
+        },
+        {
+          "topic": "forming a polynomial from zeroes",
+          "count": 7,
+          "perPaper": 0.33
+        },
+        {
+          "topic": "value of k from a zero",
+          "count": 2,
+          "perPaper": 0.1
+        },
+        {
+          "topic": "NEW: number of zeroes of a polynomial",
+          "count": 2,
+          "perPaper": 0.1
+        },
+        {
+          "topic": "NEW: number of real zeroes via discriminant",
+          "count": 1,
+          "perPaper": 0.05
+        },
+        {
+          "topic": "evaluating expressions",
+          "count": 1,
+          "perPaper": 0.05
+        },
+        {
+          "topic": "division algorithm for polynomials",
+          "count": 1,
+          "perPaper": 0.05
+        }
+      ]
+    },
+    {
+      "name": "Pair of Linear Equations",
+      "avgMarksPerPaper": 5.4,
+      "avgQuestionsPerPaper": 2.3,
+      "byYear": {
+        "2023": {
+          "avgQuestions": 2.4,
+          "avgMarks": 5
+        },
+        "2024": {
+          "avgQuestions": 2.6,
+          "avgMarks": 5.6
+        },
+        "2025": {
+          "avgQuestions": 2.3,
+          "avgMarks": 5.7
+        },
+        "2026": {
+          "avgQuestions": 2,
+          "avgMarks": 5.2
+        }
+      },
+      "bySection": {
+        "A": 22,
+        "B": 6,
+        "C": 11,
+        "E": 4,
+        "D": 6
+      },
+      "byType": {
+        "mcq": 20,
+        "short": 17,
+        "case": 4,
+        "long": 6,
+        "assertion_reason": 2
+      },
+      "byComplexity": {
+        "medium": 32,
+        "easy": 16,
+        "hard": 1
+      },
+      "competencyShare": 0.27,
+      "internalChoiceShare": 0.27,
+      "topics": [
+        {
+          "topic": "consistency conditions",
+          "count": 18,
+          "perPaper": 0.86
+        },
+        {
+          "topic": "word problems (age, speed, fractions, money)",
+          "count": 13,
+          "perPaper": 0.62
+        },
+        {
+          "topic": "graphical solution",
+          "count": 10,
+          "perPaper": 0.48
+        },
+        {
+          "topic": "solving by substitution/elimination",
+          "count": 5,
+          "perPaper": 0.24
+        },
+        {
+          "topic": "finding unknown constants",
+          "count": 3,
+          "perPaper": 0.14
+        }
+      ]
+    },
+    {
+      "name": "Quadratic Equations",
+      "avgMarksPerPaper": 5.3,
+      "avgQuestionsPerPaper": 2,
+      "byYear": {
+        "2023": {
+          "avgQuestions": 2.2,
+          "avgMarks": 4.6
+        },
+        "2024": {
+          "avgQuestions": 1.8,
+          "avgMarks": 5.2
+        },
+        "2025": {
+          "avgQuestions": 2,
+          "avgMarks": 5.3
+        },
+        "2026": {
+          "avgQuestions": 2.2,
+          "avgMarks": 6
+        }
+      },
+      "bySection": {
+        "A": 21,
+        "E": 3,
+        "B": 3,
+        "C": 4,
+        "D": 12
+      },
+      "byType": {
+        "mcq": 20,
+        "case": 3,
+        "short": 7,
+        "long": 12,
+        "assertion_reason": 1
+      },
+      "byComplexity": {
+        "medium": 18,
+        "easy": 17,
+        "hard": 8
+      },
+      "competencyShare": 0.35,
+      "internalChoiceShare": 0.4,
+      "topics": [
+        {
+          "topic": "word problems (speed/time, area, numbers)",
+          "count": 17,
+          "perPaper": 0.81
+        },
+        {
+          "topic": "nature of roots by discriminant",
+          "count": 9,
+          "perPaper": 0.43
+        },
+        {
+          "topic": "value of k for equal roots",
+          "count": 8,
+          "perPaper": 0.38
+        },
+        {
+          "topic": "solving by factorisation or formula",
+          "count": 3,
+          "perPaper": 0.14
+        },
+        {
+          "topic": "NEW: sum and product of roots",
+          "count": 2,
+          "perPaper": 0.1
+        },
+        {
+          "topic": "NEW: forming a quadratic from roots",
+          "count": 1,
+          "perPaper": 0.05
+        },
+        {
+          "topic": "NEW: conjugate roots of quadratic with rational coefficients",
+          "count": 1,
+          "perPaper": 0.05
+        },
+        {
+          "topic": "NEW: forming equation from given roots",
+          "count": 1,
+          "perPaper": 0.05
+        },
+        {
+          "topic": "NEW: identifying quadratic equations",
+          "count": 1,
+          "perPaper": 0.05
+        }
+      ]
+    },
+    {
+      "name": "Arithmetic Progressions",
+      "avgMarksPerPaper": 5,
+      "avgQuestionsPerPaper": 2.1,
+      "byYear": {
+        "2023": {
+          "avgQuestions": 2.2,
+          "avgMarks": 5.4
+        },
+        "2024": {
+          "avgQuestions": 2.4,
+          "avgMarks": 5
+        },
+        "2025": {
+          "avgQuestions": 1.7,
+          "avgMarks": 4.7
+        },
+        "2026": {
+          "avgQuestions": 2.4,
+          "avgMarks": 4.8
+        }
+      },
+      "bySection": {
+        "A": 24,
+        "D": 5,
+        "C": 7,
+        "E": 8,
+        "B": 1
+      },
+      "byType": {
+        "mcq": 20,
+        "long": 5,
+        "assertion_reason": 4,
+        "short": 8,
+        "case": 8
+      },
+      "byComplexity": {
+        "easy": 12,
+        "hard": 5,
+        "medium": 28
+      },
+      "competencyShare": 0.22,
+      "internalChoiceShare": 0.4,
+      "topics": [
+        {
+          "topic": "nth term",
+          "count": 13,
+          "perPaper": 0.62
+        },
+        {
+          "topic": "sum of n terms",
+          "count": 12,
+          "perPaper": 0.57
+        },
+        {
+          "topic": "finding n",
+          "count": 6,
+          "perPaper": 0.29
+        },
+        {
+          "topic": "common difference",
+          "count": 6,
+          "perPaper": 0.29
+        },
+        {
+          "topic": "middle terms and conditions for AP",
+          "count": 4,
+          "perPaper": 0.19
+        },
+        {
+          "topic": "word problems",
+          "count": 4,
+          "perPaper": 0.19
+        }
+      ]
+    },
+    {
+      "name": "Triangles",
+      "avgMarksPerPaper": 8.3,
+      "avgQuestionsPerPaper": 3.6,
+      "byYear": {
+        "2023": {
+          "avgQuestions": 3.2,
+          "avgMarks": 6.8
+        },
+        "2024": {
+          "avgQuestions": 3.4,
+          "avgMarks": 8
+        },
+        "2025": {
+          "avgQuestions": 4.2,
+          "avgMarks": 9.7
+        },
+        "2026": {
+          "avgQuestions": 3.6,
+          "avgMarks": 8.4
+        }
+      },
+      "bySection": {
+        "B": 15,
+        "D": 19,
+        "A": 39,
+        "C": 2,
+        "E": 1
+      },
+      "byType": {
+        "short": 17,
+        "long": 19,
+        "mcq": 37,
+        "assertion_reason": 2,
+        "case": 1
+      },
+      "byComplexity": {
+        "medium": 43,
+        "easy": 19,
+        "hard": 14
+      },
+      "competencyShare": 0.04,
+      "internalChoiceShare": 0.28,
+      "topics": [
+        {
+          "topic": "basic proportionality theorem",
+          "count": 28,
+          "perPaper": 1.33
+        },
+        {
+          "topic": "proofs on similar triangles",
+          "count": 21,
+          "perPaper": 1
+        },
+        {
+          "topic": "similarity criteria",
+          "count": 18,
+          "perPaper": 0.86
+        },
+        {
+          "topic": "areas of similar triangles",
+          "count": 5,
+          "perPaper": 0.24
+        },
+        {
+          "topic": "shadow/ladder problems",
+          "count": 2,
+          "perPaper": 0.1
+        },
+        {
+          "topic": "Pythagoras theorem and its converse",
+          "count": 2,
+          "perPaper": 0.1
+        }
+      ]
+    },
+    {
+      "name": "Coordinate Geometry",
+      "avgMarksPerPaper": 6.1,
+      "avgQuestionsPerPaper": 3.4,
+      "byYear": {
+        "2023": {
+          "avgQuestions": 3.8,
+          "avgMarks": 6.4
+        },
+        "2024": {
+          "avgQuestions": 3.2,
+          "avgMarks": 6
+        },
+        "2025": {
+          "avgQuestions": 3.5,
+          "avgMarks": 6.2
+        },
+        "2026": {
+          "avgQuestions": 3,
+          "avgMarks": 6
+        }
+      },
+      "bySection": {
+        "A": 36,
+        "C": 15,
+        "B": 16,
+        "E": 4
+      },
+      "byType": {
+        "mcq": 32,
+        "assertion_reason": 4,
+        "short": 31,
+        "case": 4
+      },
+      "byComplexity": {
+        "medium": 45,
+        "easy": 22,
+        "hard": 4
+      },
+      "competencyShare": 0.06,
+      "internalChoiceShare": 0.2,
+      "topics": [
+        {
+          "topic": "distance formula",
+          "count": 23,
+          "perPaper": 1.1
+        },
+        {
+          "topic": "section formula",
+          "count": 18,
+          "perPaper": 0.86
+        },
+        {
+          "topic": "geometric shapes from coordinates",
+          "count": 12,
+          "perPaper": 0.57
+        },
+        {
+          "topic": "midpoint",
+          "count": 9,
+          "perPaper": 0.43
+        },
+        {
+          "topic": "NEW: axis intercepts and distance from axes",
+          "count": 3,
+          "perPaper": 0.14
+        },
+        {
+          "topic": "NEW: equations of lines and axes",
+          "count": 2,
+          "perPaper": 0.1
+        },
+        {
+          "topic": "NEW: distance from axes",
+          "count": 2,
+          "perPaper": 0.1
+        },
+        {
+          "topic": "collinearity and area of triangle",
+          "count": 1,
+          "perPaper": 0.05
+        },
+        {
+          "topic": "finding a point or ratio",
+          "count": 1,
+          "perPaper": 0.05
+        }
+      ]
+    },
+    {
+      "name": "Trigonometry",
+      "avgMarksPerPaper": 12,
+      "avgQuestionsPerPaper": 5.4,
+      "byYear": {
+        "2023": {
+          "avgQuestions": 5,
+          "avgMarks": 12
+        },
+        "2024": {
+          "avgQuestions": 5,
+          "avgMarks": 12
+        },
+        "2025": {
+          "avgQuestions": 5.7,
+          "avgMarks": 11.8
+        },
+        "2026": {
+          "avgQuestions": 5.8,
+          "avgMarks": 12
+        }
+      },
+      "bySection": {
+        "A": 50,
+        "B": 21,
+        "C": 21,
+        "D": 12,
+        "E": 9
+      },
+      "byType": {
+        "mcq": 46,
+        "short": 42,
+        "long": 12,
+        "assertion_reason": 4,
+        "case": 9
+      },
+      "byComplexity": {
+        "medium": 72,
+        "easy": 31,
+        "hard": 10
+      },
+      "competencyShare": 0.24,
+      "internalChoiceShare": 0.38,
+      "topics": [
+        {
+          "topic": "identities and proofs",
+          "count": 38,
+          "perPaper": 1.81
+        },
+        {
+          "topic": "heights and distances (single or two angles of elevation/depression)",
+          "count": 34,
+          "perPaper": 1.62
+        },
+        {
+          "topic": "trigonometric ratios of standard angles",
+          "count": 16,
+          "perPaper": 0.76
+        },
+        {
+          "topic": "evaluating expressions",
+          "count": 15,
+          "perPaper": 0.71
+        },
+        {
+          "topic": "ratio from a given ratio",
+          "count": 10,
+          "perPaper": 0.48
+        }
+      ]
+    },
+    {
+      "name": "Circles",
+      "avgMarksPerPaper": 7,
+      "avgQuestionsPerPaper": 3.7,
+      "byYear": {
+        "2023": {
+          "avgQuestions": 3.8,
+          "avgMarks": 8.2
+        },
+        "2024": {
+          "avgQuestions": 3.8,
+          "avgMarks": 7
+        },
+        "2025": {
+          "avgQuestions": 3.8,
+          "avgMarks": 6.3
+        },
+        "2026": {
+          "avgQuestions": 3.4,
+          "avgMarks": 6.6
+        }
+      },
+      "bySection": {
+        "A": 43,
+        "C": 18,
+        "E": 2,
+        "B": 11,
+        "D": 4
+      },
+      "byType": {
+        "mcq": 38,
+        "short": 29,
+        "case": 2,
+        "assertion_reason": 5,
+        "long": 4
+      },
+      "byComplexity": {
+        "medium": 57,
+        "easy": 13,
+        "hard": 8
+      },
+      "competencyShare": 0.04,
+      "internalChoiceShare": 0.18,
+      "topics": [
+        {
+          "topic": "angle and length problems with tangents",
+          "count": 30,
+          "perPaper": 1.43
+        },
+        {
+          "topic": "proofs with tangents",
+          "count": 21,
+          "perPaper": 1
+        },
+        {
+          "topic": "tangent perpendicular to radius",
+          "count": 13,
+          "perPaper": 0.62
+        },
+        {
+          "topic": "tangents from an external point",
+          "count": 9,
+          "perPaper": 0.43
+        },
+        {
+          "topic": "circle touching sides of a figure",
+          "count": 5,
+          "perPaper": 0.24
+        }
+      ]
+    },
+    {
+      "name": "Areas Related to Circles",
+      "avgMarksPerPaper": 4.9,
+      "avgQuestionsPerPaper": 2,
+      "byYear": {
+        "2023": {
+          "avgQuestions": 2,
+          "avgMarks": 5.6
+        },
+        "2024": {
+          "avgQuestions": 2.2,
+          "avgMarks": 5
+        },
+        "2025": {
+          "avgQuestions": 1.8,
+          "avgMarks": 4.7
+        },
+        "2026": {
+          "avgQuestions": 2.2,
+          "avgMarks": 4.4
+        }
+      },
+      "bySection": {
+        "D": 4,
+        "A": 20,
+        "C": 9,
+        "E": 8,
+        "B": 2
+      },
+      "byType": {
+        "long": 4,
+        "mcq": 19,
+        "short": 11,
+        "case": 8,
+        "assertion_reason": 1
+      },
+      "byComplexity": {
+        "medium": 26,
+        "easy": 14,
+        "hard": 3
+      },
+      "competencyShare": 0.35,
+      "internalChoiceShare": 0.23,
+      "topics": [
+        {
+          "topic": "area and perimeter of sector",
+          "count": 14,
+          "perPaper": 0.67
+        },
+        {
+          "topic": "combination figures (shaded regions)",
+          "count": 10,
+          "perPaper": 0.48
+        },
+        {
+          "topic": "segment area",
+          "count": 6,
+          "perPaper": 0.29
+        },
+        {
+          "topic": "arc length",
+          "count": 5,
+          "perPaper": 0.24
+        },
+        {
+          "topic": "area and perimeter of sector; arc length",
+          "count": 4,
+          "perPaper": 0.19
+        },
+        {
+          "topic": "wheel/clock/garden/wiper contexts",
+          "count": 4,
+          "perPaper": 0.19
+        }
+      ]
+    },
+    {
+      "name": "Surface Areas and Volumes",
+      "avgMarksPerPaper": 5.3,
+      "avgQuestionsPerPaper": 2.1,
+      "byYear": {
+        "2023": {
+          "avgQuestions": 2,
+          "avgMarks": 5.2
+        },
+        "2024": {
+          "avgQuestions": 1.8,
+          "avgMarks": 5
+        },
+        "2025": {
+          "avgQuestions": 1.8,
+          "avgMarks": 5.3
+        },
+        "2026": {
+          "avgQuestions": 2.8,
+          "avgMarks": 5.6
+        }
+      },
+      "bySection": {
+        "A": 22,
+        "C": 5,
+        "E": 8,
+        "D": 8,
+        "B": 1
+      },
+      "byType": {
+        "mcq": 19,
+        "short": 6,
+        "case": 8,
+        "long": 8,
+        "assertion_reason": 3
+      },
+      "byComplexity": {
+        "easy": 8,
+        "hard": 10,
+        "medium": 26
+      },
+      "competencyShare": 0.57,
+      "internalChoiceShare": 0.27,
+      "topics": [
+        {
+          "topic": "combination of solids",
+          "count": 19,
+          "perPaper": 0.9
+        },
+        {
+          "topic": "surface area of combination",
+          "count": 14,
+          "perPaper": 0.67
+        },
+        {
+          "topic": "capacity and cost problems",
+          "count": 5,
+          "perPaper": 0.24
+        },
+        {
+          "topic": "NEW: curved surface area of a single solid",
+          "count": 2,
+          "perPaper": 0.1
+        },
+        {
+          "topic": "NEW: surface area of a single solid",
+          "count": 1,
+          "perPaper": 0.05
+        },
+        {
+          "topic": "NEW: volume of water flowing through a channel",
+          "count": 1,
+          "perPaper": 0.05
+        },
+        {
+          "topic": "conversion/melting and recasting",
+          "count": 1,
+          "perPaper": 0.05
+        },
+        {
+          "topic": "NEW: surface area of a single solid (hemisphere)",
+          "count": 1,
+          "perPaper": 0.05
+        }
+      ]
+    },
+    {
+      "name": "Statistics",
+      "avgMarksPerPaper": 5.8,
+      "avgQuestionsPerPaper": 2.2,
+      "byYear": {
+        "2023": {
+          "avgQuestions": 2,
+          "avgMarks": 5.4
+        },
+        "2024": {
+          "avgQuestions": 2.4,
+          "avgMarks": 5.4
+        },
+        "2025": {
+          "avgQuestions": 2.3,
+          "avgMarks": 6.2
+        },
+        "2026": {
+          "avgQuestions": 2,
+          "avgMarks": 6
+        }
+      },
+      "bySection": {
+        "A": 25,
+        "E": 5,
+        "D": 14,
+        "C": 2
+      },
+      "byType": {
+        "mcq": 25,
+        "case": 5,
+        "long": 14,
+        "short": 2
+      },
+      "byComplexity": {
+        "medium": 20,
+        "easy": 17,
+        "hard": 9
+      },
+      "competencyShare": 0.17,
+      "internalChoiceShare": 0.17,
+      "topics": [
+        {
+          "topic": "mean (direct, assumed mean, step deviation)",
+          "count": 12,
+          "perPaper": 0.57
+        },
+        {
+          "topic": "relation between mean/median/mode",
+          "count": 11,
+          "perPaper": 0.52
+        },
+        {
+          "topic": "median of grouped data",
+          "count": 9,
+          "perPaper": 0.43
+        },
+        {
+          "topic": "missing frequency",
+          "count": 7,
+          "perPaper": 0.33
+        },
+        {
+          "topic": "mode of grouped data",
+          "count": 6,
+          "perPaper": 0.29
+        },
+        {
+          "topic": "cumulative frequency and ogives",
+          "count": 1,
+          "perPaper": 0.05
+        }
+      ]
+    },
+    {
+      "name": "Probability",
+      "avgMarksPerPaper": 5.2,
+      "avgQuestionsPerPaper": 3.2,
+      "byYear": {
+        "2023": {
+          "avgQuestions": 3.4,
+          "avgMarks": 5.6
+        },
+        "2024": {
+          "avgQuestions": 3.6,
+          "avgMarks": 5.6
+        },
+        "2025": {
+          "avgQuestions": 3,
+          "avgMarks": 4.8
+        },
+        "2026": {
+          "avgQuestions": 2.8,
+          "avgMarks": 4.8
+        }
+      },
+      "bySection": {
+        "A": 44,
+        "B": 10,
+        "E": 6,
+        "C": 7
+      },
+      "byType": {
+        "mcq": 38,
+        "short": 17,
+        "case": 6,
+        "assertion_reason": 6
+      },
+      "byComplexity": {
+        "easy": 33,
+        "medium": 34
+      },
+      "competencyShare": 0.15,
+      "internalChoiceShare": 0.1,
+      "topics": [
+        {
+          "topic": "dice (one or two)",
+          "count": 14,
+          "perPaper": 0.67
+        },
+        {
+          "topic": "numbers/lottery",
+          "count": 13,
+          "perPaper": 0.62
+        },
+        {
+          "topic": "complementary events",
+          "count": 9,
+          "perPaper": 0.43
+        },
+        {
+          "topic": "classical probability basics",
+          "count": 8,
+          "perPaper": 0.38
+        },
+        {
+          "topic": "balls/bags",
+          "count": 8,
+          "perPaper": 0.38
+        },
+        {
+          "topic": "cards",
+          "count": 8,
+          "perPaper": 0.38
+        },
+        {
+          "topic": "coins",
+          "count": 6,
+          "perPaper": 0.29
+        },
+        {
+          "topic": "NEW: leap year Sundays",
+          "count": 1,
+          "perPaper": 0.05
+        }
+      ]
+    }
+  ],
+  "term2_2022": {
+    "papers": 4,
+    "marksByChapter": {
+      "Real Numbers": 0,
+      "Polynomials": 0,
+      "Pair of Linear Equations": 1,
+      "Quadratic Equations": 4.3,
+      "Arithmetic Progressions": 4.8,
+      "Triangles": 0,
+      "Coordinate Geometry": 0,
+      "Trigonometry": 7,
+      "Circles": 9,
+      "Areas Related to Circles": 0,
+      "Surface Areas and Volumes": 6,
+      "Statistics": 8,
+      "Probability": 0
+    }
+  },
+  "problems": []
+}
