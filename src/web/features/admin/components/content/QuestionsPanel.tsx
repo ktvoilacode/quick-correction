@@ -320,7 +320,7 @@ export function QuestionsPanel() {
                       onChange={(e) => setPicked(e.target.checked ? new Set(rows.map((r) => r.id)) : new Set())} />
                   </TableHead>
                   <TableHead>Question</TableHead>
-                  <TableHead className="hidden lg:table-cell">Topic</TableHead>
+                  <TableHead className="hidden 2xl:table-cell">Topic</TableHead>
                   <TableHead className="hidden sm:table-cell">Type</TableHead>
                   <TableHead>Marks</TableHead>
                   <TableHead className="text-right">Actions</TableHead>
@@ -348,7 +348,7 @@ export function QuestionsPanel() {
                         <Badge variant="secondary">{COMPLEXITY_LABEL[q.complexity]}</Badge>
                       </div>
                     </TableCell>
-                    <TableCell className="hidden align-top text-sm text-muted-foreground lg:table-cell">{q.topicPath.slice(-2).join(' › ')}</TableCell>
+                    <TableCell className="hidden align-top text-sm text-muted-foreground 2xl:table-cell">{q.topicPath.slice(-2).join(' › ')}</TableCell>
                     <TableCell className="hidden align-top sm:table-cell">
                       <div className="flex flex-col items-start gap-1">
                         <Badge variant="outline">{TYPE_LABEL[q.type]}</Badge>

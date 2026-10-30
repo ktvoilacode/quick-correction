@@ -93,7 +93,7 @@ export default function StudentsPage() {
   return (
     <>
       <SEO title="Students" />
-      <div className="mb-2 flex items-center justify-between gap-3">
+      <div className="mb-2 flex flex-wrap items-center justify-between gap-3">
         <h1 className="text-2xl font-semibold">Students</h1>
         <div className="flex gap-2">
           <Button variant="outline" onClick={() => setBulk(true)}><ListPlus className="size-4" /> Add several</Button>
@@ -130,19 +130,23 @@ export default function StudentsPage() {
         {shown.length === 0 && <p className="py-10 text-center text-sm text-muted-foreground">No one matches.</p>}
         <ul className="divide-y divide-border rounded-xl border border-border">
           {shown.map((s) => (
-            <li key={s.id} className="flex flex-wrap items-center gap-x-4 gap-y-1 px-4 py-3">
-              <span className="min-w-0 flex-1">
-                <span className="block truncate font-medium">{s.name}</span>
-                <span className="text-xs text-muted-foreground">Class {s.className}{s.average !== null ? ` · average ${s.average}%` : ''}{s.pending ? ` · ${s.pending} waiting` : ''}</span>
-              </span>
-              <Badge variant={s.parentLinked ? 'secondary' : 'outline'}>{s.parentLinked ? 'Parent linked' : 'No parent yet'}</Badge>
-              <Button variant="outline" size="sm" className="font-mono" onClick={() => copy(s.inviteCode)} aria-label={`Copy invite code for ${s.name}`}>
-                {copied === s.inviteCode ? <Check className="size-4" /> : <Copy className="size-4" />} {s.inviteCode}
-              </Button>
-              <span className="flex">
-                <Button variant="ghost" size="icon" aria-label={`Edit ${s.name}`} onClick={() => setEditing(s)}><Pencil className="size-4" /></Button>
-                <Button variant="ghost" size="icon" aria-label={`Remove ${s.name}`} onClick={() => remove(s)}><Trash2 className="size-4 text-destructive" /></Button>
-              </span>
+            <li key={s.id} className="px-4 py-3">
+              <div className="flex items-start justify-between gap-2">
+                <span className="min-w-0">
+                  <span className="block truncate font-medium">{s.name}</span>
+                  <span className="text-xs text-muted-foreground">Class {s.className}{s.average !== null ? ` · average ${s.average}%` : ''}{s.pending ? ` · ${s.pending} waiting` : ''}</span>
+                </span>
+                <span className="-mr-2 -mt-1 flex shrink-0">
+                  <Button variant="ghost" size="icon" aria-label={`Edit ${s.name}`} onClick={() => setEditing(s)}><Pencil className="size-4" /></Button>
+                  <Button variant="ghost" size="icon" aria-label={`Remove ${s.name}`} onClick={() => remove(s)}><Trash2 className="size-4 text-destructive" /></Button>
+                </span>
+              </div>
+              <div className="mt-2 flex flex-wrap items-center gap-2">
+                <Badge variant={s.parentLinked ? 'secondary' : 'outline'}>{s.parentLinked ? 'Parent linked' : 'No parent yet'}</Badge>
+                <Button variant="outline" size="sm" className="font-mono" onClick={() => copy(s.inviteCode)} aria-label={`Copy invite code for ${s.name}`}>
+                  {copied === s.inviteCode ? <Check className="size-4" /> : <Copy className="size-4" />} {s.inviteCode}
+                </Button>
+              </div>
             </li>
           ))}
         </ul>
