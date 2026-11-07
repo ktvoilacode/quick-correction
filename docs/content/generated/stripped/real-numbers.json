@@ -1,0 +1,332 @@
+[
+ {
+  "idx": 0,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Which of the following is an irrational number?",
+  "options": [
+   "\u221a0.49",
+   "22/7",
+   "5 \u2212 \u221a20",
+   "0.727272\u2026"
+  ]
+ },
+ {
+  "idx": 1,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The value of (3 + \u221a5)(3 \u2212 \u221a5) is",
+  "options": [
+   "an irrational number",
+   "a rational number equal to 4",
+   "a rational number equal to 14",
+   "a rational number equal to 2"
+  ]
+ },
+ {
+  "idx": 2,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Which of the following is a rational number lying between \u221a5 and \u221a7?",
+  "options": [
+   "2.2",
+   "2.5",
+   "2.7",
+   "\u221a6"
+  ]
+ },
+ {
+  "idx": 3,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The product of a non-zero rational number and an irrational number is always",
+  "options": [
+   "a rational number",
+   "an irrational number",
+   "an integer",
+   "sometimes rational and sometimes irrational"
+  ]
+ },
+ {
+  "idx": 4,
+  "marks": 1,
+  "type": "mcq",
+  "text": "If a = 2\u00b3 \u00d7 3 \u00d7 5\u00b2 and b = 2\u00b2 \u00d7 3\u00b2 \u00d7 7, then HCF(a, b) and LCM(a, b) are respectively",
+  "options": [
+   "12 and 12600",
+   "6 and 12600",
+   "12 and 1260",
+   "36 and 12600"
+  ]
+ },
+ {
+  "idx": 5,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The ratio HCF : LCM of the least odd prime number and the least composite number is",
+  "options": [
+   "1 : 12",
+   "1 : 3",
+   "1 : 4",
+   "3 : 4"
+  ]
+ },
+ {
+  "idx": 6,
+  "marks": 1,
+  "type": "mcq",
+  "text": "If a = 2\u00b3 \u00d7 3\u00b2, b = 2\u00b2 \u00d7 3 \u00d7 5 and c = 2 \u00d7 3\u00b2 \u00d7 7, then HCF(a, b, c) is",
+  "options": [
+   "2",
+   "3",
+   "6",
+   "18"
+  ]
+ },
+ {
+  "idx": 7,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The number 7 \u00d7 11 \u00d7 13 + 13 is",
+  "options": [
+   "a prime number",
+   "a composite number",
+   "neither prime nor composite",
+   "a prime number only if 13 divides it twice"
+  ]
+ },
+ {
+  "idx": 8,
+  "marks": 1,
+  "type": "mcq",
+  "text": "If 7425 = 3\u1d43 \u00d7 5\u1d47 \u00d7 11, then a + b equals",
+  "options": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ]
+ },
+ {
+  "idx": 9,
+  "marks": 1,
+  "type": "mcq",
+  "text": "For which of the following does the number end with the digit 0 for every natural number n?",
+  "options": [
+   "6\u207f",
+   "15\u207f",
+   "35\u207f",
+   "40\u207f"
+  ]
+ },
+ {
+  "idx": 10,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The product of two numbers is 3750 and their HCF is 5. Their LCM is",
+  "options": [
+   "375",
+   "750",
+   "1875",
+   "18750"
+  ]
+ },
+ {
+  "idx": 11,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The HCF of 42 and another number x is 6 and their LCM is 252. The value of x is",
+  "options": [
+   "24",
+   "30",
+   "36",
+   "42"
+  ]
+ },
+ {
+  "idx": 12,
+  "marks": 1,
+  "type": "mcq",
+  "text": "If a and b are positive integers and a is a multiple of b, then HCF(a, b) + LCM(a, b) equals",
+  "options": [
+   "ab",
+   "a + b",
+   "a \u2212 b",
+   "a/b"
+  ]
+ },
+ {
+  "idx": 13,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Two ropes of lengths 84 m and 126 m are cut into pieces of equal length, as long as possible, with nothing left over. The total number of pieces obtained is",
+  "options": [
+   "3",
+   "5",
+   "6",
+   "10"
+  ]
+ },
+ {
+  "idx": 14,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Which of the following has a non-terminating repeating decimal expansion?",
+  "options": [
+   "13/125",
+   "21/80",
+   "9/(2\u00b3 \u00d7 5\u2074)",
+   "7/60"
+  ]
+ },
+ {
+  "idx": 15,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The decimal expansion of 43/(2\u00b3 \u00d7 5\u00b2) terminates after how many places of decimals?",
+  "options": [
+   "2",
+   "3",
+   "5",
+   "8"
+  ]
+ },
+ {
+  "idx": 16,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Assertion (A): 12\u207f cannot end with the digit 0 for any natural number n.\nReason (R): The prime factorisation of 12\u207f is 2\u00b2\u207f \u00d7 3\u207f, which does not contain the prime 5.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ]
+ },
+ {
+  "idx": 17,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Assertion (A): The sum of a rational number and an irrational number is always irrational.\nReason (R): The sum of two irrational numbers is always irrational.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ]
+ },
+ {
+  "idx": 18,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Assertion (A): The decimal expansion of 23/(2\u00b2 \u00d7 5\u00b3 \u00d7 7) is terminating.\nReason (R): A rational number p/q in lowest terms has a terminating decimal expansion if and only if the prime factorisation of q has no primes other than 2 and 5.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ]
+ },
+ {
+  "idx": 19,
+  "marks": 2,
+  "type": "short",
+  "text": "Given that \u221a5 is irrational, prove that 3 + 2\u221a5 is irrational."
+ },
+ {
+  "idx": 20,
+  "marks": 2,
+  "type": "short",
+  "text": "Find the HCF and LCM of 96 and 360 using prime factorisation."
+ },
+ {
+  "idx": 21,
+  "marks": 2,
+  "type": "short",
+  "text": "Without multiplying out, state with reasons whether (i) 2 \u00d7 3 \u00d7 5 \u00d7 7 + 7 and (ii) 7 \u00d7 6 \u00d7 5 \u00d7 4 \u00d7 3 \u00d7 2 \u00d7 1 + 5 are prime or composite."
+ },
+ {
+  "idx": 22,
+  "marks": 2,
+  "type": "short",
+  "text": "Find the greatest number that divides 398, 436 and 542 leaving remainders 7, 11 and 15 respectively."
+ },
+ {
+  "idx": 23,
+  "marks": 2,
+  "type": "short",
+  "text": "Two traffic signals change colour every 48 seconds and 72 seconds respectively. They change together at 8:00:00 a.m. At what time will they next change together?"
+ },
+ {
+  "idx": 24,
+  "marks": 2,
+  "type": "short",
+  "text": "The HCF of two numbers is 16 and their LCM is 720. If one of the numbers is 80, find the other number."
+ },
+ {
+  "idx": 25,
+  "marks": 3,
+  "type": "short",
+  "text": "Prove that \u221a7 is irrational."
+ },
+ {
+  "idx": 26,
+  "marks": 3,
+  "type": "short",
+  "text": "Given that \u221a7 is irrational, prove that 2/(3\u221a7) is irrational."
+ },
+ {
+  "idx": 27,
+  "marks": 3,
+  "type": "short",
+  "text": "Prove that \u221a15 is irrational."
+ },
+ {
+  "idx": 28,
+  "marks": 3,
+  "type": "short",
+  "text": "Given that \u221a2 is irrational, prove that \u221a2 + \u221a3 is irrational."
+ },
+ {
+  "idx": 29,
+  "marks": 3,
+  "type": "short",
+  "text": "Prove that \u221a2 is irrational. Hence show that 7 \u2212 3\u221a2 is irrational."
+ },
+ {
+  "idx": 30,
+  "marks": 3,
+  "type": "short",
+  "text": "Find the HCF and LCM of 1260 and 3150 by the prime factorisation method."
+ },
+ {
+  "idx": 31,
+  "marks": 3,
+  "type": "short",
+  "text": "Find the HCF and LCM of 120, 144 and 180 using prime factorisation."
+ },
+ {
+  "idx": 32,
+  "marks": 3,
+  "type": "short",
+  "text": "A sweet shop has 396 laddus, 540 barfis and 612 pedas. It packs them into boxes so that every box has the same number of sweets, each box holds only one kind of sweet, and the number per box is as large as possible. Find the number of sweets in each box and the total number of boxes needed."
+ },
+ {
+  "idx": 33,
+  "marks": 3,
+  "type": "short",
+  "text": "Three runners start together from the same point of a circular track and take 40 s, 48 s and 60 s respectively to complete one round. After how much time will they meet again at the starting point, and how many rounds will each have completed by then?"
+ },
+ {
+  "idx": 34,
+  "marks": 3,
+  "type": "short",
+  "text": "Show that 8\u207f \u00d7 15\u207f ends with the digit 0 for every natural number n, but 9\u207f never ends with the digit 0."
+ },
+ {
+  "idx": 35,
+  "marks": 4,
+  "type": "case",
+  "text": "For the school Annual Day march past, the NCC wing has 72 cadets, the Scouts wing has 108 students and the Band wing has 144 students. The coordinator wants to arrange all students in rows so that every row has the same number of students and each row contains students of one wing only.\n(i) Express 72 and 108 as products of prime factors. [1]\n(ii) Find the HCF of 72, 108 and 144. [1]\n(iii) Find the maximum number of students that can stand in each row and the total number of rows formed. [2]\nOR\n(iii) The three wings start a drill routine whose cycles last 72, 108 and 144 seconds respectively, all starting together. After how many seconds do they all start a cycle together again? [2]"
+ }
+]

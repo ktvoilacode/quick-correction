@@ -1,0 +1,424 @@
+[
+ {
+  "chapter": "Triangles",
+  "topic": "Similarity criteria",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The perimeters of two similar triangles $\\triangle ABC$ and $\\triangle DEF$ are $30\\text{ cm}$ and $45\\text{ cm}$. If the altitude $AL$ of $\\triangle ABC$ is $6\\text{ cm}$, the corresponding altitude $DM$ of $\\triangle DEF$ is",
+  "options": [
+   "$4\\text{ cm}$",
+   "$9\\text{ cm}$",
+   "$13.5\\text{ cm}$",
+   "$21\\text{ cm}$"
+  ],
+  "idx": 0
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Similarity criteria",
+  "type": "assertion_reason",
+  "marks": 1,
+  "text": "Assertion (A): In $\\triangle LMN$ and $\\triangle XYZ$, $\\angle M = \\angle Y = 90^\\circ$ and $\\angle L = \\angle X = 35^\\circ$. Then $\\triangle LMN \\sim \\triangle XYZ$.\nReason (R): If two angles of one triangle are respectively equal to two angles of another triangle, the two triangles are similar.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "idx": 1
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Similarity criteria",
+  "type": "short",
+  "marks": 2,
+  "text": "In the figure, $D$ and $E$ are points on the sides $AB$ and $AC$ of $\\triangle ABC$ such that $\\angle ADE = \\angle ACB$. If $AD = 4\\text{ cm}$, $AE = EC = 5\\text{ cm}$ and $DE = 6\\text{ cm}$, find $AB$ and $BC$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 224\"><line x1=\"218\" y1=\"28\" x2=\"28\" y2=\"195.6\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28\" y1=\"195.6\" x2=\"332\" y2=\"195.6\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"332\" y1=\"195.6\" x2=\"218\" y2=\"28\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"157.2\" y1=\"81.6\" x2=\"275\" y2=\"111.8\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"220.2\" y=\"20.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"16\" y=\"205.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"343.3\" y=\"206.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><text x=\"144.7\" y=\"82.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text><text x=\"287.5\" y=\"113\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">E</text><text x=\"179.7\" y=\"50.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">4 cm</text><text x=\"256.4\" y=\"68.1\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">5 cm</text><text x=\"313.4\" y=\"151.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">5 cm</text><text x=\"213.1\" y=\"113.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">6 cm</text></svg>",
+  "figureAlt": "Triangle ABC with D on AB and E on AC joined by segment DE, which is not parallel to BC. AD is marked 4 cm, AE and EC 5 cm each, and DE 6 cm.",
+  "idx": 2
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Similarity criteria",
+  "type": "short",
+  "marks": 2,
+  "text": "In the figure, $D$ is a point on side $AB$ and $E$ is a point on side $AC$ of $\\triangle ABC$, with $AD = 4\\text{ cm}$, $DB = 5\\text{ cm}$, $AE = 3\\text{ cm}$ and $EC = 9\\text{ cm}$. Prove that $\\triangle ADE \\sim \\triangle ACB$, and hence that $\\angle ADE = \\angle ACB$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 303 300\"><line x1=\"133.7\" y1=\"28\" x2=\"28\" y2=\"211\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28\" y1=\"211\" x2=\"274.5\" y2=\"272\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"274.5\" y1=\"272\" x2=\"133.7\" y2=\"28\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"86.7\" y1=\"109.3\" x2=\"168.9\" y2=\"89\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"133.7\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"16.4\" y=\"221.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"286.2\" y=\"282.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><text x=\"73.7\" y=\"114.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text><text x=\"181.9\" y=\"94\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">E</text><text x=\"120.6\" y=\"79.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">4</text><text x=\"67.7\" y=\"171.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">5</text><text x=\"140.9\" y=\"69.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">3</text><text x=\"211.3\" y=\"191.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">9</text></svg>",
+  "figureAlt": "Triangle ABC with apex A. D lies on AB with AD = 4 and DB = 5; E lies on AC with AE = 3 and EC = 9; D and E are joined.",
+  "idx": 3
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Similarity criteria",
+  "type": "short",
+  "marks": 2,
+  "text": "In the figure, $B$, $E$, $C$ and $F$ lie on a line in that order, $AB \\parallel DE$ and $AC \\parallel DF$. If $BE = 3\\text{ cm}$, $EC = 5\\text{ cm}$, $CF = 7\\text{ cm}$ and $AC = 6\\text{ cm}$, prove that $\\triangle ABC \\sim \\triangle DEF$ and find $DF$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 214\"><line x1=\"28\" y1=\"186\" x2=\"332\" y2=\"186\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"129.3\" y1=\"80.7\" x2=\"28\" y2=\"186\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"129.3\" y1=\"80.7\" x2=\"190.1\" y2=\"186\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"240.8\" y1=\"28\" x2=\"88.8\" y2=\"186\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"240.8\" y1=\"28\" x2=\"332\" y2=\"186\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"28\" y=\"204\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"88.8\" y=\"204\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">E</text><text x=\"190.1\" y=\"204\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><text x=\"332\" y=\"204\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">F</text><text x=\"129.3\" y=\"72.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"240.8\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text><text x=\"58.4\" y=\"205\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">3 cm</text><text x=\"139.5\" y=\"205\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">5 cm</text><text x=\"261.1\" y=\"205\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">7 cm</text><text x=\"171.9\" y=\"131.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">6 cm</text></svg>",
+  "figureAlt": "Points B, E, C, F on a horizontal line. Triangle ABC stands on BC and triangle DEF on EF, with AB parallel to DE and AC parallel to DF. BE = 3 cm, EC = 5 cm, CF = 7 cm and AC = 6 cm are marked.",
+  "idx": 4
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Similarity criteria",
+  "type": "long",
+  "marks": 5,
+  "text": "$AP$ and $DQ$ are the medians of $\\triangle ABC$ and $\\triangle DEF$ drawn to the sides $BC$ and $EF$ respectively. Given $AB = 9\\text{ cm}$, $BC = 10\\text{ cm}$, $AP = 10\\text{ cm}$ and $DE = 13.5\\text{ cm}$, $EF = 15\\text{ cm}$, $DQ = 15\\text{ cm}$. Prove that $\\triangle ABC \\sim \\triangle DEF$. If $AC = 13\\text{ cm}$, find $DF$.",
+  "idx": 5
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Similarity criteria",
+  "type": "long",
+  "marks": 5,
+  "text": "If two sides and the median bisecting the third side of one triangle are respectively proportional to two sides and the corresponding median of another triangle, prove that the two triangles are similar. (Take $\\triangle ABC$ and $\\triangle PQR$ with medians $AD$ and $PM$ to the sides $BC$ and $QR$, and $\\frac{AB}{PQ} = \\frac{AC}{PR} = \\frac{AD}{PM}$.)",
+  "idx": 6
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Similarity criteria",
+  "type": "long",
+  "marks": 5,
+  "text": "In $\\triangle ABC$, $AB = 7\\text{ cm}$, $AC = 9\\text{ cm}$ and the median $AD$ to $BC$ is $7\\text{ cm}$. In $\\triangle PQR$, $PQ = 10.5\\text{ cm}$, $PR = 13.5\\text{ cm}$ and the median $PM$ to $QR$ is $10.5\\text{ cm}$. Prove that $\\triangle ABC \\sim \\triangle PQR$. If $BC = 8\\text{ cm}$, find $QR$ and the ratio of the areas of the two triangles.",
+  "idx": 7
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Similarity criteria",
+  "type": "long",
+  "marks": 5,
+  "text": "$\\triangle PQR \\sim \\triangle STU$. $PA$ and $SB$ are medians of the two triangles, drawn to the sides $QR$ and $TU$. Prove that $\\triangle PQA \\sim \\triangle STB$. If $PR = 9\\text{ cm}$, $SU = 12\\text{ cm}$ and $SB = 10\\text{ cm}$, find the length of the median $PA$.",
+  "idx": 8
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Proofs on similar triangles",
+  "type": "short",
+  "marks": 2,
+  "text": "In $\\triangle PQR$, $S$ is a point on the side $QR$ such that $\\angle QPS = \\angle PRQ$. Prove that $PQ^{2} = QS \\times QR$.",
+  "idx": 9
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Proofs on similar triangles",
+  "type": "short",
+  "marks": 2,
+  "text": "In the figure, $\\triangle ABC$ is isosceles with $AB = AC$ and $AM \\perp BC$. $D$ is a point on $BC$ produced beyond $C$, and $DE$ is perpendicular to $AC$ produced, meeting it at $E$. Prove that $\\triangle ABM \\sim \\triangle DCE$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 236\"><line x1=\"119.2\" y1=\"28\" x2=\"28\" y2=\"149.6\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"119.2\" y1=\"28\" x2=\"254.2\" y2=\"208\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28\" y1=\"149.6\" x2=\"332\" y2=\"149.6\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"119.2\" y1=\"28\" x2=\"119.2\" y2=\"149.6\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"332\" y1=\"149.6\" x2=\"254.2\" y2=\"208\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"119.2,141.6 127.2,141.6 127.2,149.6\" stroke=\"#000\" stroke-width=\"1\" fill=\"none\"/><polyline points=\"260.6,203.2 255.8,196.8 249.4,201.6\" stroke=\"#000\" stroke-width=\"1\" fill=\"none\"/><text x=\"119.2\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"15.5\" y=\"158.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"119.2\" y=\"167.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">M</text><text x=\"206.7\" y=\"142.1\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><text x=\"345\" y=\"154.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text><text x=\"246.7\" y=\"223.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">E</text></svg>",
+  "figureAlt": "Isosceles triangle ABC with AB = AC and altitude AM to BC. BC is extended beyond C to D, AC is extended beyond C to E, and DE is perpendicular to line AC; right angles are marked at M and E.",
+  "idx": 10
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Proofs on similar triangles",
+  "type": "short",
+  "marks": 2,
+  "text": "In the figure, the diagonal $AC$ of quadrilateral $ABCD$ bisects both $\\angle BAD$ and $\\angle BCD$. Prove that $\\triangle ABC \\sim \\triangle ADC$ and hence show that $BC = DC$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 299\"><line x1=\"28\" y1=\"149.6\" x2=\"119.2\" y2=\"28\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"119.2\" y1=\"28\" x2=\"332\" y2=\"149.6\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"332\" y1=\"149.6\" x2=\"119.2\" y2=\"271.2\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"119.2\" y1=\"271.2\" x2=\"28\" y2=\"149.6\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28\" y1=\"149.6\" x2=\"332\" y2=\"149.6\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"15\" y=\"154.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"116\" y=\"20.4\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"345\" y=\"154.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><text x=\"116\" y=\"288.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text></svg>",
+  "figureAlt": "Quadrilateral ABCD shaped like a kite with diagonal AC drawn from A on the left to C on the right; B is above AC and D below it.",
+  "idx": 11
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Proofs on similar triangles",
+  "type": "short",
+  "marks": 2,
+  "text": "$CM$ and $RN$ are medians of $\\triangle ABC$ and $\\triangle PQR$ drawn to the sides $AB$ and $PQ$ respectively. If $\\triangle AMC \\sim \\triangle PNR$, prove that $\\triangle ABC \\sim \\triangle PQR$.",
+  "idx": 12
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Proofs on similar triangles",
+  "type": "short",
+  "marks": 2,
+  "text": "In the figure, $M$ is a point on side $YZ$ of $\\triangle XYZ$. $MN \\parallel XY$ meets $XZ$ at $N$, and $ML \\parallel XZ$ meets $XY$ at $L$. $NL$ produced meets $ZY$ produced at $K$. Prove that $KM^{2} = KY \\times KZ$. If $KY = 4\\text{ cm}$ and $YZ = 5\\text{ cm}$, find $KM$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 201\"><line x1=\"213.8\" y1=\"28\" x2=\"163.1\" y2=\"163.1\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"163.1\" y1=\"163.1\" x2=\"332\" y2=\"163.1\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"332\" y1=\"163.1\" x2=\"213.8\" y2=\"28\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28\" y1=\"163.1\" x2=\"163.1\" y2=\"163.1\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"230.7\" y1=\"163.1\" x2=\"261.1\" y2=\"82\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"230.7\" y1=\"163.1\" x2=\"183.4\" y2=\"109.1\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28\" y1=\"163.1\" x2=\"261.1\" y2=\"82\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"213.8\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">X</text><text x=\"166.8\" y=\"180.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Y</text><text x=\"343.6\" y=\"173.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Z</text><text x=\"230.7\" y=\"181.1\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">M</text><text x=\"16.4\" y=\"173.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">K</text><text x=\"273.5\" y=\"83.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">N</text><text x=\"176.7\" y=\"102.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">L</text><text x=\"95.6\" y=\"194.1\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">4 cm</text><text x=\"247.6\" y=\"194.1\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">5 cm</text></svg>",
+  "figureAlt": "Triangle XYZ with M on YZ. MN is parallel to XY with N on XZ, ML is parallel to XZ with L on XY. Line NL is extended to meet ZY extended at K, to the left of Y. KY = 4 cm and YZ = 5 cm are marked.",
+  "idx": 13
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Proofs on similar triangles",
+  "type": "short",
+  "marks": 3,
+  "text": "In the figure, $AB = AC = 10\\text{ cm}$ and $BC = 12\\text{ cm}$ in $\\triangle ABC$. $D$ is a point on $CB$ produced such that $DB = 3\\text{ cm}$. $AM \\perp BC$ and $DE \\perp AC$. Prove that $\\triangle ABM \\sim \\triangle DCE$ and find $DE$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 218\"><line x1=\"210.4\" y1=\"28\" x2=\"88.8\" y2=\"190.1\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"88.8\" y1=\"190.1\" x2=\"332\" y2=\"190.1\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"332\" y1=\"190.1\" x2=\"210.4\" y2=\"28\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28\" y1=\"190.1\" x2=\"88.8\" y2=\"190.1\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"210.4\" y1=\"28\" x2=\"210.4\" y2=\"190.1\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28\" y1=\"190.1\" x2=\"222.6\" y2=\"44.2\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"210.4,182.1 218.4,182.1 218.4,190.1\" stroke=\"#000\" stroke-width=\"1\" fill=\"none\"/><polyline points=\"216.2,49 221,55.4 227.4,50.6\" stroke=\"#000\" stroke-width=\"1\" fill=\"none\"/><text x=\"210.4\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"88.8\" y=\"208.1\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"343.6\" y=\"200.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><text x=\"210.4\" y=\"208.1\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">M</text><text x=\"16.4\" y=\"200.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text><text x=\"235\" y=\"45.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">E</text><text x=\"167.2\" y=\"127.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">10 cm</text><text x=\"58.4\" y=\"209.1\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">3 cm</text><text x=\"271.2\" y=\"209.1\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">6 cm</text></svg>",
+  "figureAlt": "Isosceles triangle ABC with AB = AC = 10 cm, altitude AM to base BC, and BC extended beyond B to D with DB = 3 cm. From D a perpendicular DE is drawn to side AC; right angles are marked at M and E.",
+  "idx": 14
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Proofs on similar triangles",
+  "type": "short",
+  "marks": 3,
+  "text": "In the figure, $PQRS$ is a parallelogram and $T$ is a point on side $RS$ such that $RT : TS = 1 : 3$. $QT$ meets the diagonal $PR$ at $L$ and $PS$ produced at $E$. Prove that $EL = 4\\,QL$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 238 360\"><line x1=\"28\" y1=\"332\" x2=\"149.6\" y2=\"332\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"149.6\" y1=\"332\" x2=\"195.2\" y2=\"256\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"195.2\" y1=\"256\" x2=\"73.6\" y2=\"256\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"73.6\" y1=\"256\" x2=\"28\" y2=\"332\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"73.6\" y1=\"256\" x2=\"210.4\" y2=\"28\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28\" y1=\"332\" x2=\"195.2\" y2=\"256\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"149.6\" y1=\"332\" x2=\"210.4\" y2=\"28\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"16.4\" y=\"342.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><text x=\"161.2\" y=\"342.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text><text x=\"208.2\" y=\"261\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">R</text><text x=\"61.1\" y=\"257.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">S</text><text x=\"161.1\" y=\"248.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">T</text><text x=\"210.4\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">E</text><text x=\"174.2\" y=\"279.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">L</text></svg>",
+  "figureAlt": "Parallelogram PQRS with diagonal PR. T lies on RS close to R. The line from Q through T crosses PR at L and meets PS extended beyond S at E.",
+  "idx": 15
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Proofs on similar triangles",
+  "type": "short",
+  "marks": 3,
+  "text": "In the figure, $ABCD$ is a trapezium with $AB \\parallel DC$. $X$ is a point on $AB$ and $Y$ is a point on $DC$, and $XY$ cuts the diagonal $BD$ at $O$. Prove that $OX \\times OD = OY \\times OB$. If $OB = 6\\text{ cm}$, $OD = 4\\text{ cm}$ and $OX = 4.5\\text{ cm}$, find $OY$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 183\"><line x1=\"28\" y1=\"154.7\" x2=\"332\" y2=\"154.7\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"332\" y1=\"154.7\" x2=\"256\" y2=\"28\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"256\" y1=\"28\" x2=\"78.7\" y2=\"28\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"78.7\" y1=\"28\" x2=\"28\" y2=\"154.7\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"332\" y1=\"154.7\" x2=\"78.7\" y2=\"28\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"77.7\" y1=\"154.7\" x2=\"248.2\" y2=\"28\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"16.2\" y=\"165\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"344\" y=\"164.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"266.5\" y=\"25.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><text x=\"67.8\" y=\"25.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text><text x=\"77.7\" y=\"172.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">X</text><text x=\"248.2\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Y</text><text x=\"192\" y=\"76.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><text x=\"260.5\" y=\"112.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">6</text><text x=\"133.8\" y=\"49.4\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">4</text><text x=\"121.7\" y=\"112\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">4.5</text></svg>",
+  "figureAlt": "Trapezium ABCD with AB at the bottom parallel to DC at the top, and diagonal BD. A segment from X on AB to Y on DC crosses BD at O. OB = 6, OD = 4 and OX = 4.5 are marked.",
+  "idx": 16
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Proofs on similar triangles",
+  "type": "short",
+  "marks": 3,
+  "text": "In the figure, $\\triangle XYZ$ is acute-angled, $YM \\perp XZ$ and $ZN \\perp XY$. Prove that $\\triangle XMY \\sim \\triangle XNZ$. If $XM = 6\\text{ cm}$, $XN = 8\\text{ cm}$ and $XY = 15\\text{ cm}$, find $XZ$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-2 0 258 317\"><line x1=\"28\" y1=\"272\" x2=\"227.7\" y2=\"272\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"227.7\" y1=\"272\" x2=\"134.5\" y2=\"28\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"134.5\" y1=\"28\" x2=\"28\" y2=\"272\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"227.7\" y1=\"272\" x2=\"59.9\" y2=\"198.8\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"134.5\" y1=\"28\" x2=\"134.5\" y2=\"272\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"67.3,202 70.5,194.7 63.1,191.5\" stroke=\"#000\" stroke-width=\"1\" fill=\"none\"/><polyline points=\"134.5,264 142.5,264 142.5,272\" stroke=\"#000\" stroke-width=\"1\" fill=\"none\"/><text x=\"16.4\" y=\"282.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">X</text><text x=\"239.3\" y=\"282.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Y</text><text x=\"134.5\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Z</text><text x=\"47.2\" y=\"201.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">M</text><text x=\"134.5\" y=\"290\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">N</text><text x=\"18.3\" y=\"229.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">6 cm</text><text x=\"81.2\" y=\"291\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">8 cm</text><text x=\"127.8\" y=\"311\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">15 cm</text></svg>",
+  "figureAlt": "Acute triangle XYZ with X at bottom left, Y at bottom right and Z at the top. YM is perpendicular to XZ with M on XZ, and ZN is perpendicular to XY with N on XY; XM = 6 cm and XN = 8 cm are marked.",
+  "idx": 17
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Proofs on similar triangles",
+  "type": "short",
+  "marks": 3,
+  "text": "In the figure, $\\triangle PQR$ and $\\triangle SQR$ are right-angled at $P$ and $S$ respectively and lie on the same side of $QR$. The sides $PR$ and $QS$ intersect at $O$. Prove that $OP \\times OR = OS \\times OQ$. If $OP = 4\\text{ cm}$, $OQ = 5\\text{ cm}$ and $OS = 6\\text{ cm}$, find $OR$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 167\"><line x1=\"305.6\" y1=\"37.6\" x2=\"332\" y2=\"110\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"332\" y1=\"110\" x2=\"28\" y2=\"138.6\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28\" y1=\"138.6\" x2=\"305.6\" y2=\"37.6\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"61.6\" y1=\"28\" x2=\"332\" y2=\"110\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"61.6\" y1=\"28\" x2=\"28\" y2=\"138.6\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"308.4,45.1 300.9,47.8 298.1,40.3\" stroke=\"#000\" stroke-width=\"1\" fill=\"none\"/><polyline points=\"69.2,30.3 66.9,38 59.2,35.7\" stroke=\"#000\" stroke-width=\"1\" fill=\"none\"/><text x=\"318\" y=\"38.4\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><text x=\"344.7\" y=\"117.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text><text x=\"15.9\" y=\"148.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">R</text><text x=\"49.5\" y=\"28.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">S</text><text x=\"209.1\" y=\"63.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><text x=\"253.2\" y=\"48.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">4</text><text x=\"267.1\" y=\"107.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">5</text><text x=\"131.8\" y=\"66.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">6</text></svg>",
+  "figureAlt": "Segment QR with two right triangles on the same side of it: PQR with the right angle at P and SQR with the right angle at S. PR and QS cross at O; OP = 4, OQ = 5 and OS = 6 are marked.",
+  "idx": 18
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Proofs on similar triangles",
+  "type": "short",
+  "marks": 3,
+  "text": "$\\triangle DEF \\sim \\triangle KLM$, and $DX$ and $KY$ are their medians drawn to the sides $EF$ and $LM$. Prove that $\\frac{DE}{KL} = \\frac{DX}{KY}$. If $EF = 12\\text{ cm}$, $LM = 8\\text{ cm}$ and $DX = 9\\text{ cm}$, find $KY$.",
+  "idx": 19
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Proofs on similar triangles",
+  "type": "long",
+  "marks": 5,
+  "text": "In the figure, $ABCD$ is a parallelogram and $P$ is a point on side $AD$. The line $CP$ meets the diagonal $BD$ at $O$ and meets $BA$ produced at $Q$. (a) Prove that $OC^{2} = OP \\times OQ$. (b) If $OP = 4\\text{ cm}$ and $PQ = 5\\text{ cm}$, find $OC$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 167\"><line x1=\"110.9\" y1=\"138.5\" x2=\"276.7\" y2=\"138.5\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"276.7\" y1=\"138.5\" x2=\"332\" y2=\"28\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"332\" y1=\"28\" x2=\"166.2\" y2=\"28\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"166.2\" y1=\"28\" x2=\"110.9\" y2=\"138.5\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28\" y1=\"138.5\" x2=\"110.9\" y2=\"138.5\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"276.7\" y1=\"138.5\" x2=\"166.2\" y2=\"28\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"332\" y1=\"28\" x2=\"28\" y2=\"138.5\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"110.9\" y=\"156.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"282.5\" y=\"155.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"344.5\" y=\"29.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><text x=\"166.2\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text><text x=\"28\" y=\"156.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text><text x=\"119.2\" y=\"98.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><text x=\"210.4\" y=\"63.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text></svg>",
+  "figureAlt": "Parallelogram ABCD with diagonal BD. A line from C passes through P on side AD, crosses BD at O, and meets BA extended beyond A at Q.",
+  "idx": 20
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Proofs on similar triangles",
+  "type": "long",
+  "marks": 5,
+  "text": "Two vertical walls $AB$ and $CD$ of an alley stand on level ground $BD$, $8\\text{ m}$ apart. A ladder from the foot $D$ of one wall leans on the other wall and reaches the point $A$ at height $AB = x$; another ladder from the foot $B$ reaches the point $C$ at height $CD = z$. The ladders cross at $P$, and $PQ = y$ is the height of $P$ above the ground ($PQ \\perp BD$), as in the figure. (a) Prove that $\\frac{1}{x} + \\frac{1}{z} = \\frac{1}{y}$. (b) If $x = 4\\text{ m}$ and $z = 12\\text{ m}$, find $y$ and the distance $BQ$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 219 300\"><line x1=\"28\" y1=\"272\" x2=\"190.7\" y2=\"272\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28\" y1=\"190.7\" x2=\"28\" y2=\"272\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"190.7\" y1=\"28\" x2=\"190.7\" y2=\"272\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28\" y1=\"190.7\" x2=\"190.7\" y2=\"272\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28\" y1=\"272\" x2=\"190.7\" y2=\"28\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"68.7\" y1=\"211\" x2=\"68.7\" y2=\"272\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><polyline points=\"28,264 36,264 36,272\" stroke=\"#000\" stroke-width=\"1\" fill=\"none\"/><polyline points=\"190.7,264 182.7,264 182.7,272\" stroke=\"#000\" stroke-width=\"1\" fill=\"none\"/><polyline points=\"68.7,264 76.7,264 76.7,272\" stroke=\"#000\" stroke-width=\"1\" fill=\"none\"/><text x=\"15\" y=\"195.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"18.8\" y=\"286.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"203.7\" y=\"33\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><text x=\"199.9\" y=\"286.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text><text x=\"68.7\" y=\"201\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><text x=\"68.7\" y=\"290\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text><text x=\"16\" y=\"236.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">x</text><text x=\"202.7\" y=\"155\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">z</text><text x=\"78.7\" y=\"246.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">y</text></svg>",
+  "figureAlt": "Two vertical walls AB of height x on the left and CD of height z on the right, standing on ground BD. Ladder DA and ladder BC cross at P, and a dashed perpendicular PQ of length y drops from P to the ground.",
+  "idx": 21
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Proofs on similar triangles",
+  "type": "long",
+  "marks": 5,
+  "text": "In the figure, $AD$ is a median of $\\triangle ABC$ and $P$ is a point on $AD$ with $AP : PD = 4 : 1$. $BP$ produced meets $AC$ at $E$ and $CP$ produced meets $AB$ at $F$. $AD$ is produced to $Q$ so that $PD = DQ$. Prove that (i) $BPCQ$ is a parallelogram, (ii) $FE \\parallel BC$, (iii) $\\triangle AFE \\sim \\triangle ABC$. Hence find $FE$ if $BC = 12\\text{ cm}$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 282 300\"><line x1=\"95.8\" y1=\"28\" x2=\"28\" y2=\"231.3\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28\" y1=\"231.3\" x2=\"253.9\" y2=\"231.3\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"253.9\" y1=\"231.3\" x2=\"95.8\" y2=\"28\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"95.8\" y1=\"28\" x2=\"150\" y2=\"272\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28\" y1=\"231.3\" x2=\"201.2\" y2=\"163.6\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"253.9\" y1=\"231.3\" x2=\"50.6\" y2=\"163.6\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28\" y1=\"231.3\" x2=\"150\" y2=\"272\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"253.9\" y1=\"231.3\" x2=\"150\" y2=\"272\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"201.2\" y1=\"163.6\" x2=\"50.6\" y2=\"163.6\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"95.8\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"15\" y=\"236.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"266.9\" y=\"236.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><text x=\"147.1\" y=\"226\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text><text x=\"127.1\" y=\"183.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><text x=\"150\" y=\"290\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text><text x=\"213.7\" y=\"164.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">E</text><text x=\"38.1\" y=\"164.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">F</text></svg>",
+  "figureAlt": "Triangle ABC with median AD extended below BC to Q. P lies on AD; BP extended meets AC at E and CP extended meets AB at F. Segments BQ, CQ and FE are drawn.",
+  "idx": 22
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Proofs on similar triangles",
+  "type": "long",
+  "marks": 5,
+  "text": "Two equal circles, each of radius $5\\text{ cm}$, with centres $O$ and $Q$, touch each other externally. $OQ$ is produced to a point $A$ such that $QA = 10\\text{ cm}$. From $A$, a tangent $AC$ is drawn to the circle with centre $O$, touching it at $C$. The tangent cuts the circle with centre $Q$ at $E$ and $F$, and $QD \\perp AC$ with $D$ on $AC$, as shown. (a) Prove that $\\triangle ADQ \\sim \\triangle ACO$ and find $QD$. (b) Find the length of the chord $EF$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 186\"><circle cx=\"92.8\" cy=\"92.8\" r=\"64.8\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><circle cx=\"222.4\" cy=\"92.8\" r=\"64.8\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"92.8\" y1=\"92.8\" x2=\"352\" y2=\"92.8\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"92.8\" y1=\"92.8\" x2=\"109\" y2=\"30.1\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"352\" y1=\"92.8\" x2=\"109\" y2=\"30.1\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"222.4\" y1=\"92.8\" x2=\"230.5\" y2=\"61.4\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"107,37.8 114.7,39.8 116.7,32.1\" stroke=\"#000\" stroke-width=\"1\" fill=\"none\"/><polyline points=\"228.5,69.2 236.2,71.2 238.2,63.4\" stroke=\"#000\" stroke-width=\"1\" fill=\"none\"/><circle cx=\"92.8\" cy=\"92.8\" r=\"2\" fill=\"#000\"/><circle cx=\"222.4\" cy=\"92.8\" r=\"2\" fill=\"#000\"/><circle cx=\"109\" cy=\"30.1\" r=\"2\" fill=\"#000\"/><circle cx=\"176.2\" cy=\"47.4\" r=\"2\" fill=\"#000\"/><circle cx=\"284.8\" cy=\"75.5\" r=\"2\" fill=\"#000\"/><circle cx=\"352\" cy=\"92.8\" r=\"2\" fill=\"#000\"/><circle cx=\"230.5\" cy=\"61.4\" r=\"2\" fill=\"#000\"/><text x=\"92.8\" y=\"110.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><text x=\"222.4\" y=\"110.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text><text x=\"364.5\" y=\"101.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"109\" y=\"22.1\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><text x=\"241.8\" y=\"77.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text><text x=\"173.6\" y=\"39.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">E</text><text x=\"288.6\" y=\"68\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">F</text></svg>",
+  "figureAlt": "Two equal circles with centres O and Q touching externally. The line OQ is extended to A. A tangent from A touches the left circle at C and cuts the right circle at E and F; QD is perpendicular to this tangent with D between E and F. Right angles are marked at C and D.",
+  "idx": 23
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Proofs on similar triangles",
+  "type": "short",
+  "marks": 2,
+  "text": "In the figure, $\\triangle XYZ \\sim \\triangle LMN$. $XA$ bisects $\\angle YXZ$, meeting $YZ$ at $A$, and $LB$ bisects $\\angle MLN$, meeting $MN$ at $B$. Prove that $\\triangle XAZ \\sim \\triangle LBN$, and hence that $\\frac{XA}{LB} = \\frac{XZ}{LN}$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 157\"><line x1=\"53.3\" y1=\"61.8\" x2=\"28\" y2=\"129.3\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28\" y1=\"129.3\" x2=\"129.3\" y2=\"129.3\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"129.3\" y1=\"129.3\" x2=\"53.3\" y2=\"61.8\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"53.3\" y1=\"61.8\" x2=\"70.1\" y2=\"129.3\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"218\" y1=\"28\" x2=\"180\" y2=\"129.3\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"180\" y1=\"129.3\" x2=\"332\" y2=\"129.3\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"332\" y1=\"129.3\" x2=\"218\" y2=\"28\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"218\" y1=\"28\" x2=\"243.1\" y2=\"129.3\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"53.3\" y=\"53.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">X</text><text x=\"22.2\" y=\"146\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Y</text><text x=\"135.1\" y=\"146\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Z</text><text x=\"70.1\" y=\"147.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"218\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">L</text><text x=\"174.2\" y=\"146\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">M</text><text x=\"337.8\" y=\"146\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">N</text><text x=\"243.1\" y=\"147.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text></svg>",
+  "figureAlt": "Two similar triangles side by side: XYZ on the left with angle bisector XA meeting YZ at A, and the larger LMN on the right with angle bisector LB meeting MN at B.",
+  "idx": 24
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Right-triangle altitude similarity",
+  "type": "short",
+  "marks": 2,
+  "text": "In $\\triangle PQR$, $PS \\perp QR$ with $S$ on $QR$, and $QS : PS = PS : SR$. Prove that $\\triangle PSQ \\sim \\triangle RSP$ and hence that $\\angle QPR = 90^\\circ$.",
+  "idx": 25
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Right-triangle altitude similarity",
+  "type": "short",
+  "marks": 3,
+  "text": "In the figure, $\\triangle PQR$ is right-angled at $Q$ and $QS \\perp PR$. Prove that $QS^{2} = PS \\times SR$. If $QS = 12\\text{ cm}$ and $SR = 16\\text{ cm}$, find $PS$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 202\"><line x1=\"28\" y1=\"173.9\" x2=\"137.4\" y2=\"28\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"137.4\" y1=\"28\" x2=\"332\" y2=\"173.9\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"332\" y1=\"173.9\" x2=\"28\" y2=\"173.9\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"137.4\" y1=\"28\" x2=\"137.4\" y2=\"173.9\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"132.6,34.4 139,39.2 143.8,32.8\" stroke=\"#000\" stroke-width=\"1\" fill=\"none\"/><polyline points=\"137.4,165.9 145.4,165.9 145.4,173.9\" stroke=\"#000\" stroke-width=\"1\" fill=\"none\"/><text x=\"15.5\" y=\"182.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><text x=\"344.5\" y=\"182.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">R</text><text x=\"137.4\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text><text x=\"137.4\" y=\"191.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">S</text><text x=\"234.7\" y=\"194.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">16 cm</text><text x=\"115.4\" y=\"106\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">12 cm</text></svg>",
+  "figureAlt": "Right triangle PQR with the right angle at Q at the top and hypotenuse PR at the bottom. QS is perpendicular to PR; QS = 12 cm and SR = 16 cm are marked.",
+  "idx": 26
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Right-triangle altitude similarity",
+  "type": "long",
+  "marks": 5,
+  "text": "In $\\triangle XYZ$, $XW \\perp YZ$ with $W$ on $YZ$, $YW = 5\\text{ cm}$, $XW = 10\\text{ cm}$ and $WZ = 20\\text{ cm}$. (a) Prove that $\\triangle XWY \\sim \\triangle ZWX$. (b) Deduce that $\\angle YXZ = 90^\\circ$. (c) Verify this by finding $XY$, $XZ$ and $YZ$, and find the ratio of the areas of $\\triangle XWY$ and $\\triangle ZWX$.",
+  "idx": 27
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Similar figures and polygons",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Which of the following statements is NOT true?",
+  "options": [
+   "Any two circles are similar.",
+   "Any two squares are similar.",
+   "Any two rhombuses are similar.",
+   "Any two congruent triangles are similar."
+  ],
+  "idx": 28
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Similar figures and polygons",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A rhombus of side $5\\text{ cm}$ has an angle of $60^\\circ$, and another rhombus of side $10\\text{ cm}$ has an angle of $45^\\circ$. The two rhombuses are",
+  "options": [
+   "similar, because their sides are in the ratio $1 : 2$",
+   "similar, because both are rhombuses",
+   "congruent",
+   "not similar, because their corresponding angles are not equal"
+  ],
+  "idx": 29
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Similar figures and polygons",
+  "type": "assertion_reason",
+  "marks": 1,
+  "text": "Assertion (A): Any two rectangles are similar.\nReason (R): Each angle of a rectangle is $90^\\circ$.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "idx": 30
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Similar figures and polygons",
+  "type": "short",
+  "marks": 2,
+  "text": "Riya says, \"The sides of any two rhombuses are always in the same ratio, so all rhombuses are similar.\" Is she right? Justify your answer with an example.",
+  "idx": 31
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Applications of similar triangles",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A vertical stick $2.5\\text{ m}$ long casts a shadow $1.5\\text{ m}$ long on level ground. At the same time, a tower casts a shadow $21\\text{ m}$ long. The height of the tower is",
+  "options": [
+   "$35\\text{ m}$",
+   "$12.6\\text{ m}$",
+   "$52.5\\text{ m}$",
+   "$22\\text{ m}$"
+  ],
+  "idx": 32
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Applications of similar triangles",
+  "type": "short",
+  "marks": 2,
+  "text": "A girl of height $1.6\\text{ m}$ is walking away from the base of a lamp post at a speed of $1.2\\text{ m/s}$. If the lamp is $4.8\\text{ m}$ above the ground, find the length of her shadow after $5$ seconds.",
+  "idx": 33
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Applications of similar triangles",
+  "type": "long",
+  "marks": 5,
+  "text": "A man $1.8\\text{ m}$ tall walks away from the foot of a lamp post at a steady speed of $1.2\\text{ m/s}$. The bulb is $7.2\\text{ m}$ above the ground. (a) Draw a labelled diagram and find the length of his shadow after $5$ seconds. (b) After how many seconds will his shadow be $3.6\\text{ m}$ long? (c) By how much does the length of his shadow increase every second?",
+  "idx": 34
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Applications of similar triangles",
+  "type": "case",
+  "marks": 4,
+  "text": "On a billiards table, a ball at $B$ is $24\\text{ cm}$ from a straight cushion and a pocket at $P$ is $36\\text{ cm}$ from the same cushion. $M$ and $N$ are the feet of the perpendiculars from $B$ and $P$ to the cushion, and $MN = 90\\text{ cm}$. A player hits the ball so that it strikes the cushion at $R$ and rebounds straight into the pocket. When the ball bounces, the angle its path makes with the cushion before striking equals the angle after rebounding (law of reflection).",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 -14 380 176\"><line x1=\"28\" y1=\"28\" x2=\"352\" y2=\"28\" stroke=\"#000\" stroke-width=\"3\"/><line x1=\"57.5\" y1=\"98.7\" x2=\"57.5\" y2=\"28\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><line x1=\"322.5\" y1=\"134\" x2=\"322.5\" y2=\"28\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><line x1=\"57.5\" y1=\"98.7\" x2=\"163.5\" y2=\"28\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"163.5\" y1=\"28\" x2=\"322.5\" y2=\"134\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"57.5,36 65.5,36 65.5,28\" stroke=\"#000\" stroke-width=\"1\" fill=\"none\"/><polyline points=\"322.5,36 314.5,36 314.5,28\" stroke=\"#000\" stroke-width=\"1\" fill=\"none\"/><circle cx=\"57.5\" cy=\"98.7\" r=\"2\" fill=\"#000\"/><circle cx=\"322.5\" cy=\"134\" r=\"2\" fill=\"#000\"/><text x=\"57.5\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">M</text><text x=\"322.5\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">N</text><text x=\"163.5\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">R</text><text x=\"57.5\" y=\"116.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"322.5\" y=\"152\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><text x=\"27.5\" y=\"68.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">24 cm</text><text x=\"352.5\" y=\"86\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">36 cm</text><text x=\"190\" y=\"2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">MN = 90 cm</text></svg>",
+  "figureAlt": "A thick horizontal line represents the cushion. The ball B is 24 cm below M and the pocket P is 36 cm below N on the cushion, with MN = 90 cm. The ball's path goes from B to R on the cushion and then to P; right angles are marked at M and N.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Which angle is equal to $\\angle BRM$? Give the reason."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "By which criterion is $\\triangle BMR \\sim \\triangle PNR$?"
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the distance $MR$ of the point $R$ from $M$."
+   }
+  ],
+  "idx": 35
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Applications of similar triangles",
+  "type": "case",
+  "marks": 4,
+  "text": "Two vertical poles $AB = 10\\text{ m}$ and $CD = 15\\text{ m}$ stand on level ground with their feet $B$ and $D$ $20\\text{ m}$ apart. For a festival, a string of lights is tied from the top $A$ of the first pole to the foot $D$ of the second, and another from the top $C$ of the second pole to the foot $B$ of the first. The two strings cross at $P$. A lamp is to be hung from $P$ on a vertical wire $PQ$ that just reaches the ground at $Q$, as in the figure.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 293\"><line x1=\"28\" y1=\"256\" x2=\"332\" y2=\"256\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28\" y1=\"104\" x2=\"28\" y2=\"256\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"332\" y1=\"28\" x2=\"332\" y2=\"256\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28\" y1=\"104\" x2=\"332\" y2=\"256\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28\" y1=\"256\" x2=\"332\" y2=\"28\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"149.6\" y1=\"164.8\" x2=\"149.6\" y2=\"256\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><polyline points=\"28,248 36,248 36,256\" stroke=\"#000\" stroke-width=\"1\" fill=\"none\"/><polyline points=\"332,248 324,248 324,256\" stroke=\"#000\" stroke-width=\"1\" fill=\"none\"/><polyline points=\"149.6,248 157.6,248 157.6,256\" stroke=\"#000\" stroke-width=\"1\" fill=\"none\"/><text x=\"15\" y=\"109\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"18.8\" y=\"270.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"345\" y=\"33\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><text x=\"341.2\" y=\"270.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text><text x=\"149.6\" y=\"154.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><text x=\"149.6\" y=\"274\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text><text x=\"50\" y=\"185\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">10 m</text><text x=\"310\" y=\"147\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">15 m</text><text x=\"180\" y=\"287\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">20 m</text></svg>",
+  "figureAlt": "Two vertical poles AB of 10 m on the left and CD of 15 m on the right, 20 m apart on ground BD. Strings AD and CB cross at P, and a dashed vertical wire PQ drops from P to the ground at Q.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Name a pair of similar triangles formed at the crossing $P$, with the criterion, and find $AP : PD$."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "In what ratio does $Q$ divide $BD$? Find $BQ$."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the height $PQ$ of the crossing point above the ground."
+   }
+  ],
+  "idx": 36
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Areas of similar triangles",
+  "type": "long",
+  "marks": 5,
+  "text": "In the figure, $\\triangle LMN \\sim \\triangle XYZ$ and their corresponding sides are in the ratio $4 : 7$. $LP \\perp MN$ and $XQ \\perp YZ$. (a) Prove that $\\triangle LPM \\sim \\triangle XQY$. (b) If $LP = 8\\text{ cm}$, find $XQ$. (c) Find the ratio of the areas of $\\triangle LMN$ and $\\triangle XYZ$, and the area of $\\triangle LMN$ if the area of $\\triangle XYZ$ is $147\\text{ cm}^{2}$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 171\"><line x1=\"60.9\" y1=\"77.3\" x2=\"28\" y2=\"143\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28\" y1=\"143\" x2=\"126.6\" y2=\"143\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"126.6\" y1=\"143\" x2=\"60.9\" y2=\"77.3\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"217\" y1=\"28\" x2=\"159.5\" y2=\"143\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"159.5\" y1=\"143\" x2=\"332\" y2=\"143\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"332\" y1=\"143\" x2=\"217\" y2=\"28\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"60.9\" y1=\"77.3\" x2=\"60.9\" y2=\"143\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"217\" y1=\"28\" x2=\"217\" y2=\"143\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"60.9,135 68.9,135 68.9,143\" stroke=\"#000\" stroke-width=\"1\" fill=\"none\"/><polyline points=\"217,135 225,135 225,143\" stroke=\"#000\" stroke-width=\"1\" fill=\"none\"/><text x=\"60.9\" y=\"69.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">L</text><text x=\"217\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">X</text><text x=\"22.2\" y=\"159.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">M</text><text x=\"153.6\" y=\"159.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Y</text><text x=\"132.4\" y=\"159.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">N</text><text x=\"337.8\" y=\"159.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Z</text><text x=\"60.9\" y=\"161\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><text x=\"217\" y=\"161\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text></svg>",
+  "figureAlt": "Two similar triangles: a smaller triangle LMN with altitude LP to MN, and a larger triangle XYZ with altitude XQ to YZ. Right angles are marked at P and Q.",
+  "idx": 37
+ },
+ {
+  "chapter": "Triangles",
+  "topic": "Pythagoras theorem and its converse",
+  "type": "long",
+  "marks": 5,
+  "text": "The perimeter of an isosceles triangle is $50\\text{ cm}$ and each of its equal sides is $\\frac{17}{16}$ of its base. Find the lengths of its sides, the altitude to the base, and its area.",
+  "idx": 38
+ }
+]

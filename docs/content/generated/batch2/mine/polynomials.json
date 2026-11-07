@@ -1,0 +1,137 @@
+[
+ {
+  "idx": 0,
+  "myAnswer": "B) 3",
+  "how": "python"
+ },
+ {
+  "idx": 1,
+  "myAnswer": "D) 3x^2-5x+1",
+  "how": "python"
+ },
+ {
+  "idx": 2,
+  "myAnswer": "C) A true R false",
+  "how": "by hand"
+ },
+ {
+  "idx": 3,
+  "myAnswer": "A) 0",
+  "how": "by hand"
+ },
+ {
+  "idx": 4,
+  "myAnswer": "C) 3",
+  "how": "python"
+ },
+ {
+  "idx": 5,
+  "myAnswer": "A) 26/3",
+  "how": "python"
+ },
+ {
+  "idx": 6,
+  "myAnswer": "q=2x+1, r=-4x+5",
+  "how": "python"
+ },
+ {
+  "idx": 7,
+  "myAnswer": "2x^3-3x^2-13x+14",
+  "how": "python"
+ },
+ {
+  "idx": 8,
+  "myAnswer": "k=6, other zero -2",
+  "how": "python"
+ },
+ {
+  "idx": 9,
+  "myAnswer": "k=20 or -20",
+  "how": "by hand"
+ },
+ {
+  "idx": 10,
+  "myAnswer": "12x^2+11x-15 (or x^2+11/12 x-5/4)",
+  "how": "python"
+ },
+ {
+  "idx": 11,
+  "myAnswer": "p=2x^2-8x-24; y-intercept (0,-24)",
+  "how": "python"
+ },
+ {
+  "idx": 12,
+  "myAnswer": "215/8",
+  "how": "python"
+ },
+ {
+  "idx": 13,
+  "myAnswer": "5/2",
+  "how": "python"
+ },
+ {
+  "idx": 14,
+  "myAnswer": "q=4x-1, r=-2x-7",
+  "how": "python"
+ },
+ {
+  "idx": 15,
+  "myAnswer": "quotient x^2+x+2, rem 0; no real zeroes (x^2+x+2 disc<0, x^2+1 none): 0",
+  "how": "python"
+ },
+ {
+  "idx": 16,
+  "myAnswer": "4x^2-7x+2",
+  "how": "python"
+ },
+ {
+  "idx": 17,
+  "myAnswer": "k=8, zeroes 2 and 4",
+  "how": "python"
+ },
+ {
+  "idx": 18,
+  "myAnswer": "2x^3-3x^2-11x+6",
+  "how": "python"
+ },
+ {
+  "idx": 19,
+  "myAnswer": "k=2 (zero -3) or k=-4 (zero 3)",
+  "how": "by hand"
+ },
+ {
+  "idx": 20,
+  "myAnswer": "p=-2x^3+12x^2-6x-20",
+  "how": "python"
+ },
+ {
+  "idx": 21,
+  "myAnswer": "zeroes 7/5, -1/2; 5x^2-9x-14",
+  "how": "python"
+ },
+ {
+  "idx": 22,
+  "myAnswer": "q=3x^2+2x-4, r=5x+7; deg r 1 < 2",
+  "how": "python"
+ },
+ {
+  "idx": 23,
+  "myAnswer": "x^2-x-2; quotient x^2-x-6; zeroes 3,-2",
+  "how": "python"
+ },
+ {
+  "idx": 24,
+  "myAnswer": "zeroes -2,1,4 (a=1,d=3); pair sum -6",
+  "how": "python"
+ },
+ {
+  "idx": 25,
+  "myAnswer": "a=5,b=-4; quotient x^2-x+10; real zeroes 3,-2",
+  "how": "python"
+ },
+ {
+  "idx": 26,
+  "myAnswer": "opens downward (a=-1); zeroes 2,10 (200,1000 cakes); max at 6 (600 cakes) profit 16 (Rs16000)",
+  "how": "python"
+ }
+]

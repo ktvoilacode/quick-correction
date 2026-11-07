@@ -1,0 +1,920 @@
+[
+  {
+    "id": "a16",
+    "chapter": "Areas Related to Circles",
+    "type": "mcq",
+    "marks": 1,
+    "text": "The area of a sector of angle $90^\\circ$ in a circle of radius $14 \\text{ cm}$ is:",
+    "options": [
+      "$154 \\text{ cm}^{2}$",
+      "$616 \\text{ cm}^{2}$",
+      "$77 \\text{ cm}^{2}$",
+      "$308 \\text{ cm}^{2}$"
+    ],
+    "answer": null
+  },
+  {
+    "id": "c6",
+    "chapter": "Areas Related to Circles",
+    "type": "short",
+    "marks": 3,
+    "text": "A chord of a circle of radius $10 \\text{ cm}$ subtends a right angle at the centre. Find the area of the minor segment. (Use $\\pi = 3.14$)",
+    "answer": null
+  },
+  {
+    "id": "cmvq9r2fm00017gcnd64vc9go",
+    "chapter": "Areas Related to Circles",
+    "type": "mcq",
+    "marks": 1,
+    "text": "The area of a sector of a circle of radius $14 \\text{ cm}$ with central angle $90^\\circ$ is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$154 \\text{ cm}^{2}$",
+      "$308 \\text{ cm}^{2}$",
+      "$616 \\text{ cm}^{2}$",
+      "$77 \\text{ cm}^{2}$"
+    ],
+    "answer": "Correct option: A) $154 \\text{ cm}^{2}$. Area $= \\frac{90}{360} \\times \\frac{22}{7} \\times 14 \\times 14 = 154 \\text{ cm}^{2}$."
+  },
+  {
+    "id": "cmvq9r2fn00037gcnw4h5ghk5",
+    "chapter": "Areas Related to Circles",
+    "type": "mcq",
+    "marks": 1,
+    "text": "The length of the arc of a sector of radius $21 \\text{ cm}$ and central angle $60^\\circ$ is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$22 \\text{ cm}$",
+      "$44 \\text{ cm}$",
+      "$66 \\text{ cm}$",
+      "$132 \\text{ cm}$"
+    ],
+    "answer": "Correct option: A) $22 \\text{ cm}$. Arc $= \\frac{60}{360} \\times 2 \\times \\frac{22}{7} \\times 21 = 22 \\text{ cm}$."
+  },
+  {
+    "id": "cmvq9r2fo00057gcn8zpj7wfg",
+    "chapter": "Areas Related to Circles",
+    "type": "mcq",
+    "marks": 1,
+    "text": "The perimeter of a sector of a circle of radius $7 \\text{ cm}$ and central angle $120^\\circ$ is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$\\frac{44}{3} \\text{ cm}$",
+      "$\\frac{86}{3} \\text{ cm}$",
+      "$\\frac{58}{3} \\text{ cm}$",
+      "$\\frac{154}{3} \\text{ cm}$"
+    ],
+    "answer": "Correct option: B) $\\frac{86}{3} \\text{ cm}$. Arc $= \\frac{120}{360} \\times 2 \\times \\frac{22}{7} \\times 7 = \\frac{44}{3} \\text{ cm}$; perimeter $= 7 + 7 + \\frac{44}{3} = \\frac{86}{3} \\text{ cm}$."
+  },
+  {
+    "id": "cmvq9r2fp00077gcn8hbg2azi",
+    "chapter": "Areas Related to Circles",
+    "type": "mcq",
+    "marks": 1,
+    "text": "The minute hand of a wall clock is $14 \\text{ cm}$ long. The area swept by it in 20 minutes is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$\\frac{308}{3} \\text{ cm}^{2}$",
+      "$\\frac{616}{3} \\text{ cm}^{2}$",
+      "$154 \\text{ cm}^{2}$",
+      "$616 \\text{ cm}^{2}$"
+    ],
+    "answer": "Correct option: B) $\\frac{616}{3} \\text{ cm}^{2}$. In 20 minutes the hand turns $120^\\circ$. Area $= \\frac{120}{360} \\times \\frac{22}{7} \\times 14^{2} = \\frac{616}{3} \\text{ cm}^{2}$."
+  },
+  {
+    "id": "cmvq9r2fq00097gcnbv6ieytl",
+    "chapter": "Areas Related to Circles",
+    "type": "mcq",
+    "marks": 1,
+    "text": "From a square piece of tin of side $14 \\text{ cm}$, a quarter circle of radius $14 \\text{ cm}$ is cut out with its centre at one corner of the square. The area of the remaining piece is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$42 \\text{ cm}^{2}$",
+      "$154 \\text{ cm}^{2}$",
+      "$196 \\text{ cm}^{2}$",
+      "$238 \\text{ cm}^{2}$"
+    ],
+    "answer": "Correct option: A) $42 \\text{ cm}^{2}$. Square $= 196 \\text{ cm}^{2}$; quarter circle $= (\\frac{1}{4})(\\frac{22}{7})(14^{2}) = 154 \\text{ cm}^{2}$. Remaining $= 196 - 154 = 42 \\text{ cm}^{2}$."
+  },
+  {
+    "id": "cmvq9r2fr000b7gcnig5thuda",
+    "chapter": "Areas Related to Circles",
+    "type": "mcq",
+    "marks": 1,
+    "text": "A chord of a circle of radius $10 \\text{ cm}$ subtends a right angle at the centre. The area of the corresponding minor segment is (use $\\pi = 3.14$)",
+    "options": [
+      "$28.5 \\text{ cm}^{2}$",
+      "$78.5 \\text{ cm}^{2}$",
+      "$53.5 \\text{ cm}^{2}$",
+      "$21.5 \\text{ cm}^{2}$"
+    ],
+    "answer": "Correct option: A) $28.5 \\text{ cm}^{2}$. Sector $= (\\frac{1}{4})(3.14)(100) = 78.5 \\text{ cm}^{2}$; triangle $= (\\frac{1}{2})(10)(10) = 50 \\text{ cm}^{2}$. Segment $= 78.5 - 50 = 28.5 \\text{ cm}^{2}$."
+  },
+  {
+    "id": "cmvq9r2fs000d7gcniurav08d",
+    "chapter": "Areas Related to Circles",
+    "type": "mcq",
+    "marks": 1,
+    "text": "A sector of a circle of radius $7 \\text{ cm}$ has area $\\frac{77}{3} \\text{ cm}^{2}$. Its central angle is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$30^\\circ$",
+      "$45^\\circ$",
+      "$60^\\circ$",
+      "$120^\\circ$"
+    ],
+    "answer": "Correct option: C) $60^\\circ$. $\\frac{\\theta}{360} \\times \\frac{22}{7} \\times 49 = \\frac{77}{3}$ gives $\\frac{\\theta}{360} \\times 154 = \\frac{77}{3}$, so $\\theta = 60^\\circ$."
+  },
+  {
+    "id": "cmvq9r2fs000f7gcnnex0rv20",
+    "chapter": "Areas Related to Circles",
+    "type": "mcq",
+    "marks": 1,
+    "text": "A bicycle wheel has diameter $140 \\text{ cm}$. The number of complete revolutions it makes to cover $1.1 \\text{ km}$ is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$250$",
+      "$500$",
+      "$125$",
+      "$2500$"
+    ],
+    "answer": "Correct option: A) $250$. Circumference $= \\frac{22}{7} \\times 140 = 440 \\text{ cm}$. Distance $= 1.1 \\text{ km} = 110000 \\text{ cm}$. Revolutions $= \\frac{110000}{440} = 250$."
+  },
+  {
+    "id": "cmvq9r2fs000h7gcn3rojcezv",
+    "chapter": "Areas Related to Circles",
+    "type": "mcq",
+    "marks": 1,
+    "text": "Two concentric circles have radii $14 \\text{ cm}$ and $7 \\text{ cm}$. The area of the ring between them is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$462 \\text{ cm}^{2}$",
+      "$154 \\text{ cm}^{2}$",
+      "$616 \\text{ cm}^{2}$",
+      "$770 \\text{ cm}^{2}$"
+    ],
+    "answer": "Correct option: A) $462 \\text{ cm}^{2}$. Area $= \\frac{22}{7}(14^{2} - 7^{2}) = \\frac{22}{7}(147) = 462 \\text{ cm}^{2}$."
+  },
+  {
+    "id": "cmvq9r2ft000j7gcnm1x3l094",
+    "chapter": "Areas Related to Circles",
+    "type": "mcq",
+    "marks": 1,
+    "text": "Assertion ($A$): The perimeter of a sector of a circle of radius $7 \\text{ cm}$ and central angle $90^\\circ$ is $25 \\text{ cm}$ (use $\\pi = \\frac{22}{7}$).\nReason ($R$): The perimeter of a sector is equal to the length of its arc.",
+    "options": [
+      "Both $A$ and $R$ are true and $R$ is the correct explanation of $A$",
+      "Both $A$ and $R$ are true but $R$ is not the correct explanation of $A$",
+      "$A$ is true but $R$ is false",
+      "$A$ is false but $R$ is true"
+    ],
+    "answer": "Correct option: C) $A$ is true but $R$ is false. Arc $= \\frac{1}{4}(2)(\\frac{22}{7})(7) = 11 \\text{ cm}$, so perimeter $= 11 + 7 + 7 = 25 \\text{ cm}$, so $A$ is true. The perimeter of a sector is arc length plus the two radii, so $R$ is false."
+  },
+  {
+    "id": "cmvq9r2ft000l7gcnju6e8g5k",
+    "chapter": "Areas Related to Circles",
+    "type": "short",
+    "marks": 2,
+    "text": "The wiper of a car sweeps through an angle of $120^\\circ$ and its blade-arm is $21 \\text{ cm}$ long (the whole $21 \\text{ cm}$ cleans the glass). Find the area of the glass cleaned in one sweep. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "Area $= \\frac{120}{360} \\times \\frac{22}{7} \\times 21 \\times 21 = \\frac{1}{3} \\times 22 \\times 63 = 462 \\text{ cm}^{2}$.\nArea cleaned $= 462 \\text{ cm}^{2}$."
+  },
+  {
+    "id": "cmvq9r2fu000n7gcn8vcje152",
+    "chapter": "Areas Related to Circles",
+    "type": "short",
+    "marks": 3,
+    "text": "A sector of a circle of radius $21 \\text{ cm}$ has area $231 \\text{ cm}^{2}$. Find (i) its central angle, (ii) the length of its arc, (iii) its perimeter. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "Area of full circle $= \\frac{22}{7}(441) = 1386 \\text{ cm}^{2}$. $\\frac{\\theta}{360} = \\frac{231}{1386} = \\frac{1}{6}$, so $\\theta = 60^\\circ$.\nArc $= \\frac{1}{6} \\times 2 \\times \\frac{22}{7} \\times 21 = 22 \\text{ cm}$.\nPerimeter $= 22 + 21 + 21 = 64 \\text{ cm}$.\nAnswer: $60^\\circ$, $22 \\text{ cm}$, $64 \\text{ cm}$."
+  },
+  {
+    "id": "cmvq9r2fv000p7gcn89i60vha",
+    "chapter": "Areas Related to Circles",
+    "type": "short",
+    "marks": 3,
+    "text": "A chord of a circle of radius $12 \\text{ cm}$ subtends an angle of $60^\\circ$ at the centre. Find the area of the corresponding minor segment. (Use $\\pi = 3.14$ and $\\sqrt{3} = 1.73$)",
+    "answer": "Sector area $= \\frac{60}{360} \\times 3.14 \\times 144 = 75.36 \\text{ cm}^{2}$.\nTriangle formed by two radii and chord is equilateral with side $12 \\text{ cm}$: area $= \\frac{\\sqrt{3}}{4}(144) = 36 \\times 1.73 = 62.28 \\text{ cm}^{2}$.\nSegment $= 75.36 - 62.28 = 13.08 \\text{ cm}^{2}$."
+  },
+  {
+    "id": "cmvq9r2fv000r7gcnz2idnlhp",
+    "chapter": "Areas Related to Circles",
+    "type": "short",
+    "marks": 3,
+    "text": "A square plot of side $28 \\text{ m}$ has a quarter circle of radius $7 \\text{ m}$ marked at each of its four corners, each with its centre at that corner, and the four quarter circles are paved. Find the area of the part of the plot that is not paved. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "Four quarter circles of radius $7 \\text{ m}$ together make one full circle: area $= \\frac{22}{7}(49) = 154 \\text{ m}^{2}$.\nPlot $= 28 \\times 28 = 784 \\text{ m}^{2}$.\nUnpaved area $= 784 - 154 = 630 \\text{ m}^{2}$."
+  },
+  {
+    "id": "cmvq9r2fw000t7gcntgto1dy7",
+    "chapter": "Areas Related to Circles",
+    "type": "short",
+    "marks": 3,
+    "text": "A horse is tied with a rope at one corner of a rectangular field $20 \\text{ m} \\times 16 \\text{ m}$, so that it can graze the field only within the quarter circle around that corner. Find how much more area it can graze if the rope is lengthened from $7 \\text{ m}$ to $14 \\text{ m}$. (Use $\\pi = \\frac{22}{7}$; both ropes lie inside the field)",
+    "answer": "Area with $14 \\text{ m}$ rope $= \\frac{1}{4}(\\frac{22}{7})(196) = 154 \\text{ m}^{2}$.\nArea with $7 \\text{ m}$ rope $= \\frac{1}{4}(\\frac{22}{7})(49) = 38.5 \\text{ m}^{2}$.\nAdditional area $= 154 - 38.5 = 115.5 \\text{ m}^{2}$."
+  },
+  {
+    "id": "cmvq9r2fw000v7gcng9hqnjoh",
+    "chapter": "Areas Related to Circles",
+    "type": "long",
+    "marks": 5,
+    "text": "A running track is made of a rectangle $28 \\text{ m}$ long and $14 \\text{ m}$ wide with a semicircle added outward on each of the two $14 \\text{ m}$ sides, the diameter of each semicircle being that side. Find (i) the perimeter of the whole figure, (ii) its area. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "Semicircle radius $= 7 \\text{ m}$.\n(i) Perimeter $=$ two straight sides of $28 \\text{ m}$ + two semicircular arcs $= 56 + 2 \\times \\frac{22}{7}(7) = 56 + 44 = 100 \\text{ m}$.\n(ii) Area $=$ rectangle + two semicircles $= 28 \\times 14 + \\frac{22}{7}(49) = 392 + 154 = 546 \\text{ m}^{2}$.\nAnswer: perimeter $100 \\text{ m}$, area $546 \\text{ m}^{2}$."
+  },
+  {
+    "id": "cmvq9r2fx000x7gcn7jsqbqe8",
+    "chapter": "Areas Related to Circles",
+    "type": "long",
+    "marks": 5,
+    "text": "A chord of a circle of radius $14 \\text{ cm}$ subtends a right angle at the centre. Find (i) the length of the chord, (ii) the area of the minor segment, (iii) the area of the major segment. (Use $\\pi = \\frac{22}{7}$ and $\\sqrt{2} = 1.41$)",
+    "answer": "(i) $\\text{Chord}^{2} = 14^{2} + 14^{2} = 392$, chord $= 14\\sqrt{2} = 14 \\times 1.41 = 19.74 \\text{ cm}$.\n(ii) Sector $= \\frac{1}{4}(\\frac{22}{7})(196) = 154 \\text{ cm}^{2}$; triangle $= \\frac{1}{2}(14)(14) = 98 \\text{ cm}^{2}$. Minor segment $= 154 - 98 = 56 \\text{ cm}^{2}$.\n(iii) Circle $= \\frac{22}{7}(196) = 616 \\text{ cm}^{2}$. Major segment $= 616 - 56 = 560 \\text{ cm}^{2}$.\nAnswer: $19.74 \\text{ cm}$, $56 \\text{ cm}^{2}$, $560 \\text{ cm}^{2}$."
+  },
+  {
+    "id": "cmvq9r2fx000z7gcn7qirhaho",
+    "chapter": "Areas Related to Circles",
+    "type": "case",
+    "marks": 4,
+    "text": "A rotating sprinkler in a park waters a sector-shaped lawn. It reaches $14 \\text{ m}$ from its fixed position and turns through an angle of $90^\\circ$. (Use $\\pi = \\frac{22}{7}$)\n(i) Find the area of the lawn watered. [1]\n(ii) Find the perimeter of the watered region. [1]\n(iii) The sprinkler is adjusted to reach $21 \\text{ m}$ and turn through $120^\\circ$. Find the increase in the watered area. [2]",
+    "answer": "(i) $\\frac{90}{360}(\\frac{22}{7})(196) = 154 \\text{ m}^{2}$.\n(ii) Arc $= \\frac{1}{4}(2)(\\frac{22}{7})(14) = 22 \\text{ m}$; perimeter $= 22 + 14 + 14 = 50 \\text{ m}$.\n(iii) New area $= \\frac{120}{360}(\\frac{22}{7})(441) = 462 \\text{ m}^{2}$. Increase $= 462 - 154 = 308 \\text{ m}^{2}$."
+  },
+  {
+    "id": "cmvq9r2fy00117gcnvq3xwt9p",
+    "chapter": "Areas Related to Circles",
+    "type": "case",
+    "marks": 4,
+    "text": "The tower clock of a school has a minute hand $21 \\text{ cm}$ long and an hour hand $14 \\text{ cm}$ long. (Use $\\pi = \\frac{22}{7}$)\n(i) Through what angle does the minute hand turn in 10 minutes? [1]\n(ii) Find the distance moved by the tip of the minute hand in 20 minutes. [1]\n(iii) Find the area swept by the minute hand between 6:10 and 6:25. OR Find the area swept by the hour hand in 3 hours. [2]",
+    "answer": "(i) The minute hand turns $360^\\circ$ in 60 min, i.e. $6^\\circ$ per minute; in 10 min: $60^\\circ$.\n(ii) 20 min $= 120^\\circ$. Distance $= \\frac{120}{360}(2)(\\frac{22}{7})(21) = 44 \\text{ cm}$.\n(iii) 15 minutes $= 90^\\circ$. Area $= \\frac{1}{4}(\\frac{22}{7})(441) = 346.5 \\text{ cm}^{2}$.\nOR: the hour hand turns $30^\\circ$ per hour, so $90^\\circ$ in 3 hours. Area $= \\frac{1}{4}(\\frac{22}{7})(196) = 154 \\text{ cm}^{2}$."
+  },
+  {
+    "id": "cmvq9r2fz00137gcnk7y4ibl7",
+    "chapter": "Areas Related to Circles",
+    "type": "case",
+    "marks": 4,
+    "text": "A circular pizza of diameter $28 \\text{ cm}$ is cut by its centre into 8 equal slices. (Use $\\pi = \\frac{22}{7}$)\n(i) Find the angle at the centre of each slice. [1]\n(ii) Find the length of the crust (arc) of one slice. [1]\n(iii) Three slices are eaten. Find the area of pizza left and the total length of crust left. [2]",
+    "answer": "(i) $\\frac{360^\\circ}{8} = 45^\\circ$.\n(ii) Radius $14 \\text{ cm}$. Arc $= \\frac{45}{360}(2)(\\frac{22}{7})(14) = 11 \\text{ cm}$.\n(iii) Area of one slice $= \\frac{1}{8}(\\frac{22}{7})(196) = 77 \\text{ cm}^{2}$; 5 slices left: $5 \\times 77 = 385 \\text{ cm}^{2}$. Crust left $= 5 \\times 11 = 55 \\text{ cm}$."
+  },
+  {
+    "id": "cmvq9r2fz00157gcnmu66e80t",
+    "chapter": "Areas Related to Circles",
+    "type": "case",
+    "marks": 4,
+    "text": "A farmer has a circular field of radius $21 \\text{ m}$. He fences off a corner using a straight fence $AB$, where chord $AB$ subtends a right angle at the centre $O$. The small region cut off by the fence (between the chord and the arc) is used for vegetables. (Use $\\pi = \\frac{22}{7}$)\n(i) Find the area of the sector $OAB$. [1]\n(ii) Find the area of triangle $OAB$. [1]\n(iii) Find the area of the vegetable region, and the cost of fertiliser for it at ₹ 40 per $\\text{m}^{2}$. [2]",
+    "answer": "(i) $\\frac{1}{4}(\\frac{22}{7})(441) = 346.5 \\text{ m}^{2}$.\n(ii) $\\frac{1}{2}(21)(21) = 220.5 \\text{ m}^{2}$.\n(iii) Segment $= 346.5 - 220.5 = 126 \\text{ m}^{2}$. Cost $= 126 \\times 40 =$ ₹ 5040."
+  },
+  {
+    "id": "a11",
+    "chapter": "Coordinate Geometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "The distance between the points $(0, 0)$ and $(6, 8)$ is:",
+    "options": [
+      "$8$",
+      "$10$",
+      "$12$",
+      "$14$"
+    ],
+    "answer": null
+  },
+  {
+    "id": "a12",
+    "chapter": "Coordinate Geometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "The midpoint of the segment joining $(2, 4)$ and $(6, 8)$ is:",
+    "options": [
+      "$(4, 6)$",
+      "$(3, 5)$",
+      "$(8, 12)$",
+      "$(2, 2)$"
+    ],
+    "answer": null
+  },
+  {
+    "id": "c4",
+    "chapter": "Coordinate Geometry",
+    "type": "short",
+    "marks": 3,
+    "text": "Find the ratio in which the line segment joining $(-3, 10)$ and $(6, -8)$ is divided by $(-1, 6)$.",
+    "answer": null
+  },
+  {
+    "id": "e2",
+    "chapter": "Coordinate Geometry",
+    "type": "case",
+    "marks": 4,
+    "text": "Case study — Students plant saplings at points $A(2, 3)$, $B(6, 3)$ and $C(6, 6)$ on a grid of the school garden. (i) Find $AB$. (ii) Find $AC$. (iii) What kind of triangle is $ABC$?",
+    "answer": null
+  },
+  {
+    "id": "cmvq9r2gv004h7gcnsmg0xy2f",
+    "chapter": "Coordinate Geometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "The distance between the points $A(-3, 4)$ and $B(5, -2)$ is",
+    "options": [
+      "$10$ units",
+      "$14$ units",
+      "$8$ units",
+      "$2\\sqrt{7}$ units"
+    ],
+    "answer": "Correct option: a) $10$ units. $AB = \\sqrt{[(5+3)^{2} + (-2-4)^{2}]} = \\sqrt{64 + 36} = \\sqrt{100} = 10$."
+  },
+  {
+    "id": "cmvq9r2gv004j7gcnyhizt3gh",
+    "chapter": "Coordinate Geometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "The distance of the point $P(5, -12)$ from the origin is",
+    "options": [
+      "$7$ units",
+      "$13$ units",
+      "$17$ units",
+      "$\\sqrt{119}$ units"
+    ],
+    "answer": "Correct option: b) $13$ units. $OP = \\sqrt{5^{2} + (-12)^{2}} = \\sqrt{25 + 144} = \\sqrt{169} = 13$."
+  },
+  {
+    "id": "cmvq9r2gw004l7gcn01k00dst",
+    "chapter": "Coordinate Geometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "If the distance between the points $(k, 3)$ and $(2, -1)$ is $5$ units, then the values of $k$ are",
+    "options": [
+      "$5$ only",
+      "$-1$ only",
+      "$5$ or $-1$",
+      "$1$ or $-5$"
+    ],
+    "answer": "Correct option: c) $5$ or $-1$. $(k-2)^{2} + (3+1)^{2} = 25$, so $(k-2)^{2} = 9$, $k-2 = \\pm 3$, hence $k = 5$ or $k = -1$."
+  },
+  {
+    "id": "cmvq9r2gw004n7gcnqe2hduhq",
+    "chapter": "Coordinate Geometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "The point on the $y$-axis which is equidistant from $A(3, 2)$ and $B(-1, 6)$ is",
+    "options": [
+      "$(0, 3)$",
+      "$(3, 0)$",
+      "$(0, -3)$",
+      "$(0, 2)$"
+    ],
+    "answer": "Correct option: a) $(0, 3)$. Let the point be $P(0, y)$. $PA^{2} = PB^{2}$ gives $9 + (y-2)^{2} = 1 + (y-6)^{2}$, so $13 - 4y = 37 - 12y$, $8y = 24$, $y = 3$. Point is $(0, 3)$."
+  },
+  {
+    "id": "cmvq9r2gx004p7gcny2je1pib",
+    "chapter": "Coordinate Geometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "The point $P$ divides the line segment joining $A(1, -2)$ and $B(7, 4)$ internally in the ratio $1 : 2$. The coordinates of $P$ are",
+    "options": [
+      "$(5, 2)$",
+      "$(3, 0)$",
+      "$(4, 1)$",
+      "$(0, 3)$"
+    ],
+    "answer": "Correct option: b) $(3, 0)$. $x = \\frac{1 \\times 7 + 2 \\times 1}{3} = 3$ and $y = \\frac{1 \\times 4 + 2 \\times (-2)}{3} = 0$, so $P = (3, 0)$. Using $2 : 1$ by mistake would give $(5, 2)$."
+  },
+  {
+    "id": "cmvq9r2gx004r7gcnxdpkeh4l",
+    "chapter": "Coordinate Geometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "The ratio in which the $y$-axis divides the line segment joining $A(-2, 5)$ and $B(6, -3)$ is",
+    "options": [
+      "$3 : 1$",
+      "$1 : 2$",
+      "$1 : 3$",
+      "$2 : 1$"
+    ],
+    "answer": "Correct option: c) $1 : 3$. Let the ratio be $k : 1$. $x$-coordinate: $\\frac{6k - 2}{k + 1} = 0$, so $k = \\frac{1}{3}$, i.e. the ratio is $1 : 3$ (the point is $(0, 3)$)."
+  },
+  {
+    "id": "cmvq9r2gy004t7gcnp46tov2j",
+    "chapter": "Coordinate Geometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "The point $P(4, p)$ divides the line segment joining $A(2, -3)$ and $B(8, 9)$ in the ratio $1 : 2$. The value of $p$ is",
+    "options": [
+      "$1$",
+      "$3$",
+      "$-1$",
+      "$5$"
+    ],
+    "answer": "Correct option: a) $1$. $p = \\frac{1 \\times 9 + 2 \\times (-3)}{1+2} = \\frac{9 - 6}{3} = 1$. (The value $5$ comes from taking the ratio as $2 : 1$.) Check: $x = \\frac{8 + 4}{3} = 4$."
+  },
+  {
+    "id": "cmvq9r2gy004v7gcnt7ymlcxx",
+    "chapter": "Coordinate Geometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "The midpoint of the line segment joining the points $(-5, 7)$ and $(3, -1)$ is",
+    "options": [
+      "$(-1, 3)$",
+      "$(-2, 6)$",
+      "$(1, -3)$",
+      "$(-4, 4)$"
+    ],
+    "answer": "Correct option: a) $(-1, 3)$. Midpoint $= (\\frac{-5+3}{2}, \\frac{7-1}{2}) = (-1, 3)$."
+  },
+  {
+    "id": "cmvq9r2gz004x7gcndv1zw0dq",
+    "chapter": "Coordinate Geometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "The centre of a circle is $(2, -1)$ and one end of a diameter is $(-3, 5)$. The other end of the diameter is",
+    "options": [
+      "$(-0.5, 2)$",
+      "$(-8, 11)$",
+      "$(5, -6)$",
+      "$(7, -7)$"
+    ],
+    "answer": "Correct option: d) $(7, -7)$. The centre is the midpoint of the diameter. If the other end is $(x, y)$: $\\frac{-3+x}{2} = 2$ gives $x = 7$; $\\frac{5+y}{2} = -1$ gives $y = -7$. So $(7, -7)$."
+  },
+  {
+    "id": "cmvq9r2h0004z7gcno5wg4l4w",
+    "chapter": "Coordinate Geometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "The midpoint of the line segment joining $A(2k, 3)$ and $B(4, -5)$ is $(5, -1)$. The value of $k$ is",
+    "options": [
+      "$6$",
+      "$2$",
+      "$-3$",
+      "$3$"
+    ],
+    "answer": "Correct option: d) $3$. $\\frac{2k + 4}{2} = 5$ gives $2k = 6$, $k = 3$. Check: $y = \\frac{3 - 5}{2} = -1$, which matches."
+  },
+  {
+    "id": "cmvq9r2h000517gcnd4hufyld",
+    "chapter": "Coordinate Geometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "$A(-1, 1)$, $B(4, 1)$ and $C(4, 5)$ are three vertices of a rectangle $ABCD$ taken in order. The coordinates of $D$ are",
+    "options": [
+      "$(-1, 5)$",
+      "$(5, -1)$",
+      "$(-1, 4)$",
+      "$(4, -1)$"
+    ],
+    "answer": "Correct option: a) $(-1, 5)$. $AB$ is horizontal and $BC$ is vertical, so $D$ has the $x$-coordinate of $A$ and the $y$-coordinate of $C$: $D = (-1, 5)$. Check: midpoint of $AC = (1.5, 3) =$ midpoint of $BD$."
+  },
+  {
+    "id": "cmvq9r2h100537gcnryza5d5l",
+    "chapter": "Coordinate Geometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "The triangle with vertices $P(1, 1)$, $Q(5, 1)$ and $R(3, 1 + 2\\sqrt{3})$ is",
+    "options": [
+      "scalene",
+      "isosceles but not equilateral",
+      "equilateral",
+      "right-angled"
+    ],
+    "answer": "Correct option: c) equilateral. $PQ = 4$, $QR = \\sqrt{4 + 12} = 4$, $PR = \\sqrt{4 + 12} = 4$. All three sides are equal."
+  },
+  {
+    "id": "cmvq9r2h100557gcnfra8nzpp",
+    "chapter": "Coordinate Geometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "Three vertices of a parallelogram $ABCD$, taken in order, are $A(1, 1)$, $B(5, 2)$ and $C(6, 5)$. The fourth vertex $D$ is",
+    "options": [
+      "$(10, 6)$",
+      "$(0, -2)$",
+      "$(2, 4)$",
+      "$(4, 2)$"
+    ],
+    "answer": "Correct option: c) $(2, 4)$. Diagonals $AC$ and $BD$ bisect each other, so $D = A + C - B = (1 + 6 - 5, 1 + 5 - 2) = (2, 4)$."
+  },
+  {
+    "id": "cmvq9r2h300577gcnpaaccggd",
+    "chapter": "Coordinate Geometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "The distance of the point $(-7, 4)$ from the $y$-axis is",
+    "options": [
+      "$4$ units",
+      "$-7$ units",
+      "$\\sqrt{65}$ units",
+      "$7$ units"
+    ],
+    "answer": "Correct option: d) $7$ units. Distance from the $y$-axis is the absolute value of the $x$-coordinate: $|-7| = 7$."
+  },
+  {
+    "id": "cmvq9r2h300597gcndujyo9a9",
+    "chapter": "Coordinate Geometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "The points on the $x$-axis which are at a distance of $5$ units from the point $(2, -3)$ are",
+    "options": [
+      "$(6, 0)$ and $(-2, 0)$",
+      "$(2, 5)$ and $(2, -5)$",
+      "$(7, 0)$ and $(-3, 0)$",
+      "$(6, 0)$ only"
+    ],
+    "answer": "Correct option: a) $(6, 0)$ and $(-2, 0)$. Let the point be $(x, 0)$. $(x-2)^{2} + 9 = 25$, so $(x-2)^{2} = 16$, $x = 6$ or $x = -2$."
+  },
+  {
+    "id": "cmvq9r2h4005b7gcny944appb",
+    "chapter": "Coordinate Geometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "Assertion ($A$): The distance of the point $(-3, 4)$ from the $x$-axis is $4$ units.\nReason ($R$): The distance of a point from the $x$-axis is equal to its abscissa.",
+    "options": [
+      "Both $A$ and $R$ are true and $R$ is the correct explanation of $A$",
+      "Both $A$ and $R$ are true but $R$ is not the correct explanation of $A$",
+      "$A$ is true but $R$ is false",
+      "$A$ is false but $R$ is true"
+    ],
+    "answer": "Correct option: c) $A$ is true but $R$ is false. $A$ is true: the distance from the $x$-axis is $|y| = 4$. $R$ is false: the distance from the $x$-axis equals the absolute value of the ordinate, not the abscissa."
+  },
+  {
+    "id": "cmvq9r2h4005d7gcnv0o5bu17",
+    "chapter": "Coordinate Geometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "Assertion ($A$): The triangle with vertices $O(0, 0)$, $P(3, 4)$ and $Q(-4, 3)$ is a right-angled isosceles triangle.\nReason ($R$): If the square of the longest side of a triangle equals the sum of the squares of the other two sides, the triangle is right-angled.",
+    "options": [
+      "Both $A$ and $R$ are true and $R$ is the correct explanation of $A$",
+      "Both $A$ and $R$ are true but $R$ is not the correct explanation of $A$",
+      "$A$ is true but $R$ is false",
+      "$A$ is false but $R$ is true"
+    ],
+    "answer": "Correct option: a) Both $A$ and $R$ are true and $R$ is the correct explanation of $A$. $OP = 5$, $OQ = \\sqrt{16 + 9} = 5$, $PQ = \\sqrt{49 + 1} = \\sqrt{50}$. So $OP = OQ$ and $OP^{2} + OQ^{2} = 25 + 25 = 50 = PQ^{2}$, giving a right angle at $O$. $A$ is true; $R$ is the converse of Pythagoras' theorem, which is the reason used."
+  },
+  {
+    "id": "cmvq9r2h5005f7gcny64maker",
+    "chapter": "Coordinate Geometry",
+    "type": "short",
+    "marks": 2,
+    "text": "The points $P(6, -1)$, $Q(1, 3)$ and $R(x, 8)$ are such that $PQ = QR$. Find the values of $x$.",
+    "answer": "$PQ^{2} = (6-1)^{2} + (-1-3)^{2} = 25 + 16 = 41$.\n$QR^{2} = (x-1)^{2} + (8-3)^{2} = (x-1)^{2} + 25$.\n$PQ = QR$ gives $(x-1)^{2} + 25 = 41$, so $(x-1)^{2} = 16$, $x - 1 = \\pm 4$.\n$x = 5$ or $x = -3$."
+  },
+  {
+    "id": "cmvq9r2h5005h7gcnrzdb7zvx",
+    "chapter": "Coordinate Geometry",
+    "type": "short",
+    "marks": 2,
+    "text": "Find the point on the $x$-axis which is equidistant from $A(2, -5)$ and $B(-2, 9)$.",
+    "answer": "Let the point be $P(x, 0)$. $PA^{2} = PB^{2}$:\n$(x-2)^{2} + 25 = (x+2)^{2} + 81$\n$x^{2} - 4x + 29 = x^{2} + 4x + 85$\n$-8x = 56$, $x = -7$.\nThe point is $(-7, 0)$. (Check: $PA^{2} = 81 + 25 = 106 = PB^{2} = 25 + 81$.)"
+  },
+  {
+    "id": "cmvq9r2h5005j7gcn5y0mmrkh",
+    "chapter": "Coordinate Geometry",
+    "type": "short",
+    "marks": 2,
+    "text": "Find the ratio in which the $x$-axis divides the line segment joining $A(3, -6)$ and $B(5, 3)$. Also find the point of division.",
+    "answer": "Let the $x$-axis divide $AB$ in the ratio $k : 1$. The $y$-coordinate of the point of division is $0$:\n$\\frac{3k - 6}{k + 1} = 0$, so $k = 2$. The ratio is $2 : 1$.\n$x = \\frac{2 \\times 5 + 1 \\times 3}{3} = \\frac{13}{3}$.\nThe point of division is $(\\frac{13}{3}, 0)$."
+  },
+  {
+    "id": "cmvq9r2h6005l7gcnrwpwkeoi",
+    "chapter": "Coordinate Geometry",
+    "type": "short",
+    "marks": 2,
+    "text": "The points $P$ and $Q$ trisect the line segment joining $A(-3, 5)$ and $B(6, -1)$, with $P$ nearer to $A$. Find the coordinates of $P$ and $Q$.",
+    "answer": "$P$ divides $AB$ in the ratio $1 : 2$: $P = (\\frac{1 \\times 6 + 2 \\times (-3)}{3}, \\frac{1 \\times (-1) + 2 \\times 5}{3}) = (0, 3)$.\n$Q$ divides $AB$ in the ratio $2 : 1$: $Q = (\\frac{2 \\times 6 + 1 \\times (-3)}{3}, \\frac{2 \\times (-1) + 1 \\times 5}{3}) = (3, 1)$.\n$P(0, 3)$ and $Q(3, 1)$."
+  },
+  {
+    "id": "cmvq9r2h6005n7gcn66wjupij",
+    "chapter": "Coordinate Geometry",
+    "type": "short",
+    "marks": 2,
+    "text": "Show that the points $A(0, 0)$, $B(4, 2)$ and $C(3, 4)$ are the vertices of a right-angled triangle.",
+    "answer": "$AB^{2} = 16 + 4 = 20$, $BC^{2} = (3-4)^{2} + (4-2)^{2} = 1 + 4 = 5$, $AC^{2} = 9 + 16 = 25$.\n$AB^{2} + BC^{2} = 20 + 5 = 25 = AC^{2}$.\nBy the converse of Pythagoras' theorem, the triangle is right-angled at $B$."
+  },
+  {
+    "id": "cmvq9r2h7005p7gcnkasfw1lq",
+    "chapter": "Coordinate Geometry",
+    "type": "short",
+    "marks": 2,
+    "text": "Show that the triangle with vertices $(3, 0)$, $(-3, 0)$ and $(0, 3\\sqrt{3})$ is equilateral.",
+    "answer": "Let $A(3, 0)$, $B(-3, 0)$, $C(0, 3\\sqrt{3})$.\n$AB = 6$.\n$BC = \\sqrt{9 + 27} = \\sqrt{36} = 6$.\n$AC = \\sqrt{9 + 27} = 6$.\n$AB = BC = CA$, so the triangle is equilateral."
+  },
+  {
+    "id": "cmvq9r2h7005r7gcnyok9k5yx",
+    "chapter": "Coordinate Geometry",
+    "type": "short",
+    "marks": 2,
+    "text": "A line meets the $x$-axis at $A$ and the $y$-axis at $B$, and the point $(3, -2)$ is the midpoint of $AB$. Find the coordinates of $A$ and $B$.",
+    "answer": "$A$ lies on the $x$-axis: $A(a, 0)$. $B$ lies on the $y$-axis: $B(0, b)$.\nMidpoint $= (\\frac{a}{2}, \\frac{b}{2}) = (3, -2)$, so $a = 6$ and $b = -4$.\n$A(6, 0)$ and $B(0, -4)$."
+  },
+  {
+    "id": "cmvq9r2h8005t7gcnvpa3v1uq",
+    "chapter": "Coordinate Geometry",
+    "type": "short",
+    "marks": 2,
+    "text": "A point $P$ is $5$ units from the $x$-axis and $3$ units from the $y$-axis and lies in the fourth quadrant. Find its coordinates and its distance from the origin.",
+    "answer": "In the fourth quadrant $x > 0$ and $y < 0$. Distance from the $y$-axis is $|x| = 3$, so $x = 3$; distance from the $x$-axis is $|y| = 5$, so $y = -5$.\n$P = (3, -5)$.\n$OP = \\sqrt{9 + 25} = \\sqrt{34}$ units."
+  },
+  {
+    "id": "cmvq9r2h8005v7gcnwk709abo",
+    "chapter": "Coordinate Geometry",
+    "type": "short",
+    "marks": 3,
+    "text": "Find a relation between $x$ and $y$ such that the point $P(x, y)$ is equidistant from $A(3, 6)$ and $B(-3, 4)$.",
+    "answer": "$PA^{2} = PB^{2}$:\n$(x-3)^{2} + (y-6)^{2} = (x+3)^{2} + (y-4)^{2}$\n$x^{2} - 6x + 9 + y^{2} - 12y + 36 = x^{2} + 6x + 9 + y^{2} - 8y + 16$\n$-6x - 12y + 45 = 6x - 8y + 25$\n$0 = 12x + 4y - 20$\nDividing by 4: $3x + y = 5$."
+  },
+  {
+    "id": "cmvq9r2h8005x7gcntfloqx57",
+    "chapter": "Coordinate Geometry",
+    "type": "short",
+    "marks": 3,
+    "text": "A fire station is to be built at a point equidistant from three villages $A(2, 1)$, $B(10, 1)$ and $C(2, 7)$ (coordinates in km). Find the position of the fire station and its distance from each village.",
+    "answer": "Let the station be $P(x, y)$. $PA = PB$:\n$(x-2)^{2} + (y-1)^{2} = (x-10)^{2} + (y-1)^{2}$\n$-4x + 4 = -20x + 100$, so $16x = 96$, $x = 6$.\n$PA = PC$:\n$(x-2)^{2} + (y-1)^{2} = (x-2)^{2} + (y-7)^{2}$\n$-2y + 1 = -14y + 49$, so $12y = 48$, $y = 4$.\n$P = (6, 4)$.\n$PA = \\sqrt{16 + 9} = 5$ km ($PB = 5$ and $PC = 5$ as well).\nThe station is at $(6, 4)$, $5$ km from each village."
+  },
+  {
+    "id": "cmvq9r2h9005z7gcn3fv4h6oa",
+    "chapter": "Coordinate Geometry",
+    "type": "short",
+    "marks": 3,
+    "text": "The point $P(3, -2)$ lies on the line segment joining $A(-3, 10)$ and $B(6, -8)$. Find the ratio in which $P$ divides $AB$. Also verify using the $y$-coordinate.",
+    "answer": "Let $AP : PB = k : 1$.\n$x$-coordinate: $\\frac{6k - 3}{k + 1} = 3$, so $6k - 3 = 3k + 3$, $3k = 6$, $k = 2$.\nRatio is $2 : 1$.\nVerification with $y$: $\\frac{2 \\times (-8) + 1 \\times 10}{2 + 1} = \\frac{-16 + 10}{3} = -2$, which equals the $y$-coordinate of $P$. Hence $P$ divides $AB$ in the ratio $2 : 1$."
+  },
+  {
+    "id": "cmvq9r2h900617gcnl6f5c3pt",
+    "chapter": "Coordinate Geometry",
+    "type": "short",
+    "marks": 3,
+    "text": "Find the coordinates of the point $P$ on the line segment joining $A(4, -2)$ and $B(-3, 5)$ such that $AP = \\frac{3}{7} AB$.",
+    "answer": "$AP = \\frac{3}{7} AB$ means $PB = \\frac{4}{7} AB$, so $AP : PB = 3 : 4$.\n$x = \\frac{3 \\times (-3) + 4 \\times 4}{7} = \\frac{-9 + 16}{7} = 1$.\n$y = \\frac{3 \\times 5 + 4 \\times (-2)}{7} = \\frac{15 - 8}{7} = 1$.\n$P = (1, 1)$."
+  },
+  {
+    "id": "cmvq9r2ha00637gcn8e5jwacm",
+    "chapter": "Coordinate Geometry",
+    "type": "short",
+    "marks": 3,
+    "text": "Two vertices of an equilateral triangle are $A(-2, 0)$ and $B(2, 0)$. Find the third vertex $C$ if it lies below the $x$-axis.",
+    "answer": "Let $C = (x, y)$. $AB = 4$, so $CA = CB = 4$.\n$CA^{2} = CB^{2}$: $(x+2)^{2} + y^{2} = (x-2)^{2} + y^{2}$ gives $8x = 0$, so $x = 0$.\n$CA^{2} = 16$: $(0+2)^{2} + y^{2} = 16$, $y^{2} = 12$, $y = \\pm 2\\sqrt{3}$.\nSince $C$ lies below the $x$-axis, $y = -2\\sqrt{3}$.\n$C = (0, -2\\sqrt{3})$."
+  },
+  {
+    "id": "cmvq9r2ha00657gcnyn3ue5rk",
+    "chapter": "Coordinate Geometry",
+    "type": "short",
+    "marks": 3,
+    "text": "Show that the points $A(1, 2)$, $B(4, 6)$, $C(9, 6)$ and $D(6, 2)$ are the vertices of a rhombus but not a square.",
+    "answer": "$AB = \\sqrt{9 + 16} = 5$, $BC = \\sqrt{25 + 0} = 5$, $CD = \\sqrt{9 + 16} = 5$, $DA = \\sqrt{25 + 0} = 5$.\nAll four sides are equal, so $ABCD$ is a rhombus.\nDiagonals: $AC = \\sqrt{64 + 16} = \\sqrt{80} = 4\\sqrt{5}$ and $BD = \\sqrt{4 + 16} = \\sqrt{20} = 2\\sqrt{5}$.\nThe diagonals are unequal, so $ABCD$ is not a square.\nHence it is a rhombus but not a square."
+  },
+  {
+    "id": "cmvq9r2ha00677gcn4e54c6hh",
+    "chapter": "Coordinate Geometry",
+    "type": "short",
+    "marks": 3,
+    "text": "$ABCD$ is a parallelogram with vertices $A(1, -2)$, $B(4, y)$, $C(x, 6)$ and $D(-1, 2)$, taken in order. Find $x$ and $y$.",
+    "answer": "The diagonals of a parallelogram bisect each other, so the midpoints of $AC$ and $BD$ coincide.\nMidpoint of $AC = (\\frac{1 + x}{2}, \\frac{-2 + 6}{2}) = (\\frac{1 + x}{2}, 2)$.\nMidpoint of $BD = (\\frac{4 - 1}{2}, \\frac{y + 2}{2}) = (\\frac{3}{2}, \\frac{y + 2}{2})$.\nEquating $x$-coordinates: $\\frac{1 + x}{2} = \\frac{3}{2}$, so $x = 2$.\nEquating $y$-coordinates: $2 = \\frac{y + 2}{2}$, so $y = 2$.\n$x = 2$, $y = 2$."
+  },
+  {
+    "id": "cmvq9r2hb00697gcncm4omhc7",
+    "chapter": "Coordinate Geometry",
+    "type": "case",
+    "marks": 4,
+    "text": "Three schools are located in a town at $P(2, 3)$, $Q(10, 3)$ and $R(2, 9)$, where all coordinates are in km. A drinking-water tank is to be built.\n(i) Find the distance between the schools $P$ and $Q$. [1]\n(ii) Find the distance between the schools $Q$ and $R$. [1]\n(iii) Find the point at which the tank must be built so that it is equidistant from all three schools, and state this distance. [2]\nOR\n(iii) A pipeline is to run from the tank to a point $T$ on the line $y = 3$ so that $T$ is equidistant from $Q$ and $R$. Find the coordinates of $T$. [2]",
+    "answer": "(i) $PQ = \\sqrt{(10-2)^{2} + (3-3)^{2}} = 8$ km.\n(ii) $QR = \\sqrt{(2-10)^{2} + (9-3)^{2}} = \\sqrt{64 + 36} = 10$ km.\n(iii) $PQ = 8$, $PR = 6$ and $QR = 10$, and $8^{2} + 6^{2} = 100 = 10^{2}$, so triangle $PQR$ is right-angled at $P$ and the equidistant point is the midpoint of the hypotenuse $QR = (\\frac{10+2}{2}, \\frac{3+9}{2}) = (6, 6)$. Its distance from each school is half of $QR = 5$ km (e.g. from $P$: $\\sqrt{16 + 9} = 5$).\nOR (iii) Let $T = (x, 3)$. $TQ^{2} = TR^{2}$: $(x-10)^{2} + 0 = (x-2)^{2} + 36$, so $-20x + 100 = -4x + 40$, $16x = 60$, $x = \\frac{15}{4}$. $T = (\\frac{15}{4}, 3)$. Check: $TQ^{2} = (\\frac{25}{4})^{2} = \\frac{625}{16}$; $TR^{2} = (\\frac{7}{4})^{2} + 36 = \\frac{49}{16} + \\frac{576}{16} = \\frac{625}{16}$."
+  },
+  {
+    "id": "cmvq9r2hb006b7gcnukyjvk86",
+    "chapter": "Coordinate Geometry",
+    "type": "case",
+    "marks": 4,
+    "text": "A rectangular garden $ABCD$ has corners at $A(2, 1)$, $B(10, 1)$, $C(10, 7)$ and $D(2, 7)$, where coordinates are in metres. A fountain is to be placed where the two diagonals of the garden meet.\n(i) Find the length of the diagonal $AC$. [1]\n(ii) Find the coordinates of the fountain. [1]\n(iii) A lamp post $P$ is placed on the diagonal $AC$ so that $AP : PC = 3 : 2$. Find the coordinates of $P$. [2]\nOR\n(iii) A bench is placed at a point on the side $BC$ that is equidistant from corners $A$ and $D$. Find its coordinates. [2]",
+    "answer": "(i) $AC = \\sqrt{(10-2)^{2} + (7-1)^{2}} = \\sqrt{64 + 36} = 10$ m.\n(ii) The diagonals of a rectangle bisect each other, so the fountain is the midpoint of $AC = (\\frac{2+10}{2}, \\frac{1+7}{2}) = (6, 4)$.\n(iii) $P = (\\frac{3 \\times 10 + 2 \\times 2}{5}, \\frac{3 \\times 7 + 2 \\times 1}{5}) = (\\frac{34}{5}, \\frac{23}{5}) = (6.8, 4.6)$.\nOR (iii) Let the bench be $(10, y)$ on $BC$. Its distance from $A$: $64 + (y-1)^{2}$; from $D$: $64 + (y-7)^{2}$. Equating: $(y-1)^{2} = (y-7)^{2}$, $-2y + 1 = -14y + 49$, $12y = 48$, $y = 4$. The bench is at $(10, 4)$. Check: both distances squared $= 64 + 9 = 73$."
+  },
+  {
+    "id": "a17",
+    "chapter": "Surface Areas and Volumes",
+    "type": "mcq",
+    "marks": 1,
+    "text": "The volume of a cube of edge $4 \\text{ cm}$ is:",
+    "options": [
+      "$16 \\text{ cm}^{3}$",
+      "$48 \\text{ cm}^{3}$",
+      "$64 \\text{ cm}^{3}$",
+      "$96 \\text{ cm}^{3}$"
+    ],
+    "answer": null
+  },
+  {
+    "id": "d4",
+    "chapter": "Surface Areas and Volumes",
+    "type": "long",
+    "marks": 5,
+    "text": "A solid is in the shape of a cone standing on a hemisphere, both of radius $1 \\text{ cm}$, and the height of the cone equals its radius. Find the volume of the solid in terms of $\\pi$.",
+    "answer": null
+  },
+  {
+    "id": "cmvq9r2jq00f77gcn07jvqsfj",
+    "chapter": "Surface Areas and Volumes",
+    "type": "mcq",
+    "marks": 1,
+    "text": "The total surface area of a solid hemisphere of radius $7 \\text{ cm}$ is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$616 \\text{ cm}^{2}$",
+      "$462 \\text{ cm}^{2}$",
+      "$308 \\text{ cm}^{2}$",
+      "$154 \\text{ cm}^{2}$"
+    ],
+    "answer": "Correct option: B) $462 \\text{ cm}^{2}$. Total surface area $= 3\\pi r^{2} = 3 \\times \\frac{22}{7} \\times 7 \\times 7 = 462 \\text{ cm}^{2}$. ($308$ is only the curved surface $2\\pi r^{2}$; $154$ is only the flat base $\\pi r^{2}$.)"
+  },
+  {
+    "id": "cmvq9r2jq00f97gcng85sads9",
+    "chapter": "Surface Areas and Volumes",
+    "type": "mcq",
+    "marks": 1,
+    "text": "A toy is made by placing a cone on a solid hemisphere so that the base radius of the cone equals the radius $r$ of the hemisphere. The height of the cone is also $r$. The total volume of the toy is",
+    "options": [
+      "$\\frac{2\\pi r^{3}}{3}$",
+      "$\\frac{4\\pi r^{3}}{3}$",
+      "$\\pi r^{3}$",
+      "$\\frac{5\\pi r^{3}}{3}$"
+    ],
+    "answer": "Correct option: C) $\\pi r^{3}$. Volume $= \\frac{2}{3}\\pi r^{3} + \\frac{1}{3}\\pi r^{2} \\cdot r = (\\frac{2}{3} + \\frac{1}{3})\\pi r^{3} = \\pi r^{3}$."
+  },
+  {
+    "id": "cmvq9r2jr00fb7gcn0xuxd44e",
+    "chapter": "Surface Areas and Volumes",
+    "type": "mcq",
+    "marks": 1,
+    "text": "A medicine capsule is a solid cylinder of length $10 \\text{ cm}$ and radius $3.5 \\text{ cm}$ with a hemisphere of the same radius fixed at each of its two circular ends. Its total surface area is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$297 \\text{ cm}^{2}$",
+      "$374 \\text{ cm}^{2}$",
+      "$220 \\text{ cm}^{2}$",
+      "$484 \\text{ cm}^{2}$"
+    ],
+    "answer": "Correct option: B) $374 \\text{ cm}^{2}$. Outer surface $=$ curved surface of cylinder + two hemispherical surfaces $= 2\\pi rh + 4\\pi r^{2} = 2 \\times \\frac{22}{7} \\times 3.5 \\times 10 + 4 \\times \\frac{22}{7} \\times 3.5^{2} = 220 + 154 = 374 \\text{ cm}^{2}$."
+  },
+  {
+    "id": "cmvq9r2jr00fd7gcnxpsxfh7t",
+    "chapter": "Surface Areas and Volumes",
+    "type": "mcq",
+    "marks": 1,
+    "text": "From a solid cylinder of radius $7 \\text{ cm}$ and height $15 \\text{ cm}$, a conical cavity of the same base radius $7 \\text{ cm}$ and height $6 \\text{ cm}$ is drilled out, the base of the cone lying on one flat face of the cylinder. The volume of the remaining solid is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$2310 \\text{ cm}^{3}$",
+      "$2618 \\text{ cm}^{3}$",
+      "$2002 \\text{ cm}^{3}$",
+      "$1694 \\text{ cm}^{3}$"
+    ],
+    "answer": "Correct option: C) $2002 \\text{ cm}^{3}$. Cylinder $= \\frac{22}{7} \\times 49 \\times 15 = 2310 \\text{ cm}^{3}$; cone $= \\frac{1}{3} \\times \\frac{22}{7} \\times 49 \\times 6 = 308 \\text{ cm}^{3}$. Remaining $= 2310 - 308 = 2002 \\text{ cm}^{3}$."
+  },
+  {
+    "id": "cmvq9r2jt00ff7gcnh3ra29mi",
+    "chapter": "Surface Areas and Volumes",
+    "type": "mcq",
+    "marks": 1,
+    "text": "A cylindrical water tank has base radius $7 \\text{ m}$ and height $5 \\text{ m}$. Its capacity in kilolitres is (use $\\pi = \\frac{22}{7}$; $1 \\text{ m}^{3} = 1$ kilolitre)",
+    "options": [
+      "$385 \\text{ kL}$",
+      "$1540 \\text{ kL}$",
+      "$7700 \\text{ kL}$",
+      "$770 \\text{ kL}$"
+    ],
+    "answer": "Correct option: D) $770 \\text{ kL}$. Volume $= \\pi r^{2}h = \\frac{22}{7} \\times 7 \\times 7 \\times 5 = 770 \\text{ m}^{3} = 770 \\text{ kL}$."
+  },
+  {
+    "id": "cmvq9r2ju00fh7gcnehkkc0fv",
+    "chapter": "Surface Areas and Volumes",
+    "type": "mcq",
+    "marks": 1,
+    "text": "A solid metal sphere of radius $6 \\text{ cm}$ is melted and recast into a solid cone of base radius $12 \\text{ cm}$. The height of the cone is",
+    "options": [
+      "$12 \\text{ cm}$",
+      "$6 \\text{ cm}$",
+      "$3 \\text{ cm}$",
+      "$8 \\text{ cm}$"
+    ],
+    "answer": "Correct option: B) $6 \\text{ cm}$. $\\frac{4}{3}\\pi(6)^{3} = 288\\pi = \\frac{1}{3}\\pi(12)^{2}h = 48\\pi h$, so $h = 6 \\text{ cm}$."
+  },
+  {
+    "id": "cmvq9r2ju00fj7gcnpuv26itw",
+    "chapter": "Surface Areas and Volumes",
+    "type": "mcq",
+    "marks": 1,
+    "text": "A toy is a cone of base radius $7 \\text{ cm}$ and slant height $25 \\text{ cm}$ placed on a solid hemisphere of radius $7 \\text{ cm}$, the base of the cone coinciding with the flat face of the hemisphere. The total surface area of the toy is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$858 \\text{ cm}^{2}$",
+      "$1012 \\text{ cm}^{2}$",
+      "$550 \\text{ cm}^{2}$",
+      "$1166 \\text{ cm}^{2}$"
+    ],
+    "answer": "Correct option: A) $858 \\text{ cm}^{2}$. Surface $=$ curved surface of cone + curved surface of hemisphere $= \\pi rl + 2\\pi r^{2} = \\frac{22}{7} \\times 7 \\times 25 + 2 \\times \\frac{22}{7} \\times 49 = 550 + 308 = 858 \\text{ cm}^{2}$. (The joined faces are not part of the outer surface.)"
+  },
+  {
+    "id": "cmvq9r2jv00fl7gcnp8i6na4f",
+    "chapter": "Surface Areas and Volumes",
+    "type": "mcq",
+    "marks": 1,
+    "text": "A capsule is a solid cylinder with a hemisphere of the same radius attached at each end. The diameter of the capsule is $4.2 \\text{ cm}$ and its total length (including both hemispherical ends) is $9.2 \\text{ cm}$. Its volume is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$88.704 \\text{ cm}^{3}$",
+      "$108.108 \\text{ cm}^{3}$",
+      "$127.512 \\text{ cm}^{3}$",
+      "$166.320 \\text{ cm}^{3}$"
+    ],
+    "answer": "Correct option: B) $108.108 \\text{ cm}^{3}$. $r = 2.1 \\text{ cm}$, cylindrical part length $= 9.2 - 4.2 = 5 \\text{ cm}$. Cylinder $= \\frac{22}{7} \\times 2.1^{2} \\times 5 = 69.3 \\text{ cm}^{3}$; two hemispheres $= \\frac{4}{3} \\times \\frac{22}{7} \\times 2.1^{3} = 38.808 \\text{ cm}^{3}$. Total $= 108.108 \\text{ cm}^{3}$."
+  },
+  {
+    "id": "cmvq9r2jv00fn7gcn9gse5be7",
+    "chapter": "Surface Areas and Volumes",
+    "type": "mcq",
+    "marks": 1,
+    "text": "A hemispherical bowl has internal radius $10.5 \\text{ cm}$. The volume of liquid it can hold when full is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$4851 \\text{ cm}^{3}$",
+      "$1212.75 \\text{ cm}^{3}$",
+      "$2425.5 \\text{ cm}^{3}$",
+      "$3638.25 \\text{ cm}^{3}$"
+    ],
+    "answer": "Correct option: C) $2425.5 \\text{ cm}^{3}$. Capacity $= \\frac{2}{3}\\pi r^{3} = \\frac{2}{3} \\times \\frac{22}{7} \\times 10.5^{3} = 2425.5 \\text{ cm}^{3}$. ($4851$ is the volume of a full sphere.)"
+  },
+  {
+    "id": "cmvq9r2jw00fp7gcnc41j8fjn",
+    "chapter": "Surface Areas and Volumes",
+    "type": "mcq",
+    "marks": 1,
+    "text": "Assertion ($A$): When a solid cone is placed on a solid cylinder of the same base radius, the volume of the combined solid equals the sum of the volumes of the cone and the cylinder.\nReason ($R$): The total surface area of the combined solid equals the sum of the total surface areas of the cone and the cylinder.",
+    "options": [
+      "Both $A$ and $R$ are true and $R$ is the correct explanation of $A$",
+      "Both $A$ and $R$ are true but $R$ is not the correct explanation of $A$",
+      "$A$ is true but $R$ is false",
+      "$A$ is false but $R$ is true"
+    ],
+    "answer": "Correct option: C) $A$ is true but $R$ is false. Volume is additive, so $A$ is true. But the base of the cone and the top face of the cylinder are joined and no longer lie on the outer surface, so the total surface area is less than the sum of the two total surface areas; $R$ is false."
+  },
+  {
+    "id": "cmvq9r2jw00fr7gcn314vxdl3",
+    "chapter": "Surface Areas and Volumes",
+    "type": "short",
+    "marks": 2,
+    "text": "A solid is formed by placing a solid hemisphere of radius $7 \\text{ cm}$ on top of a solid cube of edge $14 \\text{ cm}$, so that the circular face of the hemisphere lies on a face of the cube. Find the total surface area of the solid. (Use $\\pi = \\frac{22}{7}$.)",
+    "answer": "The hemisphere's flat face (area $\\pi r^{2} = 154 \\text{ cm}^{2}$) covers part of the cube's top face, so that part is lost from the outer surface.\nSurface $= 6a^{2} - \\pi r^{2} + 2\\pi r^{2} = 6(14)^{2} - 154 + 308 = 1176 - 154 + 308 = 1330 \\text{ cm}^{2}$.\nTotal surface area $= 1330 \\text{ cm}^{2}$."
+  },
+  {
+    "id": "cmvq9r2jw00ft7gcn3kje6lqo",
+    "chapter": "Surface Areas and Volumes",
+    "type": "short",
+    "marks": 3,
+    "text": "A toy is made of a cone of base radius $6 \\text{ cm}$ and height $8 \\text{ cm}$ placed on a solid hemisphere of radius $6 \\text{ cm}$, with the base of the cone exactly covering the flat face of the hemisphere. Find the volume of the toy. (Use $\\pi = 3.14$.)",
+    "answer": "Volume of cone $= \\frac{1}{3}\\pi(6)^{2}(8) = 96\\pi \\text{ cm}^{3}$.\nVolume of hemisphere $= \\frac{2}{3}\\pi(6)^{3} = 144\\pi \\text{ cm}^{3}$.\nTotal $= 240\\pi = 240 \\times 3.14 = 753.6 \\text{ cm}^{3}$."
+  },
+  {
+    "id": "cmvq9r2jx00fv7gcn6j71x8hq",
+    "chapter": "Surface Areas and Volumes",
+    "type": "short",
+    "marks": 3,
+    "text": "A circus tent is made of canvas. Its lower part is a cylinder of radius $7 \\text{ m}$ and height $6 \\text{ m}$, and its roof is a cone of the same base radius and slant height $25 \\text{ m}$ placed on the cylinder. Find the cost of the canvas needed at ₹ 85 per $\\text{m}^{2}$, ignoring the floor and any wastage. (Use $\\pi = \\frac{22}{7}$.)",
+    "answer": "Canvas $=$ curved surface of cylinder + curved surface of cone.\nCylinder: $2\\pi rh = 2 \\times \\frac{22}{7} \\times 7 \\times 6 = 264 \\text{ m}^{2}$.\nCone: $\\pi rl = \\frac{22}{7} \\times 7 \\times 25 = 550 \\text{ m}^{2}$.\nTotal $= 814 \\text{ m}^{2}$. Cost $= 814 \\times 85 =$ ₹ 69,190."
+  },
+  {
+    "id": "cmvq9r2jx00fx7gcn85b9ry91",
+    "chapter": "Surface Areas and Volumes",
+    "type": "long",
+    "marks": 5,
+    "text": "A solid cylinder has radius $7 \\text{ cm}$ and height $24 \\text{ cm}$. A cone having the same base radius and the same height $24 \\text{ cm}$ is hollowed out from the cylinder, its base coinciding with one circular face of the cylinder. Find (i) the volume of the remaining solid, (ii) its total surface area. (Use $\\pi = \\frac{22}{7}$.)",
+    "answer": "Cone: $r = 7$, $h = 24$, slant height $l = \\sqrt{7^{2} + 24^{2}} = 25 \\text{ cm}$.\n(i) Cylinder $= \\frac{22}{7} \\times 49 \\times 24 = 3696 \\text{ cm}^{3}$; cone $= \\frac{1}{3} \\times 3696 = 1232 \\text{ cm}^{3}$. Remaining volume $= 3696 - 1232 = 2464 \\text{ cm}^{3}$.\n(ii) The top face is completely removed. Outer surface $=$ curved surface of cylinder + bottom base + curved surface of cone cavity $= 2\\pi rh + \\pi r^{2} + \\pi rl = 1056 + 154 + 550 = 1760 \\text{ cm}^{2}$.\nAnswer: (i) $2464 \\text{ cm}^{3}$ (ii) $1760 \\text{ cm}^{2}$."
+  },
+  {
+    "id": "cmvq9r2jy00fz7gcnlfxm9ysl",
+    "chapter": "Surface Areas and Volumes",
+    "type": "long",
+    "marks": 5,
+    "text": "A solid metal sphere of radius $10.5 \\text{ cm}$ is melted. (a) If it is recast into small solid cones, each of base radius $3.5 \\text{ cm}$ and height $3 \\text{ cm}$, how many cones are obtained? (b) If instead the same sphere is recast into a solid cylinder of base radius $10.5 \\text{ cm}$, find the height of the cylinder.",
+    "answer": "Volume of sphere $= \\frac{4}{3}\\pi(10.5)^{3} = \\frac{4}{3}\\pi(1157.625) = 1543.5\\pi \\text{ cm}^{3}$.\n(a) Volume of one cone $= \\frac{1}{3}\\pi(3.5)^{2}(3) = 12.25\\pi \\text{ cm}^{3}$. Number of cones $= 1543.5\\pi \\div 12.25\\pi = 126$.\n(b) $\\pi R^{2}H = 1543.5\\pi$ gives $110.25 H = 1543.5$, so $H = 14 \\text{ cm}$.\nAnswer: (a) 126 cones (b) $14 \\text{ cm}$."
+  },
+  {
+    "id": "cmvq9r2jy00g17gcn5h5b52go",
+    "chapter": "Surface Areas and Volumes",
+    "type": "long",
+    "marks": 5,
+    "text": "A grain store is shaped like a solid cylinder of radius $3 \\text{ m}$ and height $5 \\text{ m}$ with a hemispherical dome of the same radius fixed on top. Use $\\pi = 3.14$. Find (i) the capacity of the store in $\\text{m}^{3}$, (ii) the area of the outer surface of the store that is to be painted (the floor is not painted), (iii) the cost of painting at ₹ 50 per $\\text{m}^{2}$.",
+    "answer": "(i) Cylinder $= \\pi(3)^{2}(5) = 45\\pi = 141.3 \\text{ m}^{3}$; hemisphere $= \\frac{2}{3}\\pi(3)^{3} = 18\\pi = 56.52 \\text{ m}^{3}$. Capacity $= 141.3 + 56.52 = 197.82 \\text{ m}^{3}$.\n(ii) Painted area $=$ curved surface of cylinder + curved surface of dome $= 2\\pi(3)(5) + 2\\pi(3)^{2} = 30\\pi + 18\\pi = 48\\pi = 150.72 \\text{ m}^{2}$.\n(iii) Cost $= 150.72 \\times 50 =$ ₹ 7,536.\nAnswer: (i) $197.82 \\text{ m}^{3}$ (ii) $150.72 \\text{ m}^{2}$ (iii) ₹ 7,536."
+  },
+  {
+    "id": "cmvq9r2jy00g37gcn8i5tx25d",
+    "chapter": "Surface Areas and Volumes",
+    "type": "long",
+    "marks": 5,
+    "text": "A solid wooden cube of edge $21 \\text{ cm}$ has a hemispherical depression of the greatest possible diameter scooped out from the middle of its top face. Find (i) the total surface area of the remaining solid, (ii) its volume. (Use $\\pi = \\frac{22}{7}$.)",
+    "answer": "Greatest hemisphere has diameter $21 \\text{ cm}$, so $r = 10.5 \\text{ cm}$.\n(i) Total surface $= 6a^{2} - \\pi r^{2} + 2\\pi r^{2} = 6(21)^{2} + \\pi r^{2} = 2646 + \\frac{22}{7} \\times 10.5^{2} = 2646 + 346.5 = 2992.5 \\text{ cm}^{2}$. (The circle $\\pi r^{2}$ is removed from the top face and the hemispherical curved surface $2\\pi r^{2}$ is added.)\n(ii) Volume $= a^{3} - \\frac{2}{3}\\pi r^{3} = 9261 - \\frac{2}{3} \\times \\frac{22}{7} \\times 1157.625 = 9261 - 2425.5 = 6835.5 \\text{ cm}^{3}$.\nAnswer: (i) $2992.5 \\text{ cm}^{2}$ (ii) $6835.5 \\text{ cm}^{3}$."
+  },
+  {
+    "id": "cmvq9r2jz00g57gcnslr5aery",
+    "chapter": "Surface Areas and Volumes",
+    "type": "case",
+    "marks": 4,
+    "text": "A village panchayat installs a closed water tank. The tank is a cylinder of radius $2.1 \\text{ m}$ and height $5 \\text{ m}$, with a hemispherical dome of the same radius fixed on top. The whole tank (cylinder and dome) holds water. Use $\\pi = \\frac{22}{7}$.\n(i) Find the volume of the cylindrical part. [1]\n(ii) Find the volume of the hemispherical dome. [1]\n(iii) Find the cost of painting the outer curved surface of the tank (cylinder and dome only, not the base) at ₹ 25 per $\\text{m}^{2}$. [2]",
+    "answer": "(i) Cylinder $= \\frac{22}{7} \\times 2.1^{2} \\times 5 = 69.3 \\text{ m}^{3}$.\n(ii) Dome $= \\frac{2}{3} \\times \\frac{22}{7} \\times 2.1^{3} = 19.404 \\text{ m}^{3}$.\n(iii) Area $= 2\\pi rh + 2\\pi r^{2} = 2 \\times \\frac{22}{7} \\times 2.1 \\times 5 + 2 \\times \\frac{22}{7} \\times 2.1^{2} = 66 + 27.72 = 93.72 \\text{ m}^{2}$. Cost $= 93.72 \\times 25 =$ ₹ 2,343."
+  },
+  {
+    "id": "cmvq9r2jz00g77gcncxrsm4lw",
+    "chapter": "Surface Areas and Volumes",
+    "type": "case",
+    "marks": 4,
+    "text": "A farmer fills a cylindrical storage tank using a pipe of circular cross-section with internal diameter $14 \\text{ cm}$. Water flows out of the pipe at a speed of $4 \\text{ m}$ per second. The tank has a circular base of radius $2.8 \\text{ m}$. Use $\\pi = \\frac{22}{7}$.\n(i) Find the area of cross-section of the pipe in $\\text{cm}^{2}$. [1]\n(ii) Find the volume of water, in litres, flowing out of the pipe in one second. ($1$ litre $= 1000 \\text{ cm}^{3}$) [1]\n(iii) The pipe runs for 10 minutes. Find the rise in the water level in the tank. [2]",
+    "answer": "(i) $r = 7 \\text{ cm}$; area $= \\frac{22}{7} \\times 49 = 154 \\text{ cm}^{2}$.\n(ii) In 1 second the water column has length $400 \\text{ cm}$, so volume $= 154 \\times 400 = 61,600 \\text{ cm}^{3} = 61.6$ litres.\n(iii) In 10 minutes ($600$ s): $61.6 \\times 600 = 36,960$ litres $= 36.96 \\text{ m}^{3}$. Base area of tank $= \\frac{22}{7} \\times 2.8^{2} = 24.64 \\text{ m}^{2}$. Rise $= 36.96 \\div 24.64 = 1.5 \\text{ m}$."
+  },
+  {
+    "id": "cmvq9r2k000g97gcnrrwznwrr",
+    "chapter": "Surface Areas and Volumes",
+    "type": "case",
+    "marks": 4,
+    "text": "An ice-cream seller fills each cone with ice cream. The cone has base radius $2.1 \\text{ cm}$ and height $10 \\text{ cm}$; it is filled completely and, in addition, a hemispherical scoop of the same radius $2.1 \\text{ cm}$ is placed on top of the cone. Use $\\pi = \\frac{22}{7}$.\n(i) Find the volume of the ice cream inside the cone. [1]\n(ii) Find the volume of the hemispherical scoop. [1]\n(iii) A tub contains $6560.4 \\text{ cm}^{3}$ of ice cream. How many such cones, each with its scoop, can be served from the tub? [2]",
+    "answer": "(i) Cone $= \\frac{1}{3} \\times \\frac{22}{7} \\times 2.1^{2} \\times 10 = 46.2 \\text{ cm}^{3}$.\n(ii) Scoop $= \\frac{2}{3} \\times \\frac{22}{7} \\times 2.1^{3} = 19.404 \\text{ cm}^{3}$.\n(iii) Ice cream per serving $= 46.2 + 19.404 = 65.604 \\text{ cm}^{3}$. Number $= 6560.4 \\div 65.604 = 100$ cones."
+  },
+  {
+    "id": "cmvq9r2k000gb7gcng4d31e48",
+    "chapter": "Surface Areas and Volumes",
+    "type": "case",
+    "marks": 4,
+    "text": "A pharmaceutical company makes capsules, each a solid cylinder with a hemisphere of the same radius at each end. Each capsule has diameter $7 \\text{ mm}$ and total length $25 \\text{ mm}$. A thin coating is applied over the entire outer surface. Use $\\pi = \\frac{22}{7}$.\n(i) Find the length of the cylindrical part of a capsule. [1]\n(ii) Find the total area of the two hemispherical ends of one capsule. [1]\n(iii) Find the total outer surface area of one capsule, and hence the area to be coated for 1000 capsules, in $\\text{cm}^{2}$. ($1 \\text{ cm}^{2} = 100 \\text{ mm}^{2}$) [2]",
+    "answer": "(i) $r = 3.5 \\text{ mm}$; cylindrical length $= 25 - 2 \\times 3.5 = 18 \\text{ mm}$.\n(ii) Two hemispherical ends $= 4\\pi r^{2} = 4 \\times \\frac{22}{7} \\times 3.5^{2} = 154 \\text{ mm}^{2}$.\n(iii) Cylinder curved surface $= 2\\pi rh = 2 \\times \\frac{22}{7} \\times 3.5 \\times 18 = 396 \\text{ mm}^{2}$. Total for one capsule $= 396 + 154 = 550 \\text{ mm}^{2}$. For 1000 capsules: $550,000 \\text{ mm}^{2} = 5500 \\text{ cm}^{2}$."
+  }
+]

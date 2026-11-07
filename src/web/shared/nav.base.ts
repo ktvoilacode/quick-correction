@@ -23,6 +23,8 @@ export type NavItem = {
   end?: boolean;
   /** Hide from anyone without this role. Presentation only — see AppShell. */
   role?: string;
+  /** Hide from these roles. For entries another screen already covers (an admin has the console and the avatar menu). */
+  hideForRoles?: string[];
   /** Starts a labelled group above this item. */
   section?: string;
   /** Ascending. Leave gaps so a later layer can slot between without renumbering. */
@@ -30,6 +32,7 @@ export type NavItem = {
 };
 
 export const items: NavItem[] = [
-  { to: '/dashboard', label: 'Dashboard', icon: LayoutDashboard, end: true, order: 10 },
-  { to: '/dashboard/profile', label: 'Profile', icon: User, order: 20 },
+  { to: '/dashboard', label: 'Dashboard', icon: LayoutDashboard, end: true, hideForRoles: ['admin'], order: 10 },
+  // Profile is in the avatar menu, which admins use, so it is not repeated in their side menu.
+  { to: '/dashboard/profile', label: 'Profile', icon: User, hideForRoles: ['admin'], order: 20 },
 ];

@@ -26,8 +26,7 @@ const LogoutPage: React.FC = () => {
           );
         }
 
-        // Clear all localStorage
-        localStorage.clear();
+        // Only the session goes. Theme and other per-device preferences stay.
         sessionStorage.clear();
 
         // Logout using auth hook

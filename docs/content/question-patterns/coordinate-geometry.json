@@ -1,0 +1,2152 @@
+{
+ "chapter": "Coordinate Geometry",
+ "topics": [
+  {
+   "name": "Distance formula",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "DF-MCQ-01",
+     "pattern": "Distance between two given points (general, on the axes, same y-coordinate, or symbolic mirror points)",
+     "sample": "The distance between $A(-2, 3)$ and $B(4, 11)$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 20,
+     "seenIn": [
+      "2019 main",
+      "2020 main",
+      "2023 main",
+      "2025 compartment",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2gv004h7gcnsmg0xy2f",
+      "cmvqhe94a004b7gd02t7kq10k"
+     ]
+    },
+    {
+     "id": "DF-MCQ-02",
+     "pattern": "Distance of a point from the origin",
+     "sample": "The distance of the point $(-8, 15)$ from the origin is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2018 main",
+      "2023 main",
+      "2025 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "a11",
+      "cmvq9r2gv004j7gcnyhizt3gh"
+     ]
+    },
+    {
+     "id": "DF-MCQ-03",
+     "pattern": "Find the unknown coordinate from a given distance",
+     "sample": "If the distance between $(x, 2)$ and $(1, -2)$ is $5$ units, the possible values of $x$ are:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 12,
+     "seenIn": [
+      "2011 main",
+      "2017 main",
+      "2019 main",
+      "2023 compartment",
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2gw004l7gcn01k00dst"
+     ]
+    },
+    {
+     "id": "DF-MCQ-04",
+     "pattern": "Radius of a circle from the ends of a diameter",
+     "sample": "The ends of a diameter of a circle are $(-3, 2)$ and $(5, 8)$. Its radius is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2023 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "DF-MCQ-05",
+     "pattern": "Read a circle on a grid and find its diameter",
+     "sample": "A circle with centre $(2, 1)$ is drawn on a grid and passes through the marked point $(5, 5)$. Its diameter is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "DF-MCQ-06",
+     "pattern": "Distance between points with trigonometric coordinates (cross-chapter)",
+     "sample": "How far apart are $(3\\cos\\theta + 4\\sin\\theta, 0)$ and $(0, 3\\sin\\theta - 4\\cos\\theta)$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2020 main",
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "DF-MCQ-07",
+     "pattern": "Diagonal of a rectangle from three vertices",
+     "sample": "A rectangle has vertices $(0, 0)$, $(6, 0)$ and $(0, 8)$. The length of its diagonal is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2020 main",
+      "2024 main",
+      "2025 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "DF-MCQ-08",
+     "pattern": "Read points on a grid and pick the pair at a given distance",
+     "sample": "Poles stand at $P(1, 1)$, $Q(4, 5)$, $R(7, 2)$ and $S(2, 3)$ on a grid in metres. Which pair is $5$ m apart?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "DF-MCQ-09",
+     "pattern": "Point on an axis equidistant from two given points",
+     "sample": "The point on the $x$-axis equidistant from $(1, 3)$ and $(5, 1)$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 12,
+     "seenIn": [
+      "2019 main",
+      "2020 main",
+      "2024 compartment"
+     ],
+     "existingIds": [
+      "cmvq9r2gw004n7gcnqe2hduhq"
+     ]
+    },
+    {
+     "id": "DF-MCQ-10",
+     "pattern": "Point on a given line equidistant from two given points",
+     "sample": "The point on the line $x + y = 5$ equidistant from $A(1, 2)$ and $B(3, 0)$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "DF-AR-01",
+     "pattern": "Assertion on a computed distance with the distance formula as reason",
+     "sample": "Assertion: the distance between $(1, 2)$ and $(4, 6)$ is $5$ units. Reason: the distance between two points is $\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe94d004j7gd0j1tzuv0g"
+     ]
+    },
+    {
+     "id": "DF-B-01",
+     "pattern": "Equal lengths with one unknown coordinate (AB = BC)",
+     "sample": "For $A(2, -1)$, $B(5, 3)$ and $C(x, 7)$, $AB = BC$. Find the values of $x$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2012 main"
+     ],
+     "existingIds": [
+      "cmvq9r2h5005f7gcny64maker"
+     ]
+    },
+    {
+     "id": "DF-B-02",
+     "pattern": "Find the point on an axis equidistant from two given points",
+     "sample": "Find the point on the $y$-axis equidistant from $(-3, 1)$ and $(1, 5)$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2h5005h7gcnrzdb7zvx"
+     ]
+    },
+    {
+     "id": "DF-B-03",
+     "pattern": "Point equidistant from two points: find or show a relation between x and y",
+     "sample": "$P(x, y)$ is equidistant from $A(1, 4)$ and $B(5, 2)$. Show that $y = 2x - 3$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 19,
+     "seenIn": [
+      "2016 main",
+      "2017 compartment",
+      "2017 main",
+      "2018 compartment",
+      "2019 compartment",
+      "2024 main",
+      "2025 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "DF-B-04",
+     "pattern": "Circle whose centre has a parameter: use a point on it and the radius or diameter",
+     "sample": "A circle with centre $(2a, a - 1)$ passes through $(1, 2)$ and has radius $5$. Find the values of $a$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2023 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "DF-B-05",
+     "pattern": "Trigonometric ratio in a right triangle placed on coordinates (cross-chapter)",
+     "sample": "Triangle with $P(1, 1)$, $Q(5, 1)$ and $R(5, 4)$ is right-angled at $Q$. Find $\\tan P$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "DF-B-06",
+     "pattern": "Find the point on a given line equidistant from two points",
+     "sample": "Find the point on the line $x + y = 8$ equidistant from $(1, 3)$ and $(5, 1)$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2016 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "DF-C-01",
+     "pattern": "Equidistance condition: find an unknown coordinate or a point on an axis",
+     "sample": "$Q(2, 3)$ is equidistant from $P(5, -1)$ and $R(x, 6)$. Find the values of $x$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2011 main",
+      "2014 main",
+      "2019 main",
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "DF-C-02",
+     "pattern": "Derive or prove a relation for a point equidistant from two points, then find axis points",
+     "sample": "$P(x, y)$ is equidistant from $A(4, -1)$ and $B(2, 3)$. Find the relation between $x$ and $y$, and the points on the axes satisfying it.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2016 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2h8005v7gcnwk709abo",
+      "cmvqhe94g004v7gd0uecqrw6j"
+     ]
+    },
+    {
+     "id": "DF-C-03",
+     "pattern": "Point equidistant from three given points (real-life siting)",
+     "sample": "A water tank must be equally far from villages at $A(1, 1)$, $B(7, 1)$ and $C(1, 9)$ (km). Find its position and that distance.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2h8005x7gcntfloqx57"
+     ]
+    },
+    {
+     "id": "DF-C-04",
+     "pattern": "Points on an axis at which a segment subtends a right angle",
+     "sample": "Find the points on the $x$-axis at which the segment joining $A(2, 4)$ and $B(8, -4)$ subtends a right angle.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe94h004z7gd0myxbv0qy"
+     ]
+    },
+    {
+     "id": "DF-C-05",
+     "pattern": "Circle through two points with an unknown coordinate: find it and the chord length",
+     "sample": "A circle with centre $(1, 2)$ passes through $A(4, 6)$ and $B(-3, k)$. Find $k$ and the length $AB$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "DF-D-01",
+     "pattern": "Right angle at a vertex with an unknown coordinate (quadratic), then hypotenuse and midpoint check",
+     "sample": "$A(1, 7)$, $B(k, 3)$, $C(7, -1)$ form a triangle right-angled at $B$. Find $k$. For the greater $k$, find $AC$ and show the midpoint of $AC$ is $\\frac{1}{2}AC$ from $B$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2015 main",
+      "2019 compartment"
+     ],
+     "existingIds": [
+      "cmvqhe94j00577gd0eex0vxei"
+     ]
+    },
+    {
+     "id": "DF-E-01",
+     "pattern": "Case study: landmarks on a map, with distance, axis ratio, and an equidistance or collinearity test",
+     "sample": "A city map shows bus stand $B(1, -2)$, school $S(4, 2)$, library $L(7, 6)$. (i) Find $BS$. (ii) Find $x$-axis ratio on $BL$. (iii) Show $B, S, L$ are collinear using distances.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2hb00697gcncm4omhc7"
+     ]
+    },
+    {
+     "id": "DF-E-02",
+     "pattern": "Case study: triangle on a garden grid, with vertices, side lengths, and a shape check",
+     "sample": "Saplings stand at $P(1, 1)$, $Q(5, 1)$, $R(3, 5)$ on a garden grid. (i) Find $PQ$. (ii) Find $PR$. (iii) Name the triangle type, with reasons.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": [
+      "e2"
+     ]
+    },
+    {
+     "id": "CG-NEW-02",
+     "pattern": "Show two triangles given by their vertices are similar by comparing side lengths",
+     "sample": "Show that the triangle with vertices $A(0,0)$, $B(3,0)$, $C(0,4)$ is similar to the triangle with vertices $P(1,1)$, $Q(7,1)$, $R(1,9)$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2017 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  },
+  {
+   "name": "Section formula",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "SF-MCQ-01",
+     "pattern": "Point dividing a segment in a given internal ratio",
+     "sample": "The point dividing the segment joining $(1, 2)$ and $(7, 5)$ internally in the ratio $2 : 1$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 11,
+     "seenIn": [
+      "2011 main",
+      "2012 main",
+      "2020 main",
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2gx004p7gcny2je1pib"
+     ]
+    },
+    {
+     "id": "SF-MCQ-02",
+     "pattern": "Ratio in which an axis divides a segment",
+     "sample": "The $y$-axis divides the segment joining $(-3, 4)$ and $(9, 7)$ in the ratio:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 12,
+     "seenIn": [
+      "2019 compartment",
+      "2023 main",
+      "2024 compartment",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2gx004r7gcnxdpkeh4l",
+      "cmvqhe94c004h7gd0bhs8zfz2"
+     ]
+    },
+    {
+     "id": "SF-MCQ-03",
+     "pattern": "Point of trisection of a segment",
+     "sample": "The point of trisection of the segment joining $A(2, 7)$ and $B(8, 1)$ nearer to $A$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe94e004n7gd0vfzc7cy1"
+     ]
+    },
+    {
+     "id": "SF-MCQ-04",
+     "pattern": "Find an unknown coordinate of a dividing point from a given ratio",
+     "sample": "$P(5, q)$ divides the segment joining $A(3, 1)$ and $B(9, 7)$ in the ratio $1 : 2$. The value of $q$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2020 main",
+      "2024 compartment",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2gy004t7gcnp46tov2j"
+     ]
+    },
+    {
+     "id": "SF-MCQ-05",
+     "pattern": "Equally spaced points on a drawn segment: read a sub-ratio",
+     "sample": "In the figure, $P, Q, R$ divide $AB$ into four equal parts. The point $Q$ divides $AR$ in the ratio:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SF-MCQ-06",
+     "pattern": "Ratio in which an oblique line divides a segment",
+     "sample": "The line $x + y = 4$ divides the segment joining $A(-1, 1)$ and $B(5, 7)$ in the ratio:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "SF-AR-01",
+     "pattern": "Assertion on a dividing point with the section formula as reason",
+     "sample": "Assertion: the point dividing the segment joining $(2, 1)$ and $(8, 7)$ in the ratio $1 : 2$ is $(4, 3)$. Reason: the section formula gives the point dividing a segment in $m : n$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SF-B-01",
+     "pattern": "Point on a segment from a ratio or a fraction of its length",
+     "sample": "Find $P$ on the segment joining $A(1, 2)$ and $B(6, 7)$ such that $AP = \\frac{2}{5}AB$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 10,
+     "seenIn": [
+      "2019 main",
+      "2023 main",
+      "2025 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SF-B-02",
+     "pattern": "Ratio in which an axis divides a segment, and the point of division",
+     "sample": "Find the ratio in which the $x$-axis divides the segment joining $(2, -4)$ and $(5, 2)$, and the point of division.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2016 main",
+      "2019 main",
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2h5005j7gcn5y0mmrkh"
+     ]
+    },
+    {
+     "id": "SF-B-03",
+     "pattern": "Ratio in which a point divides a segment, including a missing coordinate",
+     "sample": "$P(3, k)$ lies on the segment joining $A(1, -2)$ and $B(7, 4)$. Find the ratio $AP : PB$ and $k$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 10,
+     "seenIn": [
+      "2015 main",
+      "2018 main",
+      "2023 compartment",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvqhe94f004t7gd0kpxq120p"
+     ]
+    },
+    {
+     "id": "SF-B-04",
+     "pattern": "Ratio in which the line y = x divides a segment",
+     "sample": "Find the ratio in which the line $y = x$ divides the segment joining $(1, 5)$ and $(7, 1)$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2023 main",
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SF-B-05",
+     "pattern": "Both points of trisection of a segment",
+     "sample": "Find the points of trisection of the segment joining $A(-2, 7)$ and $B(4, -2)$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2016 main",
+      "2017 compartment"
+     ],
+     "existingIds": [
+      "cmvq9r2h6005l7gcnrwpwkeoi"
+     ]
+    },
+    {
+     "id": "SF-B-06",
+     "pattern": "Point on a produced segment from a length relation",
+     "sample": "$C$ lies on $AB$ produced with $AC = 3\\,BC$, where $A(1, 2)$ and $B(5, 6)$. Find $C$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2025 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SF-C-01",
+     "pattern": "Ratio in which an axis or a given line (such as y = 2) divides a segment, with the point of intersection",
+     "sample": "Find the ratio in which the $x$-axis divides the segment joining $(2, -3)$ and $(8, 6)$. Also find the point of intersection.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 19,
+     "seenIn": [
+      "2013 main",
+      "2019 main",
+      "2020 main",
+      "2023 main",
+      "2024 main",
+      "2025 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SF-C-02",
+     "pattern": "Ratio in which a point divides a segment, with a check or a missing coordinate",
+     "sample": "$P(x, 3)$ divides the segment joining $A(-2, -3)$ and $B(7, 6)$. Find the ratio and $x$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 10,
+     "seenIn": [
+      "2014 main",
+      "2017 main",
+      "2019 main",
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "c4",
+      "cmvq9r2h9005z7gcn3fv4h6oa"
+     ]
+    },
+    {
+     "id": "SF-C-03",
+     "pattern": "Point from a length relation such as AP = (p/q)AB or PR = kQR",
+     "sample": "Find $P$ on the segment joining $A(-1, 6)$ and $B(6, -1)$ such that $AP = \\frac{3}{7}AB$.",
+     "slot": "C",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2015 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2h900617gcnl6f5c3pt"
+     ]
+    },
+    {
+     "id": "SF-C-04",
+     "pattern": "Points dividing a segment into three or four equal parts",
+     "sample": "Find the three points dividing the segment joining $A(-2, 2)$ and $B(2, 10)$ into four equal parts.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2017 compartment",
+      "2020 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SF-C-05",
+     "pattern": "Dividing point lies on a given line: find the parameter or show it",
+     "sample": "$P$ divides the segment joining $A(1, 2)$ and $B(7, 8)$ in the ratio $1 : 2$ and lies on $2x - y + k = 0$. Find $k$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2012 main",
+      "2019 compartment",
+      "2019 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SF-D-01",
+     "pattern": "Both axes cut a segment: both ratios, both points, and the distance between them",
+     "sample": "The segment joining $A(3, -2)$ and $B(-5, 6)$ meets the $y$-axis at $P$ and the $x$-axis at $Q$. Find both ratios, $P$, $Q$ and $PQ$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe94i00557gd0e2jwvve9"
+     ]
+    },
+    {
+     "id": "SF-D-02",
+     "pattern": "Trisection combined with a line condition and distances (real-life)",
+     "sample": "Valves $P, Q$ trisect a pipeline from $A(1, 7)$ to $B(10, -2)$, with $P$ nearer $A$. $P$ lies on the road $2x - y + k = 0$. Find $P, Q, k$, $PQ$ and $OQ$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "SF-E-01",
+     "pattern": "Case study: quadrilateral plot on a grid, with distance, midpoint and division point",
+     "sample": "Saplings mark $A(1, 1)$, $B(7, 1)$, $C(7, 9)$, $D(1, 9)$. (i) Find $BD$. (ii) Find the midpoint of $BD$. (iii) Find the point dividing $DB$ in the ratio $1 : 3$.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2021 compartment",
+      "2025 compartment"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Midpoint",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "MP-MCQ-01",
+     "pattern": "Midpoint of a segment, direct",
+     "sample": "The midpoint of the segment joining $(-4, 9)$ and $(8, 1)$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2023 compartment"
+     ],
+     "existingIds": [
+      "a12",
+      "cmvq9r2gy004v7gcnt7ymlcxx",
+      "cmvqhe94b004d7gd0h81uaueq"
+     ]
+    },
+    {
+     "id": "MP-MCQ-02",
+     "pattern": "Other end of a diameter from the centre and one end",
+     "sample": "A circle has centre $(1, -2)$ and one end of a diameter at $(4, 3)$. The other end is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 11,
+     "seenIn": [
+      "2011 main",
+      "2012 main",
+      "2019 main",
+      "2023 compartment",
+      "2024 compartment",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2gz004x7gcndv1zw0dq"
+     ]
+    },
+    {
+     "id": "MP-MCQ-03",
+     "pattern": "Find a parameter from a given midpoint",
+     "sample": "The midpoint of $(3k, 2)$ and $(5, -6)$ is $(7, -2)$. The value of $k$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2020 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2h0004z7gcno5wg4l4w"
+     ]
+    },
+    {
+     "id": "MP-MCQ-04",
+     "pattern": "Decide where a midpoint lies: on an axis, at the origin, or neither",
+     "sample": "The midpoint of the segment joining $(-3, 4)$ and $(3, -6)$ lies:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "MP-MCQ-05",
+     "pattern": "Diagonals of a parallelogram meet at a point: relation between its coordinates",
+     "sample": "Opposite vertices of a parallelogram are $(1, 5)$ and $(3, -1)$. Its diagonals meet at $(a, b)$. Then:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "MP-MCQ-06",
+     "pattern": "Midpoint of the part of a line cut off by the axes",
+     "sample": "The line $\\frac{x}{6} + \\frac{y}{8} = 1$ meets the axes at $P$ and $Q$. The midpoint of $PQ$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "MP-MCQ-07",
+     "pattern": "Length of a median from the vertices",
+     "sample": "The vertices of a triangle are $A(1, 5)$, $B(-2, 1)$, $C(6, -1)$. The length of the median through $A$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2018 compartment",
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "MP-AR-01",
+     "pattern": "Assertion on the mid-point ratio 1:1",
+     "sample": "Assertion: the midpoint of the segment joining $(1, 2)$ and $(5, 6)$ divides it in the ratio $1 : 1$. Reason: a point of a segment equally far from both ends divides it equally.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "MP-AR-02",
+     "pattern": "Assertion on diameter ends from the centre, with a reason about the centre",
+     "sample": "Assertion: if $A(x, 2)$ and $B(3, -6)$ are the ends of a diameter of a circle with centre $(1, -2)$, then $x = -1$. Reason: the centre bisects every diameter.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "MP-B-01",
+     "pattern": "Diameter from the centre: other end, unknown coordinate, or radius",
+     "sample": "$AB$ is a diameter of a circle with centre $(2, -3)$ and $B(6, 1)$. Find $A$ and the radius.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2019 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "MP-B-02",
+     "pattern": "Axis intercepts of a line from the midpoint of the intercepted part",
+     "sample": "A line meets the $x$-axis at $A$ and the $y$-axis at $B$, and $(-2, 5)$ is the midpoint of $AB$. Find $A$ and $B$.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2017 main",
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2h7005r7gcnyok9k5yx"
+     ]
+    },
+    {
+     "id": "MP-B-03",
+     "pattern": "Two unknowns from a midpoint written with parameters",
+     "sample": "The midpoint of $A(x + 1, 3)$ and $B(5, y - 2)$ is $(4, 2)$. Find $x$ and $y$.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2019 main"
+     ],
+     "existingIds": [
+      "cmvqhe94e004p7gd0c2tfdspx"
+     ]
+    },
+    {
+     "id": "MP-B-04",
+     "pattern": "Length of a median from the vertices",
+     "sample": "The vertices of a triangle are $A(1, 1)$, $B(-3, 5)$, $C(5, 3)$. Find the length of the median through $B$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "MP-C-01",
+     "pattern": "Midpoint lies on a given line: find the unknown",
+     "sample": "The midpoint of $A(2, 5)$ and $B(k, 1)$ lies on $2x - y = 6$. Find $k$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2020 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "MP-C-02",
+     "pattern": "Median length with the midpoint worked out",
+     "sample": "The vertices of a triangle are $A(4, 7)$, $B(-2, 1)$, $C(6, 3)$. Find the coordinates of the midpoint of $BC$ and the length of the median through $A$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe94g004x7gd0i3oz8sl7"
+     ]
+    },
+    {
+     "id": "MP-C-03",
+     "pattern": "Quadrilateral of midpoints: show that its diagonals bisect each other",
+     "sample": "$P, Q, R, S$ are midpoints of the sides of the rectangle $A(0, 0)$, $B(8, 0)$, $C(8, 6)$, $D(0, 6)$. Show that $PR$ and $QS$ bisect each other.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "MP-D-01",
+     "pattern": "Show a triangle is right-angled, then verify the median to the hypotenuse is half of it",
+     "sample": "For $A(1, 1)$, $B(4, 5)$, $C(-7, 7)$, show the triangle is right-angled at $A$. Find the midpoint $D$ of $BC$ and verify $AD = \\frac{1}{2}BC$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe94j00597gd0ufsgv16l"
+     ]
+    },
+    {
+     "id": "MP-E-01",
+     "pattern": "Case study: sketch on a grid, with midpoint, distance, division point and missing vertex",
+     "sample": "A toy rocket drawn on a grid uses $A(1, 2)$, $B(5, 2)$, $C(5, 8)$. (i) Find the midpoint of $AC$. (ii) Find $BC$. (iii) Find $D$ so that $ABCD$ is a rectangle.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2024 compartment",
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CG-NEW-04",
+     "pattern": "Find the vertices of a triangle from the midpoints of its sides",
+     "sample": "The midpoints of the sides $BC$, $CA$ and $AB$ of $\\triangle ABC$ are $D(3,1)$, $E(1,4)$ and $F(-1,2)$. Find $A$, $B$ and $C$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  },
+  {
+   "name": "Geometric shapes from coordinates",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "GS-MCQ-01",
+     "pattern": "Fourth vertex of a rectangle from three vertices",
+     "sample": "$A(1, 2)$, $B(6, 2)$ and $C(6, 5)$ are vertices of a rectangle $ABCD$. The vertex $D$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2h000517gcnd4hufyld"
+     ]
+    },
+    {
+     "id": "GS-MCQ-02",
+     "pattern": "Fourth vertex of a parallelogram from three vertices",
+     "sample": "$A(2, 1)$, $B(6, 2)$ and $C(7, 5)$ are vertices of a parallelogram $ABCD$ in order. The vertex $D$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2h100557gcnfra8nzpp"
+     ]
+    },
+    {
+     "id": "GS-MCQ-03",
+     "pattern": "Identify the type of triangle from its vertices",
+     "sample": "The triangle with vertices $A(1, 1)$, $B(5, 1)$ and $C(3, 4)$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2h100537gcnryza5d5l",
+      "cmvqhe94e004l7gd06p6s2ekn"
+     ]
+    },
+    {
+     "id": "GS-MCQ-04",
+     "pattern": "Vertices of an equilateral triangle from a drawn median",
+     "sample": "In the figure, equilateral triangle $ABC$ has median $AD$ with $A(0, 3\\sqrt{3})$ and $D$ at the origin, $BC$ along the $x$-axis. Then $B$ and $C$ are:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "GS-AR-01",
+     "pattern": "Assertion on triangle type with the converse of Pythagoras as reason",
+     "sample": "Assertion: $O(0, 0)$, $P(5, 12)$, $Q(-12, 5)$ form a right-angled isosceles triangle. Reason: a triangle is right-angled if the square of its longest side equals the sum of the squares of the others.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2h4005d7gcnv0o5bu17"
+     ]
+    },
+    {
+     "id": "GS-B-01",
+     "pattern": "Show three points form a right-angled triangle (or right isosceles)",
+     "sample": "Show that $A(1, 2)$, $B(5, 0)$ and $C(7, 4)$ are the vertices of a right-angled isosceles triangle.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2013 main",
+      "2016 main",
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2h6005n7gcn66wjupij"
+     ]
+    },
+    {
+     "id": "GS-B-02",
+     "pattern": "Show three points form an equilateral triangle",
+     "sample": "Show that $(2, 0)$, $(-2, 0)$ and $(0, 2\\sqrt{3})$ are the vertices of an equilateral triangle.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2023 compartment"
+     ],
+     "existingIds": [
+      "cmvq9r2h7005p7gcnkasfw1lq"
+     ]
+    },
+    {
+     "id": "GS-B-03",
+     "pattern": "Classify a triangle from its vertices, or show it is isosceles",
+     "sample": "Name the type of triangle with vertices $A(0, 0)$, $B(6, 0)$ and $C(3, 4)$, giving reasons.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2021 compartment",
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "GS-B-04",
+     "pattern": "Parallelogram with two unknown coordinates, using its diagonals",
+     "sample": "$A(1, 2)$, $B(m, 3)$, $C(6, 5)$ and $D(2, n)$ are vertices of a parallelogram in order. Find $m$ and $n$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2019 main",
+      "2023 compartment",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "GS-B-05",
+     "pattern": "Square: prove it from four points, or find centre and side from opposite vertices",
+     "sample": "In the figure, $ABCD$ is a square with $B(1, 2)$ and $D(5, 6)$. Find the point where its diagonals meet and the length of a side.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2023 compartment",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "GS-C-01",
+     "pattern": "Third vertex of an equilateral triangle from two vertices",
+     "sample": "Two vertices of an equilateral triangle are $(-3, 0)$ and $(3, 0)$. Find the third vertex if it lies above the $x$-axis.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2011 main",
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ha00637gcn8e5jwacm"
+     ]
+    },
+    {
+     "id": "GS-C-02",
+     "pattern": "Show four points form a rhombus but not a square",
+     "sample": "Show that $A(0, 0)$, $B(4, 3)$, $C(9, 3)$ and $D(5, 0)$ form a rhombus but not a square.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2ha00657gcnyn3ue5rk"
+     ]
+    },
+    {
+     "id": "GS-C-03",
+     "pattern": "Parallelogram with unknown coordinates, then a rectangle check",
+     "sample": "$A(1, 2)$, $B(p, 1)$, $C(5, 6)$ and $D(2, q)$ form a parallelogram in order. Find $p$ and $q$. Is it a rectangle?",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 11,
+     "seenIn": [
+      "2011 main",
+      "2018 compartment",
+      "2018 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ha00677gcn4e54c6hh"
+     ]
+    },
+    {
+     "id": "GS-C-04",
+     "pattern": "Right angle at a variable point: relation in x and y, then a value",
+     "sample": "$P(x, y)$, $Q(1, 2)$, $R(7, 2)$ form a triangle right-angled at $P$. Find the relation between $x$ and $y$, and $x$ when $y = 5$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2025 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "GS-D-01",
+     "pattern": "Fourth vertex of a parallelogram, then prove it is a square",
+     "sample": "$A(1, 0)$, $B(4, 4)$ and $C(8, 1)$ are consecutive vertices of a parallelogram $ABCD$. Find $D$. Hence show that $ABCD$ is a square.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe94h00517gd06vkp7p1p"
+     ]
+    },
+    {
+     "id": "GS-D-02",
+     "pattern": "Prove a rhombus not a square, and that its diagonals bisect each other",
+     "sample": "Show that $P(-3, 2)$, $Q(1, 5)$, $R(5, 2)$ and $S(1, -1)$ form a rhombus but not a square. Show that its diagonals bisect each other.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe94i00537gd0g4tzn62l"
+     ]
+    },
+    {
+     "id": "GS-E-01",
+     "pattern": "Case study: square or rectangle plot on axes, with vertices, diagonal and section ratio",
+     "sample": "A square flowerbed $PQRS$ in a field has $P(2, 0)$ and $Q(6, 0)$, with $S$ on the fence from $C(0, 0)$ to $A(3, 6)$. (i) Find $R, S$. (ii) Find the diagonal. (iii) Find the ratio $S$ divides $CA$.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2hb006b7gcnukyjvk86"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Points on axes and distance from axes",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "AX-MCQ-01",
+     "pattern": "Distance of a point from an axis",
+     "sample": "The distance of the point $(-6, -9)$ from the $x$-axis is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 15,
+     "seenIn": [
+      "2020 main",
+      "2023 compartment",
+      "2023 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2h300577gcnpaaccggd"
+     ]
+    },
+    {
+     "id": "AX-MCQ-02",
+     "pattern": "Given the distance from an axis, spot the impossible coordinates",
+     "sample": "A point is $4$ units from the $x$-axis. Which of $(4, 2)$, $(1, 4)$, $(0, -4)$, $(-3, 4)$ cannot be this point?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AX-MCQ-03",
+     "pattern": "Coordinates from the quadrant and the distances from both axes",
+     "sample": "A point in the second quadrant is $3$ units from the $x$-axis and $5$ units from the $y$-axis. It is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe94b004f7gd02054jsod"
+     ]
+    },
+    {
+     "id": "AX-MCQ-04",
+     "pattern": "Points on an axis at a given distance from a point",
+     "sample": "The points on the $x$-axis at a distance of $5$ units from $(1, 3)$ are:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2h300597gcndujyo9a9"
+     ]
+    },
+    {
+     "id": "AX-MCQ-05",
+     "pattern": "Identify a point on an axis from a description, then find a distance",
+     "sample": "A point on the $y$-axis lies $3$ units below the $x$-axis. Its distance from $(4, 0)$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2025 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AX-AR-01",
+     "pattern": "Assertion on axis points and distances from the axes",
+     "sample": "Assertion: the distance of $(4, -5)$ from the $y$-axis is $4$ units. Reason: the distance of a point from the $y$-axis equals the absolute value of its abscissa.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2h4005b7gcny944appb"
+     ]
+    },
+    {
+     "id": "AX-B-01",
+     "pattern": "Coordinates from the quadrant and axis distances, then the distance from the origin",
+     "sample": "$P$ lies in the second quadrant, $6$ units from the $y$-axis and $8$ units from the $x$-axis. Find $P$ and its distance from the origin.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2h8005t7gcnvpa3v1uq"
+     ]
+    },
+    {
+     "id": "AX-B-02",
+     "pattern": "Find the points on an axis at a given distance from a point",
+     "sample": "Find the points on the $x$-axis at a distance of $5$ units from $(3, 4)$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvqhe94f004r7gd00cdoua7x"
+     ]
+    },
+    {
+     "id": "CG-NEW-03",
+     "pattern": "Coordinates of the reflection (mirror image) of a point in an axis",
+     "sample": "The reflection of the point $(-3,5)$ in the x-axis is (a) $(3,5)$ (b) $(-3,-5)$ (c) $(3,-5)$ (d) $(5,-3)$.",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2020 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  },
+  {
+   "name": "Lines and axis intercepts",
+   "scope": "core",
+   "scopeNote": "New topic. Tested directly on the 2025 main paper (x - y = 0, line parallel to an axis).",
+   "patterns": [
+    {
+     "id": "LN-MCQ-01",
+     "pattern": "Point where a given line meets an axis",
+     "sample": "The line $2x - y = 6$ cuts the $y$-axis at:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LN-MCQ-02",
+     "pattern": "Recognise lines: y = x type through the origin, or a line parallel to an axis",
+     "sample": "The equation of the line parallel to the $x$-axis and $3$ units below it is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Collinearity using distances",
+   "scope": "core",
+   "scopeNote": "New topic, split from the area topic. The 2026 main paper asks for collinearity by the distance formula.",
+   "patterns": [
+    {
+     "id": "CL-MCQ-01",
+     "pattern": "Recognise collinear points from their distances",
+     "sample": "For $A(1, 2)$, $B(4, 6)$ and $C(7, 10)$, the three points:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "CL-B-01",
+     "pattern": "Prove three points collinear using the distance formula",
+     "sample": "Using the distance formula, show that $(1, 1)$, $(3, 2)$ and $(7, 4)$ are collinear.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2017 main",
+      "2020 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CL-C-01",
+     "pattern": "Find an unknown coordinate so that three points are collinear",
+     "sample": "$A(1, 2)$, $B(3, p)$ and $C(7, 8)$ are collinear. Find $p$, and verify using the distance formula.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2017 main",
+      "2019 compartment",
+      "2020 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Collinearity and area of a triangle",
+   "scope": "verify",
+   "scopeNote": "Area of a triangle from coordinates is listed as cut. All rows but one are legacy (2016-2019), and no 2024-2026 paper tests it, so targets are 0. The 2023 main intercept-triangle MCQ needs only base x height: a person should decide whether it stays.",
+   "patterns": [
+    {
+     "id": "AT-MCQ-01",
+     "pattern": "Area of the triangle a line cuts off with the axes",
+     "sample": "The area of the triangle formed by $\\frac{x}{6} + \\frac{y}{8} = 1$ and the axes is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AT-B-01",
+     "pattern": "Area of a triangle from its vertices, or collinearity by zero area",
+     "sample": "Find the area of the triangle with vertices $(1, 2)$, $(4, 6)$ and $(7, 1)$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 17,
+     "seenIn": [
+      "2013 main",
+      "2014 main",
+      "2015 main",
+      "2016 main",
+      "2017 compartment",
+      "2017 main",
+      "2019 main",
+      "2020 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AT-C-01",
+     "pattern": "Area of a medial triangle or of a quadrilateral from its vertices",
+     "sample": "Find the area of the triangle formed by joining the midpoints of the sides of the triangle with vertices $(0, 0)$, $(4, 0)$, $(0, 6)$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2013 main",
+      "2015 main",
+      "2016 main",
+      "2017 compartment",
+      "2019 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AT-D-01",
+     "pattern": "Compare the area of a cut-off triangle with the whole",
+     "sample": "$A(0, 0)$, $B(8, 0)$, $C(0, 6)$. $D$ on $AB$ and $E$ on $AC$ have $\\frac{AD}{AB} = \\frac{AE}{AC} = \\frac{1}{4}$. Find the areas of $ADE$ and $ABC$ and compare.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2016 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CG-NEW-01",
+     "pattern": "Find an unknown coordinate of a vertex from the given area of the triangle",
+     "sample": "The area of the triangle with vertices $A(1,2)$, $B(5,2)$ and $C(3,k)$ is $10$ square units. Find all possible values of $k$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2012 main",
+      "2015 main",
+      "2017 main",
+      "2019 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  }
+ ],
+ "outOfScope": [],
+ "fixes": [
+  {
+   "n": 1,
+   "issue": "Tagged medium, is a one-step distance from the origin. Topic General should be Distance formula.",
+   "suggest": "easy",
+   "id": "a11"
+  },
+  {
+   "n": 2,
+   "issue": "Tagged medium, is a direct midpoint. Topic General should be Midpoint.",
+   "suggest": "easy",
+   "id": "a12"
+  },
+  {
+   "n": 3,
+   "issue": "Topic General should be Section formula.",
+   "suggest": "Section formula",
+   "id": "c4"
+  },
+  {
+   "n": 4,
+   "issue": "Topic General should be Distance formula. Sub-parts carry no marks, so the 1+1+2 split is not shown.",
+   "suggest": "Distance formula; add marks",
+   "id": "e2"
+  },
+  {
+   "n": 9,
+   "issue": "Tagged easy, needs two distances and a quadratic.",
+   "suggest": "medium",
+   "id": "cmvq9r2h5005f7gcny64maker"
+  },
+  {
+   "n": 16,
+   "issue": "Tagged easy, is a multi-step expansion and proof.",
+   "suggest": "medium",
+   "id": "cmvqhe94g004v7gd0uecqrw6j"
+  },
+  {
+   "n": 40,
+   "issue": "Tagged medium, combines the fourth vertex with a full square proof.",
+   "suggest": "hard",
+   "id": "cmvqhe94h00517gd06vkp7p1p"
+  },
+  {
+   "n": 43,
+   "issue": "Tagged medium, is a one-step reverse midpoint. Board rows of this task are tagged easy.",
+   "suggest": "easy",
+   "id": "cmvq9r2gz004x7gcndv1zw0dq"
+  },
+  {
+   "n": 46,
+   "issue": "Tagged hard, is a standard use of diagonals bisecting. Topic is better as Geometric shapes from coordinates.",
+   "suggest": "medium",
+   "id": "cmvq9r2ha00677gcn4e54c6hh"
+  },
+  {
+   "n": 56,
+   "issue": "Tagged easy, needs the distance formula and a quadratic. The MCQ version (n 52) is tagged medium.",
+   "suggest": "medium",
+   "id": "cmvqhe94f004r7gd00cdoua7x"
+  }
+ ]
+}

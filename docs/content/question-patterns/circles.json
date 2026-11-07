@@ -1,0 +1,2181 @@
+{
+ "chapter": "Circles",
+ "topics": [
+  {
+   "name": "Lines and circles: basics",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "CI-BA-01",
+     "pattern": "Count tangents from a point inside, on or outside a circle",
+     "sample": "How many tangents can be drawn to a circle of radius $4$ cm from a point $2$ cm from its centre?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "a15",
+      "cmvq9r2gh002x7gcnud4a59me"
+     ]
+    },
+    {
+     "id": "CI-BA-02",
+     "pattern": "Pick the true or false statement about tangents and secants",
+     "sample": "Which of the following statements about tangents and secants of a circle of radius $5$ cm is false?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-BA-03",
+     "pattern": "State the relation between tangents at the two ends of a diameter",
+     "sample": "The tangents at the ends of a diameter of a circle of radius $6$ cm are always:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-BA-04",
+     "pattern": "Distance between two parallel tangents from the radius",
+     "sample": "The distance between two parallel tangents of a circle of radius $6.5$ cm is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2020 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2gi00317gcnikvtfpr6"
+     ]
+    },
+    {
+     "id": "CI-BA-05",
+     "pattern": "Count common tangents of two circles from how they meet",
+     "sample": "Two circles intersect at exactly $2$ points. The number of their common tangents is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-BA-06",
+     "pattern": "Name a line by the number of points it shares with a circle",
+     "sample": "A line that meets a circle at exactly $2$ points is called a:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Tangent perpendicular to radius",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "CI-TP-01",
+     "pattern": "Tangent length from centre distance and radius",
+     "sample": "A point $P$ is $29$ cm from the centre of a circle of radius $20$ cm. The length of the tangent from $P$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2020 main",
+      "2023 compartment",
+      "2023 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2gd002f7gcnkbeaoeph",
+      "cmvqhe941003j7gd0wza5hr5r"
+     ]
+    },
+    {
+     "id": "CI-TP-02",
+     "pattern": "Radius from tangent length and centre distance",
+     "sample": "The tangent from $P$ to a circle has length $15$ cm and $P$ is $17$ cm from the centre. The radius is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2gf002l7gcnjsccs8q0"
+     ]
+    },
+    {
+     "id": "CI-TP-03",
+     "pattern": "Centre distance from radius and tangent length",
+     "sample": "$PT$ touches a circle of radius $5$ cm at $T$, and $PT = 12$ cm. The distance of $P$ from the centre is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2gh002z7gcn84a4kuah",
+      "cmvq9r2gj00337gcn6kcl3sj3"
+     ]
+    },
+    {
+     "id": "CI-TP-04",
+     "pattern": "Complementary or exterior angle in the radius-tangent right triangle",
+     "sample": "$PA$ touches a circle with centre $O$ at $A$. If $\\angle POA = 55^\\circ$, then $\\angle OPA$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 12,
+     "seenIn": [
+      "2020 main",
+      "2021 compartment",
+      "2023 main",
+      "2024 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2gf002p7gcnw4liul62"
+     ]
+    },
+    {
+     "id": "CI-TP-05",
+     "pattern": "Length in the tangent triangle using a trigonometric ratio",
+     "sample": "$TA$ touches a circle with centre $O$ at $A$. If $OT = 10$ cm and $\\angle OTA = 30^\\circ$, then $TA$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2023 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-TP-06",
+     "pattern": "Assertion-reason on the perpendicular-radius property itself",
+     "sample": "A: In a circle of radius $5$ cm, the least distance from the centre to any tangent is $5$ cm. R: The tangent is perpendicular to the radius at the point of contact.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2023 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-TP-07",
+     "pattern": "Assertion-reason with a numeric tangent length",
+     "sample": "A: A point $10$ cm from the centre of a circle of radius $6$ cm has a tangent of length $8$ cm. R: The tangent is perpendicular to the radius through the point of contact.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2gm003f7gcnmc3voi23"
+     ]
+    },
+    {
+     "id": "CI-TP-08",
+     "pattern": "Assertion-reason on an angle claim at the chord of contact",
+     "sample": "A: $TA$, $TB$ are tangents to a circle with centre $O$ and $\\angle TBA = 65^\\circ$, so $\\angle ABO = 25^\\circ$. R: The tangent is perpendicular to the radius at the point of contact.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2023 main",
+      "2024 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-TP-09",
+     "pattern": "Assertion-reason on parallel tangents at diameter ends",
+     "sample": "A: Tangents at the ends of a diameter of length $12$ cm are parallel. R: Tangents from an external point to a circle are equal.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-TP-10",
+     "pattern": "Radius or tangent length by Pythagoras, with working",
+     "sample": "A point $P$ is $25$ cm from the centre of a circle, and the tangent from $P$ has length $24$ cm. Find the radius.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-TP-11",
+     "pattern": "Spot the error: test whether a claimed tangent length is possible",
+     "sample": "For a circle of radius $5$ cm and a point $Q$ at $13$ cm from the centre, a student claims the tangent from $Q$ is $11$ cm long. Is this possible? Justify.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2go003p7gcnigjbukl0"
+     ]
+    },
+    {
+     "id": "CI-TP-12",
+     "pattern": "Shortest distance from an external point to the circle",
+     "sample": "A boat $P$ is $12$ km along a tangent from the point $T$ on a circular island of radius $5$ km. Find the shortest distance from the boat to the island.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe944003r7gd0ad9jfmcl"
+     ]
+    },
+    {
+     "id": "CI-TP-13",
+     "pattern": "Justify whether alternate angles at tangents on a diameter are equal",
+     "sample": "$AB$ and $CD$ are tangents at the ends of a diameter $AC$ of a circle of radius $5$ cm. Is $\\angle BAC = \\angle DCA$? Justify.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2024 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-TP-14",
+     "pattern": "Centre distance and area of the radius-tangent triangle",
+     "sample": "$PT$ touches a circle with centre $O$ and radius $9$ cm at $T$, and $PT = 12$ cm. Find $OP$ and the area of $\\triangle OTP$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2gr00457gcnevh34sba"
+     ]
+    },
+    {
+     "id": "CI-TP-15",
+     "pattern": "Case study: roads or paths touching a circular region",
+     "sample": "A road touches a circular lake of radius $30$ m at $T$; kiosk $P$ is $40$ m from $T$; another road from $P$ touches at $S$. (i) $\\angle OTP$ (ii) $OP$ (iii) $PS$ and the area of $OTPS$.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2gu004f7gcnucymbgq9",
+      "cmvqhe94800477gd0uustsfqn"
+     ]
+    },
+    {
+     "id": "CI-TP-16",
+     "pattern": "Case study: throw along a tangent, solved with trigonometry",
+     "sample": "A discus leaves a circle of radius $2$ m along tangent $AB$, with $\\angle ABO = 30^\\circ$. (i) $\\angle OAB$ (ii) $OB$ (iii) $AB$.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Tangents from an external point",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "CI-EP-01",
+     "pattern": "Angle between tangents from the central angle, or the reverse",
+     "sample": "Tangents $PA$, $PB$ touch a circle with centre $O$. If $\\angle APB = 70^\\circ$, then $\\angle AOB$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 14,
+     "seenIn": [
+      "2014 main",
+      "2020 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ge002h7gcn066ovp2j"
+     ]
+    },
+    {
+     "id": "CI-EP-02",
+     "pattern": "Half-angle at the centre or at P on the line OP",
+     "sample": "Tangents $PA$, $PB$ to a circle with centre $O$ are inclined at $80^\\circ$. Then $\\angle POA$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2021 compartment",
+      "2023 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-EP-03",
+     "pattern": "Base angle of the isosceles tangent triangle, or the reverse",
+     "sample": "Tangents $PA$, $PB$ touch a circle at $A$, $B$. If $\\angle APB = 40^\\circ$, then $\\angle PAB$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2016 main",
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ge002j7gcnvk8kwomw",
+      "cmvq9r2gg002r7gcn41av2gsw"
+     ]
+    },
+    {
+     "id": "CI-EP-04",
+     "pattern": "Angle between radius and contact chord against the angle between tangents",
+     "sample": "Tangents $PA$, $PB$ touch a circle with centre $O$. If $\\angle OAB = 25^\\circ$, then $\\angle APB$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 11,
+     "seenIn": [
+      "2011 main",
+      "2015 main",
+      "2020 main",
+      "2023 compartment",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-EP-05",
+     "pattern": "Inscribed angle on the contact chord from the angle between tangents",
+     "sample": "Tangents $PA$, $PB$ touch a circle, and $Q$ lies on the major arc $AB$. If $\\angle APB = 50^\\circ$, then $\\angle AQB$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2023 main",
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-EP-06",
+     "pattern": "Tangent length from the radius and the angle between tangents",
+     "sample": "Tangents from $P$ to a circle of radius $5$ cm are inclined at $60^\\circ$. The length of each tangent is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2020 main",
+      "2024 compartment",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvqhe943003p7gd0jvn8hkl1"
+     ]
+    },
+    {
+     "id": "CI-EP-07",
+     "pattern": "Centre distance from the radius and the angle between tangents",
+     "sample": "Tangents from $P$ to a circle of radius $4$ cm are perpendicular. The distance of $P$ from the centre is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2017 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-EP-08",
+     "pattern": "Contact chord, tangent length or diameter when tangents meet at 60 or 90 degrees",
+     "sample": "Tangents $PA$, $PB$ each have length $7$ cm and $\\angle APB = 60^\\circ$. The length of chord $AB$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 18,
+     "seenIn": [
+      "2013 main",
+      "2016 main",
+      "2020 main",
+      "2021 compartment",
+      "2024 main",
+      "2025 compartment",
+      "2025 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-EP-09",
+     "pattern": "Equal tangents as a linear equation",
+     "sample": "$PA = (3x - 1)$ cm and $PB = (x + 5)$ cm are tangents from $P$ to a circle. Then $PA$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2gk00377gcn3u1nu10h"
+     ]
+    },
+    {
+     "id": "CI-EP-10",
+     "pattern": "Perimeter of the kite formed by the centre, contact points and P",
+     "sample": "$P$ is $13$ cm from the centre $O$ of a circle of radius $5$ cm. Tangents touch at $A$, $B$. The perimeter of $OAPB$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2gg002t7gcn83o58cxz"
+     ]
+    },
+    {
+     "id": "CI-EP-11",
+     "pattern": "Perimeter of a figure closed by a third tangent",
+     "sample": "Tangents $PA$, $PB$ each have length $10$ cm. A tangent at a point on the minor arc meets them at $Q$, $R$. The perimeter of $\\triangle PQR$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2012 main",
+      "2017 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-EP-12",
+     "pattern": "Assertion-reason on equal tangents and their angles",
+     "sample": "A: Tangents from a point $13$ cm from the centre subtend equal angles at the centre. R: Tangents from an external point to a circle are equal in length.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2gm003h7gcnnoj805y5"
+     ]
+    },
+    {
+     "id": "CI-EP-13",
+     "pattern": "Central angle from the angle between tangents, with working",
+     "sample": "Tangents $AB$, $AC$ touch a circle with centre $O$. If $\\angle BAC = 70^\\circ$, find $\\angle BOC$.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2023 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-EP-14",
+     "pattern": "Angle between radius and contact chord, with working",
+     "sample": "Tangents $PA$, $PB$ touch a circle with centre $O$. If $\\angle APB = 50^\\circ$, find $\\angle OAB$.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2gn003j7gcnibh905bs",
+      "cmvqhe944003t7gd0azm9p8xl"
+     ]
+    },
+    {
+     "id": "CI-EP-15",
+     "pattern": "Tangent length from the radius and the angle between tangents, with working",
+     "sample": "Two tangents to a circle of radius $6$ cm are inclined at $60^\\circ$. Find the length of each tangent.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-EP-16",
+     "pattern": "Chord of contact from the radius and centre distance",
+     "sample": "Tangents $PA$, $PB$ are drawn from $P$, $10$ cm from the centre of a circle of radius $6$ cm. Find the length of chord $AB$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2gq00417gcnodcd48qc"
+     ]
+    },
+    {
+     "id": "CI-EP-17",
+     "pattern": "Algebraic base angles of the tangent triangle, then the central angle",
+     "sample": "Tangents $PA$, $PB$ touch a circle with centre $O$. If $\\angle PAB = (3x + 5)^\\circ$ and $\\angle PBA = (5x - 25)^\\circ$, find $x$ and $\\angle AOB$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2gr00437gcn7yzi3sqz"
+     ]
+    },
+    {
+     "id": "CI-EP-18",
+     "pattern": "Trigonometric value from the angle between tangents",
+     "sample": "Tangents $TP$, $TQ$ touch a circle with centre $O$, $\\angle OPQ = 15^\\circ$ and $\\angle PTQ = \\theta$. Find $\\sin 2\\theta$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-EP-19",
+     "pattern": "Tangent length when tangents meet at the ends of a given chord",
+     "sample": "A chord of length $16$ cm lies in a circle of radius $10$ cm. Tangents at its ends meet at $T$. Find the length of each tangent.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2018 compartment",
+      "2019 compartment",
+      "2019 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-EP-20",
+     "pattern": "Tangent length when tangents meet at the ends of a chord, long form",
+     "sample": "A chord $PQ = 24$ cm lies in a circle of radius $15$ cm. Tangents at $P$, $Q$ meet at $T$. Find the distance of $T$ from the chord, and $TP$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2017 compartment",
+      "2022 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-EP-21",
+     "pattern": "Third tangent at the point where OP cuts the circle: find its length and a portion",
+     "sample": "$P$ is $17$ cm from the centre $O$ of a circle of radius $8$ cm. The tangent at $C$, where $OP$ meets the circle, cuts the tangents from $P$ at $A$, $B$. Find $AB$ and $PA$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2016 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvqhe94700437gd0lylbolro"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Angle and length problems with tangents",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "CI-AL-01",
+     "pattern": "Angle between tangent and chord against the central angle on that chord",
+     "sample": "The chord $MN$ makes $50^\\circ$ with the tangent at $M$ of a circle with centre $O$. Then $\\angle MON$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 22,
+     "seenIn": [
+      "2011 main",
+      "2015 main",
+      "2017 compartment",
+      "2020 main",
+      "2023 main",
+      "2024 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2gh002v7gcnhz3b4at0"
+     ]
+    },
+    {
+     "id": "CI-AL-02",
+     "pattern": "Tangent at a point with a diameter: angle in the semicircle plus the tangent",
+     "sample": "$AB$ is a diameter and the tangent at $C$ is drawn. If $\\angle CAB = 35^\\circ$, the acute angle between this tangent and chord $CA$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 13,
+     "seenIn": [
+      "2016 main",
+      "2024 main",
+      "2025 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-AL-03",
+     "pattern": "Chord length from the radius and a right angle at the centre",
+     "sample": "A chord of a circle of radius $6$ cm subtends $90^\\circ$ at the centre. The length of the chord is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-AL-04",
+     "pattern": "Angle chase using a tangent with a secant, diameter or third point",
+     "sample": "$PA$ touches a circle with centre $O$ at $A$, and the secant $PBC$ contains the diameter $BC$. If $\\angle AOC = 110^\\circ$, find $\\angle APB$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 16,
+     "seenIn": [
+      "2015 main",
+      "2017 compartment",
+      "2022 main",
+      "2023 main",
+      "2024 compartment",
+      "2024 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-AL-05",
+     "pattern": "Show a stated base angle when the centre distance is twice the radius",
+     "sample": "Tangents $PT$, $PS$ touch a circle with centre $O$ and radius $r$, with $OP = 2r$. Show that $\\angle OTS = \\angle OST = 30^\\circ$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2016 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-AL-06",
+     "pattern": "Chord parallel to the tangent at a given distance",
+     "sample": "In a circle of radius $5$ cm, a chord is parallel to the tangent at $A$ and $2$ cm from $A$. Find the length of the chord.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-AL-07",
+     "pattern": "Tangent meeting a produced diameter: find two angles",
+     "sample": "Tangent $PC$ touches a circle at $C$, and diameter $AOB$ produced meets it at $P$. If $\\angle PCA = 110^\\circ$, find $\\angle CBA$ and $\\angle BCO$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Concentric and touching circles",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "CI-CC-01",
+     "pattern": "Chord of the outer circle touching the inner circle",
+     "sample": "Concentric circles have radii $5$ cm and $3$ cm. The chord of the larger circle that touches the smaller one has length:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2019 main",
+      "2021 compartment",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2gf002n7gcnn0x55k1s"
+     ]
+    },
+    {
+     "id": "CI-CC-02",
+     "pattern": "Reverse concentric: outer radius or difference of radii from the chord",
+     "sample": "A chord of length $24$ cm of the outer of two concentric circles touches the inner circle of radius $5$ cm. The outer radius is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-CC-03",
+     "pattern": "Touching circles: common tangent from the tangent at the contact point",
+     "sample": "Two circles touch externally at $A$. The common tangent at $A$ meets a direct common tangent $QR$ at $P$. If $AP = 5$ cm, then $QR$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2014 main",
+      "2020 main",
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-CC-04",
+     "pattern": "Touching circles: tangent from one centre to the other circle",
+     "sample": "Circles of radii $2r$ and $r$ touch externally. The tangent from the larger centre to the smaller circle has length $8\\sqrt{2}$ cm. Then $r$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-CC-05",
+     "pattern": "Chord of the outer circle touching the inner circle, with working",
+     "sample": "Concentric circles have radii $25$ cm and $7$ cm. Find the length of the chord of the larger circle that touches the smaller one.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 11,
+     "seenIn": [
+      "2011 main",
+      "2022 main",
+      "2024 compartment",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2gn003l7gcn2kth7flw"
+     ]
+    },
+    {
+     "id": "CI-CC-06",
+     "pattern": "Prove the contact point bisects the chord, then find its length",
+     "sample": "A chord $AB$ of the larger of two concentric circles touches the smaller at $P$. Prove $AP = PB$. Hence find $AB$ if the radii are $15$ cm and $9$ cm.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2019 main",
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2gq003z7gcnh0eyuoch"
+     ]
+    },
+    {
+     "id": "CI-CC-07",
+     "pattern": "Tangent lengths from one point to two concentric circles",
+     "sample": "Concentric circles have radii $5$ cm and $3$ cm. A tangent from $T$ to the larger circle has length $12$ cm. Find the length of the tangent from $T$ to the smaller circle.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2012 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Proofs with tangents",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "CI-PR-01",
+     "pattern": "Prove tangents at the ends of a diameter are parallel",
+     "sample": "$AB$ is a diameter of a circle with centre $O$, of length $10$ cm. Prove that the tangents at $A$ and $B$ are parallel.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2014 main",
+      "2017 main",
+      "2019 main",
+      "2022 compartment",
+      "2023 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "b5",
+      "cmvq9r2gn003n7gcnyp0uv44s"
+     ]
+    },
+    {
+     "id": "CI-PR-02",
+     "pattern": "Prove the quadrilateral formed by P, the contact points and the centre is cyclic",
+     "sample": "Tangents $PQ$, $PR$ touch a circle with centre $O$, and $\\angle QPR = 50^\\circ$. Prove that $PQOR$ is cyclic and find $\\angle QOR$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2022 compartment",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-PR-03",
+     "pattern": "Prove that perpendicular tangents or radii give a square",
+     "sample": "Tangents $PQ$, $PR$ touch a circle with centre $O$, and $\\angle OPR = 45^\\circ$. Prove that $ORPQ$ is a square.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2022 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-PR-04",
+     "pattern": "Prove the sum of tangents equals OP for a 120 degree angle",
+     "sample": "Tangents $PX$, $PY$ touch a circle with centre $O$, and $\\angle XPY = 120^\\circ$. Prove that $PX + PY = PO$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2014 main",
+      "2015 main",
+      "2025 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-PR-05",
+     "pattern": "Prove OP is the perpendicular bisector of the contact chord",
+     "sample": "Tangents $PA$, $PB$ touch a circle with centre $O$. Prove that $OP$ bisects $AB$ at right angles, and find $AB$ if $PA = 8$ cm and $OA = 6$ cm.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2015 main",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvqhe946003x7gd0vz6t251d"
+     ]
+    },
+    {
+     "id": "CI-PR-06",
+     "pattern": "Prove a product relation on a chord produced to P",
+     "sample": "$C$ is the midpoint of chord $AB = 6$ cm, produced to $P$ with $PA = 4$ cm. Prove $PA \\cdot PB = PC^2 - AC^2$ in general, and verify it for these lengths.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-PR-07",
+     "pattern": "Prove the equal-tangents theorem",
+     "sample": "Prove that the two tangents drawn to a circle from an external point are equal in length.",
+     "slot": "C",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 16,
+     "seenIn": [
+      "2011 main",
+      "2014 main",
+      "2015 main",
+      "2016 main",
+      "2017 main",
+      "2018 main",
+      "2023 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-PR-08",
+     "pattern": "Prove the tangent is perpendicular to the radius at the contact point",
+     "sample": "Prove that the tangent at any point of a circle is perpendicular to the radius through the point of contact.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 10,
+     "seenIn": [
+      "2012 main",
+      "2013 main",
+      "2015 main",
+      "2016 main",
+      "2017 compartment",
+      "2020 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-PR-09",
+     "pattern": "Prove the angle between tangents is twice the angle between radius and chord",
+     "sample": "Tangents $TP$, $TQ$ touch a circle with centre $O$. Prove that $\\angle PTQ = 2\\angle OPQ$, and find $\\angle OPQ$ if $\\angle PTQ = 64^\\circ$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 11,
+     "seenIn": [
+      "2017 main",
+      "2020 main",
+      "2023 main",
+      "2025 compartment",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2gp003t7gcn50ig5psp"
+     ]
+    },
+    {
+     "id": "CI-PR-10",
+     "pattern": "Prove the angle between tangents and the central angle are supplementary",
+     "sample": "Prove that the angle between two tangents from an external point and the angle subtended at the centre by the contact points sum to $180^\\circ$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-PR-11",
+     "pattern": "Prove a third tangent between parallel tangents subtends a right angle at the centre",
+     "sample": "$XY$ and $X_1Y_1$ are parallel tangents to a circle with centre $O$. A third tangent meets them at $A$, $B$. Prove that $\\angle AOB = 90^\\circ$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 17,
+     "seenIn": [
+      "2013 main",
+      "2017 main",
+      "2019 main",
+      "2020 main",
+      "2024 main",
+      "2025 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-PR-12",
+     "pattern": "Prove tangents at the ends of a chord make equal angles with it",
+     "sample": "Prove that the tangents at the ends of a chord of a circle make equal angles with that chord.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2017 main",
+      "2020 main",
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-PR-13",
+     "pattern": "Prove an angle or length relation from a tangent with an inscribed angle",
+     "sample": "$AB$ is a diameter and $PQ$ is the tangent at $C$, with $\\angle ACP$ acute. Prove $\\angle BAC + \\angle ACP = 90^\\circ$, and find $\\angle ACP$ if $\\angle BAC = 35^\\circ$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 12,
+     "seenIn": [
+      "2015 main",
+      "2020 main",
+      "2023 main",
+      "2024 main",
+      "2025 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-PR-14",
+     "pattern": "State and prove the equal-tangents theorem, then use it for a linked result",
+     "sample": "Prove that tangents from an external point are equal. Use this to prove that a parallelogram circumscribing a circle is a rhombus, and find its side if the perimeter is $40$ cm.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2gt004d7gcnt68kjxj0"
+     ]
+    },
+    {
+     "id": "CI-PR-15",
+     "pattern": "Multi-step proof using a diameter circle or touching circles",
+     "sample": "A circle on leg $AB$ of $\\triangle ABC$, right-angled at $B$, as diameter meets $AC$ at $P$. Prove the tangent at $P$ bisects $BC$, and find the part cut off if $BC = 10$ cm.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 11,
+     "seenIn": [
+      "2016 main",
+      "2020 main",
+      "2022 compartment",
+      "2022 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Circle touching the sides of a figure",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "CI-CF-01",
+     "pattern": "Fourth side of a circumscribed quadrilateral",
+     "sample": "A quadrilateral $ABCD$ circumscribes a circle. If $AB = 10$ cm, $BC = 9$ cm and $CD = 8$ cm, then $AD$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2gj00357gcnam8ea4oj"
+     ]
+    },
+    {
+     "id": "CI-CF-02",
+     "pattern": "Opposite-side sum from the perimeter of a circumscribed quadrilateral",
+     "sample": "A quadrilateral $ABCD$ circumscribes a circle and has perimeter $52$ cm. Then $AB + CD$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe942003l7gd0y66es42n"
+     ]
+    },
+    {
+     "id": "CI-CF-03",
+     "pattern": "Identify a side from a sum of tangent segments",
+     "sample": "$PQRS$ circumscribes a circle, touching $PQ$ at $A$ and $RS$ at $C$. If $PS = 11$ cm, then $PA + CS$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-CF-04",
+     "pattern": "Type or perimeter of a parallelogram around a circle",
+     "sample": "A parallelogram circumscribes a circle, and one side is $6$ cm. Its perimeter is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2gl003d7gcnuinfbfxy"
+     ]
+    },
+    {
+     "id": "CI-CF-05",
+     "pattern": "Tangent segment or side of a triangle with an incircle",
+     "sample": "The incircle of $\\triangle ABC$ touches $BC$ at $D$. If $AB = 10$ cm, $BC = 12$ cm and $CA = 8$ cm, then $BD$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2012 main",
+      "2020 main",
+      "2023 main",
+      "2025 compartment"
+     ],
+     "existingIds": [
+      "cmvq9r2gk00397gcnrf0c1gwg"
+     ]
+    },
+    {
+     "id": "CI-CF-06",
+     "pattern": "Inradius of a right triangle",
+     "sample": "A circle is inscribed in a right triangle with sides $5$ cm, $12$ cm and $13$ cm. Its radius is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2018 compartment",
+      "2021 compartment"
+     ],
+     "existingIds": [
+      "cmvq9r2gl003b7gcn2wq7rssk"
+     ]
+    },
+    {
+     "id": "CI-CF-07",
+     "pattern": "Assertion-reason on a circumscribed figure",
+     "sample": "A: A parallelogram circumscribing a circle with one side $7$ cm has perimeter $28$ cm. R: A parallelogram circumscribing a circle is a rhombus.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe942003n7gd04977h7i9"
+     ]
+    },
+    {
+     "id": "CI-CF-08",
+     "pattern": "Prove the opposite-side sums of a circumscribed quadrilateral are equal, short form",
+     "sample": "A quadrilateral $ABCD$ circumscribes a circle. Prove that $AB + CD = BC + DA$.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2016 main",
+      "2017 main",
+      "2020 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-CF-09",
+     "pattern": "Prove the tangent to an excircle is half the perimeter, short form",
+     "sample": "A circle touches $BC$ at $P$ and $AB$, $AC$ produced at $Q$, $R$. Prove that $AQ$ is half the perimeter of $\\triangle ABC$, and find $AQ$ for sides $8$, $6$, $10$ cm.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-CF-10",
+     "pattern": "Segments or sides of a triangle from its incircle",
+     "sample": "The incircle of $\\triangle ABC$ touches $BC$, $CA$, $AB$ at $D$, $E$, $F$. If $AB = 12$ cm, $BC = 8$ cm and $CA = 10$ cm, find $AF$, $BD$ and $CE$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2013 main",
+      "2016 main",
+      "2019 main",
+      "2020 main",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2go003r7gcnu306ppbb",
+      "cmvqhe945003v7gd0n35gd67u"
+     ]
+    },
+    {
+     "id": "CI-CF-11",
+     "pattern": "Prove a circumscribed parallelogram is a rhombus",
+     "sample": "Prove that a parallelogram circumscribing a circle is a rhombus, and find its side if its perimeter is $36$ cm.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 17,
+     "seenIn": [
+      "2012 main",
+      "2013 main",
+      "2014 main",
+      "2019 main",
+      "2020 main",
+      "2022 main",
+      "2023 main",
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-CF-12",
+     "pattern": "Prove opposite sides of a circumscribed quadrilateral subtend supplementary angles at the centre",
+     "sample": "A quadrilateral $ABCD$ circumscribes a circle with centre $O$. Prove that $\\angle AOB + \\angle COD = 180^\\circ$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2019 compartment",
+      "2025 compartment",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-CF-13",
+     "pattern": "Prove the side-sum rule for a circumscribed polygon",
+     "sample": "Prove that $AB + CD = AD + BC$ for a quadrilateral circumscribing a circle. Hence find $AD$ if $AB = 8$ cm, $BC = 7$ cm and $CD = 6$ cm.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 compartment"
+     ],
+     "existingIds": [
+      "cmvq9r2gp003x7gcn2uxirb6r"
+     ]
+    },
+    {
+     "id": "CI-CF-14",
+     "pattern": "Prove a circumscribed rectangle is a square and find its perimeter",
+     "sample": "A rectangle circumscribes a circle of radius $4$ cm. Prove that it is a square and find its perimeter.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-CF-15",
+     "pattern": "Inradius of a right triangle with a tangent segment",
+     "sample": "A circle is inscribed in $\\triangle ABC$, right-angled at $B$, with $AB = 7$ cm and $BC = 24$ cm. Find its radius and the tangent length from $A$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2019 main",
+      "2022 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2gt00497gcn2tms5r2p"
+     ]
+    },
+    {
+     "id": "CI-CF-16",
+     "pattern": "Reverse right-triangle incircle: radius and sides from the hypotenuse segments",
+     "sample": "The incircle of $\\triangle ABC$, right-angled at $B$, touches $AC$ at $E$. If $AE = 3$ cm and $CE = 10$ cm, find the radius, $AB$ and $BC$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe946003z7gd050on72tf"
+     ]
+    },
+    {
+     "id": "CI-CF-17",
+     "pattern": "Radius or a side of a circumscribed quadrilateral with a right angle",
+     "sample": "$ABCD$ circumscribes a circle, touching $BC$ at $Q$, with $\\angle A = 90^\\circ$, $AB = 18$ cm, $BC = 15$ cm, $CD = 9$ cm, $DA = 12$ cm and $BQ = 12$ cm. Find the radius.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2013 main",
+      "2025 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-CF-18",
+     "pattern": "Prove a tangent to an excircle is half the perimeter",
+     "sample": "A circle touches $QR$ at $L$ and $PQ$, $PR$ produced at $M$, $N$. Prove that $PM$ is half the perimeter of $\\triangle PQR$, and find $PM$ if the sides are $7$, $5$, $6$ cm.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2020 main",
+      "2022 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-CF-19",
+     "pattern": "Tangent segments of an incircle by formula, or the isosceles midpoint",
+     "sample": "In $\\triangle ABC$, $AB = AC = 10$ cm and $BC = 12$ cm. The incircle touches $BC$ at $D$ and $AB$ at $P$. Show that $D$ is the midpoint of $BC$, and find $AP$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2012 main"
+     ],
+     "existingIds": [
+      "cmvq9r2gp003v7gcn988sj3ty",
+      "cmvq9r2gr00477gcnrkp0t271"
+     ]
+    },
+    {
+     "id": "CI-CF-20",
+     "pattern": "Sides of a triangle around an incircle from the radius, segments and area",
+     "sample": "A circle of radius $3$ cm is inscribed in $\\triangle ABC$, touching $BC$ at $D$. If $BD = 6$ cm, $DC = 9$ cm and the area is $54\\text{ cm}^2$, find $AB$ and $AC$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2011 main",
+      "2015 main",
+      "2017 compartment",
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2gt004b7gcn01d2oaxl"
+     ]
+    },
+    {
+     "id": "CI-CF-21",
+     "pattern": "Prove the right-triangle inradius formula or solve a right-angled trapezium around a circle",
+     "sample": "For an incircle of radius $r$ in $\\triangle ABC$, right-angled at $B$, prove $r = \\frac{AB + BC - AC}{2}$. Hence find $r$ and $AP$ if $AB = 20$ cm and $BC = 15$ cm.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2024 compartment"
+     ],
+     "existingIds": [
+      "cmvqhe94600417gd0z4r1fat3",
+      "cmvqhe94700457gd0xgot4kkp"
+     ]
+    },
+    {
+     "id": "CI-CF-22",
+     "pattern": "Common tangent of two circles: parallel radii and lengths",
+     "sample": "A line from $T$ touches circles with centres $M$, $N$ at $Q$, $B$. If $MQ = 12$ cm, $NB = 4$ cm and $BQ = 15$ cm, prove $MQ \\parallel NB$ and find $TB$ and $MN$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-CF-23",
+     "pattern": "Case study: circular region inside a triangular plot",
+     "sample": "A round pit of radius $r$ lies inside a right triangular yard with sides $12$, $16$, $20$ m. (i) Name the shape formed at the right angle. (ii) Relate the tangent segments. (iii) Find $r$.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvqhe94800497gd0nwihrfxp"
+     ]
+    },
+    {
+     "id": "CI-CF-24",
+     "pattern": "Case study: quadrilateral frame around a circular object",
+     "sample": "Cloth round poles $A$, $B$, $C$, $D$ touches a round fountain. (i) Angle between cloth and radius. (ii) Shape if $AB = AD$. (iii) $AP$ if $AD = 10$ m and $DR = 6$ m.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-CF-25",
+     "pattern": "Case study: tangent throw combined with a circumscribed figure",
+     "sample": "A ball on a $3$ m rope traces a circle. (i) Diameter. (ii) Tangent from a point $5$ m from the centre. (iii) Sticks round the circle have $AB = 7$, $BC = 8$, $CD = 6$ m; find $DA$.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Constructions",
+   "scope": "verify",
+   "scopeNote": "All evidence is from the 2022 legacy rows, and no 2024-2026 row tests construction, so targets stay 0. A person should confirm it is out of the current syllabus.",
+   "patterns": [
+    {
+     "id": "CI-CN-01",
+     "pattern": "Construct tangents from an external point",
+     "sample": "Draw a circle of radius $4$ cm and construct the pair of tangents from a point $7$ cm from its centre.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 11,
+     "seenIn": [
+      "2014 main",
+      "2019 compartment",
+      "2019 main",
+      "2020 main",
+      "2021 compartment",
+      "2022 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-CN-02",
+     "pattern": "Construct tangents from a point on the outer of two concentric circles to the inner",
+     "sample": "Draw concentric circles of radii $3$ cm and $5$ cm, and construct the tangents to the smaller circle from a point on the larger.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2016 main",
+      "2019 compartment",
+      "2022 compartment",
+      "2022 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-CN-03",
+     "pattern": "Construct tangents inclined at a given angle",
+     "sample": "Draw a circle of radius $4$ cm and construct two tangents inclined to each other at $60^\\circ$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2016 main",
+      "2019 main",
+      "2020 main",
+      "2022 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "CI-NEW-01",
+     "pattern": "Divide a line segment internally in a given ratio by construction",
+     "sample": "Draw a line segment $AB = 7.6$ cm and divide it internally in the ratio $5:8$. Measure the two parts.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2011 main",
+      "2017 main",
+      "2022 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    },
+    {
+     "id": "CI-NEW-02",
+     "pattern": "Construct a triangle from given data, then a similar triangle at a given scale factor",
+     "sample": "Construct a triangle with sides $5$ cm, $6$ cm and $7$ cm, then construct a triangle similar to it whose sides are $\\frac{7}{5}$ of the corresponding sides.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 40,
+     "seenIn": [
+      "2011 main",
+      "2012 main",
+      "2013 main",
+      "2015 main",
+      "2016 main",
+      "2017 compartment",
+      "2017 main",
+      "2018 compartment",
+      "2018 main",
+      "2019 main",
+      "2020 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  }
+ ],
+ "outOfScope": [],
+ "fixes": [
+  {
+   "n": 1,
+   "issue": "Tagged medium, is one-fact recall; also still labelled General",
+   "suggest": "easy; topic Lines and circles: basics",
+   "id": "a15"
+  },
+  {
+   "n": 2,
+   "issue": "Same task as question 19; tagged medium while 19 is easy; still labelled General",
+   "suggest": "easy; topic Proofs with tangents; keep only one of 2 and 19",
+   "id": "b5"
+  },
+  {
+   "n": 18,
+   "issue": "Recall about a circumscribed figure, labelled Proofs with tangents",
+   "suggest": "topic Circle touching the sides of a figure",
+   "id": "cmvq9r2gl003d7gcnuinfbfxy"
+  },
+  {
+   "n": 23,
+   "issue": "Tagged hard, is the standard midpoint proof plus one Pythagoras step",
+   "suggest": "medium",
+   "id": "cmvq9r2gq003z7gcnh0eyuoch"
+  },
+  {
+   "n": 31,
+   "issue": "Tagged medium, is one Pythagoras step",
+   "suggest": "easy",
+   "id": "cmvq9r2gj00337gcn6kcl3sj3"
+  },
+  {
+   "n": 35,
+   "issue": "Tagged hard, but has the same structure as question 38",
+   "suggest": "medium, after checking the full text",
+   "id": "cmvq9r2gu004f7gcnucymbgq9"
+  },
+  {
+   "n": 37,
+   "issue": "Tagged easy, needs Pythagoras and then a subtraction",
+   "suggest": "medium",
+   "id": "cmvqhe944003r7gd0ad9jfmcl"
+  },
+  {
+   "n": 38,
+   "issue": "Tagged easy, and the case-study slot has no easy band",
+   "suggest": "medium",
+   "id": "cmvqhe94800477gd0uustsfqn"
+  },
+  {
+   "n": 48,
+   "issue": "Tagged hard, is the standard right-triangle inradius plus one equal-tangent step",
+   "suggest": "medium",
+   "id": "cmvq9r2gt00497gcn2tms5r2p"
+  }
+ ]
+}

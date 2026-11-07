@@ -1,0 +1,293 @@
+[
+ {
+  "chapter": "Areas Related to Circles",
+  "topic": "Area and perimeter of a sector",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The area of a sector of a circle of radius 14 cm with central angle 90° is (use π = 22/7)",
+  "options": [
+   "154 cm²",
+   "308 cm²",
+   "616 cm²",
+   "77 cm²"
+  ],
+  "answer": "Correct option: A) 154 cm². Area = (90/360) × (22/7) × 14 × 14 = 154 cm²."
+ },
+ {
+  "chapter": "Areas Related to Circles",
+  "topic": "Arc length",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The length of the arc of a sector of radius 21 cm and central angle 60° is (use π = 22/7)",
+  "options": [
+   "22 cm",
+   "44 cm",
+   "66 cm",
+   "132 cm"
+  ],
+  "answer": "Correct option: A) 22 cm. Arc = (60/360) × 2 × (22/7) × 21 = 22 cm."
+ },
+ {
+  "chapter": "Areas Related to Circles",
+  "topic": "Area and perimeter of a sector",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The perimeter of a sector of a circle of radius 7 cm and central angle 120° is (use π = 22/7)",
+  "options": [
+   "44/3 cm",
+   "86/3 cm",
+   "58/3 cm",
+   "154/3 cm"
+  ],
+  "answer": "Correct option: B) 86/3 cm. Arc = (120/360) × 2 × (22/7) × 7 = 44/3 cm; perimeter = 7 + 7 + 44/3 = 86/3 cm."
+ },
+ {
+  "chapter": "Areas Related to Circles",
+  "topic": "Wheel, clock, garden and wiper contexts",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The minute hand of a wall clock is 14 cm long. The area swept by it in 20 minutes is (use π = 22/7)",
+  "options": [
+   "308/3 cm²",
+   "616/3 cm²",
+   "154 cm²",
+   "616 cm²"
+  ],
+  "answer": "Correct option: B) 616/3 cm². In 20 minutes the hand turns 120°. Area = (120/360) × (22/7) × 14² = 616/3 cm²."
+ },
+ {
+  "chapter": "Areas Related to Circles",
+  "topic": "Combination figures (shaded regions)",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "From a square piece of tin of side 14 cm, a quarter circle of radius 14 cm is cut out with its centre at one corner of the square. The area of the remaining piece is (use π = 22/7)",
+  "options": [
+   "42 cm²",
+   "154 cm²",
+   "196 cm²",
+   "238 cm²"
+  ],
+  "answer": "Correct option: A) 42 cm². Square = 196 cm²; quarter circle = (1/4)(22/7)(14²) = 154 cm². Remaining = 196 − 154 = 42 cm²."
+ },
+ {
+  "chapter": "Areas Related to Circles",
+  "topic": "Segment area",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A chord of a circle of radius 10 cm subtends a right angle at the centre. The area of the corresponding minor segment is (use π = 3.14)",
+  "options": [
+   "28.5 cm²",
+   "78.5 cm²",
+   "53.5 cm²",
+   "21.5 cm²"
+  ],
+  "answer": "Correct option: A) 28.5 cm². Sector = (1/4)(3.14)(100) = 78.5 cm²; triangle = (1/2)(10)(10) = 50 cm². Segment = 78.5 − 50 = 28.5 cm²."
+ },
+ {
+  "chapter": "Areas Related to Circles",
+  "topic": "Area and perimeter of a sector",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A sector of a circle of radius 7 cm has area 77/3 cm². Its central angle is (use π = 22/7)",
+  "options": [
+   "30°",
+   "45°",
+   "60°",
+   "120°"
+  ],
+  "answer": "Correct option: C) 60°. (θ/360) × (22/7) × 49 = 77/3 gives (θ/360) × 154 = 77/3, so θ = 60°."
+ },
+ {
+  "chapter": "Areas Related to Circles",
+  "topic": "Wheel, clock, garden and wiper contexts",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A bicycle wheel has diameter 140 cm. The number of complete revolutions it makes to cover 1.1 km is (use π = 22/7)",
+  "options": [
+   "250",
+   "500",
+   "125",
+   "2500"
+  ],
+  "answer": "Correct option: A) 250. Circumference = (22/7) × 140 = 440 cm. Distance = 1.1 km = 110000 cm. Revolutions = 110000/440 = 250."
+ },
+ {
+  "chapter": "Areas Related to Circles",
+  "topic": "Combination figures (shaded regions)",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Two concentric circles have radii 14 cm and 7 cm. The area of the ring between them is (use π = 22/7)",
+  "options": [
+   "462 cm²",
+   "154 cm²",
+   "616 cm²",
+   "770 cm²"
+  ],
+  "answer": "Correct option: A) 462 cm². Area = (22/7)(14² − 7²) = (22/7)(147) = 462 cm²."
+ },
+ {
+  "chapter": "Areas Related to Circles",
+  "topic": "Arc length",
+  "slot": "A-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Assertion (A): The perimeter of a sector of a circle of radius 7 cm and central angle 90° is 25 cm (use π = 22/7).\nReason (R): The perimeter of a sector is equal to the length of its arc.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: C) A is true but R is false. Arc = (1/4)(2)(22/7)(7) = 11 cm, so perimeter = 11 + 7 + 7 = 25 cm, so A is true. The perimeter of a sector is arc length plus the two radii, so R is false."
+ },
+ {
+  "chapter": "Areas Related to Circles",
+  "topic": "Wheel, clock, garden and wiper contexts",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The wiper of a car sweeps through an angle of 120° and its blade-arm is 21 cm long (the whole 21 cm cleans the glass). Find the area of the glass cleaned in one sweep. (Use π = 22/7)",
+  "answer": "Area = (120/360) × (22/7) × 21 × 21 = (1/3) × 22 × 63 = 462 cm².\nArea cleaned = 462 cm²."
+ },
+ {
+  "chapter": "Areas Related to Circles",
+  "topic": "Area and perimeter of a sector",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A sector of a circle of radius 21 cm has area 231 cm². Find (i) its central angle, (ii) the length of its arc, (iii) its perimeter. (Use π = 22/7)",
+  "answer": "Area of full circle = (22/7)(441) = 1386 cm². θ/360 = 231/1386 = 1/6, so θ = 60°.\nArc = (1/6) × 2 × (22/7) × 21 = 22 cm.\nPerimeter = 22 + 21 + 21 = 64 cm.\nAnswer: 60°, 22 cm, 64 cm."
+ },
+ {
+  "chapter": "Areas Related to Circles",
+  "topic": "Segment area",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A chord of a circle of radius 12 cm subtends an angle of 60° at the centre. Find the area of the corresponding minor segment. (Use π = 3.14 and √3 = 1.73)",
+  "answer": "Sector area = (60/360) × 3.14 × 144 = 75.36 cm².\nTriangle formed by two radii and chord is equilateral with side 12 cm: area = (√3/4)(144) = 36 × 1.73 = 62.28 cm².\nSegment = 75.36 − 62.28 = 13.08 cm²."
+ },
+ {
+  "chapter": "Areas Related to Circles",
+  "topic": "Combination figures (shaded regions)",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "easy",
+  "competency": false,
+  "text": "A square plot of side 28 m has a quarter circle of radius 7 m marked at each of its four corners, each with its centre at that corner, and the four quarter circles are paved. Find the area of the part of the plot that is not paved. (Use π = 22/7)",
+  "answer": "Four quarter circles of radius 7 m together make one full circle: area = (22/7)(49) = 154 m².\nPlot = 28 × 28 = 784 m².\nUnpaved area = 784 − 154 = 630 m²."
+ },
+ {
+  "chapter": "Areas Related to Circles",
+  "topic": "Wheel, clock, garden and wiper contexts",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A horse is tied with a rope at one corner of a rectangular field 20 m × 16 m, so that it can graze the field only within the quarter circle around that corner. Find how much more area it can graze if the rope is lengthened from 7 m to 14 m. (Use π = 22/7; both ropes lie inside the field)",
+  "answer": "Area with 14 m rope = (1/4)(22/7)(196) = 154 m².\nArea with 7 m rope = (1/4)(22/7)(49) = 38.5 m².\nAdditional area = 154 − 38.5 = 115.5 m²."
+ },
+ {
+  "chapter": "Areas Related to Circles",
+  "topic": "Combination figures (shaded regions)",
+  "slot": "D-long (5 marks)",
+  "type": "long",
+  "marks": 5,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A running track is made of a rectangle 28 m long and 14 m wide with a semicircle added outward on each of the two 14 m sides, the diameter of each semicircle being that side. Find (i) the perimeter of the whole figure, (ii) its area. (Use π = 22/7)",
+  "answer": "Semicircle radius = 7 m.\n(i) Perimeter = two straight sides of 28 m + two semicircular arcs = 56 + 2 × (22/7)(7) = 56 + 44 = 100 m.\n(ii) Area = rectangle + two semicircles = 28 × 14 + (22/7)(49) = 392 + 154 = 546 m².\nAnswer: perimeter 100 m, area 546 m²."
+ },
+ {
+  "chapter": "Areas Related to Circles",
+  "topic": "Segment area",
+  "slot": "D-long (5 marks)",
+  "type": "long",
+  "marks": 5,
+  "complexity": "hard",
+  "competency": true,
+  "text": "A chord of a circle of radius 14 cm subtends a right angle at the centre. Find (i) the length of the chord, (ii) the area of the minor segment, (iii) the area of the major segment. (Use π = 22/7 and √2 = 1.41)",
+  "answer": "(i) Chord² = 14² + 14² = 392, chord = 14√2 = 14 × 1.41 = 19.74 cm.\n(ii) Sector = (1/4)(22/7)(196) = 154 cm²; triangle = (1/2)(14)(14) = 98 cm². Minor segment = 154 − 98 = 56 cm².\n(iii) Circle = (22/7)(196) = 616 cm². Major segment = 616 − 56 = 560 cm².\nAnswer: 19.74 cm, 56 cm², 560 cm²."
+ },
+ {
+  "chapter": "Areas Related to Circles",
+  "topic": "Wheel, clock, garden and wiper contexts",
+  "slot": "E-case-study (4 marks, with sub-parts)",
+  "type": "case",
+  "marks": 4,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A rotating sprinkler in a park waters a sector-shaped lawn. It reaches 14 m from its fixed position and turns through an angle of 90°. (Use π = 22/7)\n(i) Find the area of the lawn watered. [1]\n(ii) Find the perimeter of the watered region. [1]\n(iii) The sprinkler is adjusted to reach 21 m and turn through 120°. Find the increase in the watered area. [2]",
+  "answer": "(i) (90/360)(22/7)(196) = 154 m².\n(ii) Arc = (1/4)(2)(22/7)(14) = 22 m; perimeter = 22 + 14 + 14 = 50 m.\n(iii) New area = (120/360)(22/7)(441) = 462 m². Increase = 462 − 154 = 308 m²."
+ },
+ {
+  "chapter": "Areas Related to Circles",
+  "topic": "Wheel, clock, garden and wiper contexts",
+  "slot": "E-case-study (4 marks, with sub-parts)",
+  "type": "case",
+  "marks": 4,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The tower clock of a school has a minute hand 21 cm long and an hour hand 14 cm long. (Use π = 22/7)\n(i) Through what angle does the minute hand turn in 10 minutes? [1]\n(ii) Find the distance moved by the tip of the minute hand in 20 minutes. [1]\n(iii) Find the area swept by the minute hand between 6:10 and 6:25. OR Find the area swept by the hour hand in 3 hours. [2]",
+  "answer": "(i) The minute hand turns 360° in 60 min, i.e. 6° per minute; in 10 min: 60°.\n(ii) 20 min = 120°. Distance = (120/360)(2)(22/7)(21) = 44 cm.\n(iii) 15 minutes = 90°. Area = (1/4)(22/7)(441) = 346.5 cm².\nOR: the hour hand turns 30° per hour, so 90° in 3 hours. Area = (1/4)(22/7)(196) = 154 cm²."
+ },
+ {
+  "chapter": "Areas Related to Circles",
+  "topic": "Arc length",
+  "slot": "E-case-study (4 marks, with sub-parts)",
+  "type": "case",
+  "marks": 4,
+  "complexity": "easy",
+  "competency": true,
+  "text": "A circular pizza of diameter 28 cm is cut by its centre into 8 equal slices. (Use π = 22/7)\n(i) Find the angle at the centre of each slice. [1]\n(ii) Find the length of the crust (arc) of one slice. [1]\n(iii) Three slices are eaten. Find the area of pizza left and the total length of crust left. [2]",
+  "answer": "(i) 360°/8 = 45°.\n(ii) Radius 14 cm. Arc = (45/360)(2)(22/7)(14) = 11 cm.\n(iii) Area of one slice = (1/8)(22/7)(196) = 77 cm²; 5 slices left: 5 × 77 = 385 cm². Crust left = 5 × 11 = 55 cm."
+ },
+ {
+  "chapter": "Areas Related to Circles",
+  "topic": "Segment area",
+  "slot": "E-case-study (4 marks, with sub-parts)",
+  "type": "case",
+  "marks": 4,
+  "complexity": "hard",
+  "competency": true,
+  "text": "A farmer has a circular field of radius 21 m. He fences off a corner using a straight fence AB, where chord AB subtends a right angle at the centre O. The small region cut off by the fence (between the chord and the arc) is used for vegetables. (Use π = 22/7)\n(i) Find the area of the sector OAB. [1]\n(ii) Find the area of triangle OAB. [1]\n(iii) Find the area of the vegetable region, and the cost of fertiliser for it at ₹ 40 per m². [2]",
+  "answer": "(i) (1/4)(22/7)(441) = 346.5 m².\n(ii) (1/2)(21)(21) = 220.5 m².\n(iii) Segment = 346.5 − 220.5 = 126 m². Cost = 126 × 40 = ₹ 5040."
+ }
+]

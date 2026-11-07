@@ -1,0 +1,197 @@
+[
+ {
+  "idx": 0,
+  "myAnswer": "B) 9 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 1,
+  "myAnswer": "A) Both true, R explains A",
+  "how": "by hand"
+ },
+ {
+  "idx": 2,
+  "myAnswer": "AB=12.5 cm, BC=15 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 3,
+  "myAnswer": "proof: AD/AC=AE/AB=1/3, common angle A, SAS",
+  "how": "by hand"
+ },
+ {
+  "idx": 4,
+  "myAnswer": "proof AA (corresp angles); DF=9 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 5,
+  "myAnswer": "proof SSS for medians (AB/DE=BC/EF=AP/DQ=2/3 -> ABP~DEQ, angle B=E, SAS); DF=19.5 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 6,
+  "myAnswer": "proof: extend median, ABDC' parallelogram, SSS gives ABC'~PQR', then SAS",
+  "how": "by hand"
+ },
+ {
+  "idx": 7,
+  "myAnswer": "proof; QR=12 cm; area ratio 4:9",
+  "how": "by hand"
+ },
+ {
+  "idx": 8,
+  "myAnswer": "proof SAS (angle Q=T, QA/TB=PQ/ST); PA=7.5 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 9,
+  "myAnswer": "proof: PQS~RQP AA",
+  "how": "by hand"
+ },
+ {
+  "idx": 10,
+  "myAnswer": "proof AA: angle B=angle ACB=angle DCE (vertical), M=E=90",
+  "how": "by hand"
+ },
+ {
+  "idx": 11,
+  "myAnswer": "proof AA (ASA congruent) ; BC=DC",
+  "how": "by hand"
+ },
+ {
+  "idx": 12,
+  "myAnswer": "proof: angle A=P, AC/PR=AM/PN=AB/PQ SAS",
+  "how": "by hand"
+ },
+ {
+  "idx": 13,
+  "myAnswer": "proof; KM=6 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 14,
+  "myAnswer": "proof AA; DE=12 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 15,
+  "myAnswer": "proof; QL/LT=4, TE=3QT, EL=16LT=4QL",
+  "how": "by hand"
+ },
+ {
+  "idx": 16,
+  "myAnswer": "proof; OY=3 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 17,
+  "myAnswer": "proof AA; XZ=20 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 18,
+  "myAnswer": "proof AA; OR=7.5 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 19,
+  "myAnswer": "proof; KY=6 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 20,
+  "myAnswer": "proof; OC=6 cm (OQ=9)",
+  "how": "by hand"
+ },
+ {
+  "idx": 21,
+  "myAnswer": "proof; y=3 m, BQ=2 m",
+  "how": "by hand"
+ },
+ {
+  "idx": 22,
+  "myAnswer": "proof; FE=8 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 23,
+  "myAnswer": "proof AA; QD=2.5 cm; EF=5*sqrt3 ~8.66 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 24,
+  "myAnswer": "proof AA",
+  "how": "by hand"
+ },
+ {
+  "idx": 25,
+  "myAnswer": "proof SAS; angle QPR=90",
+  "how": "by hand"
+ },
+ {
+  "idx": 26,
+  "myAnswer": "proof; PS=9 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 27,
+  "myAnswer": "proof SAS; XY=5sqrt5, XZ=10sqrt5, YZ=25; area ratio 1:4",
+  "how": "by hand"
+ },
+ {
+  "idx": 28,
+  "myAnswer": "C) Any two rhombuses are similar.",
+  "how": "by hand"
+ },
+ {
+  "idx": 29,
+  "myAnswer": "D) not similar, angles not equal",
+  "how": "by hand"
+ },
+ {
+  "idx": 30,
+  "myAnswer": "D) A false, R true",
+  "how": "by hand"
+ },
+ {
+  "idx": 31,
+  "myAnswer": "No; rhombus 60/120 vs square, same side ratio but angles differ",
+  "how": "by hand"
+ },
+ {
+  "idx": 32,
+  "myAnswer": "A) 35 m",
+  "how": "by hand"
+ },
+ {
+  "idx": 33,
+  "myAnswer": "3 m",
+  "how": "by hand"
+ },
+ {
+  "idx": 34,
+  "myAnswer": "(a) 2 m (b) 9 s (c) 0.4 m/s",
+  "how": "by hand"
+ },
+ {
+  "idx": 35,
+  "myAnswer": "(i) angle PRN, law of reflection (ii) AA (iii) MR=36 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 36,
+  "myAnswer": "(i) PAB~PDC AA, AP:PD=2:3 (ii) BQ:QD=2:3, BQ=8 m (iii) PQ=6 m",
+  "how": "by hand"
+ },
+ {
+  "idx": 37,
+  "myAnswer": "(a) AA (b) XQ=14 cm (c) 16:49; 48 cm^2",
+  "how": "by hand"
+ },
+ {
+  "idx": 38,
+  "myAnswer": "sides 17,17,16 cm; altitude 15 cm; area 120 cm^2",
+  "how": "by hand"
+ }
+]

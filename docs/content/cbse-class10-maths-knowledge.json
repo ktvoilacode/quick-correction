@@ -1,0 +1,6467 @@
+{
+  "basedOn": "854 questions in 25 papers (2022, 2023, 2024, 2025, 2026)",
+  "note": "Templates are paraphrases for generating original questions; do not treat them as board text.",
+  "chapters": [
+    {
+      "chapter": "Real Numbers",
+      "avgMarksPerPaper": 6,
+      "topics": [
+        {
+          "topic": "irrational numbers proof",
+          "askedInPapers": 23,
+          "perPaper": 1.1,
+          "sections": {
+            "C(3m)": 15,
+            "B(2m)": 4,
+            "A(1m)": 4
+          },
+          "complexity": {
+            "easy": 6,
+            "medium": 17
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Prove √{p} is irrational.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 3,
+              "years": [
+                2026
+              ]
+            },
+            {
+              "template": "Prove sqrt({p}) is irrational.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 2,
+              "years": [
+                2023,
+                2024
+              ]
+            },
+            {
+              "template": "Prove that sqrt({p}) is irrational.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Prove {a} + sqrt({p}) is irrational given sqrt({p}) is irrational.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Prove sqrt({p}) irrational; OR signals change every {a},{b},{c} s, next simultaneous time.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "(a) prove {a - b sqrt3} irrational; (b) show {product-sum of primes} is composite.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Which pair of irrationals multiplies to a rational number.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Prove {expression with sqrt3} is irrational, given sqrt3 is irrational.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "hcf and lcm by prime factorisation",
+          "askedInPapers": 15,
+          "perPaper": 0.71,
+          "sections": {
+            "C(3m)": 2,
+            "A(1m)": 11,
+            "B(2m)": 2
+          },
+          "complexity": {
+            "medium": 7,
+            "easy": 8
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "LCM and HCF of {n1} and {n2} by factorisation; OR bells at {a},{b},{c} min ring together again.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Ratio HCF : LCM of the least composite number and the least prime number.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "HCF and LCM of {n1} and {n2} by factorisation.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "HCF and LCM of {a},{b},{c}; OR prove sqrt({p}) irrational.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "LCM of {p} and {q} given in terms of primes {a,b}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "a,b,c in prime powers with unknown power x; LCM = {n}; find x.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "LCM of {a}, {b}, {c}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "If HCF({a},{b})=m and LCM({a},{b})=n, find {n - k·m}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "fundamental theorem of arithmetic",
+          "askedInPapers": 12,
+          "perPaper": 0.57,
+          "sections": {
+            "A(1m)": 9,
+            "B(2m)": 2,
+            "E(4m)": 1
+          },
+          "complexity": {
+            "easy": 8,
+            "medium": 3,
+            "hard": 1
+          },
+          "competencyShare": 0.08,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Classify the number {n} as prime/composite/neither.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 2,
+              "years": [
+                2026
+              ]
+            },
+            {
+              "template": "Assertion: {p}^n never ends in 0; Reason: prime factorisation of {p}.",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Show {a}^n can't end in 0; OR HCF and LCM of {n1}, {n2}.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Can ({n})^m end in digit 0? Justify.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Start with {p}, multiply by primes to reach {N}; find least/greatest/repeated primes and count.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Sum of exponents in prime factorisation of {n}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Assertion: {a}^n ends in 0 for some n. Reason: {x} with factors 2 and 5 always ends in 0.",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Which cannot be the unit digit of {a}^n?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "word problems on hcf/lcm",
+          "askedInPapers": 8,
+          "perPaper": 0.38,
+          "sections": {
+            "B(2m)": 3,
+            "C(3m)": 3,
+            "A(1m)": 2
+          },
+          "complexity": {
+            "medium": 7,
+            "easy": 1
+          },
+          "competencyShare": 0.63,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Greatest number dividing {n1} and {n2} leaving remainders {r1}, {r2}.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Groups of {n1},{n2},{n3} seated separately in equal numbers per room; minimum rooms.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Bells toll every {a}, {b}, {c} minutes; next simultaneous toll.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Largest number dividing {a} and {b} leaving remainders {r1}, {r2}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Greatest number below {N} divisible by {a}, {b}, {c}.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            },
+            {
+              "template": "A: HCF({a}m², {b}m)={b}m for prime m; R: HCF ≤ smaller number.",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            },
+            {
+              "template": "Window {a}×{b}; largest square side and number of squares.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            },
+            {
+              "template": "Longest rod that measures {a} and {b} exactly.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "hcf-lcm relation",
+          "askedInPapers": 8,
+          "perPaper": 0.38,
+          "sections": {
+            "A(1m)": 7,
+            "B(2m)": 1
+          },
+          "complexity": {
+            "easy": 6,
+            "medium": 2
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "HCF({a},{b})={h}, LCM={c}*k; find k.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 2,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "If p is a multiple of q, what is HCF(p, q)?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Numbers in ratio {a}:{b}, LCM {L}; find HCF.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "HCF of {a},{b} is {h}, LCM is {c}x; find x.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Co-prime numbers with product {n}; HCF.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Assertion: for primes p,q, HCF=1 and LCM=p+q. Reason: HCF×LCM = product.",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "LCM of {a} and {b} where {b} divides {a}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "decimal expansions of rationals",
+          "askedInPapers": 2,
+          "perPaper": 0.1,
+          "sections": {
+            "A(1m)": 2
+          },
+          "complexity": {
+            "medium": 1,
+            "easy": 1
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Which of the following is a rational number between √{a} and √{b}?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Is {decimal} a natural number, integer, rational or irrational?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "rational and irrational sums",
+          "askedInPapers": 1,
+          "perPaper": 0.05,
+          "sections": {
+            "A(1m)": 1
+          },
+          "complexity": {
+            "medium": 1
+          },
+          "competencyShare": 1,
+          "figureShare": 1,
+          "templates": [
+            {
+              "template": "Assertion about rationality of triangle perimeter; Reason: sum of squares of two rationals is rational.",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "rational vs irrational classification",
+          "askedInPapers": 1,
+          "perPaper": 0.05,
+          "sections": {
+            "A(1m)": 1
+          },
+          "complexity": {
+            "easy": 1
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "If p^2 = {fraction}, what kind of number is p?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "parity and powers of -1",
+          "askedInPapers": 1,
+          "perPaper": 0.05,
+          "sections": {
+            "A(1m)": 1
+          },
+          "complexity": {
+            "easy": 1
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "If (-1)^n + (-1)^{m} = 0, what can n be?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "operations on surds",
+          "askedInPapers": 1,
+          "perPaper": 0.05,
+          "sections": {
+            "A(1m)": 1
+          },
+          "complexity": {
+            "easy": 1
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Is (√{a}+{b})²+(√{a}-{b})² rational, irrational, positive or negative?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Polynomials",
+      "avgMarksPerPaper": 3.8,
+      "topics": [
+        {
+          "topic": "zeroes and coefficients relations",
+          "askedInPapers": 27,
+          "perPaper": 1.29,
+          "sections": {
+            "A(1m)": 18,
+            "C(3m)": 3,
+            "B(2m)": 6
+          },
+          "complexity": {
+            "easy": 9,
+            "medium": 18
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "If alpha, beta are zeroes of {quadratic}, find 1/alpha + 1/beta.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "If one zero of {quad with k} is reciprocal of the other, find k.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Zeroes of x^2 + {b}x + {c}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "If alpha, beta are zeroes of x^2 - ax - b, find alpha^2 + beta^2.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Sum of zeroes of {polynomial}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Value of 1/alpha + 1/beta for {quadratic}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Sum of zeroes of {quadratic}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Zeroes of x^2 + (a+1)x + b are {z1}, {z2}; find a, b.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "zeroes from a graph",
+          "askedInPapers": 10,
+          "perPaper": 0.48,
+          "sections": {
+            "A(1m)": 6,
+            "E(4m)": 4
+          },
+          "complexity": {
+            "easy": 5,
+            "medium": 5
+          },
+          "competencyShare": 0.4,
+          "figureShare": 0.8,
+          "templates": [
+            {
+              "template": "Given the graph of y = p(x), how many zeroes does p(x) have?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Height h = 20t - 16t^2; find zeroes, choose graph, h at given t, or total horizontal distance.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Assertion about {graph touching axis once}; Reason: degree n polynomial has at most n zeroes.",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Height h={a}t-{b}t^2; find zeroes, maximum, time when h={value}.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "From the graph of {two polynomials}, count distinct zeroes in total.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "From the graph of p(x), state the number of zeroes.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            },
+            {
+              "template": "Arch modelled by p(x)={a}x²+{b}x+{c}; graph with feet at ±{L}.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            },
+            {
+              "template": "Given the graph of y=f(x), find the number of zeroes.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "forming a polynomial from zeroes",
+          "askedInPapers": 7,
+          "perPaper": 0.33,
+          "sections": {
+            "A(1m)": 5,
+            "C(3m)": 2
+          },
+          "complexity": {
+            "easy": 5,
+            "medium": 2
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Which quadratic polynomial has zeroes {z1} and {z2}?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "How many polynomials have zeroes {a} and {b}?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "How many quadratic polynomials have zeroes {a} and {b}?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "α,β zeroes of {px²+qx+1}; form polynomial with zeroes {2/α, 2/β}.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Zeroes of {ax²+bx+c}; polynomial with zeroes {k} more than these.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Zeroes of p(x) are {a} and {b}; identify p(x).",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            },
+            {
+              "template": "Sum of zeroes {s}, product {p}; find p(x).",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "value of k from a zero",
+          "askedInPapers": 2,
+          "perPaper": 0.1,
+          "sections": {
+            "B(2m)": 1,
+            "A(1m)": 1
+          },
+          "complexity": {
+            "medium": 1,
+            "easy": 1
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "One zero of {quad with k} is reciprocal of other; find k.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "If {z} is a zero of x²-x-({c}+{d}k), find k.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "number of zeroes of a polynomial",
+          "askedInPapers": 2,
+          "perPaper": 0.1,
+          "sections": {
+            "A(1m)": 2
+          },
+          "complexity": {
+            "easy": 2
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "True statement about zeroes of a degree {n} polynomial?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "A: quadratic {p(y)} has two zeroes; R: quadratic has at most two zeroes.",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "number of real zeroes via discriminant",
+          "askedInPapers": 1,
+          "perPaper": 0.05,
+          "sections": {
+            "A(1m)": 1
+          },
+          "complexity": {
+            "medium": 1
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Assertion: x^2 + {b}x + {c} has two real zeroes; Reason: a quadratic has at most two real zeroes.",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "evaluating expressions",
+          "askedInPapers": 1,
+          "perPaper": 0.05,
+          "sections": {
+            "A(1m)": 1
+          },
+          "complexity": {
+            "easy": 1
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "For p(x)={polynomial}, find p({a})+p({b}).",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "division algorithm for polynomials",
+          "askedInPapers": 1,
+          "perPaper": 0.05,
+          "sections": {
+            "A(1m)": 1
+          },
+          "complexity": {
+            "medium": 1
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Assertion: degree of zero polynomial undefined; Reason: degree of non-zero constant polynomial.",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Pair of Linear Equations",
+      "avgMarksPerPaper": 5.4,
+      "topics": [
+        {
+          "topic": "consistency conditions",
+          "askedInPapers": 18,
+          "perPaper": 0.86,
+          "sections": {
+            "A(1m)": 17,
+            "B(2m)": 1
+          },
+          "complexity": {
+            "medium": 10,
+            "easy": 8
+          },
+          "competencyShare": 0.06,
+          "figureShare": 0.06,
+          "templates": [
+            {
+              "template": "For which k do kx = y + {c1} and {a2}x = {b2}y + {c2} have infinitely many solutions?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "For {eq1} and {eq2 with r} to be coincident, find r.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Do {eq1} and {eq2} intersect, run parallel or coincide?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "For {ax+2y=9} and {3x+by=18} to be parallel, relate a and b.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Classify the pair of lines shown in a figure.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Pair {a1x+b1y+c1=0}, {a2x+b2y+c2=0}: unique, infinite or no solution.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Line {ax-by=c} is given; pick the equation of a line parallel to it.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Lines {a1x+b1y=c1} and {a2x+b2y=c2}: type of pair.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "word problems (age, speed, fractions, money)",
+          "askedInPapers": 13,
+          "perPaper": 0.62,
+          "sections": {
+            "C(3m)": 6,
+            "E(4m)": 4,
+            "A(1m)": 1,
+            "D(5m)": 2
+          },
+          "complexity": {
+            "medium": 12,
+            "easy": 1
+          },
+          "competencyShare": 0.77,
+          "figureShare": 0.08,
+          "templates": [
+            {
+              "template": "Half the difference of two numbers is {a}; greater plus twice smaller is {b}. Find them.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Schools P and Q award totals {A}, {B} for two games; form and solve equations.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Two people {d} km apart meet in {t1} h walking towards each other, {t2} h same direction; find speeds.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "{a} chairs + {b} tables cost X; {c} chairs + {d} tables cost Y; write equations.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Batch I has {a} poor, {b} rich paying X; batch II {c},{d} paying Y; find fees.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Years ago A was {k1} times B; years later A will be {k2} times B; find ages.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Withdraw {amount} in {x} and {y} notes, {n} notes total; find counts.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Child ticket {c}, adult {a}; {n} tickets total {amount}; form equations, find counts, revenue.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "graphical solution",
+          "askedInPapers": 10,
+          "perPaper": 0.48,
+          "sections": {
+            "B(2m)": 1,
+            "A(1m)": 1,
+            "D(5m)": 4,
+            "C(3m)": 4
+          },
+          "complexity": {
+            "medium": 8,
+            "easy": 1,
+            "hard": 1
+          },
+          "competencyShare": 0.2,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Solve x = {a}, y = {b} graphically, OR check consistency of {pair} by graph.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Nature of lines x = {a} and y = {b} on a graph.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "(a) graphically solve {two lines}; (b) marks per right/wrong answers in two schemes; find total questions.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Graphically solve {x-y+1=0} and {x+y=5}.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Graph {eq1} and {eq2}; solution; absolute difference of y-intercepts.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Check consistency of {eq1},{eq2} and solve graphically.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Solve x={a} and {b}x−{c}y={d} graphically.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            },
+            {
+              "template": "Lines {l1}, {l2}, x=0 graphically; find vertices and triangle area.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "solving by substitution/elimination",
+          "askedInPapers": 5,
+          "perPaper": 0.24,
+          "sections": {
+            "B(2m)": 4,
+            "A(1m)": 1
+          },
+          "complexity": {
+            "easy": 4,
+            "medium": 1
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Solve {a1x+b1y=c1} and {a2x+b2y=c2}; verify.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "(a) given {two equations}, find x-y; (b) numbers with sum {s} and difference {d}.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Solve {ax+by=a^2-b^2}, {bx+ay=0}; find x+y.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Solve {a1x+b1y=c1}, {a2x+b2y=c2} algebraically.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "(a) Solve {101x+102y=…, 102x+101y=…}. (b) Supplementary angles differing by {d}; form equations and find them.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "finding unknown constants",
+          "askedInPapers": 3,
+          "perPaper": 0.14,
+          "sections": {
+            "C(3m)": 1,
+            "A(1m)": 2
+          },
+          "complexity": {
+            "medium": 1,
+            "easy": 2
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Find a, b for infinite solutions of {pair}; OR solve {217x+131y=..., 131x+217y=...}.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Equations {a1x+b1y+c1=0} and {a2x-ky+c2=0} have infinitely many solutions; find k.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "If x={x0}, y={y0} satisfies {eq1 with a} and {eq2 with b}, relate a and b.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Quadratic Equations",
+      "avgMarksPerPaper": 5.3,
+      "topics": [
+        {
+          "topic": "word problems (speed/time, area, numbers)",
+          "askedInPapers": 17,
+          "perPaper": 0.81,
+          "sections": {
+            "E(4m)": 3,
+            "D(5m)": 11,
+            "C(3m)": 3
+          },
+          "complexity": {
+            "medium": 10,
+            "hard": 7
+          },
+          "competencyShare": 0.88,
+          "figureShare": 0.24,
+          "templates": [
+            {
+              "template": "Photo {l}×{w} enlarged by x on both sides to double area; form equation, standardise, find new dimensions.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Train covers {d1} then {d2} at +{k} km/h in {t} h; find speed; OR two pipes together fill in {t}, one {x} h faster; find each time.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Sum {S}, sum of reciprocals {r}; find numbers; OR roots alpha,beta of {quad}; equation with alpha^2, beta^2.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "{n1} tiles; side up by {d} gives {n2} tiles; form and solve for side.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Unit digit is {d} less than tens digit, product {p}; find the number.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "(a) distance {D}, speed down {v}, time up {t}; find original time; (b) fraction with denominator {rel}, fraction + reciprocal = {s}.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "(a) distance {D}; speed +{v} saves {t}; find speed; (b) equal roots of {(c+1)x^2-...}; find c.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "(a) Right triangle perimeter {P}, hypotenuse {c}; legs? (b) {d} km, speed {s} less takes {t} more hours; find speed.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "nature of roots by discriminant",
+          "askedInPapers": 9,
+          "perPaper": 0.43,
+          "sections": {
+            "A(1m)": 8,
+            "B(2m)": 1
+          },
+          "complexity": {
+            "medium": 3,
+            "easy": 6
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Least positive k for which {quadratic with k} has rational roots.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Roots of {ax^2+bx+c=0} are real and equal; which relation holds.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Nature of roots of {x^2+x+1=0}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Discriminant of {3x^2-2x+c} equals {D}; find c.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Ratio of sum and product of roots of {ax^2+bx+c=0}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "x²+bx+b=0 has real distinct roots; which b is possible?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Which equation among {four quadratics} has equal real roots?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Show roots of ({a}−{b})x²+({b}−{c})x+({c}−{a})=0 are equal when {condition}.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "value of k for equal roots",
+          "askedInPapers": 8,
+          "perPaper": 0.38,
+          "sections": {
+            "C(3m)": 1,
+            "A(1m)": 5,
+            "D(5m)": 1,
+            "B(2m)": 1
+          },
+          "complexity": {
+            "medium": 4,
+            "easy": 3,
+            "hard": 1
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Find p such that {px(x - 2) + 6 = 0} has equal roots.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Quadratic with equal real roots; c in terms of a, b.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "(a) k for equal roots of {(k+1)x^2-6(k+1)x+3(k+9)}; (b) man's age = 2*son^2, in {n} years relation.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "(a) {ax²+kx+c} has equal roots; find k. (b) Given y²-{p}y+{q}, find α⁴β³+α³β⁴.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "For what a does a x²+x+a=0 have equal positive roots?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Find k for which {a}x²+{b}kx+{c}=0 has equal roots.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            },
+            {
+              "template": "Find k for which kx²−{b}x−{c}=0 has equal roots.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            },
+            {
+              "template": "√{a}x²−kx+{b}√{a}=0 has equal roots; find k.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "solving by factorisation or formula",
+          "askedInPapers": 3,
+          "perPaper": 0.14,
+          "sections": {
+            "A(1m)": 3
+          },
+          "complexity": {
+            "easy": 3
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Roots of x^2 + {b}x - {c} = 0.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Find values of x satisfying {rational equation in x}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Solve (x−{a})²={k}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "sum and product of roots",
+          "askedInPapers": 2,
+          "perPaper": 0.1,
+          "sections": {
+            "A(1m)": 1,
+            "B(2m)": 1
+          },
+          "complexity": {
+            "easy": 2
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Which quadratic has sum of roots equal to {S}?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Sum and product of roots of {quadratic}; OR discriminant and nature of roots of {quadratic}.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "forming a quadratic from roots",
+          "askedInPapers": 1,
+          "perPaper": 0.05,
+          "sections": {
+            "A(1m)": 1
+          },
+          "complexity": {
+            "easy": 1
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Quadratic whose roots are {p}+sqrt({q}) and {p}-sqrt({q}).",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "conjugate roots of quadratic with rational coefficients",
+          "askedInPapers": 1,
+          "perPaper": 0.05,
+          "sections": {
+            "A(1m)": 1
+          },
+          "complexity": {
+            "medium": 1
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "If {p}+sqrt({q}) is root of rational quadratic, other root is {p}-sqrt({q}).",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "forming equation from given roots",
+          "askedInPapers": 1,
+          "perPaper": 0.05,
+          "sections": {
+            "A(1m)": 1
+          },
+          "complexity": {
+            "easy": 1
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Which quadratic has roots {r} and 1/{r}?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "identifying quadratic equations",
+          "askedInPapers": 1,
+          "perPaper": 0.05,
+          "sections": {
+            "A(1m)": 1
+          },
+          "complexity": {
+            "easy": 1
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Which of the following is a quadratic equation?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Arithmetic Progressions",
+      "avgMarksPerPaper": 5,
+      "topics": [
+        {
+          "topic": "nth term",
+          "askedInPapers": 13,
+          "perPaper": 0.62,
+          "sections": {
+            "D(5m)": 2,
+            "A(1m)": 7,
+            "C(3m)": 1,
+            "E(4m)": 3
+          },
+          "complexity": {
+            "hard": 3,
+            "easy": 3,
+            "medium": 7
+          },
+          "competencyShare": 0.23,
+          "figureShare": 0.08,
+          "templates": [
+            {
+              "template": "Ratio of {m}th to {n}th term is {p}:{q}; find ratio of other terms and of sums; OR {N} logs stacked in rows {a}, {a-1},... find rows and top row.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Next term of AP sqrt({a}), sqrt({b}), sqrt({c}), ...",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "The {k}th term from the end of AP {a}, {a-d}, ..., {last}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "If p-th term is q and q-th term is p, prove n-th term is p+q-n.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Ratio of {m}th and {n}th term is {a}:{b}; ratio of {k}th and {j}th and of sums; OR S6={x}, S16={y}; find S10.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "nth term = {a}+{d}n; first term, position of value, sum of first {m}, term n-2.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "AP {sqrt a, sqrt b, sqrt c,...}; find next term.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "If S_m = {am²+bm}, find the {k}th term.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "sum of n terms",
+          "askedInPapers": 12,
+          "perPaper": 0.57,
+          "sections": {
+            "D(5m)": 3,
+            "A(1m)": 2,
+            "C(3m)": 4,
+            "E(4m)": 2,
+            "B(2m)": 1
+          },
+          "complexity": {
+            "medium": 10,
+            "hard": 2
+          },
+          "competencyShare": 0.25,
+          "figureShare": 0.08,
+          "templates": [
+            {
+              "template": "How many terms of AP {a}, {a-d}, ... give sum {S}? Explain the double answer.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Sum of first n terms is {formula}; find a.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "(a) a1+a8={s}, a1*a8={p}; find a, d, S{n}; (b) S{m} and last-{k} sum given; find a, d, total.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "(a) S_m=S_n implies S_{m+n}=0; (b) three consecutive terms with sum {s}, squares sum {q}; find them.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "(a) S_{m}, S_{n} known, find S_{k}; (b) ratio of two terms and S_6 given; find a and d.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "(a) S_{14}={S}, a={a}; find a_{20}, a_n; (b) first {a}, last {l}, sum {S}; find n and d.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Rounds start at {a} m, increase {d} m each; find terms, nth round, sum of {n} rounds.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "(a) a_{3}+a_{7}={s}, product {p}; find S_{16}. (b) Ages start {a}, common difference {d} months, total {T}; eldest age.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "finding n",
+          "askedInPapers": 6,
+          "perPaper": 0.29,
+          "sections": {
+            "C(3m)": 1,
+            "A(1m)": 5
+          },
+          "complexity": {
+            "medium": 4,
+            "easy": 2
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "AP with first term {a}, fifth term {b}, last {L}; find n. OR first negative term of {AP}.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "AP with first term {a}, last term {l}, sum {S}; find n.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Which term of AP {a, a+d, ...} equals {value}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Number of terms in AP {a, a+d, ..., l}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Assertion: in AP {…, l}, the {n}th term from the end is {v}. Reason: l-(n-1)d.",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Number of multiples of {k} between {a} and {b}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "common difference",
+          "askedInPapers": 6,
+          "perPaper": 0.29,
+          "sections": {
+            "A(1m)": 6
+          },
+          "complexity": {
+            "easy": 5,
+            "medium": 1
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Common difference of AP with a_n = {p}n + {q}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "In AP, a_{p} - a_{q} = {value}; find d.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Common difference of AP {1/(2n), (1-n)/(2n), ...}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Assertion: common difference of {AP} is {d}. Reason: d = a_n - a_(n-1).",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "nth term = {a}n+{b}; find the common difference.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            },
+            {
+              "template": "Find the common difference of the AP {a}, {2a}, {3a}, ...",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "middle terms and conditions for ap",
+          "askedInPapers": 4,
+          "perPaper": 0.19,
+          "sections": {
+            "A(1m)": 4
+          },
+          "complexity": {
+            "easy": 2,
+            "medium": 2
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "If {expr1}, {expr2}, {expr3} are in AP, find p.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Assertion: a,b,c in AP iff 2b = a + c; Reason: sum of first n odd numbers = n^2.",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Three AP numbers sum to {S}; find the middle one.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Which given sequence is not an AP?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "word problems",
+          "askedInPapers": 4,
+          "perPaper": 0.19,
+          "sections": {
+            "C(3m)": 1,
+            "E(4m)": 3
+          },
+          "complexity": {
+            "medium": 4
+          },
+          "competencyShare": 1,
+          "figureShare": 0.5,
+          "templates": [
+            {
+              "template": "Principal {P} at {r}% SI; interest after years 1,2,3; AP? Find interest at year {n}.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Pattern with {a}, {a+d}, ... dots in successive squares.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            },
+            {
+              "template": "Potato race: bucket {a} m from first potato, gap {d} m, {n} potatoes.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            },
+            {
+              "template": "Loan {L} repaid in instalments starting {a}, increasing by {d} monthly.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Triangles",
+      "avgMarksPerPaper": 8.3,
+      "topics": [
+        {
+          "topic": "basic proportionality theorem",
+          "askedInPapers": 28,
+          "perPaper": 1.33,
+          "sections": {
+            "B(2m)": 3,
+            "A(1m)": 17,
+            "D(5m)": 8
+          },
+          "complexity": {
+            "medium": 16,
+            "easy": 9,
+            "hard": 3
+          },
+          "competencyShare": 0,
+          "figureShare": 0.79,
+          "templates": [
+            {
+              "template": "In triangle ABC with XZ parallel to BC, AZ = {a}, ZC = {b}, BM = {c}, MC = {d}; find XY.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "DE || BC, AD = {a}, DB = AE = {b}, EC = x; find x.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "PQ || BC with PB = {a}, AP = {b}, AQ = {c}; find AC.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "DE || BC, AD = {a}, DB = {b}, AE = {c}, EC = x; find x.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "DE || BC, AD = {a}, AB = {b}, EC = {c}; find AE.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "DE || BC, AD = x, DB = x-{a}, AE = x+{b}, EC = x-{c}; find x; OR trapezium diagonals: OA/OC = OB/OD.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "(a) prove BPT; (b) three perpendiculars to a line, prove 1/x + 1/z = 1/y.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "In triangle, DE parallel to BC with {AD, DB, BC}; find DE.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "proofs on similar triangles",
+          "askedInPapers": 21,
+          "perPaper": 1,
+          "sections": {
+            "D(5m)": 9,
+            "C(3m)": 2,
+            "B(2m)": 8,
+            "A(1m)": 1,
+            "E(4m)": 1
+          },
+          "complexity": {
+            "medium": 11,
+            "hard": 10
+          },
+          "competencyShare": 0.05,
+          "figureShare": 0.62,
+          "templates": [
+            {
+              "template": "Prove that a line parallel to one side of a triangle divides the other two sides proportionally.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Show triangle ABC ~ PQR when sides and median are proportional; OR prove EL = 2BL in parallelogram with midpoint M.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "D on BC with angle ADC = angle BAC; prove CA^2 = CB·CD; OR ABC ~ PQR, prove AB/PQ = AD/PM.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "CD perpendicular bisector of AB, EF perpendicular to CD; prove CF/CD = FG/DG; OR parallelogram, BE bisects CD, prove EL = 2BL.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Isosceles ABC, AD ⊥ BC, EF ⊥ AC; prove ABD ~ ECF.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Diagonal bisects angles at two vertices of quadrilateral; prove similarity and side equality.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "From EA/EC = EB/ED prove triangles EAB and ECD similar.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "(a) E on AD produced in parallelogram ABCD, show ABE ~ CFB; (b) proportional sides and median imply similarity.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "similarity criteria",
+          "askedInPapers": 18,
+          "perPaper": 0.86,
+          "sections": {
+            "A(1m)": 17,
+            "B(2m)": 1
+          },
+          "complexity": {
+            "easy": 9,
+            "medium": 9
+          },
+          "competencyShare": 0,
+          "figureShare": 0.33,
+          "templates": [
+            {
+              "template": "If triangle ABC ~ PQR with angle A = {a} and angle R = {r}, find angle B.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "AB || PQ, AB = {a}, PQ = {b}, OB = {c}; find OP.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Triangle ABC ~ QPR with AC = {a}, BC = {b}, QR = {c}; find PR.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Given AB/DE = AC/DF, which angle equality gives similarity?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Triangle PQR ~ ABC, PQ = {a}, AB = {b}, perimeter of ABC {P}; find perimeter of PQR.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Chords AB and CD meet at P; identify the similarity statement.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "In ABC and DEF, two angles equal and AB={k}DE; classify the pair.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "(a) ΔABC~ΔPQR with {AB,BC,AC,PR}; find PQ+QR. (b) From {ratio} and {angle equality}, show similarity.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "areas of similar triangles",
+          "askedInPapers": 5,
+          "perPaper": 0.24,
+          "sections": {
+            "A(1m)": 2,
+            "B(2m)": 2,
+            "D(5m)": 1
+          },
+          "complexity": {
+            "medium": 4,
+            "hard": 1
+          },
+          "competencyShare": 0,
+          "figureShare": 0.6,
+          "templates": [
+            {
+              "template": "Perimeters of similar triangles ABC and PQR are {p1}, {p2}; find PQ/AB.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Triangle AHK ~ ABC with AK, BC, HK given; find AC.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "(a) Similar ΔABC,ΔPQR ratio {m}:{n}, altitudes AD,PS; prove ΔADC~ΔPSR, PS, area ratio. (b) BPT and AB/BC=DE/EF.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "(a) ΔAHK~ΔABC with AK, BC, HK given; find AC. (b) XY∥QR with ratio and PR; find YR.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            },
+            {
+              "template": "ΔABC~ΔQRP, AB={a}, BC={b}, PR={c}; find QR.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "shadow/ladder problems",
+          "askedInPapers": 2,
+          "perPaper": 0.1,
+          "sections": {
+            "A(1m)": 1,
+            "B(2m)": 1
+          },
+          "complexity": {
+            "medium": 2
+          },
+          "competencyShare": 1,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Pole {h} casts shadow {s}; tower shadow {S}; find tower height.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "(a) Boy {h} tall moves {v} from lamp post {H}; shadow after {t}s. (b) In parallelogram, ΔABE~ΔCFB.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "pythagoras theorem and its converse",
+          "askedInPapers": 2,
+          "perPaper": 0.1,
+          "sections": {
+            "A(1m)": 1,
+            "D(5m)": 1
+          },
+          "complexity": {
+            "easy": 1,
+            "medium": 1
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Assertion: ladder {6} m from wall reaches {8} m so length {10}. Reason: angle with ground {60°}.",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Isosceles triangle perimeter {P}, equal side = {f} of base; find area.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Coordinate Geometry",
+      "avgMarksPerPaper": 6.1,
+      "topics": [
+        {
+          "topic": "distance formula",
+          "askedInPapers": 23,
+          "perPaper": 1.1,
+          "sections": {
+            "A(1m)": 13,
+            "C(3m)": 3,
+            "B(2m)": 5,
+            "E(4m)": 2
+          },
+          "complexity": {
+            "easy": 8,
+            "medium": 14,
+            "hard": 1
+          },
+          "competencyShare": 0.09,
+          "figureShare": 0.13,
+          "templates": [
+            {
+              "template": "Distance between {pt1} and {pt2}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Q{pt} equidistant from P{pt} and R(x, {y}); find x.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Distance of point ({x}, {y}) from the x-axis.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Distance from origin of ({x}, {y}).",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Distance between P({x1}, {y}) and Q({x2}, {y}).",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Assertion: A, B on circle centred O so x = {x}; Reason: centre is midpoint of each chord.",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Length of median AD of triangle with vertices {A,B,C}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Distance between {(a,b)} and {(x,b)} is {d}; find x.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "section formula",
+          "askedInPapers": 18,
+          "perPaper": 0.86,
+          "sections": {
+            "A(1m)": 6,
+            "B(2m)": 5,
+            "C(3m)": 7
+          },
+          "complexity": {
+            "medium": 15,
+            "easy": 2,
+            "hard": 1
+          },
+          "competencyShare": 0,
+          "figureShare": 0.06,
+          "templates": [
+            {
+              "template": "In what ratio does the x-axis divide the segment joining A{pt1} and B{pt2}?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Point P with AP:AB = {m}:{n} on A{pt}B{pt}; OR P(x,y) equidistant from {A},{B}, show x = y.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Ratio in which y-axis divides segment joining {A} and {B}.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Ratio of division of A{pt}, B{pt} by x-axis.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "(a) point {(x,y)} divides segment joining {P,Q}; find ratio and y; (b) midpoint quadrilateral of {rectangle}, show diagonals bisect.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Point divides segment joining {A} and {B} in ratio {m:n}; find its coordinates.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Assertion: point dividing {A,B} in {m:n} is {coordinates}; Reason: section formula.",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "(a) ratio in which y-axis divides {P,Q}; (b) R on PQ with PR={k}QR.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "geometric shapes from coordinates",
+          "askedInPapers": 12,
+          "perPaper": 0.57,
+          "sections": {
+            "C(3m)": 3,
+            "A(1m)": 4,
+            "B(2m)": 4,
+            "E(4m)": 1
+          },
+          "complexity": {
+            "hard": 2,
+            "easy": 2,
+            "medium": 8
+          },
+          "competencyShare": 0.08,
+          "figureShare": 0.25,
+          "templates": [
+            {
+              "template": "Two vertices {A},{B} of an equilateral triangle, origin inside; find third vertex (sqrt3 = {v}).",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Rectangle ABCD with B{pt}, C{pt}, D{pt}; find A.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Show {P},{Q},{R} are vertices of a right-angled triangle.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Square PQRS with P{pt}, Q{pt}; find R,S; area or diagonal; ratio S divides CA.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Type of triangle with vertices {A,B,C}.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Parallelogram ABCD with {A,B,C}; find D.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Points {A},{B},{C} form which kind of triangle?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "P(x,y),Q,R with right angle at P; relation of x,y; x when y={v}.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "midpoint",
+          "askedInPapers": 9,
+          "perPaper": 0.43,
+          "sections": {
+            "B(2m)": 1,
+            "A(1m)": 5,
+            "E(4m)": 1,
+            "C(3m)": 2
+          },
+          "complexity": {
+            "medium": 5,
+            "easy": 4
+          },
+          "competencyShare": 0.11,
+          "figureShare": 0.11,
+          "templates": [
+            {
+              "template": "Line meets axes at P, Q; midpoint R{pt}; find P and Q.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Centre {C}, one diameter end {P}; find the other end.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Assertion: midpoint ratio 1:1; Reason: point {(x,k)} divides {A,B} in {ratio}.",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Points plotted on a grid; midpoint, distance, ratio point, coordinates of D.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "The midpoint of {P} and {Q} lies on which axis?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Midpoint of A({a},{b}) and B(k,{c}) satisfies {line}; find k.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Line x/{a}+y/{b}=1 meets axes at P,Q; midpoint of PQ?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "(a) Midpoint of {A},{B(k,..)} lies on {line}; find k. (b) Points dividing {A}{B} into four equal parts.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "axis intercepts and distance from axes",
+          "askedInPapers": 3,
+          "perPaper": 0.14,
+          "sections": {
+            "A(1m)": 3
+          },
+          "complexity": {
+            "medium": 1,
+            "easy": 2
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Assertion: point {P} is where line {eq} meets y-axis; Reason: its distance from x-axis is {d}.",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Distance of ({x}, {y}) from x-axis.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Point where line {ax - y = c} cuts y-axis.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "equations of lines and axes",
+          "askedInPapers": 2,
+          "perPaper": 0.1,
+          "sections": {
+            "A(1m)": 2
+          },
+          "complexity": {
+            "easy": 2
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "The line {ax+by=0} is which of the following?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Equation of line parallel to x-axis at {d} units {below}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "distance from axes",
+          "askedInPapers": 2,
+          "perPaper": 0.1,
+          "sections": {
+            "A(1m)": 2
+          },
+          "complexity": {
+            "easy": 2
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Point A is {d} from x-axis; which coordinates are impossible?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Distance of A({x},{y}) from the x-axis.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "collinearity and area of triangle",
+          "askedInPapers": 1,
+          "perPaper": 0.05,
+          "sections": {
+            "A(1m)": 1
+          },
+          "complexity": {
+            "medium": 1
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Area of triangle formed by x/a + y/b = 1 with the axes.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "finding a point or ratio",
+          "askedInPapers": 1,
+          "perPaper": 0.05,
+          "sections": {
+            "B(2m)": 1
+          },
+          "complexity": {
+            "medium": 1
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "(a) ratio in which y=x divides segment {P,Q}; (b) median BE of triangle {A,B,C}.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Trigonometry",
+      "avgMarksPerPaper": 12,
+      "topics": [
+        {
+          "topic": "identities and proofs",
+          "askedInPapers": 38,
+          "perPaper": 1.81,
+          "sections": {
+            "C(3m)": 21,
+            "A(1m)": 11,
+            "B(2m)": 6
+          },
+          "complexity": {
+            "medium": 31,
+            "easy": 2,
+            "hard": 5
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Prove (tanθ + secθ - 1)/(tanθ - secθ + 1) = (1+sinθ)/cosθ.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Prove (1/cosθ - cosθ)(1/sinθ - sinθ) = 1/(tanθ + cotθ).",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Express secθ in terms of cotθ.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Prove (sinA - 2sin^3A)/(2cos^3A - cosA) = tanA; OR prove secA(1-sinA)(secA+tanA)=1.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Given acosθ + bsinθ = m, asinθ - bcosθ = n prove a^2+b^2=m^2+n^2; OR prove sum of sqrt fractions = 2cosecA.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Prove tanθ/(1-cotθ) + cotθ/(1-tanθ) = 1 + secθ cosecθ.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Simplify 1/sin^2θ - cos^2θ/sin^2θ.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Which identity among the listed is not correct for an acute angle?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "heights and distances (single or two angles of elevation/depression)",
+          "askedInPapers": 34,
+          "perPaper": 1.62,
+          "sections": {
+            "D(5m)": 12,
+            "B(2m)": 2,
+            "A(1m)": 11,
+            "E(4m)": 9
+          },
+          "complexity": {
+            "hard": 5,
+            "easy": 10,
+            "medium": 19
+          },
+          "competencyShare": 0.79,
+          "figureShare": 0.26,
+          "templates": [
+            {
+              "template": "Tower of height {h}, elevation {a} from other tower foot, {b} reverse; find distance, height, wire; OR spherical balloon subtending {x}, centre elevation {y}: prove height = sqrt2·r.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Shadow length is {k} times tower height; find sun's elevation; OR elevation {θ} from {d} away; find height.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Lighthouse {h} m, depressions {a}, {b} of two ships; find distance; OR building {h}, elevations {a}, {b}; find tower height.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Pole of height {h} casts shadow {s}; find the elevation.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Tower {h}, depressions {a},{b} of two cars; find distance; OR building {h}, elevation {a} of top, depression {b} of foot; find tower height.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Observer elevations {a} and {b}, separated by {d}; find basket height and distances.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Pole height {h}, tanθ = {r}; find shadow length.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Tower sections A,B, point O {d} from base; elevations {a} and {b}; find wire length, AB, height.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "trigonometric ratios of standard angles",
+          "askedInPapers": 16,
+          "perPaper": 0.76,
+          "sections": {
+            "A(1m)": 9,
+            "B(2m)": 7
+          },
+          "complexity": {
+            "easy": 9,
+            "medium": 7
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Evaluate |tan^2 {A} - sec^2 {B} + sin^2 {C}|.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Evaluate (5cos^2{A}+4sec^2{B}-tan^2{C})/(sin^2{D}+cos^2{D}); OR solve sin(A-B)=0 and 2cos(A+B)-1=0.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Evaluate 2tan{A}/(1+tan^2{A}).",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "(a) evaluate {expression of standard-angle ratios}; (b) verify {identity} for {A},{B}.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "(a) evaluate {expression}; (b) 2sin(A+B)={v1}, cos(A-B)={v2}; find A,B.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "If cos A={v1} and sin B={v2}, find tan(A+B).",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Evaluate (cos {a} + sin {b}) / (sec {c} + cosec {d}).",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "(a) evaluate {expr in sin, cos, sec, tan}; (b) sin(A-B), cos(A+B) given; find A and B.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "evaluating expressions",
+          "askedInPapers": 15,
+          "perPaper": 0.71,
+          "sections": {
+            "B(2m)": 4,
+            "A(1m)": 11
+          },
+          "complexity": {
+            "medium": 10,
+            "easy": 5
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "If sinθ + cosθ = {k}, find sinθ·cosθ; OR given sin α and cot β find cosec α + cosec β.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Solve for p in 4cot^2{A} - sec^2{B} + sin^2{C} + p = {v}; OR given cosA + cos^2A = 1 find sin^2A + sin^4A.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "If cos(A+B)={0}, find cos((A+B)/2).",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "If sin x = cos x, find {sec x * sin x}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "If sin x = 1, find value of {sin(x/3)} expression.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Evaluate {tan²θ - (1 - sec θ)/cos θ type expression}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "(a) Given {expression of x,y with trig values}={c}, find {x+2y}. (b) Evaluate {tan²θ/(sin²θ+cos²φ)}.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "If sin{a}·tan{b}={expression in k}, find k.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "ratio from a given ratio",
+          "askedInPapers": 10,
+          "perPaper": 0.48,
+          "sections": {
+            "A(1m)": 8,
+            "B(2m)": 2
+          },
+          "complexity": {
+            "medium": 5,
+            "easy": 5
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "If tan A = {value}, find ({a}sinA + {b}cosA)/({a}sinA - {b}cosA).",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "If tanθ = {a}/{b}, find (sinθ+cosθ)/(sinθ-cosθ).",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "If {p} sec A = {q}, find cot A.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "If {a}cos²θ+{b}sin²θ={c}, find θ.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "If tan A={v}, find {sin²A/(1+cos²A)}.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Right ΔABC at A, sin B={p/q}; find sec B.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "sin A = {p}/{q}; find cot A.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            },
+            {
+              "template": "Given sin θ = {a}/{b}, find cos θ.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Circles",
+      "avgMarksPerPaper": 7,
+      "topics": [
+        {
+          "topic": "angle and length problems with tangents",
+          "askedInPapers": 30,
+          "perPaper": 1.43,
+          "sections": {
+            "A(1m)": 22,
+            "B(2m)": 5,
+            "C(3m)": 3
+          },
+          "complexity": {
+            "medium": 26,
+            "easy": 4
+          },
+          "competencyShare": 0,
+          "figureShare": 0.83,
+          "templates": [
+            {
+              "template": "PQ touches a circle centred at O; given angle AOB = {x}, find angle ABQ.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Tangents AB, AC from A with angle BAC = {θ}; find angle BOC.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "OT = {d}, angle OTA = {θ}, TA tangent; find TA.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Concentric circles radii {R}, {r}; chord of larger touching smaller.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "AC, AB tangents; angle COD = {θ}; find angle BAO.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "PA and PB tangents from P, Q on circle; find angle AQB.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "PA tangent, PBC secant with BC diameter, angle AOC = {θ}; find angle APB.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Maximum common tangents of two circles intersecting at {n} points.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "proofs with tangents",
+          "askedInPapers": 21,
+          "perPaper": 1,
+          "sections": {
+            "C(3m)": 14,
+            "B(2m)": 3,
+            "D(5m)": 2,
+            "A(1m)": 2
+          },
+          "complexity": {
+            "medium": 13,
+            "hard": 6,
+            "easy": 2
+          },
+          "competencyShare": 0,
+          "figureShare": 0.62,
+          "templates": [
+            {
+              "template": "Tangents from T touch circle at P,Q: prove angle PTQ = 2 angle OPQ; OR find incircle radius given AD, AB, DS.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "QPR tangent at P, O centre: prove angle QAP + angle APR = 90.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Prove angle between tangents from external point + angle subtended at centre by contact points = 180.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "PT tangent, OC perpendicular to chord AB; prove PA·PB = PC^2 - AC^2.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Tangents TP, TQ prove angle PTQ = 2 angle OPQ; OR circle touches BC and extended sides; AQ = half perimeter.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "(a) tangents at ends of diameter and a third tangent; prove angle at centre {90}; (b) circle in quadrilateral with {lengths}; find DC.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "(a) given tangent PQ and angle at A, show BP=BQ; (b) quadrilateral circumscribing circle, show AOB+COD=180.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Prove tangents at ends of a chord make equal angles with the chord.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "tangent perpendicular to radius",
+          "askedInPapers": 13,
+          "perPaper": 0.62,
+          "sections": {
+            "E(4m)": 1,
+            "A(1m)": 11,
+            "B(2m)": 1
+          },
+          "complexity": {
+            "medium": 9,
+            "easy": 4
+          },
+          "competencyShare": 0.08,
+          "figureShare": 0.62,
+          "templates": [
+            {
+              "template": "Tangent AB to circle radius {r} with angle ABO = {θ}; PQ parallel to OA; find AB, OB, AP or PQ.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Assertion: tangent perpendicular to radius at contact; Reason: tangents from external point equal.",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "PQ tangent at P, angle OPQ = x and angle POQ = y; find x + y.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "AB tangent, OA = {d}, angle OAB = {θ}; find radius.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Assertion: tangents at ends of a diameter are parallel; Reason: {property of diameter}.",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Tangent at A, angle between tangent and chord {x}; find angle at B.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Tangents at diameter ends; is angle {BAC}={DCA}? Justify.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Tangent PT and radius OP form {angle}; find angle x at centre.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "tangents from an external point",
+          "askedInPapers": 9,
+          "perPaper": 0.43,
+          "sections": {
+            "A(1m)": 7,
+            "B(2m)": 2
+          },
+          "complexity": {
+            "medium": 7,
+            "easy": 2
+          },
+          "competencyShare": 0,
+          "figureShare": 0.78,
+          "templates": [
+            {
+              "template": "Quadrilateral PQRS circumscribes a circle; PA + CS equals which side?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Triangle with AB = BC = {a}, AC = {b}, incircle; find BP.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Perpendicular tangents of length {t}; find chord AB.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Circles touching at A, common tangent QR, AP={x}; find QR.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "(a) tangents inclined at {angle}, radius {r}; find tangent length; (b) prove tangents at diameter ends parallel.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Point P at {d} from centre, tangent length {t}; find radius.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "PA,PB tangents with centre O and given angle; find ∠APB.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "For circle of radius {r}, which statement about parallel tangents/tangent lengths is true?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "circle touching sides of a figure",
+          "askedInPapers": 5,
+          "perPaper": 0.24,
+          "sections": {
+            "D(5m)": 2,
+            "E(4m)": 1,
+            "A(1m)": 1,
+            "C(3m)": 1
+          },
+          "complexity": {
+            "hard": 2,
+            "medium": 2,
+            "easy": 1
+          },
+          "competencyShare": 0.4,
+          "figureShare": 0.6,
+          "templates": [
+            {
+              "template": "Triangle circumscribes circle radius {r}, BD = {a}, DC = {b}, area {A}; find AB, AC; OR circles radii {r1},{r2} with orthogonal tangents; find common chord.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Incircle of right triangle with sides {a,b}; tangent length x; find lengths and radius.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Parallelogram circumscribes a circle, side {s}; perimeter?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Rectangle circumscribes circle of radius {r}; prove square; perimeter.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Tangents from T to circle M also touching circle N; given MQ, NB, BQ, TP; find quadrilateral type, parallelism, TB, MN.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Areas Related to Circles",
+      "avgMarksPerPaper": 4.9,
+      "topics": [
+        {
+          "topic": "area and perimeter of sector",
+          "askedInPapers": 14,
+          "perPaper": 0.67,
+          "sections": {
+            "D(5m)": 1,
+            "A(1m)": 9,
+            "C(3m)": 3,
+            "E(4m)": 1
+          },
+          "complexity": {
+            "medium": 7,
+            "easy": 7
+          },
+          "competencyShare": 0.07,
+          "figureShare": 0.07,
+          "templates": [
+            {
+              "template": "Sector radius {r}, perimeter {P}; find area.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Perimeter of sector, angle {theta}, radius {r}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Sector area {A}, radius {r}; find central angle.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Perimeter of sector, radius {r}, angle {theta}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Radius {r}, angle {theta}; area of major sector.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "A sector has area {A} and angle {θ}; find the radius.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Circle of diameter {d} with {n} diameters making {2n} equal sectors; find angle, arc, area or wire used.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "A circle is split into {n} equal sectors; central angle?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "combination figures (shaded regions)",
+          "askedInPapers": 10,
+          "perPaper": 0.48,
+          "sections": {
+            "C(3m)": 1,
+            "E(4m)": 7,
+            "D(5m)": 1,
+            "B(2m)": 1
+          },
+          "complexity": {
+            "medium": 9,
+            "hard": 1
+          },
+          "competencyShare": 1,
+          "figureShare": 0.8,
+          "templates": [
+            {
+              "template": "Two wipers, blade {r}, sweep {θ}; find total area cleaned.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Base ABCD with two quadrants and triangle; find areas, cost at rate {r}, arc.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Rectangle {l}×{b} playground with semicircle parking and quadrants of radius {r}; find perimeter, areas, cost.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Horse tied at corner of square field side {s} with rope {r}; grazing area; increase if rope {r2}.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Square field {s}, ropes {r} at corners; field area, grazed area, ungrazed area.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "(a) Sector radius {r}, angle {θ}; find perimeter. (b) Sectors of angles {θ1,θ2,θ3} in radius {r}; shaded area.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Rings of circumference {C}; equilateral ΔOAB inside; find r, ∠AOB, shaded area, rope around unshaded.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Circle radius {r} with inscribed square; find circumference, side, grass cost, area ratio.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "segment area",
+          "askedInPapers": 6,
+          "perPaper": 0.29,
+          "sections": {
+            "D(5m)": 2,
+            "C(3m)": 3,
+            "A(1m)": 1
+          },
+          "complexity": {
+            "medium": 4,
+            "hard": 2
+          },
+          "competencyShare": 0,
+          "figureShare": 0.33,
+          "templates": [
+            {
+              "template": "Chord of circle radius {r} subtends {θ} at centre; find minor and major segment areas.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Circle radius {r}, angle {theta}; find arc length and minor segment area.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Chord of circle radius {r} subtends {θ} at centre; minor segment area.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Chord subtends {θ} at centre of circle of radius {r}; find perimeter of shaded segment.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            },
+            {
+              "template": "Area of segment with radius r and central angle {θ}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            },
+            {
+              "template": "Chord AB subtends {θ} at centre, radius {r}, area of ΔOAB given; perimeter of major sector, segment area.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "arc length",
+          "askedInPapers": 5,
+          "perPaper": 0.24,
+          "sections": {
+            "A(1m)": 5
+          },
+          "complexity": {
+            "easy": 3,
+            "medium": 2
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Arc subtends {theta} at centre; ratio to circumference.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Assertion: circumference {C}, radius {r}; Reason: C = 2 pi r.",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Arc length {l}, radius {r}; find central angle.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "A wire {L} long forms an arc of radius {r}; find the central angle.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Sector radius {r}, area {A}; arc length?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "area and perimeter of sector; arc length",
+          "askedInPapers": 4,
+          "perPaper": 0.19,
+          "sections": {
+            "A(1m)": 3,
+            "C(3m)": 1
+          },
+          "complexity": {
+            "easy": 4
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Arc length of sector with radius {r} and angle {θ}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Area of semicircle of diameter d.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Circumferences in ratio {a}:{b}; ratio of radii?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Circle radius {r}, central angle {θ}; sector area and arc length.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "wheel/clock/garden/wiper contexts",
+          "askedInPapers": 4,
+          "perPaper": 0.19,
+          "sections": {
+            "A(1m)": 2,
+            "B(2m)": 1,
+            "C(3m)": 1
+          },
+          "complexity": {
+            "medium": 4
+          },
+          "competencyShare": 1,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Hour hand of length {r}; angle swept between {t1} and {t2}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "(a) minute hand {l} long sweeps area in {t} minutes; (b) arc length for {theta} at radius {r}.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Hour hand {l} long, from {t1} to {t2}; area of minor and major sectors.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Hour hand moves from {t1} to {t2}; find angle swept.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Surface Areas and Volumes",
+      "avgMarksPerPaper": 5.3,
+      "topics": [
+        {
+          "topic": "combination of solids",
+          "askedInPapers": 19,
+          "perPaper": 0.9,
+          "sections": {
+            "C(3m)": 4,
+            "D(5m)": 2,
+            "A(1m)": 9,
+            "E(4m)": 4
+          },
+          "complexity": {
+            "hard": 4,
+            "medium": 13,
+            "easy": 2
+          },
+          "competencyShare": 0.63,
+          "figureShare": 0.37,
+          "templates": [
+            {
+              "template": "Room of cylinder with hemisphere dome (radius half cylinder height) holds {V}; find height. OR cone filled with ice-cream except lower {f} of volume; find volume.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Cone on hemisphere radius {r}, height equals diameter; total volume.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Largest cone carved from a cube of edge {a}; its volume.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Hollow cylinder length {h}, radius difference {t}, metal volume {V}; find radii.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Tent cylinder height {h1} plus cone, diameter {d}, total height {H}; find slant height, area, volume.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "(a) two cylinders, density {rho}; find mass; (b) capsule cylinder plus two hemispheres; find area and volume.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Cylinder+hemisphere room, r=h/{k}, volume of air {V}; find h.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Cylinders of lengths/diameters {big} and {small}; find volume, CSA, ratio, or combined CSA.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "surface area of combination",
+          "askedInPapers": 14,
+          "perPaper": 0.67,
+          "sections": {
+            "D(5m)": 5,
+            "E(4m)": 2,
+            "A(1m)": 5,
+            "C(3m)": 1,
+            "B(2m)": 1
+          },
+          "complexity": {
+            "medium": 7,
+            "easy": 2,
+            "hard": 5
+          },
+          "competencyShare": 0.57,
+          "figureShare": 0.29,
+          "templates": [
+            {
+              "template": "Cylinder with two cones of height {h}, diameter {d}, total length {L}; find volume.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Sphere diameter {d} with {n} dimples of radius {r}; find dimple area, volume, exposed area or ball volume.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Ratio of surface area of {solid} to its two cut pieces together.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Two cubes of edge {a} joined; surface area of cuboid; reason about one face.",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "TSA of solid hemisphere : r^2.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Cylinder height {h}, radius {r}, hemisphere removed from each end; total surface area.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Assertion: two hemispheres of radius r joined make a sphere. Reason: TSA of sphere is {incorrect formula}.",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Cube edge {a} with hemispherical dents diameter {d}, opposite faces summing to {7}; find total surface area.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "capacity and cost problems",
+          "askedInPapers": 5,
+          "perPaper": 0.24,
+          "sections": {
+            "E(4m)": 2,
+            "A(1m)": 3
+          },
+          "complexity": {
+            "medium": 5
+          },
+          "competencyShare": 0.6,
+          "figureShare": 0.4,
+          "templates": [
+            {
+              "template": "Cylinder cup d={d}, h={h}; hemisphere cup d={D}; find base area, capacities, CSA.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Cone with base area {A}, height {h}; find volume.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Packets {l,b,h} packed in carton {L,B,H}; volume, surface area, count, cup capacity.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Hemispherical tent of radius {r} with door of area {a}; find outer area.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            },
+            {
+              "template": "Hollow hemisphere, outer radius {R}, thickness {t}; volume of material.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "curved surface area of a single solid",
+          "askedInPapers": 2,
+          "perPaper": 0.1,
+          "sections": {
+            "A(1m)": 2
+          },
+          "complexity": {
+            "easy": 2
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "A cylinder of height {h} has curved surface area {S}; find the radius.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Find the curved surface area of a cone with height {h} and radius {r}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "surface area of a single solid",
+          "askedInPapers": 1,
+          "perPaper": 0.05,
+          "sections": {
+            "A(1m)": 1
+          },
+          "complexity": {
+            "easy": 1
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Total surface area of a solid hemisphere of diameter d.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "volume of water flowing through a channel",
+          "askedInPapers": 1,
+          "perPaper": 0.05,
+          "sections": {
+            "A(1m)": 1
+          },
+          "complexity": {
+            "medium": 1
+          },
+          "competencyShare": 1,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "River {d} deep, {w} wide, flowing at {v}; volume in {t}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "conversion/melting and recasting",
+          "askedInPapers": 1,
+          "perPaper": 0.05,
+          "sections": {
+            "D(5m)": 1
+          },
+          "complexity": {
+            "hard": 1
+          },
+          "competencyShare": 1,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Cone height {h}, radius {R}, full; spheres radius {r} displace {f} of water; count.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "surface area of a single solid (hemisphere)",
+          "askedInPapers": 1,
+          "perPaper": 0.05,
+          "sections": {
+            "A(1m)": 1
+          },
+          "complexity": {
+            "easy": 1
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Total surface area of a solid hemisphere of diameter {d}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Statistics",
+      "avgMarksPerPaper": 5.8,
+      "topics": [
+        {
+          "topic": "mean (direct, assumed mean, step deviation)",
+          "askedInPapers": 12,
+          "perPaper": 0.57,
+          "sections": {
+            "A(1m)": 6,
+            "D(5m)": 4,
+            "C(3m)": 2
+          },
+          "complexity": {
+            "easy": 3,
+            "medium": 8,
+            "hard": 1
+          },
+          "competencyShare": 0.08,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "If each observation is increased by {c}, what happens to the mean?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Class table with {n} periods; find mean and median.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Each of n observations reduced by {c}; effect on mean.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Find mean of table with classes {c1}..{ck} and frequencies {f}.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Value of sum f_i(x_i - mean) for a frequency distribution.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Mean of grouped data with classes {width} and frequencies {f}.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Mean of five is {m}; first three mean {m1}; last three mean {m2}; find third.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Data containing {x+a, 2x+b,...} has mean {m}; find x.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "relation between mean/median/mode",
+          "askedInPapers": 11,
+          "perPaper": 0.52,
+          "sections": {
+            "A(1m)": 11
+          },
+          "complexity": {
+            "easy": 9,
+            "medium": 2
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Mean {a}, median {b}; find mode.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 2,
+              "years": [
+                2026
+              ]
+            },
+            {
+              "template": "Empirical relation between mode, median, mean.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Mean {a}, median {b}; mode?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Mode - median = {d}; find median - mean.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Mode={a}x, mean={b}x; find the median.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Mean={a}, median={b}; mode?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "In x·median + y·mean = z·mode, find x+y+z.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Mode={a}, mean+median={s}; find mean, median.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "median of grouped data",
+          "askedInPapers": 9,
+          "perPaper": 0.43,
+          "sections": {
+            "E(4m)": 4,
+            "A(1m)": 3,
+            "D(5m)": 2
+          },
+          "complexity": {
+            "medium": 6,
+            "easy": 1,
+            "hard": 2
+          },
+          "competencyShare": 0.44,
+          "figureShare": 0.11,
+          "templates": [
+            {
+              "template": "Rainfall class table; find modal class, median/mean, and count with at least {threshold}.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Term for the central value of arranged data.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Grouped table of calls; median class, probability, median/mode.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Each observation increased by {k}; what happens to the median.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Grouped times; median class, mean or mode, cumulative count under {t}.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Grouped rainfall table; find modal class, median or mean, and count in classes above {limit}.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Median of {100} values is the mean of which two observations?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Frequency table with x,y missing, N={230}, median={46}; find x and y.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "missing frequency",
+          "askedInPapers": 7,
+          "perPaper": 0.33,
+          "sections": {
+            "D(5m)": 6,
+            "A(1m)": 1
+          },
+          "complexity": {
+            "hard": 5,
+            "medium": 1,
+            "easy": 1
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Frequency table with missing x, total {N}; find x, median, mean.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Mass table with unknown x, total {N}; find x, mean, and mode.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Table of classes with frequency f missing, mean={m}; find f and the mode.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "The mean of {list with x} is {m}; find x.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "(a) Median {m}, total {n}; find p, q. (b) Find mean and mode of a frequency table.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            },
+            {
+              "template": "(a) Mean {m}, total {n}; find p, q. (b) Median and mode of grouped data.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            },
+            {
+              "template": "Mean {m}, total frequency {n}; find x and y in the frequency table.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "mode of grouped data",
+          "askedInPapers": 6,
+          "perPaper": 0.29,
+          "sections": {
+            "A(1m)": 3,
+            "E(4m)": 1,
+            "D(5m)": 2
+          },
+          "complexity": {
+            "medium": 3,
+            "easy": 2,
+            "hard": 1
+          },
+          "competencyShare": 0.5,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Given a less-than cumulative distribution of {n} students, find the modal class.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Which measure shows most frequently obtained marks.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Age-grouped table; modal class lower limit, median class, count below {limit}, empirical relation.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Class-interval table; compute mode and mean.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Highest number of students got {x}; is it mean, median, mode or range?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Grouped frequency table of ages; find mode and median.",
+              "section": "D",
+              "marks": 5,
+              "type": "long",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "cumulative frequency and ogives",
+          "askedInPapers": 1,
+          "perPaper": 0.05,
+          "sections": {
+            "A(1m)": 1
+          },
+          "complexity": {
+            "easy": 1
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "The cumulative frequency for median adds frequencies of which classes?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Probability",
+      "avgMarksPerPaper": 5.2,
+      "topics": [
+        {
+          "topic": "dice (one or two)",
+          "askedInPapers": 14,
+          "perPaper": 0.67,
+          "sections": {
+            "A(1m)": 11,
+            "C(3m)": 3
+          },
+          "complexity": {
+            "medium": 10,
+            "easy": 4
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Two dice thrown; P(difference of numbers = {d}).",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Two dice thrown; probability sum is {s1}, {s2} or {s3}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Two dice; probability sum is more than {n}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Probability two dice show different numbers.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Two dice; probability both numbers are {odd}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Two dice thrown; P(|difference|={d})?",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Die thrown once; P(number is not a factor of {n})?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Two dice; P(sum ≤ {k})?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "numbers/lottery",
+          "askedInPapers": 13,
+          "perPaper": 0.62,
+          "sections": {
+            "A(1m)": 9,
+            "E(4m)": 3,
+            "C(3m)": 1
+          },
+          "complexity": {
+            "easy": 6,
+            "medium": 7
+          },
+          "competencyShare": 0.38,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Probability of winning is {p}; with {N} tickets sold, how many were bought?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "A card drawn from 1..{N}; P(perfect cube)?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Frequency table of {N} schools by computers; find probabilities of given ranges.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Draw one from {N} numbered balls; probabilities of given number, parity, multiples, colour+parity.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "From list {numbers} remove {even}; probability a random one is {prime}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Cards numbered {a} to {b}; probability the number is a perfect square.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Digit picked from {1..9}; probability of {odd prime}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "(a) three coins: P(at least one head), P(exactly two tails), P(at most one tail); (b) discs 1-90, three events.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "complementary events",
+          "askedInPapers": 9,
+          "perPaper": 0.43,
+          "sections": {
+            "A(1m)": 8,
+            "B(2m)": 1
+          },
+          "complexity": {
+            "easy": 4,
+            "medium": 5
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "If P(event) = p and P(not event) = q, relate p and q.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Probability of event is {p}; find probability of its complement.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "P(correct)=1/x, P(not correct)={p}; find x.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Assertion: event happens {k} of {n} times, probability of not happening {p}; Reason: complement rule.",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "P(E)+P(not E)=q; compute q^2 - {k}.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Assertion: P of choosing a number from 1..{n} is {p}. Reason: P(E)=1 means sure event.",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "P(correct)={expr1 in x}, P(not correct)={expr2 in x}; find x.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Assertion: events '<{a}' and '>{a}' on a die are complementary. Reason: P(E)+P(F)=1.",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "classical probability basics",
+          "askedInPapers": 8,
+          "perPaper": 0.38,
+          "sections": {
+            "A(1m)": 5,
+            "E(4m)": 2,
+            "B(2m)": 1
+          },
+          "complexity": {
+            "easy": 4,
+            "medium": 4
+          },
+          "competencyShare": 0.38,
+          "figureShare": 0.25,
+          "templates": [
+            {
+              "template": "In a group of {n}, {k} cannot swim; P(person can swim)?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Which of these numbers cannot be a probability?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Two spinners; list outcomes, P(win), net fund for {N} players with win/loss payoffs.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Survey of {n} people, pie chart of modes; probability and counts.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Boundary on {a} of {b} balls; P(not boundary)?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Two people born in a {31}-day month; P(same date), P(different date).",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Which of the listed numbers cannot be a probability?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            },
+            {
+              "template": "A: P(53 {day}) in leap year is {p}; R: same for non-leap year is {q}.",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "balls/bags",
+          "askedInPapers": 8,
+          "perPaper": 0.38,
+          "sections": {
+            "B(2m)": 4,
+            "A(1m)": 3,
+            "C(3m)": 1
+          },
+          "complexity": {
+            "easy": 4,
+            "medium": 4
+          },
+          "competencyShare": 0.13,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "A bag has {r} red, {b} blue, {y} yellow; find P(red) and P(yellow).",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Bag with {p} pink, {b} blue, {y} yellow; P(neither blue nor pink).",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Carton of {n} items: {g} good, {M} major defects, {m} minor; probability for trader who rejects only major.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Red = black + {k}; P(red)={p}; total balls?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Red:black = {a}:{b}; P(black)?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Red = black + {k}; P(red)={p/q}; total balls?",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Bag of {N} balls, m blue. (i) P(not blue). (ii) After adding {k} blue balls, probability becomes {r} times earlier; find m.",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            },
+            {
+              "template": "Bag of {N} balls, P(green)={p}; find number of yellow.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "cards",
+          "askedInPapers": 8,
+          "perPaper": 0.38,
+          "sections": {
+            "A(1m)": 4,
+            "B(2m)": 3,
+            "E(4m)": 1
+          },
+          "complexity": {
+            "easy": 6,
+            "medium": 2
+          },
+          "competencyShare": 0.13,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "P(card from 52 is not an ace).",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "P(face card) from 52 cards.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Deck of 52 loses a {colour} card; probability next card is {specific card}.",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Draw one card; P({specific card}) and P(not {rank}).",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "One card from 52; probability it is a {red face card}?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "One of 52 cards dropped; P(not face card), P(black king).",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "P(card is a {rank1} or a {rank2}) from a 52-card deck.",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            },
+            {
+              "template": "Two decks, dropped cards {list}; one card drawn.",
+              "section": "E",
+              "marks": 4,
+              "type": "case",
+              "seen": 1,
+              "years": [
+                2026
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "coins",
+          "askedInPapers": 6,
+          "perPaper": 0.29,
+          "sections": {
+            "A(1m)": 3,
+            "B(2m)": 1,
+            "C(3m)": 2
+          },
+          "complexity": {
+            "easy": 5,
+            "medium": 1
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Three coins tossed; P(at most one tail)?",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Fair coin tossed twice; P(at most one head).",
+              "section": "B",
+              "marks": 2,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Two coins tossed; P(at least one tail).",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            },
+            {
+              "template": "Three coins; P(at least one head), P(exactly one tail), P(two heads, one tail).",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2024
+              ]
+            },
+            {
+              "template": "Three coins tossed; P({exactly k tails}), P({at least one head}), P({at most k heads}).",
+              "section": "C",
+              "marks": 3,
+              "type": "short",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            },
+            {
+              "template": "Two coins tossed; P(at least one head).",
+              "section": "A",
+              "marks": 1,
+              "type": "mcq",
+              "seen": 1,
+              "years": [
+                2025
+              ]
+            }
+          ]
+        },
+        {
+          "topic": "leap year sundays",
+          "askedInPapers": 1,
+          "perPaper": 0.05,
+          "sections": {
+            "A(1m)": 1
+          },
+          "complexity": {
+            "medium": 1
+          },
+          "competencyShare": 0,
+          "figureShare": 0,
+          "templates": [
+            {
+              "template": "Assertion: P(leap year has 53 Sundays) = 2/7; Reason: for non-leap year the same.",
+              "section": "A",
+              "marks": 1,
+              "type": "assertion_reason",
+              "seen": 1,
+              "years": [
+                2023
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

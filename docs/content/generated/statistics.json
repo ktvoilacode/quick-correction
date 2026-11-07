@@ -1,0 +1,316 @@
+[
+ {
+  "chapter": "Statistics",
+  "topic": "Mean of grouped data",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "For a grouped frequency distribution, Σf = 30 and Σfx = 765, where x is the class mark. The mean of the distribution is:",
+  "options": [
+   "25.5",
+   "24.5",
+   "26.5",
+   "765"
+  ],
+  "answer": "Correct option: a) 25.5. Mean = Σfx ÷ Σf = 765 ÷ 30 = 25.5."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean of grouped data",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Using the assumed mean method, a student takes the assumed mean a = 35. If Σf = 50 and Σfd = -100, where d = x - a, the mean is:",
+  "options": [
+   "33",
+   "37",
+   "35",
+   "-65"
+  ],
+  "answer": "Correct option: a) 33. Mean = a + Σfd/Σf = 35 + (-100/50) = 35 - 2 = 33."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean of grouped data",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "In the step deviation method, a = 55, class size h = 10, Σf = 60 and Σfu = -12, where u = (x - a)/h. The mean is:",
+  "options": [
+   "53",
+   "54.8",
+   "57",
+   "55.2"
+  ],
+  "answer": "Correct option: a) 53. Mean = a + h(Σfu/Σf) = 55 + 10 × (-12/60) = 55 - 2 = 53. (54.8 comes from forgetting to multiply by h.)"
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean, median and mode relation",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "For a moderately skewed distribution, the mean is 24 and the median is 22. The mode is:",
+  "options": [
+   "18",
+   "20",
+   "28",
+   "26"
+  ],
+  "answer": "Correct option: a) 18. Mode = 3 Median - 2 Mean = 3(22) - 2(24) = 66 - 48 = 18."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean, median and mode relation",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "For a moderately skewed distribution the mean is 30 and the mode is 36. The median is:",
+  "options": [
+   "32",
+   "33",
+   "48",
+   "34"
+  ],
+  "answer": "Correct option: a) 32. From Mode = 3 Median - 2 Mean: 36 = 3 Median - 60, so Median = 96/3 = 32."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean, median and mode relation",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": true,
+  "text": "In a moderately skewed distribution the median exceeds the mean by 4. By how much does the mode exceed the mean?",
+  "options": [
+   "12",
+   "8",
+   "4",
+   "6"
+  ],
+  "answer": "Correct option: a) 12. Mode - Mean = 3(Median - Mean) from Mode = 3 Median - 2 Mean. So the difference = 3 × 4 = 12."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Median of grouped data",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The following distribution is given. Class: 10-20 | 20-30 | 30-40 | 40-50 | 50-60 ; Frequency: 5 | 9 | 20 | 10 | 6. The median is:",
+  "options": [
+   "35.5",
+   "35",
+   "25.5",
+   "36.5"
+  ],
+  "answer": "Correct option: a) 35.5. n = 50, n/2 = 25. Cumulative frequencies: 5, 14, 34, ... so the median class is 30-40 with l = 30, cf = 14, f = 20, h = 10. Median = 30 + (25 - 14)/20 × 10 = 30 + 5.5 = 35.5."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Median of grouped data",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "For the distribution Class: 0-20 | 20-40 | 40-60 | 60-80 | 80-100 ; Frequency: 12 | 18 | 24 | 14 | 12, the median class is:",
+  "options": [
+   "20-40",
+   "40-60",
+   "60-80",
+   "0-20"
+  ],
+  "answer": "Correct option: b) 40-60. n = 80, n/2 = 40. Cumulative frequencies: 12, 30, 54, ... The first cumulative frequency that is at least 40 is 54, so the median class is 40-60."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mode of grouped data",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The mode of the following data is: Class: 10-20 | 20-30 | 30-40 | 40-50 | 50-60 ; Frequency: 4 | 8 | 20 | 12 | 6.",
+  "options": [
+   "36",
+   "35",
+   "34",
+   "40"
+  ],
+  "answer": "Correct option: a) 36. Modal class = 30-40 (highest frequency 20). l = 30, f1 = 20, f0 = 8, f2 = 12, h = 10. Mode = 30 + (20 - 8)/(40 - 8 - 12) × 10 = 30 + 12/20 × 10 = 36."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mode of grouped data",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The modal class of a distribution is 40-50. The frequency of the modal class is 30, of the preceding class is 12 and of the succeeding class is 18. The mode is:",
+  "options": [
+   "46",
+   "44",
+   "45",
+   "48"
+  ],
+  "answer": "Correct option: a) 46. Mode = l + (f1 - f0)/(2f1 - f0 - f2) × h = 40 + (30 - 12)/(60 - 12 - 18) × 10 = 40 + 18/30 × 10 = 46."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Missing frequency",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The mean of the following distribution is 20. Class: 0-10 | 10-20 | 20-30 | 30-40 ; Frequency: 6 | 8 | p | 6. The value of p is:",
+  "options": [
+   "8",
+   "6",
+   "10",
+   "12"
+  ],
+  "answer": "Correct option: a) 8. Class marks 5, 15, 25, 35. Σf = 20 + p; Σfx = 30 + 120 + 25p + 210 = 360 + 25p. Mean 20: 360 + 25p = 20(20 + p) = 400 + 20p, so 5p = 40 and p = 8."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Missing frequency",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "hard",
+  "competency": false,
+  "text": "In the distribution Class: 0-10 | 10-20 | 20-30 | 30-40 | 40-50 ; Frequency: 5 | x | 12 | y | 4, the total frequency is 40 and the median is 22.5. The value of y is:",
+  "options": [
+   "7",
+   "5",
+   "6",
+   "8"
+  ],
+  "answer": "Correct option: a) 7. Sum: 5 + x + 12 + y + 4 = 40, so x + y = 19. Median class is 20-30 (n/2 = 20), l = 20, cf = 5 + x, f = 12, h = 10: 22.5 = 20 + (20 - 5 - x)/12 × 10, so (15 - x) = 3, x = 12. Then y = 19 - 12 = 7."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mode of grouped data",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The ages of 65 members of a cycling club are recorded as follows. Class: 20-30 | 30-40 | 40-50 | 50-60 | 60-70 ; Frequency: 6 | 10 | 25 | 15 | 9. Find the mode of the ages.",
+  "answer": "Highest frequency 25, so modal class = 40-50. l = 40, f1 = 25, f0 = 10, f2 = 15, h = 10. Mode = l + (f1 - f0)/(2f1 - f0 - f2) × h = 40 + (25 - 10)/(50 - 10 - 15) × 10 = 40 + 15/25 × 10 = 40 + 6 = 46 years."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean of grouped data",
+  "slot": "D-long (5 marks)",
+  "type": "long",
+  "marks": 5,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The daily wages (in rupees) of 50 workers at a construction site are given below. Daily wage: 100-120 | 120-140 | 140-160 | 160-180 | 180-200 ; Frequency: 6 | 11 | 15 | 12 | 6. Find the mean daily wage using the step deviation method.",
+  "answer": "Take a = 150, h = 20, u = (x - 150)/20.\nClass | f | x | u | fu\n100-120 | 6 | 110 | -2 | -12\n120-140 | 11 | 130 | -1 | -11\n140-160 | 15 | 150 | 0 | 0\n160-180 | 12 | 170 | 1 | 12\n180-200 | 6 | 190 | 2 | 12\nΣf = 50, Σfu = 1.\nMean = a + h(Σfu/Σf) = 150 + 20 × (1/50) = 150 + 0.4 = 150.4.\nMean daily wage = Rs 150.40."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean of grouped data",
+  "slot": "D-long (5 marks)",
+  "type": "long",
+  "marks": 5,
+  "complexity": "easy",
+  "competency": true,
+  "text": "The waiting times (in minutes) of 40 patients at a clinic are recorded below. Waiting time: 0-10 | 10-20 | 20-30 | 30-40 | 40-50 ; Frequency: 4 | 9 | 14 | 8 | 5. Find the mean waiting time by the direct method.",
+  "answer": "Class | f | x | fx\n0-10 | 4 | 5 | 20\n10-20 | 9 | 15 | 135\n20-30 | 14 | 25 | 350\n30-40 | 8 | 35 | 280\n40-50 | 5 | 45 | 225\nΣf = 40, Σfx = 1010.\nMean = Σfx/Σf = 1010/40 = 25.25.\nMean waiting time = 25.25 minutes."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Median of grouped data",
+  "slot": "D-long (5 marks)",
+  "type": "long",
+  "marks": 5,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The ages (in years) of 60 visitors to a library are summarised below. Age: 10-20 | 20-30 | 30-40 | 40-50 | 50-60 | 60-70 ; Frequency: 5 | 9 | 20 | 12 | 8 | 6. Find the median age.",
+  "answer": "Class | f | cf\n10-20 | 5 | 5\n20-30 | 9 | 14\n30-40 | 20 | 34\n40-50 | 12 | 46\n50-60 | 8 | 54\n60-70 | 6 | 60\nn = 60, n/2 = 30. The first cf at least 30 is 34, so the median class is 30-40: l = 30, cf (preceding) = 14, f = 20, h = 10.\nMedian = l + (n/2 - cf)/f × h = 30 + (30 - 14)/20 × 10 = 30 + 8 = 38.\nMedian age = 38 years."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean, median and mode relation",
+  "slot": "D-long (5 marks)",
+  "type": "long",
+  "marks": 5,
+  "complexity": "hard",
+  "competency": true,
+  "text": "The marks (out of 50) obtained by 50 students in a test are given below. Marks: 0-10 | 10-20 | 20-30 | 30-40 | 40-50 ; Frequency: 4 | 8 | 10 | 20 | 8. Find the mean (by the assumed mean method) and the median, and hence use the empirical relation to estimate the mode.",
+  "answer": "Mean (assumed mean a = 25):\nClass | f | x | d = x-25 | fd\n0-10 | 4 | 5 | -20 | -80\n10-20 | 8 | 15 | -10 | -80\n20-30 | 10 | 25 | 0 | 0\n30-40 | 20 | 35 | 10 | 200\n40-50 | 8 | 45 | 20 | 160\nΣf = 50, Σfd = 200. Mean = 25 + 200/50 = 29.\nMedian: cf = 4, 12, 22, 42, 50. n/2 = 25, median class 30-40: l = 30, cf = 22, f = 20, h = 10. Median = 30 + (25 - 22)/20 × 10 = 31.5.\nMode = 3 Median - 2 Mean = 3(31.5) - 2(29) = 94.5 - 58 = 36.5.\nMean = 29, Median = 31.5, Mode ≈ 36.5 (which lies in the modal class 30-40)."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mode of grouped data",
+  "slot": "D-long (5 marks)",
+  "type": "long",
+  "marks": 5,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The monthly electricity consumption (in units) of 70 households in a colony is recorded below. Units: 100-150 | 150-200 | 200-250 | 250-300 | 300-350 | 350-400 ; Frequency: 6 | 11 | 25 | 14 | 9 | 5. Find the mode of the data. Also find how many households consumed 200 units or more.",
+  "answer": "Highest frequency is 25, so the modal class is 200-250: l = 200, f1 = 25, f0 = 11, f2 = 14, h = 50.\nMode = l + (f1 - f0)/(2f1 - f0 - f2) × h = 200 + (25 - 11)/(50 - 11 - 14) × 50 = 200 + 14/25 × 50 = 200 + 28 = 228 units.\nHouseholds consuming 200 units or more = 25 + 14 + 9 + 5 = 53.\nMode = 228 units; 53 households."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Missing frequency",
+  "slot": "D-long (5 marks)",
+  "type": "long",
+  "marks": 5,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The median of the following distribution of 100 observations is 38. Class: 10-20 | 20-30 | 30-40 | 40-50 | 50-60 | 60-70 ; Frequency: 8 | x | 30 | 25 | y | 7. Find the values of x and y.",
+  "answer": "Total: 8 + x + 30 + 25 + y + 7 = 100, so x + y = 30 ... (1).\nn/2 = 50. cf before 30-40 is 8 + x. For the median to be 38 (class 30-40, l = 30, f = 30, h = 10):\n38 = 30 + (50 - (8 + x))/30 × 10, so 8 = (42 - x)/3, 24 = 42 - x, x = 18.\nFrom (1): y = 12.\nCheck: cf = 8, 26, 56 so 30-40 is the median class and 30 + (50 - 26)/30 × 10 = 38.\nx = 18, y = 12."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Missing frequency",
+  "slot": "D-long (5 marks)",
+  "type": "long",
+  "marks": 5,
+  "complexity": "hard",
+  "competency": false,
+  "text": "The mean of the following distribution of 50 observations is 52. Class: 0-20 | 20-40 | 40-60 | 60-80 | 80-100 ; Frequency: 7 | p | 12 | q | 8. Find p and q.",
+  "answer": "Total: 7 + p + 12 + q + 8 = 50, so p + q = 23 ... (1).\nClass marks: 10, 30, 50, 70, 90. Σfx = 70 + 30p + 600 + 70q + 720 = 1390 + 30p + 70q.\nMean = Σfx/Σf = 52 gives Σfx = 52 × 50 = 2600, so 30p + 70q = 1210, i.e. 3p + 7q = 121 ... (2).\nFrom (1), 3p + 3q = 69. Subtracting: 4q = 52, q = 13, then p = 10.\nCheck: Σfx = 70 + 300 + 600 + 910 + 720 = 2600, and 2600/50 = 52.\np = 10, q = 13."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean of grouped data",
+  "slot": "E-case-study (4 marks, with sub-parts)",
+  "type": "case",
+  "marks": 4,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A dairy cooperative recorded the litres of milk collected daily over 50 days. Milk collected (litres): 40-50 | 50-60 | 60-70 | 70-80 | 80-90 ; Frequency: 6 | 10 | 16 | 12 | 6.\n(i) Write the class mark of the modal class. [1]\n(ii) On how many days was less than 70 litres of milk collected? [1]\n(iii) Find the mean daily collection. [2]",
+  "answer": "(i) Highest frequency is 16, so the modal class is 60-70 and its class mark is (60 + 70)/2 = 65 litres.\n(ii) Days with less than 70 litres = 6 + 10 + 16 = 32 days.\n(iii) Class marks 45, 55, 65, 75, 85; fx = 270, 550, 1040, 900, 510; Σfx = 3270, Σf = 50. Mean = 3270/50 = 65.4 litres."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Median of grouped data",
+  "slot": "E-case-study (4 marks, with sub-parts)",
+  "type": "case",
+  "marks": 4,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A city transport survey asked 40 commuters how far (in km) they travel to work. Distance (km): 0-5 | 5-10 | 10-15 | 15-20 | 20-25 ; Frequency: 4 | 5 | 20 | 8 | 3.\n(i) Write the modal class. [1]\n(ii) How many commuters travel less than 15 km? [1]\n(iii) Find the median distance. [2]\nOR\n(iii) Find the mode of the distance (correct to 2 decimal places). [2]",
+  "answer": "(i) Highest frequency is 20, so the modal class is 10-15.\n(ii) Commuters travelling less than 15 km = 4 + 5 + 20 = 29.\n(iii) Median: cf = 4, 9, 29, 37, 40; n/2 = 20, median class 10-15: l = 10, cf = 9, f = 20, h = 5. Median = 10 + (20 - 9)/20 × 5 = 10 + 2.75 = 12.75 km.\nOR Mode: l = 10, f1 = 20, f0 = 5, f2 = 8, h = 5. Mode = 10 + (20 - 5)/(40 - 5 - 8) × 5 = 10 + 75/27 = 12.78 km."
+ }
+]

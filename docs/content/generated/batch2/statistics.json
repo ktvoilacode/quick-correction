@@ -1,0 +1,432 @@
+[
+ {
+  "chapter": "Statistics",
+  "topic": "Mean of grouped data",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The marks of 20 students are grouped as follows. Marks: 5-15 | 15-25 | 25-35 | 35-45 | 45-55 ; Frequency: 1 | 5 | 8 | 4 | 2. The mean marks, using class marks, is:",
+  "options": [
+   "$30.5$",
+   "$122$",
+   "$35.5$",
+   "$25.5$"
+  ],
+  "answer": "Correct option: A) $30.5$. Class marks are 10, 20, 30, 40, 50, so $\\sum f_i x_i = 610$ and $\\sum f_i = 20$; mean $= 610 \\div 20 = 30.5$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean of grouped data",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "hard",
+  "competency": true,
+  "text": "A frequency distribution is: Class: 10-30 | 30-50 | 50-70 | 70-90 | 90-110 ; Frequency: 5 | 8 | 14 | 9 | 4. Taking assumed mean $a = 60$ and class size $h = 20$, with $u_i = \\frac{x_i - a}{h}$, the mean of the distribution is:",
+  "options": [
+   "$59.98$",
+   "$59.5$",
+   "$60.5$",
+   "$40$"
+  ],
+  "answer": "Correct option: B) $59.5$. Here $u_i = -2, -1, 0, 1, 2$, so $\\sum f_i u_i = -1$ and $\\sum f_i = 40$; mean $= 60 + 20 \\times \\frac{-1}{40} = 59.5$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean of grouped data",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": true,
+  "text": "In a survey of 30 shops, the class marks of the daily sales (in thousands of rupees) are 12, 18, 24, 30, 36 with frequencies 3, 7, 10, 6, 4 respectively. The mean daily sale (in thousands of rupees) is:",
+  "options": [
+   "$24$",
+   "$25$",
+   "$24.2$",
+   "$22.7$"
+  ],
+  "answer": "Correct option: C) $24.2$. $\\sum f_i x_i = 726$ and $\\sum f_i = 30$, so mean $= 24.2$ (in thousands of rupees)."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mode of grouped data",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The modal class of a distribution is 32-40 with frequency 27. The classes before and after it have frequencies 15 and 9. The mode is:",
+  "options": [
+   "$33.88$",
+   "$36.8$",
+   "$36$",
+   "$35.2$"
+  ],
+  "answer": "Correct option: D) $35.2$. $\\text{Mode} = l + \\frac{f_1 - f_0}{2f_1 - f_0 - f_2} \\times h = 32 + \\frac{12}{30} \\times 8 = 35.2$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mode of grouped data",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The marks of 67 students in a test are: Marks: 0-15 | 15-30 | 30-45 | 45-60 | 60-75 ; Frequency: 7 | 12 | 16 | 22 | 10. The mode of the marks is:",
+  "options": [
+   "$50$",
+   "$52.5$",
+   "$55$",
+   "$46.88$"
+  ],
+  "answer": "Correct option: A) $50$. Modal class is 45-60 with $f_1 = 22, f_0 = 16, f_2 = 10$; mode $= 45 + \\frac{6}{44 - 26} \\times 15 = 50$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Median of grouped data",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The monthly savings (in rupees) of 70 families are: Savings: 100-200 | 200-300 | 300-400 | 400-500 | 500-600 ; Frequency: 9 | 14 | 22 | 18 | 7. The median class is:",
+  "options": [
+   "200-300",
+   "300-400",
+   "400-500",
+   "500-600"
+  ],
+  "answer": "Correct option: B) 300-400. Total 70, so n/2 = 35. Cumulative frequencies are 9, 23, 45, 63, 70; the first value at least 35 is 45, so the median class is 300-400."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Median of grouped data",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The waiting times (in minutes) of 40 customers are: Time: 0-6 | 6-12 | 12-18 | 18-24 | 24-30 ; Frequency: 3 | 7 | 15 | 10 | 5. The median waiting time is:",
+  "options": [
+   "$24$",
+   "$12.67$",
+   "$16$",
+   "$15$"
+  ],
+  "answer": "Correct option: C) $16$. $n/2 = 20$; cumulative frequencies 3, 10, 25, so median class is 12-18 with $cf = 10, f = 15, h = 6$; median $= 12 + \\frac{20 - 10}{15} \\times 6 = 16$ minutes."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean, median and mode relation",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "For a moderately skewed distribution, the mean is 58.5 and the median is 55.5. The mode is:",
+  "options": [
+   "$64.5$",
+   "$52.5$",
+   "$61.5$",
+   "$49.5$"
+  ],
+  "answer": "Correct option: D) $49.5$. $\\text{Mode} = 3(55.5) - 2(58.5) = 166.5 - 117 = 49.5$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean, median and mode relation",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "For a moderately skewed distribution, the mode is 60 and the median is 58. The mean is:",
+  "options": [
+   "$57$",
+   "$54$",
+   "$61$",
+   "$59$"
+  ],
+  "answer": "Correct option: A) $57$. $60 = 3(58) - 2\\,\\text{Mean}$, so $2\\,\\text{Mean} = 114$ and Mean $= 57$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Missing frequency",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The mean of the following distribution is 40. Class: 0-20 | 20-40 | 40-60 | 60-80 ; Frequency: 5 | $k$ | 9 | 6. The value of $k$ is:",
+  "options": [
+   "$10$",
+   "$12$",
+   "$14$",
+   "$8$"
+  ],
+  "answer": "Correct option: B) $12$. Class marks 10, 30, 50, 70: $\\sum fx = 920 + 30k$, $\\sum f = 20 + k$. So $920 + 30k = 40(20 + k)$, giving $10k = 120$, $k = 12$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Missing frequency",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The median of the following distribution is 26 and the median class is 20-30. Class: 0-10 | 10-20 | 20-30 | 30-40 | 40-50 ; Frequency: 5 | 9 | $x$ | 10 | 6. The value of $x$ is:",
+  "options": [
+   "$8$",
+   "$12$",
+   "$10$",
+   "$14$"
+  ],
+  "answer": "Correct option: C) $10$. $n = 30 + x$, cumulative frequency before 20-30 is 14. Median $= 20 + \\frac{\\frac{30 + x}{2} - 14}{x} \\times 10 = 26$ gives $\\frac{10}{x} + 5 = 6$, so $x = 10$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean, median and mode relation",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": true,
+  "text": "Assertion (A): For every grouped frequency distribution, the mean, median and mode are equal.\nReason (R): For a moderately skewed distribution, the three measures are related by $\\text{Mode} = 3\\,\\text{Median} - 2\\,\\text{Mean}$.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: D) A is false but R is true. A is false: the three measures are equal only for a symmetric distribution, not for every one. R is the standard empirical relation, so it is true."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mode of grouped data",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Assertion (A): In a grouped frequency distribution, the modal class is the class with the highest frequency.\nReason (R): The mode of grouped data always equals the class mark of the modal class.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: C) A is true but R is false. A is the definition of modal class, so it is true. R is false: the mode is found by the formula $l + \\frac{f_1 - f_0}{2f_1 - f_0 - f_2} \\times h$ and generally differs from the class mark."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean of grouped data",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The heights (in cm) of 20 seedlings are recorded as follows. Height: 0-6 | 6-12 | 12-18 | 18-24 ; Frequency: 5 | 9 | 4 | 2. Find the mean height.",
+  "answer": "Class marks: 3, 9, 15, 21.\nHeight: 0-6 | 6-12 | 12-18 | 18-24 ; f: 5 | 9 | 4 | 2 ; fx: 15 | 81 | 60 | 42\n$\\sum f = 20$, $\\sum fx = 198$.\n$\\text{Mean} = \\frac{198}{20} = 9.9$. Mean height is 9.9 cm."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean of grouped data",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The weekly pocket money (in rupees) of 40 students is: Pocket money: 50-70 | 70-90 | 90-110 | 110-130 | 130-150 ; Frequency: 6 | 9 | 14 | 7 | 4. Use the assumed mean method with $a = 100$ to find the mean pocket money.",
+  "answer": "Class marks x: 60, 80, 100, 120, 140; d = x - 100: -40, -20, 0, 20, 40.\nfd: -240 | -180 | 0 | 140 | 160, so $\\sum fd = -120$, $\\sum f = 40$.\n$\\bar{x} = a + \\frac{\\sum fd}{\\sum f} = 100 + \\frac{-120}{40} = 97$. Mean pocket money is ₹97."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mode of grouped data",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The runs scored by 40 batters in a season are: Runs: 0-20 | 20-40 | 40-60 | 60-80 | 80-100 ; Frequency: 2 | 7 | 15 | 11 | 5. Find the mode.",
+  "answer": "Modal class is 40-60 (highest frequency 15). $l = 40, f_1 = 15, f_0 = 7, f_2 = 11, h = 20$.\n$\\text{Mode} = 40 + \\frac{15 - 7}{30 - 7 - 11} \\times 20 = 40 + \\frac{8}{12} \\times 20 = 53.33$ (to 2 decimals, $0.6667 \\times 20 = 13.33$). Mode = 53.33 runs."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mode of grouped data",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The ages (in years) of patients at a clinic are: Age: 11-20 | 21-30 | 31-40 | 41-50 | 51-60 ; Frequency: 5 | 14 | 26 | 8 | 7. Find the mode of the ages.",
+  "answer": "Classes are inclusive, so convert to continuous classes (subtract 0.5 from lower limits, add 0.5 to upper limits): 30.5-40.5 is the modal class (frequency 26).\n$l = 30.5, f_1 = 26, f_0 = 14, f_2 = 8, h = 10$.\n$\\text{Mode} = 30.5 + \\frac{26 - 14}{52 - 14 - 8} \\times 10 = 30.5 + 4 = 34.5$ years."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Median of grouped data",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The distances (in km) cycled by 40 members in a week are: Distance: 0-10 | 10-20 | 20-30 | 30-40 | 40-50 ; Frequency: 4 | 10 | 12 | 9 | 5. Find the median distance.",
+  "answer": "Cumulative frequencies: 4, 14, 26, 35, 40. $n/2 = 20$, so median class is 20-30; $l = 20, cf = 14, f = 12, h = 10$.\n$\\text{Median} = 20 + \\frac{20 - 14}{12} \\times 10 = 25$ km."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Median of grouped data",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The heights (in cm) of 50 players are: Height: 140-150 | 150-160 | 160-170 | 170-180 | 180-190 ; Frequency: 5 | 9 | 20 | 10 | 6. Find the median height.",
+  "answer": "Cumulative frequencies: 5, 14, 34, 44, 50. $n/2 = 25$, median class is 160-170; $l = 160, cf = 14, f = 20, h = 10$.\n$\\text{Median} = 160 + \\frac{25 - 14}{20} \\times 10 = 160 + 5.5 = 165.5$ cm."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean, median and mode relation",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "In a moderately skewed distribution, the median is 41.5 and the mode is 44.5. Find the mean.",
+  "answer": "$\\text{Mode} = 3\\,\\text{Median} - 2\\,\\text{Mean}$, so $44.5 = 124.5 - 2\\,\\text{Mean}$, giving $2\\,\\text{Mean} = 80$. Mean = 40."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean, median and mode relation",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "In a moderately skewed distribution, the mean exceeds the median by 6 and the median is 61. Find the mean and the mode.",
+  "answer": "Mean = 61 + 6 = 67.\n$\\text{Mode} = 3(61) - 2(67) = 183 - 134 = 49$. Mean = 67 and mode = 49."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Missing frequency",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The mean of the following distribution is 27. Class: 0-10 | 10-20 | 20-30 | 30-40 | 40-50 ; Frequency: 3 | 5 | p | 9 | 4. Find $p$.",
+  "answer": "Class marks 5, 15, 25, 35, 45. $\\sum f = 21 + p$, $\\sum fx = 15 + 75 + 25p + 315 + 180 = 585 + 25p$.\n$585 + 25p = 27(21 + p)$ gives $585 + 25p = 567 + 27p$, so $2p = 18$, $p = 9$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Missing frequency",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The median of the following distribution is 27.5. Class: 0-10 | 10-20 | 20-30 | 30-40 | 40-50 ; Frequency: 3 | 7 | x | 12 | 8. Find $x$.",
+  "answer": "$n = 30 + x$; the median lies in the class 20-30, with cumulative frequency 10 before it.\n$27.5 = 20 + \\frac{\\frac{30 + x}{2} - 10}{x} \\times 10$ gives $7.5x = 10\\left(\\frac{x}{2} + 5\\right) = 5x + 50$, so $2.5x = 50$, $x = 20$ (then n = 50, and 25 lies in the 20-30 class, as assumed)."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean of grouped data",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The times (in minutes) taken by 50 commuters to reach a station are: Time: 0-15 | 15-30 | 30-45 | 45-60 | 60-75 ; Frequency: 5 | 12 | 20 | 9 | 4. Find the mean time by the step deviation method, taking $a = 37.5$.",
+  "answer": "Class marks: 7.5, 22.5, 37.5, 52.5, 67.5; u = (x - 37.5)/15 = -2, -1, 0, 1, 2.\nf: 5 | 12 | 20 | 9 | 4 ; fu: -10 | -12 | 0 | 9 | 8\n$\\sum fu = -5$, $\\sum f = 50$.\n$\\bar{x} = 37.5 + 15 \\times \\frac{-5}{50} = 37.5 - 1.5 = 36$. Mean time = 36 minutes."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mode of grouped data",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The distances (in km) travelled by 85 delivery riders in a day are: Distance: 12-18 | 18-24 | 24-30 | 30-36 | 36-42 | 42-48 ; Frequency: 8 | 15 | 27 | 19 | 11 | 5. Find the mode of the data.",
+  "answer": "Highest frequency is 27, so modal class is 24-30. $l = 24, h = 6, f_1 = 27, f_0 = 15, f_2 = 19$.\n$\\text{Mode} = 24 + \\frac{27 - 15}{54 - 15 - 19} \\times 6 = 24 + \\frac{12}{20} \\times 6 = 24 + 3.6 = 27.6$ km."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Missing frequency",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The mode of the following distribution is 36. Class: 10-20 | 20-30 | 30-40 | 40-50 | 50-60 ; Frequency: 5 | 8 | x | 12 | 7, where the modal class is 30-40. Find the value of $x$.",
+  "answer": "Modal class 30-40: $l = 30, h = 10, f_1 = x, f_0 = 8, f_2 = 12$.\n$36 = 30 + \\frac{x - 8}{2x - 8 - 12} \\times 10$ gives $\\frac{x - 8}{2x - 20} = \\frac{6}{10}$.\n$10x - 80 = 12x - 120$, so $2x = 40$, $x = 20$. (Check: 20 is the highest frequency, so 30-40 is indeed the modal class.)"
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Median of grouped data",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "hard",
+  "competency": true,
+  "text": "The marks obtained by 80 students in an examination are: Marks: 1-10 | 11-20 | 21-30 | 31-40 | 41-50 | 51-60 ; Frequency: 4 | 10 | 17 | 24 | 15 | 10. Find the median marks.",
+  "answer": "Classes are inclusive, so convert to continuous classes: 0.5-10.5, 10.5-20.5, 20.5-30.5, 30.5-40.5, 40.5-50.5, 50.5-60.5.\nCumulative frequencies: 4, 14, 31, 55, 70, 80. $n/2 = 40$, so median class is 30.5-40.5; $l = 30.5, cf = 31, f = 24, h = 10$.\n$\\text{Median} = 30.5 + \\frac{40 - 31}{24} \\times 10 = 30.5 + 3.75 = 34.25$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Missing frequency",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "hard",
+  "competency": false,
+  "text": "The following distribution has 60 observations and its median is 41.25. Class: 10-20 | 20-30 | 30-40 | 40-50 | 50-60 | 60-70 ; Frequency: 6 | 8 | x | 16 | y | 6. Find $x$ and $y$.",
+  "answer": "Total: $6 + 8 + x + 16 + y + 6 = 60$, so $x + y = 24$. ... (1)\nThe median 41.25 lies in the class 40-50; cumulative frequency before it is $14 + x$, $n/2 = 30$.\n$41.25 = 40 + \\frac{30 - (14 + x)}{16} \\times 10$ gives $1.25 = \\frac{16 - x}{16} \\times 10$, so $16 - x = 2$, $x = 14$.\nFrom (1), $y = 10$. So x = 14 and y = 10."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mode of grouped data",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A record of 70 students' marks is given in 'less than' form: fewer than 10 marks: 5; fewer than 20: 14; fewer than 30: 30; fewer than 40: 52; fewer than 50: 64; fewer than 60: 70. Find the mode of the marks.",
+  "answer": "Differences give the class frequencies.\nMarks: 0-10 | 10-20 | 20-30 | 30-40 | 40-50 | 50-60 ; f: 5 | 9 | 16 | 22 | 12 | 6\nModal class is 30-40: $l = 30, h = 10, f_1 = 22, f_0 = 16, f_2 = 12$.\n$\\text{Mode} = 30 + \\frac{22 - 16}{44 - 16 - 12} \\times 10 = 30 + \\frac{6}{16} \\times 10 = 33.75$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean, median and mode relation",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The daily earnings (in rupees) of 50 street vendors are: Earnings: 0-20 | 20-40 | 40-60 | 60-80 | 80-100 ; Frequency: 4 | 11 | 20 | 12 | 3. The median earning is ₹50. Find the mean earning by the direct method and then use the empirical relation to estimate the mode.",
+  "answer": "Class marks x: 10, 30, 50, 70, 90.\nf: 4 | 11 | 20 | 12 | 3 ; fx: 40 | 330 | 1000 | 840 | 270\n$\\sum fx = 2480$, $\\sum f = 50$, so mean $= \\frac{2480}{50} = 49.6$.\n$\\text{Mode} = 3\\,\\text{Median} - 2\\,\\text{Mean} = 3(50) - 2(49.6) = 150 - 99.2 = 50.8$. Mean = ₹49.6 and mode = ₹50.8."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Median of grouped data",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The ages (in years) of 80 members of a society are: Age: 20-30 | 30-40 | 40-50 | 50-60 | 60-70 | 70-80 ; Frequency: 6 | 10 | 19 | 25 | 14 | 6. Find the median age.",
+  "answer": "Cumulative frequencies: 6, 16, 35, 60, 74, 80. $n/2 = 40$, so median class is 50-60; $l = 50, cf = 35, f = 25, h = 10$.\n$\\text{Median} = 50 + \\frac{40 - 35}{25} \\times 10 = 50 + 2 = 52$ years."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mode of grouped data",
+  "slot": "E-case-study (4 marks, with sub-parts)",
+  "type": "case",
+  "marks": 4,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A school canteen noted how much each of 70 students spent (in rupees) in one week. Amount spent (₹): 0-20 | 20-40 | 40-60 | 60-80 | 80-100 | 100-120 ; Frequency: 4 | 9 | 15 | 21 | 12 | 9.\n(i) Write the modal class. [1]\n(ii) How many students spent less than ₹60? [1]\n(iii) Find the mode of the amount spent. [2]",
+  "answer": "(i) Highest frequency is 21, so the modal class is 60-80.\n(ii) Students who spent less than ₹60 = 4 + 9 + 15 = 28.\n(iii) $l = 60, h = 20, f_1 = 21, f_0 = 15, f_2 = 12$.\n$\\text{Mode} = 60 + \\frac{21 - 15}{42 - 15 - 12} \\times 20 = 60 + \\frac{6}{15} \\times 20 = 60 + 8 = 68$. Mode = ₹68."
+ }
+]

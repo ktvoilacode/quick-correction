@@ -1,0 +1,678 @@
+[
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Distance formula",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The distance of the point $(7, -24)$ from the origin is:",
+  "options": [
+   "$31$",
+   "$17$",
+   "$25$",
+   "$\\sqrt{527}$"
+  ],
+  "idx": 0
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Distance formula",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The end points of a diameter of a circle are $(-2, -3)$ and $(4, 5)$. The radius of the circle is:",
+  "options": [
+   "$10$",
+   "$2\\sqrt{2}$",
+   "$5$",
+   "$\\sqrt{2}$"
+  ],
+  "idx": 1
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Distance formula",
+  "type": "mcq",
+  "marks": 1,
+  "text": "In the figure, a circle with centre $C$ is drawn on a square grid (each square is $1$ unit) and passes through the marked point $P$. Reading the coordinates of $C$ and $P$ from the grid, the diameter of the circle is:",
+  "options": [
+   "$5$ units",
+   "$10$ units",
+   "$7$ units",
+   "$14$ units"
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 320\"><line x1=\"28.0\" y1=\"292.0\" x2=\"28.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"50.0\" y1=\"292.0\" x2=\"50.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"72.0\" y1=\"292.0\" x2=\"72.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"94.0\" y1=\"292.0\" x2=\"94.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"116.0\" y1=\"292.0\" x2=\"116.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"138.0\" y1=\"292.0\" x2=\"138.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"160.0\" y1=\"292.0\" x2=\"160.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"182.0\" y1=\"292.0\" x2=\"182.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"204.0\" y1=\"292.0\" x2=\"204.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"226.0\" y1=\"292.0\" x2=\"226.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"248.0\" y1=\"292.0\" x2=\"248.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"270.0\" y1=\"292.0\" x2=\"270.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"292.0\" y1=\"292.0\" x2=\"292.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"292.0\" x2=\"292.0\" y2=\"292.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"270.0\" x2=\"292.0\" y2=\"270.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"248.0\" x2=\"292.0\" y2=\"248.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"226.0\" x2=\"292.0\" y2=\"226.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"204.0\" x2=\"292.0\" y2=\"204.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"182.0\" x2=\"292.0\" y2=\"182.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"160.0\" x2=\"292.0\" y2=\"160.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"138.0\" x2=\"292.0\" y2=\"138.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"116.0\" x2=\"292.0\" y2=\"116.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"94.0\" x2=\"292.0\" y2=\"94.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"72.0\" x2=\"292.0\" y2=\"72.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"50.0\" x2=\"292.0\" y2=\"50.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"28.0\" x2=\"292.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"182.0\" y1=\"292.0\" x2=\"182.0\" y2=\"28.0\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28.0\" y1=\"204.0\" x2=\"292.0\" y2=\"204.0\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"296.0\" y=\"208.0\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"start\">x</text><text x=\"186.0\" y=\"22.0\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"start\">y</text><text x=\"50.0\" y=\"217.0\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\">-6</text><text x=\"94.0\" y=\"217.0\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\">-4</text><text x=\"138.0\" y=\"217.0\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\">-2</text><text x=\"226.0\" y=\"217.0\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\">2</text><text x=\"270.0\" y=\"217.0\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\">4</text><text x=\"178.0\" y=\"295.5\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\">-4</text><text x=\"178.0\" y=\"251.5\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\">-2</text><text x=\"178.0\" y=\"163.5\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\">2</text><text x=\"178.0\" y=\"119.5\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\">4</text><text x=\"178.0\" y=\"75.5\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\">6</text><text x=\"178.0\" y=\"31.5\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\">8</text><text x=\"178.0\" y=\"217.0\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\">O</text><circle cx=\"160.0\" cy=\"160.0\" r=\"110.0\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"160.0\" cy=\"160.0\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"154.0\" y=\"176.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">C</text><circle cx=\"248.0\" cy=\"226.0\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"254.0\" y=\"240.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">P</text></svg>",
+  "figureAlt": "A circle on a square grid with x and y axes. Its centre C is at (-1, 2) and the marked point P on the circle is at (3, -1).",
+  "idx": 2
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Distance formula",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The distance between the points $P(\\sin\\theta, \\cos\\theta)$ and $Q(\\cos\\theta, -\\sin\\theta)$ is:",
+  "options": [
+   "$1$",
+   "$2$",
+   "$0$",
+   "$\\sqrt{2}$"
+  ],
+  "idx": 3
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Distance formula",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Three consecutive vertices of a rectangle are $A(2, -1)$, $B(2, 4)$ and $C(14, 4)$. The length of each diagonal of the rectangle is:",
+  "options": [
+   "$13$ units",
+   "$17$ units",
+   "$\\sqrt{119}$ units",
+   "$12$ units"
+  ],
+  "idx": 4
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Distance formula",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Four lamp posts $P$, $Q$, $R$ and $S$ in a park are marked on the grid shown, where each square has side $1$ m. Which two lamp posts are exactly $5$ m apart?",
+  "options": [
+   "$P$ and $R$",
+   "$Q$ and $R$",
+   "$P$ and $Q$",
+   "$R$ and $S$"
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 312 280\"><line x1=\"28.0\" y1=\"252.0\" x2=\"28.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"60.0\" y1=\"252.0\" x2=\"60.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"92.0\" y1=\"252.0\" x2=\"92.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"124.0\" y1=\"252.0\" x2=\"124.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"156.0\" y1=\"252.0\" x2=\"156.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"188.0\" y1=\"252.0\" x2=\"188.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"220.0\" y1=\"252.0\" x2=\"220.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"252.0\" y1=\"252.0\" x2=\"252.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"284.0\" y1=\"252.0\" x2=\"284.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"252.0\" x2=\"284.0\" y2=\"252.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"220.0\" x2=\"284.0\" y2=\"220.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"188.0\" x2=\"284.0\" y2=\"188.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"156.0\" x2=\"284.0\" y2=\"156.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"124.0\" x2=\"284.0\" y2=\"124.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"92.0\" x2=\"284.0\" y2=\"92.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"60.0\" x2=\"284.0\" y2=\"60.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"28.0\" x2=\"284.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"252.0\" x2=\"28.0\" y2=\"28.0\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28.0\" y1=\"252.0\" x2=\"284.0\" y2=\"252.0\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"288.0\" y=\"256.0\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"start\">x</text><text x=\"32.0\" y=\"22.0\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"start\">y</text><text x=\"92.0\" y=\"265.0\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\">2</text><text x=\"156.0\" y=\"265.0\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\">4</text><text x=\"220.0\" y=\"265.0\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\">6</text><text x=\"284.0\" y=\"265.0\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\">8</text><text x=\"24.0\" y=\"191.5\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\">2</text><text x=\"24.0\" y=\"127.5\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\">4</text><text x=\"24.0\" y=\"63.5\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\">6</text><text x=\"24.0\" y=\"265.0\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\">O</text><circle cx=\"28.0\" cy=\"220.0\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"34.0\" y=\"214.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">P</text><circle cx=\"124.0\" cy=\"92.0\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"130.0\" y=\"86.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">Q</text><circle cx=\"220.0\" cy=\"156.0\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"226.0\" y=\"150.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">R</text><circle cx=\"60.0\" cy=\"124.0\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"66.0\" y=\"118.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">S</text></svg>",
+  "figureAlt": "A square grid with x and y axes numbered from 0. Lamp posts are marked as dots: P at (0, 1), Q at (3, 5), R at (6, 3) and S at (1, 4).",
+  "idx": 5
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Distance formula",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The point on the line $y = x + 1$ which is equidistant from $A(1, 4)$ and $B(5, 2)$ is:",
+  "options": [
+   "$(3, 3)$",
+   "$(2, 3)$",
+   "$(5, 6)$",
+   "$(4, 5)$"
+  ],
+  "idx": 6
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Distance formula",
+  "type": "short",
+  "marks": 2,
+  "text": "For the points $A(-1, 3)$, $B(2, -1)$ and $C(5, y)$, it is given that $AB = BC$. Find the possible values of $y$.",
+  "idx": 7
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Distance formula",
+  "type": "short",
+  "marks": 2,
+  "text": "The point $P(x, y)$ is equidistant from $A(-2, 3)$ and $B(4, 1)$. Show that $y = 3x - 1$.",
+  "idx": 8
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Distance formula",
+  "type": "short",
+  "marks": 2,
+  "text": "A circle has its centre at $(3a, a + 1)$ and passes through the point $(2, -1)$. If the diameter of the circle is $2\\sqrt{10}$ units, find the values of $a$.",
+  "idx": 9
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Distance formula",
+  "type": "short",
+  "marks": 2,
+  "text": "The vertices of $\\triangle PQR$ are $P(-2, 1)$, $Q(3, 1)$ and $R(3, 13)$, and the triangle is right-angled at $Q$. Find the value of $\\sin P + \\cos R$.",
+  "idx": 10
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Distance formula",
+  "type": "short",
+  "marks": 2,
+  "text": "Find the point on the line $2x + y = 9$ which is equidistant from the points $(-1, 2)$ and $(3, 6)$.",
+  "idx": 11
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Distance formula",
+  "type": "short",
+  "marks": 3,
+  "text": "The point $Q(-1, 2)$ is equidistant from $P(3, 5)$ and $R(x, -2)$. Find the values of $x$. Also find the length $PR$ for the positive value of $x$.",
+  "idx": 12
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Distance formula",
+  "type": "short",
+  "marks": 3,
+  "text": "The point $P(x, y)$ is equidistant from $A(-1, 4)$ and $B(5, 2)$. Find the relation between $x$ and $y$. Hence find the points on the $x$-axis and on the $y$-axis that are equidistant from $A$ and $B$.",
+  "idx": 13
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Distance formula",
+  "type": "short",
+  "marks": 3,
+  "text": "A circle with centre $C(-1, 1)$ passes through the points $A(2, 5)$ and $B(k, -2)$. Find the possible values of $k$, and the length of the chord $AB$ in each case.",
+  "idx": 14
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Section formula",
+  "type": "mcq",
+  "marks": 1,
+  "text": "In the figure, the points $P$, $Q$, $R$ and $S$ divide the line segment $AB$ into five equal parts. The point $Q$ divides the segment $PB$ in the ratio:",
+  "options": [
+   "$1 : 4$",
+   "$1 : 3$",
+   "$2 : 3$",
+   "$3 : 1$"
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 70\"><line x1=\"30\" y1=\"35\" x2=\"350\" y2=\"35\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"30.0\" cy=\"35\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"30.0\" y=\"60.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"94.0\" cy=\"35\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"94.0\" y=\"60.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><circle cx=\"158.0\" cy=\"35\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"158.0\" y=\"60.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text><circle cx=\"222.0\" cy=\"35\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"222.0\" y=\"60.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">R</text><circle cx=\"286.0\" cy=\"35\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"286.0\" y=\"60.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">S</text><circle cx=\"350.0\" cy=\"35\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"350.0\" y=\"60.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><line x1=\"59.0\" y1=\"29\" x2=\"65.0\" y2=\"41\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"123.0\" y1=\"29\" x2=\"129.0\" y2=\"41\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"187.0\" y1=\"29\" x2=\"193.0\" y2=\"41\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"251.0\" y1=\"29\" x2=\"257.0\" y2=\"41\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"315.0\" y1=\"29\" x2=\"321.0\" y2=\"41\" stroke=\"#000\" stroke-width=\"1.5\"/></svg>",
+  "figureAlt": "A horizontal line segment AB with points A, P, Q, R, S, B marked in order at equal spacing; each of the five small parts carries the same tick mark.",
+  "idx": 15
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Section formula",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The line $2x + y = 7$ divides the line segment joining $A(1, 1)$ and $B(4, 7)$ in the ratio:",
+  "options": [
+   "$2 : 1$",
+   "$1 : 3$",
+   "$1 : 2$",
+   "$3 : 2$"
+  ],
+  "idx": 16
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Section formula",
+  "type": "assertion_reason",
+  "marks": 1,
+  "text": "Assertion (A): The point which divides the line segment joining $(-1, 4)$ and $(5, -2)$ internally in the ratio $2 : 1$ is $(1, 2)$.\nReason (R): The point dividing the segment joining $(x_{1}, y_{1})$ and $(x_{2}, y_{2})$ internally in the ratio $m : n$ is $\\left(\\frac{mx_{2} + nx_{1}}{m + n}, \\frac{my_{2} + ny_{1}}{m + n}\\right)$.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "idx": 17
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Section formula",
+  "type": "short",
+  "marks": 2,
+  "text": "$P$ is a point on the line segment joining $A(-2, 5)$ and $B(8, 0)$ such that $AP = \\frac{3}{5}AB$. Find the coordinates of $P$.",
+  "idx": 18
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Section formula",
+  "type": "short",
+  "marks": 2,
+  "text": "Find the ratio in which the $y$-axis divides the line segment joining $A(-3, 2)$ and $B(6, -7)$. Also find the point of division.",
+  "idx": 19
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Section formula",
+  "type": "short",
+  "marks": 2,
+  "text": "Find the ratio in which the line $y = x$ divides the line segment joining $A(-1, 5)$ and $B(6, -2)$. Also find the point of division.",
+  "idx": 20
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Section formula",
+  "type": "short",
+  "marks": 2,
+  "text": "The point $C$ lies on the line segment $AB$ produced beyond $B$, such that $AB : BC = 2 : 3$. If $A(2, -1)$ and $B(4, 3)$, find the coordinates of $C$.",
+  "idx": 21
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Section formula",
+  "type": "short",
+  "marks": 3,
+  "text": "Find the ratio in which the line $y = -1$ divides the line segment joining $A(3, 5)$ and $B(-3, -4)$. Also find the coordinates of the point of intersection.",
+  "idx": 22
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Section formula",
+  "type": "short",
+  "marks": 3,
+  "text": "In what ratio does the $x$-axis divide the line segment joining $P(1, -6)$ and $Q(-5, 3)$? Find the coordinates of the point where the segment meets the $x$-axis.",
+  "idx": 23
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Section formula",
+  "type": "short",
+  "marks": 3,
+  "text": "Find the coordinates of the points of trisection of the line segment joining $A(-4, 6)$ and $B(5, -3)$. Which of these points lies on a coordinate axis?",
+  "idx": 24
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Section formula",
+  "type": "short",
+  "marks": 3,
+  "text": "The point $P$ divides the line segment joining $A(-2, 1)$ and $B(4, 7)$ internally in the ratio $2 : 1$. If $P$ lies on the line $x - 2y + k = 0$, find the value of $k$.",
+  "idx": 25
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Section formula",
+  "type": "long",
+  "marks": 5,
+  "text": "A straight fence runs from gate $A(-2, 8)$ to gate $B(7, -4)$ on a site plan, where $1$ unit is $1$ m. Two lamp posts $P$ and $Q$ divide the fence into three equal parts, with $P$ nearer to $A$. (a) Find the coordinates of $P$ and $Q$. (b) The post $P$ lies on a footpath whose equation is $3x + y + k = 0$. Find $k$. (c) Find the distance between the two posts, and show that the length of the fence is three times this distance.",
+  "idx": 26
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Section formula",
+  "type": "case",
+  "marks": 4,
+  "text": "A school marks out a rectangular practice field on a grid in which each square has side $1$ m. Flag posts stand at the corners $A(2, 1)$, $B(10, 1)$, $C(10, 7)$ and $D(2, 7)$, as shown in the figure. A rope is to be stretched along the diagonal $AC$, a whistle stand is to be placed at the centre of the field, and a bench $E$ is to be placed on the side $DC$ so that $DE : EC = 3 : 1$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 392 308\"><line x1=\"28.0\" y1=\"280.0\" x2=\"28.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"56.0\" y1=\"280.0\" x2=\"56.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"84.0\" y1=\"280.0\" x2=\"84.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"112.0\" y1=\"280.0\" x2=\"112.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"140.0\" y1=\"280.0\" x2=\"140.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"168.0\" y1=\"280.0\" x2=\"168.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"196.0\" y1=\"280.0\" x2=\"196.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"224.0\" y1=\"280.0\" x2=\"224.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"252.0\" y1=\"280.0\" x2=\"252.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"280.0\" y1=\"280.0\" x2=\"280.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"308.0\" y1=\"280.0\" x2=\"308.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"336.0\" y1=\"280.0\" x2=\"336.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"364.0\" y1=\"280.0\" x2=\"364.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"280.0\" x2=\"364.0\" y2=\"280.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"252.0\" x2=\"364.0\" y2=\"252.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"224.0\" x2=\"364.0\" y2=\"224.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"196.0\" x2=\"364.0\" y2=\"196.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"168.0\" x2=\"364.0\" y2=\"168.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"140.0\" x2=\"364.0\" y2=\"140.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"112.0\" x2=\"364.0\" y2=\"112.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"84.0\" x2=\"364.0\" y2=\"84.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"56.0\" x2=\"364.0\" y2=\"56.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"28.0\" x2=\"364.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"280.0\" x2=\"28.0\" y2=\"28.0\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28.0\" y1=\"280.0\" x2=\"364.0\" y2=\"280.0\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"368.0\" y=\"284.0\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"start\">x</text><text x=\"32.0\" y=\"22.0\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"start\">y</text><text x=\"84.0\" y=\"293.0\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\">2</text><text x=\"140.0\" y=\"293.0\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\">4</text><text x=\"196.0\" y=\"293.0\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\">6</text><text x=\"252.0\" y=\"293.0\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\">8</text><text x=\"308.0\" y=\"293.0\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\">10</text><text x=\"364.0\" y=\"293.0\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\">12</text><text x=\"24.0\" y=\"227.5\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\">2</text><text x=\"24.0\" y=\"171.5\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\">4</text><text x=\"24.0\" y=\"115.5\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\">6</text><text x=\"24.0\" y=\"59.5\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\">8</text><text x=\"24.0\" y=\"293.0\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\">O</text><polygon points=\"84.0,252.0 308.0,252.0 308.0,84.0 84.0,84.0\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"84.0\" cy=\"252.0\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"78.0\" y=\"268.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">A</text><circle cx=\"308.0\" cy=\"252.0\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"314.0\" y=\"268.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">B</text><circle cx=\"308.0\" cy=\"84.0\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"314.0\" y=\"78.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">C</text><circle cx=\"84.0\" cy=\"84.0\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"78.0\" y=\"78.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">D</text></svg>",
+  "figureAlt": "A square grid with x and y axes. Rectangle ABCD is drawn with A at (2, 1), B at (10, 1), C at (10, 7) and D at (2, 7).",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Find the length of the rope along the diagonal $AC$."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "The centre $M$ of the field is the midpoint of $AC$. Find its coordinates."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the coordinates of the bench $E$, and its distance from the flag post $B$."
+   }
+  ],
+  "idx": 27
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Midpoint",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The centre of a circle is $(-2, 3)$ and one end of a diameter is $(1, 7)$. The other end of the diameter is:",
+  "options": [
+   "$(-5, -1)$",
+   "$\\left(-\\frac{1}{2}, 5\\right)$",
+   "$(4, 11)$",
+   "$(-1, 10)$"
+  ],
+  "idx": 28
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Midpoint",
+  "type": "mcq",
+  "marks": 1,
+  "text": "$AB$ is a diameter of a circle with centre $(3, 0)$. If $A$ is $(-1, -4)$, then $B$ is:",
+  "options": [
+   "$(1, -2)$",
+   "$(-5, -8)$",
+   "$(2, -4)$",
+   "$(7, 4)$"
+  ],
+  "idx": 29
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Midpoint",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The midpoint of the line segment joining $(-5, 2)$ and $(5, -6)$ lies:",
+  "options": [
+   "on the $y$-axis",
+   "on the $x$-axis",
+   "at the origin",
+   "in the fourth quadrant"
+  ],
+  "idx": 30
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Midpoint",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Two opposite vertices of a parallelogram are $(-2, 7)$ and $(6, -1)$. If its diagonals intersect at $(a, b)$, then:",
+  "options": [
+   "$a = b$",
+   "$a + b = 5$",
+   "$a - b = 1$",
+   "$b = 2a$"
+  ],
+  "idx": 31
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Midpoint",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The line $3x + 2y = 12$ meets the $x$-axis at $P$ and the $y$-axis at $Q$. The midpoint of $PQ$ is:",
+  "options": [
+   "$(2, 3)$",
+   "$(3, 2)$",
+   "$(4, 6)$",
+   "$(6, 4)$"
+  ],
+  "idx": 32
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Midpoint",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The vertices of $\\triangle ABC$ are $A(4, 5)$, $B(-3, 2)$ and $C(5, 0)$. The length of the median through $A$ is:",
+  "options": [
+   "$7$ units",
+   "$25$ units",
+   "$\\sqrt{5}$ units",
+   "$5$ units"
+  ],
+  "idx": 33
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Midpoint",
+  "type": "assertion_reason",
+  "marks": 1,
+  "text": "Assertion (A): The point $(2, 3)$ divides the line segment joining $(-3, 8)$ and $(7, -2)$ in the ratio $1 : 1$.\nReason (R): Every point that is equidistant from the two end points of a line segment is the midpoint of that segment.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "idx": 34
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Midpoint",
+  "type": "assertion_reason",
+  "marks": 1,
+  "text": "Assertion (A): If $A(4, y)$ and $B(-2, 5)$ are the end points of a diameter of a circle with centre $(1, -1)$, then $y = -7$.\nReason (R): The centre of a circle is the midpoint of every diameter.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "idx": 35
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Midpoint",
+  "type": "short",
+  "marks": 2,
+  "text": "$AB$ is a diameter of a circle with centre $(-1, 4)$. If $A$ is $(3, 1)$, find the coordinates of $B$ and the length of the diameter.",
+  "idx": 36
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Midpoint",
+  "type": "short",
+  "marks": 2,
+  "text": "The vertices of a triangle are $A(3, -2)$, $B(5, 6)$ and $C(-4, 8)$. Find the length of the median through $C$.",
+  "idx": 37
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Midpoint",
+  "type": "short",
+  "marks": 3,
+  "text": "The midpoint of the line segment joining $A(k, 3)$ and $B(5, -7)$ lies on the line $3x + y = 7$. Find the value of $k$ and the coordinates of the midpoint.",
+  "idx": 38
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Midpoint",
+  "type": "short",
+  "marks": 3,
+  "text": "$A(1, 1)$, $B(7, 3)$, $C(9, 9)$ and $D(-1, 7)$ are the vertices of a quadrilateral $ABCD$. $P$, $Q$, $R$ and $S$ are the midpoints of $AB$, $BC$, $CD$ and $DA$ respectively. Show that $PR$ and $QS$ bisect each other.",
+  "idx": 39
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Midpoint",
+  "type": "case",
+  "marks": 4,
+  "text": "Riya draws the sail of a toy boat on graph paper, where each square has side $1$ cm. The sail is the triangle $PQR$ with $P(2, 3)$, $Q(8, 3)$ and $R(2, 11)$, as shown. She wants to add a flag at the midpoint of the slanting edge $QR$, a decoration on the mast $PR$, and later turn the sail into a rectangle.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 296 344\"><line x1=\"28.0\" y1=\"316.0\" x2=\"28.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"52.0\" y1=\"316.0\" x2=\"52.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"76.0\" y1=\"316.0\" x2=\"76.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"100.0\" y1=\"316.0\" x2=\"100.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"124.0\" y1=\"316.0\" x2=\"124.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"148.0\" y1=\"316.0\" x2=\"148.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"172.0\" y1=\"316.0\" x2=\"172.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"196.0\" y1=\"316.0\" x2=\"196.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"220.0\" y1=\"316.0\" x2=\"220.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"244.0\" y1=\"316.0\" x2=\"244.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"268.0\" y1=\"316.0\" x2=\"268.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"316.0\" x2=\"268.0\" y2=\"316.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"292.0\" x2=\"268.0\" y2=\"292.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"268.0\" x2=\"268.0\" y2=\"268.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"244.0\" x2=\"268.0\" y2=\"244.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"220.0\" x2=\"268.0\" y2=\"220.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"196.0\" x2=\"268.0\" y2=\"196.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"172.0\" x2=\"268.0\" y2=\"172.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"148.0\" x2=\"268.0\" y2=\"148.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"124.0\" x2=\"268.0\" y2=\"124.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"100.0\" x2=\"268.0\" y2=\"100.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"76.0\" x2=\"268.0\" y2=\"76.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"52.0\" x2=\"268.0\" y2=\"52.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"28.0\" x2=\"268.0\" y2=\"28.0\" stroke=\"#ddd\" stroke-width=\"0.75\"/><line x1=\"28.0\" y1=\"316.0\" x2=\"28.0\" y2=\"28.0\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28.0\" y1=\"316.0\" x2=\"268.0\" y2=\"316.0\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"272.0\" y=\"320.0\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"start\">x</text><text x=\"32.0\" y=\"22.0\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"start\">y</text><text x=\"76.0\" y=\"329.0\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\">2</text><text x=\"124.0\" y=\"329.0\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\">4</text><text x=\"172.0\" y=\"329.0\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\">6</text><text x=\"220.0\" y=\"329.0\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\">8</text><text x=\"268.0\" y=\"329.0\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\">10</text><text x=\"24.0\" y=\"271.5\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\">2</text><text x=\"24.0\" y=\"223.5\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\">4</text><text x=\"24.0\" y=\"175.5\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\">6</text><text x=\"24.0\" y=\"127.5\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\">8</text><text x=\"24.0\" y=\"79.5\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\">10</text><text x=\"24.0\" y=\"31.5\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\">12</text><text x=\"24.0\" y=\"329.0\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\">O</text><polygon points=\"76.0,244.0 220.0,244.0 76.0,52.0\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"76.0\" cy=\"244.0\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"70.0\" y=\"260.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">P</text><circle cx=\"220.0\" cy=\"244.0\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"226.0\" y=\"260.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">Q</text><circle cx=\"76.0\" cy=\"52.0\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"70.0\" y=\"48.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">R</text></svg>",
+  "figureAlt": "Graph paper with x and y axes. Triangle PQR is drawn with P at (2, 3), Q at (8, 3) and R at (2, 11); PR is vertical and PQ is horizontal.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Find the coordinates of the midpoint of $QR$."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "Find the length of the slanting edge $QR$."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the point $T$ that divides $PR$ in the ratio $1 : 3$, and the fourth vertex $S$ for which $PQSR$ is a rectangle."
+   }
+  ],
+  "idx": 40
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Midpoint",
+  "type": "short",
+  "marks": 3,
+  "text": "The midpoints of the sides $BC$, $CA$ and $AB$ of $\\triangle ABC$ are $D(2, 3)$, $E(-1, 1)$ and $F(4, -2)$ respectively. Find the coordinates of the vertices $A$, $B$ and $C$.",
+  "idx": 41
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Geometric shapes from coordinates",
+  "type": "mcq",
+  "marks": 1,
+  "text": "In the figure, $ABC$ is an equilateral triangle with its side $BC$ along the $y$-axis. The median $AD$ lies along the $x$-axis, with $D$ at the origin and $A(4\\sqrt{3}, 0)$. The coordinates of $B$ and $C$ are:",
+  "options": [
+   "$(0, 8)$ and $(0, -8)$",
+   "$(0, 4)$ and $(0, -4)$",
+   "$(4, 0)$ and $(-4, 0)$",
+   "$(0, 2\\sqrt{3})$ and $(0, -2\\sqrt{3})$"
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 342 316\"><line x1=\"80.0\" y1=\"288.0\" x2=\"80.0\" y2=\"28.0\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28.0\" y1=\"158.0\" x2=\"314.0\" y2=\"158.0\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"318.0\" y=\"162.0\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"start\">x</text><text x=\"84.0\" y=\"22.0\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"start\">y</text><polygon points=\"260.1,158.0 80.0,54.0 80.0,262.0\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"80.0\" y1=\"158.0\" x2=\"260.1\" y2=\"158.0\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"260.1\" cy=\"158.0\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"256.1\" y=\"176.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">A(4√3, 0)</text><circle cx=\"80.0\" cy=\"54.0\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"72.0\" y=\"52.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">B</text><circle cx=\"80.0\" cy=\"262.0\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"72.0\" y=\"274.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">C</text><circle cx=\"80.0\" cy=\"158.0\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"72.0\" y=\"152.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">D</text></svg>",
+  "figureAlt": "Axes with an equilateral triangle ABC. B is on the positive y-axis, C on the negative y-axis, D is the origin, and A is on the positive x-axis labelled A(4√3, 0); the median AD runs along the x-axis.",
+  "idx": 42
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Geometric shapes from coordinates",
+  "type": "assertion_reason",
+  "marks": 1,
+  "text": "Assertion (A): The triangle with vertices $A(1, 1)$, $B(4, 5)$ and $C(5, -2)$ is right-angled at $A$.\nReason (R): If the square of one side of a triangle equals the sum of the squares of the other two sides, then the angle opposite the first side is a right angle.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "idx": 43
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Geometric shapes from coordinates",
+  "type": "short",
+  "marks": 2,
+  "text": "Name the type of triangle formed by the points $A(-1, 0)$, $B(3, 0)$ and $C(1, 2\\sqrt{3})$. Give reasons.",
+  "idx": 44
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Geometric shapes from coordinates",
+  "type": "short",
+  "marks": 2,
+  "text": "$A(-2, 1)$, $B(m, -1)$, $C(4, 3)$ and $D(1, n)$ are the vertices of a parallelogram $ABCD$, taken in order. Find the values of $m$ and $n$.",
+  "idx": 45
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Geometric shapes from coordinates",
+  "type": "short",
+  "marks": 2,
+  "text": "In the figure, $ABCD$ is a square with opposite vertices $A(-1, 2)$ and $C(5, 4)$. Find the coordinates of the point where its diagonals meet, and the length of a side of the square.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 312 312\"><line x1=\"92.0\" y1=\"284.0\" x2=\"92.0\" y2=\"28.0\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"28.0\" y1=\"252.0\" x2=\"284.0\" y2=\"252.0\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"288.0\" y=\"256.0\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"start\">x</text><text x=\"96.0\" y=\"22.0\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"start\">y</text><polygon points=\"60.0,188.0 124.0,60.0 252.0,124.0 188.0,252.0\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"60.0\" y1=\"188.0\" x2=\"252.0\" y2=\"124.0\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"124.0\" y1=\"60.0\" x2=\"188.0\" y2=\"252.0\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"60.0\" cy=\"188.0\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"54.0\" y=\"180.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">A(-1, 2)</text><circle cx=\"124.0\" cy=\"60.0\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"118.0\" y=\"56.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">B</text><circle cx=\"252.0\" cy=\"124.0\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"258.0\" y=\"118.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">C(5, 4)</text><circle cx=\"188.0\" cy=\"252.0\" r=\"3\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"194.0\" y=\"268.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">D</text></svg>",
+  "figureAlt": "Axes with a tilted square ABCD and both its diagonals drawn. A is labelled (-1, 2) and C is labelled (5, 4); B and D are the other two corners.",
+  "idx": 46
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Geometric shapes from coordinates",
+  "type": "short",
+  "marks": 3,
+  "text": "$A(1, 1)$, $B(5, p)$, $C(7, 6)$ and $D(q, 4)$ are the vertices of a parallelogram $ABCD$, taken in order. Find $p$ and $q$. Is $ABCD$ a rectangle? Justify your answer.",
+  "idx": 47
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Geometric shapes from coordinates",
+  "type": "short",
+  "marks": 3,
+  "text": "$P(x, y)$, $Q(-2, 1)$ and $R(4, 1)$ are the vertices of a triangle right-angled at $P$. Find the relation between $x$ and $y$. Also find $x$ when $y = 4$.",
+  "idx": 48
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Geometric shapes from coordinates",
+  "type": "long",
+  "marks": 5,
+  "text": "$A(-1, 2)$, $B(2, 6)$ and $C(6, 3)$ are three consecutive vertices of a parallelogram $ABCD$. Find the coordinates of $D$. Hence show that $ABCD$ is a square, and find its area.",
+  "idx": 49
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Points on axes and distance from axes",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The distance of the point $(-3, -11)$ from the $x$-axis is:",
+  "options": [
+   "$3$ units",
+   "$11$ units",
+   "$\\sqrt{130}$ units",
+   "$-11$ units"
+  ],
+  "idx": 50
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Points on axes and distance from axes",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A point is at a distance of $3$ units from the $y$-axis. Which of the following cannot be the point?",
+  "options": [
+   "$(3, -5)$",
+   "$(-3, 2)$",
+   "$(3, 0)$",
+   "$(0, 3)$"
+  ],
+  "idx": 51
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Points on axes and distance from axes",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A point on the $x$-axis lies $6$ units to the left of the $y$-axis. Its distance from the point $(0, 8)$ is:",
+  "options": [
+   "$14$ units",
+   "$2$ units",
+   "$10$ units",
+   "$2\\sqrt{7}$ units"
+  ],
+  "idx": 52
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Points on axes and distance from axes",
+  "type": "short",
+  "marks": 2,
+  "text": "Find the points on the $x$-axis which are at a distance of $13$ units from the point $(-5, 12)$.",
+  "idx": 53
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Lines and axis intercepts",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The line $3x + 4y = 12$ cuts the $x$-axis at the point:",
+  "options": [
+   "$(0, 3)$",
+   "$(3, 0)$",
+   "$(0, 4)$",
+   "$(4, 0)$"
+  ],
+  "idx": 54
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Lines and axis intercepts",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The equation of the line parallel to the $y$-axis and $5$ units to the left of it is:",
+  "options": [
+   "$y = -5$",
+   "$x = -5$",
+   "$x = 5$",
+   "$y = 5$"
+  ],
+  "idx": 55
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Collinearity using distances",
+  "type": "mcq",
+  "marks": 1,
+  "text": "For the points $A(-2, 3)$, $B(1, 7)$ and $C(7, 15)$, which statement is true?",
+  "options": [
+   "They form a right-angled triangle",
+   "They form an isosceles triangle",
+   "They are collinear, with $B$ between $A$ and $C$",
+   "They are collinear, with $A$ between $B$ and $C$"
+  ],
+  "idx": 56
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Collinearity using distances",
+  "type": "short",
+  "marks": 2,
+  "text": "Using the distance formula, show that the points $A(1, -1)$, $B(3, 3)$ and $C(4, 5)$ are collinear.",
+  "idx": 57
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Collinearity using distances",
+  "type": "short",
+  "marks": 3,
+  "text": "The points $A(-4, -1)$, $B(p, 1)$ and $C(5, 5)$ are collinear. Find the value of $p$, and verify your answer using the distance formula.",
+  "idx": 58
+ }
+]

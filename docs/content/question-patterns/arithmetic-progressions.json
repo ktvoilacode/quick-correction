@@ -1,0 +1,1754 @@
+{
+ "chapter": "Arithmetic Progressions",
+ "topics": [
+  {
+   "name": "Recognising an AP",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "AP-REC-01",
+     "pattern": "Pick the one listed sequence that is an AP",
+     "sample": "Which of these lists is an AP: $2, 4, 8, 16$; $1, 4, 9, 16$; $-5, -2, 1, 4$; $1, 2, 4, 7$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-REC-02",
+     "pattern": "Pick the one listed sequence that is not an AP",
+     "sample": "Which of these is not an AP: $-3, -3, -3, -3$; $\\sqrt{2}, 2\\sqrt{2}, 3\\sqrt{2}, 4\\sqrt{2}$; $0.2, 0.22, 0.222, 0.2222$; $7, 4, 1, -2$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2020 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-REC-03",
+     "pattern": "Decide which nth-term formula cannot give an AP",
+     "sample": "Which of these cannot be the $n$th term of an AP: $3n + 1$, $5 - 2n$, $n^{2} + 1$, $7$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "AP-REC-04",
+     "pattern": "Assertion-reason: does an nth-term formula give an AP, using the constant-difference test",
+     "sample": "Assertion (A): The sequence with $a_{n} = 2n^{2} - 1$ is not an AP. Reason (R): In an AP, $a_{n+1} - a_{n}$ is constant.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2g8001t7gcnof4jdoha"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "nth term",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "AP-NTH-01",
+     "pattern": "Find a stated term of a listed AP (integer, decimal, fractional or negative terms)",
+     "sample": "The 15th term of the AP $\\frac{1}{2}, 2, \\frac{7}{2}, \\dots$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 3,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2019 main",
+      "2020 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "a8",
+      "cmvq9r2g000177gcng0c1t805",
+      "cmvqhe93g00277gd0grgowif4"
+     ]
+    },
+    {
+     "id": "AP-NTH-02",
+     "pattern": "Write the general nth term of a listed AP",
+     "sample": "The $n$th term of the AP $\\frac{3}{4}, \\frac{5}{4}, \\frac{7}{4}, \\dots$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2020 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-NTH-03",
+     "pattern": "Find the next or a later term of an AP of surds, after simplifying",
+     "sample": "The next term of the AP $\\sqrt{5}, \\sqrt{20}, \\sqrt{45}, \\dots$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2023 main",
+      "2024 main",
+      "2025 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-NTH-04",
+     "pattern": "Find the first term from d and one later term",
+     "sample": "An AP has common difference $-4$ and 9th term $10$. Its first term is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2011 main",
+      "2018 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-NTH-05",
+     "pattern": "Given two terms, find the first term or another term",
+     "sample": "In an AP, $a_{5} = 17$ and $a_{12} = 45$. Its 20th term is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2g100197gcn9ecxam6m",
+      "cmvqhe93g00297gd0tyhimvg8"
+     ]
+    },
+    {
+     "id": "AP-NTH-06",
+     "pattern": "Find the kth term from the end of a finite AP",
+     "sample": "The 6th term from the end of the AP $5, 8, 11, \\dots, 101$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2016 main",
+      "2020 main",
+      "2023 main",
+      "2024 compartment",
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2g1001b7gcnltamxnm2"
+     ]
+    },
+    {
+     "id": "AP-NTH-07",
+     "pattern": "Evaluate an expression or ratio built from terms of a listed AP",
+     "sample": "For the AP $3, 7, 11, \\dots$, the value of $\\frac{a_{15} - a_{5}}{a_{9} - a_{4}}$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2023 main",
+      "2024 compartment",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-NTH-08",
+     "pattern": "Assertion-reason: a term from the end, with the from-the-end formula",
+     "sample": "Assertion (A): The 5th term from the end of the AP $4, 7, 10, \\dots, 64$ is $52$. Reason (R): The $k$th term from the end is $l - (k - 1)d$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-NTH-09",
+     "pattern": "Find the position at which the nth terms of two listed APs are equal",
+     "sample": "For what value of $n$ are the $n$th terms of the APs $9, 7, 5, \\dots$ and $24, 21, 18, \\dots$ equal?",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2017 compartment",
+      "2017 main",
+      "2022 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-NTH-10",
+     "pattern": "From a ratio of two terms, or from one zero term, deduce the relation between other terms",
+     "sample": "In an AP, $a_{3} : a_{9} = 1 : 3$. Find $a_{5} : a_{13}$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2016 main",
+      "2022 compartment",
+      "2022 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-NTH-11",
+     "pattern": "From two conditions on sums of terms, find a and d, then listed terms",
+     "sample": "In an AP, $a_{2} + a_{7} = 30$ and $a_{4} + a_{9} = 46$. Find the first term, the common difference and $a_{15}$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2012 main",
+      "2015 main"
+     ],
+     "existingIds": [
+      "cmvqhe93x00377gd0d8ade0ho"
+     ]
+    },
+    {
+     "id": "AP-NTH-12",
+     "pattern": "Long form: two term conditions give a and d, then position of a value, membership test and a sum",
+     "sample": "In an AP, $a_{5} = 23$ and $a_{3} + a_{8} = 50$. Find $a$ and $d$, which term is $99$, and the sum of the terms up to it.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2gb00237gcnwrbdm2nm",
+      "cmvqhe93y003d7gd0aqriz49b"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Finding n",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "AP-FIN-01",
+     "pattern": "Find which term of a listed AP equals a given value",
+     "sample": "Which term of the AP $-7, -3, 1, \\dots$ is $89$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 10,
+     "seenIn": [
+      "2017 compartment",
+      "2019 compartment",
+      "2019 main",
+      "2024 main",
+      "2025 compartment"
+     ],
+     "existingIds": [
+      "cmvq9r2g3001h7gcnp4agx4gf",
+      "cmvqhe93c001z7gd0m55ulumf"
+     ]
+    },
+    {
+     "id": "AP-FIN-02",
+     "pattern": "Count the terms of a listed finite AP",
+     "sample": "The number of terms in the AP $13, 10, 7, \\dots, -50$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2019 main",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvqhe93d00217gd0jplph1oy"
+     ]
+    },
+    {
+     "id": "AP-FIN-03",
+     "pattern": "Find the position of the zero term",
+     "sample": "Which term of the AP $48, 44, 40, \\dots$ is $0$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2011 main",
+      "2019 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-FIN-04",
+     "pattern": "Count multiples of k in a range or among n-digit numbers",
+     "sample": "The number of multiples of $6$ between $20$ and $200$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2019 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-FIN-05",
+     "pattern": "Find n from first term, last term and sum",
+     "sample": "An AP has first term $6$, last term $50$ and sum $336$. The number of terms is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2020 main",
+      "2024 compartment",
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2g4001j7gcnnveknp08"
+     ]
+    },
+    {
+     "id": "AP-FIN-06",
+     "pattern": "Find the position of the first negative term, one-mark form",
+     "sample": "The first negative term of the AP $50, 46, 42, \\dots$ is which term?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "AP-FIN-07",
+     "pattern": "Test whether a value is a term and find its position, including a term that exceeds another by k",
+     "sample": "Is $151$ a term of the AP $4, 7, 10, \\dots$? If so, which term is it?",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 11,
+     "seenIn": [
+      "2011 main",
+      "2017 main",
+      "2019 main",
+      "2022 compartment",
+      "2022 main"
+     ],
+     "existingIds": [
+      "cmvqhe93l002j7gd05len452q"
+     ]
+    },
+    {
+     "id": "AP-FIN-08",
+     "pattern": "Count numbers in a range by divisibility (by k, or by m but not n), or the terms of a finite AP",
+     "sample": "How many natural numbers less than $300$ are divisible by $6$ but not by $12$?",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 10,
+     "seenIn": [
+      "2013 main",
+      "2017 compartment",
+      "2017 main",
+      "2019 main",
+      "2022 compartment",
+      "2022 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-FIN-09",
+     "pattern": "From two terms or two conditions and a value, find the position or the number of terms",
+     "sample": "An AP has first term $5$, 6th term $30$ and last term $130$. Find the number of terms.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvqhe93w00357gd0l78thj2i"
+     ]
+    },
+    {
+     "id": "AP-FIN-10",
+     "pattern": "Find the first negative term and its position, with working",
+     "sample": "Find the first negative term of the AP $85, 78, 71, \\dots$ and state which term it is.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2017 main",
+      "2020 main"
+     ],
+     "existingIds": [
+      "cmvq9r2g9001x7gcnjrpcqwuz"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Common difference",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "AP-CD-01",
+     "pattern": "Read d from a listed AP (decimal, fractional or surd multiples)",
+     "sample": "The common difference of the AP $2\\sqrt{7}, 4\\sqrt{7}, 6\\sqrt{7}, \\dots$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2019 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "a9",
+      "cmvqhe93b001v7gd0ly120dg4"
+     ]
+    },
+    {
+     "id": "AP-CD-02",
+     "pattern": "Find d of an AP whose terms are algebraic fractions",
+     "sample": "The common difference of the AP $\\frac{1}{x}, \\frac{1 + 2x}{x}, \\frac{1 + 4x}{x}, \\dots$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2013 main",
+      "2019 main",
+      "2020 main",
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-CD-03",
+     "pattern": "Read d from a linear nth-term formula",
+     "sample": "The common difference of the AP with $a_{n} = 9 - 5n$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2019 compartment",
+      "2020 main",
+      "2023 main",
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2g5001l7gcnpoh3eaig"
+     ]
+    },
+    {
+     "id": "AP-CD-04",
+     "pattern": "Find d from the gap between two terms",
+     "sample": "In an AP, $a_{18} - a_{13} = 40$. The common difference is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2017 main",
+      "2024 main",
+      "2025 compartment",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2g5001n7gcnzlndiv57",
+      "cmvqhe93b001x7gd0qs9le6rs"
+     ]
+    },
+    {
+     "id": "AP-CD-05",
+     "pattern": "Find d from a quadratic sum formula",
+     "sample": "If $S_{n} = 2n^{2} + 7n$ for an AP, its common difference is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2025 compartment"
+     ],
+     "existingIds": [
+      "cmvqhe93j002d7gd07muvq84y"
+     ]
+    },
+    {
+     "id": "AP-CD-06",
+     "pattern": "Assertion-reason: d of a listed AP, with the definition of d",
+     "sample": "Assertion (A): The common difference of the AP $18, 13, 8, \\dots$ is $-5$. Reason (R): $d = a_{n} - a_{n-1}$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-CD-07",
+     "pattern": "From a term and a term gap, or two terms, find a and d, then write the AP or a later term",
+     "sample": "In an AP, $a_{4} = 18$ and $a_{9} - a_{6} = 12$. Find the first three terms of the AP.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2017 compartment",
+      "2017 main"
+     ],
+     "existingIds": [
+      "cmvqhe93p002r7gd0m38efphu",
+      "cmvqhe93l002l7gd0221pne4x"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Sum of n terms",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "AP-SUM-01",
+     "pattern": "Find S_n of a listed AP",
+     "sample": "The sum of the first 12 terms of the AP $4, 9, 14, \\dots$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2012 main",
+      "2020 main",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2g2001d7gcnntfrd5e5"
+     ]
+    },
+    {
+     "id": "AP-SUM-02",
+     "pattern": "Find the sum of the first n multiples of a number",
+     "sample": "The sum of the first 15 multiples of $4$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2019 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-SUM-03",
+     "pattern": "Find the first term from a sum formula",
+     "sample": "If $S_{n} = 4n^{2} - 3n$ for an AP, its first term is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2023 main",
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-SUM-04",
+     "pattern": "Find a stated term from a quadratic sum formula",
+     "sample": "If $S_{n} = 2n^{2} + 5n$ for an AP, its 6th term is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2g3001f7gcnup1v0d5v"
+     ]
+    },
+    {
+     "id": "AP-SUM-05",
+     "pattern": "Find n for which the partial sum of a decreasing AP is greatest",
+     "sample": "The sum of the first $n$ terms of the AP $31, 28, 25, \\dots$ is greatest when $n$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe93k002h7gd0nd742xnm"
+     ]
+    },
+    {
+     "id": "AP-SUM-06",
+     "pattern": "Assertion-reason: a numerical S_n claim, with the sum formula",
+     "sample": "Assertion (A): For the AP with $a = 3$ and $d = 4$, $S_{8} = 136$. Reason (R): $S_{n} = \\frac{n}{2}[2a + (n - 1)d]$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe93k002f7gd0fn4dxc2h"
+     ]
+    },
+    {
+     "id": "AP-SUM-07",
+     "pattern": "Assertion-reason: sum or mean of first n natural or odd numbers",
+     "sample": "Assertion (A): The mean of the first $9$ natural numbers is $5$. Reason (R): The sum of the first $n$ natural numbers is $\\frac{n(n + 1)}{2}$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-SUM-08",
+     "pattern": "Find S_n of a listed decreasing AP, with working",
+     "sample": "Find the sum of the first 22 terms of the AP $20, 17, 14, \\dots$",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2017 main",
+      "2020 main",
+      "2022 main"
+     ],
+     "existingIds": [
+      "cmvqhe93o002p7gd0ivno5r7z"
+     ]
+    },
+    {
+     "id": "AP-SUM-09",
+     "pattern": "Find S_k, with n first if needed, from partial data: the nth-term formula, d and one later term, or a, last term and d",
+     "sample": "The $n$th term of an AP is $a_{n} = 5n - 2$. Find the sum of its first 18 terms.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 19,
+     "seenIn": [
+      "2013 main",
+      "2015 main",
+      "2017 compartment",
+      "2019 compartment",
+      "2020 main",
+      "2022 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-SUM-10",
+     "pattern": "Recover the AP, a_n or stated quantities from a sum formula",
+     "sample": "The sum of the first $n$ terms of an AP is $S_{n} = 3n^{2} - n$. Find the first three terms of the AP.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2018 compartment",
+      "2019 main",
+      "2022 main",
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvqhe93s002x7gd0s76noffx"
+     ]
+    },
+    {
+     "id": "AP-SUM-11",
+     "pattern": "Find the sum of multiples of k in a range, or of the first n multiples",
+     "sample": "Find the sum of all multiples of $9$ between $100$ and $200$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2012 main",
+      "2018 main",
+      "2022 main"
+     ],
+     "existingIds": [
+      "cmvq9r2g9001v7gcnwind0ohp",
+      "cmvqhe93q002t7gd02bjz5g7t"
+     ]
+    },
+    {
+     "id": "AP-SUM-12",
+     "pattern": "Find how many terms give a sum of zero",
+     "sample": "How many terms of the AP $27, 24, 21, \\dots$ must be added to get the sum $0$?",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2016 main",
+      "2017 compartment"
+     ],
+     "existingIds": [
+      "cmvqhe93u002z7gd0k3hkoafh"
+     ]
+    },
+    {
+     "id": "AP-SUM-13",
+     "pattern": "Find how many terms give a stated sum, rejecting the invalid root",
+     "sample": "How many terms of the AP $6, 11, 16, \\dots$ must be taken to give a sum of $402$?",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2017 main"
+     ],
+     "existingIds": [
+      "c3"
+     ]
+    },
+    {
+     "id": "AP-SUM-14",
+     "pattern": "From two partial sums, or a sum and the next block's sum, find a further sum or term",
+     "sample": "In an AP, $S_{5} = 40$ and $S_{12} = 180$. Find $S_{20}$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2015 main",
+      "2016 main",
+      "2020 main",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ga00217gcnhlqtge2s"
+     ]
+    },
+    {
+     "id": "AP-SUM-15",
+     "pattern": "From mixed data (a sum with a term, last term, term ratio or term gap), find a and d, then another quantity",
+     "sample": "An AP has first term $2$ and $S_{10} = 155$. Find its common difference, $a_{15}$ and $a_{n}$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 22,
+     "seenIn": [
+      "2012 main",
+      "2014 main",
+      "2017 compartment",
+      "2017 main",
+      "2019 main",
+      "2020 main",
+      "2022 main",
+      "2023 main",
+      "2024 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-SUM-16",
+     "pattern": "Sum numbers in a range under a divisibility or remainder condition, including by subtraction",
+     "sample": "Find the sum of all natural numbers from $1$ to $120$ that are not divisible by $4$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2019 main",
+      "2023 compartment",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvqhe93x00397gd076b521eb"
+     ]
+    },
+    {
+     "id": "AP-SUM-17",
+     "pattern": "Find how many terms give a sum and explain why there are two valid answers",
+     "sample": "How many terms of the AP $-12, -9, -6, \\dots$ give the sum $-30$? Explain why there are two answers.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2gb00257gcnxi5h99cy"
+     ]
+    },
+    {
+     "id": "AP-SUM-18",
+     "pattern": "Non-linear conditions (sum and product of two terms, or three or four numbers in AP), then a sum",
+     "sample": "In an AP, $a_{2} + a_{6} = 22$ and $a_{2} a_{6} = 85$. Find $S_{12}$ for each possible AP.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 11,
+     "seenIn": [
+      "2018 main",
+      "2020 main",
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-SUM-19",
+     "pattern": "From two partial sums or a series total, find the sum formula, a stated sum or the last term",
+     "sample": "In an AP, $S_{5} = 55$ and $S_{12} = 258$. Find $S_{n}$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2011 main",
+      "2013 main",
+      "2014 main",
+      "2019 main",
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-SUM-20",
+     "pattern": "Long form: count and sum numbers with a remainder, then the complement in a wider set",
+     "sample": "Find how many three-digit numbers leave remainder $3$ on division by $7$, find their sum, and hence the sum of all other three-digit numbers.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvqhe93z003f7gd0ex42q4ug"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Middle terms and conditions for an AP",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "AP-MID-01",
+     "pattern": "Find the unknown when three expressions are consecutive terms, one-mark form",
+     "sample": "If $x + 4$, $2x + 3$ and $4x - 2$ are consecutive terms of an AP, then $x$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 22,
+     "seenIn": [
+      "2014 main",
+      "2016 main",
+      "2020 main",
+      "2021 compartment",
+      "2023 compartment",
+      "2023 main",
+      "2024 compartment",
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2g6001p7gcna37tiekx",
+      "cmvqhe93e00237gd09pub5ji5"
+     ]
+    },
+    {
+     "id": "AP-MID-02",
+     "pattern": "Find the middle number from the sum of three numbers in AP",
+     "sample": "Three numbers in AP add up to $39$. The middle number is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-MID-03",
+     "pattern": "Assertion-reason: the condition 2b = a + c or a middle term",
+     "sample": "Assertion (A): If $7, y, 19$ are consecutive terms of an AP, then $y = 13$. Reason (R): $a, b, c$ are in AP if and only if $2b = a + c$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2g8001r7gcno0ru10v7",
+      "cmvqhe93f00257gd0avj3tf96"
+     ]
+    },
+    {
+     "id": "AP-MID-04",
+     "pattern": "Find unknowns so that given expressions or numbers form an AP, with working",
+     "sample": "For what value of $t$ are $2t + 3$, $4t - 1$ and $5t + 1$ consecutive terms of an AP?",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2020 main"
+     ],
+     "existingIds": [
+      "cmvqhe93n002n7gd0fd4elqzo"
+     ]
+    },
+    {
+     "id": "AP-MID-05",
+     "pattern": "Find three numbers in AP from their sum and their product or sum of squares",
+     "sample": "Three numbers in AP have sum $21$ and the sum of their squares is $155$. Find the numbers.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2016 main",
+      "2022 main"
+     ],
+     "existingIds": [
+      "cmvqhe93v00317gd0v37570bb"
+     ]
+    },
+    {
+     "id": "AP-NEW-01",
+     "pattern": "Find the middle term (or the two middle terms) of a listed finite AP",
+     "sample": "Find the middle term of the AP $7, 11, 15, \\dots, 199$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2011 main",
+      "2015 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  },
+  {
+   "name": "Proofs and general relations",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "AP-PRF-01",
+     "pattern": "Use a relation of the form m a_m = n a_n to find a term, one-mark form",
+     "sample": "In an AP, $7a_{7} = 11a_{11}$. Then $a_{18}$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "AP-PRF-02",
+     "pattern": "Prove a general term result from swapped term values",
+     "sample": "In an AP, $a_{m} = n$ and $a_{n} = m$, where $m \\neq n$. Prove that $a_{m+n} = 0$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2014 main",
+      "2017 main",
+      "2019 compartment",
+      "2019 main",
+      "2022 compartment",
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-PRF-03",
+     "pattern": "From a relation between partial sums, prove a sum result or derive a ratio of terms",
+     "sample": "In an AP, $S_{9} = S_{14}$. Show that $S_{23} = 0$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2015 main",
+      "2016 main",
+      "2020 main",
+      "2021 compartment",
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-PRF-04",
+     "pattern": "Deduce or prove a relation among terms and sums (ratio of terms to other ratios, S_p = q type, terms at positions p, q, r)",
+     "sample": "In an AP, $a_{5} : a_{11} = 1 : 2$. Find $a_{9} : a_{19}$ and $S_{8} : S_{12}$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 12,
+     "seenIn": [
+      "2017 main",
+      "2019 main",
+      "2020 main",
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-NEW-02",
+     "pattern": "Prove the sum of an AP in terms of its first, second and last terms",
+     "sample": "The first, second and last terms of an AP are $a$, $b$ and $c$. Prove that the sum is $\\frac{(a+c)(b+c-2a)}{2(b-a)}$, and check it for the AP $3, 7, \\dots, 43$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2020 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  },
+  {
+   "name": "Word problems",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "AP-WP-01",
+     "pattern": "Real-life single term, one-mark form",
+     "sample": "A worker earns ₹$200$ on the first day and ₹$15$ more on each later day. The earning on the 11th day is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe93h002b7gd0q77e7qum"
+     ]
+    },
+    {
+     "id": "AP-WP-02",
+     "pattern": "Real-life charge or fee that grows by a fixed amount: find one value",
+     "sample": "A library charges ₹$30$ for the first day and ₹$6$ for each later day. Find the charge for keeping a book for $14$ days.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe93s002v7gd0gh5m5czg"
+     ]
+    },
+    {
+     "id": "AP-WP-03",
+     "pattern": "Real-life saving or deposit: find when a value is reached and the running total",
+     "sample": "Asha saves ₹$200$ in the first month and ₹$50$ more each later month. In which month does she save ₹$750$, and what is her total saving by then?",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2015 main",
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ga001z7gcnu3k2vhyx"
+     ]
+    },
+    {
+     "id": "AP-WP-04",
+     "pattern": "Real-life total given: find the number of rows or instalments and the last value, with a rejected root",
+     "sample": "Logs are stacked with $24$ in the bottom row and one fewer in each row above. There are $180$ logs. Find the number of rows and the logs in the top row.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 2
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe93v00337gd043j0ffjr",
+      "cmvqhe93y003b7gd0z7bthfhr"
+     ]
+    },
+    {
+     "id": "AP-WP-05",
+     "pattern": "Simple interest year by year: show the values form an AP and find a later value",
+     "sample": "₹$5000$ earns simple interest at $8\\%$ a year. Write the interest after $1$, $2$ and $3$ years, check that it forms an AP, and find the interest after $15$ years.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-WP-06",
+     "pattern": "Numbered houses: find x where the numbers before it add up to the numbers after it",
+     "sample": "Houses in a lane are numbered $1$ to $288$. Show there is a house $x$ such that the numbers before it add up to the numbers after it, and find $x$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2016 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-WP-07",
+     "pattern": "Long real-life set-up: salary by year, stacks by row or ages in AP",
+     "sample": "A starting salary of ₹$18000$ a month rises by ₹$1500$ a month each year. Find the year it reaches ₹$30000$ a month and the total pay in the first $12$ years.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2016 main",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvqhe940003h7gd0g8kpwmyg"
+     ]
+    },
+    {
+     "id": "AP-WP-08",
+     "pattern": "Case study: rows of seats, trees or similar growing by a fixed count",
+     "sample": "A hall has $24$ seats in row 1 and $3$ more in each later row, for $20$ rows. (i) Seats in row 12? (ii) Which row has $66$ seats? (iii) Total seats?",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 compartment"
+     ],
+     "existingIds": [
+      "e1",
+      "cmvq9r2gb00277gcntyqrz0sw"
+     ]
+    },
+    {
+     "id": "AP-WP-09",
+     "pattern": "Case study: daily or per-round distance increasing by a fixed amount",
+     "sample": "Meena cycles $5$ km on day 1 and $0.5$ km more each day. (i) Distance on day 9? (ii) Which day does she cycle $14$ km? (iii) Total in $20$ days?",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2gc00297gcnc00uj9kb"
+     ]
+    },
+    {
+     "id": "AP-WP-10",
+     "pattern": "Case study: daily effort with a total target, find the days needed",
+     "sample": "Riya learns $10$ words on day 1 and $3$ more each day. (i) Words on day 7? (ii) Total in $5$ days? (iii) How many days to reach a total of $465$ words?",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2gd002d7gcnuxj8gspr"
+     ]
+    },
+    {
+     "id": "AP-WP-11",
+     "pattern": "Case study: decreasing amounts such as prizes",
+     "sample": "Six awards start at ₹$900$, each ₹$50$ less than the one before. (i) Common difference? (ii) Amount of the 6th award? (iii) Total of all six awards?",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2gc002b7gcn6pzf267i"
+     ]
+    },
+    {
+     "id": "AP-WP-12",
+     "pattern": "Case study: figure pattern of sticks, dots or small triangles counted from a diagram",
+     "sample": "A printed figure shows squares built in a row from sticks: $4, 7, 10, \\dots$ sticks. (i) nth term? (ii) Sticks in figure 12? (iii) Which figure uses $64$ sticks, and the total for the first $10$ figures?",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2022 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-WP-13",
+     "pattern": "Case study: equally spaced positions from a diagram (poles, lanes, potato race), with round trips or totals",
+     "sample": "A printed track shows a bucket, a first ball $6$ m away and $9$ more balls $4$ m apart. (i) Round trip for ball 1? (ii) For ball 3? (iii) Total running to collect all $10$?",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-WP-14",
+     "pattern": "Case study: sequence set by a rule, either an nth-term formula or ordered multiples",
+     "sample": "Locker numbers follow $a_{n} = 12 + 5n$. (i) First locker number? (ii) Which position has number $92$? (iii) Sum of the first $10$ locker numbers?",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2024 main",
+      "2025 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-WP-15",
+     "pattern": "Case study: loan repaid in instalments that rise by a fixed amount",
+     "sample": "A ₹$38000$ loan is repaid in $8$ instalments, starting at ₹$3000$ and rising by ₹$500$. (i) 3rd instalment? (ii) Last instalment? (iii) Balance left after $5$ instalments?",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AP-WP-16",
+     "pattern": "Case study: output in two given periods known, find a, d, later output and a total",
+     "sample": "A factory makes $800$ units in year 3 and $1100$ in year 6, in AP. (i) Output in year 1? (ii) In year 10? (iii) Total in the first $8$ years?",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": []
+    }
+   ]
+  }
+ ],
+ "outOfScope": [],
+ "fixes": [
+  {
+   "n": 1,
+   "issue": "Tagged medium, is a one-step formula use like n5 and n11",
+   "suggest": "easy",
+   "id": "a8"
+  },
+  {
+   "n": 2,
+   "issue": "Tagged medium, is a one-step subtraction",
+   "suggest": "easy",
+   "id": "a9"
+  },
+  {
+   "n": 4,
+   "issue": "Sub-part marks are not stated, and the 2-mark total comes before a 1-mark part. It also repeats the auditorium context of n10.",
+   "suggest": "Label parts [1], [1], [2], put the total last, and change the context",
+   "id": "e1"
+  },
+  {
+   "n": 18,
+   "issue": "Tagged easy, but needs a count and then a sum, the same task as n25 (medium)",
+   "suggest": "medium",
+   "id": "cmvq9r2g9001v7gcnwind0ohp"
+  },
+  {
+   "n": 26,
+   "issue": "Tagged easy, but needs two sums and a subtraction in a 3-mark answer",
+   "suggest": "medium",
+   "id": "cmvqhe93x00397gd076b521eb"
+  },
+  {
+   "n": 32,
+   "issue": "Tagged medium, is a direct formula use",
+   "suggest": "easy",
+   "id": "cmvqhe93d00217gd0jplph1oy"
+  },
+  {
+   "n": 42,
+   "issue": "Topic label says Common difference, but the task works from a sum formula",
+   "suggest": "Sum of n terms",
+   "id": "cmvqhe93s002x7gd0s76noffx"
+  },
+  {
+   "n": 45,
+   "issue": "Tagged medium, is the same one-equation task as n43 (easy)",
+   "suggest": "easy",
+   "id": "cmvqhe93e00237gd09pub5ji5"
+  }
+ ]
+}

@@ -1,0 +1,2083 @@
+{
+ "chapter": "Real Numbers",
+ "topics": [
+  {
+   "name": "Irrational numbers and proofs",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "RN-IRR-01",
+     "pattern": "Pick the irrational number from a list of options",
+     "sample": "Which of these is irrational: $\\sqrt{49}$, $\\frac{22}{7}$, $\\sqrt{12}$, $0.\\overline{3}$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2020 main"
+     ],
+     "existingIds": [
+      "cmvq9r2iw00bz7gcntu59hxq7"
+     ]
+    },
+    {
+     "id": "RN-IRR-02",
+     "pattern": "Expand a surd binomial or conjugate product, then evaluate or classify the result",
+     "sample": "The number $(2+\\sqrt{7})^2+(2-\\sqrt{7})^2$ is of which type: rational, irrational, negative or zero?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2018 compartment",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ix00c17gcnlb73q6mg"
+     ]
+    },
+    {
+     "id": "RN-IRR-03",
+     "pattern": "Choose the pair of irrational numbers whose product is rational",
+     "sample": "Which pair has a rational product: $(\\sqrt{2},\\sqrt{3})$, $(3+\\sqrt{2},3-\\sqrt{2})$, $(\\sqrt{5},\\sqrt{10})$, $(\\sqrt{7},2\\sqrt{3})$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-IRR-04",
+     "pattern": "Recall the type of a sum or product of a non-zero rational and an irrational",
+     "sample": "The product of $\\frac{3}{4}$ and $\\sqrt{11}$ is always of which type of number?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2iy00c57gcnqm0vp3of"
+     ]
+    },
+    {
+     "id": "RN-IRR-05",
+     "pattern": "Use the result that a prime dividing a square also divides the number",
+     "sample": "If $7$ divides $a^2$ for a positive integer $a$, which of $a$, $a+1$, $a+2$, $a+3$ must $7$ also divide?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-IRR-06",
+     "pattern": "Identify the correct starting assumption or step in a contradiction proof",
+     "sample": "To prove $\\sqrt{11}$ irrational by contradiction, we first assume $\\sqrt{11}=\\frac{a}{b}$ where $a$ and $b$ are integers with which property?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "RN-IRR-07",
+     "pattern": "Assertion-reason: rational plus surd is irrational, with a reason about sums of irrationals",
+     "sample": "A: $5+\\sqrt{3}$ is irrational. R: The sum of any two irrational numbers is irrational.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2j600cx7gcncjlul84i"
+     ]
+    },
+    {
+     "id": "RN-IRR-08",
+     "pattern": "Assertion-reason: a specific root is irrational, with the general prime-root theorem as reason",
+     "sample": "A: $\\sqrt{11}$ is irrational. R: The square root of every prime number is irrational.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "a20"
+     ]
+    },
+    {
+     "id": "RN-IRR-09",
+     "pattern": "Assertion-reason: decide if the perimeter of a printed figure with surd sides is rational",
+     "sample": "A triangle is printed with sides $(3+\\sqrt{2})$, $(5-\\sqrt{2})$ and $6$ cm. A: Its perimeter is rational. R: The sum of two irrational numbers can be rational.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-IRR-10",
+     "pattern": "Given a root is irrational, prove a linear expression $a \\pm b\\sqrt{p}$ is irrational",
+     "sample": "Given that $\\sqrt{7}$ is irrational, prove that $4-3\\sqrt{7}$ is irrational.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 28,
+     "seenIn": [
+      "2018 compartment",
+      "2018 main",
+      "2019 compartment",
+      "2020 main",
+      "2023 compartment",
+      "2023 main",
+      "2024 compartment",
+      "2024 main",
+      "2025 compartment",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2j700d17gcn9pmz8wah"
+     ]
+    },
+    {
+     "id": "RN-IRR-11",
+     "pattern": "Simplify a surd expression and state whether the result is rational or irrational",
+     "sample": "Simplify $(3+\\sqrt{2})^2-6\\sqrt{2}$ and state whether the result is rational or irrational.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe96o00bf7gd0yidzyruf"
+     ]
+    },
+    {
+     "id": "RN-IRR-12",
+     "pattern": "Find irrational numbers that have a stated rational sum and product",
+     "sample": "Find two irrational numbers whose sum is $6$ and whose product is $7$. Justify your answer.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "RN-IRR-13",
+     "pattern": "Spot the error in a student's claim about irrational numbers",
+     "sample": "A student says: $\\sqrt{2}$ and $\\sqrt{8}$ are irrational, so $\\sqrt{2}\\times\\sqrt{8}$ must be irrational. Find the error and give the correct value.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "RN-IRR-14",
+     "pattern": "Prove the square root of a prime is irrational by contradiction",
+     "sample": "Prove that $\\sqrt{13}$ is irrational.",
+     "slot": "C",
+     "targets": {
+      "easy": 1,
+      "medium": 4,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 53,
+     "seenIn": [
+      "2019 main",
+      "2020 main",
+      "2023 main",
+      "2024 compartment",
+      "2024 main",
+      "2025 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "c1",
+      "cmvq9r2ja00dd7gcnch69e276"
+     ]
+    },
+    {
+     "id": "RN-IRR-15",
+     "pattern": "Prove the square root of a non-prime, square-free number is irrational",
+     "sample": "Prove that $\\sqrt{6}$ is irrational.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2ja00dh7gcn225upftx"
+     ]
+    },
+    {
+     "id": "RN-IRR-16",
+     "pattern": "Given a root is irrational, prove a linear surd expression irrational as a full 3-mark answer",
+     "sample": "Given that $\\sqrt{5}$ is irrational, prove that $7+3\\sqrt{5}$ is irrational.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 15,
+     "seenIn": [
+      "2019 main",
+      "2020 main",
+      "2021 compartment",
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-IRR-17",
+     "pattern": "Prove a root is irrational, and hence prove a linear expression in it is irrational",
+     "sample": "Prove that $\\sqrt{3}$ is irrational. Hence show that $5-2\\sqrt{3}$ is irrational.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2jb00dl7gcnkx39mlag"
+     ]
+    },
+    {
+     "id": "RN-IRR-18",
+     "pattern": "Prove a surd fraction or reciprocal is irrational, and name a rationalising partner",
+     "sample": "Given that $\\sqrt{3}$ is irrational, prove that $\\frac{2+5\\sqrt{3}}{7}$ is irrational and find a number whose product with it is rational.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2024 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2ja00df7gcnkbfy89dg"
+     ]
+    },
+    {
+     "id": "RN-IRR-19",
+     "pattern": "Prove a sum of two surds is irrational by squaring, using a known irrational",
+     "sample": "Given that $\\sqrt{10}$ is irrational, prove that $\\sqrt{2}+\\sqrt{5}$ is irrational.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2jb00dj7gcn1mn2y0sq"
+     ]
+    },
+    {
+     "id": "RN-IRR-20",
+     "pattern": "Long answer: prove a root is irrational, then prove a squared binomial in it is irrational",
+     "sample": "Prove that $\\sqrt{5}$ is irrational. Hence show that $(3+\\sqrt{5})^2$ is irrational.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe96p00bh7gd0mxyeknp9"
+     ]
+    },
+    {
+     "id": "RN-IRR-21",
+     "pattern": "Case study: areas of plots with surd dimensions, classifying each result",
+     "sample": "A rectangular plot measures $(4+\\sqrt{2})$ m by $(4-\\sqrt{2})$ m; a square bed has side $(1+\\sqrt{2})$ m. (i) Find the plot's area. (ii) Classify it. (iii) Find the bed's area and prove it irrational.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe96s00bt7gd03dqcktrb"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "HCF and LCM by prime factorisation",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "RN-PF-01",
+     "pattern": "Find the HCF of two given numbers",
+     "sample": "The HCF of $126$ and $234$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2020 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "a1"
+     ]
+    },
+    {
+     "id": "RN-PF-02",
+     "pattern": "Find the HCF or LCM of three given numbers",
+     "sample": "The LCM of $18$, $24$ and $40$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2020 main",
+      "2024 main",
+      "2025 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-PF-03",
+     "pattern": "Read the HCF or LCM from numbers written as prime-power products",
+     "sample": "If $a=p^3q^2$ and $b=p^2q^4$ for primes $p$ and $q$, then LCM$(a,b)$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 13,
+     "seenIn": [
+      "2019 main",
+      "2024 compartment",
+      "2024 main",
+      "2025 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2iz00c77gcn9ywfrkl5",
+      "cmvq9r2j000cb7gcn6ws17za6"
+     ]
+    },
+    {
+     "id": "RN-PF-04",
+     "pattern": "Find an unknown exponent from a given LCM or HCF",
+     "sample": "If $a=2^{x}\\times 3^{2}$, $b=2^{2}\\times 5$ and LCM$(a,b)=720$, then $x$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-PF-05",
+     "pattern": "HCF, LCM or their ratio for numbers described in words (least prime, least composite)",
+     "sample": "The ratio HCF : LCM of the least prime number and the least odd composite number is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2018 main",
+      "2023 main",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2j000c97gcnzva5j1ck"
+     ]
+    },
+    {
+     "id": "RN-PF-06",
+     "pattern": "Evaluate an expression combining the HCF and LCM of two numbers",
+     "sample": "If HCF$(36,60)=m$ and LCM$(36,60)=n$, then $n-5m$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-PF-07",
+     "pattern": "Find the least perfect square divisible by given numbers",
+     "sample": "The least perfect square divisible by each of $4$, $6$ and $10$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-PF-08",
+     "pattern": "Combine LCMs of two sets and pick the true relation between results",
+     "sample": "If $x=$ LCM$(4,6,8)$, $y=$ LCM$(3,5,9)$ and $p=$ LCM$(x,y)$, which relation among $x$, $y$ and $p$ is true?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-PF-09",
+     "pattern": "Assertion-reason: HCF of algebraic multiples of a prime, with HCF at most the smaller number as reason",
+     "sample": "A: For a prime $m$, HCF$(15m^2,5m)=5m$. R: The HCF of two positive integers never exceeds the smaller of them.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-PF-10",
+     "pattern": "Find the HCF and LCM of two numbers by prime factorisation",
+     "sample": "Find the HCF and LCM of $84$ and $140$ by prime factorisation.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2019 main",
+      "2023 main"
+     ],
+     "existingIds": [
+      "b1",
+      "cmvq9r2j700d37gcn23yn6b5d"
+     ]
+    },
+    {
+     "id": "RN-PF-11",
+     "pattern": "Find the least number exactly divisible by two given numbers",
+     "sample": "Find the least number that is exactly divisible by both $36$ and $84$.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2019 main",
+      "2024 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-PF-12",
+     "pattern": "HCF or LCM of two numbers equals a linear expression; solve for the unknown",
+     "sample": "If LCM$(12,18)=7z+1$, find the value of $z$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2025 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-PF-13",
+     "pattern": "Find the HCF and LCM of three numbers by prime factorisation",
+     "sample": "Find the HCF and LCM of $72$, $108$ and $180$ by prime factorisation.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2jc00dp7gcnemt38v1w"
+     ]
+    },
+    {
+     "id": "RN-PF-14",
+     "pattern": "Find the HCF and LCM of two larger numbers and verify HCF x LCM = product",
+     "sample": "Find the HCF and LCM of $420$ and $1512$ by prime factorisation, and verify that HCF $\\times$ LCM equals their product.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2018 main",
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2jc00dn7gcnek7ooqpb"
+     ]
+    },
+    {
+     "id": "RN-PF-15",
+     "pattern": "HCF and LCM of three algebraic prime-power products, then test whether HCF x LCM = product",
+     "sample": "For primes $x,y$: $p=x^2y^3$, $q=x^3y$, $r=xy^2$. Find HCF$(p,q,r)$ and LCM$(p,q,r)$. Does HCF $\\times$ LCM equal $pqr$?",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "RN-PF-16",
+     "pattern": "Long answer: HCF and LCM of three numbers, plus verifying the product identity for a pair",
+     "sample": "Find the HCF and LCM of $252$, $378$ and $504$. Verify HCF $\\times$ LCM $=$ product for $252$ and $378$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe96r00bp7gd0ohq5orrl"
+     ]
+    },
+    {
+     "id": "RN-NEW-02",
+     "pattern": "Reduce a fraction to its simplest form by dividing by the HCF",
+     "sample": "The simplest form of $\\frac{1001}{1547}$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2020 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  },
+  {
+   "name": "Fundamental theorem of arithmetic",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "RN-FTA-01",
+     "pattern": "Classify a special number (1, 2) as prime, composite, both or neither",
+     "sample": "The natural number $1$ is best described as prime, composite, both or neither?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-FTA-02",
+     "pattern": "State or rule out the units digit of a power",
+     "sample": "Which of $2$, $4$, $5$, $6$ cannot be the units digit of $8^{n}$ for a natural number $n$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-FTA-03",
+     "pattern": "Decide which number ends in 0, or count trailing zeroes, from prime factors",
+     "sample": "For which of $4^{n}$, $6^{n}$, $10^{n}$, $15^{n}$ is the last digit $0$ for every natural number $n$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2j200ch7gcnwgnsi2w1"
+     ]
+    },
+    {
+     "id": "RN-FTA-04",
+     "pattern": "Factorise a number and add the exponents, or find unknown exponents",
+     "sample": "If $4620=2^{a}\\times 3^{b}\\times 5^{c}\\times 7^{d}\\times 11^{e}$, then $a+b+c+d+e$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 12,
+     "seenIn": [
+      "2020 main",
+      "2021 compartment",
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2j100cf7gcntdtu7tdp"
+     ]
+    },
+    {
+     "id": "RN-FTA-05",
+     "pattern": "Choose the property of a product of primes plus one of those primes",
+     "sample": "The number $3\\times 5\\times 11+11$ is prime, composite, odd or a perfect square?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2j100cd7gcnpbqj6ghp"
+     ]
+    },
+    {
+     "id": "RN-FTA-06",
+     "pattern": "Count the divisors of a power of a prime",
+     "sample": "How many positive divisors does $13^{2}$ have?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2020 main",
+      "2025 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-FTA-07",
+     "pattern": "Choose the correct prime factorisation of a number",
+     "sample": "The prime factorisation of $2184$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "RN-FTA-08",
+     "pattern": "Recall the statement and uniqueness part of the theorem",
+     "sample": "Apart from the order of the factors, in how many ways can the composite number $360$ be written as a product of primes?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "RN-FTA-09",
+     "pattern": "Read a printed factor tree and find a missing value",
+     "sample": "A printed factor tree for $2310$ has prime branches $2$, $3$, $5$, $x$ and $11$. Find $x$.",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "RN-FTA-10",
+     "pattern": "Assertion-reason: can a power end in 0, with prime factors as reason",
+     "sample": "A: $16^{n}$ cannot end with the digit $0$ for any natural number $n$. R: The prime factorisation of $16^{n}$ does not contain the prime $5$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2023 main",
+      "2025 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2j500cv7gcn3mx3hxhe"
+     ]
+    },
+    {
+     "id": "RN-FTA-11",
+     "pattern": "Decide with reasons whether a power can end in 0",
+     "sample": "Can $18^{n}$ end with the digit $0$ for any natural number $n$? Justify your answer.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 10,
+     "seenIn": [
+      "2020 main",
+      "2023 main",
+      "2024 compartment",
+      "2024 main",
+      "2025 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-FTA-12",
+     "pattern": "State with reasons whether numerical expressions are prime or composite",
+     "sample": "Without multiplying out, state with reasons whether $3\\times 5\\times 7+7$ and $5\\times 4\\times 3\\times 2\\times 1+3$ are prime or composite.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2021 compartment",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2j800d57gcnnohtx4rl"
+     ]
+    },
+    {
+     "id": "RN-FTA-13",
+     "pattern": "Find the smallest multiplier that makes a number a perfect square",
+     "sample": "Find the smallest natural number by which $1960$ must be multiplied so that the product is a perfect square.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe96m00bd7gd0f9dpzxp8"
+     ]
+    },
+    {
+     "id": "RN-FTA-14",
+     "pattern": "Show one expression always ends in 0 and another never does",
+     "sample": "Show that $(6\\times 15)^{n}$ ends with the digit $0$ for every natural number $n$, but $14^{n}$ never does.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2jd00dv7gcndzsubo3w"
+     ]
+    },
+    {
+     "id": "RN-FTA-15",
+     "pattern": "Test a product-of-primes expression for compositeness and give examples of each case",
+     "sample": "Is $3\\times 5\\times 7+5$ composite? Give values of primes $p,q,r$ for which $pqr+1$ is prime, and values for which it is composite.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "RN-FTA-16",
+     "pattern": "Long answer: use one factorisation for square, cube and ends-in-0 reasoning",
+     "sample": "Factorise $2160$. Find the smallest multipliers making it a perfect square and a perfect cube, and show $2160^{n}$ ends in $0$ for every natural $n$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "RN-FTA-17",
+     "pattern": "Case study: a number built by multiplying primes; find least, greatest and repeated primes and the count",
+     "sample": "A game starts at $2$ and multiplies by primes to reach $5460$. (i) Find the least multiplier. (ii) Find the greatest multiplier. (iii) How many multipliers are used, and which prime repeats in $5460$?",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "HCF and LCM word problems",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "RN-WP-01",
+     "pattern": "Greatest number dividing two numbers and leaving given remainders",
+     "sample": "The greatest number that divides $130$ and $170$ leaving remainders $4$ and $2$ respectively is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2020 main",
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-WP-02",
+     "pattern": "Cut lengths into the longest equal pieces and count the pieces",
+     "sample": "Wires of $96$ cm and $144$ cm are cut into equal pieces, as long as possible, with none left over. The total number of pieces is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2j400cp7gcnr27bkiyn"
+     ]
+    },
+    {
+     "id": "RN-WP-03",
+     "pattern": "Two periodic events: find when they next coincide",
+     "sample": "Two bells ring every $12$ and $18$ minutes. They ring together at 10:00 a.m. They will next ring together at",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "RN-WP-04",
+     "pattern": "Least number with a fixed remainder that is also divisible by another number",
+     "sample": "The least number that leaves remainder $5$ on division by each of $12$, $18$ and $24$ and is divisible by $7$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "RN-WP-05",
+     "pattern": "Greatest number dividing given numbers and leaving remainders, as a short answer",
+     "sample": "Find the greatest number that divides $245$ and $1029$ leaving remainder $5$ in each case.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2023 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2j800d77gcnzse3cbkd"
+     ]
+    },
+    {
+     "id": "RN-WP-06",
+     "pattern": "Periodic events or stride lengths: find the next coincidence or least common distance",
+     "sample": "Two traffic signals change every $36$ s and $48$ s. They change together at 7:00:00 a.m. When will they next change together?",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2j900d97gcnlpf7l1t5"
+     ]
+    },
+    {
+     "id": "RN-WP-07",
+     "pattern": "Longest rod or plank that measures given lengths exactly",
+     "sample": "Find the length of the longest rod that can measure both $6.3$ m and $8.4$ m an exact number of times.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-WP-08",
+     "pattern": "Groups placed separately in equal numbers: fewest rooms, tables or boxes",
+     "sample": "Groups of $60$, $84$ and $108$ students sit in rooms, with equal numbers per room and one group per room. Find the minimum number of rooms.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2024 compartment",
+      "2024 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2jc00dr7gcn9y1l0opy"
+     ]
+    },
+    {
+     "id": "RN-WP-09",
+     "pattern": "Three periodic events: find the next time they coincide",
+     "sample": "Three bells ring every $9$, $12$ and $15$ minutes and ring together at 8:00 a.m. At what time will they next ring together?",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "RN-WP-10",
+     "pattern": "Different cycle times: find the common restart time and the rounds or items completed",
+     "sample": "Three machines take $18$ s, $24$ s and $30$ s per item and start together. When do they next start together, and how many items are finished by then?",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 compartment"
+     ],
+     "existingIds": [
+      "cmvq9r2jd00dt7gcn8bncgee4"
+     ]
+    },
+    {
+     "id": "RN-WP-11",
+     "pattern": "Greatest number below a bound divisible by three given numbers",
+     "sample": "Find the greatest number less than $1000$ that is exactly divisible by $12$, $18$ and $30$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2023 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-WP-12",
+     "pattern": "Largest square that fits a rectangle exactly, and the number of squares",
+     "sample": "A window of $180$ cm by $144$ cm is filled with identical square panes of the largest possible size. Find the side of a pane and the number of panes.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-WP-13",
+     "pattern": "Greatest divisor of three numbers leaving three different remainders",
+     "sample": "Find the greatest number that divides $227$, $303$ and $430$ leaving remainders $2$, $3$ and $5$ respectively.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "RN-WP-14",
+     "pattern": "Cut cloths into strips of maximum equal width and count the pieces",
+     "sample": "Cloths of width $180$ cm and $252$ cm are cut lengthwise into strips of the greatest equal width. Find that width and the total number of strips.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "RN-WP-15",
+     "pattern": "Least number with a common remainder that is also divisible by another number, with full working",
+     "sample": "Find the least number that leaves remainder $3$ on division by each of $12$, $15$ and $20$ and is exactly divisible by $7$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-WP-16",
+     "pattern": "Long answer: greatest common measure for three quantities and the total count",
+     "sample": "A dairy has tanks of $180$ L, $270$ L and $450$ L. Find the greatest capacity of a can that empties each tank exactly, and the total number of cans filled.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe96q00bj7gd03fnn2ekp"
+     ]
+    },
+    {
+     "id": "RN-WP-17",
+     "pattern": "Long answer: next coincidence of three periodic events and the count within a time window",
+     "sample": "Three lamps flash every $24$ s, $36$ s and $60$ s and flash together at 8:00 p.m. When do they next flash together? How many more times do they do so up to 9:00 p.m.?",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe96q00bl7gd046ndgbtr"
+     ]
+    },
+    {
+     "id": "RN-WP-18",
+     "pattern": "Case study: fewest equal single-type stacks or rows; find size and counts",
+     "sample": "A library stacks $96$ Hindi, $240$ English and $336$ Science books in equal single-subject stacks, as few as possible. (i) Find the stack size. (ii) Find the English stacks. (iii) Find the total stacks.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 compartment"
+     ],
+     "existingIds": [
+      "cmvq9r2je00dx7gcnsf79508v"
+     ]
+    },
+    {
+     "id": "RN-WP-19",
+     "pattern": "Case study: tiling a rectangular floor with the largest square tiles",
+     "sample": "A hall floor of $648$ cm by $504$ cm is covered by the largest identical square tiles. (i) Factorise $648$. (ii) Find the HCF of $648$ and $504$. (iii) Find the number of tiles.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe96s00br7gd0jjzfrhcr"
+     ]
+    },
+    {
+     "id": "RN-WP-20",
+     "pattern": "Case study: timetables that coincide; find the next meeting time and how many in a period",
+     "sample": "Buses leave a depot every $15$, $20$ and $36$ minutes, all together at 6:00 a.m. (i) Factorise $36$. (ii) Find the LCM. (iii) Find the next common departure, and how many occur up to noon.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "HCF-LCM relation",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "RN-REL-01",
+     "pattern": "Use HCF x LCM = product to get the missing number, LCM, HCF or product",
+     "sample": "The HCF of two numbers is $9$ and their LCM is $270$. If one number is $54$, the other is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 12,
+     "seenIn": [
+      "2019 main",
+      "2020 main"
+     ],
+     "existingIds": [
+      "a2",
+      "cmvq9r2j200cj7gcn3kmr1ycm",
+      "cmvq9r2j300cl7gcndj01wyk0"
+     ]
+    },
+    {
+     "id": "RN-REL-02",
+     "pattern": "Given the HCF of two numbers and their LCM with an unknown factor, find the unknown",
+     "sample": "If HCF$(84,126)=42$ and LCM$(84,126)=21k$, then $k$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-REL-03",
+     "pattern": "State the HCF or LCM when one number is a multiple of the other",
+     "sample": "Since $132$ is a multiple of $11$, LCM$(132,11)$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2023 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2j300cn7gcnxoy1s1bg"
+     ]
+    },
+    {
+     "id": "RN-REL-04",
+     "pattern": "State the HCF or LCM of co-prime numbers",
+     "sample": "Two co-prime numbers have product $221$. Their HCF is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-REL-05",
+     "pattern": "Pick the true general identity linking HCF, LCM and the two numbers",
+     "sample": "For positive integers $a$ and $b$, which one is always true: HCF $\\times$ LCM $=ab$, HCF $+$ LCM $=a+b$, LCM $=a+b$, or HCF $=ab$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-REL-06",
+     "pattern": "Choose which pair can be the HCF and LCM of two numbers (HCF must divide LCM)",
+     "sample": "Which pair can be the HCF and LCM of two positive integers: $(12,90)$, $(6,84)$, $(8,50)$ or $(15,100)$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "RN-REL-07",
+     "pattern": "Count the number pairs that have a given sum and HCF",
+     "sample": "How many pairs of positive integers have sum $180$ and HCF $15$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "RN-REL-08",
+     "pattern": "Assertion-reason: HCF and LCM values for primes or a claimed pair, with the product relation or divisibility as reason",
+     "sample": "A: For the primes $13$ and $17$, the HCF is $1$ and the LCM is $221$. R: For two positive integers, HCF $\\times$ LCM equals their product.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvqhe96j00b97gd0v86e8w54"
+     ]
+    },
+    {
+     "id": "RN-REL-09",
+     "pattern": "Find the other number from the HCF, LCM and one number",
+     "sample": "The HCF of two numbers is $12$ and their LCM is $336$. If one number is $48$, find the other.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2j900db7gcnr7jr4ser",
+      "cmvqhe96l00bb7gd0ha54o20f"
+     ]
+    },
+    {
+     "id": "RN-REL-10",
+     "pattern": "Numbers in a given ratio with known LCM or HCF; find the other",
+     "sample": "Two numbers are in the ratio $3:5$ and their LCM is $300$. Find their HCF.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-REL-11",
+     "pattern": "Find the HCF and LCM of two numbers known by their sum and difference",
+     "sample": "Two numbers have sum $84$ and difference $12$. Find their HCF and LCM.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "RN-REL-12",
+     "pattern": "List all pairs of numbers with a given HCF and product",
+     "sample": "The HCF of two positive integers is $8$ and their product is $1920$. Find all possible pairs.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "RN-REL-13",
+     "pattern": "List all pairs with a given HCF and product, with co-primality checks",
+     "sample": "Two positive integers have HCF $12$ and product $2160$. Find every possible pair, and show why others fail.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "RN-REL-14",
+     "pattern": "Long answer: find two numbers from their HCF, LCM and sum",
+     "sample": "Two positive integers have HCF $12$, LCM $720$ and sum $204$. Find the integers.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe96r00bn7gd0qdytydv9"
+     ]
+    },
+    {
+     "id": "RN-NEW-01",
+     "pattern": "LCM is a given multiple of the HCF and their sum is known; find the HCF",
+     "sample": "The LCM of two numbers is $14$ times their HCF, and LCM $+$ HCF $=600$. The HCF is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2019 compartment"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  },
+  {
+   "name": "Decimal expansions and number classification",
+   "scope": "core",
+   "scopeNote": "Holds only classification tasks, which 2023-2026 papers test. Terminating-decimal rules are in a separate verify topic.",
+   "patterns": [
+    {
+     "id": "RN-CLS-01",
+     "pattern": "Choose a rational number lying between two surds",
+     "sample": "Which of the following is a rational number between $\\sqrt{3}$ and $\\sqrt{5}$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 10,
+     "seenIn": [
+      "2019 main",
+      "2025 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2iy00c37gcno3qrtzv8"
+     ]
+    },
+    {
+     "id": "RN-CLS-02",
+     "pattern": "Classify a given decimal as natural, integer, rational or irrational",
+     "sample": "The number $2.375$ is a natural number, an integer, a rational number or an irrational number?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-CLS-03",
+     "pattern": "Classify a number from the value of its square",
+     "sample": "If $p^{2}=\\frac{49}{81}$, then $p$ is which type of number?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-CLS-04",
+     "pattern": "Use powers of -1 to deduce whether an unknown exponent is odd or even",
+     "sample": "If $(-1)^{n}+(-1)^{8}=0$, then $n$ is which kind of integer?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Terminating and non-terminating decimal expansions",
+   "scope": "verify",
+   "scopeNote": "Not on the supplied cut list, but no board row from 2023-2026 tests the denominator rule; the only row is 2019. Believed dropped from the rationalised chapter, so targets are 0 until a person checks. Bank questions 50-54 wait here.",
+   "patterns": [
+    {
+     "id": "RN-DEC-01",
+     "pattern": "Choose which fraction has a terminating or a non-terminating repeating expansion",
+     "sample": "Which of $\\frac{7}{20}$, $\\frac{5}{12}$, $\\frac{3}{14}$, $\\frac{11}{15}$ has a terminating decimal expansion?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2020 main"
+     ],
+     "existingIds": [
+      "cmvq9r2j400cr7gcnuauniflm",
+      "cmvqhe96g00b57gd01x0rgmwn"
+     ]
+    },
+    {
+     "id": "RN-DEC-02",
+     "pattern": "Count decimal places before a fraction with factorised denominator terminates",
+     "sample": "The decimal expansion of $\\frac{21}{2^{4}\\times 5}$ terminates after how many decimal places?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2019 main",
+      "2020 main"
+     ],
+     "existingIds": [
+      "cmvq9r2j500ct7gcn9nkcutit"
+     ]
+    },
+    {
+     "id": "RN-DEC-03",
+     "pattern": "Find the smallest multiplier that makes a fraction terminate",
+     "sample": "The smallest positive integer $k$ for which $\\frac{k}{66}$ has a terminating decimal expansion is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe96i00b77gd00e8q4r2i"
+     ]
+    },
+    {
+     "id": "RN-DEC-04",
+     "pattern": "Assertion-reason: type of expansion, with the denominator rule as reason",
+     "sample": "A: $\\frac{13}{2^{3}\\times 3}$ has a terminating decimal expansion. R: A fraction in lowest terms terminates only if its denominator has no primes other than $2$ and $5$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2j600cz7gcnjxlxdzdg"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Euclid's division lemma and algorithm",
+   "scope": "verify",
+   "scopeNote": "On the believed-cut list. Rows are from 2019 only and no 2024-2026 row asks for the algorithm itself, so targets are 0. The irrational-proof options inside legacy rows are counted here, not under core proof patterns.",
+   "patterns": [
+    {
+     "id": "RN-EUC-01",
+     "pattern": "Find an HCF by Euclid's division algorithm, short answer",
+     "sample": "Use Euclid's division algorithm to find the HCF of $168$ and $420$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2019 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-EUC-02",
+     "pattern": "Find an HCF of larger numbers by Euclid's division algorithm",
+     "sample": "Use Euclid's division algorithm to find the HCF of $1071$ and $462$, showing every division step.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2018 compartment",
+      "2019 compartment",
+      "2020 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-EUC-03",
+     "pattern": "Show that odd positive integers have a given form using the division lemma",
+     "sample": "Show that every odd positive integer is of the form $6q+1$, $6q+3$ or $6q+5$ for some integer $q$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2019 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "RN-NEW-03",
+     "pattern": "State the condition on the remainder in Euclid's division lemma",
+     "sample": "In Euclid's division lemma $a=bq+r$ for positive integers $a,b$, the remainder $r$ must satisfy",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2020 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    },
+    {
+     "id": "RN-NEW-04",
+     "pattern": "Use the division lemma to show the square of any positive integer is, or can never be, of a given form",
+     "sample": "Using Euclid's division lemma, show that the square of any positive integer is of the form $4m$ or $4m+1$ for some integer $m$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2020 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  },
+  {
+   "name": "HCF written as a linear combination",
+   "scope": "verify",
+   "scopeNote": "Linked to Euclid's algorithm, which is believed cut, but a 2026 main paper gave this as an internal-choice option: the HCF of two numbers written as a sum of multiples of them, with one multiplier to find. Kept with a real target; it can be solved by factorisation alone.",
+   "patterns": [
+    {
+     "id": "RN-LIN-01",
+     "pattern": "HCF written as a sum of multiples of the two numbers; find the unknown multiplier",
+     "sample": "If HCF$(84,132)$ is written as $84\\times(-3)+132m$, find the value of $m$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2019 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  }
+ ],
+ "outOfScope": [],
+ "fixes": [
+  {
+   "n": 1,
+   "issue": "Tagged medium, but it is a single direct HCF of two numbers",
+   "suggest": "easy",
+   "id": "a1"
+  },
+  {
+   "n": 25,
+   "issue": "Tagged easy in a 5-mark slot, but it needs three factorisations plus a verification",
+   "suggest": "medium",
+   "id": "cmvqhe96r00bp7gd0ohq5orrl"
+  },
+  {
+   "n": 26,
+   "issue": "Topic label is prime factorisation, but this is a tiling word problem",
+   "suggest": "topic: HCF and LCM word problems",
+   "id": "cmvqhe96s00br7gd0jjzfrhcr"
+  },
+  {
+   "n": 33,
+   "issue": "Topic label is fundamental theorem, but this is an equal-rows HCF word problem",
+   "suggest": "topic: HCF and LCM word problems",
+   "id": "cmvq9r2je00dx7gcnsf79508v"
+  },
+  {
+   "n": 38,
+   "issue": "Tagged hard, but it is a standard HCF then count, 2-3 steps",
+   "suggest": "medium",
+   "id": "cmvq9r2jc00dr7gcn9y1l0opy"
+  },
+  {
+   "n": 39,
+   "issue": "Tagged easy, but it needs an LCM of three numbers and then a count of rounds",
+   "suggest": "medium",
+   "id": "cmvq9r2jd00dt7gcn8bncgee4"
+  },
+  {
+   "n": 47,
+   "issue": "Tagged easy, but it is the same task as question 45, which is tagged medium",
+   "suggest": "medium, to match question 45",
+   "id": "cmvqhe96l00bb7gd0ha54o20f"
+  },
+  {
+   "n": 51,
+   "issue": "Tagged hard, but it is a one-step reading of the larger power in the denominator",
+   "suggest": "easy",
+   "id": "cmvq9r2j500ct7gcn9nkcutit"
+  }
+ ]
+}

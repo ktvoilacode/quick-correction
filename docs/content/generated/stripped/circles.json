@@ -1,0 +1,344 @@
+[
+ {
+  "idx": 0,
+  "marks": 1,
+  "type": "mcq",
+  "text": "From an external point P, a tangent PT is drawn to a circle with centre O and radius 8 cm. If OP = 17 cm, the length of the tangent PT is",
+  "options": [
+   "9 cm",
+   "12 cm",
+   "15 cm",
+   "25 cm"
+  ]
+ },
+ {
+  "idx": 1,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Tangents PA and PB are drawn from an external point P to a circle with centre O, touching it at A and B. If \u2220APB = 50\u00b0, then \u2220AOB is equal to",
+  "options": [
+   "40\u00b0",
+   "130\u00b0",
+   "100\u00b0",
+   "50\u00b0"
+  ]
+ },
+ {
+  "idx": 2,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The tangents drawn at points A and B of a circle with centre O meet at P. If \u2220AOB = 110\u00b0, then \u2220PAB is equal to",
+  "options": [
+   "35\u00b0",
+   "55\u00b0",
+   "70\u00b0",
+   "110\u00b0"
+  ]
+ },
+ {
+  "idx": 3,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A point P lies outside a circle with centre O. The length of the tangent from P is 24 cm and OP = 25 cm. The radius of the circle is",
+  "options": [
+   "5 cm",
+   "6 cm",
+   "7 cm",
+   "12 cm"
+  ]
+ },
+ {
+  "idx": 4,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Two concentric circles have radii 13 cm and 5 cm. A chord of the larger circle touches the smaller circle. The length of this chord is",
+  "options": [
+   "12 cm",
+   "18 cm",
+   "24 cm",
+   "26 cm"
+  ]
+ },
+ {
+  "idx": 5,
+  "marks": 1,
+  "type": "mcq",
+  "text": "PQ is a tangent to a circle with centre O at the point Q, and P is outside the circle. If \u2220POQ = 62\u00b0, then \u2220OPQ is equal to",
+  "options": [
+   "28\u00b0",
+   "38\u00b0",
+   "62\u00b0",
+   "118\u00b0"
+  ]
+ },
+ {
+  "idx": 6,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Tangents PA and PB from an external point P touch a circle at A and B. If \u2220APB = 64\u00b0, then \u2220PAB is",
+  "options": [
+   "32\u00b0",
+   "58\u00b0",
+   "64\u00b0",
+   "116\u00b0"
+  ]
+ },
+ {
+  "idx": 7,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The distance of an external point P from the centre O of a circle of radius 6 cm is 10 cm. Tangents PA and PB touch the circle at A and B. The perimeter of quadrilateral OAPB is",
+  "options": [
+   "14 cm",
+   "28 cm",
+   "32 cm",
+   "48 cm"
+  ]
+ },
+ {
+  "idx": 8,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A tangent is drawn at point A of a circle with centre O, and AB is a chord. If \u2220OAB = 35\u00b0, the smaller angle between the tangent at A and the chord AB is",
+  "options": [
+   "35\u00b0",
+   "55\u00b0",
+   "70\u00b0",
+   "125\u00b0"
+  ]
+ },
+ {
+  "idx": 9,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The number of tangents that can be drawn to a circle from a point lying inside the circle is",
+  "options": [
+   "0",
+   "1",
+   "2",
+   "infinitely many"
+  ]
+ },
+ {
+  "idx": 10,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A tangent PT is drawn at the point T of a circle with centre O, where P is outside. If OT = 9 cm and PT = 12 cm, then OP is",
+  "options": [
+   "13 cm",
+   "15 cm",
+   "18 cm",
+   "21 cm"
+  ]
+ },
+ {
+  "idx": 11,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Two parallel tangents are drawn to a circle of radius 4.5 cm, one at each end of a diameter. The distance between them is",
+  "options": [
+   "4.5 cm",
+   "9 cm",
+   "13.5 cm",
+   "18 cm"
+  ]
+ },
+ {
+  "idx": 12,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A tangent PT of length 7 cm touches a circle of radius 7 cm at T, with centre O. The length OP is",
+  "options": [
+   "7 cm",
+   "7\u221a2 cm",
+   "7\u221a3 cm",
+   "14 cm"
+  ]
+ },
+ {
+  "idx": 13,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A quadrilateral ABCD circumscribes a circle. If AB = 9 cm, BC = 8 cm and CD = 7 cm, then AD is",
+  "options": [
+   "6 cm",
+   "8 cm",
+   "10 cm",
+   "24 cm"
+  ]
+ },
+ {
+  "idx": 14,
+  "marks": 1,
+  "type": "mcq",
+  "text": "PA and PB are the tangents from an external point P to a circle. If PA = (2x + 3) cm and PB = (x + 8) cm, then PA equals",
+  "options": [
+   "8 cm",
+   "13 cm",
+   "18 cm",
+   "23 cm"
+  ]
+ },
+ {
+  "idx": 15,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A circle is inscribed in triangle ABC with AB = 7 cm, BC = 9 cm and CA = 8 cm. It touches BC at D. The length BD is",
+  "options": [
+   "3 cm",
+   "4 cm",
+   "5 cm",
+   "6 cm"
+  ]
+ },
+ {
+  "idx": 16,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A circle is inscribed in a right triangle with perpendicular sides 9 cm and 12 cm and hypotenuse 15 cm. The radius of the circle is",
+  "options": [
+   "2 cm",
+   "3 cm",
+   "4.5 cm",
+   "6 cm"
+  ]
+ },
+ {
+  "idx": 17,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A parallelogram circumscribes a circle. Then the parallelogram must be a",
+  "options": [
+   "rectangle",
+   "rhombus",
+   "trapezium that is not a parallelogram",
+   "parallelogram with unequal adjacent sides"
+  ]
+ },
+ {
+  "idx": 18,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Assertion (A): A point P is 13 cm from the centre O of a circle of radius 5 cm. The length of a tangent from P to the circle is 12 cm.\nReason (R): The tangent at any point of a circle is perpendicular to the radius through the point of contact.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ]
+ },
+ {
+  "idx": 19,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Assertion (A): Two tangents drawn from an external point to a circle are always perpendicular to each other.\nReason (R): The lengths of the two tangents drawn from an external point to a circle are equal.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ]
+ },
+ {
+  "idx": 20,
+  "marks": 2,
+  "type": "short",
+  "text": "Tangents PA and PB are drawn from an external point P to a circle with centre O, touching it at A and B. If \u2220APB = 72\u00b0, find \u2220OAB."
+ },
+ {
+  "idx": 21,
+  "marks": 2,
+  "type": "short",
+  "text": "Two concentric circles have radii 10 cm and 6 cm. A chord AB of the larger circle touches the smaller circle at P. Find the length of AB."
+ },
+ {
+  "idx": 22,
+  "marks": 2,
+  "type": "short",
+  "text": "A circle has centre O and diameter AB. Tangents are drawn at A and at B. Prove that these two tangents are parallel to each other."
+ },
+ {
+  "idx": 23,
+  "marks": 2,
+  "type": "short",
+  "text": "O is the centre of a circle of radius 6 cm and Q is a point 10 cm from O. A student claims that a line QT touches the circle at T and that QT = 9 cm. Is the claim possible? Justify."
+ },
+ {
+  "idx": 24,
+  "marks": 2,
+  "type": "short",
+  "text": "A circle is inscribed in \u2206ABC and touches sides BC, CA and AB at D, E and F respectively. If AB = 10 cm, BC = 12 cm and CA = 14 cm, find AF, BD and CE."
+ },
+ {
+  "idx": 25,
+  "marks": 3,
+  "type": "short",
+  "text": "Tangents PA and PB are drawn from an external point P to a circle with centre O, touching it at A and B. Prove that \u2220APB = 2\u2220OAB."
+ },
+ {
+  "idx": 26,
+  "marks": 3,
+  "type": "short",
+  "text": "A circle is inscribed in \u2206ABC and touches BC, CA, AB at D, E, F. Prove that BD = (AB + BC \u2212 CA) \u00f7 2."
+ },
+ {
+  "idx": 27,
+  "marks": 3,
+  "type": "short",
+  "text": "A quadrilateral ABCD is drawn to circumscribe a circle, touching AB, BC, CD and DA at P, Q, R and S. Prove that AB + CD = AD + BC."
+ },
+ {
+  "idx": 28,
+  "marks": 3,
+  "type": "short",
+  "text": "Two concentric circles have centre O. A chord AB of the larger circle touches the smaller circle at P. Prove that P is the midpoint of AB. Hence, if the radii are 17 cm and 8 cm, find AB."
+ },
+ {
+  "idx": 29,
+  "marks": 3,
+  "type": "short",
+  "text": "Tangents PA and PB are drawn from a point P, 25 cm from the centre O, to a circle of radius 7 cm, touching it at A and B. Find the length of the chord AB."
+ },
+ {
+  "idx": 30,
+  "marks": 3,
+  "type": "short",
+  "text": "Tangents PA and PB are drawn from an external point P to a circle with centre O. If \u2220PAB = (2x + 10)\u00b0 and \u2220PBA = (3x \u2212 20)\u00b0, find x and \u2220AOB."
+ },
+ {
+  "idx": 31,
+  "marks": 3,
+  "type": "short",
+  "text": "A circle has centre O and radius 10 cm. PT is the tangent at T with PT = 24 cm. Find OP and the area of \u2206OTP."
+ },
+ {
+  "idx": 32,
+  "marks": 3,
+  "type": "short",
+  "text": "In \u2206ABC, AB = AC = 13 cm and BC = 10 cm. The incircle touches AB at P, AC at Q and BC at D. Find AP, and show that D is the midpoint of BC."
+ },
+ {
+  "idx": 33,
+  "marks": 3,
+  "type": "short",
+  "text": "In \u2206ABC, \u2220B = 90\u00b0, AB = 20 cm and BC = 21 cm, so AC = 29 cm. A circle with centre O touches AB, BC and CA at P, Q and R. Find the radius of the circle and the length AR."
+ },
+ {
+  "idx": 34,
+  "marks": 5,
+  "type": "long",
+  "text": "A circle with centre O and radius 4 cm is inscribed in \u2206ABC and touches BC at D. BD = 8 cm and DC = 6 cm. The area of \u2206ABC is 84 cm\u00b2. Find the lengths of AB and AC."
+ },
+ {
+  "idx": 35,
+  "marks": 5,
+  "type": "long",
+  "text": "Prove that the lengths of the two tangents drawn from an external point to a circle are equal. Using this result, prove that if a circle touches all four sides of a parallelogram PQRS, then PQRS is a rhombus."
+ },
+ {
+  "idx": 36,
+  "marks": 4,
+  "type": "case",
+  "text": "A circular park has centre O and radius 15 m. A straight road touches the boundary of the park at T. A lamp post P stands on the road, 20 m from T. A second straight road from P also touches the park, at S.\n(i) What is the measure of the angle between the radius OT and the road? [1]\n(ii) Find the distance OP of the lamp post from the centre of the park. [1]\n(iii) Find the length of the chord TS joining the two points of contact. [2]\nOR\n(iii) Find the area of quadrilateral OTPS. [2]"
+ }
+]

@@ -1,0 +1,302 @@
+[
+ {
+  "idx": 0,
+  "myAnswer": "B) 5/2",
+  "how": "by hand"
+ },
+ {
+  "idx": 1,
+  "myAnswer": "C) -2/3",
+  "how": "by hand"
+ },
+ {
+  "idx": 2,
+  "myAnswer": "A) 13/2",
+  "how": "by hand"
+ },
+ {
+  "idx": 3,
+  "myAnswer": "D) 7",
+  "how": "by hand"
+ },
+ {
+  "idx": 4,
+  "myAnswer": "-9/2",
+  "how": "by hand"
+ },
+ {
+  "idx": 5,
+  "myAnswer": "7",
+  "how": "by hand"
+ },
+ {
+  "idx": 6,
+  "myAnswer": "7/3",
+  "how": "by hand"
+ },
+ {
+  "idx": 7,
+  "myAnswer": "6",
+  "how": "by hand"
+ },
+ {
+  "idx": 8,
+  "myAnswer": "(i) 13 (ii) 10 (iii) 46 (iv) 92/3",
+  "how": "by hand"
+ },
+ {
+  "idx": 9,
+  "myAnswer": "B) 4 and -7",
+  "how": "by hand"
+ },
+ {
+  "idx": 10,
+  "myAnswer": "D) 3 and 8",
+  "how": "by hand"
+ },
+ {
+  "idx": 11,
+  "myAnswer": "C) 2√3 and 3√3",
+  "how": "by hand"
+ },
+ {
+  "idx": 12,
+  "myAnswer": "A) 2/5 and -2/5",
+  "how": "by hand"
+ },
+ {
+  "idx": 13,
+  "myAnswer": "A) 3",
+  "how": "by hand"
+ },
+ {
+  "idx": 14,
+  "myAnswer": "3√2 and -2√2",
+  "how": "by hand"
+ },
+ {
+  "idx": 15,
+  "myAnswer": "5/2 and -3; sum -1/2 = -b/a, product -15/2 = c/a",
+  "how": "by hand"
+ },
+ {
+  "idx": 16,
+  "myAnswer": "2√2 and √2/2; sum 5/√2, product 2 verified",
+  "how": "by hand"
+ },
+ {
+  "idx": 17,
+  "myAnswer": "C) 3 (crosses at -2, 1, 3)",
+  "how": "by hand"
+ },
+ {
+  "idx": 18,
+  "myAnswer": "B) 2 (touch at -1, cross at 3)",
+  "how": "by hand"
+ },
+ {
+  "idx": 19,
+  "myAnswer": "A) 0",
+  "how": "by hand"
+ },
+ {
+  "idx": 20,
+  "myAnswer": "B) 2 (f: -3,1; g: -3)",
+  "how": "by hand"
+ },
+ {
+  "idx": 21,
+  "myAnswer": "B) a>0, b<0, c>0",
+  "how": "by hand"
+ },
+ {
+  "idx": 22,
+  "myAnswer": "C) -8 (zeroes -4, 2)",
+  "how": "by hand"
+ },
+ {
+  "idx": 23,
+  "myAnswer": "D) opens downwards",
+  "how": "by hand"
+ },
+ {
+  "idx": 24,
+  "myAnswer": "A) Both true, R explains A",
+  "how": "by hand"
+ },
+ {
+  "idx": 25,
+  "myAnswer": "D) A false, R true (e.g. x^2)",
+  "how": "by hand"
+ },
+ {
+  "idx": 26,
+  "myAnswer": "p(x) = -x^2 + 2x + 8; sum 2 = -b/a, product -8 = c/a",
+  "how": "by hand"
+ },
+ {
+  "idx": 27,
+  "myAnswer": "zeroes -3 and 2; (x+3)(x-2); sum -1, product -6",
+  "how": "by hand"
+ },
+ {
+  "idx": 28,
+  "myAnswer": "B) 2x^2 + x - 6",
+  "how": "by hand"
+ },
+ {
+  "idx": 29,
+  "myAnswer": "D) x^2 + 3x - 18",
+  "how": "by hand"
+ },
+ {
+  "idx": 30,
+  "myAnswer": "4x^2 + 3x + 2 (k times)",
+  "how": "by hand"
+ },
+ {
+  "idx": 31,
+  "myAnswer": "x^2 + 5x - 6 (k times)",
+  "how": "by hand"
+ },
+ {
+  "idx": 32,
+  "myAnswer": "2x^2 - 5x + 2; zeroes 1/2 and 2",
+  "how": "by hand"
+ },
+ {
+  "idx": 33,
+  "myAnswer": "2x^2 - 13x + 18 (k times)",
+  "how": "by hand"
+ },
+ {
+  "idx": 34,
+  "myAnswer": "zeroes -4, 3; x^2 - 49",
+  "how": "by hand"
+ },
+ {
+  "idx": 35,
+  "myAnswer": "x^2 + x - 12",
+  "how": "by hand"
+ },
+ {
+  "idx": 36,
+  "myAnswer": "(i) 3/4, -1/2 (ii) sum 1/4, product -3/8 (iii) x^2 - x - 6",
+  "how": "by hand"
+ },
+ {
+  "idx": 37,
+  "myAnswer": "(i) 9x^2 - 10x + 1 (ii) 3x^2 + 10x + 7 (iii) 3x^2 + 10x + 3",
+  "how": "by hand"
+ },
+ {
+  "idx": 38,
+  "myAnswer": "B) 3",
+  "how": "by hand"
+ },
+ {
+  "idx": 39,
+  "myAnswer": "A) -3",
+  "how": "by hand"
+ },
+ {
+  "idx": 40,
+  "myAnswer": "C) 1",
+  "how": "by hand"
+ },
+ {
+  "idx": 41,
+  "myAnswer": "D) a=5, b=-3",
+  "how": "by hand"
+ },
+ {
+  "idx": 42,
+  "myAnswer": "A) -22",
+  "how": "by hand"
+ },
+ {
+  "idx": 43,
+  "myAnswer": "C) 35",
+  "how": "by hand"
+ },
+ {
+  "idx": 44,
+  "myAnswer": "k = 4",
+  "how": "by hand"
+ },
+ {
+  "idx": 45,
+  "myAnswer": "k = 36",
+  "how": "by hand"
+ },
+ {
+  "idx": 46,
+  "myAnswer": "k = 24; zeroes 6 and 4",
+  "how": "by hand"
+ },
+ {
+  "idx": 47,
+  "myAnswer": "k = 14 or k = -10",
+  "how": "by hand"
+ },
+ {
+  "idx": 48,
+  "myAnswer": "(i) k=12 (ii) 3, 4; sum 7, product 12 (iii) 12x^2 - 7x + 1",
+  "how": "by hand"
+ },
+ {
+  "idx": 49,
+  "myAnswer": "B) 16",
+  "how": "by hand"
+ },
+ {
+  "idx": 50,
+  "myAnswer": "C) at most 3 zeroes",
+  "how": "by hand"
+ },
+ {
+  "idx": 51,
+  "myAnswer": "D) ±12",
+  "how": "by hand"
+ },
+ {
+  "idx": 52,
+  "myAnswer": "B) Both true, R does not explain A",
+  "how": "by hand"
+ },
+ {
+  "idx": 53,
+  "myAnswer": "C) 10",
+  "how": "by hand"
+ },
+ {
+  "idx": 54,
+  "myAnswer": "D) cubic polynomial",
+  "how": "by hand"
+ },
+ {
+  "idx": 55,
+  "myAnswer": "A) Both true, R explains A",
+  "how": "by hand"
+ },
+ {
+  "idx": 56,
+  "myAnswer": "(i) 7 m (ii) -1 and 7 (iii) AB = 8 m; p(2)=p(4)=15, symmetric about x=3",
+  "how": "by hand"
+ },
+ {
+  "idx": 57,
+  "myAnswer": "(i) 3 (ii) -3, 1, 4 (iii) q = 4",
+  "how": "by hand"
+ },
+ {
+  "idx": 58,
+  "myAnswer": "(i) 40 m (ii) 96 m^2 (iii) x^2 - 24x + 140",
+  "how": "by hand"
+ },
+ {
+  "idx": 59,
+  "myAnswer": "(i) 3, -1 (ii) 3 s; t=-1 negative time (iii) h(0)=15 rooftop height, h(2)=15 back at roof level (iv) sum 2, product -3 verified",
+  "how": "by hand"
+ }
+]

@@ -1,0 +1,1979 @@
+{
+ "chapter": "Statistics",
+ "topics": [
+  {
+   "name": "Mean of grouped data",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "ST-MEA-01",
+     "pattern": "Mean from given totals of f and fx",
+     "sample": "For a grouped table, $\\Sigma f = 40$ and $\\Sigma fx = 1240$. The mean is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2jf00dz7gcn714reskv"
+     ]
+    },
+    {
+     "id": "ST-MEA-02",
+     "pattern": "Assumed-mean result from a, total f and total fd",
+     "sample": "With assumed mean $a = 45$, $\\Sigma f = 25$ and $\\Sigma fd = 75$, the mean is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2jf00e17gcnjb1lc2m3"
+     ]
+    },
+    {
+     "id": "ST-MEA-03",
+     "pattern": "Mean of a short grouped table or of class marks with frequencies, as an MCQ",
+     "sample": "Classes $0$-$4$, $4$-$8$, $8$-$12$ have frequencies $3, 5, 2$. The mean is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe96u00bv7gd0amrkbd6c",
+      "cmvqhe96v00bz7gd0tl4reqjb"
+     ]
+    },
+    {
+     "id": "ST-MEA-04",
+     "pattern": "Write the class mark of a class",
+     "sample": "The class mark of the class $25$-$35$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2020 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-MEA-05",
+     "pattern": "Reverse: find the assumed mean from the mean and the totals",
+     "sample": "If $\\Sigma f = 40$, $\\Sigma fd = 120$ and the mean is $53$, the assumed mean is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "ST-MEA-06",
+     "pattern": "Assertion-reason on the assumed-mean formula",
+     "sample": "A: If $\\Sigma fd = 0$, the mean equals the assumed mean. R: Mean $= a + \\frac{\\Sigma fd}{\\Sigma f}$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "ST-MEA-07",
+     "pattern": "Direct-method mean of a four-class table",
+     "sample": "Find the mean: classes $0$-$10$, $10$-$20$, $20$-$30$, $30$-$40$ with frequencies $2, 3, 4, 1$.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2020 main",
+      "2022 main"
+     ],
+     "existingIds": [
+      "cmvqhe97100cl7gd0xhc7209a"
+     ]
+    },
+    {
+     "id": "ST-MEA-08",
+     "pattern": "Assumed-mean method on a short table with a stated a",
+     "sample": "Using $a = 35$, find the mean: classes $10$-$20$, $20$-$30$, $30$-$40$, $40$-$50$ with frequencies $4, 6, 7, 3$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97100cn7gd014x01u5g"
+     ]
+    },
+    {
+     "id": "ST-MEA-09",
+     "pattern": "Direct-method mean of a five to seven class table",
+     "sample": "Find the mean: classes $0$-$20$, $20$-$40$, $40$-$60$, $60$-$80$, $80$-$100$ with frequencies $6, 9, 15, 12, 8$.",
+     "slot": "C",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 18,
+     "seenIn": [
+      "2019 main",
+      "2022 main",
+      "2023 main",
+      "2024 compartment",
+      "2024 main"
+     ],
+     "existingIds": [
+      "c7"
+     ]
+    },
+    {
+     "id": "ST-MEA-10",
+     "pattern": "Mean by the assumed-mean method on a five-class table",
+     "sample": "Taking $a = 150$, find the mean: classes $100$-$120$ up to $180$-$200$ (width $20$) with frequencies $5, 10, 15, 12, 8$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2022 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-MEA-11",
+     "pattern": "Mean alone of a long real-life table",
+     "sample": "Daily commute costs in rupees: $0$-$30$, $30$-$60$, ..., $150$-$180$ with $4, 8, 12, 14, 8, 4$ people. Find the mean cost.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2019 main",
+      "2020 main"
+     ],
+     "existingIds": [
+      "cmvq9r2jm00er7gcndeusepl5"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Median of grouped data",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "ST-MED-01",
+     "pattern": "Identify the median class from a table",
+     "sample": "For classes $0$-$10$ up to $40$-$50$ with frequencies $5, 7, 12, 10, 6$, the median class is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2jj00ed7gcnq0yiswpu",
+      "cmvqhe96w00c57gd04faa5dzk"
+     ]
+    },
+    {
+     "id": "ST-MED-02",
+     "pattern": "Substitute given l, N, cf, f, h in the median formula",
+     "sample": "If $l = 20$, $N = 50$, $cf = 15$, $f = 20$ and $h = 10$, the median is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "ST-MED-03",
+     "pattern": "Full median of a short table, as an MCQ",
+     "sample": "The median of classes $0$-$10$, $10$-$20$, $20$-$30$, $30$-$40$ with frequencies $5, 10, 20, 5$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2ji00eb7gcnul7y5upj",
+      "cmvqhe96x00c77gd0h3dhymq2"
+     ]
+    },
+    {
+     "id": "ST-MED-04",
+     "pattern": "Spot the error in a worked median substitution",
+     "sample": "With $l = 30$, $\\frac{N}{2} = 30$, preceding $cf = 22$, $f = 16$, $h = 10$, a student wrote Median $= 30 + \\frac{30 - 38}{16} \\times 10$. The error is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "ST-MED-05",
+     "pattern": "Assertion-reason on what defines the median class",
+     "sample": "A: The median class is the first class whose $cf$ reaches $\\frac{N}{2}$. R: The median class is always the class of highest frequency.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "ST-MED-06",
+     "pattern": "Median of a four or five class table",
+     "sample": "Find the median: classes $0$-$10$, $10$-$20$, $20$-$30$, $30$-$40$ with frequencies $4, 8, 12, 6$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2022 main"
+     ],
+     "existingIds": [
+      "cmvqhe97300ct7gd0hc30xfid",
+      "cmvqhe97400cv7gd0e2hvgpjr"
+     ]
+    },
+    {
+     "id": "ST-MED-07",
+     "pattern": "Median of a five to seven class table",
+     "sample": "Find the median: classes $10$-$20$ up to $60$-$70$ with frequencies $5, 9, 14, 16, 10, 6$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2018 main",
+      "2022 main"
+     ],
+     "existingIds": [
+      "cmvqhe97a00dj7gd0m0r4i0gl"
+     ]
+    },
+    {
+     "id": "ST-MED-08",
+     "pattern": "Median when classes are inclusive and must be converted to boundaries",
+     "sample": "Find the median: classes $1$-$10$, $11$-$20$, $21$-$30$, $31$-$40$, $41$-$50$ with frequencies $5, 7, 16, 8, 4$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97800db7gd0bwwts6ph"
+     ]
+    },
+    {
+     "id": "ST-MED-09",
+     "pattern": "Median alone of a long real-life table",
+     "sample": "Waiting times in minutes: $0$-$5$ up to $30$-$35$ with $4, 6, 10, 16, 12, 8, 4$ patients. Find the median waiting time.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": [
+      "d5",
+      "cmvq9r2jm00et7gcnkwx7xdea"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Mode of grouped data",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "ST-MOD-01",
+     "pattern": "Substitute given l, f1, f0, f2, h in the mode formula",
+     "sample": "Modal class $20$-$30$ has frequency $20$; the classes before and after have $12$ and $8$. The mode is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2jk00eh7gcn7o7f6f6i",
+      "cmvqhe96v00c17gd0x1k09dno"
+     ]
+    },
+    {
+     "id": "ST-MOD-02",
+     "pattern": "Identify the modal class from a table",
+     "sample": "For classes $0$-$10$ up to $40$-$50$ with frequencies $6, 9, 15, 7, 3$, the modal class is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "ST-MOD-03",
+     "pattern": "Full mode of a short table, as an MCQ",
+     "sample": "The mode of classes $0$-$10$ up to $40$-$50$ with frequencies $3, 8, 20, 12, 5$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2jj00ef7gcn55kfml5n",
+      "cmvqhe96w00c37gd0l7o4hfjn"
+     ]
+    },
+    {
+     "id": "ST-MOD-04",
+     "pattern": "Assertion-reason on the modal class and the value of the mode",
+     "sample": "A: The class with frequency $18$, the largest in a table, is its modal class. R: The mode always equals the class mark of the modal class.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97000cj7gd0c2dmvbn4"
+     ]
+    },
+    {
+     "id": "ST-MOD-05",
+     "pattern": "Mode of a five or six class table, in a short answer",
+     "sample": "Find the mode: classes $0$-$10$ up to $40$-$50$ with frequencies $2, 6, 12, 8, 2$.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 19,
+     "seenIn": [
+      "2019 main",
+      "2020 main",
+      "2022 main"
+     ],
+     "existingIds": [
+      "cmvqhe97200cp7gd0lyr9euta"
+     ]
+    },
+    {
+     "id": "ST-MOD-06",
+     "pattern": "Mode when classes are inclusive and must be converted to boundaries",
+     "sample": "Find the mode: classes $11$-$20$, $21$-$30$, $31$-$40$, $41$-$50$ with frequencies $4, 8, 20, 8$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97200cr7gd06fcc4byz"
+     ]
+    },
+    {
+     "id": "ST-MOD-07",
+     "pattern": "Mode of a five to seven class table",
+     "sample": "Find the mode: classes $0$-$10$ up to $50$-$60$ with frequencies $5, 8, 12, 20, 8, 7$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2019 compartment",
+      "2019 main"
+     ],
+     "existingIds": [
+      "cmvq9r2jl00en7gcnq1toi02g",
+      "cmvqhe97700d77gd0xnww2gx1"
+     ]
+    },
+    {
+     "id": "ST-MOD-08",
+     "pattern": "Mode of a real-life table plus a count above a stated value",
+     "sample": "Units used: $0$-$100$ up to $400$-$500$ by $6, 10, 25, 15, 4$ homes. Find the mode and how many homes used at least $300$ units.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2jn00ex7gcn72oj7xnl"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Missing frequency",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "ST-MSF-01",
+     "pattern": "One unknown frequency from a given mean, as an MCQ",
+     "sample": "The mean of classes $0$-$10$, $10$-$20$, $20$-$30$, $30$-$40$ with frequencies $4, x, 6, 2$ is $18$. Then $x$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2jk00ej7gcnyu61oq97",
+      "cmvqhe96z00cd7gd0zjexx0xg"
+     ]
+    },
+    {
+     "id": "ST-MSF-02",
+     "pattern": "Unknown median-class frequency from a given median, as an MCQ",
+     "sample": "The median of classes $0$-$10$ up to $40$-$50$ with frequencies $5, 7, x, 6, 4$ is $24$. Then $x$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe96z00cf7gd0rtl4s8bl"
+     ]
+    },
+    {
+     "id": "ST-MSF-03",
+     "pattern": "Unknown modal frequency from a given mode, as an MCQ",
+     "sample": "Mode $= 36$, modal class $30$-$40$, neighbouring frequencies $8$ and $12$. The modal frequency is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "ST-MSF-04",
+     "pattern": "Two unknowns from a median and the total, as an MCQ",
+     "sample": "Classes $0$-$10$ up to $40$-$50$ have frequencies $4, x, 10, y, 6$, with $N = 40$ and median $25$. The value of $y$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2jl00el7gcn1g2dokxw"
+     ]
+    },
+    {
+     "id": "ST-MSF-05",
+     "pattern": "Unknown frequency in a table from a given mode",
+     "sample": "The mode of classes $0$-$10$ up to $40$-$50$ with frequencies $5, 8, x, 10, 6$ is $26$, and $20$-$30$ is modal. Find $x$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2022 compartment",
+      "2022 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-MSF-06",
+     "pattern": "Modal class frequency from the mode and the two neighbouring frequencies, with no table",
+     "sample": "Mode $= 46$, modal class $40$-$50$, preceding frequency $12$, succeeding frequency $14$. Find the modal class frequency.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2022 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-MSF-07",
+     "pattern": "One unknown frequency from a given mean, short answer",
+     "sample": "The mean of classes $0$-$10$, $10$-$20$, $20$-$30$, $30$-$40$ with frequencies $3, x, 8, 4$ is $20$. Find $x$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2020 main",
+      "2022 compartment",
+      "2022 main"
+     ],
+     "existingIds": [
+      "cmvqhe97500d17gd01jdzkfo3"
+     ]
+    },
+    {
+     "id": "ST-MSF-08",
+     "pattern": "One unknown frequency from a given median, short answer",
+     "sample": "The median of classes $0$-$10$ up to $40$-$50$ with frequencies $3, 5, x, 7, 3$ is $26$. Find $x$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97600d37gd0kb6ejw10"
+     ]
+    },
+    {
+     "id": "ST-MSF-09",
+     "pattern": "One unknown frequency from a given mean, longer table",
+     "sample": "The mean of classes $0$-$10$ up to $40$-$50$ with frequencies $5, 6, x, 12, 7$ is $27.5$. Find $x$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 15,
+     "seenIn": [
+      "2018 main",
+      "2019 compartment",
+      "2019 main",
+      "2020 main",
+      "2022 main",
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-MSF-10",
+     "pattern": "One unknown frequency from a given median, longer table",
+     "sample": "The median of classes $0$-$10$ up to $50$-$60$ with frequencies $5, 8, 10, x, 12, 5$ is $34$. Find $x$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2022 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-MSF-11",
+     "pattern": "One unknown frequency from a given mode, possibly a neighbouring class",
+     "sample": "The mode of classes $30$-$40$ up to $70$-$80$ with frequencies $6, 10, 20, x, 4$ is $55$. Find $x$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 compartment"
+     ],
+     "existingIds": [
+      "cmvqhe97700d97gd0h4e0cowq"
+     ]
+    },
+    {
+     "id": "ST-MSF-12",
+     "pattern": "Two unknowns from a median and the total, in 3 marks",
+     "sample": "Classes $0$-$10$ up to $50$-$60$ have frequencies $5, x, 20, 15, y, 5$, with $N = 60$ and median $28$. Find $x$ and $y$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97900dd7gd0e8x5yguz"
+     ]
+    },
+    {
+     "id": "ST-MSF-13",
+     "pattern": "Two unknowns from a median and the total, full solution",
+     "sample": "Classes $0$-$10$ up to $50$-$60$ have frequencies $5, x, 20, 15, y, 5$, with $N = 60$ and median $28.5$. Find $x$ and $y$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 3
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 16,
+     "seenIn": [
+      "2019 main",
+      "2024 compartment",
+      "2025 compartment",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2jo00ez7gcnveol6trp"
+     ]
+    },
+    {
+     "id": "ST-MSF-14",
+     "pattern": "Two unknowns from a mean and the total",
+     "sample": "Classes $0$-$10$ up to $40$-$50$ have frequencies $6, x, 12, y, 8$, with $N = 50$ and mean $26.2$. Find $x$ and $y$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 2
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2jo00f17gcn2paas5zj"
+     ]
+    },
+    {
+     "id": "ST-MSF-15",
+     "pattern": "Unknown frequency from a given mean, then the mode",
+     "sample": "The mean of classes $0$-$10$ up to $40$-$50$ with frequencies $4, 6, x, 10, 5$ is $27$. Find $x$ and then the mode.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-MSF-16",
+     "pattern": "Unknown frequency from the total, then two measures",
+     "sample": "Classes $0$-$10$ up to $40$-$50$ have frequencies $5, x, 15, 12, 8$ and $N = 50$. Find $x$, the mean and the median.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 2
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2023 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-MSF-17",
+     "pattern": "Case study: median of a table, then extra entries in one class that give a stated mean",
+     "sample": "Camp ages $10$-$20$ up to $50$-$60$ number $5, 10, 15, 10, 5$. (i) Modal class. (ii) Median. (iii) How many join the $40$-$50$ class to make the mean $36$?",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2022 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-NEW-02",
+     "pattern": "Two unknown frequencies from a given mode and the total",
+     "sample": "Classes $0$-$10$, $10$-$20$, $20$-$30$, $30$-$40$, $40$-$50$ have frequencies $5$, $x$, $15$, $y$, $6$ with total $41$ and mode $26$. Find $x$ and $y$. ($26=20+\\frac{15-x}{30-x-y}\\cdot10$ with $x+y=15$ gives $x=6$, $y=9$)",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2023 main",
+      "2024 compartment"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  },
+  {
+   "name": "Mean, median and mode relation",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "ST-REL-01",
+     "pattern": "Mode from mean and median",
+     "sample": "The mean is $40$ and the median is $38$. The mode is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 3,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 18,
+     "seenIn": [
+      "2020 main",
+      "2023 compartment",
+      "2023 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2jg00e57gcnn79rb5ps",
+      "cmvqhe96y00c97gd02w5ijbzw"
+     ]
+    },
+    {
+     "id": "ST-REL-02",
+     "pattern": "Median from mean and mode",
+     "sample": "The mean is $52$ and the mode is $46$. The median is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2023 main",
+      "2024 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2jh00e77gcnc8hwavyp"
+     ]
+    },
+    {
+     "id": "ST-REL-03",
+     "pattern": "Mean from median and mode",
+     "sample": "The median is $20$ and the mode is $23$. The mean is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvqhe96y00cb7gd0ral0warr"
+     ]
+    },
+    {
+     "id": "ST-REL-04",
+     "pattern": "Median when mode and mean are given in terms of x",
+     "sample": "If the mode is $5x$ and the mean is $2x$, the median is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-REL-05",
+     "pattern": "One difference of measures from another",
+     "sample": "If mode $-$ median $= 12$, then median $-$ mean is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2jh00e97gcn6twzqzia"
+     ]
+    },
+    {
+     "id": "ST-REL-06",
+     "pattern": "Coefficients of the empirical relation",
+     "sample": "If $p \\cdot$ median $- q \\cdot$ mean $= r \\cdot$ mode is the empirical relation with smallest whole coefficients, $p + q + r$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-REL-07",
+     "pattern": "Mean and median from the mode and their sum",
+     "sample": "The mode is $30$ and mean $+$ median $= 70$. The mean and median are:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-REL-08",
+     "pattern": "State the empirical relation",
+     "sample": "Which relation among mean, median and mode is the empirical one for moderately skewed data?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2021 compartment",
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-REL-09",
+     "pattern": "Assertion-reason checking a claimed value with the empirical relation",
+     "sample": "A: If the mode is $24$ and the mean is $30$, the median is $28$. R: Mode $= 3\\,$Median $- 2\\,$Mean.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-REL-10",
+     "pattern": "Assertion-reason on when the measures coincide",
+     "sample": "A: If the mean and median are both $12$, the mode is $12$. R: Mode $= 3\\,$Median $- 2\\,$Mean.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97000ch7gd0faof4asf"
+     ]
+    },
+    {
+     "id": "ST-REL-11",
+     "pattern": "One measure from the other two, with working",
+     "sample": "The median is $30$ and the mode is $33$. Find the mean.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97400cx7gd0t4wtl4lg"
+     ]
+    },
+    {
+     "id": "ST-REL-12",
+     "pattern": "Two measures from a stated difference and one value",
+     "sample": "The mean exceeds the median by $3$ and the median is $40$. Find the mean and the mode.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97500cz7gd04w1jl00u"
+     ]
+    },
+    {
+     "id": "ST-REL-13",
+     "pattern": "Mean from a table, then estimate the mode using a given median",
+     "sample": "Classes $0$-$20$ up to $80$-$100$ have frequencies $4, 10, 20, 12, 4$ and median $51$. Find the mean, then estimate the mode.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97a00dh7gd09ryvvshj"
+     ]
+    },
+    {
+     "id": "ST-REL-14",
+     "pattern": "Mean and median from a table, then the mode through the relation",
+     "sample": "Classes $0$-$10$ up to $40$-$50$ have frequencies $4, 6, 20, 12, 8$. Find the mean and median, then estimate the mode empirically.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2jn00ev7gcn2262x0ra"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Cumulative frequency tables",
+   "scope": "core",
+   "scopeNote": "Tables only. Ogive drawing is in the verify topic below.",
+   "patterns": [
+    {
+     "id": "ST-CFT-01",
+     "pattern": "Modal class from a less-than cumulative table",
+     "sample": "Cumulative counts: below $10$: $5$; below $20$: $12$; below $30$: $28$; below $40$: $40$; below $50$: $50$. The modal class is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-CFT-02",
+     "pattern": "Which classes are added to get the cf used for the median",
+     "sample": "If $30$-$40$ is the median class of a table, the $cf$ in the median formula is the sum of the frequencies of which classes?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-CFT-03",
+     "pattern": "Frequency of one class from a cumulative table",
+     "sample": "If $14$ values are below $20$ and $31$ values are below $30$, the frequency of class $20$-$30$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "ST-CFT-04",
+     "pattern": "Fill unknowns in a table of frequency and cumulative frequency",
+     "sample": "Classes $0$-$10$ up to $30$-$40$ have frequencies $4, a, 9, b$ and cumulative frequencies $4, 10, c, 25$. Find $a$, $b$ and $c$.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2022 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-CFT-05",
+     "pattern": "Mode from a less-than cumulative table",
+     "sample": "Below $10$: $4$; below $20$: $10$; below $30$: $22$; below $40$: $30$; below $50$: $34$. Find the mode.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97900df7gd0bon71ssq"
+     ]
+    },
+    {
+     "id": "ST-CFT-06",
+     "pattern": "Median from a more-than cumulative table",
+     "sample": "Above $0$: $60$; above $10$: $54$; above $20$: $44$; above $30$: $24$; above $40$: $8$; above $50$: $0$. Find the median.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-CFT-07",
+     "pattern": "Mean and median from a less-than cumulative table",
+     "sample": "Below $10$: $6$; below $20$: $16$; below $30$: $36$; below $40$: $46$; below $50$: $50$. Find the mean and the median.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Central tendency concepts and ungrouped data",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "ST-CON-01",
+     "pattern": "Effect on the mean of adding or subtracting a constant",
+     "sample": "The mean of $20$ values is $15$. If each value is increased by $3$, the new mean is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-CON-02",
+     "pattern": "Effect on the median of adding or subtracting a constant",
+     "sample": "The median of a data set is $26$. If each value is increased by $4$, the new median is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-CON-03",
+     "pattern": "Sum of frequency times deviation from the mean",
+     "sample": "For a table with $\\Sigma f = 25$ and mean $14$, the value of $\\Sigma f_i(x_i - \\bar{x})$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-CON-04",
+     "pattern": "Name the measure from its description",
+     "sample": "A shop wants the shoe size sold most often. The measure it needs is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-CON-05",
+     "pattern": "Find x when a list with terms in x has a given mean",
+     "sample": "The mean of $2x$, $x + 1$, $x + 3$, $3x - 1$ and $4$ is $7$. The value of $x$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 10,
+     "seenIn": [
+      "2020 main",
+      "2024 main",
+      "2025 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-CON-06",
+     "pattern": "One value from the means of overlapping subsets",
+     "sample": "The mean of five values is $20$. The first three have mean $18$ and the last three have mean $24$. The third value is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-CON-07",
+     "pattern": "Which observations give the median of a discrete table with even total",
+     "sample": "Values $1, 2, 3, 4, 5$ have frequencies $15, 25, 20, 30, 10$. The median is the mean of which two ordered observations?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-CON-08",
+     "pattern": "Mode of an ungrouped list",
+     "sample": "The mode of $4, 6, 6, 7, 9, 6, 7$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "a18"
+     ]
+    },
+    {
+     "id": "ST-NEW-01",
+     "pattern": "Mean of a named ungrouped set of numbers (first n primes, odd numbers, multiples, composites), listed out and averaged",
+     "sample": "Find the mean of the first eight odd natural numbers. ($\\frac{1+3+\\dots+15}{8} = \\frac{64}{8} = 8$)",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2020 main",
+      "2021 compartment"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  },
+  {
+   "name": "Combined measures from one table",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "ST-CMB-01",
+     "pattern": "Add or compare limits of the median class and the modal class",
+     "sample": "For classes $0$-$10$ up to $40$-$50$ with frequencies $6, 8, 10, 4, 12$, the sum of the upper limits of the median class and modal class is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2020 main",
+      "2023 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-CMB-02",
+     "pattern": "Difference of two measures of a short table, as an MCQ",
+     "sample": "For classes $0$-$10$ up to $40$-$50$ with frequencies $1, 6, 10, 6, 2$, the value of mean $-$ mode is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "ST-CMB-03",
+     "pattern": "Assertion-reason testing a claim on median and modal class limits",
+     "sample": "For frequencies $6, 8, 10, 12, 4$ in classes $0$-$10$ up to $40$-$50$. A: Upper limit of median class $-$ lower limit of modal class $= 0$. R: These two classes always differ.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-CMB-04",
+     "pattern": "Mean and mode of a plain table",
+     "sample": "Find the mean and mode: classes $0$-$10$ up to $40$-$50$ with frequencies $4, 8, 20, 12, 6$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2018 compartment",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-CMB-05",
+     "pattern": "Mean and mode of a real-life survey table",
+     "sample": "Weekly wages in rupees: $200$-$300$ up to $600$-$700$ for $6, 10, 20, 10, 4$ workers. Find the average wage and the modal wage.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 12,
+     "seenIn": [
+      "2023 compartment",
+      "2024 main",
+      "2025 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-CMB-06",
+     "pattern": "Mean and median of one table",
+     "sample": "Find the mean and median: classes $0$-$10$ up to $40$-$50$ with frequencies $8, 12, 20, 6, 4$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2023 main",
+      "2025 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-CMB-07",
+     "pattern": "Median and mode of one table",
+     "sample": "Policy holders aged $20$-$30$ up to $60$-$70$ number $7, 10, 20, 10, 3$. Find the median age and the modal age.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-CMB-08",
+     "pattern": "Difference between the mean and the median",
+     "sample": "Weights $30$-$40$ up to $70$-$80$ kg of $3, 9, 16, 8, 4$ students. Find mean weight $-$ median weight.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-CMB-09",
+     "pattern": "All three measures, then check the empirical relation",
+     "sample": "For classes $0$-$10$ up to $40$-$50$ with frequencies $6, 10, 20, 10, 4$, find the mean, median and mode, and check Mode $\\approx 3\\,$Median $- 2\\,$Mean.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "ST-CMB-10",
+     "pattern": "Case study: modal class, a count above or below a limit, then a measure",
+     "sample": "Rainfall $20$-$30$ up to $60$-$70$ cm in $3, 6, 12, 6, 3$ regions. (i) Modal class. (ii) Regions with at least $40$ cm. (iii) Median rainfall.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2023 main",
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2jo00f37gcnqg3aqoa3",
+      "cmvq9r2jp00f57gcnnygopsqu",
+      "cmvqhe97b00dl7gd0f7079ro0"
+     ]
+    },
+    {
+     "id": "ST-CMB-11",
+     "pattern": "Case study: median class, a cumulative count, then the mean or the mode",
+     "sample": "Running times $10$-$20$ up to $40$-$50$ s for $4, 6, 14, 6$ students. (i) Median class. (ii) Number under $30$ s. (iii) Modal time.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2024 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-CMB-12",
+     "pattern": "Case study with a printed figure: grouped table linked to probability",
+     "sample": "A game card is shown; numbers called fall in $0$-$20$ up to $60$-$80$ with counts $5, 7, 12, 6$. (i) Median class. (ii) $P$(number below $40$). (iii) Median.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-CMB-13",
+     "pattern": "Case study: full mode and full median of an age table",
+     "sample": "Insured ages $20$-$30$ up to $60$-$70$ number $7, 10, 20, 10, 3$. (i) Modal class. (ii) Median class. (iii) Find the mode or the median.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2021 compartment",
+      "2022 compartment"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Step-deviation mean",
+   "scope": "verify",
+   "scopeNote": "Believed cut from the syllabus, but one 2026 main paper (30/5/1) asked for the value of u from x, a and h in a 1-mark MCQ. That is the only 2024-2026 evidence and the row is marked legacy. Small MCQ targets kept; the longer C and D forms stay at 0 until a person checks.",
+   "patterns": [
+    {
+     "id": "ST-SDV-01",
+     "pattern": "Compute u from x, a and h",
+     "sample": "If $x = 45$, $a = 35$ and $h = 10$, the value of $u = \\frac{x - a}{h}$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2020 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-SDV-02",
+     "pattern": "Mean from a, h and the totals of f and fu",
+     "sample": "With $a = 50$, $h = 5$, $\\Sigma f = 40$ and $\\Sigma fu = 8$, the mean is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2jf00e37gcnvhwlh3b5",
+      "cmvqhe96u00bx7gd0hy1jqi2p"
+     ]
+    },
+    {
+     "id": "ST-SDV-03",
+     "pattern": "Step-deviation mean of a five-class table",
+     "sample": "Using $a = 35$, $h = 10$, find the mean: classes $10$-$20$ up to $50$-$60$ with frequencies $4, 8, 10, 6, 2$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "ST-SDV-04",
+     "pattern": "Step-deviation mean of a six-class table",
+     "sample": "Using $a = 50$, $h = 20$, find the mean: classes $0$-$20$ up to $100$-$120$ with frequencies $5, 8, 12, 10, 9, 6$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Cumulative frequency and ogives",
+   "scope": "verify",
+   "scopeNote": "Ogives are believed cut. All board rows are 2018-2019 and marked legacy; none in 2024-2026, so targets are 0. Cumulative tables without graphs are in the core topic above.",
+   "patterns": [
+    {
+     "id": "ST-OGV-01",
+     "pattern": "Make a less-than cumulative table and draw its ogive",
+     "sample": "Convert classes $0$-$10$ up to $40$-$50$ with frequencies $5, 8, 12, 10, 5$ to less-than form and draw the ogive.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2018 compartment",
+      "2019 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-OGV-02",
+     "pattern": "Make a more-than cumulative table and draw its ogive",
+     "sample": "Convert classes $0$-$10$ up to $40$-$50$ with frequencies $5, 8, 12, 10, 5$ to more-than form and draw the ogive.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2019 main",
+      "2020 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-OGV-03",
+     "pattern": "Draw an ogive and read the median from it",
+     "sample": "Draw the less-than ogive for classes $0$-$10$ up to $40$-$50$ with frequencies $4, 6, 20, 6, 4$ and read off the median.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2020 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "ST-OGV-04",
+     "pattern": "Median from the intersection of two ogives",
+     "sample": "The less-than and more-than ogives of a table meet at the point $(32, 40)$. The median is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Bimodal data",
+   "scope": "verify",
+   "scopeNote": "Believed cut. No board row tests it, so the target is 0.",
+   "patterns": [
+    {
+     "id": "ST-BIM-01",
+     "pattern": "Identify the modes of a bimodal list",
+     "sample": "The modes of $2, 3, 3, 5, 7, 7, 9$ are:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    }
+   ]
+  }
+ ],
+ "outOfScope": [
+  {
+   "n": 7,
+   "why": "Full step-deviation working. The only recent evidence is a 1-mark u calculation in 2026, so a long question is not justified until the syllabus is checked.",
+   "id": "cmvq9r2jm00ep7gcn314swblt"
+  },
+  {
+   "n": 15,
+   "why": "Full step-deviation working. The only recent evidence is a 1-mark u calculation in 2026, so a long question is not justified until the syllabus is checked.",
+   "id": "cmvqhe97600d57gd0d34vb4tq"
+  }
+ ],
+ "fixes": [
+  {
+   "n": 1,
+   "issue": "Tagged medium, is a direct read of the most frequent value in a list",
+   "suggest": "easy",
+   "id": "a18"
+  },
+  {
+   "n": 8,
+   "issue": "Tagged easy in a 5-mark slot; a plain five-class direct mean is really a 3-mark task",
+   "suggest": "medium, or move to slot C",
+   "id": "cmvq9r2jm00er7gcndeusepl5"
+  },
+  {
+   "n": 11,
+   "issue": "Tagged hard, is a routine table calculation (answer 59.5)",
+   "suggest": "medium",
+   "id": "cmvqhe96u00bx7gd0hy1jqi2p"
+  },
+  {
+   "n": 17,
+   "issue": "Tagged medium, is a one-step use of the empirical relation; board tags the same task easy",
+   "suggest": "easy",
+   "id": "cmvq9r2jh00e77gcnc8hwavyp"
+  },
+  {
+   "n": 21,
+   "issue": "Tagged medium, is a one-step use of the empirical relation; board tags the same task easy",
+   "suggest": "easy",
+   "id": "cmvqhe96y00cb7gd0ral0warr"
+  },
+  {
+   "n": 40,
+   "issue": "Tagged easy, needs a linear equation built from the whole table, same work as question 36",
+   "suggest": "medium",
+   "id": "cmvqhe96z00cd7gd0zjexx0xg"
+  },
+  {
+   "n": 42,
+   "issue": "Tagged easy, needs a linear equation built from the whole table",
+   "suggest": "medium",
+   "id": "cmvqhe97500d17gd01jdzkfo3"
+  }
+ ]
+}

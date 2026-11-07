@@ -1,0 +1,775 @@
+[
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Identifying and forming quadratic equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Which of the following is a quadratic equation?",
+  "options": [
+   "$x^{2}+\\frac{1}{x}=4$",
+   "$x^{3}-x^{2}=1$",
+   "$(2x-1)(x+3)=x$",
+   "$\\sqrt{x}+x=6$"
+  ],
+  "idx": 0
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Identifying and forming quadratic equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Which of the following equations is NOT a quadratic equation after simplification?",
+  "options": [
+   "$(x-2)^{2}=3x$",
+   "$(x+3)^{2}=x^{2}-x$",
+   "$x(2x-1)=x^{2}+4$",
+   "$(x+1)^{3}=x^{3}+2$"
+  ],
+  "idx": 1
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Identifying and forming quadratic equations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The length of a rectangular vegetable plot is 4 m less than twice its width, and its area is $160\\text{ m}^{2}$. If the width is $x$ m, which equation represents the situation?",
+  "options": [
+   "$x^{2}+2x-80=0$",
+   "$2x^{2}-4x+160=0$",
+   "$x^{2}-4x-160=0$",
+   "$x^{2}-2x-80=0$"
+  ],
+  "idx": 2
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Identifying and forming quadratic equations",
+  "type": "assertion_reason",
+  "marks": 1,
+  "text": "Assertion (A): $(2x+1)^{2}=4x^{2}-3$ is not a quadratic equation.\nReason (R): Every equation that contains an $x^{2}$ term is a quadratic equation.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "idx": 3
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Roots and unknown coefficients",
+  "type": "mcq",
+  "marks": 1,
+  "text": "If $x=-3$ is a root of the equation $2x^{2}+kx-15=0$, then the value of $k$ is",
+  "options": [
+   "$-1$",
+   "$1$",
+   "$11$",
+   "$-11$"
+  ],
+  "idx": 4
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Roots and unknown coefficients",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Which of the following is a root of $3x^{2}-5x-2=0$?",
+  "options": [
+   "$-2$",
+   "$\\frac{1}{3}$",
+   "$-\\frac{1}{3}$",
+   "$3$"
+  ],
+  "idx": 5
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Solving by factorisation or formula",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The roots of the equation $(2x+1)^{2}=25$ are",
+  "options": [
+   "$2,\\ -3$",
+   "$-2,\\ 3$",
+   "$2,\\ 3$",
+   "$12,\\ -13$"
+  ],
+  "idx": 6
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Solving by factorisation or formula",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The roots of the equation $x^{2}+2\\sqrt{3}x-9=0$ are",
+  "options": [
+   "$\\sqrt{3},\\ 3\\sqrt{3}$",
+   "$-\\sqrt{3},\\ 3\\sqrt{3}$",
+   "$\\sqrt{3},\\ -3\\sqrt{3}$",
+   "$3,\\ -3$"
+  ],
+  "idx": 7
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Solving by factorisation or formula",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The roots of the equation $x^{2}-6x+4=0$ are",
+  "options": [
+   "$-3\\pm\\sqrt{5}$",
+   "$3\\pm 2\\sqrt{5}$",
+   "$3\\pm\\sqrt{13}$",
+   "$3\\pm\\sqrt{5}$"
+  ],
+  "idx": 8
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Solving by factorisation or formula",
+  "type": "mcq",
+  "marks": 1,
+  "text": "To solve $3x^{2}=-12x$, a student divides both sides by $3x$ and writes the answer $x=-4$. The complete solution of the equation is",
+  "options": [
+   "$x=-4$ only",
+   "$x=0$ or $x=-4$",
+   "$x=0$ or $x=4$",
+   "$x=4$ only"
+  ],
+  "idx": 9
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Nature of roots by discriminant",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The discriminant of the quadratic equation $(2x-1)(x+3)=2$ is",
+  "options": [
+   "$49$",
+   "$65$",
+   "$-15$",
+   "$41$"
+  ],
+  "idx": 10
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Nature of roots by discriminant",
+  "type": "mcq",
+  "marks": 1,
+  "text": "If the discriminant of $3x^{2}+5x+c=0$ is $13$, then the value of $c$ is",
+  "options": [
+   "$1$",
+   "$-1$",
+   "$3$",
+   "$\\frac{19}{6}$"
+  ],
+  "idx": 11
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Nature of roots by discriminant",
+  "type": "mcq",
+  "marks": 1,
+  "text": "If the equation $x^{2}+kx+4k=0$ has two distinct real roots, a possible value of $k$ is",
+  "options": [
+   "$10$",
+   "$16$",
+   "$18$",
+   "$12$"
+  ],
+  "idx": 12
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Nature of roots by discriminant",
+  "type": "mcq",
+  "marks": 1,
+  "text": "For which value of $p$ are the roots of $2x^{2}+px+3=0$ rational?",
+  "options": [
+   "$5$",
+   "$6$",
+   "$4$",
+   "$3$"
+  ],
+  "idx": 13
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Value of k for equal roots",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The value of $k$ for which the equation $kx^{2}-12x+9=0$ has equal roots is",
+  "options": [
+   "$-4$",
+   "$\\pm 4$",
+   "$16$",
+   "$4$"
+  ],
+  "idx": 14
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Value of k for equal roots",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The values of $k$ for which the equation $\\sqrt{3}x^{2}-kx+3\\sqrt{3}=0$ has equal roots are",
+  "options": [
+   "$\\pm 6$",
+   "$\\pm 3$",
+   "$6$ only",
+   "$\\pm 6\\sqrt{3}$"
+  ],
+  "idx": 15
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Value of k for equal roots",
+  "type": "mcq",
+  "marks": 1,
+  "text": "If the equation $lx^{2}+mx+n=0$ ($l\\ne 0$) has two equal real roots, then $n$ equals",
+  "options": [
+   "$\\frac{m^{2}}{2l}$",
+   "$\\frac{m^{2}}{4l}$",
+   "$\\frac{4l}{m^{2}}$",
+   "$-\\frac{m}{2l}$"
+  ],
+  "idx": 16
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Value of k for equal roots",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Which of the following equations has two equal real roots?",
+  "options": [
+   "$9x^{2}-6x+1=0$",
+   "$x^{2}-6x+1=0$",
+   "$9x^{2}+1=0$",
+   "$x^{2}+6x+8=0$"
+  ],
+  "idx": 17
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Value of k for equal roots",
+  "type": "mcq",
+  "marks": 1,
+  "text": "For what value of $k$ does the equation $x^{2}+2kx+(2k+3)=0$ have equal roots that are positive?",
+  "options": [
+   "$3$",
+   "$-1$",
+   "$3$ or $-1$",
+   "$1$"
+  ],
+  "idx": 18
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Value of k for equal roots",
+  "type": "assertion_reason",
+  "marks": 1,
+  "text": "Assertion (A): The equation $9x^{2}+kx+4=0$ has equal roots only for $k=12$.\nReason (R): A quadratic equation $ax^{2}+bx+c=0$ has equal roots when $b^{2}-4ac=0$.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "idx": 19
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Sum and product of roots",
+  "type": "mcq",
+  "marks": 1,
+  "text": "For the equation $2x^{2}+6x-9=0$, the ratio of the sum of the roots to the product of the roots is",
+  "options": [
+   "$\\frac{2}{3}$",
+   "$-\\frac{2}{3}$",
+   "$\\frac{3}{2}$",
+   "$-\\frac{3}{2}$"
+  ],
+  "idx": 20
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Sum and product of roots",
+  "type": "mcq",
+  "marks": 1,
+  "text": "One root of the equation $4x^{2}+kx-5=0$ is $-1$. The other root is",
+  "options": [
+   "$-\\frac{5}{4}$",
+   "$\\frac{1}{4}$",
+   "$\\frac{5}{4}$",
+   "$5$"
+  ],
+  "idx": 21
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Sum and product of roots",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The value of $k$ for which the roots of $2x^{2}-7x+(k-3)=0$ are reciprocals of each other is",
+  "options": [
+   "$1$",
+   "$4$",
+   "$7$",
+   "$5$"
+  ],
+  "idx": 22
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Sum and product of roots",
+  "type": "mcq",
+  "marks": 1,
+  "text": "If the roots of $x^{2}-(k^{2}-4)x-5=0$ are equal in magnitude and opposite in sign, then $k$ equals",
+  "options": [
+   "$\\pm 2$",
+   "$2$ only",
+   "$4$",
+   "$\\pm 4$"
+  ],
+  "idx": 23
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Sum and product of roots",
+  "type": "mcq",
+  "marks": 1,
+  "text": "If one root of the equation $kx^{2}-15x+9=0$ is four times the other, then $k$ equals",
+  "options": [
+   "$\\frac{1}{4}$",
+   "$2$",
+   "$9$",
+   "$4$"
+  ],
+  "idx": 24
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Sum and product of roots",
+  "type": "mcq",
+  "marks": 1,
+  "text": "If $\\alpha$ and $\\beta$ are the roots of $2x^{2}-7x+3=0$, the quadratic equation whose roots are $\\frac{1}{\\alpha}$ and $\\frac{1}{\\beta}$ is",
+  "options": [
+   "$3x^{2}+7x+2=0$",
+   "$2x^{2}+7x+3=0$",
+   "$3x^{2}-7x+2=0$",
+   "$2x^{2}-3x+7=0$"
+  ],
+  "idx": 25
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Sum and product of roots",
+  "type": "assertion_reason",
+  "marks": 1,
+  "text": "Assertion (A): $3+\\sqrt{2}$ is a root of $x^{2}-6x+7=0$, so $3-\\sqrt{2}$ is also a root of it.\nReason (R): The sum of the roots of $ax^{2}+bx+c=0$ is $\\frac{b}{a}$.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "idx": 26
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The distance between the points $(1, y)$ and $(-3, 2)$ is 5 units. The possible values of $y$ are",
+  "options": [
+   "$-5,\\ 1$",
+   "$5,\\ -1$",
+   "$5,\\ 1$",
+   "$3,\\ -3$"
+  ],
+  "idx": 27
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Roots and unknown coefficients",
+  "type": "short",
+  "marks": 2,
+  "text": "$x=-2$ is a root of the equation $3x^{2}+7x+p=0$. Find the value of $p$, and then find the values of $k$ for which the equation $x^{2}+k(4x+k-1)+p=0$ has equal roots.",
+  "idx": 28
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Solving by factorisation or formula",
+  "type": "short",
+  "marks": 2,
+  "text": "Solve for $x$: $x^{2}-2\\sqrt{2}x-6=0$.",
+  "idx": 29
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Solving by factorisation or formula",
+  "type": "short",
+  "marks": 2,
+  "text": "Solve for $x$: $4x^{2}-4a^{2}x+(a^{4}-b^{4})=0$.",
+  "idx": 30
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Rational equations reducible to quadratics",
+  "type": "short",
+  "marks": 3,
+  "text": "Solve for $x$: $\\frac{1}{(x-1)(x-3)}+\\frac{1}{(x-3)(x-5)}=\\frac{1}{6}$, where $x\\ne 1, 3, 5$.",
+  "idx": 31
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Nature of roots by discriminant",
+  "type": "short",
+  "marks": 2,
+  "text": "Find the discriminant of the equation $\\sqrt{2}x^{2}+7x+5\\sqrt{2}=0$ and hence state the nature of its roots.",
+  "idx": 32
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Nature of roots by discriminant",
+  "type": "short",
+  "marks": 2,
+  "text": "Show that the equation $(a^{2}+b^{2})x^{2}+2(ac+bd)x+(c^{2}+d^{2})=0$ has no real roots if $ad\\ne bc$.",
+  "idx": 33
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Value of k for equal roots",
+  "type": "short",
+  "marks": 2,
+  "text": "If the roots of the equation $(a^{2}+b^{2})x^{2}-2b(a+c)x+(b^{2}+c^{2})=0$ are equal, prove that $b^{2}=ac$.",
+  "idx": 34
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Value of k for equal roots",
+  "type": "short",
+  "marks": 3,
+  "text": "Find the values of $k$ for which the equation $(k+1)x^{2}-2(k-1)x+1=0$ has equal roots. For each value of $k$, find the repeated root.",
+  "idx": 35
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Sum and product of roots",
+  "type": "short",
+  "marks": 2,
+  "text": "The roots $\\alpha$ and $\\beta$ of the equation $x^{2}-9x+k=0$ satisfy $\\alpha-2\\beta=3$. Find the value of $k$.",
+  "idx": 36
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Sum and product of roots",
+  "type": "short",
+  "marks": 3,
+  "text": "If $\\alpha$ and $\\beta$ are the roots of $x^{2}-5x+2=0$, form the quadratic equation whose roots are $\\alpha^{2}$ and $\\beta^{2}$.",
+  "idx": 37
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "type": "short",
+  "marks": 3,
+  "text": "The code of a school locker is a two-digit number. The product of its digits is 14, and when 45 is added to the number, its digits get interchanged. Find the code.",
+  "idx": 38
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "type": "short",
+  "marks": 3,
+  "text": "Find two consecutive positive even integers the sum of whose squares is 340.",
+  "idx": 39
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "type": "short",
+  "marks": 3,
+  "text": "The sum of two numbers is 15 and the sum of their reciprocals is $\\frac{3}{10}$. Find the numbers.",
+  "idx": 40
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "type": "short",
+  "marks": 3,
+  "text": "The sum of the areas of two squares is $468\\text{ m}^{2}$ and the sum of their perimeters is 120 m. Find the sides of the two squares.",
+  "idx": 41
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "type": "short",
+  "marks": 3,
+  "text": "Two taps together fill a school's rainwater storage tank in 6 hours. Working alone, one tap takes 5 hours more than the other to fill it. Find the time each tap takes alone.",
+  "idx": 42
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "type": "short",
+  "marks": 3,
+  "text": "A school spends ₹720 on buying potted plants of the same kind. If each plant had cost ₹6 less, the school could have bought 4 more plants for the same money. Find the cost of one plant.",
+  "idx": 43
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "type": "short",
+  "marks": 3,
+  "text": "A shopkeeper sells a table lamp for ₹75 and makes a profit percent equal to the cost price of the lamp in rupees. Find the cost price of the lamp.",
+  "idx": 44
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Rational equations reducible to quadratics",
+  "type": "long",
+  "marks": 5,
+  "text": "Solve for $x$: $\\frac{1}{x-3}+\\frac{2}{x-2}=\\frac{8}{x}$, where $x\\ne 0, 2, 3$.",
+  "idx": 45
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Rational equations reducible to quadratics",
+  "type": "long",
+  "marks": 5,
+  "text": "Solve for $x$: $\\frac{1}{3a+b+3x}=\\frac{1}{3a}+\\frac{1}{b}+\\frac{1}{3x}$, where $x\\ne 0$ and $3a+b+3x\\ne 0$.",
+  "idx": 46
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Nature of roots by discriminant",
+  "type": "long",
+  "marks": 5,
+  "text": "Find the least positive value of $p$ for which the equation $x^{2}+2(p-1)x+(p+5)=0$ has real roots. Hence solve the equation for that value of $p$.",
+  "idx": 47
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "type": "long",
+  "marks": 5,
+  "text": "A motorcyclist covers 120 km at a uniform speed. If the speed had been 8 km/h more, the journey would have taken 30 minutes less. Find the original speed and the time taken at that speed.",
+  "idx": 48
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "type": "long",
+  "marks": 5,
+  "text": "A cyclist rides the first 24 km of a trip at a uniform speed and the next 30 km at a speed 2 km/h less than before. The whole trip takes 5 hours. Find the speed for the first part of the trip.",
+  "idx": 49
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "type": "long",
+  "marks": 5,
+  "text": "An express bus and an ordinary bus both cover a distance of 360 km. The express bus is 15 km/h faster and takes 2 hours less than the ordinary bus. Find the speeds of the two buses.",
+  "idx": 50
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "type": "long",
+  "marks": 5,
+  "text": "An aircraft took off 1 hour late from its scheduled time. To reach its destination 3000 km away on time, the pilot had to increase the usual speed by 250 km/h. Find the usual speed of the aircraft and the scheduled duration of the flight.",
+  "idx": 51
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "type": "long",
+  "marks": 5,
+  "text": "A cyclist rides 36 km uphill to a hill-top village and returns along the same road at a speed 6 km/h more than the uphill speed. The uphill ride takes 1 hour longer than the return ride. Find the uphill and downhill speeds.",
+  "idx": 52
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "type": "long",
+  "marks": 5,
+  "text": "The sum of the areas of two squares is $544\\text{ m}^{2}$ and the difference of their perimeters is 32 m. Find the sides of the two squares.",
+  "idx": 53
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "type": "long",
+  "marks": 5,
+  "text": "A circular park has a diameter $AB$ of length 26 m, with gates at $A$ and $B$. A lamp post is to be fixed at a point $P$ on the boundary of the park so that the distance of the post from gate $B$ is 14 m more than its distance from gate $A$. Find the distances $PA$ and $PB$, and the area of $\\triangle APB$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\"><circle cx=\"200\" cy=\"160\" r=\"120\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"160\" x2=\"320\" y2=\"160\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"160\" x2=\"115.5\" y2=\"74.8\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"115.5\" y1=\"74.8\" x2=\"320\" y2=\"160\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"200\" cy=\"160\" r=\"2.5\" fill=\"#000\" stroke=\"#000\"/><circle cx=\"115.5\" cy=\"74.8\" r=\"2.5\" fill=\"#000\" stroke=\"#000\"/><text x=\"62\" y=\"165\" font-family=\"sans-serif\" font-size=\"14\">A</text><text x=\"326\" y=\"165\" font-family=\"sans-serif\" font-size=\"14\">B</text><text x=\"195\" y=\"178\" font-family=\"sans-serif\" font-size=\"14\">O</text><text x=\"104\" y=\"66\" font-family=\"sans-serif\" font-size=\"14\">P</text><text x=\"225\" y=\"152\" font-family=\"sans-serif\" font-size=\"14\">26 m</text></svg>",
+  "figureAlt": "A circle with centre O and horizontal diameter AB labelled 26 m. Point P lies on the upper arc closer to A, joined to both A and B to form triangle APB.",
+  "idx": 54
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "type": "long",
+  "marks": 5,
+  "text": "Three years ago, a mother's age was twice the square of her daughter's age. Five years from now, the mother's age will be 4 more than three times the daughter's age then. Find their present ages.",
+  "idx": 55
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "type": "long",
+  "marks": 5,
+  "text": "The numerator of a fraction is 3 less than its denominator. If 2 is added to both the numerator and the denominator, the sum of the new fraction and the original fraction is $\\frac{26}{21}$. Find the original fraction.",
+  "idx": 56
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "type": "long",
+  "marks": 5,
+  "text": "Ravi's marks in Mathematics and Science in a class test add up to 30. Had he scored 2 marks more in Mathematics and 3 marks less in Science, the product of his marks would have been 210. Find his marks in the two subjects.",
+  "idx": 57
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "type": "long",
+  "marks": 5,
+  "text": "A tailor bought a roll of cloth for ₹1800. Had the cloth been ₹10 per metre cheaper, he would have got 6 m more cloth for the same amount. Find the length of the roll and the original price per metre.",
+  "idx": 58
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "type": "case",
+  "marks": 4,
+  "text": "A housing society has a rectangular lawn 20 m long and 14 m wide. It decides to build a walkway of uniform width $x$ m all around the outside of the lawn. The lawn and the walkway together cover an area of $432\\text{ m}^{2}$. The cost of paving the walkway will depend on its area.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 280\"><rect x=\"36\" y=\"30\" width=\"288\" height=\"216\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><rect x=\"60\" y=\"54\" width=\"240\" height=\"168\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"160\" y=\"142\" font-family=\"sans-serif\" font-size=\"14\">Lawn</text><text x=\"164\" y=\"72\" font-family=\"sans-serif\" font-size=\"14\">20 m</text><text x=\"66\" y=\"142\" font-family=\"sans-serif\" font-size=\"14\">14 m</text><line x1=\"300\" y1=\"138\" x2=\"324\" y2=\"138\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"304\" y=\"130\" font-family=\"sans-serif\" font-size=\"14\">x</text><line x1=\"180\" y1=\"222\" x2=\"180\" y2=\"246\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"186\" y=\"240\" font-family=\"sans-serif\" font-size=\"14\">x</text><text x=\"120\" y=\"268\" font-family=\"sans-serif\" font-size=\"14\">walkway (shaded)</text></svg>",
+  "figureAlt": "A white rectangle labelled Lawn, 20 m by 14 m, surrounded by a grey shaded border of uniform width x marked on the right side and the bottom side.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Write the equation in $x$ for the total area of the lawn and the walkway."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "Write this equation in the standard form $ax^{2}+bx+c=0$ with the simplest whole-number coefficients."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the width of the walkway and the area of the walkway."
+   }
+  ],
+  "idx": 59
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "type": "case",
+  "marks": 4,
+  "text": "A student has a photograph 15 cm long and 10 cm wide. She wants a print in which both the length and the width are increased by the same amount $x$ cm, so that the area of the print is double the area of the original photograph.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\"><rect x=\"40\" y=\"30\" width=\"200\" height=\"150\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><rect x=\"40\" y=\"80\" width=\"150\" height=\"100\" fill=\"#fff\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"76\" y=\"135\" font-family=\"sans-serif\" font-size=\"14\">original</text><text x=\"94\" y=\"200\" font-family=\"sans-serif\" font-size=\"14\">15 cm</text><text x=\"2\" y=\"135\" font-family=\"sans-serif\" font-size=\"14\">10 cm</text><text x=\"210\" y=\"200\" font-family=\"sans-serif\" font-size=\"14\">x</text><text x=\"24\" y=\"60\" font-family=\"sans-serif\" font-size=\"14\">x</text><text x=\"250\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\">enlarged</text></svg>",
+  "figureAlt": "A white rectangle labelled original, 15 cm by 10 cm, at the bottom left of a larger grey rectangle labelled enlarged, which extends it by x on the right and x on the top.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Form the quadratic equation in $x$ for the doubled area."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "Find the length and width of the new print."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "If instead the area were to be tripled, would $x$ be a rational number? Justify your answer."
+   }
+  ],
+  "idx": 60
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "type": "case",
+  "marks": 4,
+  "text": "A square classroom floor is to be covered completely with identical square tiles. Using tiles of side $x$ cm, exactly 225 tiles are needed. If tiles 6 cm longer in side are used instead, exactly 144 tiles are needed.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 280\"><rect x=\"40\" y=\"20\" width=\"240\" height=\"240\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><rect x=\"40\" y=\"188\" width=\"24\" height=\"24\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><rect x=\"64\" y=\"188\" width=\"24\" height=\"24\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><rect x=\"88\" y=\"188\" width=\"24\" height=\"24\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><rect x=\"40\" y=\"212\" width=\"24\" height=\"24\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><rect x=\"64\" y=\"212\" width=\"24\" height=\"24\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><rect x=\"88\" y=\"212\" width=\"24\" height=\"24\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><rect x=\"40\" y=\"236\" width=\"24\" height=\"24\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><rect x=\"64\" y=\"236\" width=\"24\" height=\"24\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><rect x=\"88\" y=\"236\" width=\"24\" height=\"24\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"44\" y=\"278\" font-family=\"sans-serif\" font-size=\"14\">x cm</text><text x=\"120\" y=\"120\" font-family=\"sans-serif\" font-size=\"14\">square floor</text><text x=\"130\" y=\"230\" font-family=\"sans-serif\" font-size=\"14\">tiles laid from a corner</text></svg>",
+  "figureAlt": "A large square floor outline with a three-by-three block of grey square tiles in its bottom-left corner; the side of one tile is labelled x cm.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Form a quadratic equation in $x$ by equating the area of the floor in the two cases."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "Find the side of the smaller tile."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the side and the area of the floor, in metres and square metres."
+   }
+  ],
+  "idx": 61
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "type": "case",
+  "marks": 4,
+  "text": "A delivery van covers a 200 km route every day at a uniform speed of $x$ km/h. The manager notices that if the van were driven 10 km/h faster, the trip would take 1 hour less.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Form a quadratic equation in $x$."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "Find the discriminant of this equation and state the nature of its roots."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the usual speed of the van and the time it takes for the route."
+   }
+  ],
+  "idx": 62
+ },
+ {
+  "chapter": "Quadratic Equations",
+  "topic": "Word problems",
+  "type": "case",
+  "marks": 4,
+  "text": "A school wants to rope off a rectangular play area on its ground using exactly 36 m of rope for the boundary. The breadth of the area is $x$ m. The sports teacher first asks for an area of $85\\text{ m}^{2}$; if that is not possible, the plan is revised to an area of $77\\text{ m}^{2}$.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Express the area of the play area in terms of $x$."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "Can the area be $85\\text{ m}^{2}$? Justify using the discriminant."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the length and breadth for the revised area of $77\\text{ m}^{2}$."
+   }
+  ],
+  "idx": 63
+ }
+]

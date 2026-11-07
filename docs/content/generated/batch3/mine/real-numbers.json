@@ -1,0 +1,332 @@
+[
+ {
+  "idx": 0,
+  "myAnswer": "A) 4√15, an irrational number",
+  "how": "by hand"
+ },
+ {
+  "idx": 1,
+  "myAnswer": "B) √12 and √27",
+  "how": "by hand"
+ },
+ {
+  "idx": 2,
+  "myAnswer": "C) 13 divides k",
+  "how": "by hand"
+ },
+ {
+  "idx": 3,
+  "myAnswer": "D) a and b are co-prime integers",
+  "how": "by hand"
+ },
+ {
+  "idx": 4,
+  "myAnswer": "A) Both true, R explains A",
+  "how": "by hand"
+ },
+ {
+  "idx": 5,
+  "myAnswer": "B) Both A and R true but R does not explain A (PR=13 rational because 169 is a perfect square, not because of R)",
+  "how": "by hand"
+ },
+ {
+  "idx": 6,
+  "myAnswer": "proof: assume 8-5√3=r rational, √3=(8-r)/5 rational, contradiction",
+  "how": "by hand"
+ },
+ {
+  "idx": 7,
+  "myAnswer": "proof: assume =r, √11=3r-2 rational, contradiction",
+  "how": "by hand"
+ },
+ {
+  "idx": 8,
+  "myAnswer": "5+√3 and 5-√3 (roots of t^2-10t+22=0); irrational since √3 irrational",
+  "how": "by hand"
+ },
+ {
+  "idx": 9,
+  "myAnswer": "error: sum/product of irrationals need not be irrational; sum 6, product 4 (both rational)",
+  "how": "by hand"
+ },
+ {
+  "idx": 10,
+  "myAnswer": "proof: √2=a/b coprime, 2|a, a=2c, 2|b, contradiction",
+  "how": "by hand"
+ },
+ {
+  "idx": 11,
+  "myAnswer": "proof: same with 3",
+  "how": "by hand"
+ },
+ {
+  "idx": 12,
+  "myAnswer": "proof: same with 11 (prime)",
+  "how": "by hand"
+ },
+ {
+  "idx": 13,
+  "myAnswer": "proof: √2=(r+3)/5 rational, contradiction",
+  "how": "by hand"
+ },
+ {
+  "idx": 14,
+  "myAnswer": "proof: √7=6-2r rational, contradiction",
+  "how": "by hand"
+ },
+ {
+  "idx": 15,
+  "myAnswer": "A) 72",
+  "how": "python"
+ },
+ {
+  "idx": 16,
+  "myAnswer": "B) 84",
+  "how": "python"
+ },
+ {
+  "idx": 17,
+  "myAnswer": "C) a^2 b",
+  "how": "by hand"
+ },
+ {
+  "idx": 18,
+  "myAnswer": "D) 7 (x=5,y=2)",
+  "how": "python"
+ },
+ {
+  "idx": 19,
+  "myAnswer": "A) 48 (m=24,n=144)",
+  "how": "by hand"
+ },
+ {
+  "idx": 20,
+  "myAnswer": "B) 3600",
+  "how": "by hand"
+ },
+ {
+  "idx": 21,
+  "myAnswer": "C) p=xy/2 (x=30,y=28,p=420)",
+  "how": "by hand"
+ },
+ {
+  "idx": 22,
+  "myAnswer": "D) A false (HCF=3m), R true",
+  "how": "by hand"
+ },
+ {
+  "idx": 23,
+  "myAnswer": "180",
+  "how": "by hand"
+ },
+ {
+  "idx": 24,
+  "myAnswer": "z=5 (HCF 24)",
+  "how": "by hand"
+ },
+ {
+  "idx": 25,
+  "myAnswer": "HCF=ab^2, LCM=a^3b^4; product a^4b^6 ≠ pqr=a^6b^9, so No",
+  "how": "by hand"
+ },
+ {
+  "idx": 26,
+  "myAnswer": "180=2^2·3^2·5, 270=2·3^3·5, 450=2·3^2·5^2; HCF 90, LCM 2700; pair HCF 90 LCM 540, 90·540=48600=180·270",
+  "how": "python"
+ },
+ {
+  "idx": 27,
+  "myAnswer": "D) only even prime",
+  "how": "by hand"
+ },
+ {
+  "idx": 28,
+  "myAnswer": "A) 5",
+  "how": "by hand"
+ },
+ {
+  "idx": 29,
+  "myAnswer": "B) 7",
+  "how": "python"
+ },
+ {
+  "idx": 30,
+  "myAnswer": "C) 4",
+  "how": "by hand"
+ },
+ {
+  "idx": 31,
+  "myAnswer": "D) 2·3^2·5^2·7",
+  "how": "python"
+ },
+ {
+  "idx": 32,
+  "myAnswer": "A) unique apart from order",
+  "how": "by hand"
+ },
+ {
+  "idx": 33,
+  "myAnswer": "B) 1386 and 231",
+  "how": "by hand"
+ },
+ {
+  "idx": 34,
+  "myAnswer": "D) A false, R true",
+  "how": "by hand"
+ },
+ {
+  "idx": 35,
+  "myAnswer": "No: 26^n=2^n·13^n has no factor 5",
+  "how": "by hand"
+ },
+ {
+  "idx": 36,
+  "myAnswer": "13·78 composite; e.g. 2·3·5+1=31 prime, 3·5·7+1=106 composite",
+  "how": "by hand"
+ },
+ {
+  "idx": 37,
+  "myAnswer": "1080=2^3·3^3·5; (i) 30 (ii) 25 (iii) 5; contains 2 and 5 so ends in 0",
+  "how": "python"
+ },
+ {
+  "idx": 38,
+  "myAnswer": "(i) 2 (ii) 11 (iii) 7 players; 2 and 3 repeated (13860=2^2·3^2·5·7·11)",
+  "how": "python"
+ },
+ {
+  "idx": 39,
+  "myAnswer": "C) 48",
+  "how": "python"
+ },
+ {
+  "idx": 40,
+  "myAnswer": "D) 8:18 a.m.",
+  "how": "by hand"
+ },
+ {
+  "idx": 41,
+  "myAnswer": "A) 1804",
+  "how": "python"
+ },
+ {
+  "idx": 42,
+  "myAnswer": "0.45 m (45 cm)",
+  "how": "python"
+ },
+ {
+  "idx": 43,
+  "myAnswer": "48 books per pile; 12 piles",
+  "how": "by hand"
+ },
+ {
+  "idx": 44,
+  "myAnswer": "10:00 a.m. (LCM 240 min)",
+  "how": "by hand"
+ },
+ {
+  "idx": 45,
+  "myAnswer": "6 hours (LCM 360 min); 18+15+10=43 pots",
+  "how": "by hand"
+ },
+ {
+  "idx": 46,
+  "myAnswer": "9720",
+  "how": "python"
+ },
+ {
+  "idx": 47,
+  "myAnswer": "24 cm; 35 tiles",
+  "how": "python"
+ },
+ {
+  "idx": 48,
+  "myAnswer": "17",
+  "how": "python"
+ },
+ {
+  "idx": 49,
+  "myAnswer": "42 cm; 12 strips",
+  "how": "python"
+ },
+ {
+  "idx": 50,
+  "myAnswer": "902",
+  "how": "python"
+ },
+ {
+  "idx": 51,
+  "myAnswer": "(i) 24=2^3·3, 40=2^3·5 (ii) 120 (iii) 8:00 a.m.; 7 times",
+  "how": "by hand"
+ },
+ {
+  "idx": 52,
+  "myAnswer": "B) 20",
+  "how": "by hand"
+ },
+ {
+  "idx": 53,
+  "myAnswer": "C) 323",
+  "how": "by hand"
+ },
+ {
+  "idx": 54,
+  "myAnswer": "D) pq",
+  "how": "by hand"
+ },
+ {
+  "idx": 55,
+  "myAnswer": "A) 14 and 98",
+  "how": "by hand"
+ },
+ {
+  "idx": 56,
+  "myAnswer": "B) 2",
+  "how": "by hand"
+ },
+ {
+  "idx": 57,
+  "myAnswer": "15",
+  "how": "by hand"
+ },
+ {
+  "idx": 58,
+  "myAnswer": "HCF 24, LCM 144 (numbers 72, 48)",
+  "how": "by hand"
+ },
+ {
+  "idx": 59,
+  "myAnswer": "(6,180),(12,90),(18,60),(30,36)",
+  "how": "by hand"
+ },
+ {
+  "idx": 60,
+  "myAnswer": "(9,540),(27,180),(36,135),(45,108)",
+  "how": "by hand"
+ },
+ {
+  "idx": 61,
+  "myAnswer": "C) 1.5",
+  "how": "by hand"
+ },
+ {
+  "idx": 62,
+  "myAnswer": "D) a rational number",
+  "how": "by hand"
+ },
+ {
+  "idx": 63,
+  "myAnswer": "A) a rational number",
+  "how": "by hand"
+ },
+ {
+  "idx": 64,
+  "myAnswer": "B) any odd natural number",
+  "how": "by hand"
+ },
+ {
+  "idx": 65,
+  "myAnswer": "m=-3",
+  "how": "by hand"
+ }
+]

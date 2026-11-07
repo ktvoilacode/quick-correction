@@ -1,0 +1,1459 @@
+[
+ {
+  "chapter": "Statistics",
+  "topic": "Mean of grouped data",
+  "patternId": "ST-MEA-04",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The class mark of the class $120$-$150$ is:",
+  "options": [
+   "$30$",
+   "$135$",
+   "$270$",
+   "$150$"
+  ],
+  "answer": "Correct option: B) $135$. Class mark $= \\frac{120 + 150}{2} = 135$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean of grouped data",
+  "patternId": "ST-MEA-05",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "In the assumed-mean method for a grouped table, $\\Sigma f_i = 50$, $\\Sigma f_id_i = -150$ and the mean is $42$. The assumed mean is:",
+  "options": [
+   "$39$",
+   "$42$",
+   "$45$",
+   "$48$"
+  ],
+  "answer": "Correct option: C) $45$. Mean $= a + \\frac{\\Sigma f_id_i}{\\Sigma f_i}$, so $42 = a + \\frac{-150}{50} = a - 3$, giving $a = 45$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean of grouped data",
+  "patternId": "ST-MEA-06",
+  "type": "assertion_reason",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Assertion (A): For a grouped table with assumed mean $a = 25$, $\\Sigma f_i = 20$ and $\\Sigma f_id_i = -40$, the mean is $27$.\nReason (R): In the assumed-mean method, mean $= a + \\frac{\\Sigma f_id_i}{\\Sigma f_i}$, where $d_i = x_i - a$.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: D) A is false but R is true. By R, mean $= 25 + \\frac{-40}{20} = 23$, not $27$, so A is false. R is the correct formula."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Median of grouped data",
+  "patternId": "ST-MED-02",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "For a grouped distribution, $l = 40$, $N = 60$, $cf = 22$, $f = 16$ and $h = 10$. The median is:",
+  "options": [
+   "$63.75$",
+   "$40.5$",
+   "$50$",
+   "$45$"
+  ],
+  "answer": "Correct option: D) $45$. Median $= l + \\frac{\\frac{N}{2} - cf}{f} \\times h = 40 + \\frac{30 - 22}{16} \\times 10 = 40 + 5 = 45$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Median of grouped data",
+  "patternId": "ST-MED-04",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "For a grouped table, $l = 50$, $\\frac{N}{2} = 40$, $cf = 28$, $f = 15$ and $h = 20$. A student wrote Median $= 50 + \\frac{40 - 28}{20} \\times 15$. The error in the student's working is:",
+  "options": [
+   "The frequency $f$ and the class width $h$ have been interchanged",
+   "$\\frac{N}{2}$ should have been replaced by $N$",
+   "$cf$ should have been added to $\\frac{N}{2}$, not subtracted",
+   "$l$ should be the upper limit $70$ of the median class"
+  ],
+  "answer": "Correct option: A) The frequency $f$ and the class width $h$ have been interchanged. The correct substitution is $50 + \\frac{40 - 28}{15} \\times 20 = 66$; the student divided by $h$ and multiplied by $f$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Median of grouped data",
+  "patternId": "ST-MED-05",
+  "type": "assertion_reason",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Assertion (A): For the classes $0$-$10$, $10$-$20$, $20$-$30$, $30$-$40$, $40$-$50$ with frequencies $12, 10, 8, 6, 4$, the median class is $10$-$20$.\nReason (R): The median class is the class whose cumulative frequency is the first to be greater than or equal to $\\frac{N}{2}$.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: A) Both A and R are true and R explains A. Here $N = 40$, $\\frac{N}{2} = 20$ and the cumulative frequencies are $12, 22, 30, 36, 40$. The first one to reach $20$ is $22$, so the median class is $10$-$20$ (even though the class of highest frequency is $0$-$10$). R is the rule that gives A."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mode of grouped data",
+  "patternId": "ST-MOD-02",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "For the classes $5$-$15$, $15$-$25$, $25$-$35$, $35$-$45$, $45$-$55$ with frequencies $7, 11, 9, 16, 4$, the modal class is:",
+  "options": [
+   "$15$-$25$",
+   "$25$-$35$",
+   "$35$-$45$",
+   "$45$-$55$"
+  ],
+  "answer": "Correct option: C) $35$-$45$. The highest frequency is $16$, which belongs to the class $35$-$45$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mode of grouped data",
+  "patternId": "ST-MOD-04",
+  "type": "assertion_reason",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Assertion (A): For the classes $10$-$20$, $20$-$30$, $30$-$40$, $40$-$50$ with frequencies $4, 13, 7, 6$, the mode is $25$, the class mark of the modal class.\nReason (R): The mode of grouped data is $l + \\frac{f_1 - f_0}{2f_1 - f_0 - f_2} \\times h$, found from the modal class and its two neighbouring classes.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: D) A is false but R is true. Modal class $20$-$30$: mode $= 20 + \\frac{13 - 4}{26 - 4 - 7} \\times 10 = 20 + 6 = 26$, not $25$. So A is false and R is true."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Missing frequency",
+  "patternId": "ST-MSF-03",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The mode of a grouped distribution is $44$ and the modal class is $40$-$50$. The frequencies of the classes just before and just after it are $12$ and $6$. The frequency of the modal class is:",
+  "options": [
+   "$18$",
+   "$20$",
+   "$24$",
+   "$30$"
+  ],
+  "answer": "Correct option: C) $24$. $44 = 40 + \\frac{f_1 - 12}{2f_1 - 18} \\times 10$ gives $4(2f_1 - 18) = 10(f_1 - 12)$, so $8f_1 - 72 = 10f_1 - 120$ and $f_1 = 24$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean, median and mode relation",
+  "patternId": "ST-REL-01",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "For a moderately skewed distribution, the mean is $45$ and the median is $41$. The mode is:",
+  "options": [
+   "$33$",
+   "$37$",
+   "$43$",
+   "$49$"
+  ],
+  "answer": "Correct option: A) $33$. Mode $= 3\\,\\text{Median} - 2\\,\\text{Mean} = 123 - 90 = 33$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean, median and mode relation",
+  "patternId": "ST-REL-02",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "For a moderately skewed distribution, the mean is $35$ and the mode is $26$. The median is:",
+  "options": [
+   "$30.5$",
+   "$32$",
+   "$29$",
+   "$44$"
+  ],
+  "answer": "Correct option: B) $32$. $3\\,\\text{Median} = \\text{Mode} + 2\\,\\text{Mean} = 26 + 70 = 96$, so Median $= 32$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean, median and mode relation",
+  "patternId": "ST-REL-03",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "For a moderately skewed distribution, the median is $45$ and the mode is $39$. The mean is:",
+  "options": [
+   "$42$",
+   "$51$",
+   "$48$",
+   "$47$"
+  ],
+  "answer": "Correct option: C) $48$. $2\\,\\text{Mean} = 3\\,\\text{Median} - \\text{Mode} = 135 - 39 = 96$, so Mean $= 48$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean, median and mode relation",
+  "patternId": "ST-REL-04",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "For a moderately skewed distribution, the mode is $2k$ and the mean is $5k$. The median is:",
+  "options": [
+   "$3.5k$",
+   "$3k$",
+   "$\\frac{7k}{3}$",
+   "$4k$"
+  ],
+  "answer": "Correct option: D) $4k$. $3\\,\\text{Median} = \\text{Mode} + 2\\,\\text{Mean} = 2k + 10k = 12k$, so Median $= 4k$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean, median and mode relation",
+  "patternId": "ST-REL-06",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The empirical relation is written as $a \\cdot \\text{Mean} = b \\cdot \\text{Median} - c \\cdot \\text{Mode}$, where $a$, $b$, $c$ are the smallest natural numbers that make it true. The value of $a + b + c$ is:",
+  "options": [
+   "$6$",
+   "$5$",
+   "$4$",
+   "$8$"
+  ],
+  "answer": "Correct option: A) $6$. From Mode $= 3\\,\\text{Median} - 2\\,\\text{Mean}$ we get $2\\,\\text{Mean} = 3\\,\\text{Median} - \\text{Mode}$, so $a = 2$, $b = 3$, $c = 1$ and $a + b + c = 6$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean, median and mode relation",
+  "patternId": "ST-REL-07",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "For a moderately skewed distribution, the mode is $18$ and the sum of the mean and the median is $66$. The mean and the median are:",
+  "options": [
+   "Mean $= 30$, Median $= 36$",
+   "Mean $= 36$, Median $= 30$",
+   "Mean $= 33$, Median $= 33$",
+   "Mean $= 40$, Median $= 26$"
+  ],
+  "answer": "Correct option: B) Mean $= 36$, Median $= 30$. Let mean $= m$, so median $= 66 - m$. Then $18 = 3(66 - m) - 2m = 198 - 5m$, so $m = 36$ and median $= 30$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean, median and mode relation",
+  "patternId": "ST-REL-08",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "For a moderately skewed distribution, which of the following correctly relates the mean, median and mode?",
+  "options": [
+   "$\\text{Mode} = 2\\,\\text{Median} - 3\\,\\text{Mean}$",
+   "$\\text{Mean} = 3\\,\\text{Median} - 2\\,\\text{Mode}$",
+   "$\\text{Mode} = 3\\,\\text{Median} - 2\\,\\text{Mean}$",
+   "$\\text{Median} = 3\\,\\text{Mode} - 2\\,\\text{Mean}$"
+  ],
+  "answer": "Correct option: C) $\\text{Mode} = 3\\,\\text{Median} - 2\\,\\text{Mean}$. The empirical relation is $3\\,\\text{Median} = \\text{Mode} + 2\\,\\text{Mean}$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean, median and mode relation",
+  "patternId": "ST-REL-09",
+  "type": "assertion_reason",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Assertion (A): For a moderately skewed distribution with mean $40$ and mode $34$, the median is $38$.\nReason (R): For a moderately skewed distribution, $\\text{Mean} = 3\\,\\text{Median} - 2\\,\\text{Mode}$.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: C) A is true but R is false. By the empirical relation, $3\\,\\text{Median} = \\text{Mode} + 2\\,\\text{Mean} = 34 + 80 = 114$, so Median $= 38$ and A is true. R misstates the relation (it should be Mode $= 3\\,$Median $- 2\\,$Mean), so R is false."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean, median and mode relation",
+  "patternId": "ST-REL-10",
+  "type": "assertion_reason",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Assertion (A): If the median and the mode of a moderately skewed distribution are both $25$, then its mean is also $25$.\nReason (R): For a moderately skewed distribution, $\\text{Mode} = 3\\,\\text{Median} - 2\\,\\text{Mean}$.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: A) Both A and R are true and R explains A. By R, $25 = 75 - 2\\,\\text{Mean}$, so Mean $= 25$. A follows from R."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Cumulative frequency tables",
+  "patternId": "ST-CFT-01",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A less-than cumulative frequency table reads: less than $20$: $6$; less than $40$: $15$; less than $60$: $29$; less than $80$: $41$; less than $100$: $48$. The modal class is:",
+  "options": [
+   "$80$-$100$",
+   "$40$-$60$",
+   "$60$-$80$",
+   "$20$-$40$"
+  ],
+  "answer": "Correct option: B) $40$-$60$. Class frequencies are $6, 9, 14, 12, 7$. The highest is $14$, for $40$-$60$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Cumulative frequency tables",
+  "patternId": "ST-CFT-02",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "A table has classes $10$-$20$, $20$-$30$, $30$-$40$, $40$-$50$, $50$-$60$, and its median class is $40$-$50$. The $cf$ used in the median formula is the sum of the frequencies of the classes:",
+  "options": [
+   "$10$-$20$ up to $40$-$50$",
+   "$40$-$50$ and $50$-$60$",
+   "$50$-$60$ only",
+   "$10$-$20$, $20$-$30$ and $30$-$40$"
+  ],
+  "answer": "Correct option: D) $10$-$20$, $20$-$30$ and $30$-$40$. $cf$ is the cumulative frequency of the class just before the median class, that is, all classes below $40$-$50$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Cumulative frequency tables",
+  "patternId": "ST-CFT-03",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "In a more-than cumulative frequency table, $45$ observations are $30$ or more and $28$ observations are $40$ or more. The frequency of the class $30$-$40$ is:",
+  "options": [
+   "$73$",
+   "$28$",
+   "$17$",
+   "$45$"
+  ],
+  "answer": "Correct option: C) $17$. Observations in $30$-$40$ $= 45 - 28 = 17$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Central tendency concepts and ungrouped data",
+  "patternId": "ST-CON-01",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The mean of $15$ observations is $32$. If each observation is decreased by $5$, the new mean is:",
+  "options": [
+   "$27$",
+   "$32$",
+   "$37$",
+   "$25$"
+  ],
+  "answer": "Correct option: A) $27$. Subtracting $5$ from every value lowers the total by $15 \\times 5$, so the mean falls by $5$: $32 - 5 = 27$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Central tendency concepts and ungrouped data",
+  "patternId": "ST-CON-02",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The median of $9$ observations is $41$. Each observation is increased by $7$, and then the largest observation alone is increased by a further $10$. The new median is:",
+  "options": [
+   "$58$",
+   "$41$",
+   "$48$",
+   "$49$"
+  ],
+  "answer": "Correct option: C) $48$. Adding $7$ to every value shifts the median to $48$. Raising the largest value does not change the order of the middle (5th) value, so the median stays $48$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Central tendency concepts and ungrouped data",
+  "patternId": "ST-CON-03",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "For a frequency table with $\\Sigma f_i = 30$ and mean $\\bar{x} = 22.5$, the value of $\\Sigma f_i(x_i - \\bar{x})$ is:",
+  "options": [
+   "$675$",
+   "$0$",
+   "$22.5$",
+   "$30$"
+  ],
+  "answer": "Correct option: B) $0$. $\\Sigma f_i(x_i - \\bar{x}) = \\Sigma f_ix_i - \\bar{x}\\Sigma f_i = 675 - 675 = 0$. This is always $0$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Central tendency concepts and ungrouped data",
+  "patternId": "ST-CON-04",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The heights of the players of a team are arranged in increasing order, and the height of the player standing in the middle is noted. This value is the:",
+  "options": [
+   "mean",
+   "mode",
+   "class mark",
+   "median"
+  ],
+  "answer": "Correct option: D) median. The middle value of ordered data is the median."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Central tendency concepts and ungrouped data",
+  "patternId": "ST-CON-05",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The mean of $x + 2$, $2x - 1$, $x + 5$, $3x$ and $4$ is $9$. The value of $x$ is:",
+  "options": [
+   "$4$",
+   "$5$",
+   "$6$",
+   "$7$"
+  ],
+  "answer": "Correct option: B) $5$. Sum $= 7x + 10 = 5 \\times 9 = 45$, so $7x = 35$ and $x = 5$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Central tendency concepts and ungrouped data",
+  "patternId": "ST-CON-06",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The mean of $7$ numbers is $30$. The mean of the first four numbers is $26$ and the mean of the last four numbers is $35$. The fourth number is:",
+  "options": [
+   "$30$",
+   "$31$",
+   "$34$",
+   "$61$"
+  ],
+  "answer": "Correct option: C) $34$. First four sum $104$, last four sum $140$, all seven sum $210$. The fourth number is counted twice, so it is $104 + 140 - 210 = 34$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Central tendency concepts and ungrouped data",
+  "patternId": "ST-CON-07",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The values $10, 20, 30, 40, 50$ occur with frequencies $12, 18, 25, 15, 10$. The median is the mean of which two observations, taken in increasing order?",
+  "options": [
+   "$40$th and $41$st",
+   "$39$th and $40$th",
+   "$41$st and $42$nd",
+   "$80$th and $81$st"
+  ],
+  "answer": "Correct option: A) $40$th and $41$st. $N = 80$ is even, so the median is the mean of the $\\frac{N}{2} = 40$th and $41$st observations (both equal $30$ here)."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Central tendency concepts and ungrouped data",
+  "patternId": "ST-CON-08",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The mode of $12, 15, 11, 15, 12, 15, 18, 11$ is:",
+  "options": [
+   "$12$",
+   "$11$",
+   "$13.625$",
+   "$15$"
+  ],
+  "answer": "Correct option: D) $15$. $15$ occurs three times, more often than any other value."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Combined measures from one table",
+  "patternId": "ST-CMB-01",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "For the classes $10$-$20$, $20$-$30$, $30$-$40$, $40$-$50$, $50$-$60$ with frequencies $5, 9, 7, 12, 4$, the sum of the lower limits of the median class and the modal class is:",
+  "options": [
+   "$90$",
+   "$80$",
+   "$70$",
+   "$60$"
+  ],
+  "answer": "Correct option: C) $70$. $N = 37$, $\\frac{N}{2} = 18.5$; cumulative frequencies $5, 14, 21, \\ldots$, so the median class is $30$-$40$. The modal class is $40$-$50$. Sum of lower limits $= 30 + 40 = 70$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Combined measures from one table",
+  "patternId": "ST-CMB-02",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "hard",
+  "competency": false,
+  "text": "For the classes $0$-$10$, $10$-$20$, $20$-$30$, $30$-$40$, $40$-$50$ with frequencies $2, 5, 9, 3, 1$, the value of mean $-$ mode is:",
+  "options": [
+   "$1$",
+   "$-2$",
+   "$3$",
+   "$-1$"
+  ],
+  "answer": "Correct option: D) $-1$. Mean $= \\frac{10 + 75 + 225 + 105 + 45}{20} = 23$. Mode $= 20 + \\frac{9 - 5}{18 - 5 - 3} \\times 10 = 24$. Mean $-$ mode $= -1$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Combined measures from one table",
+  "patternId": "ST-CMB-03",
+  "type": "assertion_reason",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Assertion (A): For the classes $0$-$10$, $10$-$20$, $20$-$30$, $30$-$40$, $40$-$50$ with frequencies $5, 9, 14, 8, 4$, the upper limit of the median class $-$ the lower limit of the modal class $= 10$.\nReason (R): The median class and the modal class of a distribution are always the same class.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: C) A is true but R is false. $N = 40$, cumulative frequencies $5, 14, 28, \\ldots$, so the median class is $20$-$30$; the modal class is also $20$-$30$. $30 - 20 = 10$, so A is true. R is false: in general the two classes can differ."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Step-deviation mean",
+  "patternId": "ST-SDV-01",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "In the step-deviation method with assumed mean $a = 45$ and class width $h = 10$, the mean of a distribution is found to be $47$. The value of $\\bar{u} = \\frac{\\Sigma f_iu_i}{\\Sigma f_i}$ is:",
+  "options": [
+   "$2$",
+   "$0.2$",
+   "$20$",
+   "$-0.2$"
+  ],
+  "answer": "Correct option: B) $0.2$. Mean $= a + h\\bar{u}$, so $47 = 45 + 10\\bar{u}$ and $\\bar{u} = 0.2$."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean of grouped data",
+  "patternId": "ST-MEA-09",
+  "type": "short",
+  "marks": 3,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Find the mean of the following data.\nClass: 10-20 | 20-30 | 30-40 | 40-50 | 50-60\nFrequency: 3 | 9 | 18 | 15 | 5",
+  "answer": "Class marks $x_i$: 15, 25, 35, 45, 55. Products $f_ix_i$: 45, 225, 630, 675, 275. $\\Sigma f_i = 50$, $\\Sigma f_ix_i = 1850$. Mean $= \\frac{\\Sigma f_ix_i}{\\Sigma f_i} = \\frac{1850}{50} = 37$.",
+  "markingSteps": [
+   {
+    "step": "Class marks and $f_ix_i$ column",
+    "marks": 1
+   },
+   {
+    "step": "$\\Sigma f_i = 50$ and $\\Sigma f_ix_i = 1850$",
+    "marks": 1
+   },
+   {
+    "step": "Mean $= 37$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean of grouped data",
+  "patternId": "ST-MEA-10",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The masses (in grams) of $50$ packets of biscuits checked at a factory are given below. Using the assumed-mean method with $a = 65$, find the mean mass.\nMass (g): 40-50 | 50-60 | 60-70 | 70-80 | 80-90\nNumber of packets: 8 | 9 | 11 | 16 | 6",
+  "answer": "Take $a = 65$. Class marks $x_i$: 45, 55, 65, 75, 85. $d_i = x_i - 65$: -20, -10, 0, 10, 20. $f_id_i$: -160, -90, 0, 160, 120. $\\Sigma f_i = 50$, $\\Sigma f_id_i = 30$. Mean $= a + \\frac{\\Sigma f_id_i}{\\Sigma f_i} = 65 + \\frac{30}{50} = 65.6$. Mean mass $= 65.6$ g.",
+  "markingSteps": [
+   {
+    "step": "Class marks and deviations $d_i$",
+    "marks": 1
+   },
+   {
+    "step": "$\\Sigma f_id_i = 30$ and $\\Sigma f_i = 50$",
+    "marks": 1
+   },
+   {
+    "step": "Mean $= 65 + 0.6 = 65.6$ g",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Missing frequency",
+  "patternId": "ST-MSF-05",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The mode of the following distribution is $36$, and $30$-$40$ is the modal class. Find $x$.\nClass: 10-20 | 20-30 | 30-40 | 40-50 | 50-60\nFrequency: 6 | 10 | $x$ | 12 | 5",
+  "answer": "Modal class $30$-$40$: $l = 30$, $f_1 = x$, $f_0 = 10$, $f_2 = 12$, $h = 10$. $36 = 30 + \\frac{x - 10}{2x - 22} \\times 10$, so $6(2x - 22) = 10(x - 10)$, i.e. $12x - 132 = 10x - 100$, giving $x = 16$. (Check: $16$ is the largest frequency, so $30$-$40$ is modal.)",
+  "markingSteps": [
+   {
+    "step": "Correct substitution in the mode formula",
+    "marks": 1
+   },
+   {
+    "step": "Solving to get $x = 16$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Missing frequency",
+  "patternId": "ST-MSF-06",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The mode of a grouped distribution is $67$ and its modal class is $60$-$80$. The frequency of the class before the modal class is $16$ and that of the class after it is $10$. Find the frequency of the modal class.",
+  "answer": "Let the modal class frequency be $f_1$. $l = 60$, $h = 20$, $f_0 = 16$, $f_2 = 10$. $67 = 60 + \\frac{f_1 - 16}{2f_1 - 26} \\times 20$, so $7(2f_1 - 26) = 20(f_1 - 16)$, i.e. $14f_1 - 182 = 20f_1 - 320$, giving $6f_1 = 138$ and $f_1 = 23$.",
+  "markingSteps": [
+   {
+    "step": "Correct substitution in the mode formula",
+    "marks": 1
+   },
+   {
+    "step": "$f_1 = 23$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Missing frequency",
+  "patternId": "ST-MSF-07",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The mean of the following distribution is $40$. Find $p$.\nClass: 0-20 | 20-40 | 40-60 | 60-80\nFrequency: 7 | $p$ | 10 | 5",
+  "answer": "Class marks $10, 30, 50, 70$. $\\Sigma f_i = 22 + p$, $\\Sigma f_ix_i = 70 + 30p + 500 + 350 = 920 + 30p$. $\\frac{920 + 30p}{22 + p} = 40$ gives $920 + 30p = 880 + 40p$, so $10p = 40$ and $p = 4$.",
+  "markingSteps": [
+   {
+    "step": "$\\Sigma f_i$ and $\\Sigma f_ix_i$ in terms of $p$",
+    "marks": 1
+   },
+   {
+    "step": "$p = 4$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Missing frequency",
+  "patternId": "ST-MSF-09",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The mean of the following distribution is $40.8$. Find the missing frequency $k$.\nClass: 10-20 | 20-30 | 30-40 | 40-50 | 50-60 | 60-70\nFrequency: 2 | 7 | 16 | $k$ | 9 | 3",
+  "answer": "Class marks $15, 25, 35, 45, 55, 65$. $\\Sigma f_i = 37 + k$. $\\Sigma f_ix_i = 30 + 175 + 560 + 45k + 495 + 195 = 1455 + 45k$. $\\frac{1455 + 45k}{37 + k} = 40.8$ gives $1455 + 45k = 1509.6 + 40.8k$, so $4.2k = 54.6$ and $k = 13$.",
+  "markingSteps": [
+   {
+    "step": "$\\Sigma f_i = 37 + k$ and $\\Sigma f_ix_i = 1455 + 45k$",
+    "marks": 1
+   },
+   {
+    "step": "Equation from the mean",
+    "marks": 1
+   },
+   {
+    "step": "$k = 13$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Missing frequency",
+  "patternId": "ST-MSF-10",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The median of the following distribution is $41.2$. Find $x$.\nClass: 20-30 | 30-40 | 40-50 | 50-60 | 60-70 | 70-80\nFrequency: 10 | $x$ | 25 | 7 | 4 | 2",
+  "answer": "$N = 48 + x$. Since the median $41.2$ lies in $40$-$50$, that is the median class: $l = 40$, $cf = 10 + x$, $f = 25$, $h = 10$. $41.2 = 40 + \\frac{\\frac{48 + x}{2} - (10 + x)}{25} \\times 10$, so $1.2 = \\frac{14 - \\frac{x}{2}}{25} \\times 10$, giving $14 - \\frac{x}{2} = 3$ and $x = 22$.",
+  "markingSteps": [
+   {
+    "step": "Median class $40$-$50$ with $cf = 10 + x$ and $N = 48 + x$",
+    "marks": 1
+   },
+   {
+    "step": "Correct substitution in the median formula",
+    "marks": 1
+   },
+   {
+    "step": "$x = 22$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Cumulative frequency tables",
+  "patternId": "ST-CFT-04",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Find $a$, $b$ and $c$ in the following table.\nClass: 10-20 | 20-30 | 30-40 | 40-50\nFrequency: 7 | $a$ | 12 | $b$\nCumulative frequency: 7 | 15 | $c$ | 34",
+  "answer": "$a = 15 - 7 = 8$. $c = 15 + 12 = 27$. $b = 34 - 27 = 7$.",
+  "markingSteps": [
+   {
+    "step": "$a = 8$ and $c = 27$",
+    "marks": 1
+   },
+   {
+    "step": "$b = 7$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Cumulative frequency tables",
+  "patternId": "ST-CFT-06",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The following more-than cumulative table gives the marks of $60$ students in a test. Find the median marks.\nMarks: 0 or more | 10 or more | 20 or more | 30 or more | 40 or more | 50 or more\nNumber of students: 60 | 53 | 37 | 17 | 6 | 2",
+  "answer": "Converting to classes (the last class is $50$-$60$): $0$-$10$: $7$, $10$-$20$: $16$, $20$-$30$: $20$, $30$-$40$: $11$, $40$-$50$: $4$, $50$-$60$: $2$. Cumulative frequencies: 7, 23, 43, 54, 58, 60. $N = 60$, so $\\frac{N}{2} = 30$. The first cumulative frequency to reach 30 is 43, so the median class is 20-30. $l = 20$, $cf = 23$, $f = 20$, $h = 10$. Median $= l + \\frac{\\frac{N}{2} - cf}{f} \\times h = 20 + \\frac{30 - 23}{20} \\times 10 = 23.5$. Median marks $= 23.5$.",
+  "markingSteps": [
+   {
+    "step": "Frequencies of each class from the more-than table",
+    "marks": 1
+   },
+   {
+    "step": "Less-than cumulative frequencies and median class $20$-$30$",
+    "marks": 1
+   },
+   {
+    "step": "Median $= 23.5$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Mean of grouped data",
+  "patternId": "ST-MEA-11",
+  "type": "long",
+  "marks": 5,
+  "complexity": "medium",
+  "competency": true,
+  "text": "An electricity board recorded the units consumed in a month by $60$ households of a colony.\nUnits consumed: 50-70 | 70-90 | 90-110 | 110-130 | 130-150 | 150-170\nNumber of households: 7 | 8 | 20 | 18 | 5 | 2\nFind the mean number of units consumed per household.",
+  "answer": "Take $a = 100$, $h = 20$. Class marks $x_i$: 60, 80, 100, 120, 140, 160. $u_i = \\frac{x_i - 100}{20}$: -2, -1, 0, 1, 2, 3. $f_iu_i$: -14, -8, 0, 18, 10, 6. $\\Sigma f_i = 60$, $\\Sigma f_iu_i = 12$. Mean $= a + \\frac{\\Sigma f_iu_i}{\\Sigma f_i} \\times h = 100 + \\frac{12}{60} \\times 20 = 104$. Mean consumption $= 104$ units.",
+  "markingSteps": [
+   {
+    "step": "Class marks $x_i$",
+    "marks": 1
+   },
+   {
+    "step": "$u_i$ (or $d_i$) column",
+    "marks": 1
+   },
+   {
+    "step": "$f_iu_i$ column with $\\Sigma f_iu_i = 12$",
+    "marks": 1
+   },
+   {
+    "step": "Correct formula with substitution",
+    "marks": 1
+   },
+   {
+    "step": "Mean $= 104$ units",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Missing frequency",
+  "patternId": "ST-MSF-13",
+  "type": "long",
+  "marks": 5,
+  "complexity": "hard",
+  "competency": false,
+  "text": "The median of the following distribution of $60$ observations is $42$. Find $x$ and $y$.\nClass: 10-20 | 20-30 | 30-40 | 40-50 | 50-60 | 60-70\nFrequency: 5 | $x$ | 12 | 15 | $y$ | 4",
+  "answer": "$5 + x + 12 + 15 + y + 4 = 60$, so $x + y = 24$. Cumulative frequencies: $5$, $5 + x$, $17 + x$, $32 + x$, $32 + x + y$, $60$. Median $42$ lies in $40$-$50$, so $l = 40$, $cf = 17 + x$, $f = 15$, $h = 10$, $\\frac{N}{2} = 30$. $42 = 40 + \\frac{30 - 17 - x}{15} \\times 10$ gives $2 = \\frac{(13 - x) \\times 10}{15}$, so $13 - x = 3$ and $x = 10$. Then $y = 24 - 10 = 14$.",
+  "markingSteps": [
+   {
+    "step": "$x + y = 24$ from the total",
+    "marks": 1
+   },
+   {
+    "step": "Cumulative frequencies and median class $40$-$50$",
+    "marks": 1
+   },
+   {
+    "step": "Correct substitution in the median formula",
+    "marks": 1
+   },
+   {
+    "step": "$x = 10$",
+    "marks": 1
+   },
+   {
+    "step": "$y = 14$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Missing frequency",
+  "patternId": "ST-MSF-13",
+  "type": "long",
+  "marks": 5,
+  "complexity": "hard",
+  "competency": false,
+  "text": "The daily wages of $60$ workers at a construction site are given below. The median daily wage is ₹225. Find $x$ and $y$.\nDaily wage (in ₹): 100-150 | 150-200 | 200-250 | 250-300 | 300-350 | 350-400\nNumber of workers: 6 | $x$ | 16 | 12 | $y$ | 5",
+  "answer": "$6 + x + 16 + 12 + y + 5 = 60$, so $x + y = 21$. The median $225$ lies in $200$-$250$, so the median class is $200$-$250$ with $l = 200$, $cf = 6 + x$, $f = 16$, $h = 50$, $\\frac{N}{2} = 30$. $225 = 200 + \\frac{30 - 6 - x}{16} \\times 50$ gives $25 \\times 16 = 50(24 - x)$, so $24 - x = 8$ and $x = 16$. Then $y = 21 - 16 = 5$.",
+  "markingSteps": [
+   {
+    "step": "$x + y = 21$ from the total",
+    "marks": 1
+   },
+   {
+    "step": "Median class $200$-$250$ with $cf = 6 + x$",
+    "marks": 1
+   },
+   {
+    "step": "Correct substitution in the median formula",
+    "marks": 1
+   },
+   {
+    "step": "$x = 16$",
+    "marks": 1
+   },
+   {
+    "step": "$y = 5$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Missing frequency",
+  "patternId": "ST-MSF-13",
+  "type": "long",
+  "marks": 5,
+  "complexity": "hard",
+  "competency": false,
+  "text": "The median of the following distribution of $60$ observations is $48$. Find $x$ and $y$.\nClass: 20-30 | 30-40 | 40-50 | 50-60 | 60-70 | 70-80\nFrequency: 3 | 7 | $x$ | 12 | $y$ | 4",
+  "answer": "$3 + 7 + x + 12 + y + 4 = 60$, so $x + y = 34$. The median $48$ lies in $40$-$50$, so this is the median class: $l = 40$, $cf = 3 + 7 = 10$, $f = x$, $h = 10$, $\\frac{N}{2} = 30$. $48 = 40 + \\frac{30 - 10}{x} \\times 10$ gives $8 = \\frac{200}{x}$, so $x = 25$. Then $y = 34 - 25 = 9$. (Check: cumulative frequency before $40$-$50$ is $10 < 30$ and up to it is $35 \\ge 30$.)",
+  "markingSteps": [
+   {
+    "step": "$x + y = 34$ from the total",
+    "marks": 1
+   },
+   {
+    "step": "Median class $40$-$50$ with $cf = 10$ and $f = x$",
+    "marks": 1
+   },
+   {
+    "step": "Correct substitution in the median formula",
+    "marks": 1
+   },
+   {
+    "step": "$x = 25$",
+    "marks": 1
+   },
+   {
+    "step": "$y = 9$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Missing frequency",
+  "patternId": "ST-MSF-14",
+  "type": "long",
+  "marks": 5,
+  "complexity": "hard",
+  "competency": false,
+  "text": "The mean of the following distribution of $80$ observations is $33$. Find $x$ and $y$.\nClass: 0-10 | 10-20 | 20-30 | 30-40 | 40-50 | 50-60\nFrequency: 5 | $x$ | 14 | 23 | $y$ | 8",
+  "answer": "$5 + x + 14 + 23 + y + 8 = 80$, so $x + y = 30$. Class marks $5, 15, 25, 35, 45, 55$. $\\Sigma f_ix_i = 25 + 15x + 350 + 805 + 45y + 440 = 1620 + 15x + 45y$. Mean: $\\frac{1620 + 15x + 45y}{80} = 33$, so $15x + 45y = 1020$, i.e. $x + 3y = 68$. Subtracting $x + y = 30$: $2y = 38$, so $y = 19$ and $x = 11$.",
+  "markingSteps": [
+   {
+    "step": "$x + y = 30$",
+    "marks": 1
+   },
+   {
+    "step": "$\\Sigma f_ix_i = 1620 + 15x + 45y$",
+    "marks": 1
+   },
+   {
+    "step": "Equation $x + 3y = 68$ from the mean",
+    "marks": 1
+   },
+   {
+    "step": "$y = 19$",
+    "marks": 1
+   },
+   {
+    "step": "$x = 11$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Missing frequency",
+  "patternId": "ST-MSF-15",
+  "type": "long",
+  "marks": 5,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The mean of the following distribution is $34.2$. Find the missing frequency $x$ and hence find the mode.\nClass: 10-20 | 20-30 | 30-40 | 40-50 | 50-60\nFrequency: 4 | 12 | $x$ | 12 | 2",
+  "answer": "Class marks $15, 25, 35, 45, 55$. $\\Sigma f_i = 30 + x$, $\\Sigma f_ix_i = 60 + 300 + 35x + 540 + 110 = 1010 + 35x$. $\\frac{1010 + 35x}{30 + x} = 34.2$ gives $1010 + 35x = 1026 + 34.2x$, so $0.8x = 16$ and $x = 20$. Now the frequencies are $4, 12, 20, 12, 2$. Highest frequency is 20, so the modal class is 30-40. $l = 30$, $f_1 = 20$, $f_0 = 12$, $f_2 = 12$, $h = 10$. Mode $= l + \\frac{f_1 - f_0}{2f_1 - f_0 - f_2} \\times h = 30 + \\frac{20 - 12}{40 - 12 - 12} \\times 10 = 35$.",
+  "markingSteps": [
+   {
+    "step": "$\\Sigma f_i$ and $\\Sigma f_ix_i$ in terms of $x$",
+    "marks": 1
+   },
+   {
+    "step": "$x = 20$",
+    "marks": 1
+   },
+   {
+    "step": "Modal class $30$-$40$ with $f_0$, $f_1$, $f_2$",
+    "marks": 1
+   },
+   {
+    "step": "Substitution in the mode formula",
+    "marks": 1
+   },
+   {
+    "step": "Mode $= 35$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Missing frequency",
+  "patternId": "ST-MSF-16",
+  "type": "long",
+  "marks": 5,
+  "complexity": "hard",
+  "competency": false,
+  "text": "The masses of $50$ apples picked from an orchard are given below. Find the missing frequency $x$, and then find the mean mass and the median mass.\nMass (g): 100-120 | 120-140 | 140-160 | 160-180 | 180-200 | 200-220\nNumber of apples: 2 | 8 | 20 | $x$ | 4 | 2",
+  "answer": "$2 + 8 + 20 + x + 4 + 2 = 50$, so $x = 14$. Mean: Take $a = 150$, $h = 20$. Class marks $x_i$: 110, 130, 150, 170, 190, 210. $u_i = \\frac{x_i - 150}{20}$: -2, -1, 0, 1, 2, 3. $f_iu_i$: -4, -8, 0, 14, 8, 6. $\\Sigma f_i = 50$, $\\Sigma f_iu_i = 16$. Mean $= a + \\frac{\\Sigma f_iu_i}{\\Sigma f_i} \\times h = 150 + \\frac{16}{50} \\times 20 = 156.4$. Mean mass $= 156.4$ g. Median: Cumulative frequencies: 2, 10, 30, 44, 48, 50. $N = 50$, so $\\frac{N}{2} = 25$. The first cumulative frequency to reach 25 is 30, so the median class is 140-160. $l = 140$, $cf = 10$, $f = 20$, $h = 20$. Median $= l + \\frac{\\frac{N}{2} - cf}{f} \\times h = 140 + \\frac{25 - 10}{20} \\times 20 = 155$. Median mass $= 155$ g.",
+  "markingSteps": [
+   {
+    "step": "$x = 14$",
+    "marks": 1
+   },
+   {
+    "step": "$u_i$ (or $d_i$) and $f_iu_i$ columns",
+    "marks": 1
+   },
+   {
+    "step": "Mean $= 156.4$ g",
+    "marks": 1
+   },
+   {
+    "step": "Cumulative frequencies and median class $140$-$160$",
+    "marks": 1
+   },
+   {
+    "step": "Median $= 155$ g",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Missing frequency",
+  "patternId": "ST-MSF-16",
+  "type": "long",
+  "marks": 5,
+  "complexity": "hard",
+  "competency": false,
+  "text": "A survey of $50$ students recorded the time they spend on screens after school each day.\nTime (in minutes): 0-15 | 15-30 | 30-45 | 45-60 | 60-75 | 75-90\nNumber of students: 6 | $x$ | 16 | 9 | 6 | 5\nFind $x$, and then find the mean time and the modal time.",
+  "answer": "$6 + x + 16 + 9 + 6 + 5 = 50$, so $x = 8$. Mean: Take $a = 37.5$, $h = 15$. Class marks $x_i$: 7.5, 22.5, 37.5, 52.5, 67.5, 82.5. $u_i = \\frac{x_i - 37.5}{15}$: -2, -1, 0, 1, 2, 3. $f_iu_i$: -12, -8, 0, 9, 12, 15. $\\Sigma f_i = 50$, $\\Sigma f_iu_i = 16$. Mean $= a + \\frac{\\Sigma f_iu_i}{\\Sigma f_i} \\times h = 37.5 + \\frac{16}{50} \\times 15 = 42.3$. Mean time $= 42.3$ minutes. Mode: Highest frequency is 16, so the modal class is 30-45. $l = 30$, $f_1 = 16$, $f_0 = 8$, $f_2 = 9$, $h = 15$. Mode $= l + \\frac{f_1 - f_0}{2f_1 - f_0 - f_2} \\times h = 30 + \\frac{16 - 8}{32 - 8 - 9} \\times 15 = 38$. Modal time $= 38$ minutes.",
+  "markingSteps": [
+   {
+    "step": "$x = 8$",
+    "marks": 1
+   },
+   {
+    "step": "$u_i$ (or $d_i$) and $f_iu_i$ columns",
+    "marks": 1
+   },
+   {
+    "step": "Mean $= 42.3$ minutes",
+    "marks": 1
+   },
+   {
+    "step": "Modal class $30$-$45$ with $f_0 = 8$, $f_1 = 16$, $f_2 = 9$",
+    "marks": 1
+   },
+   {
+    "step": "Mode $= 38$ minutes",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Missing frequency",
+  "patternId": "ST-NEW-02",
+  "type": "long",
+  "marks": 5,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The mode of the following distribution of $60$ observations is $43$. Find $x$ and $y$.\nClass: 10-20 | 20-30 | 30-40 | 40-50 | 50-60 | 60-70\nFrequency: 4 | 7 | $x$ | 21 | $y$ | 6",
+  "answer": "$4 + 7 + x + 21 + y + 6 = 60$, so $x + y = 22$. The mode $43$ lies in $40$-$50$, so it is the modal class: $l = 40$, $f_1 = 21$, $f_0 = x$, $f_2 = y$, $h = 10$. $43 = 40 + \\frac{21 - x}{42 - x - y} \\times 10 = 40 + \\frac{21 - x}{42 - 22} \\times 10 = 40 + \\frac{21 - x}{2}$. So $21 - x = 6$, $x = 15$ and $y = 22 - 15 = 7$. (Check: $21$ is the largest frequency.)",
+  "markingSteps": [
+   {
+    "step": "$x + y = 22$",
+    "marks": 1
+   },
+   {
+    "step": "Modal class $40$-$50$ identified",
+    "marks": 1
+   },
+   {
+    "step": "Correct substitution in the mode formula",
+    "marks": 1
+   },
+   {
+    "step": "$x = 15$",
+    "marks": 1
+   },
+   {
+    "step": "$y = 7$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Cumulative frequency tables",
+  "patternId": "ST-CFT-07",
+  "type": "long",
+  "marks": 5,
+  "complexity": "hard",
+  "competency": false,
+  "text": "The less-than cumulative frequency table below gives the marks (out of $100$) of $60$ students. Find the mean marks and the median marks.\nMarks: less than 20 | less than 40 | less than 60 | less than 80 | less than 100\nNumber of students: 4 | 12 | 29 | 54 | 60",
+  "answer": "Frequencies: $0$-$20$: $4$, $20$-$40$: $8$, $40$-$60$: $17$, $60$-$80$: $25$, $80$-$100$: $6$. Mean: Take $a = 50$, $h = 20$. Class marks $x_i$: 10, 30, 50, 70, 90. $u_i = \\frac{x_i - 50}{20}$: -2, -1, 0, 1, 2. $f_iu_i$: -8, -8, 0, 25, 12. $\\Sigma f_i = 60$, $\\Sigma f_iu_i = 21$. Mean $= a + \\frac{\\Sigma f_iu_i}{\\Sigma f_i} \\times h = 50 + \\frac{21}{60} \\times 20 = 57$. Mean marks $= 57$. Median: Cumulative frequencies: 4, 12, 29, 54, 60. $N = 60$, so $\\frac{N}{2} = 30$. The first cumulative frequency to reach 30 is 54, so the median class is 60-80. $l = 60$, $cf = 29$, $f = 25$, $h = 20$. Median $= l + \\frac{\\frac{N}{2} - cf}{f} \\times h = 60 + \\frac{30 - 29}{25} \\times 20 = 60.8$. Median marks $= 60.8$.",
+  "markingSteps": [
+   {
+    "step": "Class frequencies from the cumulative table",
+    "marks": 1
+   },
+   {
+    "step": "$f_iu_i$ (or $f_ix_i$) column with totals",
+    "marks": 1
+   },
+   {
+    "step": "Mean $= 57$",
+    "marks": 1
+   },
+   {
+    "step": "Median class $60$-$80$ with $l$, $cf$, $f$, $h$",
+    "marks": 1
+   },
+   {
+    "step": "Median $= 60.8$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Combined measures from one table",
+  "patternId": "ST-CMB-04",
+  "type": "long",
+  "marks": 5,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Find the mean and the mode of the following data.\nClass: 10-20 | 20-30 | 30-40 | 40-50 | 50-60 | 60-70\nFrequency: 14 | 15 | 18 | 6 | 5 | 2",
+  "answer": "Mean: Class marks $x_i$: 15, 25, 35, 45, 55, 65. Products $f_ix_i$: 210, 375, 630, 270, 275, 130. $\\Sigma f_i = 60$, $\\Sigma f_ix_i = 1890$. Mean $= \\frac{\\Sigma f_ix_i}{\\Sigma f_i} = \\frac{1890}{60} = 31.5$. Mode: Highest frequency is 18, so the modal class is 30-40. $l = 30$, $f_1 = 18$, $f_0 = 15$, $f_2 = 6$, $h = 10$. Mode $= l + \\frac{f_1 - f_0}{2f_1 - f_0 - f_2} \\times h = 30 + \\frac{18 - 15}{36 - 15 - 6} \\times 10 = 32$.",
+  "markingSteps": [
+   {
+    "step": "Class marks and $f_ix_i$ column",
+    "marks": 1
+   },
+   {
+    "step": "$\\Sigma f_ix_i = 1890$, $\\Sigma f_i = 60$",
+    "marks": 1
+   },
+   {
+    "step": "Mean $= 31.5$",
+    "marks": 1
+   },
+   {
+    "step": "Modal class $30$-$40$ with $f_0$, $f_1$, $f_2$",
+    "marks": 1
+   },
+   {
+    "step": "Mode $= 32$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Combined measures from one table",
+  "patternId": "ST-CMB-05",
+  "type": "long",
+  "marks": 5,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The daily earnings of $50$ fruit vendors in a market are given below.\nDaily earnings (in ₹): 100-150 | 150-200 | 200-250 | 250-300 | 300-350\nNumber of vendors: 6 | 7 | 22 | 12 | 3\nFind the mean daily earnings and the modal daily earnings.",
+  "answer": "Mean: Take $a = 225$. Class marks $x_i$: 125, 175, 225, 275, 325. $d_i = x_i - 225$: -100, -50, 0, 50, 100. $f_id_i$: -600, -350, 0, 600, 300. $\\Sigma f_i = 50$, $\\Sigma f_id_i = -50$. Mean $= a + \\frac{\\Sigma f_id_i}{\\Sigma f_i} = 225 + \\frac{-50}{50} = 224$. Mean daily earnings $=$ ₹224. Mode: Highest frequency is 22, so the modal class is 200-250. $l = 200$, $f_1 = 22$, $f_0 = 7$, $f_2 = 12$, $h = 50$. Mode $= l + \\frac{f_1 - f_0}{2f_1 - f_0 - f_2} \\times h = 200 + \\frac{22 - 7}{44 - 7 - 12} \\times 50 = 230$. Modal daily earnings $=$ ₹230.",
+  "markingSteps": [
+   {
+    "step": "Class marks and $f_id_i$ (or $f_iu_i$) column",
+    "marks": 1
+   },
+   {
+    "step": "Correct totals and formula",
+    "marks": 1
+   },
+   {
+    "step": "Mean $=$ ₹224",
+    "marks": 1
+   },
+   {
+    "step": "Modal class $200$-$250$ with $f_0$, $f_1$, $f_2$",
+    "marks": 1
+   },
+   {
+    "step": "Mode $=$ ₹230",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Combined measures from one table",
+  "patternId": "ST-CMB-05",
+  "type": "long",
+  "marks": 5,
+  "complexity": "hard",
+  "competency": true,
+  "text": "A water board surveyed the monthly water use of $100$ homes in a town.\nWater used (in kilolitres): 0-100 | 100-200 | 200-300 | 300-400 | 400-500 | 500-600 | 600-700\nNumber of homes: 7 | 9 | 19 | 22 | 21 | 13 | 9\nThe board plans to set its slab boundary at the average use. Find the mean and the modal monthly water use, and say which of the two is larger.",
+  "answer": "Mean: Take $a = 350$, $h = 100$. Class marks $x_i$: 50, 150, 250, 350, 450, 550, 650. $u_i = \\frac{x_i - 350}{100}$: -3, -2, -1, 0, 1, 2, 3. $f_iu_i$: -21, -18, -19, 0, 21, 26, 27. $\\Sigma f_i = 100$, $\\Sigma f_iu_i = 16$. Mean $= a + \\frac{\\Sigma f_iu_i}{\\Sigma f_i} \\times h = 350 + \\frac{16}{100} \\times 100 = 366$. Mean use $= 366$ kilolitres. Mode: Highest frequency is 22, so the modal class is 300-400. $l = 300$, $f_1 = 22$, $f_0 = 19$, $f_2 = 21$, $h = 100$. Mode $= l + \\frac{f_1 - f_0}{2f_1 - f_0 - f_2} \\times h = 300 + \\frac{22 - 19}{44 - 19 - 21} \\times 100 = 375$. Modal use $= 375$ kilolitres. So the mode ($375$) is larger than the mean ($366$) by $9$ kilolitres.",
+  "markingSteps": [
+   {
+    "step": "$u_i$ column using step deviation",
+    "marks": 1
+   },
+   {
+    "step": "$\\Sigma f_iu_i = 16$ and $\\Sigma f_i = 100$",
+    "marks": 1
+   },
+   {
+    "step": "Mean $= 366$",
+    "marks": 1
+   },
+   {
+    "step": "Modal class $300$-$400$ with $f_0 = 19$, $f_1 = 22$, $f_2 = 21$",
+    "marks": 1
+   },
+   {
+    "step": "Mode $= 375$ and comparison",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Combined measures from one table",
+  "patternId": "ST-CMB-06",
+  "type": "long",
+  "marks": 5,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Find the mean and the median of the following data.\nClass: 0-20 | 20-40 | 40-60 | 60-80 | 80-100\nFrequency: 7 | 17 | 20 | 10 | 6",
+  "answer": "Mean: Class marks $x_i$: 10, 30, 50, 70, 90. Products $f_ix_i$: 70, 510, 1000, 700, 540. $\\Sigma f_i = 60$, $\\Sigma f_ix_i = 2820$. Mean $= \\frac{\\Sigma f_ix_i}{\\Sigma f_i} = \\frac{2820}{60} = 47$. Median: Cumulative frequencies: 7, 24, 44, 54, 60. $N = 60$, so $\\frac{N}{2} = 30$. The first cumulative frequency to reach 30 is 44, so the median class is 40-60. $l = 40$, $cf = 24$, $f = 20$, $h = 20$. Median $= l + \\frac{\\frac{N}{2} - cf}{f} \\times h = 40 + \\frac{30 - 24}{20} \\times 20 = 46$.",
+  "markingSteps": [
+   {
+    "step": "$f_ix_i$ column with $\\Sigma f_ix_i = 2820$",
+    "marks": 1
+   },
+   {
+    "step": "Mean $= 47$",
+    "marks": 1
+   },
+   {
+    "step": "Cumulative frequencies",
+    "marks": 1
+   },
+   {
+    "step": "Median class $40$-$60$ with correct substitution",
+    "marks": 1
+   },
+   {
+    "step": "Median $= 46$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Combined measures from one table",
+  "patternId": "ST-CMB-07",
+  "type": "long",
+  "marks": 5,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The ages of $60$ donors at a blood donation camp are given below.\nAge (in years): 15-25 | 25-35 | 35-45 | 45-55 | 55-65 | 65-75\nNumber of donors: 6 | 11 | 12 | 20 | 8 | 3\nFind the median age and the modal age of the donors.",
+  "answer": "Median: Cumulative frequencies: 6, 17, 29, 49, 57, 60. $N = 60$, so $\\frac{N}{2} = 30$. The first cumulative frequency to reach 30 is 49, so the median class is 45-55. $l = 45$, $cf = 29$, $f = 20$, $h = 10$. Median $= l + \\frac{\\frac{N}{2} - cf}{f} \\times h = 45 + \\frac{30 - 29}{20} \\times 10 = 45.5$. Median age $= 45.5$ years. Mode: Highest frequency is 20, so the modal class is 45-55. $l = 45$, $f_1 = 20$, $f_0 = 12$, $f_2 = 8$, $h = 10$. Mode $= l + \\frac{f_1 - f_0}{2f_1 - f_0 - f_2} \\times h = 45 + \\frac{20 - 12}{40 - 12 - 8} \\times 10 = 49$. Modal age $= 49$ years.",
+  "markingSteps": [
+   {
+    "step": "Cumulative frequencies and median class $45$-$55$",
+    "marks": 1
+   },
+   {
+    "step": "Substitution in the median formula",
+    "marks": 1
+   },
+   {
+    "step": "Median $= 45.5$ years",
+    "marks": 1
+   },
+   {
+    "step": "Modal class with $f_0 = 12$, $f_1 = 20$, $f_2 = 8$",
+    "marks": 1
+   },
+   {
+    "step": "Mode $= 49$ years",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Combined measures from one table",
+  "patternId": "ST-CMB-08",
+  "type": "long",
+  "marks": 5,
+  "complexity": "hard",
+  "competency": false,
+  "text": "The weights of $60$ students of a school are given below. Find the difference between the mean weight and the median weight.\nWeight (in kg): 40-45 | 45-50 | 50-55 | 55-60 | 60-65 | 65-70\nNumber of students: 5 | 7 | 25 | 10 | 8 | 5",
+  "answer": "Mean: Take $a = 52.5$, $h = 5$. Class marks $x_i$: 42.5, 47.5, 52.5, 57.5, 62.5, 67.5. $u_i = \\frac{x_i - 52.5}{5}$: -2, -1, 0, 1, 2, 3. $f_iu_i$: -10, -7, 0, 10, 16, 15. $\\Sigma f_i = 60$, $\\Sigma f_iu_i = 24$. Mean $= a + \\frac{\\Sigma f_iu_i}{\\Sigma f_i} \\times h = 52.5 + \\frac{24}{60} \\times 5 = 54.5$. Median: Cumulative frequencies: 5, 12, 37, 47, 55, 60. $N = 60$, so $\\frac{N}{2} = 30$. The first cumulative frequency to reach 30 is 37, so the median class is 50-55. $l = 50$, $cf = 12$, $f = 25$, $h = 5$. Median $= l + \\frac{\\frac{N}{2} - cf}{f} \\times h = 50 + \\frac{30 - 12}{25} \\times 5 = 53.6$. Mean $-$ Median $= 54.5 - 53.6 = 0.9$ kg.",
+  "markingSteps": [
+   {
+    "step": "$u_i$ and $f_iu_i$ columns",
+    "marks": 1
+   },
+   {
+    "step": "Mean $= 54.5$ kg",
+    "marks": 1
+   },
+   {
+    "step": "Cumulative frequencies and median class $50$-$55$",
+    "marks": 1
+   },
+   {
+    "step": "Median $= 53.6$ kg",
+    "marks": 1
+   },
+   {
+    "step": "Difference $= 0.9$ kg",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Combined measures from one table",
+  "patternId": "ST-CMB-09",
+  "type": "long",
+  "marks": 5,
+  "complexity": "hard",
+  "competency": false,
+  "text": "For the following distribution, find the mean, the median and the mode, and check whether Mode $\\approx 3\\,$Median $- 2\\,$Mean holds.\nClass: 0-10 | 10-20 | 20-30 | 30-40 | 40-50 | 50-60\nFrequency: 12 | 17 | 25 | 23 | 18 | 5",
+  "answer": "Mean: Take $a = 25$, $h = 10$. Class marks $x_i$: 5, 15, 25, 35, 45, 55. $u_i = \\frac{x_i - 25}{10}$: -2, -1, 0, 1, 2, 3. $f_iu_i$: -24, -17, 0, 23, 36, 15. $\\Sigma f_i = 100$, $\\Sigma f_iu_i = 33$. Mean $= a + \\frac{\\Sigma f_iu_i}{\\Sigma f_i} \\times h = 25 + \\frac{33}{100} \\times 10 = 28.3$. Median: Cumulative frequencies: 12, 29, 54, 77, 95, 100. $N = 100$, so $\\frac{N}{2} = 50$. The first cumulative frequency to reach 50 is 54, so the median class is 20-30. $l = 20$, $cf = 29$, $f = 25$, $h = 10$. Median $= l + \\frac{\\frac{N}{2} - cf}{f} \\times h = 20 + \\frac{50 - 29}{25} \\times 10 = 28.4$. Mode: Highest frequency is 25, so the modal class is 20-30. $l = 20$, $f_1 = 25$, $f_0 = 17$, $f_2 = 23$, $h = 10$. Mode $= l + \\frac{f_1 - f_0}{2f_1 - f_0 - f_2} \\times h = 20 + \\frac{25 - 17}{50 - 17 - 23} \\times 10 = 28$. Check: $3 \\times 28.4 - 2 \\times 28.3 = 85.2 - 56.6 = 28.6$, which is close to the mode $28$, so the empirical relation holds approximately.",
+  "markingSteps": [
+   {
+    "step": "Mean $= 28.3$",
+    "marks": 1
+   },
+   {
+    "step": "Cumulative frequencies and median class $20$-$30$",
+    "marks": 1
+   },
+   {
+    "step": "Median $= 28.4$",
+    "marks": 1
+   },
+   {
+    "step": "Mode $= 28$",
+    "marks": 1
+   },
+   {
+    "step": "Checking $3\\,$Median $- 2\\,$Mean $= 28.6 \\approx 28$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Missing frequency",
+  "patternId": "ST-MSF-17",
+  "type": "case",
+  "marks": 4,
+  "complexity": "hard",
+  "competency": true,
+  "text": "A weekend chess camp records the ages of its $40$ participants.\nAge (in years): 10-20 | 20-30 | 30-40 | 40-50 | 50-60\nNumber of participants: 8 | 15 | 8 | 5 | 4\nThe organisers want the camp to attract more senior players next month. They plan to invite extra players aged $50$-$60$ while everyone else stays.",
+  "answer": "(i) $20$-$30$; (ii) $28$ years; (iii) $9$ players.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Find the median class of the ages.",
+    "answer": "$N = 40$, $\\frac{N}{2} = 20$; cumulative frequencies $8, 23, 31, 36, 40$. The first to reach $20$ is $23$, so the median class is $20$-$30$."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "Find the median age.",
+    "answer": "Median $= 20 + \\frac{20 - 8}{15} \\times 10 = 20 + 8 = 28$ years."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the number of extra players aged $50$-$60$ who must join so that the mean age becomes $35$ years. (Take each new player's age as the class mark $55$.)",
+    "answer": "Class marks $15, 25, 35, 45, 55$; $\\Sigma f_ix_i = 120 + 375 + 280 + 225 + 220 = 1220$ (mean $30.5$). With $k$ extra players: $\\frac{1220 + 55k}{40 + k} = 35$, so $1220 + 55k = 1400 + 35k$, $20k = 180$ and $k = 9$."
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Combined measures from one table",
+  "patternId": "ST-CMB-11",
+  "type": "case",
+  "marks": 4,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A cloud kitchen tracked the delivery times of $40$ orders on a Sunday evening.\nDelivery time (in minutes): 10-20 | 20-30 | 30-40 | 40-50\nNumber of orders: 11 | 13 | 11 | 5\nThe manager promises customers delivery within $30$ minutes.",
+  "answer": "(i) $20$-$30$; (ii) $24$ orders; (iii) mean $27.5$ minutes OR mode $25$ minutes.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Find the median class of the delivery times.",
+    "answer": "$\\frac{N}{2} = 20$; cumulative frequencies $11, 24, 35, 40$, so the median class is $20$-$30$."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "How many orders were delivered in less than $30$ minutes?",
+    "answer": "$11 + 13 = 24$ orders."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the mean delivery time. OR Find the modal delivery time.",
+    "answer": "Mean: class marks $15, 25, 35, 45$; $\\Sigma f_ix_i = 165 + 325 + 385 + 225 = 1100$; mean $= \\frac{1100}{40} = 27.5$ minutes. OR Mode: modal class $20$-$30$, $f_1 = 13$, $f_0 = 11$, $f_2 = 11$; mode $= 20 + \\frac{13 - 11}{26 - 11 - 11} \\times 10 = 20 + 5 = 25$ minutes."
+   }
+  ]
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Combined measures from one table",
+  "patternId": "ST-CMB-12",
+  "type": "case",
+  "marks": 4,
+  "complexity": "medium",
+  "competency": true,
+  "text": "In a school fair, a number game is played with balls numbered from $1$ to $79$. The bar chart shows how many of the $40$ numbers called in one round fell in each class $0$-$20$, $20$-$40$, $40$-$60$ and $60$-$80$ (the numbers on the bars are the frequencies). A volunteer picks one of the $40$ called balls at random from the basket to give away as a prize.",
+  "answer": "(i) $40$-$60$; (ii) $\\frac{2}{5}$; (iii) $45$.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Find the median class of the numbers called.",
+    "answer": "$N = 40$, $\\frac{N}{2} = 20$; cumulative frequencies $5, 16, 32, 40$, so the median class is $40$-$60$."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "Find the probability that the ball picked shows a number less than $40$.",
+    "answer": "Numbers below $40$: $5 + 11 = 16$. Probability $= \\frac{16}{40} = \\frac{2}{5}$."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the median of the numbers called.",
+    "answer": "Median $= 40 + \\frac{20 - 16}{16} \\times 20 = 40 + 5 = 45$."
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 270\"><rect x=\"60\" y=\"160\" width=\"60\" height=\"60\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><rect x=\"120\" y=\"88\" width=\"60\" height=\"132\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><rect x=\"180\" y=\"28\" width=\"60\" height=\"192\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><rect x=\"240\" y=\"124\" width=\"60\" height=\"96\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"220\" x2=\"320\" y2=\"220\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"220\" x2=\"50\" y2=\"15\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"45\" y1=\"220\" x2=\"50\" y2=\"220\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"40\" y=\"225\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">0</text><line x1=\"45\" y1=\"172\" x2=\"50\" y2=\"172\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"40\" y=\"177\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">4</text><line x1=\"45\" y1=\"124\" x2=\"50\" y2=\"124\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"40\" y=\"129\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">8</text><line x1=\"45\" y1=\"76\" x2=\"50\" y2=\"76\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"40\" y=\"81\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">12</text><line x1=\"45\" y1=\"28\" x2=\"50\" y2=\"28\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"40\" y=\"33\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">16</text><text x=\"60\" y=\"238\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">0</text><text x=\"120\" y=\"238\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">20</text><text x=\"180\" y=\"238\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">40</text><text x=\"240\" y=\"238\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">60</text><text x=\"300\" y=\"238\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">80</text><text x=\"90\" y=\"155\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">5</text><text x=\"150\" y=\"83\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">11</text><text x=\"210\" y=\"23\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">16</text><text x=\"270\" y=\"119\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">8</text><text x=\"185\" y=\"262\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Number called</text><text x=\"14\" y=\"120\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\" transform=\"rotate(-90 14 120)\">Frequency</text></svg>",
+  "figureAlt": "Bar chart of numbers called: class 0-20 has frequency 5, 20-40 has 11, 40-60 has 16 and 60-80 has 8, with frequency on the vertical axis from 0 to 16."
+ },
+ {
+  "chapter": "Statistics",
+  "topic": "Combined measures from one table",
+  "patternId": "ST-CMB-13",
+  "type": "case",
+  "marks": 4,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A fitness centre lists the ages of its $50$ members to plan new classes.\nAge (in years): 15-25 | 25-35 | 35-45 | 45-55 | 55-65\nNumber of members: 4 | 13 | 16 | 9 | 8",
+  "answer": "(i) $35$-$45$; (ii) $35$-$45$; (iii) mode $38$ years OR median $40$ years.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Find the modal class of the ages.",
+    "answer": "The highest frequency is $16$, so the modal class is $35$-$45$."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "Find the median class of the ages.",
+    "answer": "$\\frac{N}{2} = 25$; cumulative frequencies $4, 17, 33, 42, 50$, so the median class is $35$-$45$."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the modal age. OR Find the median age.",
+    "answer": "Mode $= 35 + \\frac{16 - 13}{32 - 13 - 9} \\times 10 = 35 + 3 = 38$ years. OR Median $= 35 + \\frac{25 - 17}{16} \\times 10 = 35 + 5 = 40$ years."
+   }
+  ]
+ }
+]

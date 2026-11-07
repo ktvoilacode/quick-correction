@@ -18,10 +18,11 @@ import { NavLink, Outlet, Link, useLocation, useNavigate, useMatch } from 'react
 import { Button, Sheet, SheetContent, SheetTitle, SheetTrigger, useTheme } from '@bloomneo/uikit';
 import {
   Settings, IndianRupee, FileText, Sparkles, Users, TrendingUp, ClipboardCheck, RotateCcw, Moon, Sun, House,
-  GraduationCap, HeartHandshake,
+  GraduationCap, HeartHandshake, LogIn, LogOut, ShieldCheck,
 } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 import { LogoMark, Wordmark } from '@/shared/Logo';
+import { useAuth } from '@/features/auth';
 import { DemoProvider, useDemo, studentById, ME_STUDENT, type Role } from '../data/store';
 
 type Item = { to: string; label: string; icon: LucideIcon; end?: boolean };
@@ -83,6 +84,7 @@ function SettingsSheet() {
   const { role, setRole, reset } = useDemo();
   const { mode, setMode } = useTheme();
   const navigate = useNavigate();
+  const { isAuthenticated, user, logout } = useAuth();
   const me = who(role);
   const initials = me.name.replace(/^Ms\.\s*/, '').split(' ').map((w) => w[0]).join('').slice(0, 2);
 
@@ -126,13 +128,33 @@ function SettingsSheet() {
           </section>
 
           <section className="space-y-1">
+            {isAuthenticated ? (
+              <>
+                <p className="truncate px-2 pb-1 text-xs text-muted-foreground">Signed in as {user?.email}</p>
+                {user?.role === 'admin' && (
+                  <Link to="/admin" onClick={() => setOpen(false)} className="flex items-center gap-3 rounded-lg px-2 py-2.5 text-sm hover:bg-accent">
+                    <ShieldCheck className="size-4 text-muted-foreground" /> Admin console
+                  </Link>
+                )}
+                <button
+                  onClick={() => { setOpen(false); logout(); }}
+                  className="flex w-full cursor-pointer items-center gap-3 rounded-lg px-2 py-2.5 text-sm hover:bg-accent"
+                >
+                  <LogOut className="size-4 text-muted-foreground" /> Sign out
+                </button>
+              </>
+            ) : (
+              <Link to="/auth/login" onClick={() => setOpen(false)} className="flex items-center gap-3 rounded-lg px-2 py-2.5 text-sm hover:bg-accent">
+                <LogIn className="size-4 text-muted-foreground" /> Sign in
+              </Link>
+            )}
             <button
               onClick={() => { reset(); navigate(`/demo/${role}`); setOpen(false); }}
               className="flex w-full cursor-pointer items-center gap-3 rounded-lg px-2 py-2.5 text-sm hover:bg-accent"
             >
               <RotateCcw className="size-4 text-muted-foreground" /> Reset demo data
             </button>
-            <Link to="/demo" onClick={() => setOpen(false)} className="flex items-center gap-3 rounded-lg px-2 py-2.5 text-sm hover:bg-accent">
+            <Link to="/" onClick={() => setOpen(false)} className="flex items-center gap-3 rounded-lg px-2 py-2.5 text-sm hover:bg-accent">
               <House className="size-4 text-muted-foreground" /> Back to home page
             </Link>
           </section>
@@ -224,7 +246,7 @@ function Frame() {
   React.useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
   const path = pathname.replace(/\/$/, '');
 
-  if (path === '/demo') return <Outlet />;
+  if (path === '' || path === '/demo') return <Outlet />;
 
   // Each role's assistant is a full-height chat between the two bars.
   if (path === '/demo/school' || path === '/demo/parent') {

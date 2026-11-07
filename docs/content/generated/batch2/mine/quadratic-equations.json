@@ -1,0 +1,157 @@
+[
+ {
+  "idx": 0,
+  "myAnswer": "A) -2 and -5/2",
+  "how": "python"
+ },
+ {
+  "idx": 1,
+  "myAnswer": "C) no real roots",
+  "how": "python"
+ },
+ {
+  "idx": 2,
+  "myAnswer": "A) -1/2",
+  "how": "by hand"
+ },
+ {
+  "idx": 3,
+  "myAnswer": "A",
+  "how": "by hand"
+ },
+ {
+  "idx": 4,
+  "myAnswer": "A) 7/3",
+  "how": "python"
+ },
+ {
+  "idx": 5,
+  "myAnswer": "A) 3x^2-5x-2=0",
+  "how": "by hand"
+ },
+ {
+  "idx": 6,
+  "myAnswer": "B) k<=-4 or k>=4",
+  "how": "by hand"
+ },
+ {
+  "idx": 7,
+  "myAnswer": "A) 2 and -6",
+  "how": "python"
+ },
+ {
+  "idx": 8,
+  "myAnswer": "D",
+  "how": "by hand"
+ },
+ {
+  "idx": 9,
+  "myAnswer": "A) -2",
+  "how": "python"
+ },
+ {
+  "idx": 10,
+  "myAnswer": "A) 0",
+  "how": "by hand"
+ },
+ {
+  "idx": 11,
+  "myAnswer": "A) 25",
+  "how": "python"
+ },
+ {
+  "idx": 12,
+  "myAnswer": "k=-7",
+  "how": "python"
+ },
+ {
+  "idx": 13,
+  "myAnswer": "x=2, 1/5",
+  "how": "python"
+ },
+ {
+  "idx": 14,
+  "myAnswer": "disc=-4(p-q)^2<0",
+  "how": "python"
+ },
+ {
+  "idx": 15,
+  "myAnswer": "k=4/5, root 2/5",
+  "how": "python"
+ },
+ {
+  "idx": 16,
+  "myAnswer": "15 and 18",
+  "how": "python"
+ },
+ {
+  "idx": 17,
+  "myAnswer": "37/4",
+  "how": "python"
+ },
+ {
+  "idx": 18,
+  "myAnswer": "(4\u00b1\u221a10)/3",
+  "how": "python"
+ },
+ {
+  "idx": 19,
+  "myAnswer": "32 m and 15 m",
+  "how": "python"
+ },
+ {
+  "idx": 20,
+  "myAnswer": "10 years",
+  "how": "python"
+ },
+ {
+  "idx": 21,
+  "myAnswer": "9 km/h",
+  "how": "python"
+ },
+ {
+  "idx": 22,
+  "myAnswer": "3 m",
+  "how": "python"
+ },
+ {
+  "idx": 23,
+  "myAnswer": "12 and 7",
+  "how": "python"
+ },
+ {
+  "idx": 24,
+  "myAnswer": "Rs 20",
+  "how": "python"
+ },
+ {
+  "idx": 25,
+  "myAnswer": "k=0 or 3",
+  "how": "python"
+ },
+ {
+  "idx": 26,
+  "myAnswer": "k=3 (root -3); k=-5 (root 1)",
+  "how": "python"
+ },
+ {
+  "idx": 27,
+  "myAnswer": "No; disc=-175<0",
+  "how": "python"
+ },
+ {
+  "idx": 28,
+  "myAnswer": "x=14/5 or -1",
+  "how": "python"
+ },
+ {
+  "idx": 29,
+  "myAnswer": "x^2-45x+500=0 (or equivalent); D=25, distinct real; 25 m x 40 m or 20 m x 50 m",
+  "how": "python"
+ },
+ {
+  "idx": 30,
+  "myAnswer": "x^2+10x-1200=0; D=4900 rational; 30 km/h, 3 h",
+  "how": "python"
+ }
+]

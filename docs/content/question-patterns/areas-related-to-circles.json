@@ -1,0 +1,1948 @@
+{
+ "chapter": "Areas Related to Circles",
+ "topics": [
+  {
+   "name": "Circumference and area of a circle",
+   "scope": "core",
+   "scopeNote": "Added topic. Whole-circle and semicircle recap that boards still test (2024 main, 2025 compartment, 2026 second).",
+   "patterns": [
+    {
+     "id": "AC-CIR-01",
+     "pattern": "Ratio of radii or areas from the ratio of circumferences",
+     "sample": "The circumferences of two circles are in the ratio $3:5$. Find the ratio of their areas.",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-CIR-02",
+     "pattern": "Area of a semicircle in terms of its diameter",
+     "sample": "The area of a semicircle of diameter $d$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2023 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-CIR-03",
+     "pattern": "Perimeter of a semicircular plot from its area",
+     "sample": "A semicircular plot has area $308\\text{ m}^2$. Its perimeter is (use $\\pi = \\frac{22}{7}$):",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-CIR-04",
+     "pattern": "Find radius when a circle's area numerically equals a semicircle's perimeter",
+     "sample": "A circle and a semicircle share radius $r$. The number giving the circle's area equals the number giving the semicircle's perimeter. Using $\\pi = \\frac{22}{7}$, $r$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-CIR-05",
+     "pattern": "Ratio of areas of a circle and a square of equal perimeter",
+     "sample": "A wire bent into a circle of radius $7\\text{ cm}$ is rebent into a square. The ratio of the circle's area to the square's area is (use $\\pi = \\frac{22}{7}$):",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2025 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-CIR-06",
+     "pattern": "Assertion-reason: radius from circumference using $C = 2\\pi r$",
+     "sample": "Assertion: a circle of circumference $44\\text{ cm}$ has radius $7\\text{ cm}$ (use $\\pi = \\frac{22}{7}$). Reason: $C = 2\\pi r$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-NEW-01",
+     "pattern": "Diameter or radius of a circle whose area equals the sum of the areas of two given circles",
+     "sample": "Two circles have radii $5$ cm and $12$ cm. Find the radius of a circle whose area equals the sum of their areas. (Answer: $13$ cm)",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2011 main",
+      "2012 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    },
+    {
+     "id": "AC-NEW-02",
+     "pattern": "Find the radius from a given circumference or a circumference-radius relation, then the circumference or area",
+     "sample": "The circumference of a circle exceeds its radius by $37$ cm. Taking $\\pi = \\frac{22}{7}$, find its circumference. (Answer: $44$ cm)",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2013 main",
+      "2021 compartment"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    },
+    {
+     "id": "AC-NEW-03",
+     "pattern": "Wire bounding one shape (e.g. an equilateral triangle of given area) is reshaped into a circle: find its radius or area",
+     "sample": "A wire encloses an equilateral triangle of area $121\\sqrt{3}$ cm$^2$. It is bent into a circle. Taking $\\pi = \\frac{22}{7}$, find the area of the circle. (Answer: $346.5$ cm$^2$)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2017 compartment",
+      "2020 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    },
+    {
+     "id": "AC-NEW-05",
+     "pattern": "Area or side of the square inscribed in a circle of given radius (diagonal equals diameter)",
+     "sample": "A square is inscribed in a circle of radius $5\\sqrt{2}$ cm. Find the area of the square. (Answer: $100$ cm$^2$)",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  },
+  {
+   "name": "Area and perimeter of a sector",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "AC-SEC-01",
+     "pattern": "Sector area directly from radius and angle",
+     "sample": "The area of a sector of radius $21\\text{ cm}$ and central angle $60^\\circ$ is (use $\\pi = \\frac{22}{7}$):",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2020 main"
+     ],
+     "existingIds": [
+      "a16",
+      "cmvq9r2fm00017gcnd64vc9go",
+      "cmvqhe92f00017gd0f6ylaj5f"
+     ]
+    },
+    {
+     "id": "AC-SEC-02",
+     "pattern": "Perimeter of a sector or quadrant from radius and angle",
+     "sample": "The perimeter of a sector of radius $21\\text{ cm}$ and central angle $60^\\circ$ is (use $\\pi = \\frac{22}{7}$):",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 11,
+     "seenIn": [
+      "2020 main",
+      "2023 compartment",
+      "2024 compartment",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2fo00057gcn8zpj7wfg",
+      "cmvqhe92i00057gd04xvmwdh8"
+     ]
+    },
+    {
+     "id": "AC-SEC-03",
+     "pattern": "Central angle from sector area and radius",
+     "sample": "A sector of a circle of radius $6\\text{ cm}$ has area $6\\pi\\text{ cm}^2$. Its central angle is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2024 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2fs000d7gcniurav08d",
+      "cmvqhe92k00097gd0j4dn46qo"
+     ]
+    },
+    {
+     "id": "AC-SEC-04",
+     "pattern": "Radius from sector area and central angle",
+     "sample": "A sector of central angle $90^\\circ$ has area $38.5\\text{ cm}^2$. The radius of the circle is (use $\\pi = \\frac{22}{7}$):",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-SEC-05",
+     "pattern": "Central angle of each of n equal sectors",
+     "sample": "A round cake is cut into $12$ equal sectors. The central angle of each piece is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-SEC-06",
+     "pattern": "Area of one of n equal sectors",
+     "sample": "A circle of radius $14\\text{ cm}$ is divided into $8$ identical sectors. The area of each is (use $\\pi = \\frac{22}{7}$):",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-SEC-07",
+     "pattern": "Total area of several shaded sectors of one radius (figure)",
+     "sample": "Three shaded sectors of radius $7\\text{ cm}$ have central angles $40^\\circ$, $60^\\circ$ and $80^\\circ$. Their total area is (use $\\pi = \\frac{22}{7}$):",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-SEC-08",
+     "pattern": "Sector area from arc length and radius, using $A = \\frac{1}{2}lr$",
+     "sample": "A sector of radius $10\\text{ cm}$ has an arc of length $22\\text{ cm}$. The area of the sector is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe92h00037gd0qogtjeho"
+     ]
+    },
+    {
+     "id": "AC-SEC-09",
+     "pattern": "Effect on sector area of scaling radius and angle",
+     "sample": "The radius of a sector is doubled and its central angle is halved. Its area becomes how many times the original?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2025 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-SEC-10",
+     "pattern": "Sector formed where rhombus diagonals cross (right angle recognised from geometry)",
+     "sample": "The diagonals of a rhombus meet at $O$. An arc of radius $7\\text{ cm}$ centred at $O$ joins two adjacent half-diagonals. The sector's area is (use $\\pi = \\frac{22}{7}$):",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-SEC-11",
+     "pattern": "Assertion-reason: scaling the radius of a sector",
+     "sample": "Assertion: if the radius of a sector is tripled at the same angle, its area becomes $9$ times. Reason: area of a sector is $\\frac{\\theta}{360}\\pi r^2$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe92j00077gd0v3wtmdcr"
+     ]
+    },
+    {
+     "id": "AC-SEC-12",
+     "pattern": "Assertion-reason: what the perimeter of a sector includes",
+     "sample": "Assertion: a sector of radius $14\\text{ cm}$ and angle $90^\\circ$ has perimeter $50\\text{ cm}$ (use $\\pi = \\frac{22}{7}$). Reason: perimeter of a sector equals arc length plus $2r$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2ft000j7gcnm1x3l094"
+     ]
+    },
+    {
+     "id": "AC-SEC-13",
+     "pattern": "Sector area from radius and sector perimeter",
+     "sample": "A sector of radius $7\\text{ cm}$ has perimeter $25\\text{ cm}$. Find the area of the sector.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2020 main",
+      "2024 main",
+      "2025 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-SEC-14",
+     "pattern": "Radius and area from sector perimeter and central angle",
+     "sample": "A sector of central angle $90^\\circ$ has perimeter $50\\text{ cm}$. Find its radius and area. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe92w000x7gd0k07ule14"
+     ]
+    },
+    {
+     "id": "AC-SEC-15",
+     "pattern": "Perimeter of a sector-shaped object in a real setting",
+     "sample": "A table top is a sector of radius $1.4\\text{ m}$ and central angle $90^\\circ$. Find the length of edging needed around it. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-SEC-16",
+     "pattern": "Radius from sector area and arc length",
+     "sample": "A sector has area $154\\text{ cm}^2$ and arc length $22\\text{ cm}$. Find the radius of the circle and the central angle. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-SEC-17",
+     "pattern": "Sector area and arc length from radius and angle",
+     "sample": "For a circle of radius $21\\text{ cm}$ and a central angle of $120^\\circ$, find the area of the sector and the length of the arc. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2013 main",
+      "2023 main",
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-SEC-18",
+     "pattern": "Areas of minor and major sectors",
+     "sample": "A circle has radius $14\\text{ cm}$. An arc subtends $60^\\circ$ at the centre. Find the areas of the minor and major sectors. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2023 compartment",
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-SEC-19",
+     "pattern": "Area and perimeter of one of n equal sectors from the diameter",
+     "sample": "A circle of diameter $28\\text{ cm}$ is divided into $8$ equal sectors. Find the area and the perimeter of one sector. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-SEC-20",
+     "pattern": "Angle, arc and perimeter from sector area and radius",
+     "sample": "A sector of radius $14\\text{ cm}$ has area $77\\text{ cm}^2$. Find (i) its central angle, (ii) its arc length, (iii) its perimeter. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2fu000n7gcn8vcje152"
+     ]
+    },
+    {
+     "id": "AC-SEC-21",
+     "pattern": "Compare the area and perimeter of two different sectors",
+     "sample": "Sector $X$ has radius $21\\text{ cm}$ and angle $120^\\circ$; sector $Y$ has radius $28\\text{ cm}$ and angle $90^\\circ$. Find the differences in their areas and perimeters. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe932001d7gd0qal4f5wn"
+     ]
+    },
+    {
+     "id": "AC-SEC-22",
+     "pattern": "Combined area of three shaded sectors with marked angles (figure)",
+     "sample": "In a circle of radius $14\\text{ cm}$, three shaded sectors have angles $40^\\circ$, $80^\\circ$ and $60^\\circ$. Find the total shaded area. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "C",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2019 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-SEC-23",
+     "pattern": "Bent wire forms a sector boundary: arc, angle, area and fraction of the circle",
+     "sample": "A wire $64\\text{ cm}$ long forms the boundary of a sector of radius $21\\text{ cm}$. Find the arc length, the central angle, the area and the fraction of the circle's area. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe937001p7gd0fdaa5pdy"
+     ]
+    },
+    {
+     "id": "AC-SEC-24",
+     "pattern": "Radius and angle from sector perimeter and area, via a quadratic (cross-chapter)",
+     "sample": "A sector has perimeter $25\\text{ cm}$ and area $38.5\\text{ cm}^2$, with a whole-number radius. Form a quadratic in $r$, then find $r$, the arc length and the central angle. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "AC-SEC-25",
+     "pattern": "Case study: circle divided by diameters into equal sectors (brooch, pizza)",
+     "sample": "A brooch of diameter $28\\text{ mm}$ is divided into $10$ equal sectors by $5$ diameters. (i) Find each sector's angle. (ii) Find one arc's length. (iii) Find one sector's area. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2fz00137gcnk7y4ibl7"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Arc length",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "AC-ARC-01",
+     "pattern": "Arc length directly from radius and angle",
+     "sample": "The length of an arc of radius $14\\text{ cm}$ subtending $45^\\circ$ at the centre is (use $\\pi = \\frac{22}{7}$):",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2023 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2fn00037gcnw4h5ghk5",
+      "cmvqhe92q000n7gd0gdc2l5nz"
+     ]
+    },
+    {
+     "id": "AC-ARC-02",
+     "pattern": "Central angle from arc length and radius",
+     "sample": "An arc of length $22\\text{ cm}$ lies on a circle of radius $21\\text{ cm}$. The angle it subtends at the centre is (use $\\pi = \\frac{22}{7}$):",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2024 compartment",
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvqhe92s000p7gd0jbfrwbtj"
+     ]
+    },
+    {
+     "id": "AC-ARC-03",
+     "pattern": "Wire bent into an arc: find the central angle",
+     "sample": "A wire $44\\text{ cm}$ long is bent into an arc of a circle of radius $42\\text{ cm}$. The angle at the centre is (use $\\pi = \\frac{22}{7}$):",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-ARC-04",
+     "pattern": "Radius from arc length and central angle",
+     "sample": "An arc of length $11\\text{ cm}$ subtends $45^\\circ$ at the centre. The radius of the circle is (use $\\pi = \\frac{22}{7}$):",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2024 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-ARC-05",
+     "pattern": "Ratio of an arc's length to the circumference",
+     "sample": "An arc subtends $72^\\circ$ at the centre. The ratio of its length to the circumference is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-ARC-06",
+     "pattern": "Arc length from sector area and radius",
+     "sample": "A sector of radius $14\\text{ cm}$ has area $77\\text{ cm}^2$. The length of its arc is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-ARC-07",
+     "pattern": "Assertion-reason: arc length is proportional to the central angle",
+     "sample": "Assertion: arcs of one circle subtending $30^\\circ$ and $90^\\circ$ have lengths in the ratio $1:3$. Reason: arc length is directly proportional to the central angle.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe92t000r7gd0dyhq4e2t"
+     ]
+    },
+    {
+     "id": "AC-ARC-08",
+     "pattern": "Arc with radius or angle missing: find it, then the sector area",
+     "sample": "An arc of length $44\\text{ cm}$ lies on a circle of radius $42\\text{ cm}$. Find the central angle and the area of the sector. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2020 main"
+     ],
+     "existingIds": [
+      "cmvqhe92v000v7gd0k8wc6l66",
+      "cmvqhe93000177gd0jjhyg9bh"
+     ]
+    },
+    {
+     "id": "AC-ARC-09",
+     "pattern": "Equal arcs in two circles: common length and unknown radius",
+     "sample": "An arc of a circle of radius $21\\text{ cm}$ subtends $120^\\circ$. An equal arc of a second circle subtends $90^\\circ$. Find the arc length and the second radius. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe936001n7gd0ac43n34r"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Segment area",
+   "scope": "core",
+   "scopeNote": "Central angles kept to 60, 90 and 120 degrees.",
+   "patterns": [
+    {
+     "id": "AC-SEG-01",
+     "pattern": "Choose the segment-area expression in terms of $r$ for a standard angle",
+     "sample": "The area of the minor segment of a circle of radius $r$ for a central angle of $60^\\circ$ is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvqhe92n000h7gd0frcjsafg"
+     ]
+    },
+    {
+     "id": "AC-SEG-02",
+     "pattern": "Numerical minor segment area at 60 or 90 degrees",
+     "sample": "A chord of a circle of radius $14\\text{ cm}$ subtends a right angle at the centre. The area of the minor segment is (use $\\pi = \\frac{22}{7}$):",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2fr000b7gcnig5thuda",
+      "cmvqhe92o000j7gd0n1mlfcfq"
+     ]
+    },
+    {
+     "id": "AC-SEG-03",
+     "pattern": "Radius from a given minor segment area",
+     "sample": "The minor segment cut by a chord subtending $90^\\circ$ at the centre has area $56\\text{ cm}^2$. The radius of the circle is (use $\\pi = \\frac{22}{7}$):",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "AC-SEG-04",
+     "pattern": "Major segment as circle minus a given minor segment",
+     "sample": "A circle has area $616\\text{ cm}^2$. A chord cuts off a minor segment of area $56\\text{ cm}^2$. The area of the major segment is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe92p000l7gd0rx97d2jt"
+     ]
+    },
+    {
+     "id": "AC-SEG-05",
+     "pattern": "Chord length when the triangle at the centre is equilateral",
+     "sample": "A chord of a circle of radius $8\\text{ cm}$ subtends $60^\\circ$ at the centre. The length of the chord is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "AC-SEG-06",
+     "pattern": "Assertion-reason: segment area as sector minus triangle",
+     "sample": "Assertion: a chord subtending $90^\\circ$ in a circle of radius $14\\text{ cm}$ cuts a minor segment of area $56\\text{ cm}^2$ (use $\\pi = \\frac{22}{7}$). Reason: minor segment area equals sector area minus triangle area.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "AC-SEG-07",
+     "pattern": "Minor segment area in two marks",
+     "sample": "A chord of a circle of radius $14\\text{ cm}$ subtends $90^\\circ$ at the centre. Find the area of the minor segment. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 compartment"
+     ],
+     "existingIds": [
+      "cmvqhe92z00137gd0russlids"
+     ]
+    },
+    {
+     "id": "AC-SEG-08",
+     "pattern": "Major segment area in two marks",
+     "sample": "A chord of a circle of radius $10\\text{ cm}$ subtends a right angle at the centre. Find the area of the major segment. (Use $\\pi = 3.14$)",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2011 main"
+     ],
+     "existingIds": [
+      "cmvqhe92z00157gd0npbr76ys"
+     ]
+    },
+    {
+     "id": "AC-SEG-09",
+     "pattern": "Minor segment area from radius and central angle",
+     "sample": "A chord of a circle of radius $21\\text{ cm}$ subtends $60^\\circ$ at the centre. Find the area of the minor segment. (Use $\\pi = \\frac{22}{7}$, $\\sqrt{3} = 1.73$)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2019 main",
+      "2023 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "c6",
+      "cmvq9r2fv000p7gcn89i60vha"
+     ]
+    },
+    {
+     "id": "AC-SEG-10",
+     "pattern": "Minor segment area when the chord length is given, radius not",
+     "sample": "A chord of length $10\\sqrt{2}\\text{ cm}$ subtends a right angle at the centre. Find the radius and the area of the minor segment. (Use $\\pi = 3.14$)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe935001l7gd0b1phhx5z"
+     ]
+    },
+    {
+     "id": "AC-SEG-11",
+     "pattern": "Perimeter of a shaded segment: arc plus chord (figure)",
+     "sample": "Chord $AB$ of a circle of radius $21\\text{ cm}$ subtends $120^\\circ$ at the centre. Find the perimeter of the shaded minor segment. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-SEG-12",
+     "pattern": "Major sector perimeter and segment area, with triangle area supplied (figure)",
+     "sample": "Chord $AB$ subtends $90^\\circ$ at the centre $O$ of a circle of radius $14\\text{ cm}$, and $\\triangle OAB$ has area $98\\text{ cm}^2$. Find the major sector's perimeter and the minor segment's area. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-SEG-13",
+     "pattern": "Minor and major segment areas, with chord or triangle as sub-parts",
+     "sample": "A chord of a circle of radius $14\\text{ cm}$ subtends $120^\\circ$ at the centre. Find the areas of the triangle, the minor segment and the major segment. (Use $\\pi = \\frac{22}{7}$, $\\sqrt{3} = 1.73$)",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2015 main",
+      "2017 main",
+      "2023 main",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2fx000x7gcn7jsqbqe8",
+      "cmvqhe938001t7gd05hph219x"
+     ]
+    },
+    {
+     "id": "AC-SEG-14",
+     "pattern": "Arc length and minor segment area for one chord",
+     "sample": "A chord of a circle of radius $21\\text{ cm}$ subtends $60^\\circ$ at the centre. Find the length of the arc and the area of the minor segment. (Use $\\pi = \\frac{22}{7}$, $\\sqrt{3} = 1.73$)",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-SEG-15",
+     "pattern": "Case study: a straight fence or path cuts a segment from a circular field",
+     "sample": "A straight path $AB$ crosses a circular park of radius $21\\text{ m}$, subtending $90^\\circ$ at the centre. (i) Find $AB$. (ii) Find the area of $\\triangle OAB$. (iii) Find the minor segment's area. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2fz00157gcnmu66e80t"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Combination figures (shaded regions)",
+   "scope": "verify",
+   "scopeNote": "The combination-of-plane-figures section is believed cut, but recent papers still test it: 2024 main has horses at the four corners of a square, 2025 main has a square house inside a circular plot, and 2025 compartment and 2026 second both have shaded-area diagrams. So B, E and MCQ patterns carry real targets. C and D patterns have target 0: their board evidence is 2016-2019 only, and core patterns fill those slots. A person must confirm the syllabus; if the section is out, remove this topic and rebalance.",
+   "patterns": [
+    {
+     "id": "AC-CMB-01",
+     "pattern": "Square minus a quadrant at one corner",
+     "sample": "From a square sheet of side $7\\text{ cm}$, a quadrant of radius $7\\text{ cm}$ centred at a corner is removed. The remaining area is (use $\\pi = \\frac{22}{7}$):",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2fq00097gcnbv6ieytl"
+     ]
+    },
+    {
+     "id": "AC-CMB-02",
+     "pattern": "Area of the ring between two concentric circles",
+     "sample": "Two concentric circles have radii $21\\text{ cm}$ and $14\\text{ cm}$. The area of the ring between them is (use $\\pi = \\frac{22}{7}$):",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2fs000h7gcn3rojcezv",
+      "cmvqhe92l000b7gd0hb8bvrly"
+     ]
+    },
+    {
+     "id": "AC-CMB-03",
+     "pattern": "Rectangle minus a semicircle on one side",
+     "sample": "From a rectangle $28\\text{ cm}$ by $14\\text{ cm}$, a semicircle with a $14\\text{ cm}$ side as diameter is removed. The remaining area is (use $\\pi = \\frac{22}{7}$):",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe92m000d7gd0x5j4g5eb"
+     ]
+    },
+    {
+     "id": "AC-CMB-04",
+     "pattern": "Square minus its inscribed circle",
+     "sample": "A circle touches all four sides of a square of side $14\\text{ cm}$. The area of the square outside the circle is (use $\\pi = \\frac{22}{7}$):",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe92m000f7gd0eykzbz2s"
+     ]
+    },
+    {
+     "id": "AC-CMB-05",
+     "pattern": "Gap between three mutually touching equal circles",
+     "sample": "Three circles of radius $7\\text{ cm}$ touch one another. The area of the region enclosed between them is (use $\\pi = \\frac{22}{7}$):",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "AC-CMB-06",
+     "pattern": "Assertion-reason: area of a ring",
+     "sample": "Assertion: the ring between concentric circles of radii $5\\text{ cm}$ and $3\\text{ cm}$ has area $16\\pi\\text{ cm}^2$. Reason: the area of a ring is $\\pi(R^2 - r^2)$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "AC-CMB-07",
+     "pattern": "Rectangle minus a circle lying inside it",
+     "sample": "A rectangular lawn $40\\text{ m}$ by $25\\text{ m}$ contains a circular pond of radius $7\\text{ m}$. Find the area of the lawn outside the pond. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2013 main"
+     ],
+     "existingIds": [
+      "cmvqhe92x000z7gd0a69ah9iu"
+     ]
+    },
+    {
+     "id": "AC-CMB-08",
+     "pattern": "Rectangle plus a semicircle (window), with cost",
+     "sample": "A window is a rectangle $1.4\\text{ m}$ wide and $1.5\\text{ m}$ high with a semicircle on top of its width. Find the glass area and its cost at ₹$400$ per $\\text{m}^2$. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe92y00117gd09yovny4e"
+     ]
+    },
+    {
+     "id": "AC-CMB-09",
+     "pattern": "Total shaded area of three marked sectors, answer in $\\pi$ (figure)",
+     "sample": "Three shaded sectors of a circle of radius $6\\text{ cm}$ have angles $40^\\circ$, $50^\\circ$ and $30^\\circ$. Find the total shaded area in terms of $\\pi$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2021 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-CMB-10",
+     "pattern": "Gap between three touching circles in two marks (figure)",
+     "sample": "Three equal circles of radius $14\\text{ cm}$ touch one another. Find the area of the shaded region between them. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2011 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-CMB-11",
+     "pattern": "Shaded area read from a diagram: polygon minus a marked sector (figure)",
+     "sample": "Trapezium $ABCD$ has $AB \\parallel CD$, $AB = 10\\text{ cm}$, $CD = 6\\text{ cm}$, $AD = 7\\text{ cm}$ and $\\angle A = 90^\\circ$. A quadrant of radius $3.5\\text{ cm}$ centred at $A$ is removed. Find the remaining area. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2012 main",
+      "2024 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-CMB-12",
+     "pattern": "Semicircle minus the right triangle inscribed in it (figure)",
+     "sample": "$AB = 13\\text{ cm}$ is the diameter of a semicircle and $C$ lies on the arc with $AC = 5\\text{ cm}$. Find the area of the semicircle outside $\\triangle ABC$. (Use $\\pi = 3.14$)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2016 main",
+      "2020 main",
+      "2025 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-CMB-13",
+     "pattern": "Region between concentric circles for a marked central angle (figure)",
+     "sample": "Concentric circles have radii $7\\text{ cm}$ and $14\\text{ cm}$. Find the area of the part of the ring lying within a central angle of $60^\\circ$. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2012 main",
+      "2016 main",
+      "2017 main",
+      "2019 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-CMB-14",
+     "pattern": "Square minus four corner quadrants",
+     "sample": "A square of side $14\\text{ cm}$ has quadrants of radius $7\\text{ cm}$ centred at each corner. Find the area of the square outside them. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2018 main"
+     ],
+     "existingIds": [
+      "cmvq9r2fv000r7gcnz2idnlhp"
+     ]
+    },
+    {
+     "id": "AC-CMB-15",
+     "pattern": "Circle or quadrant minus an inscribed rectangle or square (figure)",
+     "sample": "A rectangle $8\\text{ cm}$ by $6\\text{ cm}$ is inscribed in a circle. Find the area of the circle outside the rectangle. (Use $\\pi = 3.14$)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 10,
+     "seenIn": [
+      "2014 main",
+      "2017 main",
+      "2019 main",
+      "2020 main",
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-CMB-16",
+     "pattern": "Circular path inside a rectangular park, with turfing cost",
+     "sample": "A park $40\\text{ m}$ by $25\\text{ m}$ has a central fountain of radius $7\\text{ m}$ ringed by a path $3.5\\text{ m}$ wide. Find the area of the path and of the remaining park. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe932001f7gd0oxz5jtdt"
+     ]
+    },
+    {
+     "id": "AC-CMB-17",
+     "pattern": "Rectangle with semicircles cut in on two sides: area and perimeter",
+     "sample": "From a plate $40\\text{ cm}$ by $14\\text{ cm}$, a semicircle is cut inward on each $14\\text{ cm}$ side. Find the area and perimeter of the remaining plate. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2011 main",
+      "2014 main",
+      "2015 main",
+      "2017 main"
+     ],
+     "existingIds": [
+      "cmvqhe934001h7gd04mkwhusv"
+     ]
+    },
+    {
+     "id": "AC-CMB-18",
+     "pattern": "Prove that crescents on an inscribed square equal the square in area",
+     "sample": "A square is inscribed in a circle of radius $7\\text{ cm}$, with outward semicircles on its sides. Show that the four crescents between the semicircles and the circle have total area equal to the square.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2016 main"
+     ],
+     "existingIds": [
+      "cmvqhe935001j7gd02m5w4nka"
+     ]
+    },
+    {
+     "id": "AC-CMB-19",
+     "pattern": "Sector with a tangent at a radius's end: boundary or area of the outer region, using trigonometry (figure)",
+     "sample": "Sector $OAP$ has radius $7\\text{ cm}$ and angle $60^\\circ$. The tangent at $A$ meets $OP$ produced at $B$. Find the perimeter of the region bounded by $AB$, $BP$ and arc $AP$. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2016 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-CMB-20",
+     "pattern": "Rectangle with outward semicircles (running track): perimeter and area",
+     "sample": "A track is a rectangle $40\\text{ m}$ by $14\\text{ m}$ with outward semicircles on the $14\\text{ m}$ sides. Find the perimeter and the area of the figure. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2fw000v7gcng9hqnjoh"
+     ]
+    },
+    {
+     "id": "AC-CMB-21",
+     "pattern": "Square tile with inscribed circle and inner circle: combined design area",
+     "sample": "A tile of side $14\\text{ cm}$ has an inscribed circle and a concentric circle of radius $3.5\\text{ cm}$. Find the total area of the four corners and the ring. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe937001r7gd0i968uce1"
+     ]
+    },
+    {
+     "id": "AC-CMB-22",
+     "pattern": "Case study: rectangle with quadrants or semicircles attached (memento, playground)",
+     "sample": "A board $28\\text{ cm}$ by $14\\text{ cm}$ has quadrants of radius $14\\text{ cm}$ centred at the two ends of a long side. (i) Find one quadrant's area. (ii) Find one arc's length. (iii) Find the remaining area. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-CMB-23",
+     "pattern": "Case study: animals tied at the corners of a square field",
+     "sample": "Horses are tied at the four corners of a square field of side $28\\text{ m}$ with $7\\text{ m}$ ropes. (i) Find the field's area. (ii) Find the grazed area. (iii) Find the ungrazed area if ropes become $14\\text{ m}$. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-CMB-24",
+     "pattern": "Case study: polygon inside a circle or semicircle (house on a plot, farm on a semicircle)",
+     "sample": "A largest square house stands inside a circular plot of radius $14\\text{ m}$. (i) Find the fence length around the plot. (ii) Find the house's side. (iii) Find the area left for grass. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-CMB-25",
+     "pattern": "Case study: rings of rope with an equilateral triangle marking a shaded segment",
+     "sample": "A ring is made from $44\\text{ m}$ of rope, with equilateral $\\triangle OAB$ drawn from its centre $O$. (i) Find the radius. (ii) State $\\angle AOB$. (iii) Find the area of the segment on $AB$. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-NEW-04",
+     "pattern": "Shaded area of a composite figure built from a polygon with circles, semicircles or arcs (add and subtract pieces) (figure)",
+     "sample": "$ABCD$ is a square of side $14$ cm. Semicircles are drawn inward on each side as diameter. Find the area of the shaded region where the semicircles overlap. (Answer: $112$ cm$^2$)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 22,
+     "seenIn": [
+      "2013 main",
+      "2014 main",
+      "2015 main",
+      "2016 main",
+      "2017 compartment",
+      "2017 main",
+      "2019 compartment",
+      "2020 main",
+      "2023 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  },
+  {
+   "name": "Wheel, clock, garden and wiper contexts",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "AC-CTX-01",
+     "pattern": "Angle turned by a clock's hour hand between two times",
+     "sample": "The angle turned through by the hour hand of a clock from $9$ am to $1$ pm is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2023 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-CTX-02",
+     "pattern": "Wheel diameter from revolutions and distance",
+     "sample": "A wheel makes $500$ revolutions in covering $1.1\\text{ km}$. Its diameter is (use $\\pi = \\frac{22}{7}$):",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-CTX-03",
+     "pattern": "Number of wheel revolutions from diameter and distance",
+     "sample": "A wheel of diameter $84\\text{ cm}$ covers $1.32\\text{ km}$. The number of complete revolutions is (use $\\pi = \\frac{22}{7}$):",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2fs000f7gcnnex0rv20"
+     ]
+    },
+    {
+     "id": "AC-CTX-04",
+     "pattern": "Area swept by a minute hand in given minutes",
+     "sample": "The minute hand of a clock is $21\\text{ cm}$ long. The area it sweeps in $20$ minutes is (use $\\pi = \\frac{22}{7}$):",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2fp00077gcn8hbg2azi"
+     ]
+    },
+    {
+     "id": "AC-CTX-05",
+     "pattern": "Distance moved by the tip of a clock hand",
+     "sample": "The second hand of a clock is $14\\text{ cm}$ long. Its tip moves how far in $15$ seconds? (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe92u000t7gd0dgsuxp5p"
+     ]
+    },
+    {
+     "id": "AC-CTX-06",
+     "pattern": "Area swept by a single wiper, sprinkler or lighthouse beam",
+     "sample": "A car wiper with a $14\\text{ cm}$ blade sweeps through $120^\\circ$. Find the area of glass cleaned in one sweep. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2ft000l7gcnju6e8g5k",
+      "cmvqhe93000197gd05mwuisd3"
+     ]
+    },
+    {
+     "id": "AC-CTX-07",
+     "pattern": "Distance or area swept by a clock hand in a time interval",
+     "sample": "The minute hand of a clock is $21\\text{ cm}$ long. Find the distance its tip moves and the area it sweeps in $15$ minutes. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2018 compartment",
+      "2020 main",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvqhe931001b7gd0rpd50t5t"
+     ]
+    },
+    {
+     "id": "AC-CTX-08",
+     "pattern": "Minor and major sectors swept by a clock hand",
+     "sample": "The hour hand of a clock is $14\\text{ cm}$ long and moves from $9$ am to $1$ pm. Find the areas of the minor and major sectors formed. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-CTX-09",
+     "pattern": "Total area cleaned by two non-overlapping wipers",
+     "sample": "A car has two non-overlapping wipers, each with a blade of $21\\text{ cm}$ sweeping $120^\\circ$. Find the total area cleaned in one sweep. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2019 main",
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-CTX-10",
+     "pattern": "Extra grazing area when a corner-tied rope is lengthened",
+     "sample": "A goat is tied at a corner of a field $24\\text{ m}$ by $18\\text{ m}$. Find how much more it can graze if the rope grows from $10.5\\text{ m}$ to $14\\text{ m}$. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2fw000t7gcntgto1dy7"
+     ]
+    },
+    {
+     "id": "AC-CTX-11",
+     "pattern": "Grazing area at the corner of a square field and its increase with a longer rope",
+     "sample": "A horse is tied at a corner of a square field of side $30\\text{ m}$ with a $14\\text{ m}$ rope. Find the grazing area, and its increase if the rope becomes $21\\text{ m}$. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-CTX-12",
+     "pattern": "Case study: fencing cost gives perimeter, then radius, area and ploughing cost",
+     "sample": "Fencing a circular field at ₹$24$ per metre costs ₹$5280$. (i) Find the circumference. (ii) Find the radius. (iii) Find the area and the cost of ploughing at ₹$0.50$ per $\\text{m}^2$. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2020 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "AC-CTX-13",
+     "pattern": "Case study: rotating device (clock hand, sprinkler): angle, tip distance or arc, area swept",
+     "sample": "A sprinkler reaches $21\\text{ m}$ and turns through $60^\\circ$. (i) Find the arc watered. (ii) Find the perimeter of the watered region. (iii) Find the area watered. (Use $\\pi = \\frac{22}{7}$)",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2fx000z7gcn7qirhaho",
+      "cmvq9r2fy00117gcnvq3xwt9p"
+     ]
+    }
+   ]
+  }
+ ],
+ "outOfScope": [],
+ "fixes": [
+  {
+   "n": 1,
+   "issue": "Same question as 3 (radius 14, 90 degrees); tagged medium but is one step; topic is General",
+   "suggest": "Retire as a duplicate of 3, or change the numbers, tag easy and move to Area and perimeter of a sector",
+   "id": "a16"
+  },
+  {
+   "n": 2,
+   "issue": "Topic is General",
+   "suggest": "Move to Segment area",
+   "id": "c6"
+  },
+  {
+   "n": 8,
+   "issue": "Tagged easy, but needs A = lr/2 or finding the angle first",
+   "suggest": "medium",
+   "id": "cmvqhe92h00037gd0qogtjeho"
+  },
+  {
+   "n": 18,
+   "issue": "Tagged easy in a 3-mark slot, but needs seeing that four quadrants make a circle, then subtracting",
+   "suggest": "medium",
+   "id": "cmvq9r2fv000r7gcnz2idnlhp"
+  },
+  {
+   "n": 41,
+   "issue": "Tested idea is sector perimeter, not arc length",
+   "suggest": "Move to Area and perimeter of a sector",
+   "id": "cmvq9r2ft000j7gcnm1x3l094"
+  },
+  {
+   "n": 42,
+   "issue": "Tagged easy, but it is a multi-part case study",
+   "suggest": "medium",
+   "id": "cmvq9r2fz00137gcnk7y4ibl7"
+  }
+ ]
+}

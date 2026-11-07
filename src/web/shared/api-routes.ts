@@ -6,6 +6,7 @@
  */
 
 export type ApiRoute =
+  | '/api/admin/overview'
   | '/api/admin/roles'
   | '/api/admin/summary'
   | '/api/audit/list'
@@ -17,6 +18,10 @@ export type ApiRoute =
   | '/api/auth/verify-email'
   | '/api/client-error'
   | '/api/contact-message'
+  | '/api/faculty/preview'
+  | '/api/faculty/setup'
+  | '/api/library'
+  | `/api/library/${string}`
   | '/api/parent/children'
   | '/api/parent/link'
   | '/api/parent/submissions'
@@ -24,6 +29,19 @@ export type ApiRoute =
   | `/api/parent/submissions/${string}/pages`
   | `/api/parent/submissions/${string}/pages/${string}`
   | `/api/parent/submissions/${string}/submit`
+  | '/api/patterns'
+  | `/api/patterns/${string}`
+  | '/api/people'
+  | `/api/people/${string}/active`
+  | `/api/people/${string}/approve`
+  | `/api/people/${string}/reject`
+  | `/api/people/${string}/reset-password`
+  | `/api/people/${string}/sign-in-as`
+  | '/api/people/me'
+  | '/api/questions'
+  | `/api/questions/${string}`
+  | '/api/questions/coverage'
+  | '/api/questions/review'
   | `/api/settings/admin/${string}`
   | '/api/settings/admin/email-env'
   | '/api/settings/admin/email-test'
@@ -35,11 +53,17 @@ export type ApiRoute =
   | `/api/tutor/papers/${string}`
   | `/api/tutor/papers/${string}/assign`
   | '/api/tutor/review'
+  | '/api/tutor/setup'
   | '/api/tutor/students'
+  | `/api/tutor/students/${string}`
+  | '/api/tutor/students/import'
   | `/api/tutor/submissions/${string}`
   | `/api/tutor/submissions/${string}/approve`
+  | `/api/tutor/submissions/${string}/pages`
   | `/api/tutor/submissions/${string}/pages/${string}`
+  | `/api/tutor/submissions/${string}/remark`
   | `/api/tutor/submissions/${string}/results`
+  | `/api/tutor/submissions/${string}/submit`
   | '/api/user/admin/create'
   | '/api/user/admin/list'
   | '/api/user/admin/users'
@@ -52,6 +76,7 @@ export type ApiRoute =
 
 /** Every route, for runtime assertions and tooling. */
 export const API_ROUTES = [
+  '/api/admin/overview',
   '/api/admin/roles',
   '/api/admin/summary',
   '/api/audit/list',
@@ -63,9 +88,18 @@ export const API_ROUTES = [
   '/api/auth/verify-email',
   '/api/client-error',
   '/api/contact-message',
+  '/api/faculty/preview',
+  '/api/faculty/setup',
+  '/api/library',
   '/api/parent/children',
   '/api/parent/link',
   '/api/parent/submissions',
+  '/api/patterns',
+  '/api/people',
+  '/api/people/me',
+  '/api/questions',
+  '/api/questions/coverage',
+  '/api/questions/review',
   '/api/settings/admin/email-env',
   '/api/settings/admin/email-test',
   '/api/settings/admin/list',
@@ -74,7 +108,9 @@ export const API_ROUTES = [
   '/api/tutor/onboard',
   '/api/tutor/papers',
   '/api/tutor/review',
+  '/api/tutor/setup',
   '/api/tutor/students',
+  '/api/tutor/students/import',
   '/api/user/admin/create',
   '/api/user/admin/list',
   '/api/user/admin/users',

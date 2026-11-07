@@ -1,0 +1,317 @@
+[
+ {
+  "idx": 0,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 1,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 2,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 3,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 4,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 5,
+  "status": "ambiguous",
+  "note": "Figure defect: the '60°' and '5 cm' labels are drawn almost on top of each other (about 3 px apart) and are unreadable; separate them."
+ },
+ {
+  "idx": 6,
+  "status": "ambiguous",
+  "note": "Figure defect: '30°' and '12 cm' labels overlap and are garbled; separate them."
+ },
+ {
+  "idx": 7,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 8,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 9,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 10,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 11,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 12,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 13,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 14,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 15,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 16,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 17,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 18,
+  "status": "ambiguous",
+  "note": "Figure defect: the '70°' label sits on top of point C (hiding it) and overlaps the '?' and 'C' labels; move the labels."
+ },
+ {
+  "idx": 19,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 20,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 21,
+  "status": "ok",
+  "note": "Minor figure note: tangent CD is drawn past its meeting points with PA and PB, so C and D are labelled beyond the tangent lines; shorten CD."
+ },
+ {
+  "idx": 22,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 23,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 24,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 25,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 26,
+  "status": "ok",
+  "note": "Minor figure note: '24 cm' label sits on the dashed OT line next to M, not beside PQ; move it."
+ },
+ {
+  "idx": 27,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 28,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 29,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 30,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 31,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 32,
+  "status": "ok",
+  "note": "Minor figure note: label 'M' is placed near O, far from point M; move it."
+ },
+ {
+  "idx": 33,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 34,
+  "status": "ok",
+  "note": "Minor figure note: '16 cm' label sits on the OP line; move beside AB."
+ },
+ {
+  "idx": 35,
+  "status": "ok",
+  "note": "Minor figure note: '11 cm' label sits across segment RC rather than beside PQ; could be read as RC. Move it below PQ."
+ },
+ {
+  "idx": 36,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 37,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 38,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 39,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 40,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 41,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 42,
+  "status": "invalid",
+  "note": "Result PA.PB = PT^2 (tangent-secant theorem) is outside the current CBSE Class 10 syllabus; the proof is doable by Pythagoras but the statement is not a syllabus theorem. Reword as 'show that PA.PB = OP^2 - r^2' or drop."
+ },
+ {
+  "idx": 43,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 44,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 45,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 46,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 47,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 48,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 49,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 50,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 51,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 52,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 53,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 54,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 55,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 56,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 57,
+  "status": "ambiguous",
+  "note": "Figure defect: the '8 cm' label is drawn inside the circle next to the dashed radius OP (about 28 px from side AB), so it reads as OP = 8 cm. Move it beside AB."
+ },
+ {
+  "idx": 58,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 59,
+  "status": "ok",
+  "note": ""
+ },
+ {
+  "idx": 60,
+  "status": "ambiguous",
+  "note": "Text and alt text say the upper arm touches the discs at A and B, but in the figure A and B lie on the lower arm. Make text and figure agree (say 'lower arm' or flip the figure)."
+ },
+ {
+  "idx": 61,
+  "status": "invalid",
+  "note": "Data inconsistent: tangent lengths from the given data (AP=75 gives 75,75,65,45) force an incircle radius of about 63.8 cm, not 50 cm, so a quadrilateral with r = 50 cm, AB=150, BC=140, CD=110, AP=75 cannot exist. Drop either the radius or AP (the answers 120, 75, 45 follow from the tangent lengths alone)."
+ },
+ {
+  "idx": 62,
+  "status": "ambiguous",
+  "note": "Figure defect: the label 'Z' is at x=412.6 outside the 400-wide viewBox and is cut off; widen the viewBox."
+ }
+]

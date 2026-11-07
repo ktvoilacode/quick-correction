@@ -1,0 +1,2415 @@
+{
+ "chapter": "Trigonometry",
+ "topics": [
+  {
+   "name": "Ratio from a given ratio",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "TG-RG-01",
+     "pattern": "Given one ratio as a number, find another ratio directly",
+     "sample": "If $\\sin A=\\frac{5}{13}$ and $A$ is acute, the value of $\\cot A$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 13,
+     "seenIn": [
+      "2020 main",
+      "2024 main",
+      "2025 compartment",
+      "2025 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2kn00it7gcnrioxapt8"
+     ]
+    },
+    {
+     "id": "TG-RG-02",
+     "pattern": "Given a ratio in letters, express another ratio in those letters",
+     "sample": "If $\\sin\\theta=\\frac{p}{q}$ with $\\theta$ acute, then $\\cos\\theta$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2023 main",
+      "2024 compartment",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-RG-03",
+     "pattern": "Given a form like k·ratio = m, find another ratio or tan + cot",
+     "sample": "If $4\\sec A=5$ and $A$ is acute, the value of $\\cot A$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2021 compartment",
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-RG-04",
+     "pattern": "Given a ratio, evaluate a fraction of linear terms in sin, cos or cosec",
+     "sample": "If $\\tan A=\\frac{3}{4}$, the value of $\\frac{2\\sin A+\\cos A}{2\\sin A-\\cos A}$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2023 main",
+      "2024 compartment",
+      "2025 compartment",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2kn00ir7gcnxfy8954u"
+     ]
+    },
+    {
+     "id": "TG-RG-05",
+     "pattern": "Given a ratio, evaluate a combination of squares",
+     "sample": "If $\\cos A=\\frac{3}{5}$, the value of $\\sin^2A+2\\cos^2A$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-RG-06",
+     "pattern": "Given sin x = cos x for acute x, evaluate a product of ratios",
+     "sample": "If $\\sin x=\\cos x$ for an acute angle $x$, the value of $\\sec x\\sin x$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2020 main",
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-RG-AR1",
+     "pattern": "Assertion-reason: can a ratio take this value for an acute angle (range of sin, sec)",
+     "sample": "A: There is an acute angle $\\theta$ with $\\sin\\theta=\\frac{5}{4}$. R: In a right triangle the side opposite an acute angle is shorter than the hypotenuse.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ku00jp7gcnl8l3p6fs"
+     ]
+    },
+    {
+     "id": "TG-RG-AR2",
+     "pattern": "Assertion-reason: a claimed second ratio from a given ratio, checked by sin² + cos² = 1",
+     "sample": "A: If $\\sin A=\\frac{7}{25}$ with $A$ acute, then $\\cos A=\\frac{24}{25}$. R: $\\sin^2A+\\cos^2A=1$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-RG-B1",
+     "pattern": "Given one ratio (or ratios of two angles), find a sum or combination of ratios",
+     "sample": "If $\\tan\\theta=\\frac{8}{15}$ and $\\theta$ is acute, find $\\sin\\theta+\\cos\\theta$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-RG-B2",
+     "pattern": "Given one ratio, evaluate or show the value of a fractional expression",
+     "sample": "If $\\tan A=\\frac{4}{3}$, find the value of $\\frac{\\sin^2A}{1+\\cos^2A}$.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2020 main",
+      "2025 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2kw00jz7gcnwa0ww3lw"
+     ]
+    },
+    {
+     "id": "TG-RG-B3",
+     "pattern": "Given one ratio as a letter, write the other ratios in that letter",
+     "sample": "If $\\cos A=k$ and $A$ is acute, write $\\sin A$ and $\\tan A$ in terms of $k$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "TG-RG-C1",
+     "pattern": "Given a ratio, find the remaining ratios and evaluate or verify an expression",
+     "sample": "If $8\\tan A=15$ and $A$ is acute, find $\\sin A$, $\\cos A$ and the value of $\\frac{1-\\cos A}{1+\\cos A}$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2018 main",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2l300kt7gcny3c95shp"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Ratios from a right-triangle figure",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "TG-RF-01",
+     "pattern": "Read tan of a marked angle in a composite right-triangle figure (midpoint or two triangles)",
+     "sample": "In right $\\triangle ABC$ with $\\angle B=90^\\circ$, $D$ is the midpoint of $AB$, $AB=8$ cm and $BC=6$ cm. The value of $\\tan\\angle BCD$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2019 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-RF-02",
+     "pattern": "Altitude splits the base in a given ratio; find the quotient of two tangents",
+     "sample": "In the figure, $PS\\perp QR$ with $RS:SQ=1:2$. If $\\angle PRS=a$ and $\\angle PQS=b$, the value of $\\frac{\\tan a}{\\tan b}$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2025 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-RF-03",
+     "pattern": "Read a ratio of a marked angle from a labelled right triangle",
+     "sample": "A right triangle has legs $3$ cm and $4$ cm. For the marked angle opposite the $3$ cm side, the value of $\\cos\\theta$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2020 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-RF-B1",
+     "pattern": "Find a ratio or sum of ratios from a labelled right-triangle diagram",
+     "sample": "In the figure, $\\triangle ABC$ has $\\angle B=90^\\circ$, $AB=5$ cm and $BC=12$ cm. Find $\\sin C+\\cos C$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2020 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Ratios of standard angles",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "TG-RS-01",
+     "pattern": "Evaluate an expression at standard angles",
+     "sample": "The value of $2\\tan^245^\\circ-\\cos^260^\\circ$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 3,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 20,
+     "seenIn": [
+      "2019 main",
+      "2020 main",
+      "2021 compartment",
+      "2023 main",
+      "2024 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "a13",
+      "cmvq9r2kk00if7gcnj074dewr",
+      "cmvq9r2kk00ih7gcn7olo1r68"
+     ]
+    },
+    {
+     "id": "TG-RS-02",
+     "pattern": "Find the angle from one ratio of a multiple of it",
+     "sample": "If $\\tan2\\theta=\\sqrt3$ and $2\\theta$ is acute, then $\\theta$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": [
+      "a14",
+      "cmvq9r2kk00ij7gcnoflpejr5"
+     ]
+    },
+    {
+     "id": "TG-RS-03",
+     "pattern": "Solve a linear equation in one ratio to get an acute angle",
+     "sample": "If $1+2\\sin\\theta=2$ and $\\theta$ is acute, then $\\theta$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2019 main",
+      "2020 main",
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-RS-04",
+     "pattern": "From a cos² + b sin² = c, find the acute angle or its tan",
+     "sample": "If $3\\cos^2\\theta+\\sin^2\\theta=\\frac{5}{2}$ and $\\theta$ is acute, then $\\theta$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2km00ip7gcnp8w8ehms"
+     ]
+    },
+    {
+     "id": "TG-RS-05",
+     "pattern": "A product of standard values equals an expression in k; find k",
+     "sample": "If $\\sin30^\\circ\\tan60^\\circ=\\frac{k}{2}$, the value of $k$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-RS-06",
+     "pattern": "Find the standard angle that satisfies a relation between ratios of A and 2A",
+     "sample": "The acute angle $A$ for which $\\sin2A=\\sqrt3\\sin A$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-RS-07",
+     "pattern": "Find an angle from a compound-angle or multiple-angle value, then evaluate a related ratio",
+     "sample": "If $\\cos(A+B)=\\frac{1}{2}$ with $A+B$ acute, the value of $\\sin\\frac{A+B}{2}$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2024 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-RS-08",
+     "pattern": "From values of two ratios of A and B, find a ratio of A + B",
+     "sample": "If $\\cos A=\\frac{\\sqrt3}{2}$ and $\\sin B=\\frac{1}{2}$ with $A,B$ acute, the value of $\\tan(A+B)$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-RS-09",
+     "pattern": "Recognise an expression in tan 30° as a single standard ratio",
+     "sample": "The value of $\\frac{2\\tan30^\\circ}{1-\\tan^230^\\circ}$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2023 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-RS-10",
+     "pattern": "Choose the true comparison between ratios of two angles",
+     "sample": "Which comparison is true: $\\sin45^\\circ>\\sin60^\\circ$, $\\cos30^\\circ<\\cos60^\\circ$, $\\tan45^\\circ<\\tan60^\\circ$ or $\\cos0^\\circ<\\sin30^\\circ$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-RS-11",
+     "pattern": "A sum of squared ratios with one known angle; find the other acute angle",
+     "sample": "If $\\tan^245^\\circ+\\cot^2\\theta=4$ and $\\theta$ is acute, then $\\theta$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2024 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-RS-12",
+     "pattern": "Identify which ratio is not defined at 0° or 90°",
+     "sample": "Which of these is not defined: $\\tan0^\\circ$, $\\tan90^\\circ$, $\\sin90^\\circ$ or $\\cos90^\\circ$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "TG-RS-AR1",
+     "pattern": "Assertion-reason: a ratio is undefined at a given angle",
+     "sample": "A: $\\cot0^\\circ$ is not defined. R: $\\cot\\theta=\\frac{\\cos\\theta}{\\sin\\theta}$ and $\\sin0^\\circ=0$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-RS-B1",
+     "pattern": "Evaluate an expression or fraction of standard-angle values",
+     "sample": "Evaluate $\\frac{\\sin^230^\\circ+\\cos^245^\\circ}{\\tan^260^\\circ}$.",
+     "slot": "B",
+     "targets": {
+      "easy": 2,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 22,
+     "seenIn": [
+      "2020 main",
+      "2023 main",
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "b4",
+      "cmvq9r2ku00jr7gcn6lk6h85r"
+     ]
+    },
+    {
+     "id": "TG-RS-B2",
+     "pattern": "Find the unknown (p, k or x) in an equation of standard-angle values",
+     "sample": "Find $k$ if $2k=\\tan^260^\\circ-\\cos^260^\\circ$.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2023 main",
+      "2025 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2kv00jx7gcnbyn07yau"
+     ]
+    },
+    {
+     "id": "TG-RS-B3",
+     "pattern": "Find A and B from two compound-angle conditions",
+     "sample": "If $\\tan(A+B)=\\sqrt3$ and $\\cos(A-B)=\\frac{\\sqrt3}{2}$, with $A>B$ and $A+B$ acute, find $A$ and $B$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 3,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2024 compartment",
+      "2025 compartment",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2kv00jt7gcn0hp0yz1r"
+     ]
+    },
+    {
+     "id": "TG-RS-B4",
+     "pattern": "Use or verify a supplied compound-angle formula at standard angles",
+     "sample": "Using $\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B$, find $\\sin75^\\circ$ with $A=45^\\circ$ and $B=30^\\circ$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-RS-B5",
+     "pattern": "Spot the error: test a wrong claim about ratios using standard values",
+     "sample": "A student writes $\\sin(30^\\circ+60^\\circ)=\\sin30^\\circ+\\sin60^\\circ$. Evaluate both sides and state whether this is correct.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "TG-RS-C1",
+     "pattern": "Find A and B from two compound-angle conditions, then evaluate a further ratio",
+     "sample": "If $\\sin(A+2B)=1$ and $\\cos(A+B)=\\frac{1}{2}$ with all angles acute or right, find $A$, $B$ and $\\cot2A$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2018 compartment",
+      "2019 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Evaluating expressions",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "TG-EV-01",
+     "pattern": "Given sin θ ± cos θ, find sin θ cos θ",
+     "sample": "If $\\sin\\theta+\\cos\\theta=\\frac{7}{5}$, the value of $\\sin\\theta\\cos\\theta$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2kl00il7gcndl3amh98"
+     ]
+    },
+    {
+     "id": "TG-EV-B1",
+     "pattern": "Given sin θ ± cos θ, find sin θ cos θ and tan θ + cot θ",
+     "sample": "If $\\sin\\theta-\\cos\\theta=\\frac{1}{5}$, find $\\sin\\theta\\cos\\theta$ and hence $\\tan\\theta+\\cot\\theta$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2020 main",
+      "2023 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2kv00jv7gcn4h6p7fmm"
+     ]
+    },
+    {
+     "id": "TG-EV-B2",
+     "pattern": "Given tan θ + 1/tan θ, find the sum of squares",
+     "sample": "If $\\tan\\theta+\\frac{1}{\\tan\\theta}=3$, find $\\tan^2\\theta+\\frac{1}{\\tan^2\\theta}$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2021 compartment",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-EV-B3",
+     "pattern": "Find the constant in an expression after expanding with identities",
+     "sample": "Find $k$ if $\\sec^2A+\\operatorname{cosec}^2A=k+\\tan^2A+\\cot^2A$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-EV-B4",
+     "pattern": "Given a relation like cos A + cos² A = 1, evaluate a higher-power expression",
+     "sample": "If $\\sin A+\\sin^2A=1$, find the value of $\\cos^2A+\\cos^4A$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2020 main",
+      "2023 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Identities and proofs",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "TG-ID-01",
+     "pattern": "Simplify an expression with one Pythagorean identity",
+     "sample": "The expression $\\frac{1}{\\cos^2\\theta}-\\tan^2\\theta$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 21,
+     "seenIn": [
+      "2020 main",
+      "2023 compartment",
+      "2023 main",
+      "2024 compartment",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2kp00j37gcniwe5bgbq",
+      "cmvq9r2kl00in7gcntkqhb1kr"
+     ]
+    },
+    {
+     "id": "TG-ID-02",
+     "pattern": "Express one ratio in terms of another, or simplify a root form",
+     "sample": "$\\operatorname{cosec}\\theta$ written using only $\\tan\\theta$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2023 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-ID-03",
+     "pattern": "Simplify by factorising or rationalising",
+     "sample": "For acute $\\theta$, the expression $\\frac{\\sin\\theta}{1+\\cos\\theta}$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ko00iv7gcn8bvqmg28",
+      "cmvq9r2ko00ix7gcn8i61rtka",
+      "cmvq9r2ko00iz7gcnfw72e3mo",
+      "cmvq9r2kp00j17gcne6pz3wif",
+      "cmvq9r2kq00j77gcndigoz07u"
+     ]
+    },
+    {
+     "id": "TG-ID-04",
+     "pattern": "Combine tan and cot into sec·cosec form",
+     "sample": "The expression $\\frac{\\sin\\theta}{\\cos\\theta}+\\frac{\\cos\\theta}{\\sin\\theta}$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-ID-05",
+     "pattern": "Given sec − tan or cosec + cot, find its reciprocal partner",
+     "sample": "If $\\operatorname{cosec}\\theta+\\cot\\theta=k$, then $\\operatorname{cosec}\\theta-\\cot\\theta$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2023 main",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2kp00j57gcn0ziujt5g"
+     ]
+    },
+    {
+     "id": "TG-ID-06",
+     "pattern": "Identify the relation that is not an identity",
+     "sample": "Which is not an identity for acute $\\theta$: $\\sec^2\\theta-\\tan^2\\theta=1$, $\\sin^2\\theta+\\cos^2\\theta=1$, $\\operatorname{cosec}^2\\theta+\\cot^2\\theta=1$ or $\\tan\\theta\\cot\\theta=1$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2023 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-ID-07",
+     "pattern": "Eliminate θ from x and y given through sin and cos (including cubed forms)",
+     "sample": "If $x=3\\cos\\theta$ and $y=3\\sin\\theta$, the value of $x^2+y^2$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2020 main",
+      "2024 main",
+      "2025 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-ID-08",
+     "pattern": "Expand a sum of squared reciprocal pairs to a closed form",
+     "sample": "The expression $(\\sin\\theta+\\operatorname{cosec}\\theta)^2+(\\cos\\theta-\\sec\\theta)^2$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2kq00j97gcn5qiezdn8"
+     ]
+    },
+    {
+     "id": "TG-ID-AR1",
+     "pattern": "Assertion-reason: two expressions are reciprocals by a Pythagorean identity",
+     "sample": "A: $\\sec\\theta-\\tan\\theta$ and $\\sec\\theta+\\tan\\theta$ are reciprocals. R: $\\sec^2\\theta-\\tan^2\\theta=1$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-ID-AR2",
+     "pattern": "Assertion-reason: a simplified product equals 1 by a Pythagorean identity",
+     "sample": "A: $(1+\\cot^2\\theta)\\sin^2\\theta=1$ for acute $\\theta$. R: $1+\\cot^2\\theta=\\operatorname{cosec}^2\\theta$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2ku00jn7gcn930jqgf4"
+     ]
+    },
+    {
+     "id": "TG-ID-B1",
+     "pattern": "Prove a short identity in one or two steps",
+     "sample": "Prove that $\\frac{1-\\sin\\theta}{\\cos\\theta}=\\frac{\\cos\\theta}{1+\\sin\\theta}$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2020 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2kw00k17gcnj4omn705",
+      "cmvq9r2kx00k37gcng0hwmldi"
+     ]
+    },
+    {
+     "id": "TG-ID-B2",
+     "pattern": "From two linear relations in sin and cos or sec and tan, prove a relation between squares",
+     "sample": "If $x=a\\sec\\theta+b\\tan\\theta$ and $y=a\\tan\\theta+b\\sec\\theta$, prove that $x^2-y^2=a^2-b^2$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2023 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-ID-B3",
+     "pattern": "Derive a Pythagorean identity and use it to find a ratio",
+     "sample": "Starting from $\\sin^2A+\\cos^2A=1$, show that $1+\\tan^2A=\\sec^2A$. Hence find $\\tan A$ if $\\sec A=\\frac{5}{4}$, $A$ acute.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "TG-ID-C1",
+     "pattern": "Prove a sum of fractions with tan and cot over (1 − cot) and (1 − tan)",
+     "sample": "Prove that $\\frac{\\cot\\theta}{1-\\tan\\theta}+\\frac{\\tan\\theta}{1-\\cot\\theta}=1+\\tan\\theta+\\cot\\theta$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 19,
+     "seenIn": [
+      "2018 compartment",
+      "2019 main",
+      "2020 main",
+      "2023 main",
+      "2024 main",
+      "2025 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-ID-C2",
+     "pattern": "Prove an identity with ±1 terms in a fraction, by dividing through and using the Pythagorean form",
+     "sample": "Prove that $\\frac{\\cos\\theta-\\sin\\theta+1}{\\cos\\theta+\\sin\\theta-1}=\\operatorname{cosec}\\theta+\\cot\\theta$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 14,
+     "seenIn": [
+      "2019 compartment",
+      "2019 main",
+      "2020 main",
+      "2021 compartment",
+      "2023 main",
+      "2024 main",
+      "2025 compartment",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-ID-C3",
+     "pattern": "Prove a product of reciprocal-difference factors equals a constant or a simple form",
+     "sample": "Prove that $(\\sec A-\\cos A)(\\operatorname{cosec}A-\\sin A)=\\frac{1}{\\tan A+\\cot A}$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2019 main",
+      "2023 main",
+      "2024 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2l000kj7gcnq6fg9kge"
+     ]
+    },
+    {
+     "id": "TG-ID-C4",
+     "pattern": "Prove a sum of two fractions equals 2 sec or 2 cosec",
+     "sample": "Prove that $\\frac{\\sin A}{1+\\cos A}+\\frac{1+\\cos A}{\\sin A}=2\\operatorname{cosec}A$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2019 compartment",
+      "2023 main",
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-ID-C5",
+     "pattern": "Prove a ratio of cubic sin and cos expressions reduces to one ratio",
+     "sample": "Prove that $\\frac{2\\cos^3\\theta-\\cos\\theta}{\\sin\\theta-2\\sin^3\\theta}=\\cot\\theta$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 11,
+     "seenIn": [
+      "2018 main",
+      "2020 main",
+      "2023 main",
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-ID-C6",
+     "pattern": "Prove an identity by converting to sin and cos and cancelling a factor",
+     "sample": "Prove that $\\frac{\\sec A-1}{\\sec A}=\\frac{\\sin^2A}{1+\\cos A}$.",
+     "slot": "C",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 13,
+     "seenIn": [
+      "2018 compartment",
+      "2023 main",
+      "2024 compartment",
+      "2024 main",
+      "2025 compartment",
+      "2025 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2ky00kb7gcnolq8crno",
+      "cmvq9r2kz00kd7gcn90di0p53"
+     ]
+    },
+    {
+     "id": "TG-ID-C7",
+     "pattern": "Prove an identity by expanding squares or products of ratios",
+     "sample": "Prove that $(\\sin A+\\cos A)(\\tan A+\\cot A)=\\sec A+\\operatorname{cosec}A$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 12,
+     "seenIn": [
+      "2019 main",
+      "2020 main",
+      "2023 main",
+      "2024 compartment",
+      "2024 main",
+      "2025 compartment",
+      "2025 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "c5"
+     ]
+    },
+    {
+     "id": "TG-ID-C8",
+     "pattern": "Prove an identity by rationalising a fraction or a root",
+     "sample": "Prove that $\\sqrt{\\frac{1-\\cos\\theta}{1+\\cos\\theta}}=\\operatorname{cosec}\\theta-\\cot\\theta$ for acute $\\theta$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2020 main",
+      "2023 compartment",
+      "2024 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2kz00kf7gcnvlp88eyn"
+     ]
+    },
+    {
+     "id": "TG-ID-C9",
+     "pattern": "From given relations in θ, derive or prove a relation between the letters or ratios",
+     "sample": "If $\\cos\\theta+\\sin\\theta=\\sqrt2\\cos\\theta$, show that $\\cos\\theta-\\sin\\theta=\\sqrt2\\sin\\theta$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 2
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2020 main",
+      "2023 compartment",
+      "2023 main",
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2l100kl7gcnh06sg8a2"
+     ]
+    },
+    {
+     "id": "TG-ID-C10",
+     "pattern": "Eliminate θ from shifted x and y forms in sin and cos",
+     "sample": "If $x=2+3\\cos\\theta$ and $y=1+4\\sin\\theta$, prove that $\\frac{(x-2)^2}{9}+\\frac{(y-1)^2}{16}=1$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-ID-C11",
+     "pattern": "Prove an identity with squared reciprocals over their minus-one forms",
+     "sample": "Prove that $\\frac{\\operatorname{cosec}^2\\theta}{\\operatorname{cosec}^2\\theta-1}+\\frac{\\sec^2\\theta}{\\sec^2\\theta-1}=\\sec^2\\theta\\operatorname{cosec}^2\\theta$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2kz00kh7gcnvxpqqtls"
+     ]
+    },
+    {
+     "id": "TG-ID-D1",
+     "pattern": "Prove a long identity with several steps",
+     "sample": "Prove that $\\frac{\\sin A-\\cos A+1}{\\sin A+\\cos A-1}=\\sec A+\\tan A$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2019 main",
+      "2023 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-ID-D2",
+     "pattern": "From a given relation, derive a ratio or its possible values",
+     "sample": "If $\\operatorname{cosec}\\theta+\\cot\\theta=m$, show that $\\cos\\theta=\\frac{m^2-1}{m^2+1}$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2019 compartment",
+      "2019 main",
+      "2020 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Heights and distances",
+   "scope": "core",
+   "scopeNote": "Angles limited to 30, 45 and 60 degrees.",
+   "patterns": [
+    {
+     "id": "TG-HD-01",
+     "pattern": "Find a height from the distance and elevation",
+     "sample": "From a point $20$ m from the foot of a tower, the angle of elevation of its top is $60^\\circ$. The height of the tower is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 16,
+     "seenIn": [
+      "2011 main",
+      "2015 main",
+      "2020 main",
+      "2021 compartment",
+      "2024 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-HD-02",
+     "pattern": "Find a string, wire or ladder length from one side and the angle",
+     "sample": "A kite is $30$ m above the ground and its taut string makes $30^\\circ$ with the horizontal. The string length is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 13,
+     "seenIn": [
+      "2014 main",
+      "2016 main",
+      "2025 compartment",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ks00jd7gcno6n9tldp"
+     ]
+    },
+    {
+     "id": "TG-HD-03",
+     "pattern": "Find a height from a given rope or string length and the angle",
+     "sample": "A $12$ m rope runs from a pole top to the ground at $30^\\circ$ with the ground. The pole height is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2020 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2kr00jb7gcnhwmcl63m"
+     ]
+    },
+    {
+     "id": "TG-HD-04",
+     "pattern": "Find the Sun's elevation from a pole and shadow, or their ratio",
+     "sample": "A $6$ m pole casts a shadow $6\\sqrt3$ m long. The Sun's angle of elevation is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 28,
+     "seenIn": [
+      "2012 main",
+      "2015 main",
+      "2017 compartment",
+      "2017 main",
+      "2020 main",
+      "2023 main",
+      "2024 compartment",
+      "2024 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2kt00jj7gcn425phqap"
+     ]
+    },
+    {
+     "id": "TG-HD-05",
+     "pattern": "Find a shadow length from the height and the Sun's altitude or its tan",
+     "sample": "A $15$ m tower stands on level ground when the Sun's altitude is $45^\\circ$. Its shadow length is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2023 compartment",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-HD-06",
+     "pattern": "Find an angle of elevation or depression from two lengths",
+     "sample": "A bird on a $10$ m tree sees a worm $10\\sqrt3$ m from the base. The angle of depression is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 10,
+     "seenIn": [
+      "2020 main",
+      "2025 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-HD-07",
+     "pattern": "Find the ground distance from a building using one angle of depression",
+     "sample": "From the roof of a $15$ m building, a car is seen at a depression of $60^\\circ$. Its distance from the foot is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2013 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ks00jf7gcnxc02h73l"
+     ]
+    },
+    {
+     "id": "TG-HD-08",
+     "pattern": "Two angles on the same side: find the gap or the height",
+     "sample": "From a $30$ m cliff, two boats on the same side are at depressions $30^\\circ$ and $45^\\circ$. The distance between them is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2ks00jh7gcnwf33xl9b",
+      "cmvq9r2kt00jl7gcnzvhl3b5k"
+     ]
+    },
+    {
+     "id": "TG-HD-AR1",
+     "pattern": "Assertion-reason: angle of elevation and depression between two points",
+     "sample": "A: If the elevation of a tower top from $P$ is $30^\\circ$, the depression of $P$ from the top is $30^\\circ$. R: They are alternate angles between parallel horizontals.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "TG-HD-B1",
+     "pattern": "Find a height and line-of-sight distance from distance and elevation",
+     "sample": "From a point $25$ m from a pole's foot, the top is at an elevation of $45^\\circ$. Find the pole height and the distance to its top.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2012 main",
+      "2022 main"
+     ],
+     "existingIds": [
+      "cmvq9r2kx00k57gcn6vge974e",
+      "cmvq9r2kx00k77gcnaj74oqec",
+      "cmvq9r2ky00k97gcn19y1k0jo"
+     ]
+    },
+    {
+     "id": "TG-HD-B2",
+     "pattern": "Find the Sun's elevation from the shadow-to-height ratio",
+     "sample": "The shadow of a tower is $\\sqrt3$ times its height. Find the Sun's angle of elevation.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-HD-B3",
+     "pattern": "Find a shadow length when tan of the Sun's elevation is given",
+     "sample": "A $12$ m pole stands on level ground and the tangent of the Sun's elevation is $\\frac{3}{4}$. Find its shadow length.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-HD-C1",
+     "pattern": "Two angles of depression or elevation on opposite sides: find the separation",
+     "sample": "From the top of a $60$ m tower, two cars on opposite sides are at depressions $30^\\circ$ and $60^\\circ$. Find the distance between them.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2011 main",
+      "2014 main",
+      "2022 main"
+     ],
+     "existingIds": [
+      "cmvq9r2l200kp7gcn3780v3ou"
+     ]
+    },
+    {
+     "id": "TG-HD-C2",
+     "pattern": "From a raised point, elevation to the top and depression to the foot: find the height",
+     "sample": "From a ship's deck $10$ m above water, a hilltop is at elevation $60^\\circ$ and its foot at depression $30^\\circ$. Find the hill's height.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2016 main",
+      "2022 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-HD-C3",
+     "pattern": "Two aeroplanes one above the other: find the vertical gap",
+     "sample": "Two aeroplanes fly one above the other, the lower at $1000$ m. From a ground point their elevations are $45^\\circ$ and $60^\\circ$. Find the gap.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2022 main",
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-HD-C4",
+     "pattern": "Two unequal poles joined by an inclined wire: find wire length and separation",
+     "sample": "Poles $5$ m and $11$ m high are joined by a wire at $30^\\circ$ to the horizontal. Find the wire length and the distance between them.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2013 main",
+      "2022 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-HD-C5",
+     "pattern": "Flagstaff on a tower: find the tower height from two elevations",
+     "sample": "A $6$ m flagstaff stands on a building. From a ground point its bottom and top are at elevations $30^\\circ$ and $45^\\circ$. Find the building's height.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2017 compartment"
+     ],
+     "existingIds": [
+      "cmvq9r2l200kn7gcn7wf4hix5"
+     ]
+    },
+    {
+     "id": "TG-HD-C6",
+     "pattern": "Tower and building: find one height from reciprocal foot-to-top elevations",
+     "sample": "The top of a $50$ m tower is at elevation $60^\\circ$ from a building's foot, and the building's top at $30^\\circ$ from the tower's foot. Find the building's height.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2012 main",
+      "2013 main",
+      "2015 main",
+      "2018 compartment",
+      "2022 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-HD-D1",
+     "pattern": "Two depressions on the same side: find the distance between the ships, or the height",
+     "sample": "From the top of a $100$ m lighthouse, two ships in line on one side are at depressions $30^\\circ$ and $45^\\circ$. Find the distance between them.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 13,
+     "seenIn": [
+      "2016 main",
+      "2018 main",
+      "2020 main",
+      "2022 main",
+      "2023 compartment",
+      "2023 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "d3"
+     ]
+    },
+    {
+     "id": "TG-HD-D2",
+     "pattern": "Two depressions on opposite sides: find the distance between ships or the river's width",
+     "sample": "From a bridge $20$ m above a river, the opposite banks are at depressions $30^\\circ$ and $45^\\circ$. Find the width of the river.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2017 main",
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-HD-D3",
+     "pattern": "Equal pillars across a road or river seen from a point between: find height and position",
+     "sample": "Two equal pillars stand on opposite sides of an $80$ m road. From a point between, their tops are at elevations $60^\\circ$ and $30^\\circ$. Find the height and the point's position.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2011 main",
+      "2019 main",
+      "2022 main",
+      "2023 main",
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-HD-D4",
+     "pattern": "Tower or pole on a building: two elevations from one ground point",
+     "sample": "A tower stands on a $30$ m building. From a ground point the tower's bottom is at $45^\\circ$ and its top at $60^\\circ$. Find the tower's height.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 15,
+     "seenIn": [
+      "2015 main",
+      "2017 compartment",
+      "2019 main",
+      "2020 main",
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2l300kv7gcnwq7jvamd"
+     ]
+    },
+    {
+     "id": "TG-HD-D5",
+     "pattern": "From the top of one structure, elevation of another's top and depression of its foot",
+     "sample": "From the top of a $15$ m building, a tower's top is at elevation $60^\\circ$ and its foot at depression $30^\\circ$. Find the tower's height.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 19,
+     "seenIn": [
+      "2011 main",
+      "2014 main",
+      "2018 compartment",
+      "2019 compartment",
+      "2020 main",
+      "2022 main",
+      "2023 compartment",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2l500l17gcnznll5w16"
+     ]
+    },
+    {
+     "id": "TG-HD-D6",
+     "pattern": "Tower seen from a ground point and from a point vertically above it",
+     "sample": "A tower's top is at elevation $60^\\circ$ from ground point $X$ and $45^\\circ$ from $Y$, $40$ m directly above $X$. Find the tower's height and its distance from $X$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2016 main",
+      "2022 compartment",
+      "2022 main",
+      "2023 main",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2l500l57gcnuowz8dz5"
+     ]
+    },
+    {
+     "id": "TG-HD-D7",
+     "pattern": "Moving object with depression or elevation change over time: find speed or remaining time",
+     "sample": "A ship heads straight for a lighthouse. Its depression changes from $30^\\circ$ to $60^\\circ$ in $8$ minutes. How much longer will it take to reach the foot?",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 17,
+     "seenIn": [
+      "2015 main",
+      "2016 main",
+      "2017 main",
+      "2019 main",
+      "2020 main",
+      "2021 compartment",
+      "2022 main",
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2l400kx7gcneuvzpbiy",
+      "cmvq9r2l500l37gcn78ui912q"
+     ]
+    },
+    {
+     "id": "TG-HD-D8",
+     "pattern": "Flying object seen on opposite sides after a time: find its speed",
+     "sample": "A plane at $1000$ m is seen at elevation $60^\\circ$ and $20$ s later at $30^\\circ$ on the other side of the observer. Find its speed.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-HD-D9",
+     "pattern": "Two ground observers on the same line: find a balloon's height and distances",
+     "sample": "Observers $A$ and $B$, $100$ m apart on one side of a balloon, see it at elevations $60^\\circ$ and $30^\\circ$. Find its height and its distance from $A$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2017 main",
+      "2023 main",
+      "2024 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-HD-D10",
+     "pattern": "Two towers with reciprocal elevations: find gap, second height and connecting wire",
+     "sample": "The taller of two towers is $60$ m. Its top is at $60^\\circ$ from the other's foot, and the other's top at $30^\\circ$ from its foot. Find the gap, the shorter height and the wire joining the tops.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2020 main",
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-HD-D11",
+     "pattern": "Kite or bird seen by one ground observer and one rooftop observer",
+     "sample": "A bird is seen at elevation $60^\\circ$ along a $40$ m sightline from ground point $A$. An observer on a $10$ m roof on the other side sees it at $30^\\circ$. Find the bird's distance from the roof observer.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2019 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-HD-D12",
+     "pattern": "Shadow grows as the Sun's altitude falls: find the height",
+     "sample": "A tower's shadow is $40$ m longer when the Sun's altitude is $30^\\circ$ than when it is $60^\\circ$. Find the tower's height.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2019 main",
+      "2022 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-HD-D13",
+     "pattern": "Reflection in a lake: elevation of an object and depression of its image",
+     "sample": "From $20$ m above a lake, a cloud is at elevation $30^\\circ$ and its reflection at depression $60^\\circ$. Find the cloud's height above the lake.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2015 main",
+      "2017 main",
+      "2020 main"
+     ],
+     "existingIds": [
+      "cmvq9r2l400kz7gcni0bghhx3"
+     ]
+    },
+    {
+     "id": "TG-HD-D14",
+     "pattern": "Sphere subtending an angle at the eye: prove a height relation (with tangents)",
+     "sample": "A balloon of radius $r$ subtends $60^\\circ$ at an observer's eye, and its centre is at elevation $30^\\circ$. Show that the centre is at height $r$ above the eye.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "TG-HD-E1",
+     "pattern": "Case study: two-section tower with a wire from one ground point",
+     "sample": "A tower has two sections; from $O$, $30$ m from its base, the section tops are at $30^\\circ$ and $60^\\circ$. (i) Lower section height. (ii) Wire length to the top. (iii) Upper section height.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2023 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-HD-E2",
+     "pattern": "Case study: kites at given heights and elevations",
+     "sample": "Kites at $40$ m and $60$ m have strings at $30^\\circ$ and $60^\\circ$ from one hand, same side. (i) First string. (ii) Second string. (iii) Horizontal gap between them.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2022 main",
+      "2025 compartment",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2l600l77gcnmmrkeo8n"
+     ]
+    },
+    {
+     "id": "TG-HD-E3",
+     "pattern": "Case study: a ladder with fixed foot leaning on one or two walls",
+     "sample": "A ladder reaches $6$ m up a wall at $30^\\circ$, then turns to the opposite wall at $60^\\circ$. (i) Length. (ii) Second height. (iii) Distance between the walls.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2024 compartment",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2l700lb7gcn4wryrdyv"
+     ]
+    },
+    {
+     "id": "TG-HD-E4",
+     "pattern": "Case study: moving ship, car or ambulance seen at two depressions from a height",
+     "sample": "A drone at $100$ m sees an ambulance at depression $30^\\circ$, then at $60^\\circ$ after $10$ s. (i) First distance from the point below. (ii) Distance moved. (iii) Speed.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-HD-E5",
+     "pattern": "Case study: tall structure seen from the ground and from a raised deck",
+     "sample": "A lighthouse is at elevation $60^\\circ$ from a ground point and $45^\\circ$ from a deck $20$ m directly above it. (i) Relate height and distance. (ii) Distance. (iii) Height.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-HD-E6",
+     "pattern": "Case study: elevation of the top and depression of the foot from a window",
+     "sample": "A window is $20$ m from a water tank; the tank's top is at elevation $45^\\circ$ and foot at depression $30^\\circ$. (i) Window height. (ii) Tank height above window. (iii) Tank height.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-HD-E7",
+     "pattern": "Case study: stairs or ramp slope to a raised door",
+     "sample": "A door sill is $6$ ft high and the stair's foot is $6\\sqrt3$ ft away. (i) Stair angle. (ii) Stair length. (iii) Stair length for a $10$ ft sill at $45^\\circ$.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-HD-E8",
+     "pattern": "Case study: a structure and its reflection in water",
+     "sample": "From $15$ m above a lake, a chhatri top is at elevation $30^\\circ$ and its reflection at depression $60^\\circ$. (i) Draw it. (ii) Height of the top above water. (iii) Horizontal distance.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2022 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-HD-E9",
+     "pattern": "Case study: statue on a base seen from two positions",
+     "sample": "A statue on a $10$ m base has its top at $60^\\circ$ from $20$ m away. (i) Top's height. (ii) Statue height. (iii) $\\tan\\alpha$ of the top's elevation from $5$ m up at the same spot.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-HD-E10",
+     "pattern": "Case study: structure or balloon seen from two ground points",
+     "sample": "A $30$ m block is at elevation $60^\\circ$ from $P$ and $30^\\circ$ from $Q$, on the same side. (i) Distance of $P$. (ii) Distance of $Q$. (iii) $PQ$.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2l600l97gcn1q9d0rdm",
+      "cmvq9r2l700ld7gcnerfa7eys"
+     ]
+    },
+    {
+     "id": "TG-NEW-01",
+     "pattern": "Ladder slides down a wall: from the change in its angle with the ground as the foot moves out, find the ladder length and the new height reached",
+     "sample": "A ladder leans against a wall at $60^\\circ$ to the ground. Its foot is pulled $2$ m further from the wall and it now makes $45^\\circ$ with the ground. Find the length of the ladder and how far its top slides down.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    },
+    {
+     "id": "TG-NEW-02",
+     "pattern": "Assertion-reason: ladder against a wall, a length found by Pythagoras checked against a claimed angle with the ground",
+     "sample": "A: A ladder whose foot is $5$ m from a wall and whose top is $12$ m up the wall is $13$ m long. R: The ladder makes an angle of $45^\\circ$ with the ground.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  },
+  {
+   "name": "Complementary-angle relations",
+   "scope": "verify",
+   "scopeNote": "Complementary-angle relations were probably removed from the syllabus (unconfirmed). The 2018-2019 rows that need them are marked legacy, and no 2024-2026 row needs them, so targets stay 0. A person must confirm.",
+   "patterns": [
+    {
+     "id": "TG-CA-01",
+     "pattern": "Evaluate or solve using sin(90° − A) = cos A style relations (MCQ)",
+     "sample": "The value of $\\cos^240^\\circ-\\sin^250^\\circ$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 23,
+     "seenIn": [
+      "2018 main",
+      "2019 compartment",
+      "2019 main",
+      "2020 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TG-CA-02",
+     "pattern": "Evaluate or solve using complementary-angle relations, including triangle-angle forms (3 marks)",
+     "sample": "Evaluate $\\frac{\\tan35^\\circ}{\\cot55^\\circ}+\\cos20^\\circ\\operatorname{cosec}70^\\circ$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 14,
+     "seenIn": [
+      "2018 compartment",
+      "2019 main",
+      "2020 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  }
+ ],
+ "outOfScope": [
+  {
+   "n": 54,
+   "why": "Depends on complementary-angle relations such as tan 20 × tan 70 = 1, probably cut; no 2024-2026 board row tests them. Unconfirmed.",
+   "id": "cmvq9r2l300kr7gcnbgaokob0"
+  }
+ ],
+ "fixes": [
+  {
+   "n": 1,
+   "issue": "Tagged medium, is a one-step recall of sin²+cos²=1; topic is General",
+   "suggest": "easy; topic Ratios of standard angles",
+   "id": "a13"
+  },
+  {
+   "n": 2,
+   "issue": "Tagged medium, is a direct recall; topic is General. Text also does not say the angle is acute",
+   "suggest": "easy; topic Ratios of standard angles; add \"acute\"",
+   "id": "a14"
+  },
+  {
+   "n": 3,
+   "issue": "Tagged medium, is direct substitution and two terms cancel; topic is General",
+   "suggest": "easy; topic Ratios of standard angles",
+   "id": "b4"
+  },
+  {
+   "n": 4,
+   "issue": "Topic is General",
+   "suggest": "topic Identities and proofs",
+   "id": "c5"
+  },
+  {
+   "n": 5,
+   "issue": "Topic is General",
+   "suggest": "topic Heights and distances",
+   "id": "d3"
+  },
+  {
+   "n": 6,
+   "issue": "Tagged easy, needs conversion to sec − tan and then the Pythagorean identity",
+   "suggest": "medium",
+   "id": "cmvq9r2ko00iv7gcn8bvqmg28"
+  },
+  {
+   "n": 17,
+   "issue": "Tagged easy, needs converting and factorising in a 3-mark proof",
+   "suggest": "medium",
+   "id": "cmvq9r2ky00kb7gcnolq8crno"
+  },
+  {
+   "n": 25,
+   "issue": "Tagged medium, is one step with tan 30°",
+   "suggest": "easy",
+   "id": "cmvq9r2ks00jf7gcnxc02h73l"
+  },
+  {
+   "n": 42,
+   "issue": "Tagged easy, but a case study with sub-parts 1+1+2 should be medium",
+   "suggest": "medium",
+   "id": "cmvq9r2l700lb7gcn4wryrdyv"
+  }
+ ]
+}

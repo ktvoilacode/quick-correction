@@ -1,0 +1,242 @@
+[
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Distance formula",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The distance between the points $P(7, -1)$ and $Q(-2, 11)$ is",
+  "options": [
+   "$15$ units",
+   "$21$ units",
+   "$\\sqrt{63}$ units",
+   "$9$ units"
+  ],
+  "answer": "Correct option: A) $15$ units. $PQ = \\sqrt{(7+2)^{2} + (-1-11)^{2}} = \\sqrt{81 + 144} = \\sqrt{225} = 15$."
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Midpoint",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The midpoint of the line segment joining $A(-6, 9)$ and $B(10, -3)$ is",
+  "options": [
+   "$(4, 6)$",
+   "$(2, 3)$",
+   "$(8, 3)$",
+   "$(-2, 3)$"
+  ],
+  "answer": "Correct option: B) $(2, 3)$. Midpoint $= \\left(\\frac{-6+10}{2}, \\frac{9-3}{2}\\right) = (2, 3)$."
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Points on axes and distance from axes",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "A point lies in the third quadrant at a distance of $3$ units from the $x$-axis and $8$ units from the $y$-axis. Its coordinates are",
+  "options": [
+   "$(-3, -8)$",
+   "$(8, 3)$",
+   "$(-8, -3)$",
+   "$(-8, 3)$"
+  ],
+  "answer": "Correct option: C) $(-8, -3)$. Distance from the $y$-axis is $|x| = 8$ and from the $x$-axis is $|y| = 3$; in the third quadrant both are negative, so the point is $(-8, -3)$."
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Section formula",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The $x$-axis divides the line segment joining $A(2, -6)$ and $B(5, 9)$ in the ratio",
+  "options": [
+   "$2 : 3$",
+   "$3 : 2$",
+   "$5 : 2$",
+   "$1 : 1$"
+  ],
+  "answer": "Correct option: A) $2 : 3$. Let the ratio be $m : n$. The $y$-coordinate of the dividing point is $\\frac{9m - 6n}{m + n} = 0$, so $9m = 6n$ and $m : n = 2 : 3$."
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Distance formula",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Assertion ($A$): The distance of the point $(-5, 12)$ from the origin is $17$ units.\nReason ($R$): The distance of a point $(x, y)$ from the origin is $\\sqrt{x^{2} + y^{2}}$.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: D) A is false but R is true. R is the correct formula, but it gives $\\sqrt{25 + 144} = \\sqrt{169} = 13$ units, not $17$, so A is false."
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Geometric shapes from coordinates",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The triangle with vertices $A(2, 3)$, $B(6, 0)$ and $C(9, 4)$ is",
+  "options": [
+   "equilateral",
+   "isosceles but not right-angled",
+   "isosceles and right-angled",
+   "scalene and right-angled"
+  ],
+  "answer": "Correct option: C) isosceles and right-angled. $AB = \\sqrt{16 + 9} = 5$, $BC = \\sqrt{9 + 16} = 5$ and $AC = \\sqrt{49 + 1} = \\sqrt{50}$. Since $AB = BC$ and $AB^{2} + BC^{2} = 50 = AC^{2}$, it is isosceles right-angled at $B$."
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Section formula",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The points $P$ and $Q$ trisect the line segment joining $A(-1, 5)$ and $B(5, -4)$. The coordinates of the trisection point $Q$ nearer to $B$ are",
+  "options": [
+   "$(1, 2)$",
+   "$(3, -1)$",
+   "$\\left(2, \\frac{1}{2}\\right)$",
+   "$\\left(4, -\\frac{5}{2}\\right)$"
+  ],
+  "answer": "Correct option: B) $(3, -1)$. $Q$ divides $AB$ in the ratio $2 : 1$, so $Q = \\left(\\frac{2(5) + 1(-1)}{3}, \\frac{2(-4) + 1(5)}{3}\\right)$, giving $(3, -1)$."
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Midpoint",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The midpoint of the line segment joining $A(x + 3, 5)$ and $B(-1, y - 7)$ is $(2, 3)$. Find $x$ and $y$.",
+  "answer": "Midpoint: $\\frac{x + 3 - 1}{2} = 2$ gives $x + 2 = 4$, so $x = 2$. And $\\frac{5 + y - 7}{2} = 3$ gives $y - 2 = 6$, so $y = 8$.\nHence $x = 2$ and $y = 8$."
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Points on axes and distance from axes",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Find the points on the $y$-axis which are at a distance of $10$ units from the point $(8, 2)$.",
+  "answer": "Let the point be $(0, y)$. Then $\\sqrt{(0-8)^{2} + (y-2)^{2}} = 10$, so $64 + (y-2)^{2} = 100$ and $(y-2)^{2} = 36$, giving $y = 8$ or $y = -4$.\nThe points are $(0, 8)$ and $(0, -4)$."
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Section formula",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Find the ratio in which the point $P(4, 3)$ divides the line segment joining $A(-2, -3)$ and $B(6, 5)$.",
+  "answer": "Let $P$ divide $AB$ in the ratio $k : 1$. Then $4 = \\frac{6k - 2}{k + 1}$, so $4k + 4 = 6k - 2$ and $k = 3$.\nCheck with $y$: $\\frac{5(3) - 3}{4} = 3$.\nThe ratio is $3 : 1$."
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Distance formula",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Prove that if a point $P(x, y)$ is equidistant from $A(5, 1)$ and $B(-1, 5)$, then $3x = 2y$.",
+  "answer": "$PA = PB$ gives $(x-5)^{2} + (y-1)^{2} = (x+1)^{2} + (y-5)^{2}$.\n$x^{2} - 10x + 25 + y^{2} - 2y + 1 = x^{2} + 2x + 1 + y^{2} - 10y + 25$\n$-12x + 8y = 0$, so $3x = 2y$. Hence proved."
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Midpoint",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The vertices of a triangle are $A(2, 5)$, $B(-4, 1)$ and $C(6, -3)$. Find the length of the median through $A$.",
+  "answer": "The median from $A$ meets $BC$ at its midpoint $D = \\left(\\frac{-4+6}{2}, \\frac{1-3}{2}\\right) = (1, -1)$.\n$AD = \\sqrt{(2-1)^{2} + (5+1)^{2}} = \\sqrt{1 + 36} = \\sqrt{37}$.\nThe median has length $\\sqrt{37}$ units."
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Distance formula",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "hard",
+  "competency": false,
+  "text": "Find the points on the $x$-axis from which the line segment joining $A(1, 3)$ and $B(9, -3)$ subtends a right angle.",
+  "answer": "Let $P(x, 0)$ with $\\angle APB = 90^\\circ$. Then $PA^{2} + PB^{2} = AB^{2}$.\n$PA^{2} = (x-1)^{2} + 9$, $PB^{2} = (x-9)^{2} + 9$, $AB^{2} = 64 + 36 = 100$.\n$(x-1)^{2} + (x-9)^{2} + 18 = 100$ gives $2x^{2} - 20x + 100 = 100$, so $x(x - 10) = 0$.\nThe points are $(0, 0)$ and $(10, 0)$."
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Geometric shapes from coordinates",
+  "slot": "D-long (5 marks)",
+  "type": "long",
+  "marks": 5,
+  "complexity": "medium",
+  "competency": false,
+  "text": "$A(2, -1)$, $B(5, 3)$ and $C(9, 0)$ are three consecutive vertices of a parallelogram $ABCD$. Find the coordinates of $D$. Hence show that $ABCD$ is a square.",
+  "answer": "Diagonals of a parallelogram bisect each other. Midpoint of $AC = \\left(\\frac{11}{2}, -\\frac{1}{2}\\right)$. Let $D(x, y)$; midpoint of $BD = \\left(\\frac{5+x}{2}, \\frac{3+y}{2}\\right)$.\nSo $5 + x = 11$ and $3 + y = -1$, giving $D(6, -4)$.\nSides: $AB = \\sqrt{9+16} = 5$, $BC = \\sqrt{16+9} = 5$, $CD = \\sqrt{9+16} = 5$, $DA = \\sqrt{16+9} = 5$. All sides are equal, so it is a rhombus.\nDiagonals: $AC = \\sqrt{49+1} = \\sqrt{50}$ and $BD = \\sqrt{1+49} = \\sqrt{50}$, which are equal.\nA rhombus with equal diagonals is a square. Hence $D(6, -4)$ and $ABCD$ is a square."
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Geometric shapes from coordinates",
+  "slot": "D-long (5 marks)",
+  "type": "long",
+  "marks": 5,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Show that the points $P(-2, 1)$, $Q(1, 3)$, $R(4, 1)$ and $S(1, -1)$, taken in order, are the vertices of a rhombus but not a square. Also show that the diagonals bisect each other.",
+  "answer": "$PQ = \\sqrt{9+4} = \\sqrt{13}$, $QR = \\sqrt{9+4} = \\sqrt{13}$, $RS = \\sqrt{9+4} = \\sqrt{13}$, $SP = \\sqrt{9+4} = \\sqrt{13}$. All four sides are equal, so $PQRS$ is a rhombus.\nDiagonals: $PR = \\sqrt{36+0} = 6$ and $QS = \\sqrt{0+16} = 4$. They are unequal, so $PQRS$ is not a square.\nMidpoint of $PR = \\left(\\frac{-2+4}{2}, \\frac{1+1}{2}\\right) = (1, 1)$ and midpoint of $QS = \\left(\\frac{1+1}{2}, \\frac{3-1}{2}\\right) = (1, 1)$. Same midpoint, so the diagonals bisect each other.\nHence $PQRS$ is a rhombus but not a square."
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Section formula",
+  "slot": "D-long (5 marks)",
+  "type": "long",
+  "marks": 5,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The line segment joining $A(4, -3)$ and $B(-6, 7)$ is cut by the $y$-axis at $P$ and by the $x$-axis at $Q$. Find the ratio in which each axis divides $AB$, the coordinates of $P$ and $Q$, and the length $PQ$.",
+  "answer": "$y$-axis: let the ratio be $m : n$. $x = \\frac{-6m + 4n}{m+n} = 0$, so $6m = 4n$ and $m : n = 2 : 3$. Then $y = \\frac{2(7) + 3(-3)}{5} = 1$, so $P(0, 1)$.\n$x$-axis: let the ratio be $p : q$. $y = \\frac{7p - 3q}{p+q} = 0$, so $7p = 3q$ and $p : q = 3 : 7$. Then $x = \\frac{3(-6) + 7(4)}{10} = 1$, so $Q(1, 0)$.\n$PQ = \\sqrt{(0-1)^{2} + (1-0)^{2}} = \\sqrt{2}$.\nThe $y$-axis divides $AB$ in $2 : 3$ at $P(0, 1)$, the $x$-axis in $3 : 7$ at $Q(1, 0)$, and $PQ = \\sqrt{2}$ units."
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Distance formula",
+  "slot": "D-long (5 marks)",
+  "type": "long",
+  "marks": 5,
+  "complexity": "hard",
+  "competency": true,
+  "text": "The vertices of a triangle are $A(-1, 5)$, $B(k, 1)$ and $C(5, -3)$. Find the values of $k$ for which the triangle is right-angled at $B$. For the greater value of $k$, find the length of the hypotenuse $AC$ and show that the midpoint of $AC$ is at distance $\\frac{1}{2}AC$ from $B$.",
+  "answer": "Right angle at $B$: $AB^{2} + BC^{2} = AC^{2}$.\n$AB^{2} = (k+1)^{2} + 16$, $BC^{2} = (k-5)^{2} + 16$, $AC^{2} = 36 + 64 = 100$.\n$k^{2} + 2k + 1 + k^{2} - 10k + 25 + 32 = 100$ gives $2k^{2} - 8k - 42 = 0$, so $k^{2} - 4k - 21 = 0$ and $(k-7)(k+3) = 0$.\nSo $k = 7$ or $k = -3$.\nFor $k = 7$: $AC = \\sqrt{36 + 64} = 10$. Midpoint $M$ of $AC = \\left(\\frac{-1+5}{2}, \\frac{5-3}{2}\\right) = (2, 1)$. $BM = \\sqrt{(7-2)^{2} + (1-1)^{2}} = 5 = \\frac{1}{2}(10)$.\nHence $k = 7$ or $-3$, $AC = 10$ and $BM = \\frac{1}{2}AC$."
+ },
+ {
+  "chapter": "Coordinate Geometry",
+  "topic": "Midpoint",
+  "slot": "D-long (5 marks)",
+  "type": "long",
+  "marks": 5,
+  "complexity": "medium",
+  "competency": false,
+  "text": "In triangle $ABC$, $A(2, 1)$, $B(6, 4)$ and $C(-4, 9)$. Show that the triangle is right-angled at $A$. Find the midpoint $D$ of the hypotenuse $BC$ and verify that $AD = \\frac{1}{2}BC$.",
+  "answer": "$AB = \\sqrt{16+9} = 5$, $AC = \\sqrt{36+64} = 10$, $BC = \\sqrt{100+25} = \\sqrt{125} = 5\\sqrt{5}$.\n$AB^{2} + AC^{2} = 25 + 100 = 125 = BC^{2}$, so the triangle is right-angled at $A$.\nMidpoint of $BC$: $D = \\left(\\frac{6-4}{2}, \\frac{4+9}{2}\\right) = \\left(1, \\frac{13}{2}\\right)$.\n$AD = \\sqrt{(2-1)^{2} + \\left(1 - \\frac{13}{2}\\right)^{2}} = \\sqrt{1 + \\frac{121}{4}} = \\frac{\\sqrt{125}}{2} = \\frac{5\\sqrt{5}}{2}$.\nAlso $\\frac{1}{2}BC = \\frac{5\\sqrt{5}}{2}$. Hence $AD = \\frac{1}{2}BC$."
+ }
+]

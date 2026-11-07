@@ -1,0 +1,320 @@
+[
+ {
+  "idx": 0,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Two fair dice are thrown together. The probability that the sum of the numbers on the top faces is 9 is",
+  "options": [
+   "1/9",
+   "1/12",
+   "1/6",
+   "5/36"
+  ]
+ },
+ {
+  "idx": 1,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Two dice are rolled once. The probability that the difference of the numbers on them is 2 is",
+  "options": [
+   "1/9",
+   "1/6",
+   "2/9",
+   "5/18"
+  ]
+ },
+ {
+  "idx": 2,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A die is thrown once. The probability of getting a prime number is",
+  "options": [
+   "1/3",
+   "1/2",
+   "2/3",
+   "5/6"
+  ]
+ },
+ {
+  "idx": 3,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Two dice are thrown together. The probability that the sum of the numbers is either 5 or 11 is",
+  "options": [
+   "1/9",
+   "5/36",
+   "1/12",
+   "1/6"
+  ]
+ },
+ {
+  "idx": 4,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A card is drawn at random from cards numbered 1 to 30. The probability that the number on it is a multiple of 7 is",
+  "options": [
+   "4/15",
+   "1/7",
+   "2/15",
+   "1/5"
+  ]
+ },
+ {
+  "idx": 5,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Cards numbered 2, 3, 4, ..., 21 are placed in a box and one card is drawn at random. The probability that the number is prime is",
+  "options": [
+   "9/20",
+   "2/5",
+   "7/20",
+   "3/10"
+  ]
+ },
+ {
+  "idx": 6,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The probability of winning a raffle is 2/25. If 400 tickets were sold in all, the number of tickets bought by one person who has this winning probability is",
+  "options": [
+   32,
+   16,
+   25,
+   40
+  ]
+ },
+ {
+  "idx": 7,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A two-digit number is chosen at random. The probability that it is divisible by 5 is",
+  "options": [
+   "1/9",
+   "2/9",
+   "1/10",
+   "1/5"
+  ]
+ },
+ {
+  "idx": 8,
+  "marks": 1,
+  "type": "mcq",
+  "text": "If the probability that an event E happens is 0.37, then the probability that E does not happen is",
+  "options": [
+   "0.73",
+   "0.63",
+   "0.37",
+   "0.53"
+  ]
+ },
+ {
+  "idx": 9,
+  "marks": 1,
+  "type": "mcq",
+  "text": "For an event E, P(E) = 2x and P(not E) = x + 0.4. The value of P(E) is",
+  "options": [
+   "0.2",
+   "0.4",
+   "0.6",
+   "0.8"
+  ]
+ },
+ {
+  "idx": 10,
+  "marks": 1,
+  "type": "mcq",
+  "text": "If P(not E) is three times P(E), then P(E) is",
+  "options": [
+   "1/3",
+   "3/4",
+   "1/4",
+   "1/2"
+  ]
+ },
+ {
+  "idx": 11,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Which of the following can be the probability of an event?",
+  "options": [
+   "4/3",
+   "\u22120.25",
+   "1.05",
+   "11/12"
+  ]
+ },
+ {
+  "idx": 12,
+  "marks": 1,
+  "type": "mcq",
+  "text": "In a group of 40 persons, 9 cannot swim. One person is chosen at random. The probability that the person can swim is",
+  "options": [
+   "31/40",
+   "9/40",
+   "31/9",
+   "9/31"
+  ]
+ },
+ {
+  "idx": 13,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A bag contains 5 red, 8 white, 4 green and 3 black balls. One ball is drawn at random. The probability that it is neither white nor green is",
+  "options": [
+   "3/5",
+   "2/5",
+   "1/4",
+   "13/20"
+  ]
+ },
+ {
+  "idx": 14,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A bag contains 9 red balls and some green balls. If the probability of drawing a red ball is 3/7, the number of green balls is",
+  "options": [
+   6,
+   16,
+   12,
+   21
+  ]
+ },
+ {
+  "idx": 15,
+  "marks": 1,
+  "type": "mcq",
+  "text": "A card is drawn from a well-shuffled pack of 52 cards. The probability that it is a red face card is",
+  "options": [
+   "3/13",
+   "1/13",
+   "3/52",
+   "3/26"
+  ]
+ },
+ {
+  "idx": 16,
+  "marks": 1,
+  "type": "mcq",
+  "text": "One card is drawn from a well-shuffled deck of 52 cards. The probability that it is a king or a heart is",
+  "options": [
+   "4/13",
+   "17/52",
+   "1/2",
+   "3/13"
+  ]
+ },
+ {
+  "idx": 17,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Three fair coins are tossed together. The probability of getting exactly two heads is",
+  "options": [
+   "1/4",
+   "3/8",
+   "1/2",
+   "3/4"
+  ]
+ },
+ {
+  "idx": 18,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Assertion (A): If the probability that it rains tomorrow is 0.58, then the probability that it does not rain tomorrow is 0.42.\nReason (R): For any event E, P(E) + P(not E) = 1.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ]
+ },
+ {
+  "idx": 19,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Assertion (A): The probability that a non-leap year has 53 Sundays is 2/7.\nReason (R): A non-leap year has 52 complete weeks and 1 extra day.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ]
+ },
+ {
+  "idx": 20,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Assertion (A): When a fair coin is tossed once, the probability of getting a head is 1/2.\nReason (R): The probability of any event always lies between 0 and 1, both inclusive.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ]
+ },
+ {
+  "idx": 21,
+  "marks": 2,
+  "type": "short",
+  "text": "A bag contains 3 red, 5 blue and 7 yellow balls. One ball is drawn at random. Find the probability that it is (i) blue, (ii) not yellow."
+ },
+ {
+  "idx": 22,
+  "marks": 2,
+  "type": "short",
+  "text": "A bag contains 12 red and 8 blue balls. How many red balls must be added to the bag so that the probability of drawing a red ball becomes 4/5?"
+ },
+ {
+  "idx": 23,
+  "marks": 2,
+  "type": "short",
+  "text": "A card is drawn at random from a well-shuffled pack of 52 cards. Find the probability that it is (i) a red king, (ii) a spade that is not an ace."
+ },
+ {
+  "idx": 24,
+  "marks": 2,
+  "type": "short",
+  "text": "Three coins are tossed together. Find the probability of getting (i) at most one head, (ii) all three faces the same."
+ },
+ {
+  "idx": 25,
+  "marks": 2,
+  "type": "short",
+  "text": "In a class of 48 students, the probability that a randomly chosen student does not cycle to school is 7/12. Find the number of students who cycle to school."
+ },
+ {
+  "idx": 26,
+  "marks": 3,
+  "type": "short",
+  "text": "Two dice are thrown together. Find the probability that (i) the sum of the numbers is a perfect square, (ii) the product of the numbers is 12, (iii) the numbers differ by 3."
+ },
+ {
+  "idx": 27,
+  "marks": 3,
+  "type": "short",
+  "text": "Three coins are tossed together. Find the probability of getting (i) at least one tail, (ii) exactly two heads, (iii) more heads than tails."
+ },
+ {
+  "idx": 28,
+  "marks": 3,
+  "type": "short",
+  "text": "Discs numbered 1 to 50 are placed in a box and one is drawn at random. Find the probability that the number on it is (i) a multiple of 4, (ii) a multiple of 6, (iii) a multiple of 4 or of 6."
+ },
+ {
+  "idx": 29,
+  "marks": 4,
+  "type": "case",
+  "text": "At a school fair, a lucky-draw box contains 60 tickets numbered 1 to 60. A visitor draws one ticket at random.\n(i) Find the probability that the number on the ticket is a multiple of 10. [1]\n(ii) Find the probability that the number is a perfect square. [1]\n(iii) Find the probability that the number is a two-digit prime number. [2]"
+ },
+ {
+  "idx": 30,
+  "marks": 4,
+  "type": "case",
+  "text": "A parking area has 80 vehicles: 32 two-wheelers, 28 cars, 12 autorickshaws and the rest are trucks. A vehicle is picked at random to be checked.\n(i) Find the probability that it is a truck. [1]\n(ii) Find the probability that it is not a car. [1]\n(iii) If 20 more two-wheelers enter the parking area, find the probability that a vehicle picked at random is a two-wheeler. [2]"
+ },
+ {
+  "idx": 31,
+  "marks": 4,
+  "type": "case",
+  "text": "In a game stall, a player throws two fair dice together. The stall owner announces different prizes for different results.\n(i) Find the probability that the sum of the numbers is 10. [1]\n(ii) Find the probability of getting a doublet (same number on both dice). [1]\n(iii) Neha wins a gift if the sum is at least 10 or the dice show a doublet. Find the probability that Neha wins. [2]"
+ }
+]

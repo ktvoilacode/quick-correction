@@ -1,0 +1,1377 @@
+[
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Circumference and area of a circle",
+    "patternId": "AC-CIR-01",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "The circumferences of two circles are in the ratio $4:7$. The ratio of their radii is",
+    "options": [
+      "$16:49$",
+      "$7:4$",
+      "$4:7$",
+      "$2:\\sqrt{7}$"
+    ],
+    "answer": "Correct option: C) $4:7$. $\\frac{2\\pi r_{1}}{2\\pi r_{2}} = \\frac{4}{7}$, so $r_{1}:r_{2} = 4:7$. ($16:49$ is the ratio of the areas.)",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Circumference and area of a circle",
+    "patternId": "AC-CIR-02",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "A semicircular protractor has diameter $d$. The area of its face is",
+    "options": [
+      "$\\frac{1}{4}\\pi d^{2}$",
+      "$\\frac{1}{8}\\pi d^{2}$",
+      "$\\frac{1}{2}\\pi d^{2}$",
+      "$\\frac{1}{16}\\pi d^{2}$"
+    ],
+    "answer": "Correct option: B) $\\frac{1}{8}\\pi d^{2}$. Radius $= \\frac{d}{2}$, so area $= \\frac{1}{2}\\pi\\left(\\frac{d}{2}\\right)^{2} = \\frac{\\pi d^{2}}{8}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Circumference and area of a circle",
+    "patternId": "AC-CIR-03",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A semicircular flower bed has an area of $693\\text{ m}^{2}$. The length of fencing needed to go all round its boundary is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$66\\text{ m}$",
+      "$87\\text{ m}$",
+      "$132\\text{ m}$",
+      "$108\\text{ m}$"
+    ],
+    "answer": "Correct option: D) $108\\text{ m}$. $\\frac{1}{2}\\times\\frac{22}{7}r^{2} = 693$ gives $r^{2} = 441$, $r = 21\\text{ m}$. Perimeter $= \\pi r + 2r = 66 + 42 = 108\\text{ m}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Circumference and area of a circle",
+    "patternId": "AC-CIR-04",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A circle and a semicircle have the same radius. The numerical value of the area of the circle equals the numerical value of the perimeter of the semicircle. Using $\\pi = \\frac{22}{7}$, the diameter of the circle is",
+    "options": [
+      "$\\frac{36}{11}$ units",
+      "$\\frac{18}{11}$ units",
+      "$\\frac{7}{11}$ units",
+      "$\\frac{11}{18}$ units"
+    ],
+    "answer": "Correct option: A) $\\frac{36}{11}$ units. $\\pi r^{2} = \\pi r + 2r$ gives $r = 1 + \\frac{2}{\\pi} = 1 + \\frac{7}{11} = \\frac{18}{11}$, so diameter $= \\frac{36}{11}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Circumference and area of a circle",
+    "patternId": "AC-CIR-05",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A wire of length $88\\text{ cm}$ is first bent into a square and then rebent into a circle. The ratio of the area of the square to the area of the circle is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$14:11$",
+      "$7:11$",
+      "$11:14$",
+      "$22:7$"
+    ],
+    "answer": "Correct option: C) $11:14$. Square: side $22\\text{ cm}$, area $484\\text{ cm}^{2}$. Circle: $2\\pi r = 88$, $r = 14\\text{ cm}$, area $616\\text{ cm}^{2}$. $484:616 = 11:14$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Circumference and area of a circle",
+    "patternId": "AC-CIR-06",
+    "type": "assertion_reason",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Assertion (A): A circular running track of circumference $132\\text{ m}$ has a diameter of $21\\text{ m}$. (Use $\\pi = \\frac{22}{7}$)\nReason (R): The circumference of a circle of radius $r$ is $2\\pi r$.",
+    "options": [
+      "Both A and R are true and R explains A",
+      "Both A and R are true but R does not explain A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: D) A is false but R is true. $2\\times\\frac{22}{7}\\times r = 132$ gives $r = 21\\text{ m}$, so the diameter is $42\\text{ m}$, not $21\\text{ m}$. R is the correct formula.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Circumference and area of a circle",
+    "patternId": "AC-NEW-05",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "A square is drawn inside a circle of radius $6\\text{ cm}$ so that all four vertices lie on the circle. The area of the square is",
+    "options": [
+      "$144\\text{ cm}^{2}$",
+      "$72\\text{ cm}^{2}$",
+      "$36\\text{ cm}^{2}$",
+      "$72\\sqrt{2}\\text{ cm}^{2}$"
+    ],
+    "answer": "Correct option: B) $72\\text{ cm}^{2}$. The diagonal is a diameter, $12\\text{ cm}$. Area $= \\frac{1}{2}d^{2} = \\frac{1}{2}\\times 144 = 72\\text{ cm}^{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "patternId": "AC-SEC-02",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "The perimeter of a quadrant of a circle of radius $7\\text{ cm}$ is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$11\\text{ cm}$",
+      "$18\\text{ cm}$",
+      "$25\\text{ cm}$",
+      "$36\\text{ cm}$"
+    ],
+    "answer": "Correct option: C) $25\\text{ cm}$. Arc $= \\frac{1}{4}\\times 2\\times\\frac{22}{7}\\times 7 = 11\\text{ cm}$. Perimeter $= 11 + 7 + 7 = 25\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "patternId": "AC-SEC-03",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "A sector of a circle of radius $10\\text{ cm}$ has area $25\\pi\\text{ cm}^{2}$. The central angle of the sector is",
+    "options": [
+      "$90^\\circ$",
+      "$45^\\circ$",
+      "$180^\\circ$",
+      "$60^\\circ$"
+    ],
+    "answer": "Correct option: A) $90^\\circ$. $\\frac{\\theta}{360^\\circ}\\times\\pi\\times 100 = 25\\pi$ gives $\\theta = 90^\\circ$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "patternId": "AC-SEC-04",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A sector of a circle with central angle $120^\\circ$ has area $462\\text{ cm}^{2}$. The radius of the circle is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$7\\text{ cm}$",
+      "$14\\text{ cm}$",
+      "$42\\text{ cm}$",
+      "$21\\text{ cm}$"
+    ],
+    "answer": "Correct option: D) $21\\text{ cm}$. $\\frac{120}{360}\\times\\frac{22}{7}r^{2} = 462$ gives $r^{2} = 441$, $r = 21\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "patternId": "AC-SEC-05",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "A circular pizza is cut through its centre into $10$ equal slices. The angle at the centre of each slice is",
+    "options": [
+      "$18^\\circ$",
+      "$36^\\circ$",
+      "$40^\\circ$",
+      "$30^\\circ$"
+    ],
+    "answer": "Correct option: B) $36^\\circ$. Each slice gets $\\frac{360^\\circ}{10} = 36^\\circ$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "patternId": "AC-SEC-06",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "A circle of radius $21\\text{ cm}$ is divided into $12$ equal sectors. The area of each sector is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$115.5\\text{ cm}^{2}$",
+      "$231\\text{ cm}^{2}$",
+      "$57.75\\text{ cm}^{2}$",
+      "$1386\\text{ cm}^{2}$"
+    ],
+    "answer": "Correct option: A) $115.5\\text{ cm}^{2}$. Circle area $= \\frac{22}{7}\\times 441 = 1386\\text{ cm}^{2}$; each sector $= \\frac{1386}{12} = 115.5\\text{ cm}^{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "patternId": "AC-SEC-07",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "In the figure, $O$ is the centre of a circle of radius $21\\text{ cm}$. The three shaded sectors have central angles $70^\\circ$, $80^\\circ$ and $90^\\circ$. The total shaded area is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$462\\text{ cm}^{2}$",
+      "$88\\text{ cm}^{2}$",
+      "$924\\text{ cm}^{2}$",
+      "$1386\\text{ cm}^{2}$"
+    ],
+    "answer": "Correct option: C) $924\\text{ cm}^{2}$. Total angle $= 240^\\circ$. Area $= \\frac{240}{360}\\times\\frac{22}{7}\\times 441 = \\frac{2}{3}\\times 1386 = 924\\text{ cm}^{2}$.",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 320\"><circle cx=\"200\" cy=\"160\" r=\"120\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 200 160 L 320 160 A 120 120 0 0 0 241.04 47.24 Z\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"258.98\" y=\"123.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">70°</text><path d=\"M 200 160 L 158.96 47.24 A 120 120 0 0 0 81.82 180.84 Z\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"137.65\" y=\"129\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">80°</text><path d=\"M 200 160 L 108.07 237.13 A 120 120 0 0 0 277.13 251.93 Z\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"193.72\" y=\"236.73\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">90°</text><line x1=\"200\" y1=\"160\" x2=\"303.92\" y2=\"220\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"267.15\" y=\"219.37\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">21 cm</text><circle cx=\"200\" cy=\"160\" r=\"2.5\" fill=\"#000\"/><text x=\"186\" y=\"178\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text></svg>",
+    "figureAlt": "A circle with centre O and radius 21 cm. Three shaded sectors, separated by unshaded gaps, have central angles 70°, 80° and 90°.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "patternId": "AC-SEC-08",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The arc of a sector of a circle of radius $14\\text{ cm}$ is $33\\text{ cm}$ long. The area of the sector is",
+    "options": [
+      "$462\\text{ cm}^{2}$",
+      "$115.5\\text{ cm}^{2}$",
+      "$154\\text{ cm}^{2}$",
+      "$231\\text{ cm}^{2}$"
+    ],
+    "answer": "Correct option: D) $231\\text{ cm}^{2}$. Area $= \\frac{1}{2}lr = \\frac{1}{2}\\times 33\\times 14 = 231\\text{ cm}^{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": "π not needed (A = lr/2); fine."
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "patternId": "AC-SEC-09",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The radius of a sector is made $3$ times and its central angle is made one-third. The area of the new sector is how many times the area of the original sector?",
+    "options": [
+      "$1$",
+      "$3$",
+      "$9$",
+      "$\\frac{1}{3}$"
+    ],
+    "answer": "Correct option: B) $3$. Area $\\propto \\theta r^{2}$: new area $= \\frac{1}{3}\\times 3^{2} = 3$ times the original.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "patternId": "AC-SEC-10",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "The diagonals of a rhombus $ABCD$ intersect at $O$. With centre $O$ and radius $14\\text{ cm}$, an arc is drawn from a point on $OA$ to a point on $OB$. The area of the sector so formed is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$616\\text{ cm}^{2}$",
+      "$77\\text{ cm}^{2}$",
+      "$154\\text{ cm}^{2}$",
+      "$22\\text{ cm}^{2}$"
+    ],
+    "answer": "Correct option: C) $154\\text{ cm}^{2}$. The diagonals of a rhombus bisect each other at right angles, so $\\angle AOB = 90^\\circ$. Area $= \\frac{1}{4}\\times\\frac{22}{7}\\times 196 = 154\\text{ cm}^{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "patternId": "AC-SEC-13",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The perimeter of a sector of a circle of radius $14\\text{ cm}$ is $50\\text{ cm}$. Find the area of the sector.",
+    "answer": "Perimeter $= 2r + l$, so $l = 50 - 28 = 22\\text{ cm}$.\nArea of sector $= \\frac{1}{2}lr = \\frac{1}{2}\\times 22\\times 14 = 154\\text{ cm}^{2}$.",
+    "markingSteps": [
+      {
+        "step": "Arc length $l = 50 - 2\\times 14 = 22\\text{ cm}$",
+        "marks": 1
+      },
+      {
+        "step": "Area $= \\frac{1}{2}lr = 154\\text{ cm}^{2}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "patternId": "AC-SEC-15",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": true,
+    "text": "A flower bed in a park is in the shape of a sector of a circle of radius $10.5\\text{ m}$ with central angle $120^\\circ$. Find the length of the brick edging needed to go once around the whole bed. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "Arc length $= \\frac{120}{360}\\times 2\\times\\frac{22}{7}\\times 10.5 = \\frac{1}{3}\\times 66 = 22\\text{ m}$.\nEdging $=$ arc $+ 2r = 22 + 21 = 43\\text{ m}$.",
+    "markingSteps": [
+      {
+        "step": "Arc length $= 22\\text{ m}$",
+        "marks": 1
+      },
+      {
+        "step": "Perimeter $= 22 + 2\\times 10.5 = 43\\text{ m}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "patternId": "AC-SEC-16",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The area of a sector of a circle is $231\\text{ cm}^{2}$ and the length of its arc is $22\\text{ cm}$. Find the radius of the circle and the angle of the sector. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "Area $= \\frac{1}{2}lr$: $231 = \\frac{1}{2}\\times 22\\times r$, so $r = 21\\text{ cm}$.\n$l = \\frac{\\theta}{360^\\circ}\\times 2\\pi r$: $22 = \\frac{\\theta}{360^\\circ}\\times 132$, so $\\theta = 60^\\circ$.",
+    "markingSteps": [
+      {
+        "step": "Using $A = \\frac{1}{2}lr$, $r = 21\\text{ cm}$",
+        "marks": 1
+      },
+      {
+        "step": "Using arc length formula, $\\theta = 60^\\circ$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "patternId": "AC-SEC-17",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "In a circle of radius $28\\text{ cm}$, an arc subtends an angle of $45^\\circ$ at the centre. Find the length of the arc and the area of the corresponding sector. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "Arc length $= \\frac{45}{360}\\times 2\\times\\frac{22}{7}\\times 28 = \\frac{1}{8}\\times 176 = 22\\text{ cm}$.\nArea of sector $= \\frac{45}{360}\\times\\frac{22}{7}\\times 28\\times 28 = \\frac{1}{8}\\times 2464 = 308\\text{ cm}^{2}$.",
+    "markingSteps": [
+      {
+        "step": "Arc length formula and value $22\\text{ cm}$",
+        "marks": 1
+      },
+      {
+        "step": "Sector area formula with values substituted",
+        "marks": 1
+      },
+      {
+        "step": "Area $= 308\\text{ cm}^{2}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "patternId": "AC-SEC-18",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A chord of a circle of radius $28\\text{ cm}$ subtends a right angle at the centre. Find the areas of the minor sector and the major sector. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "Area of circle $= \\frac{22}{7}\\times 28\\times 28 = 2464\\text{ cm}^{2}$.\nMinor sector $= \\frac{90}{360}\\times 2464 = 616\\text{ cm}^{2}$.\nMajor sector $= 2464 - 616 = 1848\\text{ cm}^{2}$.",
+    "markingSteps": [
+      {
+        "step": "Area of circle $= 2464\\text{ cm}^{2}$",
+        "marks": 1
+      },
+      {
+        "step": "Minor sector $= 616\\text{ cm}^{2}$",
+        "marks": 1
+      },
+      {
+        "step": "Major sector $= 1848\\text{ cm}^{2}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "patternId": "AC-SEC-19",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A circular table top of diameter $70\\text{ cm}$ is divided into $10$ equal sectors by lines through its centre. Find the area and the perimeter of one sector. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "Radius $= 35\\text{ cm}$; angle of each sector $= 36^\\circ$.\nArea $= \\frac{1}{10}\\times\\frac{22}{7}\\times 35\\times 35 = \\frac{3850}{10} = 385\\text{ cm}^{2}$.\nArc $= \\frac{1}{10}\\times 2\\times\\frac{22}{7}\\times 35 = 22\\text{ cm}$, so perimeter $= 22 + 35 + 35 = 92\\text{ cm}$.",
+    "markingSteps": [
+      {
+        "step": "Radius $35\\text{ cm}$ and angle $36^\\circ$",
+        "marks": 1
+      },
+      {
+        "step": "Area of one sector $= 385\\text{ cm}^{2}$",
+        "marks": 1
+      },
+      {
+        "step": "Arc $22\\text{ cm}$, perimeter $= 92\\text{ cm}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "patternId": "AC-SEC-22",
+    "type": "short",
+    "marks": 3,
+    "complexity": "easy",
+    "competency": false,
+    "text": "In the figure, $O$ is the centre of a circle of radius $7\\text{ cm}$. The three shaded sectors have central angles $80^\\circ$, $90^\\circ$ and $100^\\circ$. Find the total area of the shaded region. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "Sum of the angles $= 80^\\circ + 90^\\circ + 100^\\circ = 270^\\circ$.\nShaded area $= \\frac{270}{360}\\times\\frac{22}{7}\\times 7\\times 7 = \\frac{3}{4}\\times 154 = 115.5\\text{ cm}^{2}$.",
+    "markingSteps": [
+      {
+        "step": "Total central angle $= 270^\\circ$",
+        "marks": 1
+      },
+      {
+        "step": "Sector area formula with $\\theta = 270^\\circ$, $r = 7$",
+        "marks": 1
+      },
+      {
+        "step": "Shaded area $= 115.5\\text{ cm}^{2}$",
+        "marks": 1
+      }
+    ],
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 320\"><circle cx=\"200\" cy=\"160\" r=\"120\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 200 160 L 320 160 A 120 120 0 0 0 220.84 41.82 Z\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"255.16\" y=\"118.72\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">80°</text><path d=\"M 200 160 L 179.16 41.82 A 120 120 0 0 0 81.82 180.84 Z\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"141.02\" y=\"123.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">90°</text><path d=\"M 200 160 L 108.07 237.13 A 120 120 0 0 0 291.93 237.13 Z\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"200\" y=\"237\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">100°</text><line x1=\"200\" y1=\"160\" x2=\"308.76\" y2=\"210.71\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"271.63\" y=\"213.31\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">7 cm</text><circle cx=\"200\" cy=\"160\" r=\"2.5\" fill=\"#000\"/><text x=\"186\" y=\"178\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text></svg>",
+    "figureAlt": "A circle with centre O and radius 7 cm. Three shaded sectors, separated by unshaded gaps, have central angles 80°, 90° and 100°.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "patternId": "AC-SEC-24",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": false,
+    "text": "The perimeter of a sector of a circle is $39\\text{ cm}$ and its area is $77\\text{ cm}^{2}$. The radius is a whole number of centimetres. Form a quadratic equation in the radius $r$ and solve it to find $r$. Hence find the length of the arc and the central angle of the sector. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "Let the arc be $l$. Then $2r + l = 39$ and $\\frac{1}{2}lr = 77$.\nSo $l = 39 - 2r$ and $r(39 - 2r) = 154$, giving $2r^{2} - 39r + 154 = 0$.\n$r = \\frac{39 \\pm \\sqrt{1521 - 1232}}{4} = \\frac{39 \\pm 17}{4}$, so $r = 14$ or $r = 5.5$.\nThe radius is a whole number, so $r = 14\\text{ cm}$ and $l = 39 - 28 = 11\\text{ cm}$.\n$\\frac{\\theta}{360^\\circ}\\times 2\\times\\frac{22}{7}\\times 14 = 11$ gives $\\frac{\\theta}{360^\\circ}\\times 88 = 11$, so $\\theta = 45^\\circ$.",
+    "markingSteps": [
+      {
+        "step": "Writing $2r + l = 39$ and $\\frac{1}{2}lr = 77$",
+        "marks": 1
+      },
+      {
+        "step": "Forming $2r^{2} - 39r + 154 = 0$",
+        "marks": 1
+      },
+      {
+        "step": "Solving: $r = 14$ or $5.5$",
+        "marks": 1
+      },
+      {
+        "step": "Choosing $r = 14\\text{ cm}$, arc $l = 11\\text{ cm}$",
+        "marks": 1
+      },
+      {
+        "step": "Central angle $= 45^\\circ$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "patternId": "AC-SEC-25",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A circular window in a school hall has diameter $42\\text{ cm}$. It is divided into $6$ equal sectors by $3$ steel strips along diameters, and a steel strip also runs along the whole circular rim. Two opposite sectors are fitted with coloured glass and the rest with clear glass, as shown in the figure. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "(i) $60^\\circ$; (ii) $258\\text{ cm}$; (iii) $462\\text{ cm}^{2}$.",
+    "parts": [
+      {
+        "label": "(i)",
+        "marks": 1,
+        "text": "Find the angle at the centre of each sector.",
+        "answer": "$\\frac{360^\\circ}{6} = 60^\\circ$."
+      },
+      {
+        "label": "(ii)",
+        "marks": 1,
+        "text": "Find the total length of steel strip used.",
+        "answer": "Rim $= 2\\times\\frac{22}{7}\\times 21 = 132\\text{ cm}$; diameters $= 3\\times 42 = 126\\text{ cm}$. Total $= 258\\text{ cm}$."
+      },
+      {
+        "label": "(iii)",
+        "marks": 2,
+        "text": "Find the total area of coloured glass.",
+        "answer": "One sector $= \\frac{60}{360}\\times\\frac{22}{7}\\times 21\\times 21 = \\frac{1386}{6} = 231\\text{ cm}^{2}$. Two sectors $= 2\\times 231 = 462\\text{ cm}^{2}$."
+      }
+    ],
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 320\"><path d=\"M 200 160 L 320 160 A 120 120 0 0 0 260 56.08 Z\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 200 160 L 80 160 A 120 120 0 0 0 140 263.92 Z\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"200\" cy=\"160\" r=\"120\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"320\" y1=\"160\" x2=\"80\" y2=\"160\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"260\" y1=\"56.08\" x2=\"140\" y2=\"263.92\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"140\" y1=\"56.08\" x2=\"260\" y2=\"263.92\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"200\" cy=\"160\" r=\"2.5\" fill=\"#000\"/><text x=\"204\" y=\"180\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">O</text><text x=\"200\" y=\"300\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">diameter = 42 cm</text></svg>",
+    "figureAlt": "A circular window with centre O and diameter 42 cm, divided into 6 equal sectors by 3 diameters. Two opposite sectors are shaded to show coloured glass.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Arc length",
+    "patternId": "AC-ARC-02",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "An arc of length $11\\text{ cm}$ lies on a circle of radius $21\\text{ cm}$. The angle it subtends at the centre is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$30^\\circ$",
+      "$60^\\circ$",
+      "$15^\\circ$",
+      "$45^\\circ$"
+    ],
+    "answer": "Correct option: A) $30^\\circ$. $\\frac{\\theta}{360^\\circ}\\times 2\\times\\frac{22}{7}\\times 21 = 11$ gives $\\frac{\\theta}{360^\\circ}\\times 132 = 11$, so $\\theta = 30^\\circ$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Arc length",
+    "patternId": "AC-ARC-03",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A piece of wire $22\\text{ cm}$ long is bent into an arc of a circle of radius $14\\text{ cm}$. The angle subtended by the arc at the centre is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$45^\\circ$",
+      "$180^\\circ$",
+      "$60^\\circ$",
+      "$90^\\circ$"
+    ],
+    "answer": "Correct option: D) $90^\\circ$. Circumference $= 2\\times\\frac{22}{7}\\times 14 = 88\\text{ cm}$. $\\theta = \\frac{22}{88}\\times 360^\\circ = 90^\\circ$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Arc length",
+    "patternId": "AC-ARC-04",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "An arc of a circle is $22\\text{ cm}$ long and subtends an angle of $60^\\circ$ at the centre. The radius of the circle is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$42\\text{ cm}$",
+      "$21\\text{ cm}$",
+      "$7\\text{ cm}$",
+      "$14\\text{ cm}$"
+    ],
+    "answer": "Correct option: B) $21\\text{ cm}$. $\\frac{60}{360}\\times 2\\times\\frac{22}{7}\\times r = 22$ gives $\\frac{22r}{21} = 22$, so $r = 21\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Arc length",
+    "patternId": "AC-ARC-05",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "An arc of a circle subtends an angle of $40^\\circ$ at the centre. The ratio of the length of the arc to the circumference of the circle is",
+    "options": [
+      "$1:4$",
+      "$2:9$",
+      "$1:9$",
+      "$1:18$"
+    ],
+    "answer": "Correct option: C) $1:9$. Arc : circumference $= 40^\\circ : 360^\\circ = 1:9$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Arc length",
+    "patternId": "AC-ARC-06",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A sector of a circle of radius $12\\text{ cm}$ has an area of $60\\text{ cm}^{2}$. The length of the arc of the sector is",
+    "options": [
+      "$5\\text{ cm}$",
+      "$20\\text{ cm}$",
+      "$2.5\\text{ cm}$",
+      "$10\\text{ cm}$"
+    ],
+    "answer": "Correct option: D) $10\\text{ cm}$. Area $= \\frac{1}{2}lr$: $60 = \\frac{1}{2}\\times l\\times 12$, so $l = 10\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Segment area",
+    "patternId": "AC-SEG-01",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A chord of a circle of radius $r$ subtends an angle of $120^\\circ$ at the centre. The area of the minor segment is",
+    "options": [
+      "$\\frac{r^{2}}{12}(2\\pi - 3\\sqrt{3})$",
+      "$\\frac{r^{2}}{12}(4\\pi - 3\\sqrt{3})$",
+      "$\\frac{r^{2}}{12}(4\\pi - 6\\sqrt{3})$",
+      "$\\frac{\\pi r^{2}}{3}$"
+    ],
+    "answer": "Correct option: B) $\\frac{r^{2}}{12}(4\\pi - 3\\sqrt{3})$. Sector $= \\frac{\\pi r^{2}}{3}$; triangle $= \\frac{1}{2}r^{2}\\sin 120^\\circ = \\frac{\\sqrt{3}}{4}r^{2}$. Segment $= \\frac{\\pi r^{2}}{3} - \\frac{\\sqrt{3}r^{2}}{4} = \\frac{r^{2}}{12}(4\\pi - 3\\sqrt{3})$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Segment area",
+    "patternId": "AC-SEG-03",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "hard",
+    "competency": false,
+    "text": "A chord of a circle subtends a right angle at the centre, and the minor segment it cuts off has an area of $126\\text{ cm}^{2}$. The radius of the circle is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$7\\text{ cm}$",
+      "$14\\text{ cm}$",
+      "$21\\text{ cm}$",
+      "$28\\text{ cm}$"
+    ],
+    "answer": "Correct option: C) $21\\text{ cm}$. Segment $= \\frac{1}{4}\\times\\frac{22}{7}r^{2} - \\frac{1}{2}r^{2} = \\frac{11}{14}r^{2} - \\frac{7}{14}r^{2} = \\frac{2}{7}r^{2}$. $\\frac{2}{7}r^{2} = 126$ gives $r^{2} = 441$, $r = 21\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": "Difficulty 'hard' is generous for a 1-mark item; medium fits better."
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Segment area",
+    "patternId": "AC-SEG-05",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "A chord of a circle of radius $9\\text{ cm}$ subtends an angle of $60^\\circ$ at the centre. The length of the chord is",
+    "options": [
+      "$9\\text{ cm}$",
+      "$9\\sqrt{3}\\text{ cm}$",
+      "$9\\sqrt{2}\\text{ cm}$",
+      "$4.5\\text{ cm}$"
+    ],
+    "answer": "Correct option: A) $9\\text{ cm}$. The triangle formed by the chord and the two radii has two equal sides and a $60^\\circ$ angle between them, so it is equilateral; chord $=$ radius $= 9\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Segment area",
+    "patternId": "AC-SEG-06",
+    "type": "assertion_reason",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Assertion (A): A chord of a circle of radius $6\\text{ cm}$ subtends an angle of $60^\\circ$ at the centre. The area of the minor segment is $(6\\pi - 9\\sqrt{3})\\text{ cm}^{2}$.\nReason (R): Area of the minor segment $=$ area of the corresponding sector $-$ area of the triangle formed by the chord and the two radii.",
+    "options": [
+      "Both A and R are true and R explains A",
+      "Both A and R are true but R does not explain A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: A) Both A and R are true and R explains A. Sector $= \\frac{60}{360}\\times\\pi\\times 36 = 6\\pi$; equilateral triangle $= \\frac{\\sqrt{3}}{4}\\times 36 = 9\\sqrt{3}$. Segment $= 6\\pi - 9\\sqrt{3}$, found exactly by using R.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Segment area",
+    "patternId": "AC-SEG-11",
+    "type": "short",
+    "marks": 3,
+    "complexity": "hard",
+    "competency": false,
+    "text": "In the figure, $O$ is the centre of a circle of radius $14\\text{ cm}$ and $\\angle AOB = 90^\\circ$. Find the perimeter of the shaded minor segment cut off by the chord $AB$. (Use $\\pi = \\frac{22}{7}$ and $\\sqrt{2} = 1.41$)",
+    "answer": "Arc $AB = \\frac{90}{360}\\times 2\\times\\frac{22}{7}\\times 14 = 22\\text{ cm}$.\nIn right $\\triangle AOB$, $AB = \\sqrt{14^{2} + 14^{2}} = 14\\sqrt{2} = 14\\times 1.41 = 19.74\\text{ cm}$.\nPerimeter of segment $=$ arc $AB$ $+$ chord $AB = 22 + 19.74 = 41.74\\text{ cm}$.",
+    "markingSteps": [
+      {
+        "step": "Arc length $= 22\\text{ cm}$",
+        "marks": 1
+      },
+      {
+        "step": "Chord $AB = 14\\sqrt{2} = 19.74\\text{ cm}$ by Pythagoras",
+        "marks": 1
+      },
+      {
+        "step": "Perimeter $= 41.74\\text{ cm}$",
+        "marks": 1
+      }
+    ],
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 310\"><circle cx=\"200\" cy=\"170\" r=\"120\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 115.15 85.15 A 120 120 0 0 1 284.85 85.15 Z\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"200\" y1=\"170\" x2=\"115.15\" y2=\"85.15\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"200\" y1=\"170\" x2=\"284.85\" y2=\"85.15\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"190.1,160.1 200,150.2 209.9,160.1\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"103.15\" y=\"81.15\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"296.85\" y=\"81.15\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"135.57\" y=\"141.57\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">14 cm</text><circle cx=\"200\" cy=\"170\" r=\"2.5\" fill=\"#000\"/><text x=\"200\" y=\"190\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text></svg>",
+    "figureAlt": "A circle with centre O and radius 14 cm. Radii OA and OB are at right angles and chord AB cuts off a shaded minor segment.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Segment area",
+    "patternId": "AC-SEG-12",
+    "type": "short",
+    "marks": 3,
+    "complexity": "hard",
+    "competency": false,
+    "text": "In the figure, chord $AB$ of a circle with centre $O$ and radius $21\\text{ cm}$ subtends $\\angle AOB = 120^\\circ$. Take the area of $\\triangle OAB$ as $191\\text{ cm}^{2}$. Find (i) the perimeter of the major sector $OAB$, (ii) the area of the shaded minor segment. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "(i) Major arc $= \\frac{240}{360}\\times 2\\times\\frac{22}{7}\\times 21 = \\frac{2}{3}\\times 132 = 88\\text{ cm}$. Perimeter of major sector $= 88 + 21 + 21 = 130\\text{ cm}$.\n(ii) Minor sector $= \\frac{120}{360}\\times\\frac{22}{7}\\times 21\\times 21 = 462\\text{ cm}^{2}$. Minor segment $= 462 - 191 = 271\\text{ cm}^{2}$.",
+    "markingSteps": [
+      {
+        "step": "Major arc $= 88\\text{ cm}$ (angle $240^\\circ$)",
+        "marks": 1
+      },
+      {
+        "step": "Perimeter of major sector $= 130\\text{ cm}$",
+        "marks": 1
+      },
+      {
+        "step": "Minor sector $462\\text{ cm}^{2}$, segment $= 271\\text{ cm}^{2}$",
+        "marks": 1
+      }
+    ],
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 310\"><circle cx=\"200\" cy=\"170\" r=\"120\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 96.08 110 A 120 120 0 0 1 303.92 110 Z\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"200\" y1=\"170\" x2=\"96.08\" y2=\"110\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"200\" y1=\"170\" x2=\"303.92\" y2=\"110\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"200\" y=\"141\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">120°</text><text x=\"84.08\" y=\"106\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"315.92\" y=\"106\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"126.04\" y=\"154\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">21 cm</text><circle cx=\"200\" cy=\"170\" r=\"2.5\" fill=\"#000\"/><text x=\"200\" y=\"190\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text></svg>",
+    "figureAlt": "A circle with centre O and radius 21 cm. Chord AB subtends 120° at O; the minor segment on AB is shaded and triangle OAB is drawn.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Segment area",
+    "patternId": "AC-SEG-13",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A chord $AB$ of a circle with centre $O$ and radius $20\\text{ cm}$ subtends a right angle at the centre. Find (i) the length of the chord $AB$, (ii) the area of $\\triangle OAB$, (iii) the area of the minor segment, (iv) the area of the major segment. (Use $\\pi = 3.14$ and $\\sqrt{2} = 1.41$)",
+    "answer": "(i) $AB = \\sqrt{20^{2} + 20^{2}} = 20\\sqrt{2} = 28.2\\text{ cm}$.\n(ii) Area of $\\triangle OAB = \\frac{1}{2}\\times 20\\times 20 = 200\\text{ cm}^{2}$.\n(iii) Minor sector $= \\frac{90}{360}\\times 3.14\\times 400 = 314\\text{ cm}^{2}$, so minor segment $= 314 - 200 = 114\\text{ cm}^{2}$.\n(iv) Area of circle $= 3.14\\times 400 = 1256\\text{ cm}^{2}$, so major segment $= 1256 - 114 = 1142\\text{ cm}^{2}$.",
+    "markingSteps": [
+      {
+        "step": "Chord $AB = 28.2\\text{ cm}$",
+        "marks": 1
+      },
+      {
+        "step": "Area of $\\triangle OAB = 200\\text{ cm}^{2}$",
+        "marks": 1
+      },
+      {
+        "step": "Minor sector $= 314\\text{ cm}^{2}$",
+        "marks": 1
+      },
+      {
+        "step": "Minor segment $= 114\\text{ cm}^{2}$",
+        "marks": 1
+      },
+      {
+        "step": "Major segment $= 1142\\text{ cm}^{2}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Segment area",
+    "patternId": "AC-SEG-14",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A chord $AB$ of a circle with centre $O$ and radius $42\\text{ cm}$ subtends an angle of $60^\\circ$ at the centre. Find (i) the length of the minor arc $AB$, (ii) the area of the minor segment, (iii) the perimeter of the minor segment. (Use $\\pi = \\frac{22}{7}$ and $\\sqrt{3} = 1.73$)",
+    "answer": "(i) Arc $AB = \\frac{60}{360}\\times 2\\times\\frac{22}{7}\\times 42 = 44\\text{ cm}$.\n(ii) Sector $OAB = \\frac{60}{360}\\times\\frac{22}{7}\\times 42\\times 42 = 924\\text{ cm}^{2}$. $\\triangle OAB$ is equilateral, area $= \\frac{\\sqrt{3}}{4}\\times 42^{2} = 441\\sqrt{3} = 762.93\\text{ cm}^{2}$. Minor segment $= 924 - 762.93 = 161.07\\text{ cm}^{2}$.\n(iii) Chord $AB = 42\\text{ cm}$, so perimeter $= 44 + 42 = 86\\text{ cm}$.",
+    "markingSteps": [
+      {
+        "step": "Arc length $= 44\\text{ cm}$",
+        "marks": 1
+      },
+      {
+        "step": "Sector area $= 924\\text{ cm}^{2}$",
+        "marks": 1
+      },
+      {
+        "step": "Equilateral triangle area $= 762.93\\text{ cm}^{2}$",
+        "marks": 1
+      },
+      {
+        "step": "Minor segment $= 161.07\\text{ cm}^{2}$",
+        "marks": 1
+      },
+      {
+        "step": "Chord $= 42\\text{ cm}$, perimeter $= 86\\text{ cm}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Combination figures (shaded regions)",
+    "patternId": "AC-CMB-05",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "hard",
+    "competency": false,
+    "text": "In the figure, three circles, each of radius $10\\text{ cm}$, touch one another, with centres $A$, $B$ and $C$. The area of the shaded region enclosed between them is (use $\\pi = 3.14$ and $\\sqrt{3} = 1.73$)",
+    "options": [
+      "$157\\text{ cm}^{2}$",
+      "$173\\text{ cm}^{2}$",
+      "$330\\text{ cm}^{2}$",
+      "$16\\text{ cm}^{2}$"
+    ],
+    "answer": "Correct option: D) $16\\text{ cm}^{2}$. $\\triangle ABC$ is equilateral with side $20\\text{ cm}$: area $= \\frac{\\sqrt{3}}{4}\\times 400 = 173\\text{ cm}^{2}$. Three $60^\\circ$ sectors $= \\frac{180}{360}\\times 3.14\\times 100 = 157\\text{ cm}^{2}$. Shaded $= 173 - 157 = 16\\text{ cm}^{2}$.",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\"><path d=\"M 200 210 A 60 60 0 0 1 230 158.04 A 60 60 0 0 1 170 158.04 A 60 60 0 0 1 200 210 Z\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"140\" cy=\"210\" r=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"140\" cy=\"210\" r=\"2.5\" fill=\"#000\"/><circle cx=\"260\" cy=\"210\" r=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"260\" cy=\"210\" r=\"2.5\" fill=\"#000\"/><circle cx=\"200\" cy=\"106.08\" r=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"200\" cy=\"106.08\" r=\"2.5\" fill=\"#000\"/><text x=\"126\" y=\"215\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"274\" y=\"215\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"200\" y=\"96.08\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><line x1=\"140\" y1=\"210\" x2=\"140\" y2=\"270\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"134\" y=\"248\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">10 cm</text></svg>",
+    "figureAlt": "Three equal circles with centres A, B and C, each of radius 10 cm, touch one another. The region enclosed between the three circles is shaded.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Combination figures (shaded regions)",
+    "patternId": "AC-CMB-06",
+    "type": "assertion_reason",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Assertion (A): The area of the ring between two concentric circles of radii $13\\text{ cm}$ and $12\\text{ cm}$ is $25\\pi\\text{ cm}^{2}$.\nReason (R): The area of the ring between concentric circles of radii $R$ and $r$ is $\\pi(R - r)^{2}$.",
+    "options": [
+      "Both A and R are true and R explains A",
+      "Both A and R are true but R does not explain A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: C) A is true but R is false. Ring area $= \\pi(13^{2} - 12^{2}) = \\pi(169 - 144) = 25\\pi\\text{ cm}^{2}$, so A is true. The correct formula is $\\pi(R^{2} - r^{2})$; $\\pi(R - r)^{2}$ would give only $\\pi\\text{ cm}^{2}$, so R is false.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Combination figures (shaded regions)",
+    "patternId": "AC-CMB-09",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "In the figure, $ABC$ is a triangle with $\\angle A = 70^\\circ$, $\\angle B = 50^\\circ$ and $\\angle C = 60^\\circ$. Sectors of radius $4\\text{ cm}$ are drawn with centres $A$, $B$ and $C$. Find the total area of the three shaded sectors in terms of $\\pi$.",
+    "answer": "The angles of the three sectors are the angles of the triangle, so their sum is $70^\\circ + 50^\\circ + 60^\\circ = 180^\\circ$.\nTotal shaded area $= \\frac{180}{360}\\times\\pi\\times 4^{2} = 8\\pi\\text{ cm}^{2}$.",
+    "markingSteps": [
+      {
+        "step": "Sum of sector angles $= 180^\\circ$ (angle sum of triangle)",
+        "marks": 1
+      },
+      {
+        "step": "Shaded area $= \\frac{180}{360}\\pi(4)^{2} = 8\\pi\\text{ cm}^{2}$",
+        "marks": 1
+      }
+    ],
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 290\"><path d=\"M 227.72 48.2 L 202.01 78.84 A 40 40 0 0 0 247.72 82.84 Z\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 50 260 L 90 260 A 40 40 0 0 0 75.71 229.36 Z\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 350 260 L 330 225.36 A 40 40 0 0 0 310 260 Z\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><polygon points=\"227.72,48.2 50,260 350,260\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"227.72\" y=\"40.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"38\" y=\"265\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"362\" y=\"265\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><text x=\"102\" y=\"250\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">50°</text><text x=\"296\" y=\"250\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">60°</text><text x=\"225.72\" y=\"106.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">70°</text></svg>",
+    "figureAlt": "Triangle ABC with angle A = 70°, angle B = 50° and angle C = 60°. At each vertex a shaded sector of radius 4 cm is drawn between the two sides meeting there.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Combination figures (shaded regions)",
+    "patternId": "AC-CMB-10",
+    "type": "short",
+    "marks": 2,
+    "complexity": "hard",
+    "competency": false,
+    "text": "In the figure, three circles with centres $A$, $B$ and $C$, each of radius $7\\text{ cm}$, touch one another. Find the area of the shaded region enclosed between the circles. (Use $\\pi = \\frac{22}{7}$ and $\\sqrt{3} = 1.73$)",
+    "answer": "$AB = BC = CA = 14\\text{ cm}$, so $\\triangle ABC$ is equilateral: area $= \\frac{\\sqrt{3}}{4}\\times 14^{2} = 49\\sqrt{3} = 84.77\\text{ cm}^{2}$.\nEach angle is $60^\\circ$, so the three sectors together make $180^\\circ$: area $= \\frac{1}{2}\\times\\frac{22}{7}\\times 49 = 77\\text{ cm}^{2}$.\nShaded area $= 84.77 - 77 = 7.77\\text{ cm}^{2}$.",
+    "markingSteps": [
+      {
+        "step": "Equilateral triangle of side $14\\text{ cm}$, area $84.77\\text{ cm}^{2}$",
+        "marks": 1
+      },
+      {
+        "step": "Three sectors $= 77\\text{ cm}^{2}$; shaded $= 7.77\\text{ cm}^{2}$",
+        "marks": 1
+      }
+    ],
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\"><path d=\"M 200 210 A 60 60 0 0 1 230 158.04 A 60 60 0 0 1 170 158.04 A 60 60 0 0 1 200 210 Z\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"140\" cy=\"210\" r=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"140\" cy=\"210\" r=\"2.5\" fill=\"#000\"/><circle cx=\"260\" cy=\"210\" r=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"260\" cy=\"210\" r=\"2.5\" fill=\"#000\"/><circle cx=\"200\" cy=\"106.08\" r=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"200\" cy=\"106.08\" r=\"2.5\" fill=\"#000\"/><text x=\"126\" y=\"215\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"274\" y=\"215\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"200\" y=\"96.08\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><line x1=\"140\" y1=\"210\" x2=\"140\" y2=\"270\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"134\" y=\"248\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">7 cm</text></svg>",
+    "figureAlt": "Three equal circles with centres A, B and C, each of radius 7 cm, touch one another. The region enclosed between the three circles is shaded.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Combination figures (shaded regions)",
+    "patternId": "AC-CMB-11",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "In the figure, $ABC$ is a right triangle with $\\angle B = 90^\\circ$, $AB = 14\\text{ cm}$ and $BC = 24\\text{ cm}$. A quadrant of radius $7\\text{ cm}$ with centre $B$ is cut out. Find the area of the shaded region. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "Area of $\\triangle ABC = \\frac{1}{2}\\times 24\\times 14 = 168\\text{ cm}^{2}$.\nArea of quadrant $= \\frac{1}{4}\\times\\frac{22}{7}\\times 7\\times 7 = 38.5\\text{ cm}^{2}$.\nShaded area $= 168 - 38.5 = 129.5\\text{ cm}^{2}$.",
+    "markingSteps": [
+      {
+        "step": "Triangle area $= 168\\text{ cm}^{2}$ and quadrant area $= 38.5\\text{ cm}^{2}$",
+        "marks": 1
+      },
+      {
+        "step": "Shaded area $= 129.5\\text{ cm}^{2}$",
+        "marks": 1
+      }
+    ],
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 290\"><path d=\"M 70 176 L 70 92 L 358 260 L 154 260 A 84 84 0 0 0 70 176 Z\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><polygon points=\"70,92 70,260 358,260\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"58\" y=\"96\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"58\" y=\"272\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"370\" y=\"265\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><text x=\"42\" y=\"176\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">14 cm</text><text x=\"254\" y=\"280\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">24 cm</text><text x=\"112\" y=\"280\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">7 cm</text></svg>",
+    "figureAlt": "Right triangle ABC with the right angle at B, AB = 14 cm and BC = 24 cm. A quadrant of radius 7 cm centred at B is unshaded; the rest of the triangle is shaded.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Combination figures (shaded regions)",
+    "patternId": "AC-CMB-22",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A school sports ground is made of a rectangle $ABCD$ with $AB = 42\\text{ m}$ and $BC = 28\\text{ m}$, with a semicircle on each of the shorter sides $AD$ and $BC$, as shown in the figure. A running track is marked along the outer boundary of the ground, and the whole ground is to be covered with grass. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "(i) $308\\text{ m}^{2}$; (ii) $172\\text{ m}$; (iii) $1792\\text{ m}^{2}$, ₹ 8960.",
+    "parts": [
+      {
+        "label": "(i)",
+        "marks": 1,
+        "text": "Find the area of one semicircular end.",
+        "answer": "Radius $= 14\\text{ m}$. Area $= \\frac{1}{2}\\times\\frac{22}{7}\\times 14\\times 14 = 308\\text{ m}^{2}$."
+      },
+      {
+        "label": "(ii)",
+        "marks": 1,
+        "text": "Find the length of the outer boundary of the ground.",
+        "answer": "Two straight sides $= 2\\times 42 = 84\\text{ m}$; two semicircular arcs $= 2\\times\\frac{22}{7}\\times 14 = 88\\text{ m}$. Boundary $= 172\\text{ m}$."
+      },
+      {
+        "label": "(iii)",
+        "marks": 2,
+        "text": "Find the total area of the ground and the cost of grassing it at ₹ 5 per $\\text{m}^{2}$.",
+        "answer": "Area $= 42\\times 28 + 2\\times 308 = 1176 + 616 = 1792\\text{ m}^{2}$. Cost $= 1792\\times 5 =$ ₹ 8960."
+      }
+    ],
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\"><path d=\"M 95 60 L 305 60 A 70 70 0 0 1 305 200 L 95 200 A 70 70 0 0 1 95 60 Z\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"95\" y1=\"60\" x2=\"95\" y2=\"200\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><line x1=\"305\" y1=\"60\" x2=\"305\" y2=\"200\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><text x=\"200\" y=\"52\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">42 m</text><text x=\"298\" y=\"135\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">28 m</text><text x=\"85\" y=\"54\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"315\" y=\"54\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"315\" y=\"218\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><text x=\"85\" y=\"218\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text></svg>",
+    "figureAlt": "A ground made of rectangle ABCD, 42 m long and 28 m wide, with a semicircle on each 28 m side AD and BC.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Combination figures (shaded regions)",
+    "patternId": "AC-CMB-23",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "Four goats are tied, one at each corner of a square field $ABCD$ of side $21\\text{ m}$, each with a rope $7\\text{ m}$ long, as shown in the figure. Each goat can graze only the quarter-circle region at its own corner. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "(i) $441\\text{ m}^{2}$; (ii) $154\\text{ m}^{2}$; (iii) $94.5\\text{ m}^{2}$.",
+    "parts": [
+      {
+        "label": "(i)",
+        "marks": 1,
+        "text": "Find the area of the field.",
+        "answer": "$21\\times 21 = 441\\text{ m}^{2}$."
+      },
+      {
+        "label": "(ii)",
+        "marks": 1,
+        "text": "Find the total area grazed by the four goats.",
+        "answer": "Four quadrants of radius $7\\text{ m}$ make one full circle: $\\frac{22}{7}\\times 7\\times 7 = 154\\text{ m}^{2}$."
+      },
+      {
+        "label": "(iii)",
+        "marks": 2,
+        "text": "If each rope is lengthened to $10.5\\text{ m}$, find the area of the field that the goats cannot graze.",
+        "answer": "Ropes of $10.5\\text{ m}$ from adjacent corners just meet at the midpoint of each side, so the quadrants do not overlap. Grazed $= \\frac{22}{7}\\times 10.5\\times 10.5 = 346.5\\text{ m}^{2}$. Ungrazed $= 441 - 346.5 = 94.5\\text{ m}^{2}$."
+      }
+    ],
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 310\"><path d=\"M 74 30 L 74 114 A 84 84 0 0 0 158 30 Z\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 326 30 L 242 30 A 84 84 0 0 0 326 114 Z\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 326 282 L 326 198 A 84 84 0 0 0 242 282 Z\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 74 282 L 158 282 A 84 84 0 0 0 74 198 Z\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><rect x=\"74\" y=\"30\" width=\"252\" height=\"252\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"62\" y=\"34\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"338\" y=\"34\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"338\" y=\"290\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><text x=\"62\" y=\"290\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text><text x=\"200\" y=\"302\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">21 m</text><text x=\"116\" y=\"24\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">7 m</text></svg>",
+    "figureAlt": "Square field ABCD of side 21 m. At each corner a shaded quadrant of radius 7 m shows the area grazed by a goat tied there.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Combination figures (shaded regions)",
+    "patternId": "AC-CMB-24",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A rectangular house $PQRS$ with $PQ = 32\\text{ m}$ and $QR = 24\\text{ m}$ is built on a circular plot so that all four corners of the house lie on the boundary of the plot, as shown in the figure. The rest of the plot is to be laid with a lawn. (Use $\\pi = 3.14$)",
+    "answer": "(i) $20\\text{ m}$; (ii) $125.6\\text{ m}$; (iii) $488\\text{ m}^{2}$, ₹ 7320.",
+    "parts": [
+      {
+        "label": "(i)",
+        "marks": 1,
+        "text": "Find the radius of the plot.",
+        "answer": "The diagonal $PR$ is a diameter: $PR = \\sqrt{32^{2} + 24^{2}} = \\sqrt{1600} = 40\\text{ m}$, so radius $= 20\\text{ m}$."
+      },
+      {
+        "label": "(ii)",
+        "marks": 1,
+        "text": "Find the length of fencing needed around the plot.",
+        "answer": "$2\\times 3.14\\times 20 = 125.6\\text{ m}$."
+      },
+      {
+        "label": "(iii)",
+        "marks": 2,
+        "text": "Find the area of the lawn and the cost of laying it at ₹ 15 per $\\text{m}^{2}$.",
+        "answer": "Plot $= 3.14\\times 400 = 1256\\text{ m}^{2}$; house $= 32\\times 24 = 768\\text{ m}^{2}$. Lawn $= 488\\text{ m}^{2}$. Cost $= 488\\times 15 =$ ₹ 7320."
+      }
+    ],
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\"><path d=\"M 80 150 A 120 120 0 1 0 320 150 A 120 120 0 1 0 80 150 Z M 104 78 L 296 78 L 296 222 L 104 222 Z\" fill=\"#ddd\" fill-rule=\"evenodd\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"200\" y=\"96\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">32 m</text><text x=\"280\" y=\"155\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">24 m</text><text x=\"98\" y=\"72\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">P</text><text x=\"302\" y=\"72\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">Q</text><text x=\"302\" y=\"238\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">R</text><text x=\"98\" y=\"238\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">S</text></svg>",
+    "figureAlt": "A circular plot with a rectangular house PQRS inside it, all four corners on the circle; PQ = 32 m and QR = 24 m. The lawn between the circle and the house is shaded.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Combination figures (shaded regions)",
+    "patternId": "AC-CMB-25",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "For a sports-day display, a circle is marked on the ground using a rope $132\\text{ m}$ long laid along its boundary. From the centre $O$, two straight ropes $OA$ and $OB$ are laid to the boundary and a third rope $AB$ is laid so that $\\triangle OAB$ is equilateral. The segment between chord $AB$ and the arc $AB$ is painted, as shown in the figure. (Use $\\pi = \\frac{22}{7}$ and $\\sqrt{3} = 1.73$)",
+    "answer": "(i) $21\\text{ m}$; (ii) $60^\\circ$; (iii) $40.27\\text{ m}^{2}$.",
+    "parts": [
+      {
+        "label": "(i)",
+        "marks": 1,
+        "text": "Find the radius of the circle.",
+        "answer": "$2\\times\\frac{22}{7}\\times r = 132$ gives $r = 21\\text{ m}$."
+      },
+      {
+        "label": "(ii)",
+        "marks": 1,
+        "text": "Write the measure of $\\angle AOB$.",
+        "answer": "$\\triangle OAB$ is equilateral, so $\\angle AOB = 60^\\circ$."
+      },
+      {
+        "label": "(iii)",
+        "marks": 2,
+        "text": "Find the area of the painted segment.",
+        "answer": "Sector $= \\frac{60}{360}\\times\\frac{22}{7}\\times 21\\times 21 = 231\\text{ m}^{2}$. Triangle $= \\frac{\\sqrt{3}}{4}\\times 441 = 190.73\\text{ m}^{2}$. Segment $= 231 - 190.73 = 40.27\\text{ m}^{2}$."
+      }
+    ],
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 310\"><circle cx=\"200\" cy=\"170\" r=\"120\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 140 66.08 A 120 120 0 0 1 260 66.08 Z\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><polygon points=\"200,170 140,66.08 260,66.08\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"128\" y=\"62.08\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"272\" y=\"62.08\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"200\" cy=\"170\" r=\"2.5\" fill=\"#000\"/><text x=\"200\" y=\"190\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text></svg>",
+    "figureAlt": "A circle with centre O. Points A and B lie on the circle and triangle OAB is equilateral; the segment between chord AB and the arc AB is shaded.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Wheel, clock, garden and wiper contexts",
+    "patternId": "AC-CTX-01",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": true,
+    "text": "The angle turned through by the hour hand of a clock from 10:00 am to 3:30 pm on the same day is",
+    "options": [
+      "$150^\\circ$",
+      "$165^\\circ$",
+      "$180^\\circ$",
+      "$330^\\circ$"
+    ],
+    "answer": "Correct option: B) $165^\\circ$. The hour hand turns $30^\\circ$ per hour; from 10:00 am to 3:30 pm is $5.5$ hours, so $5.5\\times 30^\\circ = 165^\\circ$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Wheel, clock, garden and wiper contexts",
+    "patternId": "AC-CTX-02",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": true,
+    "text": "The wheel of a cart makes $250$ complete revolutions in covering a distance of $550\\text{ m}$. The diameter of the wheel is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$35\\text{ cm}$",
+      "$140\\text{ cm}$",
+      "$70\\text{ cm}$",
+      "$7\\text{ cm}$"
+    ],
+    "answer": "Correct option: C) $70\\text{ cm}$. Circumference $= \\frac{550}{250} = 2.2\\text{ m} = 220\\text{ cm}$. $\\pi d = 220$ gives $d = 220\\times\\frac{7}{22} = 70\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Wheel, clock, garden and wiper contexts",
+    "patternId": "AC-CTX-08",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": true,
+    "text": "The hour hand of a wall clock is $14\\text{ cm}$ long. Find the area swept by it from $12$ noon to $3$ pm, and the area of the corresponding major sector of the clock face it traces. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "In $3$ hours the hour hand turns $3\\times 30^\\circ = 90^\\circ$.\nMinor sector $= \\frac{90}{360}\\times\\frac{22}{7}\\times 14\\times 14 = 154\\text{ cm}^{2}$.\nCircle $= 616\\text{ cm}^{2}$, so major sector $= 616 - 154 = 462\\text{ cm}^{2}$.",
+    "markingSteps": [
+      {
+        "step": "Angle turned $= 90^\\circ$",
+        "marks": 1
+      },
+      {
+        "step": "Area swept (minor sector) $= 154\\text{ cm}^{2}$",
+        "marks": 1
+      },
+      {
+        "step": "Major sector $= 462\\text{ cm}^{2}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": "Wording 'major sector of the clock face it traces' is slightly awkward (clock face may be larger than the 14 cm hand), but 'it traces' fixes radius 14; key 154 / 462 cm² correct."
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Wheel, clock, garden and wiper contexts",
+    "patternId": "AC-CTX-09",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A bus has two windscreen wipers that do not overlap. Each wiper has a blade of length $35\\text{ cm}$ and sweeps through an angle of $72^\\circ$. Find the total area cleaned at each sweep of the two blades. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "Area cleaned by one blade $= \\frac{72}{360}\\times\\frac{22}{7}\\times 35\\times 35 = \\frac{1}{5}\\times 3850 = 770\\text{ cm}^{2}$.\nTotal for two blades $= 2\\times 770 = 1540\\text{ cm}^{2}$.",
+    "markingSteps": [
+      {
+        "step": "Sector area formula with $r = 35$, $\\theta = 72^\\circ$",
+        "marks": 1
+      },
+      {
+        "step": "One blade cleans $770\\text{ cm}^{2}$",
+        "marks": 1
+      },
+      {
+        "step": "Total $= 1540\\text{ cm}^{2}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Wheel, clock, garden and wiper contexts",
+    "patternId": "AC-CTX-11",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": true,
+    "text": "A horse is tied to a peg at one corner of a square-shaped grass field of side $35\\text{ m}$ by a rope $14\\text{ m}$ long. Find (i) the area of the part of the field in which the horse can graze, (ii) the increase in the grazing area if the rope is replaced by one $28\\text{ m}$ long, (iii) the area of the field the horse still cannot graze with the longer rope. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "(i) The horse grazes a quadrant of radius $14\\text{ m}$ (angle of the square $= 90^\\circ$): area $= \\frac{1}{4}\\times\\frac{22}{7}\\times 14\\times 14 = 154\\text{ m}^{2}$.\n(ii) With a $28\\text{ m}$ rope (still shorter than the side $35\\text{ m}$, so the quadrant stays inside the field): area $= \\frac{1}{4}\\times\\frac{22}{7}\\times 28\\times 28 = 616\\text{ m}^{2}$. Increase $= 616 - 154 = 462\\text{ m}^{2}$.\n(iii) Field $= 35\\times 35 = 1225\\text{ m}^{2}$. Ungrazed $= 1225 - 616 = 609\\text{ m}^{2}$.",
+    "markingSteps": [
+      {
+        "step": "Recognising the grazed region as a quadrant of radius $14\\text{ m}$",
+        "marks": 1
+      },
+      {
+        "step": "Grazing area $= 154\\text{ m}^{2}$",
+        "marks": 1
+      },
+      {
+        "step": "New grazing area $= 616\\text{ m}^{2}$",
+        "marks": 1
+      },
+      {
+        "step": "Increase $= 462\\text{ m}^{2}$",
+        "marks": 1
+      },
+      {
+        "step": "Ungrazed area $= 1225 - 616 = 609\\text{ m}^{2}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Wheel, clock, garden and wiper contexts",
+    "patternId": "AC-CTX-12",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A housing society fences its circular park. The fencing costs ₹ 18 per metre and the total cost of fencing is ₹ 3960. The park is then to be covered with turf. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "(i) $220\\text{ m}$; (ii) $35\\text{ m}$; (iii) $3850\\text{ m}^{2}$, ₹ 4620.",
+    "parts": [
+      {
+        "label": "(i)",
+        "marks": 1,
+        "text": "Find the circumference of the park.",
+        "answer": "$\\frac{3960}{18} = 220\\text{ m}$."
+      },
+      {
+        "label": "(ii)",
+        "marks": 1,
+        "text": "Find the radius of the park.",
+        "answer": "$2\\times\\frac{22}{7}\\times r = 220$ gives $r = 35\\text{ m}$."
+      },
+      {
+        "label": "(iii)",
+        "marks": 2,
+        "text": "Find the area of the park and the cost of turfing it at ₹ 1.20 per $\\text{m}^{2}$.",
+        "answer": "Area $= \\frac{22}{7}\\times 35\\times 35 = 3850\\text{ m}^{2}$. Cost $= 3850\\times 1.20 =$ ₹ 4620."
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  }
+]

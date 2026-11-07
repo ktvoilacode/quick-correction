@@ -1,0 +1,67 @@
+[
+ {
+  "idx": 0,
+  "myAnswer": "D) 57/(2^2*5^3*19)",
+  "how": "python"
+ },
+ {
+  "idx": 1,
+  "myAnswer": "C) 21",
+  "how": "by hand"
+ },
+ {
+  "idx": 2,
+  "myAnswer": "D (A false, R true)",
+  "how": "by hand"
+ },
+ {
+  "idx": 3,
+  "myAnswer": "84",
+  "how": "python"
+ },
+ {
+  "idx": 4,
+  "myAnswer": "6",
+  "how": "python"
+ },
+ {
+  "idx": 5,
+  "myAnswer": "17, rational",
+  "how": "by hand"
+ },
+ {
+  "idx": 6,
+  "myAnswer": "proof: sqrt3 irrational; (2+sqrt3)^2=7+4sqrt3 irrational",
+  "how": "proof"
+ },
+ {
+  "idx": 7,
+  "myAnswer": "84 L; 3,4,5 fills; total 12",
+  "how": "python"
+ },
+ {
+  "idx": 8,
+  "myAnswer": "420 s = 7 min; 8 more times; last 9:56 pm",
+  "how": "python"
+ },
+ {
+  "idx": 9,
+  "myAnswer": "105 and 180",
+  "how": "python"
+ },
+ {
+  "idx": 10,
+  "myAnswer": "HCF 78, LCM 8190; 234*390=91260=78*1170",
+  "how": "python"
+ },
+ {
+  "idx": 11,
+  "myAnswer": "720=2^4*3^2*5, 504=2^3*3^2*7; 72 cm; 70 tiles; Rs1050",
+  "how": "python"
+ },
+ {
+  "idx": 12,
+  "myAnswer": "area 22 sq m; perimeter 20 m rational; Bed2 perimeter 8+4sqrt3 irrational",
+  "how": "by hand"
+ }
+]

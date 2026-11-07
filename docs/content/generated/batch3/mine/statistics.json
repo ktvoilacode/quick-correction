@@ -1,0 +1,317 @@
+[
+ {
+  "idx": 0,
+  "myAnswer": "B) 135",
+  "how": "by hand"
+ },
+ {
+  "idx": 1,
+  "myAnswer": "C) 45",
+  "how": "by hand"
+ },
+ {
+  "idx": 2,
+  "myAnswer": "D) A false, R true (mean=23)",
+  "how": "by hand"
+ },
+ {
+  "idx": 3,
+  "myAnswer": "D) 45",
+  "how": "by hand"
+ },
+ {
+  "idx": 4,
+  "myAnswer": "A) f and h interchanged",
+  "how": "by hand"
+ },
+ {
+  "idx": 5,
+  "myAnswer": "A) both true, R explains",
+  "how": "by hand"
+ },
+ {
+  "idx": 6,
+  "myAnswer": "C) 35-45",
+  "how": "by hand"
+ },
+ {
+  "idx": 7,
+  "myAnswer": "D) A false (mode 26), R true",
+  "how": "by hand"
+ },
+ {
+  "idx": 8,
+  "myAnswer": "C) 24",
+  "how": "by hand"
+ },
+ {
+  "idx": 9,
+  "myAnswer": "A) 33",
+  "how": "by hand"
+ },
+ {
+  "idx": 10,
+  "myAnswer": "B) 32",
+  "how": "by hand"
+ },
+ {
+  "idx": 11,
+  "myAnswer": "C) 48",
+  "how": "by hand"
+ },
+ {
+  "idx": 12,
+  "myAnswer": "D) 4k",
+  "how": "by hand"
+ },
+ {
+  "idx": 13,
+  "myAnswer": "A) 6",
+  "how": "by hand"
+ },
+ {
+  "idx": 14,
+  "myAnswer": "B) Mean 36, Median 30",
+  "how": "by hand"
+ },
+ {
+  "idx": 15,
+  "myAnswer": "C) Mode = 3 Median - 2 Mean",
+  "how": "by hand"
+ },
+ {
+  "idx": 16,
+  "myAnswer": "C) A true, R false",
+  "how": "by hand"
+ },
+ {
+  "idx": 17,
+  "myAnswer": "A) both true, R explains",
+  "how": "by hand"
+ },
+ {
+  "idx": 18,
+  "myAnswer": "B) 40-60",
+  "how": "by hand"
+ },
+ {
+  "idx": 19,
+  "myAnswer": "D) 10-20,20-30,30-40",
+  "how": "by hand"
+ },
+ {
+  "idx": 20,
+  "myAnswer": "C) 17",
+  "how": "by hand"
+ },
+ {
+  "idx": 21,
+  "myAnswer": "A) 27",
+  "how": "by hand"
+ },
+ {
+  "idx": 22,
+  "myAnswer": "C) 48",
+  "how": "by hand"
+ },
+ {
+  "idx": 23,
+  "myAnswer": "B) 0",
+  "how": "by hand"
+ },
+ {
+  "idx": 24,
+  "myAnswer": "D) median",
+  "how": "by hand"
+ },
+ {
+  "idx": 25,
+  "myAnswer": "B) 5",
+  "how": "by hand"
+ },
+ {
+  "idx": 26,
+  "myAnswer": "C) 34",
+  "how": "by hand"
+ },
+ {
+  "idx": 27,
+  "myAnswer": "A) 40th and 41st",
+  "how": "by hand"
+ },
+ {
+  "idx": 28,
+  "myAnswer": "D) 15",
+  "how": "by hand"
+ },
+ {
+  "idx": 29,
+  "myAnswer": "C) 70",
+  "how": "by hand"
+ },
+ {
+  "idx": 30,
+  "myAnswer": "D) -1",
+  "how": "by hand"
+ },
+ {
+  "idx": 31,
+  "myAnswer": "C) A true, R false",
+  "how": "by hand"
+ },
+ {
+  "idx": 32,
+  "myAnswer": "B) 0.2",
+  "how": "by hand"
+ },
+ {
+  "idx": 33,
+  "myAnswer": "37",
+  "how": "python"
+ },
+ {
+  "idx": 34,
+  "myAnswer": "65.6 g",
+  "how": "python"
+ },
+ {
+  "idx": 35,
+  "myAnswer": "x = 16",
+  "how": "python"
+ },
+ {
+  "idx": 36,
+  "myAnswer": "23",
+  "how": "python"
+ },
+ {
+  "idx": 37,
+  "myAnswer": "p = 4",
+  "how": "python"
+ },
+ {
+  "idx": 38,
+  "myAnswer": "k = 13",
+  "how": "python"
+ },
+ {
+  "idx": 39,
+  "myAnswer": "x = 22",
+  "how": "python"
+ },
+ {
+  "idx": 40,
+  "myAnswer": "a=8, b=7, c=27",
+  "how": "python"
+ },
+ {
+  "idx": 41,
+  "myAnswer": "median 23.5",
+  "how": "python"
+ },
+ {
+  "idx": 42,
+  "myAnswer": "mean 104 units",
+  "how": "python"
+ },
+ {
+  "idx": 43,
+  "myAnswer": "x=10, y=14",
+  "how": "python"
+ },
+ {
+  "idx": 44,
+  "myAnswer": "x=16, y=5",
+  "how": "python"
+ },
+ {
+  "idx": 45,
+  "myAnswer": "x=25, y=9",
+  "how": "python"
+ },
+ {
+  "idx": 46,
+  "myAnswer": "x=11, y=19",
+  "how": "python"
+ },
+ {
+  "idx": 47,
+  "myAnswer": "x=20, mode 35",
+  "how": "python"
+ },
+ {
+  "idx": 48,
+  "myAnswer": "x=14, mean 156.4 g, median 155 g",
+  "how": "python"
+ },
+ {
+  "idx": 49,
+  "myAnswer": "x=8, mean 42.3 min, mode 38 min",
+  "how": "python"
+ },
+ {
+  "idx": 50,
+  "myAnswer": "x=15, y=7",
+  "how": "python"
+ },
+ {
+  "idx": 51,
+  "myAnswer": "mean 57, median 60.8",
+  "how": "python"
+ },
+ {
+  "idx": 52,
+  "myAnswer": "mean 31.5, mode 32",
+  "how": "python"
+ },
+ {
+  "idx": 53,
+  "myAnswer": "mean Rs 224, mode Rs 230",
+  "how": "python"
+ },
+ {
+  "idx": 54,
+  "myAnswer": "mean 366 kL, mode 375 kL, mode larger",
+  "how": "python"
+ },
+ {
+  "idx": 55,
+  "myAnswer": "mean 47, median 46",
+  "how": "python"
+ },
+ {
+  "idx": 56,
+  "myAnswer": "median 45.5 yr, mode 49 yr",
+  "how": "python"
+ },
+ {
+  "idx": 57,
+  "myAnswer": "mean 54.5, median 53.6, difference 0.9 kg",
+  "how": "python"
+ },
+ {
+  "idx": 58,
+  "myAnswer": "mean 28.3, median 28.4, mode 28; 3Med-2Mean = 28.6 ~ 28, holds",
+  "how": "python"
+ },
+ {
+  "idx": 59,
+  "myAnswer": "(i) 20-30 (ii) 28 (iii) 9",
+  "how": "python"
+ },
+ {
+  "idx": 60,
+  "myAnswer": "(i) 20-30 (ii) 24 (iii) mean 27.5 OR mode 25",
+  "how": "python"
+ },
+ {
+  "idx": 61,
+  "myAnswer": "(i) 40-60 (ii) 16/40 = 2/5 (iii) 45",
+  "how": "python"
+ },
+ {
+  "idx": 62,
+  "myAnswer": "(i) 35-45 (ii) 35-45 (iii) mode 38 OR median 40",
+  "how": "python"
+ }
+]

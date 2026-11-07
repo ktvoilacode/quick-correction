@@ -1,0 +1,1459 @@
+[
+ {
+  "chapter": "Circles",
+  "topic": "Lines and circles: basics",
+  "patternId": "CI-BA-01",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "A point $P$ lies on a circle of radius $7\\text{ cm}$. How many tangents to the circle pass through $P$?",
+  "options": [
+   "$0$",
+   "$1$",
+   "$2$",
+   "infinitely many"
+  ],
+  "answer": "Correct option: B) $1$. Through a point on the circle there is exactly one tangent, the line perpendicular to the radius at that point."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Lines and circles: basics",
+  "patternId": "CI-BA-02",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "For a circle with centre $O$ and radius $6\\text{ cm}$, which of the following statements is false?",
+  "options": [
+   "A tangent meets the circle at exactly one point.",
+   "A secant meets the circle at exactly two points.",
+   "Two tangents can be drawn to the circle from a point $4\\text{ cm}$ away from $O$.",
+   "The circle has infinitely many tangents."
+  ],
+  "answer": "Correct option: C) Two tangents can be drawn to the circle from a point $4\\text{ cm}$ away from $O$. Since $4 < 6$, that point lies inside the circle, and no tangent passes through a point inside a circle."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Lines and circles: basics",
+  "patternId": "CI-BA-03",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "$AB$ is a diameter of a circle of radius $5\\text{ cm}$. Lines $l$ and $m$ are the tangents to the circle at $A$ and $B$ respectively. Then $l$ and $m$ are",
+  "options": [
+   "parallel to each other",
+   "perpendicular to each other",
+   "intersecting at a point $10\\text{ cm}$ from $A$",
+   "intersecting at the centre"
+  ],
+  "answer": "Correct option: A) parallel to each other. Both $l$ and $m$ are perpendicular to the diameter $AB$, so $l \\parallel m$."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Lines and circles: basics",
+  "patternId": "CI-BA-05",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Two circles of different radii touch each other externally at exactly one point. How many common tangents can be drawn to them?",
+  "options": [
+   "$4$",
+   "$2$",
+   "$1$",
+   "$3$"
+  ],
+  "answer": "Correct option: D) $3$. Two direct common tangents and one more tangent through the point of contact."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Lines and circles: basics",
+  "patternId": "CI-BA-06",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "A straight line that meets a circle at exactly two distinct points is called",
+  "options": [
+   "a tangent to the circle",
+   "a radius of the circle",
+   "a normal to the circle",
+   "a secant of the circle"
+  ],
+  "answer": "Correct option: D) a secant of the circle. A line meeting a circle at two points is a secant; a tangent meets it at only one point."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Tangent perpendicular to radius",
+  "patternId": "CI-TP-05",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "In the figure, $PA$ is a tangent at $A$ to a circle with centre $O$ and radius $5\\text{ cm}$. If $\\angle AOP = 60^\\circ$, the length of the tangent $PA$ is",
+  "options": [
+   "$5\\sqrt{3}\\text{ cm}$",
+   "$10\\text{ cm}$",
+   "$\\frac{5}{\\sqrt{3}}\\text{ cm}$",
+   "$5\\text{ cm}$"
+  ],
+  "answer": "Correct option: A) $5\\sqrt{3}\\text{ cm}$. $\\angle OAP = 90^\\circ$, so $\\tan 60^\\circ = \\frac{PA}{OA}$, giving $PA = 5\\sqrt{3}\\text{ cm}$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\"><circle cx=\"100\" cy=\"120\" r=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"120\" x2=\"130\" y2=\"68\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"120\" x2=\"220\" y2=\"120\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"130\" y1=\"68\" x2=\"220\" y2=\"120\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"125.5,75.8 133.3,80.3 137.8,72.5\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><path d=\"M 109 104.4 A 18 18 0 0 1 118 120\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"127.7\" y=\"109\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">60°</text><text x=\"127.1\" y=\"106\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">5 cm</text><circle cx=\"100\" cy=\"120\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"86\" y=\"125\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"130\" cy=\"68\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"137\" y=\"60.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"220\" cy=\"120\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"234\" y=\"125\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text></svg>",
+  "figureAlt": "A circle with centre O. A tangent touches it at A and goes to an outside point P. OA is labelled 5 cm, angle AOP is marked 60 degrees and angle OAP is a right angle."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Tangent perpendicular to radius",
+  "patternId": "CI-TP-05",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "In the figure, $PT$ is a tangent at $T$ to a circle with centre $O$. If $OP = 12\\text{ cm}$ and $\\angle OPT = 30^\\circ$, then $PT$ is equal to",
+  "options": [
+   "$6\\text{ cm}$",
+   "$12\\sqrt{3}\\text{ cm}$",
+   "$6\\sqrt{3}\\text{ cm}$",
+   "$4\\sqrt{3}\\text{ cm}$"
+  ],
+  "answer": "Correct option: C) $6\\sqrt{3}\\text{ cm}$. $\\angle OTP = 90^\\circ$, so $\\cos 30^\\circ = \\frac{PT}{OP}$, giving $PT = 12 \\times \\frac{\\sqrt{3}}{2} = 6\\sqrt{3}\\text{ cm}$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\"><circle cx=\"220\" cy=\"110\" r=\"55\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"220\" y1=\"110\" x2=\"192.5\" y2=\"62.4\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"220\" y1=\"110\" x2=\"110\" y2=\"110\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"192.5\" y1=\"62.4\" x2=\"110\" y2=\"110\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"197,70.2 189.2,74.7 184.7,66.9\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><path d=\"M 136 110 A 26 26 0 0 0 132.5 97\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"152.5\" y=\"103.6\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">30°</text><text x=\"165\" y=\"103\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">12 cm</text><circle cx=\"220\" cy=\"110\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"234\" y=\"115\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"192.5\" cy=\"62.4\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"185.5\" y=\"55.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">T</text><circle cx=\"110\" cy=\"110\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"96\" y=\"115\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text></svg>",
+  "figureAlt": "A circle with centre O and an outside point P to its left. PT touches the circle at T. OP is labelled 12 cm, angle OPT is marked 30 degrees and angle OTP is a right angle."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Tangent perpendicular to radius",
+  "patternId": "CI-TP-06",
+  "type": "assertion_reason",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Assertion (A): For a circle of radius $4\\text{ cm}$, the perpendicular distance from the centre to any tangent of the circle is $4\\text{ cm}$.\nReason (R): The tangent at any point of a circle is perpendicular to the radius through the point of contact.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: A) Both A and R are true and R explains A. The radius to the point of contact is perpendicular to the tangent, so it is the perpendicular distance from the centre to the tangent, which is $4\\text{ cm}$."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Tangent perpendicular to radius",
+  "patternId": "CI-TP-08",
+  "type": "assertion_reason",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "In the figure, $PA$ and $PB$ are tangents from an external point $P$ to a circle with centre $O$, and $\\angle APB = 70^\\circ$.\nAssertion (A): $\\angle OAB = 55^\\circ$.\nReason (R): The tangent at any point of a circle is perpendicular to the radius through the point of contact.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: D) A is false but R is true. $\\angle AOB = 180^\\circ - 70^\\circ = 110^\\circ$ and $OA = OB$, so $\\angle OAB = \\frac{180^\\circ - 110^\\circ}{2} = 35^\\circ$, not $55^\\circ$ ($55^\\circ$ is $\\angle PAB$). R is the standard tangent-radius property.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 220\"><circle cx=\"110\" cy=\"110\" r=\"65\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"223.3\" y1=\"110\" x2=\"147.3\" y2=\"56.8\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"223.3\" y1=\"110\" x2=\"147.3\" y2=\"163.2\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"110\" x2=\"147.3\" y2=\"56.8\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"110\" x2=\"147.3\" y2=\"163.2\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"147.3\" y1=\"56.8\" x2=\"147.3\" y2=\"163.2\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 202 95.1 A 26 26 0 0 0 202 124.9\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"179.3\" y=\"115\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">70°</text><circle cx=\"110\" cy=\"110\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"96\" y=\"115\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"147.3\" cy=\"56.8\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"155.3\" y=\"50.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"147.3\" cy=\"163.2\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"155.3\" y=\"179.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"223.3\" cy=\"110\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"237.3\" y=\"115\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text></svg>",
+  "figureAlt": "A circle with centre O and two tangents PA and PB from an outside point P. Radii OA and OB and the chord AB are drawn. Angle APB is marked 70 degrees."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Tangent perpendicular to radius",
+  "patternId": "CI-TP-09",
+  "type": "assertion_reason",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Assertion (A): The tangents drawn at the two ends of a diameter of a circle of radius $9\\text{ cm}$ are parallel.\nReason (R): The lengths of the two tangents drawn from an external point to a circle are equal.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: B) Both A and R are true but R does not explain A. A is true because both tangents are perpendicular to the same diameter. R is a true property but it is about tangents from one external point, so it does not explain A."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Tangent perpendicular to radius",
+  "patternId": "CI-TP-10",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": false,
+  "text": "In the figure, $PT$ is a tangent to a circle with centre $O$ at $T$. If $OP = 26\\text{ cm}$ and $PT = 24\\text{ cm}$, find the radius of the circle.",
+  "answer": "Since the tangent is perpendicular to the radius at the point of contact, $\\angle OTP = 90^\\circ$. In right $\\triangle OTP$, $OP^{2} = OT^{2} + PT^{2}$, so $OT^{2} = 26^{2} - 24^{2} = 676 - 576 = 100$. Hence the radius $OT = 10\\text{ cm}$.",
+  "markingSteps": [
+   {
+    "step": "$\\angle OTP = 90^\\circ$ and $OP^{2} = OT^{2} + PT^{2}$",
+    "marks": 1
+   },
+   {
+    "step": "$OT^{2} = 100$, radius $= 10\\text{ cm}$",
+    "marks": 1
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\"><circle cx=\"100\" cy=\"110\" r=\"50\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"110\" x2=\"119.2\" y2=\"63.8\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"110\" x2=\"230\" y2=\"110\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"119.2\" y1=\"63.8\" x2=\"230\" y2=\"110\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"115.8,72.2 124.1,75.6 127.5,67.3\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"179.2\" y=\"80.8\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">24 cm</text><text x=\"165\" y=\"127\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">26 cm</text><circle cx=\"100\" cy=\"110\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"86\" y=\"115\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"119.2\" cy=\"63.8\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"124.6\" y=\"55.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">T</text><circle cx=\"230\" cy=\"110\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"244\" y=\"115\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text></svg>",
+  "figureAlt": "A circle with centre O. PT is a tangent at T from an outside point P. PT is labelled 24 cm and OP is labelled 26 cm, with a right angle at T."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Tangent perpendicular to radius",
+  "patternId": "CI-TP-12",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A circular running track has centre $O$ and radius $30\\text{ m}$. A coach stands at a point $P$ outside the track. A straight line from $P$ just touches the track at $T$, and $PT = 40\\text{ m}$. How far must the coach walk straight towards the centre to reach the track?",
+  "answer": "$PT$ is a tangent, so $\\angle OTP = 90^\\circ$ and $OP = \\sqrt{30^{2} + 40^{2}} = \\sqrt{2500} = 50\\text{ m}$. Walking towards the centre, the coach meets the track where $OP$ cuts the circle, so the distance is $OP - \\text{radius} = 50 - 30 = 20\\text{ m}$.",
+  "markingSteps": [
+   {
+    "step": "$OP = \\sqrt{30^{2} + 40^{2}} = 50\\text{ m}$",
+    "marks": 1
+   },
+   {
+    "step": "Shortest distance $= OP - r = 20\\text{ m}$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Tangent perpendicular to radius",
+  "patternId": "CI-TP-13",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "In the figure, $AB$ is a diameter of a circle with centre $O$. Lines $l$ and $m$ are tangents to the circle at $A$ and $B$. A straight line meets $l$ at $C$ and $m$ at $D$. Is $\\angle ACD = \\angle CDB$? Justify your answer.",
+  "answer": "Yes. The tangent at a point is perpendicular to the radius there, so $l \\perp AB$ and $m \\perp AB$. Two lines perpendicular to the same line are parallel, so $l \\parallel m$. $CD$ is a transversal of these parallel lines, and $\\angle ACD$ and $\\angle CDB$ are alternate interior angles, so $\\angle ACD = \\angle CDB$.",
+  "markingSteps": [
+   {
+    "step": "$l \\perp AB$ and $m \\perp AB$, so $l \\parallel m$",
+    "marks": 1
+   },
+   {
+    "step": "Alternate angles with transversal $CD$, so $\\angle ACD = \\angle CDB$",
+    "marks": 1
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\"><circle cx=\"180\" cy=\"120\" r=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"60\" x2=\"320\" y2=\"60\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"180\" x2=\"320\" y2=\"180\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"180\" y1=\"60\" x2=\"180\" y2=\"180\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"82\" y1=\"47.3\" x2=\"288\" y2=\"192.7\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 118 72.7 A 22 22 0 0 0 122 60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><path d=\"M 252 167.3 A 22 22 0 0 0 248 180\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"330\" y=\"57\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">l</text><text x=\"330\" y=\"177\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">m</text><circle cx=\"180\" cy=\"120\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"166\" y=\"125\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"180\" cy=\"60\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"187\" y=\"52.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"180\" cy=\"180\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"173\" y=\"197.1\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"100\" cy=\"60\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"95.2\" y=\"51.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><circle cx=\"270\" cy=\"180\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"274.8\" y=\"198.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text></svg>",
+  "figureAlt": "A circle with centre O and vertical diameter AB. Horizontal tangent l touches at A on top and tangent m touches at B at the bottom. A slanting line meets l at C and m at D, with the angles at C and D marked."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Tangent perpendicular to radius",
+  "patternId": "CI-TP-15",
+  "type": "case",
+  "marks": 4,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A circular lake has centre $O$ and radius $9\\text{ m}$. A tea kiosk $K$ stands $41\\text{ m}$ from the centre. Two straight footpaths go from $K$ and just touch the edge of the lake, one at $A$ and the other at $B$. The paths $KA$ and $KB$, together with the radii $OA$ and $OB$, mark out a region $OAKB$ that the town plans to grass.",
+  "answer": "(i) $90^\\circ$; (ii) $KA = 40\\text{ m}$; (iii) area of $OAKB = 360\\text{ m}^{2}$.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "What is the measure of $\\angle OAK$?",
+    "answer": "$KA$ is a tangent at $A$ and $OA$ is the radius, so $\\angle OAK = 90^\\circ$."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "Find the length of the footpath $KA$.",
+    "answer": "In right $\\triangle OAK$, $KA = \\sqrt{41^{2} - 9^{2}} = \\sqrt{1681 - 81} = \\sqrt{1600} = 40\\text{ m}$."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the area of the region $OAKB$ to be grassed.",
+    "answer": "$KB = KA = 40\\text{ m}$ (tangents from an external point). $\\triangle OAK \\cong \\triangle OBK$, so area of $OAKB = 2 \\times \\frac{1}{2} \\times OA \\times KA = 9 \\times 40 = 360\\text{ m}^{2}$."
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 220\"><circle cx=\"100\" cy=\"110\" r=\"45\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"110\" x2=\"109.9\" y2=\"66.1\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"110\" x2=\"109.9\" y2=\"153.9\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"305\" y1=\"110\" x2=\"109.9\" y2=\"66.1\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"305\" y1=\"110\" x2=\"109.9\" y2=\"153.9\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"110\" x2=\"305\" y2=\"110\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><text x=\"94.2\" y=\"90.6\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">9 m</text><text x=\"202.5\" y=\"125\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">41 m</text><circle cx=\"100\" cy=\"110\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"86\" y=\"115\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"109.9\" cy=\"66.1\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"113\" y=\"57.4\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"109.9\" cy=\"153.9\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"113\" y=\"172.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"305\" cy=\"110\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"319\" y=\"115\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">K</text></svg>",
+  "figureAlt": "A circle with centre O. From an outside point K two tangents touch the circle at A and B. Radii OA and OB are drawn, OA is labelled 9 m, and the dashed line OK is labelled 41 m."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Tangent perpendicular to radius",
+  "patternId": "CI-TP-16",
+  "type": "case",
+  "marks": 4,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A merry-go-round in a park is a circle with centre $O$ and radius $4\\text{ m}$. A child sitting at the edge lets go of a ball at the point $A$. The ball flies off along the tangent to the circle at $A$ and lands at a point $B$ on the ground. From $B$, the line joining $B$ to the centre $O$ makes an angle of $30^\\circ$ with the path $AB$ of the ball.",
+  "answer": "(i) $90^\\circ$; (ii) $OB = 8\\text{ m}$; (iii) $AB = 4\\sqrt{3} \\approx 6.93\\text{ m}$ and nearest distance $4\\text{ m}$.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "What is $\\angle OAB$? Give a reason.",
+    "answer": "$AB$ is a tangent at $A$ and $OA$ is a radius, so $\\angle OAB = 90^\\circ$."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "Find the distance $OB$.",
+    "answer": "$\\sin 30^\\circ = \\frac{OA}{OB}$, so $\\frac{1}{2} = \\frac{4}{OB}$ and $OB = 8\\text{ m}$."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the distance $AB$ travelled by the ball, and how far $B$ is from the nearest point on the edge of the merry-go-round. (Use $\\sqrt{3} = 1.732$.)",
+    "answer": "$\\tan 30^\\circ = \\frac{OA}{AB}$, so $AB = 4\\sqrt{3} = 4 \\times 1.732 = 6.928 \\approx 6.93\\text{ m}$. The nearest point of the edge lies on $OB$, so the distance is $OB - OA = 8 - 4 = 4\\text{ m}$."
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 210\"><circle cx=\"100\" cy=\"120\" r=\"55\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"120\" x2=\"127.5\" y2=\"72.4\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"127.5\" y1=\"72.4\" x2=\"210\" y2=\"120\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"120\" x2=\"210\" y2=\"120\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><polyline points=\"123,80.2 130.8,84.7 135.3,76.9\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><path d=\"M 180 120 A 30 30 0 0 1 184 105\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"163.6\" y=\"112.6\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">30°</text><text x=\"104.2\" y=\"95.7\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">4 m</text><circle cx=\"100\" cy=\"120\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"86\" y=\"125\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"127.5\" cy=\"72.4\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"134.5\" y=\"65.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"210\" cy=\"120\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"224\" y=\"125\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text></svg>",
+  "figureAlt": "A circle with centre O and radius OA labelled 4 m. The tangent at A runs to a point B outside the circle, with a right angle at A. The dashed line OB is drawn and angle OBA is marked 30 degrees."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Tangents from an external point",
+  "patternId": "CI-EP-01",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "In the figure, $PA$ and $PB$ are tangents to a circle with centre $O$. If $\\angle AOB = 115^\\circ$, then $\\angle APB$ is",
+  "options": [
+   "$25^\\circ$",
+   "$57.5^\\circ$",
+   "$65^\\circ$",
+   "$115^\\circ$"
+  ],
+  "answer": "Correct option: C) $65^\\circ$. In quadrilateral $OAPB$, $\\angle OAP = \\angle OBP = 90^\\circ$, so $\\angle APB = 180^\\circ - 115^\\circ = 65^\\circ$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 210\"><circle cx=\"110\" cy=\"105\" r=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"221.7\" y1=\"105\" x2=\"142.2\" y2=\"54.4\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"221.7\" y1=\"105\" x2=\"142.2\" y2=\"155.6\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"105\" x2=\"142.2\" y2=\"54.4\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"105\" x2=\"142.2\" y2=\"155.6\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 119.7 89.8 A 18 18 0 0 1 119.7 120.2\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"148\" y=\"110\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">115°</text><path d=\"M 199.7 91 A 26 26 0 0 0 199.7 119\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"179.7\" y=\"110\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">?</text><circle cx=\"110\" cy=\"105\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"96\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"142.2\" cy=\"54.4\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"149.8\" y=\"47.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"142.2\" cy=\"155.6\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"149.8\" y=\"172.4\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"221.7\" cy=\"105\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"235.7\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text></svg>",
+  "figureAlt": "A circle with centre O and two tangents PA and PB from an outside point P. Radii OA and OB are drawn. Angle AOB is marked 115 degrees and angle APB is marked with a question mark."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Tangents from an external point",
+  "patternId": "CI-EP-02",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "In the figure, $PA$ and $PB$ are tangents from $P$ to a circle with centre $O$, inclined to each other at an angle of $70^\\circ$. Then $\\angle POA$ is equal to",
+  "options": [
+   "$35^\\circ$",
+   "$55^\\circ$",
+   "$70^\\circ$",
+   "$110^\\circ$"
+  ],
+  "answer": "Correct option: B) $55^\\circ$. $OP$ bisects $\\angle APB$, so $\\angle APO = 35^\\circ$. In $\\triangle OAP$, $\\angle OAP = 90^\\circ$, so $\\angle POA = 90^\\circ - 35^\\circ = 55^\\circ$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 210\"><circle cx=\"110\" cy=\"105\" r=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"214.6\" y1=\"105\" x2=\"144.4\" y2=\"55.9\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"214.6\" y1=\"105\" x2=\"144.4\" y2=\"154.1\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"105\" x2=\"144.4\" y2=\"55.9\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"105\" x2=\"214.6\" y2=\"105\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 193.3 90.1 A 26 26 0 0 0 193.3 119.9\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"170.6\" y=\"110\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">70°</text><path d=\"M 119.2 91.9 A 16 16 0 0 1 126 105\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"136.6\" y=\"96.1\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">?</text><circle cx=\"110\" cy=\"105\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"96\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"144.4\" cy=\"55.9\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"152.4\" y=\"49.4\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"144.4\" cy=\"154.1\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"152.4\" y=\"170.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"214.6\" cy=\"105\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"228.6\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text></svg>",
+  "figureAlt": "A circle with centre O and tangents PA and PB from an outside point P meeting at 70 degrees. Radius OA and line OP are drawn and angle POA is marked with a question mark."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Tangents from an external point",
+  "patternId": "CI-EP-04",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "In the figure, $PA$ and $PB$ are tangents to a circle with centre $O$ at $A$ and $B$. If $\\angle OAB = 25^\\circ$, then $\\angle APB$ is",
+  "options": [
+   "$25^\\circ$",
+   "$65^\\circ$",
+   "$130^\\circ$",
+   "$50^\\circ$"
+  ],
+  "answer": "Correct option: D) $50^\\circ$. $OA = OB$, so $\\angle OBA = 25^\\circ$ and $\\angle AOB = 180^\\circ - 50^\\circ = 130^\\circ$. Hence $\\angle APB = 180^\\circ - 130^\\circ = 50^\\circ$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 210\"><circle cx=\"105\" cy=\"105\" r=\"55\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"235.1\" y1=\"105\" x2=\"128.2\" y2=\"55.2\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"235.1\" y1=\"105\" x2=\"128.2\" y2=\"154.8\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"105\" y1=\"105\" x2=\"128.2\" y2=\"55.2\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"105\" y1=\"105\" x2=\"128.2\" y2=\"154.8\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"128.2\" y1=\"55.2\" x2=\"128.2\" y2=\"154.8\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 118.9 75.1 A 22 22 0 0 0 128.2 77.2\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"120.5\" y=\"95.3\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">25°</text><path d=\"M 208 92.3 A 30 30 0 0 0 208 117.7\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"189.1\" y=\"110\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">?</text><circle cx=\"105\" cy=\"105\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"91\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"128.2\" cy=\"55.2\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"134.2\" y=\"47.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"128.2\" cy=\"154.8\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"134.2\" y=\"172.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"235.1\" cy=\"105\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"249.1\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text></svg>",
+  "figureAlt": "A circle with centre O and tangents PA and PB from an outside point P. Radii OA, OB and chord AB are drawn. Angle OAB is marked 25 degrees and angle APB is marked with a question mark."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Tangents from an external point",
+  "patternId": "CI-EP-05",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "hard",
+  "competency": false,
+  "text": "In the figure, $PA$ and $PB$ are tangents to a circle with centre $O$, and $\\angle APB = 70^\\circ$. $C$ is a point on the minor arc $AB$ (the arc facing $P$). Then $\\angle ACB$ is",
+  "options": [
+   "$55^\\circ$",
+   "$110^\\circ$",
+   "$125^\\circ$",
+   "$70^\\circ$"
+  ],
+  "answer": "Correct option: C) $125^\\circ$. $\\angle AOB = 180^\\circ - 70^\\circ = 110^\\circ$, so an angle on the major arc is $55^\\circ$. $C$ is on the minor arc, so $\\angle ACB = 180^\\circ - 55^\\circ = 125^\\circ$ (opposite angles of a cyclic quadrilateral).",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 210\"><circle cx=\"110\" cy=\"105\" r=\"62\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"218.1\" y1=\"105\" x2=\"145.6\" y2=\"54.2\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"218.1\" y1=\"105\" x2=\"145.6\" y2=\"155.8\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"172\" y1=\"105\" x2=\"145.6\" y2=\"54.2\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"172\" y1=\"105\" x2=\"145.6\" y2=\"155.8\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 196.8 90.1 A 26 26 0 0 0 196.8 119.9\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"174.1\" y=\"110\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">70°</text><path d=\"M 165.5 92.6 A 14 14 0 0 0 165.5 117.4\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"186\" y=\"110\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">?</text><circle cx=\"110\" cy=\"105\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"96\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"145.6\" cy=\"54.2\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"153.6\" y=\"47.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"145.6\" cy=\"155.8\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"153.6\" y=\"172.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"218.1\" cy=\"105\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"232.1\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><circle cx=\"172\" cy=\"105\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"187\" y=\"115.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text></svg>",
+  "figureAlt": "A circle with centre O and tangents PA and PB from an outside point P meeting at 70 degrees. A point C on the small arc between A and B, facing P, is joined to A and B, and angle ACB is marked with a question mark."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Tangents from an external point",
+  "patternId": "CI-EP-07",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Two tangents $PA$ and $PB$ are drawn to a circle with centre $O$ and radius $4\\text{ cm}$ from an external point $P$. If $\\angle APB = 60^\\circ$, the distance $OP$ is",
+  "options": [
+   "$8\\text{ cm}$",
+   "$4\\sqrt{3}\\text{ cm}$",
+   "$4\\sqrt{2}\\text{ cm}$",
+   "$16\\text{ cm}$"
+  ],
+  "answer": "Correct option: A) $8\\text{ cm}$. $OP$ bisects $\\angle APB$, so $\\angle APO = 30^\\circ$. In right $\\triangle OAP$, $\\sin 30^\\circ = \\frac{OA}{OP}$, so $OP = 2 \\times 4 = 8\\text{ cm}$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 210\"><circle cx=\"105\" cy=\"105\" r=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"225\" y1=\"105\" x2=\"135\" y2=\"53\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"225\" y1=\"105\" x2=\"135\" y2=\"157\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"105\" y1=\"105\" x2=\"135\" y2=\"53\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"105\" y1=\"105\" x2=\"225\" y2=\"105\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><path d=\"M 202.5 92 A 26 26 0 0 0 202.5 118\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"181\" y=\"110\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">60°</text><text x=\"109.6\" y=\"78\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">4 cm</text><circle cx=\"105\" cy=\"105\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"91\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"135\" cy=\"53\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"142\" y=\"45.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"135\" cy=\"157\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"142\" y=\"174.1\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"225\" cy=\"105\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"239\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text></svg>",
+  "figureAlt": "A circle with centre O and radius OA labelled 4 cm. Tangents PA and PB from an outside point P meet at an angle of 60 degrees. OP is drawn dashed."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Tangents from an external point",
+  "patternId": "CI-EP-08",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Tangents $PA$ and $PB$ drawn from an external point $P$ to a circle with centre $O$ are inclined to each other at $60^\\circ$. If the chord $AB = 9\\text{ cm}$, the radius of the circle is",
+  "options": [
+   "$9\\text{ cm}$",
+   "$3\\sqrt{3}\\text{ cm}$",
+   "$9\\sqrt{3}\\text{ cm}$",
+   "$4.5\\text{ cm}$"
+  ],
+  "answer": "Correct option: B) $3\\sqrt{3}\\text{ cm}$. $PA = PB$ and $\\angle APB = 60^\\circ$, so $\\triangle PAB$ is equilateral and $PA = 9\\text{ cm}$. With $\\angle APO = 30^\\circ$, $\\tan 30^\\circ = \\frac{OA}{PA}$ gives $OA = \\frac{9}{\\sqrt{3}} = 3\\sqrt{3}\\text{ cm}$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 210\"><circle cx=\"105\" cy=\"105\" r=\"58\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"221\" y1=\"105\" x2=\"134\" y2=\"54.8\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"221\" y1=\"105\" x2=\"134\" y2=\"155.2\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"134\" y1=\"54.8\" x2=\"134\" y2=\"155.2\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 198.5 92 A 26 26 0 0 0 198.5 118\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"177\" y=\"110\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">60°</text><text x=\"114\" y=\"110\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">9 cm</text><circle cx=\"105\" cy=\"105\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"91\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"134\" cy=\"54.8\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"141\" y=\"47.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"134\" cy=\"155.2\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"141\" y=\"172.4\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"221\" cy=\"105\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"235\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text></svg>",
+  "figureAlt": "A circle with centre O and tangents PA and PB from an outside point P meeting at 60 degrees. The chord AB is drawn and labelled 9 cm."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Tangents from an external point",
+  "patternId": "CI-EP-11",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "In the figure, $PA$ and $PB$ are tangents to a circle with centre $O$. A third tangent touches the circle at $R$ and meets $PA$ at $C$ and $PB$ at $D$. If the perimeter of $\\triangle PCD$ is $20\\text{ cm}$, then $PA$ is",
+  "options": [
+   "$10\\text{ cm}$",
+   "$20\\text{ cm}$",
+   "$40\\text{ cm}$",
+   "$5\\text{ cm}$"
+  ],
+  "answer": "Correct option: A) $10\\text{ cm}$. $CR = CA$ and $DR = DB$, so perimeter $= PC + CA + DB + PD = PA + PB = 2PA$. Hence $2PA = 20$, $PA = 10\\text{ cm}$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 230\"><circle cx=\"200\" cy=\"115\" r=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"115\" x2=\"176\" y2=\"170\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"115\" x2=\"176\" y2=\"60\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"140\" y1=\"172.3\" x2=\"140\" y2=\"57.7\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"200\" cy=\"115\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"214\" y=\"120\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"176\" cy=\"170\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"170.4\" y=\"187.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"176\" cy=\"60\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"170.4\" y=\"52.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"50\" cy=\"115\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"36\" y=\"120\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><circle cx=\"140\" cy=\"115\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"152\" y=\"120\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">R</text><circle cx=\"140\" cy=\"154.3\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"140\" y=\"173.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><circle cx=\"140\" cy=\"75.7\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"140\" y=\"66.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text></svg>",
+  "figureAlt": "A circle with centre O and tangents PA and PB from an outside point P on the left. A third tangent touches the circle at R, between P and the circle, and cuts PA at C and PB at D."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Tangents from an external point",
+  "patternId": "CI-EP-13",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": false,
+  "text": "In the figure, $PA$ and $PB$ are tangents to a circle with centre $O$ such that $\\angle APB = 72^\\circ$. Find $\\angle AOB$.",
+  "answer": "The tangent at a point is perpendicular to the radius there, so $\\angle OAP = \\angle OBP = 90^\\circ$. The angles of quadrilateral $OAPB$ add up to $360^\\circ$, so $\\angle AOB = 360^\\circ - 90^\\circ - 90^\\circ - 72^\\circ = 108^\\circ$.",
+  "markingSteps": [
+   {
+    "step": "$\\angle OAP = \\angle OBP = 90^\\circ$",
+    "marks": 1
+   },
+   {
+    "step": "Angle sum of $OAPB$ gives $\\angle AOB = 108^\\circ$",
+    "marks": 1
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 210\"><circle cx=\"105\" cy=\"105\" r=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"207.1\" y1=\"105\" x2=\"140.3\" y2=\"56.5\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"207.1\" y1=\"105\" x2=\"140.3\" y2=\"153.5\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"105\" y1=\"105\" x2=\"140.3\" y2=\"56.5\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"105\" y1=\"105\" x2=\"140.3\" y2=\"153.5\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"135,63.7 142.3,69 147.5,61.7\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><polyline points=\"135,146.3 142.3,141 147.5,148.3\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><path d=\"M 186 89.7 A 26 26 0 0 0 186 120.3\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"163.1\" y=\"110\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">72°</text><circle cx=\"105\" cy=\"105\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"91\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"140.3\" cy=\"56.5\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"148.5\" y=\"50.1\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"140.3\" cy=\"153.5\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"148.5\" y=\"169.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"207.1\" cy=\"105\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"221.1\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text></svg>",
+  "figureAlt": "A circle with centre O and tangents PA and PB from an outside point P meeting at 72 degrees. Radii OA and OB are drawn with right angles at A and B."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Tangents from an external point",
+  "patternId": "CI-EP-15",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Two tangents $PA$ and $PB$ are drawn to a circle with centre $O$ and radius $6\\text{ cm}$ from an external point $P$. If the tangents are inclined to each other at $120^\\circ$, find the length of each tangent.",
+  "answer": "$OP$ bisects $\\angle APB$, so $\\angle APO = 60^\\circ$, and $\\angle OAP = 90^\\circ$. In right $\\triangle OAP$, $\\tan 60^\\circ = \\frac{OA}{PA}$, so $\\sqrt{3} = \\frac{6}{PA}$ and $PA = \\frac{6}{\\sqrt{3}} = 2\\sqrt{3}\\text{ cm}$. Each tangent is $2\\sqrt{3}\\text{ cm}$ (about $3.46\\text{ cm}$).",
+  "markingSteps": [
+   {
+    "step": "$\\angle APO = 60^\\circ$ and $\\angle OAP = 90^\\circ$",
+    "marks": 1
+   },
+   {
+    "step": "$\\tan 60^\\circ = \\frac{6}{PA}$, so $PA = 2\\sqrt{3}\\text{ cm}$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Tangents from an external point",
+  "patternId": "CI-EP-18",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "In the figure, $PA$ and $PB$ are tangents to a circle with centre $O$, and $\\angle OAB = 30^\\circ$. Find $\\angle APB$, and hence find the value of $\\cos \\angle APB + \\sin \\angle APO$.",
+  "answer": "$OA = OB$, so $\\angle OBA = 30^\\circ$ and $\\angle AOB = 180^\\circ - 60^\\circ = 120^\\circ$. Since $\\angle OAP = \\angle OBP = 90^\\circ$, $\\angle APB = 360^\\circ - 180^\\circ - 120^\\circ = 60^\\circ$. $OP$ bisects $\\angle APB$, so $\\angle APO = 30^\\circ$. Hence $\\cos 60^\\circ + \\sin 30^\\circ = \\frac{1}{2} + \\frac{1}{2} = 1$.",
+  "markingSteps": [
+   {
+    "step": "$\\angle AOB = 120^\\circ$ from isosceles $\\triangle OAB$",
+    "marks": 1
+   },
+   {
+    "step": "$\\angle APB = 60^\\circ$ using $\\angle OAP = \\angle OBP = 90^\\circ$",
+    "marks": 1
+   },
+   {
+    "step": "$\\angle APO = 30^\\circ$ and value $= 1$",
+    "marks": 1
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 210\"><circle cx=\"110\" cy=\"105\" r=\"62\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"234\" y1=\"105\" x2=\"141\" y2=\"51.3\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"234\" y1=\"105\" x2=\"141\" y2=\"158.7\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"105\" x2=\"141\" y2=\"51.3\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"105\" x2=\"141\" y2=\"158.7\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"141\" y1=\"51.3\" x2=\"141\" y2=\"158.7\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 130 70.4 A 22 22 0 0 0 141 73.3\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"131.7\" y=\"91.1\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">30°</text><circle cx=\"110\" cy=\"105\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"96\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"141\" cy=\"51.3\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"148\" y=\"44.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"141\" cy=\"158.7\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"148\" y=\"175.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"234\" cy=\"105\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"248\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text></svg>",
+  "figureAlt": "A circle with centre O and tangents PA and PB from an outside point P. Radii OA, OB and chord AB are drawn, and angle OAB is marked 30 degrees."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Tangents from an external point",
+  "patternId": "CI-EP-19",
+  "type": "short",
+  "marks": 3,
+  "complexity": "hard",
+  "competency": false,
+  "text": "$PQ$ is a chord of length $12\\text{ cm}$ of a circle with centre $O$ and radius $10\\text{ cm}$. The tangents at $P$ and $Q$ meet at a point $T$. Find the length $TP$.",
+  "answer": "Join $OT$; it meets $PQ$ at $M$. $TP = TQ$ and $OT$ bisects $\\angle PTQ$, so $OT \\perp PQ$ and $PM = MQ = 6\\text{ cm}$. Then $OM = \\sqrt{10^{2} - 6^{2}} = 8\\text{ cm}$. Let $TM = x$. From right $\\triangle PMT$, $TP^{2} = x^{2} + 36$. From right $\\triangle OPT$ ($\\angle OPT = 90^\\circ$), $OT^{2} = OP^{2} + TP^{2}$, so $(x + 8)^{2} = 100 + x^{2} + 36$, giving $16x + 64 = 136$ and $x = 4.5\\text{ cm}$. Hence $TP^{2} = 20.25 + 36 = 56.25$ and $TP = 7.5\\text{ cm}$.",
+  "markingSteps": [
+   {
+    "step": "$OT \\perp PQ$, $PM = 6\\text{ cm}$ and $OM = 8\\text{ cm}$",
+    "marks": 1
+   },
+   {
+    "step": "Equation $(x + 8)^{2} = 100 + x^{2} + 36$",
+    "marks": 1
+   },
+   {
+    "step": "$x = 4.5\\text{ cm}$ and $TP = 7.5\\text{ cm}$",
+    "marks": 1
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\"><circle cx=\"110\" cy=\"110\" r=\"72\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"200\" y1=\"110\" x2=\"167.6\" y2=\"66.8\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"200\" y1=\"110\" x2=\"167.6\" y2=\"153.2\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"110\" x2=\"167.6\" y2=\"66.8\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"167.6\" y1=\"66.8\" x2=\"167.6\" y2=\"153.2\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"110\" x2=\"200\" y2=\"110\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><text x=\"131.6\" y=\"83.8\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">10 cm</text><text x=\"183.6\" y=\"115\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">12 cm</text><circle cx=\"110\" cy=\"110\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"96\" y=\"115\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"167.6\" cy=\"66.8\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"178.8\" y=\"63.4\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><circle cx=\"167.6\" cy=\"153.2\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"178.8\" y=\"166.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text><circle cx=\"200\" cy=\"110\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"214\" y=\"115\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">T</text></svg>",
+  "figureAlt": "A circle with centre O and a chord PQ labelled 12 cm. Tangents at P and Q meet at an outside point T. Radius OP is labelled 10 cm and OT is drawn dashed."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Tangents from an external point",
+  "patternId": "CI-EP-20",
+  "type": "long",
+  "marks": 5,
+  "complexity": "medium",
+  "competency": false,
+  "text": "In the figure, $PQ$ is a chord of length $24\\text{ cm}$ of a circle with centre $O$ and radius $15\\text{ cm}$. The tangents at $P$ and $Q$ meet at $T$, and $OT$ cuts $PQ$ at $M$. Find (a) $OM$, (b) the length of the tangent $TP$, (c) $OT$, and (d) the area of the quadrilateral $OPTQ$.",
+  "answer": "Since $TP = TQ$ and $OT$ bisects $\\angle PTQ$, $OT$ is the perpendicular bisector of $PQ$, so $PM = 12\\text{ cm}$ and $\\angle OMP = 90^\\circ$. (a) $OM = \\sqrt{15^{2} - 12^{2}} = \\sqrt{81} = 9\\text{ cm}$. (b) Let $TM = x$ and $TP = y$. In right $\\triangle TMP$, $y^{2} = x^{2} + 144$. In right $\\triangle OPT$ ($\\angle OPT = 90^\\circ$), $(x + 9)^{2} = y^{2} + 225 = x^{2} + 369$. So $18x + 81 = 369$, $x = 16\\text{ cm}$, and $y^{2} = 256 + 144 = 400$, giving $TP = 20\\text{ cm}$. (c) $OT = OM + MT = 9 + 16 = 25\\text{ cm}$ (check: $15^{2} + 20^{2} = 625 = 25^{2}$). (d) Area of $OPTQ = 2 \\times \\text{area of } \\triangle OPT = 2 \\times \\frac{1}{2} \\times 15 \\times 20 = 300\\text{ cm}^{2}$.",
+  "markingSteps": [
+   {
+    "step": "$OT \\perp PQ$, $PM = 12\\text{ cm}$ and $OM = 9\\text{ cm}$",
+    "marks": 1
+   },
+   {
+    "step": "Two Pythagoras relations in $\\triangle TMP$ and $\\triangle OPT$",
+    "marks": 1
+   },
+   {
+    "step": "Solving: $TM = 16\\text{ cm}$ and $TP = 20\\text{ cm}$",
+    "marks": 1
+   },
+   {
+    "step": "$OT = 25\\text{ cm}$",
+    "marks": 1
+   },
+   {
+    "step": "Area of $OPTQ = 300\\text{ cm}^{2}$",
+    "marks": 1
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\"><circle cx=\"105\" cy=\"110\" r=\"66\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"215\" y1=\"110\" x2=\"144.6\" y2=\"57.2\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"215\" y1=\"110\" x2=\"144.6\" y2=\"162.8\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"105\" y1=\"110\" x2=\"144.6\" y2=\"57.2\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"105\" y1=\"110\" x2=\"144.6\" y2=\"162.8\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"144.6\" y1=\"57.2\" x2=\"144.6\" y2=\"162.8\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"105\" y1=\"110\" x2=\"215\" y2=\"110\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><text x=\"115.2\" y=\"81.4\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">15 cm</text><text x=\"160.6\" y=\"115\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">24 cm</text><circle cx=\"105\" cy=\"110\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"91\" y=\"115\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"144.6\" cy=\"57.2\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"153\" y=\"51\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><circle cx=\"144.6\" cy=\"162.8\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"153\" y=\"179\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text><circle cx=\"215\" cy=\"110\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"229\" y=\"115\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">T</text><circle cx=\"144.6\" cy=\"110\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"154.4\" y=\"108.1\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">M</text></svg>",
+  "figureAlt": "A circle with centre O, radius OP labelled 15 cm and chord PQ labelled 24 cm. Tangents at P and Q meet at an outside point T. The dashed line OT crosses PQ at M."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Angle and length problems with tangents",
+  "patternId": "CI-AL-01",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "In the figure, $AT$ is the tangent at $A$ to a circle with centre $O$, and $AB$ is a chord such that $\\angle AOB = 100^\\circ$. The angle $\\angle BAT$ between the chord and the tangent is",
+  "options": [
+   "$40^\\circ$",
+   "$50^\\circ$",
+   "$80^\\circ$",
+   "$100^\\circ$"
+  ],
+  "answer": "Correct option: B) $50^\\circ$. $OA = OB$, so $\\angle OAB = \\frac{180^\\circ - 100^\\circ}{2} = 40^\\circ$. Since $\\angle OAT = 90^\\circ$, $\\angle BAT = 90^\\circ - 40^\\circ = 50^\\circ$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 210\"><circle cx=\"150\" cy=\"105\" r=\"65\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"170\" x2=\"290\" y2=\"170\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"170\" x2=\"214\" y2=\"93.7\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"105\" x2=\"150\" y2=\"170\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"105\" x2=\"214\" y2=\"93.7\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 150 123 A 18 18 0 0 0 167.7 101.9\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"176\" y=\"131.9\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">100°</text><path d=\"M 178 170 A 28 28 0 0 0 168 148.6\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"186.3\" y=\"158.1\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">?</text><circle cx=\"150\" cy=\"105\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"136.8\" y=\"105.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"150\" cy=\"170\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"150\" y=\"190\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"214\" cy=\"93.7\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"227.8\" y=\"96.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"296\" y=\"165\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">T</text></svg>",
+  "figureAlt": "A circle with centre O. A horizontal tangent touches it at A at the bottom and runs right to T. The chord AB and radii OA and OB are drawn. Angle AOB is marked 100 degrees and angle BAT is marked with a question mark."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Angle and length problems with tangents",
+  "patternId": "CI-AL-02",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "In the figure, $AC$ is a diameter of a circle with centre $O$ and $AT$ is the tangent at $A$. $B$ is a point on the circle such that $\\angle ACB = 35^\\circ$. Then $\\angle BAT$ is",
+  "options": [
+   "$55^\\circ$",
+   "$65^\\circ$",
+   "$125^\\circ$",
+   "$35^\\circ$"
+  ],
+  "answer": "Correct option: D) $35^\\circ$. $\\angle ABC = 90^\\circ$ (angle in a semicircle), so $\\angle BAC = 90^\\circ - 35^\\circ = 55^\\circ$. As $\\angle CAT = 90^\\circ$, $\\angle BAT = 90^\\circ - 55^\\circ = 35^\\circ$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\"><circle cx=\"150\" cy=\"110\" r=\"70\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"180\" x2=\"290\" y2=\"180\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"180\" x2=\"150\" y2=\"40\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"40\" x2=\"215.8\" y2=\"133.9\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"180\" x2=\"215.8\" y2=\"133.9\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 150 66 A 26 26 0 0 0 164.9 61.3\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"161.4\" y=\"81.2\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">35°</text><path d=\"M 180 180 A 30 30 0 0 0 174.6 162.8\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"192\" y=\"171.8\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">?</text><circle cx=\"150\" cy=\"110\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"136\" y=\"115\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"150\" cy=\"180\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"150\" y=\"200\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"150\" cy=\"40\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"150\" y=\"31\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><circle cx=\"215.8\" cy=\"133.9\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"228.9\" y=\"143.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"296\" y=\"175\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">T</text></svg>",
+  "figureAlt": "A circle with centre O and vertical diameter AC, with A at the bottom. A horizontal tangent at A runs right to T. Point B on the circle is joined to A and C. Angle ACB is marked 35 degrees and angle BAT is marked with a question mark."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Angle and length problems with tangents",
+  "patternId": "CI-AL-03",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A chord of a circle has length $10\\text{ cm}$ and subtends a right angle at the centre. The radius of the circle is",
+  "options": [
+   "$5\\text{ cm}$",
+   "$5\\sqrt{2}\\text{ cm}$",
+   "$10\\sqrt{2}\\text{ cm}$",
+   "$10\\text{ cm}$"
+  ],
+  "answer": "Correct option: B) $5\\sqrt{2}\\text{ cm}$. The two radii and the chord form a right isosceles triangle, so $r^{2} + r^{2} = 10^{2}$, $r^{2} = 50$, $r = 5\\sqrt{2}\\text{ cm}$."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Angle and length problems with tangents",
+  "patternId": "CI-AL-04",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "In the figure, $AB$ is a diameter of a circle with centre $O$, and the tangent at $B$ meets $AC$ produced at $D$, where $C$ is a point on the circle. If $\\angle BAC = 35^\\circ$, find $x = \\angle CBD$.",
+  "answer": "$\\angle ACB = 90^\\circ$ (angle in a semicircle), so $\\angle ABC = 90^\\circ - 35^\\circ = 55^\\circ$. The tangent at $B$ is perpendicular to the radius $OB$, so $\\angle ABD = 90^\\circ$. Hence $x = \\angle CBD = 90^\\circ - 55^\\circ = 35^\\circ$.",
+  "markingSteps": [
+   {
+    "step": "$\\angle ACB = 90^\\circ$, so $\\angle ABC = 55^\\circ$",
+    "marks": 1
+   },
+   {
+    "step": "$\\angle ABD = 90^\\circ$, so $x = 35^\\circ$",
+    "marks": 1
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 230\"><circle cx=\"130\" cy=\"125\" r=\"70\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"125\" x2=\"200\" y2=\"125\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"200\" y1=\"15\" x2=\"200\" y2=\"215\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"125\" x2=\"200\" y2=\"27\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"200\" y1=\"125\" x2=\"153.9\" y2=\"59.2\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 90 125 A 30 30 0 0 0 84.6 107.8\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"103.9\" y=\"116.2\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">35°</text><path d=\"M 189.7 110.3 A 18 18 0 0 1 200 107\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"191\" y=\"101.4\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">x</text><circle cx=\"130\" cy=\"125\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"130\" y=\"144\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"60\" cy=\"125\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"46\" y=\"130\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"200\" cy=\"125\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"213.9\" y=\"122\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"153.9\" cy=\"59.2\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"149.2\" y=\"51.1\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><circle cx=\"200\" cy=\"27\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"214\" y=\"32\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text></svg>",
+  "figureAlt": "A circle with centre O and horizontal diameter AB. A vertical tangent at B meets the line from A through a point C on the circle, produced, at D. BC is drawn. Angle BAC is marked 35 degrees and angle CBD is marked x."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Angle and length problems with tangents",
+  "patternId": "CI-AL-05",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "From a point $P$ whose distance from the centre $O$ of a circle is twice the radius, two tangents $PA$ and $PB$ are drawn. Show that $\\triangle PAB$ is equilateral, that is, $\\angle PAB = \\angle PBA = 60^\\circ$.",
+  "answer": "Let the radius be $r$, so $OP = 2r$. In right $\\triangle OAP$ ($\\angle OAP = 90^\\circ$), $\\sin \\angle APO = \\frac{OA}{OP} = \\frac{r}{2r} = \\frac{1}{2}$, so $\\angle APO = 30^\\circ$ and $\\angle APB = 2 \\times 30^\\circ = 60^\\circ$. Since $PA = PB$, $\\angle PAB = \\angle PBA = \\frac{180^\\circ - 60^\\circ}{2} = 60^\\circ$. So $\\triangle PAB$ is equilateral.",
+  "markingSteps": [
+   {
+    "step": "$\\sin \\angle APO = \\frac{1}{2}$, so $\\angle APB = 60^\\circ$",
+    "marks": 1
+   },
+   {
+    "step": "$PA = PB$ gives base angles $60^\\circ$ each",
+    "marks": 1
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 210\"><circle cx=\"105\" cy=\"105\" r=\"58\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"221\" y1=\"105\" x2=\"134\" y2=\"54.8\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"221\" y1=\"105\" x2=\"134\" y2=\"155.2\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"134\" y1=\"54.8\" x2=\"134\" y2=\"155.2\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"105\" y1=\"105\" x2=\"134\" y2=\"54.8\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"105\" y1=\"105\" x2=\"134\" y2=\"155.2\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"105\" y1=\"105\" x2=\"221\" y2=\"105\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><circle cx=\"105\" cy=\"105\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"91\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"134\" cy=\"54.8\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"141\" y=\"47.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"134\" cy=\"155.2\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"141\" y=\"172.4\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"221\" cy=\"105\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"235\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text></svg>",
+  "figureAlt": "A circle with centre O and tangents PA and PB from an outside point P. Radii OA, OB, chord AB and dashed line OP are drawn."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Angle and length problems with tangents",
+  "patternId": "CI-AL-06",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A circle has centre $O$ and radius $25\\text{ cm}$. $AB$ is a diameter, and a chord $CD$ is drawn parallel to the tangent at $A$, at a distance of $18\\text{ cm}$ from it. Find the length of $CD$.",
+  "answer": "The tangent at $A$ is perpendicular to the diameter through $A$, and $CD$ is parallel to it, so the diameter is perpendicular to $CD$ and cuts it at $M$ with $AM = 18\\text{ cm}$. Then $OM = 25 - 18 = 7\\text{ cm}$. The perpendicular from the centre bisects the chord, and in right $\\triangle OMD$, $MD = \\sqrt{25^{2} - 7^{2}} = \\sqrt{576} = 24\\text{ cm}$. Hence $CD = 2 \\times 24 = 48\\text{ cm}$.",
+  "markingSteps": [
+   {
+    "step": "$OM = 25 - 18 = 7\\text{ cm}$ with $OM \\perp CD$",
+    "marks": 1
+   },
+   {
+    "step": "$MD = 24\\text{ cm}$, so $CD = 48\\text{ cm}$",
+    "marks": 1
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\"><circle cx=\"160\" cy=\"120\" r=\"80\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"40\" x2=\"270\" y2=\"40\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"83.2\" y1=\"97.6\" x2=\"236.8\" y2=\"97.6\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"160\" y1=\"40\" x2=\"160\" y2=\"97.6\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><line x1=\"160\" y1=\"120\" x2=\"236.8\" y2=\"97.6\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"184\" y=\"73.8\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">18 cm</text><text x=\"195\" y=\"102.3\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">25 cm</text><circle cx=\"160\" cy=\"120\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"146.8\" y=\"120.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"160\" cy=\"40\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"165.1\" y=\"30.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"83.2\" cy=\"97.6\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"70\" y=\"97.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><circle cx=\"236.8\" cy=\"97.6\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"250\" y=\"97.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text><circle cx=\"160\" cy=\"97.6\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"155.2\" y=\"115.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">M</text></svg>",
+  "figureAlt": "A circle with centre O and a horizontal tangent at the top point A. A chord CD below A is parallel to the tangent. A dashed line from A down to the midpoint M of CD is labelled 18 cm, and radius OD is labelled 25 cm."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Angle and length problems with tangents",
+  "patternId": "CI-AL-07",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "In the figure, $AB$ is a diameter of a circle with centre $O$. The tangent at a point $T$ of the circle meets $BA$ produced at $P$. If $\\angle PTA = 28^\\circ$, find $\\angle TPA$ and $\\angle TBA$.",
+  "answer": "$\\angle OTP = 90^\\circ$ (tangent is perpendicular to radius), so $\\angle OTA = 90^\\circ - 28^\\circ = 62^\\circ$. $OT = OA$, so $\\angle OAT = 62^\\circ$ and $\\angle TOA = 180^\\circ - 124^\\circ = 56^\\circ$. In $\\triangle OTP$, $\\angle TPA = 180^\\circ - 90^\\circ - 56^\\circ = 34^\\circ$. Also $\\angle ATB = 90^\\circ$ (angle in a semicircle), so in $\\triangle ATB$, $\\angle TBA = 90^\\circ - \\angle TAB = 90^\\circ - 62^\\circ = 28^\\circ$.",
+  "markingSteps": [
+   {
+    "step": "$\\angle OTA = 62^\\circ = \\angle OAT$",
+    "marks": 1
+   },
+   {
+    "step": "$\\angle TOA = 56^\\circ$ and $\\angle TPA = 34^\\circ$",
+    "marks": 1
+   },
+   {
+    "step": "$\\angle ATB = 90^\\circ$, so $\\angle TBA = 28^\\circ$",
+    "marks": 1
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 220\"><circle cx=\"230\" cy=\"120\" r=\"65\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"113.8\" y1=\"120\" x2=\"295\" y2=\"120\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"113.8\" y1=\"120\" x2=\"193.7\" y2=\"66.1\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"120\" x2=\"193.7\" y2=\"66.1\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"193.7\" y1=\"66.1\" x2=\"165\" y2=\"120\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"193.7\" y1=\"66.1\" x2=\"295\" y2=\"120\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 172.1 80.7 A 26 26 0 0 0 181.4 89.1\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"166.9\" y=\"100.8\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">28°</text><circle cx=\"230\" cy=\"120\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"237\" y=\"112.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"165\" cy=\"120\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"153.7\" y=\"136.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"295\" cy=\"120\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"309\" y=\"125\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"193.7\" cy=\"66.1\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"185.8\" y=\"59.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">T</text><circle cx=\"113.8\" cy=\"120\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"99.8\" y=\"125\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text></svg>",
+  "figureAlt": "A circle with centre O and horizontal diameter AB. The diameter is produced beyond A to a point P, and PT is a tangent touching the circle at T above. OT, TA and TB are drawn and angle PTA is marked 28 degrees."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Concentric and touching circles",
+  "patternId": "CI-CC-02",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Two concentric circles have centre $O$. A chord $AB$ of the larger circle, of length $16\\text{ cm}$, touches the smaller circle of radius $6\\text{ cm}$ at $P$. The radius of the larger circle is",
+  "options": [
+   "$8\\text{ cm}$",
+   "$14\\text{ cm}$",
+   "$20\\text{ cm}$",
+   "$10\\text{ cm}$"
+  ],
+  "answer": "Correct option: D) $10\\text{ cm}$. $OP \\perp AB$ and $P$ is the midpoint of $AB$, so $PB = 8\\text{ cm}$. Then $OB = \\sqrt{6^{2} + 8^{2}} = 10\\text{ cm}$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 230\"><circle cx=\"160\" cy=\"115\" r=\"95\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"115\" r=\"57\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"84\" y1=\"172\" x2=\"236\" y2=\"172\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"160\" y1=\"115\" x2=\"160\" y2=\"172\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"160\" y1=\"115\" x2=\"236\" y2=\"172\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><polyline points=\"160,163 169,163 169,172\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"140\" y=\"148.5\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">6 cm</text><text x=\"160\" y=\"163\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">16 cm</text><circle cx=\"160\" cy=\"115\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"160\" y=\"106\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"84\" cy=\"172\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"70.8\" y=\"172.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"236\" cy=\"172\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"249.2\" y=\"172.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"160\" cy=\"172\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"153.7\" y=\"190.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text></svg>",
+  "figureAlt": "Two circles with the same centre O. Chord AB of the larger circle touches the smaller circle at P, with OP perpendicular to AB. OP is labelled 6 cm and AB is labelled 16 cm. OB is dashed."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Concentric and touching circles",
+  "patternId": "CI-CC-03",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "In the figure, two circles with centres $A$ and $B$ touch each other externally at $C$. A common tangent touches them at $P$ and $Q$, and the tangent at $C$ meets $PQ$ at $R$. If $PQ = 11\\text{ cm}$, then $RC$ is",
+  "options": [
+   "$11\\text{ cm}$",
+   "$22\\text{ cm}$",
+   "$5.5\\text{ cm}$",
+   "$2.75\\text{ cm}$"
+  ],
+  "answer": "Correct option: C) $5.5\\text{ cm}$. Tangents from $R$ are equal, so $RP = RC$ and $RQ = RC$. Hence $PQ = 2RC$ and $RC = 5.5\\text{ cm}$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 230\"><circle cx=\"95\" cy=\"100\" r=\"70\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"210\" cy=\"100\" r=\"45\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"90.7\" y1=\"172.7\" x2=\"239.3\" y2=\"139.6\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"165\" y1=\"100\" x2=\"165\" y2=\"156.1\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"161.5\" y=\"145.5\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">11 cm</text><circle cx=\"95\" cy=\"100\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"81\" y=\"105\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"210\" cy=\"100\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"224\" y=\"105\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"165\" cy=\"100\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"177.1\" y=\"98\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><circle cx=\"110.2\" cy=\"168.3\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"105.4\" y=\"186.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><circle cx=\"219.8\" cy=\"143.9\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"224.6\" y=\"162.1\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text><circle cx=\"165\" cy=\"156.1\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"165\" y=\"176.1\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">R</text></svg>",
+  "figureAlt": "Two circles with centres A and B touching externally at C. A common tangent below them touches at P and Q and is labelled 11 cm. The tangent at C goes down and meets PQ at R."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Concentric and touching circles",
+  "patternId": "CI-CC-04",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "hard",
+  "competency": false,
+  "text": "Two circles with centres $A$ and $B$ touch each other externally. The radius of the circle with centre $A$ is twice the radius of the other circle. If the length of the tangent $AT$ drawn from $A$ to the circle with centre $B$ is $6\\sqrt{2}\\text{ cm}$, the radius of the smaller circle is",
+  "options": [
+   "$2\\text{ cm}$",
+   "$3\\text{ cm}$",
+   "$6\\text{ cm}$",
+   "$3\\sqrt{2}\\text{ cm}$"
+  ],
+  "answer": "Correct option: B) $3\\text{ cm}$. Let the smaller radius be $r$; then $AB = 2r + r = 3r$. In right $\\triangle ATB$, $AT^{2} = (3r)^{2} - r^{2} = 8r^{2}$, so $AT = 2\\sqrt{2}\\, r = 6\\sqrt{2}$, giving $r = 3\\text{ cm}$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 220\"><circle cx=\"100\" cy=\"110\" r=\"80\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"110\" r=\"40\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"110\" x2=\"206.7\" y2=\"147.7\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"220\" y1=\"110\" x2=\"206.7\" y2=\"147.7\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"110\" x2=\"220\" y2=\"110\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><polyline points=\"198.2,144.7 201.2,136.2 209.7,139.2\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"157.3\" y=\"122.5\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">6√2 cm</text><circle cx=\"100\" cy=\"110\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"86\" y=\"115\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"220\" cy=\"110\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"234\" y=\"115\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"206.7\" cy=\"147.7\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"202\" y=\"165.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">T</text></svg>",
+  "figureAlt": "A large circle with centre A and a smaller circle with centre B touching it externally. A tangent from A touches the smaller circle at T and is labelled 6 root 2 cm. BT and the dashed line AB are drawn, with a right angle at T."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Concentric and touching circles",
+  "patternId": "CI-CC-06",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Two concentric circles have centre $O$ and radii $25\\text{ cm}$ and $7\\text{ cm}$. A chord $AB$ of the larger circle touches the smaller circle at $P$. Prove that $AP = PB$, and hence find the length of $AB$.",
+  "answer": "Join $OP$, $OA$ and $OB$. $AB$ is a tangent to the smaller circle at $P$ and $OP$ is its radius, so $OP \\perp AB$. In right triangles $OPA$ and $OPB$, $OA = OB$ (radii of the larger circle) and $OP$ is common, so $\\triangle OPA \\cong \\triangle OPB$ (RHS) and $AP = PB$. Now $AP = \\sqrt{OA^{2} - OP^{2}} = \\sqrt{625 - 49} = \\sqrt{576} = 24\\text{ cm}$, so $AB = 2 \\times 24 = 48\\text{ cm}$.",
+  "markingSteps": [
+   {
+    "step": "$OP \\perp AB$ (tangent and radius)",
+    "marks": 1
+   },
+   {
+    "step": "$\\triangle OPA \\cong \\triangle OPB$ (RHS), so $AP = PB$",
+    "marks": 1
+   },
+   {
+    "step": "$AP = 24\\text{ cm}$, $AB = 48\\text{ cm}$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Concentric and touching circles",
+  "patternId": "CI-CC-07",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Two concentric circles with centre $O$ have radii $15\\text{ cm}$ and $7\\text{ cm}$. From a point $P$ outside both circles, the tangent $PT$ to the larger circle has length $20\\text{ cm}$. Find the length of the tangent $PS$ drawn from $P$ to the smaller circle.",
+  "answer": "$\\angle OTP = 90^\\circ$, so $OP^{2} = OT^{2} + PT^{2} = 15^{2} + 20^{2} = 625$ and $OP = 25\\text{ cm}$. For the smaller circle, $\\angle OSP = 90^\\circ$, so $PS^{2} = OP^{2} - OS^{2} = 625 - 49 = 576$. Hence $PS = 24\\text{ cm}$.",
+  "markingSteps": [
+   {
+    "step": "$OP^{2} = 15^{2} + 20^{2}$, $OP = 25\\text{ cm}$",
+    "marks": 1
+   },
+   {
+    "step": "$PS^{2} = OP^{2} - 7^{2}$ using $\\angle OSP = 90^\\circ$",
+    "marks": 1
+   },
+   {
+    "step": "$PS = 24\\text{ cm}$",
+    "marks": 1
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 240\"><circle cx=\"100\" cy=\"120\" r=\"81\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"100\" cy=\"120\" r=\"37.8\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"235\" y1=\"120\" x2=\"148.6\" y2=\"55.2\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"235\" y1=\"120\" x2=\"110.6\" y2=\"156.3\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"120\" x2=\"148.6\" y2=\"55.2\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"120\" x2=\"110.6\" y2=\"156.3\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"120\" x2=\"235\" y2=\"120\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><text x=\"199\" y=\"83\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">20 cm</text><text x=\"114.7\" y=\"85.4\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">15 cm</text><text x=\"95.7\" y=\"145.9\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">7 cm</text><circle cx=\"100\" cy=\"120\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"86\" y=\"125\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"148.6\" cy=\"55.2\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"157\" y=\"49\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">T</text><circle cx=\"110.6\" cy=\"156.3\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"105.5\" y=\"175.4\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">S</text><circle cx=\"235\" cy=\"120\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"249\" y=\"125\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text></svg>",
+  "figureAlt": "Two circles with the same centre O and radii labelled 15 cm and 7 cm. From an outside point P, tangent PT to the larger circle is labelled 20 cm, and tangent PS goes to the smaller circle. OP is dashed."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Proofs with tangents",
+  "patternId": "CI-PR-02",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Two tangents $PA$ and $PB$ are drawn to a circle with centre $O$ from an external point $P$. Prove that the four points $O$, $A$, $P$ and $B$ lie on a circle.",
+  "answer": "The tangent at a point is perpendicular to the radius through it, so $\\angle OAP = 90^\\circ$ and $\\angle OBP = 90^\\circ$. In quadrilateral $OAPB$, $\\angle OAP + \\angle OBP = 180^\\circ$, so the remaining pair $\\angle AOB + \\angle APB = 360^\\circ - 180^\\circ = 180^\\circ$ as well. A quadrilateral whose opposite angles are supplementary is cyclic, so $O$, $A$, $P$, $B$ lie on a circle.",
+  "markingSteps": [
+   {
+    "step": "$\\angle OAP = \\angle OBP = 90^\\circ$",
+    "marks": 1
+   },
+   {
+    "step": "Opposite angles supplementary, so $OAPB$ is cyclic",
+    "marks": 1
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 210\"><circle cx=\"105\" cy=\"105\" r=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"215.2\" y1=\"105\" x2=\"137.7\" y2=\"54.7\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"215.2\" y1=\"105\" x2=\"137.7\" y2=\"155.3\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"105\" y1=\"105\" x2=\"137.7\" y2=\"54.7\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"105\" y1=\"105\" x2=\"137.7\" y2=\"155.3\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"105\" cy=\"105\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"91\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"137.7\" cy=\"54.7\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"145.3\" y=\"47.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"137.7\" cy=\"155.3\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"145.3\" y=\"172.1\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"215.2\" cy=\"105\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"229.2\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text></svg>",
+  "figureAlt": "A circle with centre O and two tangents PA and PB from an outside point P, with radii OA and OB drawn to form quadrilateral OAPB."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Proofs with tangents",
+  "patternId": "CI-PR-03",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "$PA$ and $PB$ are tangents from an external point $P$ to a circle with centre $O$, touching it at $A$ and $B$. If $\\angle APB = 90^\\circ$, prove that $OAPB$ is a square.",
+  "answer": "$\\angle OAP = \\angle OBP = 90^\\circ$ (tangent is perpendicular to radius) and $\\angle APB = 90^\\circ$, so $\\angle AOB = 360^\\circ - 270^\\circ = 90^\\circ$. All four angles are right angles, so $OAPB$ is a rectangle. Also $OA = OB$ (radii), so two adjacent sides are equal. A rectangle with two adjacent sides equal is a square, so $OAPB$ is a square.",
+  "markingSteps": [
+   {
+    "step": "All angles of $OAPB$ are $90^\\circ$",
+    "marks": 1
+   },
+   {
+    "step": "$OA = OB$ adjacent sides equal, so square",
+    "marks": 1
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 210\"><circle cx=\"110\" cy=\"105\" r=\"62\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"197.7\" y1=\"105\" x2=\"153.8\" y2=\"61.2\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"197.7\" y1=\"105\" x2=\"153.8\" y2=\"148.8\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"105\" x2=\"153.8\" y2=\"61.2\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"105\" x2=\"153.8\" y2=\"148.8\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"189.9,97.2 182.1,105 189.9,112.8\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><circle cx=\"110\" cy=\"105\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"96\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"153.8\" cy=\"61.2\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"163.7\" y=\"56.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"153.8\" cy=\"148.8\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"163.7\" y=\"163.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"197.7\" cy=\"105\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"211.7\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text></svg>",
+  "figureAlt": "A circle with centre O and tangents PA and PB from an outside point P meeting at a right angle. Radii OA and OB are drawn."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Proofs with tangents",
+  "patternId": "CI-PR-04",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "From an external point $T$, two tangents $TQ$ and $TR$ are drawn to a circle with centre $O$. If $\\angle QTR = 120^\\circ$, prove that $TQ + TR = OT$.",
+  "answer": "$OT$ bisects $\\angle QTR$ (tangents from an external point are equally inclined to the line joining it to the centre), so $\\angle OTQ = 60^\\circ$. In right $\\triangle OQT$ ($\\angle OQT = 90^\\circ$), $\\cos 60^\\circ = \\frac{TQ}{OT}$, so $TQ = \\frac{1}{2} OT$, i.e. $OT = 2TQ$. Since $TQ = TR$, $TQ + TR = 2TQ = OT$.",
+  "markingSteps": [
+   {
+    "step": "$\\angle OTQ = 60^\\circ$ and $\\cos 60^\\circ = \\frac{TQ}{OT}$, so $OT = 2TQ$",
+    "marks": 1
+   },
+   {
+    "step": "$TQ = TR$, so $TQ + TR = OT$",
+    "marks": 1
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\"><circle cx=\"110\" cy=\"100\" r=\"66\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"186.2\" y1=\"100\" x2=\"167.2\" y2=\"67\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"186.2\" y1=\"100\" x2=\"167.2\" y2=\"133\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"100\" x2=\"167.2\" y2=\"67\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"100\" x2=\"167.2\" y2=\"133\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"100\" x2=\"186.2\" y2=\"100\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 178.2 86.1 A 16 16 0 0 0 178.2 113.9\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"154.2\" y=\"105\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">120°</text><circle cx=\"110\" cy=\"100\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"96\" y=\"105\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"167.2\" cy=\"67\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"179.3\" y=\"65\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text><circle cx=\"167.2\" cy=\"133\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"179.3\" y=\"145\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">R</text><circle cx=\"186.2\" cy=\"100\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"200.2\" y=\"105\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">T</text></svg>",
+  "figureAlt": "A circle with centre O and tangents TQ and TR from an outside point T meeting at 120 degrees. Radii OQ, OR and the line OT are drawn."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Proofs with tangents",
+  "patternId": "CI-PR-06",
+  "type": "short",
+  "marks": 2,
+  "complexity": "hard",
+  "competency": false,
+  "text": "In the figure, $P$ is a point outside a circle with centre $O$. A line through $P$ cuts the circle at $A$ and $B$, with $A$ between $P$ and $B$, and $OC \\perp AB$ with $C$ on $AB$. $PT$ is a tangent to the circle at $T$. Prove that $PA \\cdot PB = PT^{2}$.",
+  "answer": "The perpendicular from the centre bisects the chord, so $AC = CB$. Then $PA = PC - AC$ and $PB = PC + CB = PC + AC$, so $PA \\cdot PB = PC^{2} - AC^{2}$. By Pythagoras in right triangles $OCP$ and $OCA$, $PC^{2} = OP^{2} - OC^{2}$ and $AC^{2} = OA^{2} - OC^{2}$. So $PA \\cdot PB = OP^{2} - OA^{2} = OP^{2} - OT^{2}$ (as $OA = OT$). Since $\\angle OTP = 90^\\circ$, $OP^{2} - OT^{2} = PT^{2}$. Hence $PA \\cdot PB = PT^{2}$.",
+  "markingSteps": [
+   {
+    "step": "$AC = CB$, so $PA \\cdot PB = PC^{2} - AC^{2}$",
+    "marks": 1
+   },
+   {
+    "step": "Pythagoras gives $OP^{2} - OT^{2} = PT^{2}$, completing the proof",
+    "marks": 1
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 230\"><circle cx=\"230\" cy=\"110\" r=\"75\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"20\" y1=\"175\" x2=\"304.7\" y2=\"103.8\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"110\" x2=\"232.9\" y2=\"121.8\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"230.8,113 239.5,110.9 241.7,119.6\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><line x1=\"20\" y1=\"175\" x2=\"184.7\" y2=\"50.2\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"110\" x2=\"184.7\" y2=\"50.2\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"230\" y1=\"110\" x2=\"20\" y2=\"175\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><circle cx=\"230\" cy=\"110\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"242.1\" y=\"108\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"20\" cy=\"175\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"6\" y=\"180\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><circle cx=\"161.1\" cy=\"139.7\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"153.6\" y=\"157.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"304.7\" cy=\"103.8\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"318.7\" y=\"108.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"232.9\" cy=\"121.8\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"227.8\" y=\"140.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><circle cx=\"184.7\" cy=\"50.2\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"176.3\" y=\"44.1\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">T</text></svg>",
+  "figureAlt": "A circle with centre O and an outside point P on the left. A line from P cuts the circle at A and then B. OC is perpendicular to AB at C. PT is a tangent touching the circle at T, and OT and dashed OP are drawn."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Proofs with tangents",
+  "patternId": "CI-PR-07",
+  "type": "short",
+  "marks": 3,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Prove that the lengths of the two tangents drawn from an external point to a circle are equal. Also show that these tangents are equally inclined to the line joining the external point to the centre.",
+  "answer": "Given: a circle with centre $O$, an external point $P$, and tangents $PA$ and $PB$ touching the circle at $A$ and $B$. To prove: $PA = PB$ and $\\angle APO = \\angle BPO$. Proof: Join $OA$, $OB$ and $OP$. The tangent is perpendicular to the radius at the point of contact, so $\\angle OAP = \\angle OBP = 90^\\circ$. In right triangles $OAP$ and $OBP$: $OA = OB$ (radii) and $OP = OP$ (common hypotenuse). So $\\triangle OAP \\cong \\triangle OBP$ (RHS). Hence $PA = PB$ and $\\angle APO = \\angle BPO$ (CPCT).",
+  "markingSteps": [
+   {
+    "step": "Given, to prove, construction and $\\angle OAP = \\angle OBP = 90^\\circ$",
+    "marks": 1
+   },
+   {
+    "step": "$\\triangle OAP \\cong \\triangle OBP$ by RHS",
+    "marks": 1
+   },
+   {
+    "step": "$PA = PB$ and $\\angle APO = \\angle BPO$ by CPCT",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Proofs with tangents",
+  "patternId": "CI-PR-08",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Prove that the tangent at any point of a circle is perpendicular to the radius through the point of contact.",
+  "answer": "Given: a circle with centre $O$ and a tangent $XY$ at the point $P$. To prove: $OP \\perp XY$. Proof: Take any point $Q$ on $XY$ other than $P$ and join $OQ$. Since $XY$ touches the circle only at $P$, the point $Q$ lies outside the circle, so $OQ$ is longer than the radius: $OQ > OP$. This holds for every point $Q$ of $XY$ other than $P$, so $OP$ is the shortest distance from $O$ to the line $XY$. The shortest segment from a point to a line is the perpendicular, so $OP \\perp XY$.",
+  "markingSteps": [
+   {
+    "step": "Given, to prove, and point $Q$ on the tangent with $Q$ outside the circle",
+    "marks": 1
+   },
+   {
+    "step": "$OQ > OP$ for every such $Q$, so $OP$ is the shortest distance",
+    "marks": 1
+   },
+   {
+    "step": "Shortest distance is perpendicular, so $OP \\perp XY$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Proofs with tangents",
+  "patternId": "CI-PR-10",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Prove that the angle between the two tangents drawn from an external point to a circle is supplementary to the angle subtended at the centre by the line segment joining the points of contact.",
+  "answer": "Given: tangents $PA$ and $PB$ from an external point $P$ to a circle with centre $O$. To prove: $\\angle APB + \\angle AOB = 180^\\circ$. Proof: The tangent is perpendicular to the radius at the point of contact, so $\\angle OAP = 90^\\circ$ and $\\angle OBP = 90^\\circ$. The angles of quadrilateral $OAPB$ add up to $360^\\circ$: $\\angle OAP + \\angle APB + \\angle PBO + \\angle BOA = 360^\\circ$. So $90^\\circ + \\angle APB + 90^\\circ + \\angle AOB = 360^\\circ$, which gives $\\angle APB + \\angle AOB = 180^\\circ$.",
+  "markingSteps": [
+   {
+    "step": "Given, to prove, and $\\angle OAP = \\angle OBP = 90^\\circ$",
+    "marks": 1
+   },
+   {
+    "step": "Angle sum of quadrilateral $OAPB$ is $360^\\circ$",
+    "marks": 1
+   },
+   {
+    "step": "Conclusion $\\angle APB + \\angle AOB = 180^\\circ$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Proofs with tangents",
+  "patternId": "CI-PR-11",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "In the figure, two parallel tangents touch a circle with centre $O$ at $A$ and $B$. A third tangent touches the circle at $C$ and cuts the parallel tangents at $D$ and $E$. Prove that $\\angle DOE = 90^\\circ$.",
+  "answer": "Join $OA$, $OB$ and $OC$. In $\\triangle OAD$ and $\\triangle OCD$: $OA = OC$ (radii), $DA = DC$ (tangents from $D$) and $OD$ is common, so $\\triangle OAD \\cong \\triangle OCD$ (SSS) and $\\angle ADO = \\angle CDO$. Similarly $\\triangle OBE \\cong \\triangle OCE$, so $\\angle BEO = \\angle CEO$. Since the tangents at $A$ and $B$ are parallel and $DE$ is a transversal, $\\angle ADE + \\angle BED = 180^\\circ$ (co-interior angles), so $2\\angle CDO + 2\\angle CEO = 180^\\circ$, i.e. $\\angle ODE + \\angle OED = 90^\\circ$. In $\\triangle DOE$, $\\angle DOE = 180^\\circ - 90^\\circ = 90^\\circ$.",
+  "markingSteps": [
+   {
+    "step": "$\\triangle OAD \\cong \\triangle OCD$, so $OD$ bisects $\\angle ADE$",
+    "marks": 1
+   },
+   {
+    "step": "Similarly $OE$ bisects $\\angle BED$",
+    "marks": 1
+   },
+   {
+    "step": "Co-interior angles give $\\angle ODE + \\angle OED = 90^\\circ$, so $\\angle DOE = 90^\\circ$",
+    "marks": 1
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 250\"><circle cx=\"170\" cy=\"125\" r=\"65\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"60\" x2=\"310\" y2=\"60\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"190\" x2=\"310\" y2=\"190\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"205.5\" y1=\"47.3\" x2=\"277.9\" y2=\"202.7\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"170\" y1=\"125\" x2=\"211.4\" y2=\"60\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"170\" y1=\"125\" x2=\"272\" y2=\"190\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"170\" y1=\"125\" x2=\"228.9\" y2=\"97.5\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><line x1=\"170\" y1=\"125\" x2=\"170\" y2=\"60\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><line x1=\"170\" y1=\"125\" x2=\"170\" y2=\"190\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><circle cx=\"170\" cy=\"125\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"156\" y=\"130\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"170\" cy=\"60\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"170\" y=\"51\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"170\" cy=\"190\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"170\" y=\"209\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"228.9\" cy=\"97.5\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"241.6\" y=\"96.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><circle cx=\"211.4\" cy=\"60\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"218.4\" y=\"52.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text><circle cx=\"272\" cy=\"190\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"279\" y=\"207.1\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">E</text></svg>",
+  "figureAlt": "A circle with centre O between two horizontal parallel tangents touching it at A on top and B at the bottom. A third tangent touches the circle at C on the right and meets the top tangent at D and the bottom tangent at E. OD and OE are drawn, with dashed radii OA, OB and OC."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Proofs with tangents",
+  "patternId": "CI-PR-12",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Prove that the tangents drawn at the ends of a chord of a circle make equal angles with the chord.",
+  "answer": "Given: a chord $AB$ of a circle with centre $O$; the tangents at $A$ and $B$ meet at $P$. To prove: $\\angle PAB = \\angle PBA$. Proof: Join $OA$ and $OB$. $\\angle OAP = \\angle OBP = 90^\\circ$ (tangent is perpendicular to radius). $OA = OB$ (radii), so in $\\triangle OAB$, $\\angle OAB = \\angle OBA$. Therefore $\\angle PAB = 90^\\circ - \\angle OAB = 90^\\circ - \\angle OBA = \\angle PBA$. (Alternatively, $PA = PB$ as tangents from $P$, so the base angles of $\\triangle PAB$ are equal.)",
+  "markingSteps": [
+   {
+    "step": "Given, to prove, and $\\angle OAP = \\angle OBP = 90^\\circ$",
+    "marks": 1
+   },
+   {
+    "step": "$OA = OB$, so $\\angle OAB = \\angle OBA$",
+    "marks": 1
+   },
+   {
+    "step": "Subtracting from $90^\\circ$ gives $\\angle PAB = \\angle PBA$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Proofs with tangents",
+  "patternId": "CI-PR-13",
+  "type": "short",
+  "marks": 3,
+  "complexity": "hard",
+  "competency": false,
+  "text": "In the figure, $AB$ is a diameter of a circle with centre $O$ and $C$ is a point on the circle such that $\\angle CAB = 30^\\circ$. The tangent at $C$ meets $AB$ produced at $P$. Prove that $AC = PC$.",
+  "answer": "$OA = OC$ (radii), so $\\angle OCA = \\angle OAC = 30^\\circ$. The tangent at $C$ is perpendicular to the radius $OC$, so $\\angle OCP = 90^\\circ$ and $\\angle ACP = \\angle ACO + \\angle OCP = 30^\\circ + 90^\\circ = 120^\\circ$. In $\\triangle ACP$, $\\angle APC = 180^\\circ - 30^\\circ - 120^\\circ = 30^\\circ$. Thus $\\angle CAP = \\angle CPA = 30^\\circ$, and sides opposite equal angles are equal, so $AC = PC$.",
+  "markingSteps": [
+   {
+    "step": "$\\angle OCA = 30^\\circ$ since $OA = OC$",
+    "marks": 1
+   },
+   {
+    "step": "$\\angle OCP = 90^\\circ$, so $\\angle ACP = 120^\\circ$",
+    "marks": 1
+   },
+   {
+    "step": "$\\angle APC = 30^\\circ = \\angle CAP$, so $AC = PC$",
+    "marks": 1
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 210\"><circle cx=\"130\" cy=\"120\" r=\"70\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"120\" x2=\"270\" y2=\"120\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"165\" y1=\"59.4\" x2=\"270\" y2=\"120\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"120\" x2=\"165\" y2=\"59.4\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"200\" y1=\"120\" x2=\"165\" y2=\"59.4\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"130\" y1=\"120\" x2=\"165\" y2=\"59.4\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 90 120 A 30 30 0 0 0 86 105\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"104.4\" y=\"113.1\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">30°</text><circle cx=\"130\" cy=\"120\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"130\" y=\"139\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"60\" cy=\"120\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"46\" y=\"125\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"200\" cy=\"120\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"194.5\" y=\"140\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"165\" cy=\"59.4\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"172\" y=\"52.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><circle cx=\"270\" cy=\"120\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"284\" y=\"125\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text></svg>",
+  "figureAlt": "A circle with centre O and horizontal diameter AB, produced beyond B to P. The tangent at a point C on the upper arc passes through P. AC, BC and OC are drawn and angle CAB is marked 30 degrees."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Proofs with tangents",
+  "patternId": "CI-PR-15",
+  "type": "long",
+  "marks": 5,
+  "complexity": "hard",
+  "competency": false,
+  "text": "Two circles with centres $A$ and $B$ touch each other externally at $C$. A common tangent touches the circles at $P$ and $Q$ respectively, and the common tangent at $C$ meets $PQ$ at $R$. Prove that (a) $R$ is the midpoint of $PQ$, (b) $\\angle PCQ = 90^\\circ$, and (c) $\\angle ARB = 90^\\circ$.",
+  "answer": "(a) $RP$ and $RC$ are tangents from $R$ to the circle with centre $A$, so $RP = RC$. Similarly $RQ = RC$. Hence $RP = RQ$ and $R$ is the midpoint of $PQ$. (b) In $\\triangle RPC$, $RP = RC$, so $\\angle RPC = \\angle RCP$. In $\\triangle RQC$, $RQ = RC$, so $\\angle RQC = \\angle RCQ$. In $\\triangle PCQ$, $\\angle CPQ + \\angle CQP + \\angle PCQ = 180^\\circ$, and $\\angle PCQ = \\angle RCP + \\angle RCQ = \\angle CPQ + \\angle CQP$. So $2\\angle PCQ = 180^\\circ$ and $\\angle PCQ = 90^\\circ$. (c) In $\\triangle APR$ and $\\triangle ACR$: $AP = AC$ (radii), $RP = RC$ and $AR$ is common, so they are congruent (SSS) and $\\angle ARP = \\angle ARC$. Similarly $\\angle BRQ = \\angle BRC$. Since $P$, $R$, $Q$ are on a line, $\\angle PRC + \\angle CRQ = 180^\\circ$, so $2\\angle ARC + 2\\angle BRC = 180^\\circ$ and $\\angle ARB = \\angle ARC + \\angle CRB = 90^\\circ$.",
+  "markingSteps": [
+   {
+    "step": "(a) $RP = RC = RQ$, so $R$ is the midpoint of $PQ$",
+    "marks": 1
+   },
+   {
+    "step": "(b) Equal base angles in $\\triangle RPC$ and $\\triangle RQC$",
+    "marks": 1
+   },
+   {
+    "step": "(b) Angle sum of $\\triangle PCQ$ gives $\\angle PCQ = 90^\\circ$",
+    "marks": 1
+   },
+   {
+    "step": "(c) $\\triangle APR \\cong \\triangle ACR$ and $\\triangle BQR \\cong \\triangle BCR$, so $RA$, $RB$ bisect $\\angle PRC$, $\\angle QRC$",
+    "marks": 1
+   },
+   {
+    "step": "(c) Linear pair gives $\\angle ARB = 90^\\circ$",
+    "marks": 1
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\"><circle cx=\"100\" cy=\"100\" r=\"75\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"225\" cy=\"100\" r=\"50\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"100.3\" y1=\"176.5\" x2=\"249.7\" y2=\"146\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"175\" y1=\"100\" x2=\"175\" y2=\"161.2\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"100\" x2=\"115\" y2=\"173.5\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"225\" y1=\"100\" x2=\"235\" y2=\"149\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"115\" y1=\"173.5\" x2=\"175\" y2=\"100\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"235\" y1=\"149\" x2=\"175\" y2=\"100\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"100\" x2=\"175\" y2=\"161.2\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><line x1=\"225\" y1=\"100\" x2=\"175\" y2=\"161.2\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><line x1=\"100\" y1=\"100\" x2=\"225\" y2=\"100\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"100\" cy=\"100\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"86.8\" y=\"100.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"225\" cy=\"100\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"238.2\" y=\"100.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"175\" cy=\"100\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"184\" y=\"94.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><circle cx=\"115\" cy=\"173.5\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"108\" y=\"190.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><circle cx=\"235\" cy=\"149\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"242\" y=\"166.1\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text><circle cx=\"175\" cy=\"161.2\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"175\" y=\"181.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">R</text></svg>",
+  "figureAlt": "Two circles with centres A and B touching externally at C. A common tangent below touches them at P and Q. The tangent at C meets PQ at R. Radii AP and BQ, segments PC, QC and AB, and dashed lines AR and BR are drawn."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Circle touching the sides of a figure",
+  "patternId": "CI-CF-03",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "In the figure, a quadrilateral $ABCD$ is drawn to circumscribe a circle, touching $AB$, $BC$, $CD$ and $DA$ at $P$, $Q$, $R$ and $S$ respectively. Then $BQ + CR$ is equal to",
+  "options": [
+   "$AB$",
+   "$CD$",
+   "$AD$",
+   "$BC$"
+  ],
+  "answer": "Correct option: D) $BC$. Tangents from $C$ are equal, so $CR = CQ$. Hence $BQ + CR = BQ + QC = BC$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 250\"><circle cx=\"170\" cy=\"125\" r=\"62\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><polygon points=\"118.8,58.3 237.2,68.6 226.4,192.2 97.2,180.9\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"231.8\" cy=\"130.4\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"244.7\" y=\"136.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text><circle cx=\"164.6\" cy=\"186.8\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"163.5\" y=\"204.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">R</text><circle cx=\"108.9\" cy=\"114.2\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"96.1\" y=\"117\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">S</text><circle cx=\"175.4\" cy=\"63.2\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"176.5\" y=\"55.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><text x=\"110.3\" y=\"52.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"247.9\" y=\"64.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"235.4\" y=\"207.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><text x=\"86.1\" y=\"194.4\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text></svg>",
+  "figureAlt": "A quadrilateral ABCD drawn around a circle. The circle touches AB at P, BC at Q, CD at R and DA at S."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Circle touching the sides of a figure",
+  "patternId": "CI-CF-04",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "A parallelogram $ABCD$ circumscribes a circle. If its perimeter is $36\\text{ cm}$, the length of side $AB$ is",
+  "options": [
+   "$9\\text{ cm}$",
+   "$18\\text{ cm}$",
+   "$12\\text{ cm}$",
+   "$6\\text{ cm}$"
+  ],
+  "answer": "Correct option: A) $9\\text{ cm}$. A parallelogram circumscribing a circle is a rhombus, so all four sides are equal and $AB = \\frac{36}{4} = 9\\text{ cm}$."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Circle touching the sides of a figure",
+  "patternId": "CI-CF-08",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": false,
+  "text": "A circle with centre $O$ touches all four sides of a quadrilateral $ABCD$, at $P$ on $AB$, $Q$ on $BC$, $R$ on $CD$ and $S$ on $DA$. Prove that $AB + CD = AD + BC$.",
+  "answer": "Tangents drawn from an external point to a circle are equal, so $AP = AS$, $BP = BQ$, $CR = CQ$ and $DR = DS$. Adding, $AP + BP + CR + DR = AS + BQ + CQ + DS$, that is, $(AP + PB) + (CR + RD) = (AS + SD) + (BQ + QC)$. Hence $AB + CD = AD + BC$.",
+  "markingSteps": [
+   {
+    "step": "Four pairs of equal tangents: $AP = AS$, $BP = BQ$, $CR = CQ$, $DR = DS$",
+    "marks": 1
+   },
+   {
+    "step": "Adding and regrouping to get $AB + CD = AD + BC$",
+    "marks": 1
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 250\"><circle cx=\"170\" cy=\"125\" r=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><polygon points=\"105.8,80.1 217.7,50.1 239.5,173.7 115.9,195.5\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"229.1\" cy=\"114.6\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"241.9\" y=\"117.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text><circle cx=\"180.4\" cy=\"184.1\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"182.7\" y=\"201.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">R</text><circle cx=\"110.2\" cy=\"130.2\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"97.3\" y=\"136.4\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">S</text><circle cx=\"154.5\" cy=\"67\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"151.1\" y=\"59.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><text x=\"94.4\" y=\"77\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"225.2\" y=\"43.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"251\" y=\"186.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><text x=\"107.4\" y=\"211.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text><circle cx=\"170\" cy=\"125\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"170\" y=\"118\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text></svg>",
+  "figureAlt": "A quadrilateral ABCD drawn around a circle with centre O. The circle touches AB at P, BC at Q, CD at R and DA at S."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Circle touching the sides of a figure",
+  "patternId": "CI-CF-09",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "In the figure, a circle touches the side $BC$ of $\\triangle ABC$ at $P$, and touches $AB$ produced at $Q$ and $AC$ produced at $R$. Prove that $AQ = \\frac{1}{2}(AB + BC + CA)$.",
+  "answer": "Tangents from an external point are equal: $AQ = AR$, $BQ = BP$ and $CR = CP$. So $2AQ = AQ + AR = (AB + BQ) + (AC + CR) = AB + BP + AC + CP = AB + (BP + PC) + AC = AB + BC + CA$. Hence $AQ = \\frac{1}{2}(AB + BC + CA)$.",
+  "markingSteps": [
+   {
+    "step": "$AQ = AR$, $BQ = BP$, $CR = CP$",
+    "marks": 1
+   },
+   {
+    "step": "$2AQ = AB + BC + CA$, so $AQ$ is half the perimeter",
+    "marks": 1
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 240\"><circle cx=\"220\" cy=\"120\" r=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"120\" x2=\"222.2\" y2=\"55\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"120\" x2=\"222.2\" y2=\"185\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"153.9\" y1=\"80.8\" x2=\"165.5\" y2=\"163.6\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"50\" cy=\"120\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"36\" y=\"125\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"153.9\" cy=\"80.8\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"146.9\" y=\"73.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"165.5\" cy=\"163.6\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"158.5\" y=\"180.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><circle cx=\"160.6\" cy=\"128.4\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"172.6\" y=\"133.4\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><circle cx=\"198.8\" cy=\"63.9\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"193.9\" y=\"55.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text><circle cx=\"198.8\" cy=\"176.1\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"193.9\" y=\"194.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">R</text></svg>",
+  "figureAlt": "Triangle ABC with a circle outside it beyond side BC. The circle touches BC at P and touches AB produced beyond B at Q and AC produced beyond C at R."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Circle touching the sides of a figure",
+  "patternId": "CI-CF-11",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Prove that a parallelogram circumscribing a circle is a rhombus.",
+  "answer": "Let the parallelogram $ABCD$ touch the circle at $P$, $Q$, $R$, $S$ on $AB$, $BC$, $CD$, $DA$. Tangents from an external point are equal, so $AP = AS$, $BP = BQ$, $CR = CQ$, $DR = DS$. Adding, $AB + CD = AD + BC$. In a parallelogram $AB = CD$ and $AD = BC$, so $2AB = 2BC$, i.e. $AB = BC$. Then $AB = BC = CD = DA$, so $ABCD$ is a rhombus.",
+  "markingSteps": [
+   {
+    "step": "Equal tangent pairs from $A$, $B$, $C$, $D$",
+    "marks": 1
+   },
+   {
+    "step": "Adding to get $AB + CD = AD + BC$",
+    "marks": 1
+   },
+   {
+    "step": "Using $AB = CD$, $AD = BC$: $AB = BC$, so all sides equal, rhombus",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Circle touching the sides of a figure",
+  "patternId": "CI-CF-12",
+  "type": "short",
+  "marks": 3,
+  "complexity": "hard",
+  "competency": false,
+  "text": "In the figure, a quadrilateral $ABCD$ circumscribes a circle with centre $O$, touching $AB$, $BC$, $CD$ and $DA$ at $P$, $Q$, $R$ and $S$. Prove that $\\angle AOB + \\angle COD = 180^\\circ$.",
+  "answer": "Join $OP$, $OQ$, $OR$, $OS$. In $\\triangle OAP$ and $\\triangle OAS$: $OP = OS$ (radii), $AP = AS$ (tangents from $A$), $OA$ common, so they are congruent (SSS) and $\\angle AOP = \\angle AOS$; call it $a$. In the same way $\\angle BOP = \\angle BOQ = b$, $\\angle COQ = \\angle COR = c$ and $\\angle DOR = \\angle DOS = d$. The angles round $O$ add up to $360^\\circ$: $2a + 2b + 2c + 2d = 360^\\circ$, so $a + b + c + d = 180^\\circ$. Now $\\angle AOB = a + b$ and $\\angle COD = c + d$, so $\\angle AOB + \\angle COD = 180^\\circ$.",
+  "markingSteps": [
+   {
+    "step": "$\\triangle OAP \\cong \\triangle OAS$ and similar pairs, giving four pairs of equal angles at $O$",
+    "marks": 1
+   },
+   {
+    "step": "Sum of angles at $O$: $2(a + b + c + d) = 360^\\circ$",
+    "marks": 1
+   },
+   {
+    "step": "$\\angle AOB + \\angle COD = a + b + c + d = 180^\\circ$",
+    "marks": 1
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 250\"><circle cx=\"170\" cy=\"125\" r=\"58\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><polygon points=\"116.5,71.5 228,61.7 228,194.1 107.6,172.9\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"170\" y1=\"125\" x2=\"228\" y2=\"125\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><line x1=\"170\" y1=\"125\" x2=\"159.9\" y2=\"182.1\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><line x1=\"170\" y1=\"125\" x2=\"112.2\" y2=\"119.9\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><line x1=\"170\" y1=\"125\" x2=\"164.9\" y2=\"67.2\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><line x1=\"170\" y1=\"125\" x2=\"228\" y2=\"194.1\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"170\" y1=\"125\" x2=\"107.6\" y2=\"172.9\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"170\" y1=\"125\" x2=\"116.5\" y2=\"71.5\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"170\" y1=\"125\" x2=\"228\" y2=\"61.7\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"228\" cy=\"125\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"241\" y=\"130\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text><circle cx=\"159.9\" cy=\"182.1\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"157.7\" y=\"199.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">R</text><circle cx=\"112.2\" cy=\"119.9\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"99.3\" y=\"123.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">S</text><circle cx=\"164.9\" cy=\"67.2\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"163.8\" y=\"59.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><text x=\"106.6\" y=\"66.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"237.5\" y=\"56.4\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"237\" y=\"209.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><text x=\"96.5\" y=\"186.4\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text><circle cx=\"170\" cy=\"125\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"167.7\" y=\"117.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text></svg>",
+  "figureAlt": "A quadrilateral ABCD drawn around a circle with centre O, touching AB at P, BC at Q, CD at R and DA at S. O is joined to the four vertices, and dashed radii go to the four points of contact."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Circle touching the sides of a figure",
+  "patternId": "CI-CF-14",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A rectangle $ABCD$ circumscribes a circle of radius $4.5\\text{ cm}$. Prove that $ABCD$ is a square and find its perimeter.",
+  "answer": "Tangents from an external point are equal, so for the circumscribed quadrilateral $AB + CD = AD + BC$. In the rectangle $AB = CD$ and $AD = BC$, so $2AB = 2BC$ and $AB = BC$. A rectangle with two adjacent sides equal is a square. The circle touches the parallel sides $AB$ and $CD$, and the distance between two parallel tangents of a circle is its diameter, so $BC$ (which is perpendicular to both) $= 2 \\times 4.5 = 9\\text{ cm}$. Perimeter $= 4 \\times 9 = 36\\text{ cm}$.",
+  "markingSteps": [
+   {
+    "step": "$AB + CD = AD + BC$ from equal tangents",
+    "marks": 1
+   },
+   {
+    "step": "With $AB = CD$, $AD = BC$: $AB = BC$, so square",
+    "marks": 1
+   },
+   {
+    "step": "Side $=$ diameter $= 9\\text{ cm}$, perimeter $= 36\\text{ cm}$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Circle touching the sides of a figure",
+  "patternId": "CI-CF-15",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "In right $\\triangle ABC$, $\\angle B = 90^\\circ$, $AB = 8\\text{ cm}$ and $BC = 15\\text{ cm}$. A circle with centre $O$ is inscribed in the triangle, touching $AB$, $BC$ and $CA$ at $P$, $Q$ and $R$. Find the radius $r$ of the circle and the length of the tangent segment $CR$.",
+  "answer": "$AC = \\sqrt{8^{2} + 15^{2}} = 17\\text{ cm}$. $OP \\perp AB$, $OQ \\perp BC$ and $\\angle B = 90^\\circ$ with $OP = OQ = r$, so $OPBQ$ is a square and $BP = BQ = r$. Then $AP = 8 - r$ and $CQ = 15 - r$. By equal tangents $AR = AP$ and $CR = CQ$, so $AC = AR + RC = (8 - r) + (15 - r) = 23 - 2r$. So $23 - 2r = 17$, giving $r = 3\\text{ cm}$, and $CR = CQ = 15 - 3 = 12\\text{ cm}$.",
+  "markingSteps": [
+   {
+    "step": "$AC = 17\\text{ cm}$ and $BP = BQ = r$ ($OPBQ$ a square)",
+    "marks": 1
+   },
+   {
+    "step": "Equal tangents give $AC = 23 - 2r$",
+    "marks": 1
+   },
+   {
+    "step": "$r = 3\\text{ cm}$ and $CR = 12\\text{ cm}$",
+    "marks": 1
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 240\"><polygon points=\"60,111 60,215 255,215\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"99\" cy=\"176\" r=\"39\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"60,205 70,205 70,215\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><line x1=\"99\" y1=\"176\" x2=\"60\" y2=\"176\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><line x1=\"99\" y1=\"176\" x2=\"99\" y2=\"215\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><text x=\"88\" y=\"168\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">8 cm</text><text x=\"157.5\" y=\"236\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">15 cm</text><text x=\"60\" y=\"102\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"46.8\" y=\"215.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"269\" y=\"220\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><circle cx=\"99\" cy=\"176\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"107.5\" y=\"172.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"60\" cy=\"176\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"48\" y=\"181\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><circle cx=\"99\" cy=\"215\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"99\" y=\"234\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text><circle cx=\"117.4\" cy=\"141.6\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"123.9\" y=\"134.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">R</text></svg>",
+  "figureAlt": "A right triangle ABC with the right angle at B, AB labelled 8 cm and BC labelled 15 cm. A circle with centre O inside it touches AB at P, BC at Q and AC at R, with dashed radii OP and OQ."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Circle touching the sides of a figure",
+  "patternId": "CI-CF-17",
+  "type": "short",
+  "marks": 3,
+  "complexity": "hard",
+  "competency": false,
+  "text": "In the figure, a circle with centre $O$ is inscribed in a quadrilateral $ABCD$ with $\\angle D = 90^\\circ$. It touches $AB$, $BC$, $CD$ and $DA$ at $P$, $Q$, $R$ and $S$. If $BC = 30\\text{ cm}$, $CD = 20\\text{ cm}$ and $BP = 21\\text{ cm}$, find the radius of the circle.",
+  "answer": "Tangents from an external point are equal, so $BQ = BP = 21\\text{ cm}$. Then $CQ = BC - BQ = 30 - 21 = 9\\text{ cm}$, and $CR = CQ = 9\\text{ cm}$. So $DR = CD - CR = 20 - 9 = 11\\text{ cm}$. In $ORDS$: $\\angle ORD = \\angle OSD = 90^\\circ$ (radius perpendicular to tangent) and $\\angle D = 90^\\circ$, so it is a rectangle; with $OR = OS$ it is a square. Hence the radius $OR = DR = 11\\text{ cm}$.",
+  "markingSteps": [
+   {
+    "step": "$BQ = 21\\text{ cm}$, $CQ = CR = 9\\text{ cm}$",
+    "marks": 1
+   },
+   {
+    "step": "$DR = 11\\text{ cm}$",
+    "marks": 1
+   },
+   {
+    "step": "$ORDS$ is a square, so $r = DR = 11\\text{ cm}$",
+    "marks": 1
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 250\"><circle cx=\"180\" cy=\"120\" r=\"58\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><polygon points=\"122,79.4 254.6,31.1 228.7,178 122,178\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"133,178 133,167 122,167\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><line x1=\"180\" y1=\"120\" x2=\"180\" y2=\"178\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><line x1=\"180\" y1=\"120\" x2=\"122\" y2=\"120\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><circle cx=\"237.1\" cy=\"130.1\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"249.9\" y=\"137.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text><circle cx=\"180\" cy=\"178\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"180\" y=\"196\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">R</text><circle cx=\"122\" cy=\"120\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"109\" y=\"125\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">S</text><circle cx=\"160.2\" cy=\"65.5\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"155.7\" y=\"58.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><text x=\"110.5\" y=\"76.4\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"263.6\" y=\"25.4\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"237.7\" y=\"193.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><text x=\"112.1\" y=\"192.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text><circle cx=\"180\" cy=\"120\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"186\" y=\"114.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text></svg>",
+  "figureAlt": "A quadrilateral ABCD with a right angle at D, drawn around a circle with centre O. The circle touches AB at P, BC at Q, CD at R and DA at S. Dashed radii OR and OS are drawn."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Circle touching the sides of a figure",
+  "patternId": "CI-CF-18",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "In the figure, a circle touches the side $BC$ of $\\triangle ABC$ at $P$, and touches $AB$ and $AC$ produced at $Q$ and $R$ respectively. Prove that $AQ$ is half the perimeter of $\\triangle ABC$. Hence find $BP$ when $AB = 10\\text{ cm}$, $BC = 8\\text{ cm}$ and $CA = 12\\text{ cm}$.",
+  "answer": "Tangents from an external point are equal: $AQ = AR$, $BQ = BP$, $CR = CP$. So $2AQ = AQ + AR = AB + BQ + AC + CR = AB + BP + CP + AC = AB + BC + CA$, giving $AQ = \\frac{1}{2}(AB + BC + CA)$. With the given sides, $AQ = \\frac{1}{2}(10 + 8 + 12) = 15\\text{ cm}$. Then $BQ = AQ - AB = 15 - 10 = 5\\text{ cm}$, and $BP = BQ = 5\\text{ cm}$.",
+  "markingSteps": [
+   {
+    "step": "Equal tangents $AQ = AR$, $BQ = BP$, $CR = CP$",
+    "marks": 1
+   },
+   {
+    "step": "$2AQ = AB + BC + CA$",
+    "marks": 1
+   },
+   {
+    "step": "$AQ = 15\\text{ cm}$, so $BP = BQ = 5\\text{ cm}$",
+    "marks": 1
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 240\"><circle cx=\"215\" cy=\"120\" r=\"62\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"120\" x2=\"214.9\" y2=\"53.1\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"120\" x2=\"214.9\" y2=\"186.9\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"157.2\" y1=\"76.5\" x2=\"148.5\" y2=\"159.9\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"50\" cy=\"120\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"36\" y=\"125\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"157.2\" cy=\"76.5\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"150.2\" y=\"69.4\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><circle cx=\"148.5\" cy=\"159.9\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"141.5\" y=\"177\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><circle cx=\"153.3\" cy=\"113.5\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"165.3\" y=\"118.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><circle cx=\"191.7\" cy=\"62.5\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"186.4\" y=\"54.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text><circle cx=\"191.7\" cy=\"177.5\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"186.4\" y=\"195.4\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">R</text></svg>",
+  "figureAlt": "Triangle ABC with a circle beyond side BC. The circle touches BC at P, AB produced beyond B at Q, and AC produced beyond C at R."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Circle touching the sides of a figure",
+  "patternId": "CI-CF-22",
+  "type": "long",
+  "marks": 5,
+  "complexity": "hard",
+  "competency": true,
+  "text": "A V-shaped wooden holder has two straight arms that meet at $T$. Two circular discs of radii $4\\text{ cm}$ and $12\\text{ cm}$ rest in it with their centres $M$ and $N$ on the line that bisects the angle between the arms. Each disc touches both arms, and the two discs touch each other. The upper arm touches the small disc at $A$ and the large disc at $B$, as shown. (a) Show that $MA \\parallel NB$ and name the type of quadrilateral $MABN$. (b) Find $TM$ and the angle between the two arms. (c) Find $TA$ and $AB$.",
+  "answer": "(a) $MA \\perp TB$ and $NB \\perp TB$ (radius is perpendicular to the tangent), so $MA \\parallel NB$. $MABN$ has one pair of parallel sides, so it is a trapezium (with right angles at $A$ and $B$). (b) Let $TM = x$. The discs touch, so $MN = 4 + 12 = 16\\text{ cm}$ and $TN = x + 16$. Since $MA \\parallel NB$, $\\triangle TAM \\sim \\triangle TBN$ (AA), so $\\frac{TM}{TN} = \\frac{MA}{NB}$: $\\frac{x}{x + 16} = \\frac{4}{12}$, giving $3x = x + 16$ and $x = 8\\text{ cm}$. In right $\\triangle TAM$, $\\sin \\angle ATM = \\frac{4}{8} = \\frac{1}{2}$, so $\\angle ATM = 30^\\circ$. $TM$ bisects the angle between the arms, so the arms meet at $60^\\circ$. (c) $TA = \\sqrt{8^{2} - 4^{2}} = \\sqrt{48} = 4\\sqrt{3}\\text{ cm}$. $TN = 24\\text{ cm}$, so $TB = \\sqrt{24^{2} - 12^{2}} = \\sqrt{432} = 12\\sqrt{3}\\text{ cm}$. Hence $AB = 12\\sqrt{3} - 4\\sqrt{3} = 8\\sqrt{3}\\text{ cm}$ (about $13.86\\text{ cm}$).",
+  "markingSteps": [
+   {
+    "step": "(a) $MA \\perp TB$, $NB \\perp TB$, so $MA \\parallel NB$; $MABN$ is a trapezium",
+    "marks": 1
+   },
+   {
+    "step": "(b) $\\triangle TAM \\sim \\triangle TBN$ with $MN = 16\\text{ cm}$ gives $TM = 8\\text{ cm}$",
+    "marks": 1
+   },
+   {
+    "step": "(b) $\\sin \\angle ATM = \\frac{1}{2}$, so the arms meet at $60^\\circ$",
+    "marks": 1
+   },
+   {
+    "step": "(c) $TA = 4\\sqrt{3}\\text{ cm}$",
+    "marks": 1
+   },
+   {
+    "step": "(c) $TB = 12\\sqrt{3}\\text{ cm}$, so $AB = 8\\sqrt{3}\\text{ cm}$",
+    "marks": 1
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 260\"><circle cx=\"80\" cy=\"135\" r=\"30\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"200\" cy=\"135\" r=\"90\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"20\" y1=\"135\" x2=\"181\" y2=\"227.9\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"20\" y1=\"135\" x2=\"181\" y2=\"42.1\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"135\" x2=\"65\" y2=\"161\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"200\" y1=\"135\" x2=\"155\" y2=\"212.9\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"20\" y1=\"135\" x2=\"200\" y2=\"135\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><polyline points=\"69,154.1 75.9,158.1 71.9,165\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><polyline points=\"159.5,205.1 151.7,200.6 147.2,208.4\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><circle cx=\"20\" cy=\"135\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"8\" y=\"140\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">T</text><circle cx=\"80\" cy=\"135\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"80\" y=\"154\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">M</text><circle cx=\"200\" cy=\"135\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"200\" y=\"154\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">N</text><circle cx=\"65\" cy=\"161\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"60.2\" y=\"152.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"155\" cy=\"212.9\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"149.9\" y=\"203.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text></svg>",
+  "figureAlt": "Two straight arms meet at T on the left, opening to the right. A small circle with centre M and a large circle with centre N sit between the arms, touching each other and both arms. The upper arm touches the small circle at A and the large circle at B; radii MA and NB are drawn and the dashed line TN joins the centres."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Circle touching the sides of a figure",
+  "patternId": "CI-CF-24",
+  "type": "case",
+  "marks": 4,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A round table top with centre $O$ and radius $50\\text{ cm}$ is placed inside a wooden frame $ABCD$ so that each side of the frame touches the edge of the table: $AB$ at $P$, $BC$ at $Q$, $CD$ at $R$ and $DA$ at $S$. The carpenter measures $AB = 150\\text{ cm}$, $BC = 140\\text{ cm}$ and $CD = 110\\text{ cm}$, and finds that $AP = 75\\text{ cm}$.",
+  "answer": "(i) $90^\\circ$; (ii) $AD = 120\\text{ cm}$; (iii) $BQ = 75\\text{ cm}$ and $DS = 45\\text{ cm}$.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "What is the angle between the radius $OP$ and the side $AB$?",
+    "answer": "$AB$ is a tangent at $P$, so $OP \\perp AB$: the angle is $90^\\circ$."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "Find the length of the side $AD$ of the frame.",
+    "answer": "For a quadrilateral circumscribing a circle, $AB + CD = AD + BC$, so $AD = 150 + 110 - 140 = 120\\text{ cm}$."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the lengths $BQ$ and $DS$.",
+    "answer": "$BP = AB - AP = 150 - 75 = 75\\text{ cm}$, so $BQ = BP = 75\\text{ cm}$. Then $CQ = 140 - 75 = 65\\text{ cm} = CR$, so $DR = 110 - 65 = 45\\text{ cm}$ and $DS = DR = 45\\text{ cm}$. (Check: $AS = AP = 75$, and $AS + SD = 120 = AD$.)"
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 350 250\"><circle cx=\"175\" cy=\"125\" r=\"62\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><polygon points=\"113,68.2 237,57.3 237,192.7 113,181.8\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"175\" y1=\"125\" x2=\"169.6\" y2=\"63.2\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><circle cx=\"237\" cy=\"125\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"250\" y=\"130\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text><circle cx=\"169.6\" cy=\"186.8\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"168.5\" y=\"204.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">R</text><circle cx=\"113\" cy=\"125\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"100\" y=\"130\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">S</text><circle cx=\"169.6\" cy=\"63.2\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"168.5\" y=\"55.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><text x=\"102.7\" y=\"63.7\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"246.5\" y=\"52\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"246.5\" y=\"208\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">C</text><text x=\"102.7\" y=\"196.3\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text><circle cx=\"175\" cy=\"125\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"163.7\" y=\"125.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text></svg>",
+  "figureAlt": "A quadrilateral frame ABCD around a circular table top with centre O. The table touches AB at P, BC at Q, CD at R and DA at S, and the radius OP is shown dashed."
+ },
+ {
+  "chapter": "Circles",
+  "topic": "Circle touching the sides of a figure",
+  "patternId": "CI-CF-25",
+  "type": "case",
+  "marks": 4,
+  "complexity": "hard",
+  "competency": true,
+  "text": "A child whirls a ball tied to a rope of length $1.2\\text{ m}$, so that the ball moves in a horizontal circle with centre $O$ (the child's hand) and radius $1.2\\text{ m}$. The ball is let go at $A$ and moves along the tangent at $A$ to a point $P$ such that $\\angle AOP = 60^\\circ$. Later, a triangular fence $XYZ$ with $\\angle Y = 90^\\circ$, $XY = 3.6\\text{ m}$, $YZ = 4.8\\text{ m}$ and $ZX = 6\\text{ m}$ is built around the same circle so that each side touches it, at $L$ on $XY$, $M$ on $YZ$ and $N$ on $ZX$.",
+  "answer": "(i) $2.4\\text{ m}$; (ii) $AP = 1.2\\sqrt{3} \\approx 2.08\\text{ m}$; (iii) $XL = 2.4\\text{ m}$ and $ZN = 3.6\\text{ m}$.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "What is the diameter of the circle traced by the ball?",
+    "answer": "Diameter $= 2 \\times 1.2 = 2.4\\text{ m}$."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "Find the distance $AP$ travelled by the ball. (Use $\\sqrt{3} = 1.732$.)",
+    "answer": "$\\angle OAP = 90^\\circ$ (tangent and radius), so $\\tan 60^\\circ = \\frac{AP}{OA}$ and $AP = 1.2\\sqrt{3} = 1.2 \\times 1.732 \\approx 2.08\\text{ m}$."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the lengths of the tangent segments $XL$ and $ZN$.",
+    "answer": "Let $XL = XN = x$, $YL = YM = y$ and $ZM = ZN = z$ (equal tangents). Then $x + y = 3.6$, $y + z = 4.8$ and $z + x = 6$. Adding, $2(x + y + z) = 14.4$, so $x + y + z = 7.2$. Hence $x = 7.2 - 4.8 = 2.4\\text{ m}$ and $z = 7.2 - 3.6 = 3.6\\text{ m}$. (Check: $y = 1.2\\text{ m}$ equals the radius, as it must for a right angle at $Y$.)"
+   }
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 230\"><circle cx=\"85\" cy=\"115\" r=\"55\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"85\" y1=\"115\" x2=\"85\" y2=\"60\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"85\" y1=\"60\" x2=\"180.3\" y2=\"60\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"85\" y1=\"115\" x2=\"180.3\" y2=\"60\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><polyline points=\"85,69 94,69 94,60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><path d=\"M 85 99 A 16 16 0 0 1 98.9 107\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"100\" y=\"94\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"middle\">60°</text><circle cx=\"85\" cy=\"115\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"71\" y=\"120\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><circle cx=\"85\" cy=\"60\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"82.6\" y=\"51.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><circle cx=\"180.3\" cy=\"60\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"194.3\" y=\"65\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><polygon points=\"245,89.8 245,205 398.6,205\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"283.4\" cy=\"166.6\" r=\"38.4\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"245,196 254,196 254,205\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.2\"/><text x=\"245\" y=\"80.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">X</text><text x=\"231.8\" y=\"205.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Y</text><text x=\"412.6\" y=\"210\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Z</text><circle cx=\"245\" cy=\"166.6\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"234\" y=\"171.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">L</text><circle cx=\"283.4\" cy=\"205\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"283.4\" y=\"224\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">M</text><circle cx=\"306.4\" cy=\"135.9\" r=\"2.5\" fill=\"#000\" stroke=\"#000\" stroke-width=\"1\"/><text x=\"314.2\" y=\"130.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">N</text></svg>",
+  "figureAlt": "Left: a circle with centre O, radius OA, and the tangent at A running to a point P, with angle AOP marked 60 degrees and a right angle at A. Right: a right triangle XYZ with the right angle at Y, drawn around a circle that touches XY at L, YZ at M and ZX at N."
+ }
+]

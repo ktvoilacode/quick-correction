@@ -1,0 +1,386 @@
+[
+ {
+  "idx": 0,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 1,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 2,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 3,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 4,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 5,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 6,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 7,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 8,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 9,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 10,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 11,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 12,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 13,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 14,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 15,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 16,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 17,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 18,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 19,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 20,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 21,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 22,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 23,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 24,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 25,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 26,
+  "status": "ok",
+  "note": "Key justification cites the conjugate-pair property, which is not in the Class 10 syllabus; A can be justified within syllabus by finding both roots 3±sqrt2 with the formula. Verdict unaffected.",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 27,
+  "status": "ok",
+  "note": "Distance-formula setup (Coordinate Geometry) used to produce a quadratic; fine as a cross-chapter item.",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 28,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 29,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 30,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 31,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 32,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 33,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 34,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 35,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 36,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 37,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 38,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 39,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 40,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 41,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 42,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 43,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 44,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 45,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 46,
+  "status": "ok",
+  "note": "Key cancels (3a+b) assuming it is non-zero; the question does not state 3a+b≠0 (or a,b≠0). Minor, same as the standard NCERT version; consider adding the condition.",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 47,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 48,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 49,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 50,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 51,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 52,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 53,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 54,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 55,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 56,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 57,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 58,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 59,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 60,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 61,
+  "status": "ok",
+  "note": "Figure is schematic and not to scale: floor is 240px and each tile 24px, implying 10 tiles per side, whereas the text gives 225 tiles (15 per side). Not misleading since numbers are given, but tile size 16px would make it consistent.",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 62,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 63,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ }
+]

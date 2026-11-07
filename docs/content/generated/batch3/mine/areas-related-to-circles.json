@@ -1,0 +1,267 @@
+[
+ {
+  "idx": 0,
+  "myAnswer": "C) 4:7",
+  "how": "by hand"
+ },
+ {
+  "idx": 1,
+  "myAnswer": "B) πd²/8",
+  "how": "by hand"
+ },
+ {
+  "idx": 2,
+  "myAnswer": "D) 108 m",
+  "how": "by hand"
+ },
+ {
+  "idx": 3,
+  "myAnswer": "A) 36/11 units",
+  "how": "by hand"
+ },
+ {
+  "idx": 4,
+  "myAnswer": "C) 11:14",
+  "how": "by hand"
+ },
+ {
+  "idx": 5,
+  "myAnswer": "D) A false, R true",
+  "how": "by hand"
+ },
+ {
+  "idx": 6,
+  "myAnswer": "B) 72 cm²",
+  "how": "by hand"
+ },
+ {
+  "idx": 7,
+  "myAnswer": "C) 25 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 8,
+  "myAnswer": "A) 90°",
+  "how": "by hand"
+ },
+ {
+  "idx": 9,
+  "myAnswer": "D) 21 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 10,
+  "myAnswer": "B) 36°",
+  "how": "by hand"
+ },
+ {
+  "idx": 11,
+  "myAnswer": "A) 115.5 cm²",
+  "how": "by hand"
+ },
+ {
+  "idx": 12,
+  "myAnswer": "C) 924 cm²",
+  "how": "by hand"
+ },
+ {
+  "idx": 13,
+  "myAnswer": "D) 231 cm²",
+  "how": "by hand"
+ },
+ {
+  "idx": 14,
+  "myAnswer": "B) 3",
+  "how": "by hand"
+ },
+ {
+  "idx": 15,
+  "myAnswer": "C) 154 cm²",
+  "how": "by hand"
+ },
+ {
+  "idx": 16,
+  "myAnswer": "154 cm² (arc 22 cm)",
+  "how": "by hand"
+ },
+ {
+  "idx": 17,
+  "myAnswer": "43 m (arc 22 m + 2r 21 m)",
+  "how": "by hand"
+ },
+ {
+  "idx": 18,
+  "myAnswer": "r = 21 cm, angle 60°",
+  "how": "by hand"
+ },
+ {
+  "idx": 19,
+  "myAnswer": "arc 22 cm, area 308 cm²",
+  "how": "by hand"
+ },
+ {
+  "idx": 20,
+  "myAnswer": "minor 616 cm², major 1848 cm²",
+  "how": "by hand"
+ },
+ {
+  "idx": 21,
+  "myAnswer": "area 385 cm², perimeter 92 cm (arc 22)",
+  "how": "by hand"
+ },
+ {
+  "idx": 22,
+  "myAnswer": "115.5 cm²",
+  "how": "by hand"
+ },
+ {
+  "idx": 23,
+  "myAnswer": "2r²-39r+154=0 → r=14 (5.5 rejected), arc 11 cm, angle 45°",
+  "how": "by hand"
+ },
+ {
+  "idx": 24,
+  "myAnswer": "(i) 60° (ii) 126+132 = 258 cm (iii) 462 cm²",
+  "how": "by hand"
+ },
+ {
+  "idx": 25,
+  "myAnswer": "A) 30°",
+  "how": "by hand"
+ },
+ {
+  "idx": 26,
+  "myAnswer": "D) 90°",
+  "how": "by hand"
+ },
+ {
+  "idx": 27,
+  "myAnswer": "B) 21 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 28,
+  "myAnswer": "C) 1:9",
+  "how": "by hand"
+ },
+ {
+  "idx": 29,
+  "myAnswer": "D) 10 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 30,
+  "myAnswer": "B) r²/12(4π-3√3)",
+  "how": "by hand"
+ },
+ {
+  "idx": 31,
+  "myAnswer": "C) 21 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 32,
+  "myAnswer": "A) 9 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 33,
+  "myAnswer": "A) both true, R explains A",
+  "how": "by hand"
+ },
+ {
+  "idx": 34,
+  "myAnswer": "22 + 19.74 = 41.74 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 35,
+  "myAnswer": "(i) 88+42 = 130 cm (ii) 462-191 = 271 cm²",
+  "how": "by hand"
+ },
+ {
+  "idx": 36,
+  "myAnswer": "(i) 28.2 cm (ii) 200 cm² (iii) 114 cm² (iv) 1142 cm²",
+  "how": "by hand"
+ },
+ {
+  "idx": 37,
+  "myAnswer": "(i) 44 cm (ii) 924-762.93 = 161.07 cm² (iii) 86 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 38,
+  "myAnswer": "D) 16 cm²",
+  "how": "by hand"
+ },
+ {
+  "idx": 39,
+  "myAnswer": "C) A true, R false",
+  "how": "by hand"
+ },
+ {
+  "idx": 40,
+  "myAnswer": "8π cm²",
+  "how": "by hand"
+ },
+ {
+  "idx": 41,
+  "myAnswer": "84.77-77 = 7.77 cm²",
+  "how": "by hand"
+ },
+ {
+  "idx": 42,
+  "myAnswer": "168-38.5 = 129.5 cm²",
+  "how": "by hand"
+ },
+ {
+  "idx": 43,
+  "myAnswer": "(i) 308 m² (ii) 172 m (iii) 1792 m², ₹8960",
+  "how": "by hand"
+ },
+ {
+  "idx": 44,
+  "myAnswer": "(i) 441 m² (ii) 154 m² (iii) 441-346.5 = 94.5 m²",
+  "how": "by hand"
+ },
+ {
+  "idx": 45,
+  "myAnswer": "(i) 20 m (ii) 125.6 m (iii) 1256-768 = 488 m², ₹7320",
+  "how": "by hand"
+ },
+ {
+  "idx": 46,
+  "myAnswer": "(i) 21 m (ii) 60° (iii) 231-190.73 = 40.27 m²",
+  "how": "by hand"
+ },
+ {
+  "idx": 47,
+  "myAnswer": "B) 165°",
+  "how": "by hand"
+ },
+ {
+  "idx": 48,
+  "myAnswer": "C) 70 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 49,
+  "myAnswer": "154 cm², major 462 cm²",
+  "how": "by hand"
+ },
+ {
+  "idx": 50,
+  "myAnswer": "1540 cm²",
+  "how": "by hand"
+ },
+ {
+  "idx": 51,
+  "myAnswer": "(i) 154 m² (ii) 462 m² (iii) 609 m²",
+  "how": "by hand"
+ },
+ {
+  "idx": 52,
+  "myAnswer": "(i) 220 m (ii) 35 m (iii) 3850 m², ₹4620",
+  "how": "by hand"
+ }
+]

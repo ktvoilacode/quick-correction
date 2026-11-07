@@ -1,0 +1,232 @@
+[
+ {
+  "idx": 0,
+  "myAnswer": "proof: divide by cos -> (sin+1-cos)/(sin-1+cos); multiply via sec^2-tan^2=1 trick: replace 1 by sec^2-tan^2 in numerator, factor (sec+tan) -> sec+tan=(1+sin)/cos",
+  "how": "by hand"
+ },
+ {
+  "idx": 1,
+  "myAnswer": "proof: replace 1 by cosec^2-cot^2, factor (cot+cosec) -> cot+cosec=(1+cos)/sin",
+  "how": "by hand"
+ },
+ {
+  "idx": 2,
+  "myAnswer": "proof: first term = (1+sin)/cos (divide by cos, same as Q0), second is its reciprocal = cos/(1+sin)=(1-sin)/cos; sum 2/cos = 2 sec",
+  "how": "by hand"
+ },
+ {
+  "idx": 3,
+  "myAnswer": "proof: ((sin+cos-1)/sin)((cos+sin+1)/cos) = ((sin+cos)^2-1)/(sin cos) = 2",
+  "how": "by hand"
+ },
+ {
+  "idx": 4,
+  "myAnswer": "proof: tan*2sec/(sec^2-1) = 2sec/tan = 2cosec",
+  "how": "by hand"
+ },
+ {
+  "idx": 5,
+  "myAnswer": "proof: cos sin^2/(sin cos^2) = tan",
+  "how": "by hand"
+ },
+ {
+  "idx": 6,
+  "myAnswer": "proof: x^2-y^2 = (a^2-b^2)(sec^2-tan^2)",
+  "how": "by hand"
+ },
+ {
+  "idx": 7,
+  "myAnswer": "proof: a^3=cos^2/sin, b^3=sin^2/cos; a^2b^2=(sin cos)^(2/3), a^2+b^2=1/(sin cos)^(2/3)",
+  "how": "by hand"
+ },
+ {
+  "idx": 8,
+  "myAnswer": "proof: 4(cos+sin)^2+4(cos-sin)^2=8",
+  "how": "by hand"
+ },
+ {
+  "idx": 9,
+  "myAnswer": "proof: write in tan t: t^2/(t-1) - 1/(t(t-1)) = (t^3-1)/(t(t-1)) = (t^2+t+1)/t = 1+tan+cot = 1+sec cosec",
+  "how": "by hand"
+ },
+ {
+  "idx": 10,
+  "myAnswer": "proof: sec+tan=1/x; add/subtract. sin = tan/sec = (1-x^2)/(1+x^2); x=1/sqrt3 -> sin = 1/2",
+  "how": "by hand"
+ },
+ {
+  "idx": 11,
+  "myAnswer": "A) 25 m",
+  "how": "by hand"
+ },
+ {
+  "idx": 12,
+  "myAnswer": "B) 15 m",
+  "how": "by hand"
+ },
+ {
+  "idx": 13,
+  "myAnswer": "C) 14 m",
+  "how": "by hand"
+ },
+ {
+  "idx": 14,
+  "myAnswer": "D) 30°",
+  "how": "by hand"
+ },
+ {
+  "idx": 15,
+  "myAnswer": "A) 20 m",
+  "how": "by hand"
+ },
+ {
+  "idx": 16,
+  "myAnswer": "B) 45°",
+  "how": "by hand"
+ },
+ {
+  "idx": 17,
+  "myAnswer": "D) 12√3 m",
+  "how": "by hand"
+ },
+ {
+  "idx": 18,
+  "myAnswer": "D) A false (distance 20/√3 m), R true",
+  "how": "by hand"
+ },
+ {
+  "idx": 19,
+  "myAnswer": "C) A true (7-24-25), R false (tan = 24/7, not √3)",
+  "how": "by hand"
+ },
+ {
+  "idx": 20,
+  "myAnswer": "60°",
+  "how": "by hand"
+ },
+ {
+  "idx": 21,
+  "myAnswer": "12 m",
+  "how": "by hand"
+ },
+ {
+  "idx": 22,
+  "myAnswer": "cliff 48 m; distance 12√3 ≈ 20.78 m",
+  "how": "by hand"
+ },
+ {
+  "idx": 23,
+  "myAnswer": "1000(3-√3) ≈ 1268 m",
+  "how": "python"
+ },
+ {
+  "idx": 24,
+  "myAnswer": "wire 24 m; distance 12√3 ≈ 20.78 m",
+  "how": "python"
+ },
+ {
+  "idx": 25,
+  "myAnswer": "tower 48 m; distance 16√3 ≈ 27.71 m",
+  "how": "python"
+ },
+ {
+  "idx": 26,
+  "myAnswer": "height 100√3 ≈ 173.2 m; nearer ship 100 m",
+  "how": "python"
+ },
+ {
+  "idx": 27,
+  "myAnswer": "height 25√3 ≈ 43.3 m; banks 75 m and 25 m",
+  "how": "python"
+ },
+ {
+  "idx": 28,
+  "myAnswer": "height 12√3 ≈ 20.78 m; point 12 m from post seen at 60° (36 m from other); distance to nearer top 24 m",
+  "how": "python"
+ },
+ {
+  "idx": 29,
+  "myAnswer": "building 45 m; distance 15√3 ≈ 25.98 m; top-to-top 30 m",
+  "how": "python"
+ },
+ {
+  "idx": 30,
+  "myAnswer": "(i) 60(√3-1) ≈ 43.92 m (ii) 4.392 m/s ≈ 15.81 km/h (iii) 5(√3+1) ≈ 13.66 s",
+  "how": "python"
+ },
+ {
+  "idx": 31,
+  "myAnswer": "160 m in 8 s: 20 m/s = 72 km/h",
+  "how": "by hand"
+ },
+ {
+  "idx": 32,
+  "myAnswer": "(i) 20(√3+1) ≈ 54.64 m (ii) h√2 ≈ 77.26 m (iii) 20(3+√3) ≈ 94.64 m",
+  "how": "python"
+ },
+ {
+  "idx": 33,
+  "myAnswer": "distance 15√3 ≈ 25.98 m; taller 45 m; wire 15√7 ≈ 39.69 m",
+  "how": "python"
+ },
+ {
+  "idx": 34,
+  "myAnswer": "(i) 40√3 ≈ 69.28 m (ii) 20 m (iii) 80 m",
+  "how": "python"
+ },
+ {
+  "idx": 35,
+  "myAnswer": "height 10(√3+1) ≈ 27.32 m; shadow at 45° ≈ 27.32 m",
+  "how": "python"
+ },
+ {
+  "idx": 36,
+  "myAnswer": "proof: eye-centre distance = r/sin30 = 2r; height 2r sin60 = √3 r; horizontal distance r",
+  "how": "by hand"
+ },
+ {
+  "idx": 37,
+  "myAnswer": "ladder 4(√3+1) ≈ 10.93 m; slides down 4 m; height now 2(√3+1) ≈ 5.46 m",
+  "how": "python"
+ },
+ {
+  "idx": 38,
+  "myAnswer": "(i) 30 m (ii) 60 m (iii) 60 m",
+  "how": "by hand"
+ },
+ {
+  "idx": 39,
+  "myAnswer": "(i) 6√3 ≈ 10.39 m (ii) 3√3 ≈ 5.20 m (iii) 9+3√3 ≈ 14.20 m",
+  "how": "python"
+ },
+ {
+  "idx": 40,
+  "myAnswer": "(i) 45√3 ≈ 77.94 m (ii) 30√3 ≈ 51.96 m (iii) 5√3 ≈ 8.66 m/s (≈31.18 km/h); further 3 s",
+  "how": "python"
+ },
+ {
+  "idx": 41,
+  "myAnswer": "(i) x = h/√3 (ii) x = h-30 (iii) h = 15(3+√3) ≈ 70.98 m, x = 15(√3+1) ≈ 40.98 m",
+  "how": "python"
+ },
+ {
+  "idx": 42,
+  "myAnswer": "(i) 10 m (ii) 30 m (iii) tank 40 m; WT = 20√3 ≈ 34.64 m",
+  "how": "by hand"
+ },
+ {
+  "idx": 43,
+  "myAnswer": "(i) 30° (ii) 3.5√3 ≈ 6.06 m (iii) 4√3 ≈ 6.93 m; foot 2√3 ≈ 3.46 m",
+  "how": "python"
+ },
+ {
+  "idx": 44,
+  "myAnswer": "(i) 24 m (ii) 24-h = x/√3, 24+h = √3 x (iii) h = 12 m, x = 12√3 ≈ 20.78 m",
+  "how": "python"
+ },
+ {
+  "idx": 45,
+  "myAnswer": "(i) 6√3 ≈ 10.39 m (ii) 12 m (iii) AB = 18-6√3 ≈ 7.61 m; tanβ = 1/3",
+  "how": "python"
+ }
+]

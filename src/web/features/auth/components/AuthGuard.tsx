@@ -3,6 +3,7 @@ import { Navigate, useLocation } from 'react-router-dom';
 import { Loader2 } from 'lucide-react';
 import { useAuth } from '../hooks';
 import { config } from '../config';
+import { homeFor } from '../lib/home';
 
 interface AuthGuardProps {
   children: React.ReactNode;
@@ -35,7 +36,7 @@ export const AuthGuard: React.FC<AuthGuardProps> = ({
 
   // 🔒 Pre-login middleware: Block auth-only routes if authenticated
   if (isAuthenticated && authOnly.includes(currentPath)) {
-    return <Navigate to={config.auth.redirects.authenticatedRedirect} replace />;
+    return <Navigate to={homeFor(user)} replace />;
   }
 
   // 🔓 Post-login middleware: Block protected routes if not authenticated

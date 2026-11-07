@@ -1,13 +1,13 @@
 /**
- * Tutor routes — /api/tutor. Teacher accounts only, except /onboard, which
- * is how a signed-in account becomes a teacher in the first place.
+ * Tutor routes — /api/tutor. Approved teacher accounts only, except /onboard, which
+ * files a teacher request (pending until an admin approves it).
  * @file src/api/features/tutor/tutor.route.ts
  */
 import express from 'express';
 import { errorClass } from '@bloomneo/appkit/error';
 import { authClass } from '@bloomneo/appkit/auth';
 import { requireAppRole, claimAppRole, userIdOf } from '../../lib/qc/app-role.js';
-import { readPage } from '../../lib/qc/pages.js';
+import { readPage, MAX_PAGE_BYTES } from '../../lib/qc/pages.js';
 import { tutorService } from './tutor.service.js';
 
 const router = express.Router();
@@ -18,13 +18,17 @@ router.use(auth.requireLoginToken());
 
 router.post('/onboard', error.asyncRoute(async (req, res) => {
   await claimAppRole(userIdOf(req), 'teacher');
-  res.json({ ok: true, appRole: 'teacher' });
+  res.json({ ok: true, appRole: 'teacher', appStatus: 'pending' });
 }));
 
 router.use(requireAppRole('teacher'));
 
+router.get('/setup', error.asyncRoute(async (_req, res) => {
+  res.json(await tutorService.setup());
+}));
+
 router.get('/chapters', error.asyncRoute(async (_req, res) => {
-  res.json({ chapters: tutorService.chapters() });
+  res.json({ chapters: await tutorService.chapters() });
 }));
 
 router.get('/students', error.asyncRoute(async (req, res) => {
@@ -33,6 +37,18 @@ router.get('/students', error.asyncRoute(async (req, res) => {
 
 router.post('/students', error.asyncRoute(async (req: any, res) => {
   res.status(201).json({ student: await tutorService.addStudent(userIdOf(req), req.body ?? {}) });
+}));
+
+router.post('/students/import', error.asyncRoute(async (req: any, res) => {
+  res.status(201).json(await tutorService.importStudents(userIdOf(req), req.body ?? {}));
+}));
+
+router.patch('/students/:id', error.asyncRoute(async (req: any, res) => {
+  res.json(await tutorService.updateStudent(userIdOf(req), req.params.id, req.body ?? {}));
+}));
+
+router.delete('/students/:id', error.asyncRoute(async (req: any, res) => {
+  res.json(await tutorService.removeStudent(userIdOf(req), req.params.id));
 }));
 
 router.get('/papers', error.asyncRoute(async (req, res) => {
@@ -45,6 +61,10 @@ router.post('/papers', error.asyncRoute(async (req: any, res) => {
 
 router.get('/papers/:id', error.asyncRoute(async (req: any, res) => {
   res.json({ paper: await tutorService.getPaper(userIdOf(req), req.params.id) });
+}));
+
+router.delete('/papers/:id', error.asyncRoute(async (req: any, res) => {
+  res.json(await tutorService.deletePaper(userIdOf(req), req.params.id));
 }));
 
 router.post('/papers/:id/assign', error.asyncRoute(async (req: any, res) => {
@@ -70,6 +90,23 @@ router.get('/submissions/:id/pages/:n', async (req, res, next) => {
     next(err);
   }
 });
+
+// One photo per request, sent as the raw image body (Content-Type: image/jpeg ...).
+router.post(
+  '/submissions/:id/pages',
+  express.raw({ type: 'image/*', limit: MAX_PAGE_BYTES }),
+  error.asyncRoute(async (req: any, res) => {
+    res.status(201).json(await tutorService.addPage(userIdOf(req), req.params.id, req.headers['content-type'], req.body));
+  }),
+);
+
+router.post('/submissions/:id/submit', error.asyncRoute(async (req: any, res) => {
+  res.json(await tutorService.submit(userIdOf(req), req.params.id));
+}));
+
+router.post('/submissions/:id/remark', error.asyncRoute(async (req: any, res) => {
+  res.json(await tutorService.remark(userIdOf(req), req.params.id));
+}));
 
 router.post('/submissions/:id/approve', error.asyncRoute(async (req: any, res) => {
   res.json(await tutorService.approve(userIdOf(req), req.params.id));

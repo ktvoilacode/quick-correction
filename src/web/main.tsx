@@ -76,9 +76,22 @@ if (!rootEl) throw new Error('#root not found in index.html');
  */
 installGlobalErrorReporting();
 
+/*
+ * The palette picker is gone, so undo any palette chosen while it existed (the choice is saved
+ * per browser) and keep only the user's light/dark mode.
+ */
+try {
+  const key = `uikit-theme:${brand.themeId}`;
+  const saved = JSON.parse(window.localStorage.getItem(key) ?? 'null');
+  if (saved && saved.theme !== brand.themeId) window.localStorage.setItem(key, JSON.stringify({ ...saved, theme: brand.themeId }));
+} catch {
+  // Storage blocked: nothing saved to undo.
+}
+
 createRoot(rootEl).render(
   <React.StrictMode>
-    <ThemeProvider theme={brand.themeId} mode="light">
+    {/* Own storage key: the default `uikit-theme` is shared by every bloom app on the same localhost origin. */}
+    <ThemeProvider theme={brand.themeId} mode="light" storageKey={`uikit-theme:${brand.themeId}`}>
       <TooltipProvider delayDuration={200}>
         {/* Top on every screen size: at the bottom it would cover the phone tab bar. */}
         <ToastProvider position="top-center" />

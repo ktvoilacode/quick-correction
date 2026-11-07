@@ -1,0 +1,2127 @@
+{
+ "chapter": "Surface Areas and Volumes",
+ "topics": [
+  {
+   "name": "Surface area of solids",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "SV-SA-01",
+     "pattern": "Curved surface area of a cone from radius and vertical height (slant first)",
+     "sample": "The curved surface area of a cone of base radius $6$ cm and height $8$ cm is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvqhe97g00e17gd0cneukvk2"
+     ]
+    },
+    {
+     "id": "SV-SA-02",
+     "pattern": "Find radius or height of a cylinder from its curved surface area",
+     "sample": "A cylinder of height $10$ cm has curved surface area $440$ cm$^2$. Using $\\pi=\\frac{22}{7}$, its radius is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-SA-03",
+     "pattern": "Total surface area of a solid hemisphere from radius or diameter, or as a ratio to r squared",
+     "sample": "The total surface area of a solid hemisphere of diameter $10$ cm is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2023 main",
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2jq00f77gcn07jvqsfj"
+     ]
+    },
+    {
+     "id": "SV-SA-04",
+     "pattern": "Direct surface area of a sphere, closed cylinder, cube or cuboid",
+     "sample": "The total surface area of a closed cylinder of radius $7$ cm and height $3$ cm is (use $\\pi=\\frac{22}{7}$)",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-SA-05",
+     "pattern": "Total surface area of a cuboid formed by joining cubes",
+     "sample": "Three cubes of edge $3$ cm are joined end to end. The total surface area of the cuboid formed is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvqhe97c00dn7gd0satvoioq"
+     ]
+    },
+    {
+     "id": "SV-SA-06",
+     "pattern": "Total surface area of a two-part solid, numeric or in symbols, excluding hidden faces",
+     "sample": "A cone of radius $5$ cm and slant height $13$ cm is fixed on a hemisphere of radius $5$ cm. The total surface area of the solid is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 3,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2jr00fb7gcn0xuxd44e",
+      "cmvq9r2ju00fj7gcnpuv26itw",
+      "cmvqhe97g00e37gd0bv0vgve7"
+     ]
+    },
+    {
+     "id": "SV-SA-07",
+     "pattern": "Change in surface area when a solid is cut into pieces",
+     "sample": "A solid sphere of radius $6$ cm is cut into two equal hemispheres. The increase in total surface area is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-SA-08",
+     "pattern": "Real-life curved surface with a part left out (tent with a door)",
+     "sample": "A hemispherical tent of radius $7$ m has a door of area $4$ m$^2$ left uncovered. The canvas area needed is (use $\\pi=\\frac{22}{7}$)",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-SA-09",
+     "pattern": "Equal radius with a given curved-area relation: ratio of slant height to height",
+     "sample": "A cone and a cylinder have equal base radii, and the cone's curved area is three times the cylinder's. The ratio of the cone's slant height to the cylinder's height is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2018 compartment",
+      "2020 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-SA-10",
+     "pattern": "Ratio of surface areas from the ratio of volumes (cubes or spheres)",
+     "sample": "The volumes of two cubes are in the ratio $8:27$. The ratio of their surface areas is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2018 compartment",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-SA-11",
+     "pattern": "Assertion-reason: surface area of a cuboid made from two joined cubes",
+     "sample": "A: Two cubes of edge $5$ cm joined end to end form a cuboid of surface area $250$ cm$^2$. R: A cuboid's surface area is $2(lb+bh+hl)$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-SA-12",
+     "pattern": "Assertion-reason: hemispheres joined to a sphere, with a faulty area formula",
+     "sample": "A: Two hemispheres of radius $5$ cm joined at their bases form a sphere of radius $5$ cm. R: The total surface area of a sphere is $3\\pi r^2$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-SA-13",
+     "pattern": "Assertion-reason: combined surface area is not the sum of the separate total areas",
+     "sample": "A: The total surface area of a hemisphere fixed on a cylinder of equal radius is the sum of their total surface areas. R: The joined flat faces are hidden.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97f00dz7gd0d63dt089"
+     ]
+    },
+    {
+     "id": "SV-SA-14",
+     "pattern": "Total surface area of a hemisphere resting on a cube",
+     "sample": "A hemisphere of radius $3.5$ cm is fixed on a cube of edge $7$ cm. Find the total surface area of the solid. (Use $\\pi=\\frac{22}{7}$.)",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2015 main",
+      "2016 main"
+     ],
+     "existingIds": [
+      "cmvq9r2jw00fr7gcn314vxdl3"
+     ]
+    },
+    {
+     "id": "SV-SA-15",
+     "pattern": "Total surface area of cubes joined in a row",
+     "sample": "Three cubes of edge $5$ cm are joined in a row. Find the total surface area of the resulting cuboid.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2011 main",
+      "2020 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-SA-16",
+     "pattern": "Total surface area of a cone-on-hemisphere toy from radius and overall height",
+     "sample": "A toy is a cone on a hemisphere of radius $3$ cm, with overall height $7$ cm. Find its total surface area in terms of $\\pi$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-SA-17",
+     "pattern": "Area to colour on a two- or three-part toy, with slant height found first",
+     "sample": "A spinning top is a cone on a hemisphere, with total height $17$ cm and greatest diameter $10$ cm. Find the area to be coloured, in terms of $\\pi$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2017 main",
+      "2025 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvqhe97q00f37gd0qx242vm4"
+     ]
+    },
+    {
+     "id": "SV-SA-18",
+     "pattern": "Cloth to cover a cuboid topped with a half-cylinder",
+     "sample": "A shed is a cuboid $14$ m by $7$ m by $3$ m with a half-cylinder roof along its length. Find the cloth for the walls, roof and two end faces. (Use $\\pi=\\frac{22}{7}$.)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-SA-19",
+     "pattern": "Total surface area of a hollow hemisphere including the rim, alone or with an attached solid",
+     "sample": "An open hemispherical bowl has outer radius $5$ cm and inner radius $3$ cm. Find its total surface area, including the rim, in terms of $\\pi$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2013 main",
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-SA-20",
+     "pattern": "Compare total surface area before and after cutting a solid into pieces",
+     "sample": "A cuboid $8$ cm by $4$ cm by $4$ cm is cut into two equal cubes. Find the ratio of its surface area to the combined surface area of the cubes.",
+     "slot": "C",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97r00f77gd0qwb0qxfu"
+     ]
+    },
+    {
+     "id": "SV-SA-21",
+     "pattern": "Case study: medicine capsule dimensions and coating area",
+     "sample": "A capsule is a cylinder with hemispherical ends, diameter $6$ mm, total length $20$ mm. (i) Find the cylinder's length. (ii) Find its curved area. (iii) Find the area to be coated.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2k000gb7gcng4d31e48"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Volume of single solids",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "SV-VS-01",
+     "pattern": "Direct volume of a cube, cuboid or cylinder",
+     "sample": "The volume of a cuboid measuring $8$ cm by $5$ cm by $3$ cm is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "a17"
+     ]
+    },
+    {
+     "id": "SV-VS-02",
+     "pattern": "Volume or capacity of a cone, including from base area and height",
+     "sample": "A cone has base area $42$ cm$^2$ and height $10$ cm. Its volume is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvqhe97i00e77gd0g9dmg9sk"
+     ]
+    },
+    {
+     "id": "SV-VS-03",
+     "pattern": "Volume or capacity of a sphere or hemisphere",
+     "sample": "The volume of a hemisphere of radius $3$ cm, in terms of $\\pi$, is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2jv00fn7gcn9gse5be7"
+     ]
+    },
+    {
+     "id": "SV-VS-04",
+     "pattern": "Reverse: find radius or height from a given volume",
+     "sample": "A cylinder of height $10$ cm has volume $1540$ cm$^3$. Using $\\pi=\\frac{22}{7}$, its radius is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2012 main",
+      "2017 main",
+      "2020 main",
+      "2023 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-VS-05",
+     "pattern": "Effect on volume when dimensions are scaled",
+     "sample": "The radius of a cone is doubled and its height is halved. The new volume is how many times the original?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2012 main",
+      "2020 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-VS-06",
+     "pattern": "Ratio of volumes of different solids with equal radius and height",
+     "sample": "A cone and a cylinder have equal radii and equal heights. The ratio of their volumes is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2020 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-VS-07",
+     "pattern": "Cylinder dimensions from curved area with height or volume, then the remaining quantity",
+     "sample": "A cylinder has curved surface area $440$ cm$^2$ and volume $1540$ cm$^3$. Find its radius and height. (Use $\\pi=\\frac{22}{7}$.)",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2016 main",
+      "2022 main"
+     ],
+     "existingIds": [
+      "cmvqhe97m00el7gd03hmsv4n3"
+     ]
+    },
+    {
+     "id": "SV-VS-08",
+     "pattern": "Cylinder from radius-height ratio and volume: total surface area",
+     "sample": "A cylinder's radius and height are in the ratio $1:2$, and its volume is $2156$ cm$^3$. Find its total surface area. (Use $\\pi=\\frac{22}{7}$.)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2022 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-VS-09",
+     "pattern": "Sheet rolled into a cylinder two ways, with overlap: radius difference and volume ratio",
+     "sample": "A $46$ cm by $24$ cm sheet is rolled into a cylinder along each side in turn, with a $2$ cm overlap. Find the difference of radii and the ratio of volumes.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Volume of combined solids",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "SV-VC-01",
+     "pattern": "Volume of a two-part solid by adding parts",
+     "sample": "A hemisphere of radius $3$ cm is fixed on a cylinder of radius $3$ cm and height $5$ cm. The volume of the solid is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2jq00f97gcng85sads9",
+      "cmvqhe97d00dp7gd0rn1ccy62",
+      "cmvqhe97d00dr7gd0jej2l4rf"
+     ]
+    },
+    {
+     "id": "SV-VC-02",
+     "pattern": "Volume of a three-part solid in terms of r",
+     "sample": "A cylinder of radius $r$ and height $3r$ has a hemisphere of radius $r$ on one end and a cone of radius and height $r$ on the other. Its volume is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97e00dv7gd04yqdb7f7"
+     ]
+    },
+    {
+     "id": "SV-VC-03",
+     "pattern": "Capsule volume where the cylinder's length must be found from total length",
+     "sample": "A capsule has diameter $6$ mm and total length $16$ mm. In terms of $\\pi$, its volume is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2jv00fl7gcnp8i6na4f"
+     ]
+    },
+    {
+     "id": "SV-VC-04",
+     "pattern": "Total height of a combined solid from its parts' dimensions",
+     "sample": "A cone of radius $5$ cm and slant height $13$ cm stands on a hemisphere of radius $5$ cm. The total height of the solid is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-VC-05",
+     "pattern": "Parts related by volume: find the ratio of heights",
+     "sample": "A cylinder of radius $r$ and height $h$ has an equal-radius hemisphere on top. If the cylinder's volume is twice the hemisphere's, then $h:r$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2024 compartment",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-VC-06",
+     "pattern": "Assertion-reason: stated volume of a toy against sum of parts",
+     "sample": "A: A toy made of a cylinder of radius $3$ cm, height $10$ cm and a hemisphere of radius $3$ cm has volume $108\\pi$ cm$^3$. R: The volume of a combination is the sum of the parts' volumes.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 compartment"
+     ],
+     "existingIds": [
+      "cmvq9r2jw00fp7gcnc41j8fjn"
+     ]
+    },
+    {
+     "id": "SV-VC-07",
+     "pattern": "Volume of a double cone or cone-on-cylinder object",
+     "sample": "Two cones of base radius $3$ cm and height $4$ cm are joined base to base. Find the volume of the solid in terms of $\\pi$.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97l00ef7gd06j96xaql",
+      "cmvqhe97m00ej7gd0ghc96pv1"
+     ]
+    },
+    {
+     "id": "SV-VC-08",
+     "pattern": "Volume of a two- or three-part solid or capsule, from dimensions or total height",
+     "sample": "A capsule-shaped solid has total length $14$ cm and diameter $7$ cm. Find its volume. (Use $\\pi=\\frac{22}{7}$.)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2019 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2jw00ft7gcn3kje6lqo",
+      "cmvqhe97p00ex7gd0vph6vlc3"
+     ]
+    },
+    {
+     "id": "SV-VC-09",
+     "pattern": "Reverse: find a dimension of a combined solid from its total volume",
+     "sample": "A room is a cylinder of height $3r$ topped by a hemisphere of radius $r$. It holds $99\\pi$ m$^3$ of air. Find the cylinder's height.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2015 main",
+      "2023 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvqhe97q00f17gd03f9998jn"
+     ]
+    },
+    {
+     "id": "SV-VC-10",
+     "pattern": "Hollow cylinder: find the radii from metal volume, length and thickness",
+     "sample": "A hollow pipe has length $14$ cm, thickness $1$ cm and metal volume $308$ cm$^3$. Find its outer and inner radii. (Use $\\pi=\\frac{22}{7}$.)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-VC-11",
+     "pattern": "Volume of a cone on a hemisphere with height related to the radius",
+     "sample": "A cone stands on a hemisphere of radius $6$ cm, and the cone's height equals the diameter. Find the volume of the solid in terms of $\\pi$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2012 main",
+      "2020 main",
+      "2023 main"
+     ],
+     "existingIds": [
+      "d4"
+     ]
+    },
+    {
+     "id": "SV-VC-12",
+     "pattern": "Air in a cylinder with a cone at each end",
+     "sample": "A model is a cylinder with a cone at each end, of total length $12$ cm and diameter $3$ cm, each cone $2$ cm high. Find the volume of air in terms of $\\pi$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-VC-13",
+     "pattern": "Mass of a two-cylinder pole using density",
+     "sample": "A pole is a cylinder of diameter $10$ cm and height $70$ cm, topped by one of radius $3$ cm and height $30$ cm. Metal has density $8$ g/cm$^3$. Find the mass. (Use $\\pi=3.14$.)",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2019 main",
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-VC-14",
+     "pattern": "Both volume and total surface area of a combined toy, capsule or block",
+     "sample": "A toy is a cone of height $4$ cm on a hemisphere of radius $3$ cm. Find its volume and total surface area in terms of $\\pi$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2019 main",
+      "2020 main",
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-VC-15",
+     "pattern": "Toy from a ratio and total volume: find total height, area or volume",
+     "sample": "A toy is a cone on a hemisphere, with cone radius and slant height in the ratio $3:5$. The toy's volume is $240\\pi$ cm$^3$. Find its total height.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "SV-VC-16",
+     "pattern": "Case study: food or party items as cone, cylinder and hemisphere",
+     "sample": "An ice-cream cone has radius $3$ cm, height $14$ cm and a hemispherical scoop of equal radius. (i) Find the cone's volume. (ii) Find the scoop's volume. (iii) Find the ice cream for $20$ such cones.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2022 main"
+     ],
+     "existingIds": [
+      "cmvq9r2k000g97gcnrrwznwrr"
+     ]
+    },
+    {
+     "id": "SV-VC-17",
+     "pattern": "Case study: object of joined cylinders: volume, curved area and volume ratio",
+     "sample": "A rolling pin has a roller of length $28$ cm, radius $3.5$ cm, and two handles of length $7$ cm, radius $1$ cm. (i) Find the roller's volume. (ii) Find the handles' curved area. (iii) Find the volume ratio.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-VC-18",
+     "pattern": "Case study: sphere partly submerged in a cylindrical pool",
+     "sample": "A ball of diameter $0.6$ m sits half-submerged in a cylindrical pool of diameter $3$ m with water depth $0.5$ m. (i) Find the ball's volume. (ii) Find the pool's volume to that depth. (iii) Find the water volume.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Carved and inscribed solids",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "SV-CV-01",
+     "pattern": "Volume of the largest cone cut from a cube",
+     "sample": "The volume of the largest cone that can be cut from a cube of edge $14$ cm, in terms of $\\pi$, is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-CV-02",
+     "pattern": "Curved surface area of the largest cone cut from a cube",
+     "sample": "The curved surface area of the largest cone cut from a cube of edge $6$ cm is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-CV-03",
+     "pattern": "Wood left after carving the largest cone from a cube",
+     "sample": "The largest cone is cut from a cube of edge $6$ cm. The volume of wood left, in terms of $\\pi$, is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97e00dt7gd0ebyl1pbs"
+     ]
+    },
+    {
+     "id": "SV-CV-04",
+     "pattern": "Largest cone in a cylinder: ratio of remaining volume to cone volume",
+     "sample": "The largest cone is carved from a cylinder of radius $6$ cm and height $14$ cm. The ratio of remaining wood to the cone's volume is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-CV-05",
+     "pattern": "Largest cone carved from a hemisphere: curved surface area",
+     "sample": "The largest cone is carved from a hemisphere of radius $7$ cm. In terms of $\\pi$, its curved surface area is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-CV-06",
+     "pattern": "Volume left when a cone or hemisphere is removed from a cylinder or cuboid",
+     "sample": "A cone of radius $3$ cm and height $4$ cm is removed from a cylinder of radius $3$ cm and height $10$ cm. The remaining volume is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2020 main"
+     ],
+     "existingIds": [
+      "cmvq9r2jr00fd7gcnxpsxfh7t",
+      "cmvqhe97f00dx7gd0cdbm43ou"
+     ]
+    },
+    {
+     "id": "SV-CV-07",
+     "pattern": "Volume of the largest sphere that fits in a cube",
+     "sample": "The volume of the largest sphere inside a cube of edge $6$ cm is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "SV-CV-08",
+     "pattern": "Maximum count of hemispherical dents on a cube face",
+     "sample": "Hemispherical dents of radius $3.5$ cm are made on the top of a cube of edge $21$ cm. The greatest possible number of dents is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-CV-09",
+     "pattern": "Balls packed in a cylinder: volume of empty space",
+     "sample": "Three balls of radius $2$ cm fit exactly in a cylindrical jar of radius $2$ cm and height $12$ cm. The empty volume is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-CV-10",
+     "pattern": "Ratio of total surface area after hollowing a solid to the original",
+     "sample": "A cone of radius $3$ cm, height $4$ cm is hollowed from a cylinder of the same radius and height. The ratio of the remaining solid's surface area to the original's is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97h00e57gd0ies1izup"
+     ]
+    },
+    {
+     "id": "SV-CV-11",
+     "pattern": "Assertion-reason: volume left after removing a cone from a cylinder",
+     "sample": "A: Removing a cone of equal radius and height from a cylinder leaves $\\frac{2}{3}$ of its volume. R: A cone's volume is $\\frac{1}{3}$ of that of a cylinder of equal radius and height.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "SV-CV-12",
+     "pattern": "Volume left after drilling a cylindrical hole through a block",
+     "sample": "A cylindrical hole of diameter $2$ cm is drilled through a block $20$ cm by $10$ cm by $5$ cm along the $5$ cm side. Find the volume left. (Use $\\pi=3.14$.)",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97m00eh7gd0b0abz2ei"
+     ]
+    },
+    {
+     "id": "SV-CV-13",
+     "pattern": "Volume of the largest sphere inside a cube, as a worked answer",
+     "sample": "Find the volume of the largest sphere that fits inside a cube of edge $14$ cm. (Use $\\pi=\\frac{22}{7}$.)",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "SV-CV-14",
+     "pattern": "Surface area after hollowing a cone from a cylinder",
+     "sample": "A cone of the same radius $6$ cm and height $8$ cm is hollowed from a cylinder of those dimensions. Find the total surface area left in terms of $\\pi$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2012 main",
+      "2017 compartment",
+      "2017 main",
+      "2020 main"
+     ],
+     "existingIds": [
+      "cmvqhe97n00en7gd0mjaie27k"
+     ]
+    },
+    {
+     "id": "SV-CV-15",
+     "pattern": "Surface area of a cube with a hole drilled through it",
+     "sample": "A hole of diameter $4$ cm is drilled through a cube of edge $10$ cm between opposite faces. Find the total surface area left in terms of $\\pi$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2015 main",
+      "2022 main"
+     ],
+     "existingIds": [
+      "cmvqhe97n00ep7gd09fr42iu3"
+     ]
+    },
+    {
+     "id": "SV-CV-16",
+     "pattern": "Empty space when a sphere just fits a cube",
+     "sample": "A ball of diameter $14$ cm just fits inside a cubical box of edge $14$ cm. Find the empty volume. (Use $\\pi=\\frac{22}{7}$.)",
+     "slot": "C",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97q00ez7gd03lnudkgr"
+     ]
+    },
+    {
+     "id": "SV-CV-17",
+     "pattern": "Total surface area of a cylinder with a hemisphere scooped from each end",
+     "sample": "A hemisphere is scooped from each end of a cylinder of radius $3.5$ cm and height $10$ cm. Find the total surface area left. (Use $\\pi=\\frac{22}{7}$.)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2018 main",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvqhe97r00f57gd0howzmydm"
+     ]
+    },
+    {
+     "id": "SV-CV-18",
+     "pattern": "Cube with a hemisphere or hemispheres scooped: remaining volume and surface",
+     "sample": "A hemisphere of diameter $10$ cm is scooped from a cube of edge $10$ cm. Find the volume and total surface area left in terms of $\\pi$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2020 main",
+      "2024 compartment",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2jy00g37gcn8i5tx25d"
+     ]
+    },
+    {
+     "id": "SV-CV-19",
+     "pattern": "Cylinder with a hemisphere scooped from each end: surface area and volume",
+     "sample": "A hemisphere of radius $6$ cm is scooped from each end of a cylinder of radius $6$ cm and height $20$ cm. Find the surface area and volume left in terms of $\\pi$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2013 main",
+      "2023 main",
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-CV-20",
+     "pattern": "Cylinder with a cone or two cones hollowed: remaining volume and total surface area",
+     "sample": "A cone of equal radius $5$ cm and height $12$ cm is hollowed from a cylinder of those dimensions. Find the volume and total surface area left in terms of $\\pi$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2011 main",
+      "2014 main",
+      "2022 main",
+      "2023 main",
+      "2025 compartment"
+     ],
+     "existingIds": [
+      "cmvq9r2jx00fx7gcn85b9ry91"
+     ]
+    },
+    {
+     "id": "SV-CV-21",
+     "pattern": "Largest cone removed from a cube: volume and surface area of the rest",
+     "sample": "The largest cone is removed from a cube of edge $14$ cm. Find the volume and total surface area of the remaining solid in terms of $\\pi$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-CV-22",
+     "pattern": "Die with hemispherical dents on every face: total surface area",
+     "sample": "A cubical die of edge $5$ cm has hemispherical dents of diameter $1$ cm marking its numbers $1$ to $6$. Find its total surface area in terms of $\\pi$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-CV-23",
+     "pattern": "Case study: sphere with many hemispherical dimples",
+     "sample": "A golf ball of diameter $4$ cm has $300$ dimples of radius $0.1$ cm. (i) Find one dimple's curved area. (ii) Find the volume removed. (iii) Find the exposed surface area, in terms of $\\pi$.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Capacity and cost problems",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "SV-CC-01",
+     "pattern": "Capacity of a tank or drum with conversion to litres or kilolitres",
+     "sample": "A cylindrical drum has radius $0.7$ m and height $2$ m. Its capacity in litres is (use $\\pi=\\frac{22}{7}$)",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2jt00ff7gcnh3ra29mi",
+      "cmvqhe97j00e97gd03gwfo9np"
+     ]
+    },
+    {
+     "id": "SV-CC-02",
+     "pattern": "Volume of material in a hollow hemispherical bowl",
+     "sample": "A hemispherical steel bowl has outer radius $7$ cm and thickness $1$ cm. The volume of steel, in terms of $\\pi$, is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-CC-03",
+     "pattern": "Cost of painting a simple solid from its surface area",
+     "sample": "All faces of a cubical block of edge $5$ m are painted at ₹ $10$ per m$^2$. The total cost is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "SV-CC-04",
+     "pattern": "Cost of painting a dome or similar curved surface",
+     "sample": "A hemispherical dome of radius $7$ m is painted at ₹ $15$ per m$^2$. Find the cost of painting its curved surface. (Use $\\pi=\\frac{22}{7}$.)",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2020 main"
+     ],
+     "existingIds": [
+      "cmvqhe97o00er7gd097dstuw3"
+     ]
+    },
+    {
+     "id": "SV-CC-05",
+     "pattern": "Tent or heap: canvas or cloth area, cost and sometimes air volume",
+     "sample": "A tent is a cylinder of radius $7$ m, height $4$ m, with a conical top of slant height $10$ m. Find the canvas cost at ₹ $50$ per m$^2$. (Use $\\pi=\\frac{22}{7}$.)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 11,
+     "seenIn": [
+      "2016 main",
+      "2017 compartment",
+      "2020 main",
+      "2024 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2jx00fv7gcn6j71x8hq",
+      "cmvqhe97s00f97gd0oi5g59wh"
+     ]
+    },
+    {
+     "id": "SV-CC-06",
+     "pattern": "True and apparent capacity of a glass with a raised hemispherical base",
+     "sample": "A cylindrical glass has inner diameter $5$ cm and height $10$ cm, with a raised hemisphere in its base. Find its apparent and true capacity. (Use $\\pi=3.14$.)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2019 main",
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-CC-07",
+     "pattern": "Dome-topped store or greenhouse: capacity, outer area and covering cost",
+     "sample": "A greenhouse is a cylinder of radius $7$ m, height $5$ m, with a hemispherical dome. Find the covering cost at ₹ $20$ per m$^2$ and the air volume. (Use $\\pi=\\frac{22}{7}$.)",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2jy00g17gcn5h5b52go"
+     ]
+    },
+    {
+     "id": "SV-CC-08",
+     "pattern": "Tents in bulk or painted inside: multi-stage cost, sometimes shared",
+     "sample": "Five schools share equally the canvas for $50$ tents, each a cylinder of radius $3$ m, height $4$ m with a cone $4$ m high. Canvas costs ₹ $100$ per m$^2$. Find each share. (Use $\\pi=3.14$.)",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2015 main",
+      "2016 main",
+      "2023 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-CC-09",
+     "pattern": "Case study: circus tent or canvas with slant height, floor, canvas and cost",
+     "sample": "A circus tent has radius $12$ m, cylinder height $5$ m, total height $14$ m. (i) Find the slant height. (ii) Find the floor area. (iii) Find the canvas area, in terms of $\\pi$.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2022 main",
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-CC-10",
+     "pattern": "Case study: vessels compared by base area, capacity and curved area",
+     "sample": "One cup is a cylinder of diameter $7$ cm, height $10$ cm; another is a hemisphere of radius $7$ cm. (i) Find the first's base area. (ii) Find its capacity. (iii) Find the second's capacity. (Use $\\pi=\\frac{22}{7}$.)",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2jz00g57gcnslr5aery"
+     ]
+    },
+    {
+     "id": "SV-CC-11",
+     "pattern": "Case study: cuboid or cube context: packing count, surface area, diagonal or open box",
+     "sample": "Milk packets $5$ cm by $4$ cm by $10$ cm fill a carton $30$ cm by $20$ cm by $40$ cm. (i) Find the carton's volume. (ii) Find one packet's surface area. (iii) Find the number of packets.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Immersion and volume transfer",
+   "scope": "verify",
+   "scopeNote": "Close to the conversion section, which may be cut, but 2025 main asked a 5-mark count of lead shots displacing a fraction of a full cone's water, and 2026 main equated scoop volumes with a cone. No melting is involved, so real targets are kept. A person must confirm.",
+   "patterns": [
+    {
+     "id": "SV-TR-01",
+     "pattern": "Volume equality with scoops filling a cone: ratio of height to diameter",
+     "sample": "Two spherical scoops of radius $1.5$ cm exactly fill an ice-cream cone of radius $3$ cm when melted. The ratio of the cone's height to its base diameter is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-TR-02",
+     "pattern": "Rise in water level when marbles are dropped into a cylinder",
+     "sample": "Thirty marbles of radius $1$ cm are dropped into a cylinder of radius $4$ cm partly filled with water. Find the rise in water level.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2011 main",
+      "2020 main",
+      "2022 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-TR-03",
+     "pattern": "Empty a full vessel into identical vessels: count them",
+     "sample": "A full tank $11$ m by $7$ m by $2$ m is emptied into cylindrical drums of radius $0.7$ m, height $2$ m. Find the number of drums filled. (Use $\\pi=\\frac{22}{7}$.)",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97o00et7gd0k7amlmt4"
+     ]
+    },
+    {
+     "id": "SV-TR-04",
+     "pattern": "Spheres dropped in a full vessel displace a fraction of the water: count them",
+     "sample": "A full conical vessel has radius $6$ cm, height $12$ cm. Lead shots of radius $1$ cm dropped in make one-third of the water overflow. Find the number of shots.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2014 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-TR-05",
+     "pattern": "Case study: bowl emptied into smaller vessels, and overflow from immersion",
+     "sample": "A hemispherical bowl of radius $9$ cm is emptied into cylindrical jars of radius $3$ cm, height $6$ cm. (i) Find the bowl's volume. (ii) Find one jar's volume. (iii) Find the number of jars needed.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2022 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Conversion and recasting of solids",
+   "scope": "verify",
+   "scopeNote": "Listed as cut from the rationalised syllabus, unconfirmed. No board row from 2024-2026 asks a melting or recasting question, so all targets are 0. Rows here are legacy. The seven bank questions mapped here need a human keep-or-drop decision.",
+   "patterns": [
+    {
+     "id": "SV-CO-01",
+     "pattern": "Solid melted and recast into one other solid: find a dimension",
+     "sample": "A metal sphere of radius $3$ cm is melted and recast into a cone of radius $6$ cm. The height of the cone is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2020 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ju00fh7gcnehkkc0fv",
+      "cmvqhe97k00ed7gd0g4t1x9h2"
+     ]
+    },
+    {
+     "id": "SV-CO-02",
+     "pattern": "Assertion-reason: recasting into equal small solids keeps total volume",
+     "sample": "A: A sphere of radius $4$ cm can be recast into $8$ spheres of radius $2$ cm. R: Total volume is unchanged by recasting.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97k00eb7gd0uaa2scbw"
+     ]
+    },
+    {
+     "id": "SV-CO-03",
+     "pattern": "Melt a solid and count the small solids formed",
+     "sample": "A metal sphere of radius $6$ cm is melted into cones of radius $3$ cm and height $2$ cm. Find the number of cones.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 11,
+     "seenIn": [
+      "2014 main",
+      "2017 compartment",
+      "2019 main",
+      "2020 main",
+      "2022 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-CO-04",
+     "pattern": "Cuboid recast into a cylinder: find a dimension",
+     "sample": "A metal cuboid $11$ cm by $7$ cm by $4$ cm is recast into a cylinder of radius $7$ cm. Find its height. (Use $\\pi=\\frac{22}{7}$.)",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97p00ev7gd0a7mf9gf7"
+     ]
+    },
+    {
+     "id": "SV-CO-05",
+     "pattern": "Recast into a single solid: find its dimension and surface area",
+     "sample": "A clay cone of radius $6$ cm and height $24$ cm is remoulded into a sphere. Find the sphere's radius and surface area.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 10,
+     "seenIn": [
+      "2014 main",
+      "2015 main",
+      "2017 main",
+      "2019 main",
+      "2022 main"
+     ],
+     "existingIds": [
+      "cmvqhe97s00fb7gd0a6fmqzew"
+     ]
+    },
+    {
+     "id": "SV-CO-06",
+     "pattern": "Melt a sphere and count cones, as a worked answer",
+     "sample": "A metal sphere of radius $9$ cm is melted into cones of radius $3$ cm and height $9$ cm. Find the number of cones.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "SV-CO-07",
+     "pattern": "Pour or tip one shape into another and find height or slant height",
+     "sample": "Water from a full cone of radius $6$ cm and height $12$ cm is poured into a cylinder of radius $12$ cm. Find the water's height.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 13,
+     "seenIn": [
+      "2015 main",
+      "2016 main",
+      "2017 main",
+      "2019 compartment",
+      "2022 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-CO-08",
+     "pattern": "Ball submerged raises water level: find the cylinder's diameter",
+     "sample": "A ball of radius $6$ cm is fully submerged in a cylinder of water, and the level rises $2$ cm. Find the cylinder's diameter.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2016 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-CO-09",
+     "pattern": "One solid recast two different ways: count, then dimension",
+     "sample": "A metal sphere of radius $6$ cm is melted. (a) Find how many cones of radius $3$ cm, height $2$ cm it makes. (b) Find the height of a cylinder of radius $4$ cm it makes instead.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2jy00fz7gcnlfxm9ysl"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Water flow through channels and pipes",
+   "scope": "verify",
+   "scopeNote": "These sums belong to the conversion section, listed as cut but unconfirmed. Newest rows are 2023 main (river discharge) and 2022 main (canal choice); nothing in 2024-2026 tests flow, so all targets are 0. One bank question is mapped here for a human decision.",
+   "patterns": [
+    {
+     "id": "SV-FL-01",
+     "pattern": "Volume of river water discharged in a given time",
+     "sample": "A river $3$ m deep and $40$ m wide flows at $2$ km/h. The volume of water entering the sea per minute is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2021 compartment",
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-FL-02",
+     "pattern": "Land irrigated by canal flow to a required standing depth",
+     "sample": "A canal $6$ m wide and $1.5$ m deep flows at $10$ km/h. Find the area irrigated in $30$ minutes if $8$ cm of standing water is needed.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 13,
+     "seenIn": [
+      "2017 compartment",
+      "2017 main",
+      "2019 main",
+      "2020 main",
+      "2022 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-FL-03",
+     "pattern": "Time for a pipe to fill a cylindrical tank",
+     "sample": "Water flows at $3$ km/h through a pipe of inner radius $1$ cm into a tank of radius $50$ cm and height $1.2$ m. Find the filling time.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2013 main",
+      "2014 main",
+      "2015 main",
+      "2019 compartment",
+      "2022 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-FL-04",
+     "pattern": "Canal irrigation as a long-answer question",
+     "sample": "A canal $5$ m wide and $2$ m deep flows at $4$ km/h. Find the area irrigated in one hour if $10$ cm of standing water is needed.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "SV-FL-05",
+     "pattern": "Case study: pipe filling a tank: flow per minute and filling time",
+     "sample": "A pipe of radius $0.1$ m carries water at $5$ m/s into a tank of radius $2$ m. (i) Find the pipe's cross-section. (ii) Find the flow per minute. (iii) Find the time to reach $3$ m depth.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2jz00g77gcncxrsm4lw"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Frustum of a cone",
+   "scope": "verify",
+   "scopeNote": "Listed as cut from the rationalised syllabus, unconfirmed. All frustum rows are from 2018-2019 and legacy; none appears in 2024-2026, so all targets are 0.",
+   "patterns": [
+    {
+     "id": "SV-FR-01",
+     "pattern": "Metal sheet area and capacity of an open frustum bucket",
+     "sample": "An open bucket is a frustum with end radii $20$ cm and $8$ cm and height $16$ cm. Find the area of metal sheet used, in terms of $\\pi$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 12,
+     "seenIn": [
+      "2015 main",
+      "2017 main",
+      "2018 main",
+      "2019 compartment",
+      "2019 main",
+      "2020 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-FR-02",
+     "pattern": "Frustum height from capacity and radii, then sheet area",
+     "sample": "A frustum bucket has end radii $20$ cm and $8$ cm and capacity $10449.92$ cm$^3$. Find its height and the sheet area used. (Use $\\pi=3.14$.)",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2011 main",
+      "2012 main",
+      "2016 main",
+      "2019 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-FR-03",
+     "pattern": "Frustum container: cost of contents and cost of sheet",
+     "sample": "A frustum container has end radii $20$ cm and $8$ cm and height $16$ cm. Find the cost of milk at ₹ $50$ per litre and of sheet at ₹ $1$ per $100$ cm$^2$. (Use $\\pi=3.14$.)",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 13,
+     "seenIn": [
+      "2013 main",
+      "2017 compartment",
+      "2018 compartment",
+      "2019 compartment",
+      "2019 main",
+      "2020 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "SV-NEW-01",
+     "pattern": "Cone cut by a plane parallel to its base: ratio of volumes of the small cone and the frustum",
+     "sample": "A cone of height $30$ cm is cut parallel to its base at a height of $10$ cm from the vertex. Find the ratio of the volume of the small cone to that of the frustum. (Answer: $1:26$)",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2017 main",
+      "2020 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  }
+ ],
+ "outOfScope": [],
+ "fixes": [
+  {
+   "n": 1,
+   "issue": "Tagged medium, is a one-step cube volume",
+   "suggest": "easy",
+   "id": "a17"
+  },
+  {
+   "n": 2,
+   "issue": "Set as 5 marks but needs only two direct volumes with radius 1 cm; too short for slot D",
+   "suggest": "move to B or C, or extend with a surface-area part",
+   "id": "d4"
+  },
+  {
+   "n": 20,
+   "issue": "Tagged hard, is a standard subtract-then-divide in about three steps",
+   "suggest": "medium",
+   "id": "cmvqhe97q00f17gd03f9998jn"
+  },
+  {
+   "n": 32,
+   "issue": "Tagged easy, needs radius from curved area and then volume",
+   "suggest": "medium",
+   "id": "cmvqhe97m00el7gd03hmsv4n3"
+  },
+  {
+   "n": 46,
+   "issue": "Topic label is Capacity and cost, but the task is transfer between vessels",
+   "suggest": "topic: Immersion and volume transfer",
+   "id": "cmvqhe97o00et7gd0k7amlmt4"
+  }
+ ]
+}

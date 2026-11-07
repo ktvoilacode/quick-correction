@@ -1,0 +1,1243 @@
+[
+  {
+    "chapter": "Probability",
+    "topic": "Classical probability basics",
+    "patternId": "PR-BAS-02",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "The probability of an event that can never happen is",
+    "options": [
+      "$1$",
+      "$0$",
+      "$-1$",
+      "$\\frac{1}{2}$"
+    ],
+    "answer": "Correct option: B) $0$. An impossible event has no favourable outcomes, so its probability is $0$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Classical probability basics",
+    "patternId": "PR-BAS-04",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": true,
+    "text": "A crate holds $400$ eggs. The probability that an egg picked at random from it is rotten is $0.035$. The number of good eggs in the crate is",
+    "options": [
+      "$14$",
+      "$35$",
+      "$386$",
+      "$365$"
+    ],
+    "answer": "Correct option: C) $386$. Rotten eggs $= 0.035 \\times 400 = 14$, so good eggs $= 400 - 14 = 386$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Classical probability basics",
+    "patternId": "PR-BAS-06",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Two dice are thrown together. Meena says the possible sums are $2, 3, 4, \\ldots, 12$, which is $11$ outcomes, so the probability that the sum is $7$ is $\\frac{1}{11}$. Is she correct? Justify your answer.",
+    "answer": "No, Meena is not correct. The $11$ sums are not equally likely; for example, a sum of $2$ comes only from $(1, 1)$ while a sum of $7$ comes in several ways. The equally likely outcomes are the $6 \\times 6 = 36$ ordered pairs. A sum of $7$ comes from $(1, 6), (2, 5), (3, 4), (4, 3), (5, 2), (6, 1)$, i.e. $6$ outcomes. So $P(\\text{sum } 7) = \\frac{6}{36} = \\frac{1}{6}$, not $\\frac{1}{11}$.",
+    "markingSteps": [
+      {
+        "step": "States she is wrong because the 11 sums are not equally likely; the 36 ordered pairs are",
+        "marks": 1
+      },
+      {
+        "step": "Counts 6 favourable pairs and gets $P = \\frac{1}{6}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Complementary events",
+    "patternId": "PR-CMP-02",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "If $P(E) + P(\\text{not } E) = k$, then $2k^{2} - 5$ equals",
+    "options": [
+      "$-5$",
+      "$3$",
+      "$-1$",
+      "$-3$"
+    ],
+    "answer": "Correct option: D) $-3$. For any event, $P(E) + P(\\text{not } E) = 1$, so $k = 1$ and $2(1)^{2} - 5 = -3$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Complementary events",
+    "patternId": "PR-CMP-04",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": true,
+    "text": "In a practice session, a badminton player won $18$ out of $60$ rallies played. The probability that a rally chosen at random from the session was not won by her is",
+    "options": [
+      "$\\frac{7}{10}$",
+      "$\\frac{3}{10}$",
+      "$\\frac{3}{7}$",
+      "$\\frac{7}{3}$"
+    ],
+    "answer": "Correct option: A) $\\frac{7}{10}$. Rallies not won $= 60 - 18 = 42$, so $P = \\frac{42}{60} = \\frac{7}{10}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Complementary events",
+    "patternId": "PR-CMP-06",
+    "type": "assertion_reason",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Assertion (A): If the probability of an event is $0.25p$, then the greatest value $p$ can take is $4$.\nReason (R): For any event $E$, $0 \\le P(E) \\le 1$.",
+    "options": [
+      "Both A and R are true and R explains A",
+      "Both A and R are true but R does not explain A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: A) Both A and R are true and R explains A. Since $0.25p \\le 1$, $p \\le 4$, so A is true. R is the fact that gives this bound, so R explains A.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Complementary events",
+    "patternId": "PR-CMP-07",
+    "type": "assertion_reason",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Assertion (A): On a single throw of a die, the events \"a number less than $5$\" and \"a number greater than $5$\" are complementary.\nReason (R): For any event $E$, $P(E) + P(\\text{not } E) = 1$.",
+    "options": [
+      "Both A and R are true and R explains A",
+      "Both A and R are true but R does not explain A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: D) A is false but R is true. $P(\\text{less than } 5) + P(\\text{greater than } 5) = \\frac{4}{6} + \\frac{1}{6} = \\frac{5}{6} \\ne 1$, since the outcome $5$ is in neither event. So A is false. R is a true statement.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Complementary events",
+    "patternId": "PR-CMP-08",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The probability that Kavya guesses the answer to a quiz question correctly is $\\frac{x}{20}$ and the probability that she does not guess it correctly is $\\frac{3x - 4}{20}$. Find the value of $x$ and the probability of a correct guess.",
+    "answer": "Guessing correctly and not guessing correctly are complementary events, so $\\frac{x}{20} + \\frac{3x - 4}{20} = 1$. Then $4x - 4 = 20$, so $x = 6$. $P(\\text{correct guess}) = \\frac{6}{20} = \\frac{3}{10}$.",
+    "markingSteps": [
+      {
+        "step": "Uses $P(E) + P(\\text{not } E) = 1$ to write $\\frac{x}{20} + \\frac{3x - 4}{20} = 1$",
+        "marks": 1
+      },
+      {
+        "step": "Solves $x = 6$ and $P(\\text{correct}) = \\frac{3}{10}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Dice",
+    "patternId": "PR-DIC-03",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Two dice are thrown at the same time. The probability that the sum of the numbers on them is at least $9$ is",
+    "options": [
+      "$\\frac{1}{6}$",
+      "$\\frac{5}{18}$",
+      "$\\frac{2}{9}$",
+      "$\\frac{1}{3}$"
+    ],
+    "answer": "Correct option: B) $\\frac{5}{18}$. Sum $9$: $4$ ways, $10$: $3$ ways, $11$: $2$ ways, $12$: $1$ way, total $10$ of $36$. $P = \\frac{10}{36} = \\frac{5}{18}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Dice",
+    "patternId": "PR-DIC-05",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Two dice are thrown together. The probability that the numbers on the two dice are different is",
+    "options": [
+      "$\\frac{1}{6}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{5}{6}$",
+      "$\\frac{11}{12}$"
+    ],
+    "answer": "Correct option: C) $\\frac{5}{6}$. Same numbers occur in $6$ of the $36$ outcomes, so different numbers occur in $30$. $P = \\frac{30}{36} = \\frac{5}{6}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Dice",
+    "patternId": "PR-DIC-06",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Two dice are thrown together. The probability that the numbers on both dice are prime is",
+    "options": [
+      "$\\frac{1}{2}$",
+      "$\\frac{1}{6}$",
+      "$\\frac{1}{9}$",
+      "$\\frac{1}{4}$"
+    ],
+    "answer": "Correct option: D) $\\frac{1}{4}$. Primes on a die: $2, 3, 5$. Both prime: $3 \\times 3 = 9$ of $36$ outcomes. $P = \\frac{9}{36} = \\frac{1}{4}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Dice",
+    "patternId": "PR-DIC-07",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Two dice are thrown together. The probability that the product of the numbers on them is greater than $8$ but less than $16$ is",
+    "options": [
+      "$\\frac{1}{4}$",
+      "$\\frac{2}{9}$",
+      "$\\frac{5}{18}$",
+      "$\\frac{7}{36}$"
+    ],
+    "answer": "Correct option: A) $\\frac{1}{4}$. Products $9$: $(3, 3)$; $10$: $(2, 5), (5, 2)$; $12$: $(2, 6), (6, 2), (3, 4), (4, 3)$; $15$: $(3, 5), (5, 3)$. That is $9$ of $36$ outcomes, so $P = \\frac{1}{4}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Dice",
+    "patternId": "PR-DIC-08",
+    "type": "assertion_reason",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Assertion (A): The probability of getting a composite number in a single throw of a die is $\\frac{1}{2}$.\nReason (R): A composite number is a natural number that has more than two factors.",
+    "options": [
+      "Both A and R are true and R explains A",
+      "Both A and R are true but R does not explain A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: D) A is false but R is true. The composite numbers on a die are only $4$ and $6$ ($1$ is neither prime nor composite), so the probability is $\\frac{2}{6} = \\frac{1}{3}$ and A is false. R is the correct definition, so R is true.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Dice",
+    "patternId": "PR-DIC-09",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": false,
+    "text": "A die is thrown once. Find the probability of getting (i) a number that is a factor of $6$, (ii) an even prime number.",
+    "answer": "Total outcomes $= 6$. (i) Factors of $6$ on a die: $1, 2, 3, 6$, so $P = \\frac{4}{6} = \\frac{2}{3}$. (ii) The only even prime is $2$, so $P = \\frac{1}{6}$.",
+    "markingSteps": [
+      {
+        "step": "(i) Lists factors $1, 2, 3, 6$ and gets $\\frac{2}{3}$",
+        "marks": 1
+      },
+      {
+        "step": "(ii) Identifies $2$ as the only even prime and gets $\\frac{1}{6}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Dice",
+    "patternId": "PR-DIC-10",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Two dice are thrown together. Find the probability of getting (i) a pair that is not a doublet, (ii) a sum of $8$.",
+    "answer": "Total outcomes $= 36$. (i) Doublets: $(1, 1), (2, 2), \\ldots, (6, 6)$, i.e. $6$ outcomes, so not a doublet: $30$ outcomes and $P = \\frac{30}{36} = \\frac{5}{6}$. (ii) Sum $8$: $(2, 6), (3, 5), (4, 4), (5, 3), (6, 2)$, so $P = \\frac{5}{36}$.",
+    "markingSteps": [
+      {
+        "step": "(i) $36 - 6 = 30$ outcomes, $P = \\frac{5}{6}$",
+        "marks": 1
+      },
+      {
+        "step": "(ii) Lists the $5$ pairs with sum $8$, $P = \\frac{5}{36}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Dice",
+    "patternId": "PR-DIC-11",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": false,
+    "text": "The figure shows the net of a die. Its six faces carry the letters shown. The die is thrown once. Find the probability that the letter on the top face is (i) $M$, (ii) not $N$.",
+    "answer": "Total outcomes $= 6$. The faces are $K, M, M, M, N, N$. (i) $M$ appears on $3$ faces, so $P(M) = \\frac{3}{6} = \\frac{1}{2}$. (ii) $N$ appears on $2$ faces, so not $N$ on $4$ faces and $P(\\text{not } N) = \\frac{4}{6} = \\frac{2}{3}$.",
+    "markingSteps": [
+      {
+        "step": "(i) Counts $3$ faces with $M$, $P = \\frac{1}{2}$",
+        "marks": 1
+      },
+      {
+        "step": "(ii) Counts $4$ faces without $N$, $P = \\frac{2}{3}$",
+        "marks": 1
+      }
+    ],
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 280 210\"><rect x=\"80\" y=\"15\" width=\"60\" height=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"110.0\" y=\"50.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">M</text><rect x=\"20\" y=\"75\" width=\"60\" height=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"50.0\" y=\"110.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">K</text><rect x=\"80\" y=\"75\" width=\"60\" height=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"110.0\" y=\"110.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">N</text><rect x=\"140\" y=\"75\" width=\"60\" height=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"170.0\" y=\"110.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">M</text><rect x=\"200\" y=\"75\" width=\"60\" height=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"230.0\" y=\"110.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">N</text><rect x=\"80\" y=\"135\" width=\"60\" height=\"60\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"110.0\" y=\"170.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">M</text></svg>",
+    "figureAlt": "A cross-shaped net of a cube with six square faces. The middle row reads K, N, M, N; the square above and the square below the N in the second position each read M.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Dice",
+    "patternId": "PR-DIC-12",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Two dice, one red and one blue, are thrown together. Write all the possible outcomes. Find the probability that (i) the same number shows on both dice, (ii) the numbers are different and their sum is $6$.",
+    "answer": "Outcomes (red, blue): $(1, 1), (1, 2), \\ldots, (1, 6)$; $(2, 1), \\ldots, (2, 6)$; $(3, 1), \\ldots, (3, 6)$; $(4, 1), \\ldots, (4, 6)$; $(5, 1), \\ldots, (5, 6)$; $(6, 1), \\ldots, (6, 6)$, i.e. $36$ outcomes. (i) Same number: $(1, 1), (2, 2), (3, 3), (4, 4), (5, 5), (6, 6)$, so $P = \\frac{6}{36} = \\frac{1}{6}$. (ii) Sum $6$: $(1, 5), (2, 4), (3, 3), (4, 2), (5, 1)$; leaving out $(3, 3)$ gives $4$ outcomes, so $P = \\frac{4}{36} = \\frac{1}{9}$.",
+    "markingSteps": [
+      {
+        "step": "Lists the $36$ ordered outcomes",
+        "marks": 1
+      },
+      {
+        "step": "(i) $6$ doublets, $P = \\frac{1}{6}$",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $4$ pairs with different numbers and sum $6$, $P = \\frac{1}{9}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Coins",
+    "patternId": "PR-COI-01",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "A fair coin is tossed once. The probability of not getting a tail is",
+    "options": [
+      "$0$",
+      "$1$",
+      "$\\frac{1}{2}$",
+      "$2$"
+    ],
+    "answer": "Correct option: C) $\\frac{1}{2}$. Not a tail means a head, which is $1$ of $2$ equally likely outcomes, so $P = \\frac{1}{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Coins",
+    "patternId": "PR-COI-02",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Two coins are tossed together. The probability of getting at most one tail is",
+    "options": [
+      "$\\frac{1}{4}$",
+      "$\\frac{1}{2}$",
+      "$1$",
+      "$\\frac{3}{4}$"
+    ],
+    "answer": "Correct option: D) $\\frac{3}{4}$. Outcomes: $HH, HT, TH, TT$. At most one tail: $HH, HT, TH$, so $P = \\frac{3}{4}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Coins",
+    "patternId": "PR-COI-08",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": false,
+    "text": "A fair coin is tossed four times and the result of each toss is noted in order. List all the possible outcomes. Find the probability of getting (i) exactly one head, (ii) at most two heads, (iii) more heads than tails, (iv) no two consecutive tosses showing the same face.",
+    "answer": "The $16$ outcomes are $HHHH, HHHT, HHTH, HTHH, THHH, HHTT, HTHT, HTTH, THHT, THTH, TTHH, HTTT, THTT, TTHT, TTTH, TTTT$. (i) Exactly one head: $HTTT, THTT, TTHT, TTTH$, so $P = \\frac{4}{16} = \\frac{1}{4}$. (ii) At most two heads: no head $1$, one head $4$, two heads $6$, total $11$, so $P = \\frac{11}{16}$. (iii) More heads than tails means $3$ or $4$ heads: $4 + 1 = 5$ outcomes, so $P = \\frac{5}{16}$. (iv) Faces alternate: $HTHT, THTH$, so $P = \\frac{2}{16} = \\frac{1}{8}$.",
+    "markingSteps": [
+      {
+        "step": "Lists all $16$ equally likely outcomes",
+        "marks": 1
+      },
+      {
+        "step": "(i) $4$ outcomes, $P = \\frac{1}{4}$",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $1 + 4 + 6 = 11$ outcomes, $P = \\frac{11}{16}$",
+        "marks": 1
+      },
+      {
+        "step": "(iii) $3$ or $4$ heads: $5$ outcomes, $P = \\frac{5}{16}$",
+        "marks": 1
+      },
+      {
+        "step": "(iv) $HTHT, THTH$, $P = \\frac{1}{8}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Cards",
+    "patternId": "PR-CRD-01",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "One card is drawn at random from a well-shuffled pack of $52$ playing cards. The probability that it is a face card of spades is",
+    "options": [
+      "$\\frac{3}{52}$",
+      "$\\frac{1}{4}$",
+      "$\\frac{3}{13}$",
+      "$\\frac{1}{13}$"
+    ],
+    "answer": "Correct option: A) $\\frac{3}{52}$. Face cards of spades: king, queen and jack, i.e. $3$ cards. $P = \\frac{3}{52}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Cards",
+    "patternId": "PR-CRD-02",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "One card is drawn at random from a well-shuffled pack of $52$ playing cards. The probability that it is a jack or an ace is",
+    "options": [
+      "$\\frac{1}{13}$",
+      "$\\frac{2}{13}$",
+      "$\\frac{1}{26}$",
+      "$\\frac{4}{13}$"
+    ],
+    "answer": "Correct option: B) $\\frac{2}{13}$. There are $4$ jacks and $4$ aces, and no card is both, so $8$ favourable cards. $P = \\frac{8}{52} = \\frac{2}{13}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Cards",
+    "patternId": "PR-CRD-04",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "All the kings and queens are removed from a pack of $52$ playing cards. One card is drawn at random from the remaining cards. The probability that it is a red card is",
+    "options": [
+      "$\\frac{13}{22}$",
+      "$\\frac{11}{26}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{5}{11}$"
+    ],
+    "answer": "Correct option: C) $\\frac{1}{2}$. $8$ cards are removed, leaving $44$. Red cards left $= 26 - 4 = 22$. $P = \\frac{22}{44} = \\frac{1}{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Cards",
+    "patternId": "PR-CRD-05",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "hard",
+    "competency": false,
+    "text": "All the hearts and all the face cards are removed from a pack of $52$ playing cards. One card is drawn at random from the remaining cards. The probability that it is a black card bearing a prime number is",
+    "options": [
+      "$\\frac{8}{27}$",
+      "$\\frac{2}{13}$",
+      "$\\frac{2}{5}$",
+      "$\\frac{4}{15}$"
+    ],
+    "answer": "Correct option: D) $\\frac{4}{15}$. Removed: $13$ hearts and the $9$ face cards of the other suits, i.e. $22$ cards, leaving $30$ (ace to $10$ of clubs, spades and diamonds). Black primes: $2, 3, 5, 7$ of clubs and spades, i.e. $8$ cards. $P = \\frac{8}{30} = \\frac{4}{15}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Cards",
+    "patternId": "PR-CRD-07",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The ace of hearts is lost from a well-shuffled pack of $52$ playing cards. One card is then drawn at random from the remaining cards. Find the probability that the card drawn is (i) an ace, (ii) a heart.",
+    "answer": "Remaining cards $= 51$. (i) Aces left $= 3$, so $P = \\frac{3}{51} = \\frac{1}{17}$. (ii) Hearts left $= 12$, so $P = \\frac{12}{51} = \\frac{4}{17}$.",
+    "markingSteps": [
+      {
+        "step": "(i) $3$ aces among $51$ cards, $P = \\frac{1}{17}$",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $12$ hearts among $51$ cards, $P = \\frac{4}{17}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Cards",
+    "patternId": "PR-CRD-09",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": false,
+    "text": "One card is drawn at random from a well-shuffled pack of $52$ playing cards. Find the probability that the card drawn is (i) a face card or a spade, (ii) a red card that is not a face card, (iii) neither an ace nor a king, (iv) a black card bearing an even number from $2$ to $10$.",
+    "answer": "Total outcomes $= 52$. (i) Face cards $12$ plus spades $13$, less the $3$ spade face cards counted twice: $22$ cards, so $P = \\frac{22}{52} = \\frac{11}{26}$. (ii) Red cards $26$, of which $6$ are face cards: $20$ cards, so $P = \\frac{20}{52} = \\frac{5}{13}$. (iii) Aces and kings: $8$ cards, so $52 - 8 = 44$ cards and $P = \\frac{44}{52} = \\frac{11}{13}$. (iv) Even numbers $2, 4, 6, 8, 10$ in $2$ black suits: $10$ cards, so $P = \\frac{10}{52} = \\frac{5}{26}$.",
+    "markingSteps": [
+      {
+        "step": "States $52$ equally likely outcomes",
+        "marks": 1
+      },
+      {
+        "step": "(i) $12 + 13 - 3 = 22$, $P = \\frac{11}{26}$",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $26 - 6 = 20$, $P = \\frac{5}{13}$",
+        "marks": 1
+      },
+      {
+        "step": "(iii) $52 - 8 = 44$, $P = \\frac{11}{13}$",
+        "marks": 1
+      },
+      {
+        "step": "(iv) $5 \\times 2 = 10$, $P = \\frac{5}{26}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Cards",
+    "patternId": "PR-CRD-10",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "For a card game at a school fete, two identical packs of $52$ playing cards are mixed to make one pile of $104$ cards. While shuffling, the queen of hearts from each pack and the jack of clubs from one pack fall under the table and are not found. The game goes on with the remaining cards. A player draws one card at random from the pile.",
+    "answer": "(i) $\\frac{6}{101}$; (ii) $\\frac{21}{101}$; (iii) $P(\\text{red}) = \\frac{50}{101}$, black is more likely ($\\frac{51}{101}$).",
+    "parts": [
+      {
+        "label": "(i)",
+        "marks": 1,
+        "text": "Find the probability that the card drawn is a queen.",
+        "answer": "Cards left $= 104 - 3 = 101$. Queens left $= 8 - 2 = 6$, so $P(\\text{queen}) = \\frac{6}{101}$."
+      },
+      {
+        "label": "(ii)",
+        "marks": 1,
+        "text": "Find the probability that the card drawn is a face card.",
+        "answer": "Face cards in two packs $= 24$; $3$ face cards are lost, leaving $21$. $P = \\frac{21}{101}$."
+      },
+      {
+        "label": "(iii)",
+        "marks": 2,
+        "text": "Find the probability that the card drawn is red. Is a red card or a black card more likely to be drawn? Justify.",
+        "answer": "Red cards left $= 52 - 2 = 50$ (both lost queens are red), so $P(\\text{red}) = \\frac{50}{101}$. Black cards left $= 52 - 1 = 51$, so $P(\\text{black}) = \\frac{51}{101}$. Since $\\frac{51}{101} > \\frac{50}{101}$, a black card is more likely."
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Balls and bags",
+    "patternId": "PR-BAG-01",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "A box contains $7$ green, $5$ yellow and $8$ pink beads. One bead is taken out at random. The probability that it is neither green nor yellow is",
+    "options": [
+      "$\\frac{3}{5}$",
+      "$\\frac{2}{5}$",
+      "$\\frac{7}{20}$",
+      "$\\frac{1}{4}$"
+    ],
+    "answer": "Correct option: B) $\\frac{2}{5}$. Neither green nor yellow means pink: $8$ of $20$ beads. $P = \\frac{8}{20} = \\frac{2}{5}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Balls and bags",
+    "patternId": "PR-BAG-02",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "A purse contains ₹5 coins and ₹10 coins in the ratio $4 : 3$. One coin falls out at random. The probability that it is a ₹10 coin is",
+    "options": [
+      "$\\frac{3}{4}$",
+      "$\\frac{4}{7}$",
+      "$\\frac{1}{3}$",
+      "$\\frac{3}{7}$"
+    ],
+    "answer": "Correct option: D) $\\frac{3}{7}$. Take the coins as $4x$ and $3x$, total $7x$. The probability of a ₹10 coin is $\\frac{3x}{7x} = \\frac{3}{7}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Balls and bags",
+    "patternId": "PR-BAG-04",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A bag contains only black and white balls. The number of black balls is $6$ more than the number of white balls, and the probability of drawing a black ball is $\\frac{5}{8}$. The total number of balls in the bag is",
+    "options": [
+      "$24$",
+      "$16$",
+      "$48$",
+      "$30$"
+    ],
+    "answer": "Correct option: A) $24$. With $n$ balls, black $= \\frac{5n}{8}$ and white $= \\frac{3n}{8}$. Then $\\frac{5n}{8} - \\frac{3n}{8} = 6$ gives $\\frac{n}{4} = 6$, so $n = 24$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Balls and bags",
+    "patternId": "PR-BAG-05",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A jar contains red, blue and yellow marbles only. The probability of drawing a red marble is $\\frac{2}{5}$ and that of a blue marble is $\\frac{1}{3}$. If there are $12$ yellow marbles, the total number of marbles in the jar is",
+    "options": [
+      "$36$",
+      "$60$",
+      "$45$",
+      "$30$"
+    ],
+    "answer": "Correct option: C) $45$. $P(\\text{yellow}) = 1 - \\frac{2}{5} - \\frac{1}{3} = \\frac{4}{15}$. So $\\frac{4}{15} \\times n = 12$, giving $n = 45$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Balls and bags",
+    "patternId": "PR-BAG-08",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A jar contains only red and white sweets. The probability of picking a red sweet at random is $\\frac{5}{12}$. If there are $21$ white sweets in the jar, find the total number of sweets and the number of red sweets.",
+    "answer": "$P(\\text{white}) = 1 - \\frac{5}{12} = \\frac{7}{12}$. If there are $n$ sweets, $\\frac{7}{12} n = 21$, so $n = 36$. Red sweets $= 36 - 21 = 15$.",
+    "markingSteps": [
+      {
+        "step": "Finds $P(\\text{white}) = \\frac{7}{12}$ and sets up $\\frac{7}{12} n = 21$",
+        "marks": 1
+      },
+      {
+        "step": "Gets total $36$ and red sweets $15$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Balls and bags",
+    "patternId": "PR-BAG-11",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A bag contains $24$ balls, of which $k$ are green. If $8$ more green balls are put into the bag, the probability of drawing a green ball becomes $\\frac{3}{2}$ times the original probability. Find $k$, and find the probability of drawing a ball that is not green from the original bag.",
+    "answer": "Originally $P(\\text{green}) = \\frac{k}{24}$. After adding, there are $32$ balls with $k + 8$ green, so $\\frac{k + 8}{32} = \\frac{3}{2} \\times \\frac{k}{24} = \\frac{k}{16}$. Then $k + 8 = 2k$, so $k = 8$. Original $P(\\text{not green}) = \\frac{24 - 8}{24} = \\frac{2}{3}$.",
+    "markingSteps": [
+      {
+        "step": "Writes original $P(\\text{green}) = \\frac{k}{24}$ and new $P = \\frac{k + 8}{32}$",
+        "marks": 1
+      },
+      {
+        "step": "Forms $\\frac{k + 8}{32} = \\frac{3}{2} \\times \\frac{k}{24}$ and solves $k = 8$",
+        "marks": 1
+      },
+      {
+        "step": "Original $P(\\text{not green}) = \\frac{16}{24} = \\frac{2}{3}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Balls and bags",
+    "patternId": "PR-NEW-03",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": true,
+    "text": "A stationery shop keeps three boxes of pens. Box X has $6$ red and $6$ blue pens, box Y has $8$ red and $12$ blue pens, and box Z has $9$ red and $15$ blue pens. A pen is taken at random from one box. From which box is a red pen most likely?",
+    "options": [
+      "Box X",
+      "Box Y",
+      "Box Z",
+      "All three boxes are equally likely"
+    ],
+    "answer": "Correct option: A) Box X. $P(\\text{red})$: X $= \\frac{6}{12} = 0.5$, Y $= \\frac{8}{20} = 0.4$, Z $= \\frac{9}{24} = 0.375$. Box X gives the highest probability, even though Z has the most red pens.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Numbers and lottery",
+    "patternId": "PR-NUM-02",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A box contains $100$ cards numbered $2$ to $101$. One card is drawn at random. The probability that the number on it is a perfect cube is",
+    "options": [
+      "$\\frac{1}{25}$",
+      "$\\frac{3}{100}$",
+      "$\\frac{3}{101}$",
+      "$\\frac{9}{100}$"
+    ],
+    "answer": "Correct option: B) $\\frac{3}{100}$. Perfect cubes from $2$ to $101$: $8, 27, 64$, i.e. $3$ cards ($1$ is not in the box). $P = \\frac{3}{100}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Numbers and lottery",
+    "patternId": "PR-NUM-04",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": true,
+    "text": "In a lucky draw, $800$ tickets were sold. The probability that Arjun wins the first prize is $0.025$. The number of tickets Arjun bought is",
+    "options": [
+      "$25$",
+      "$200$",
+      "$20$",
+      "$32$"
+    ],
+    "answer": "Correct option: C) $20$. Tickets bought $= 0.025 \\times 800 = 20$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Numbers and lottery",
+    "patternId": "PR-NUM-05",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Cards numbered $1$ to $40$ are put in a box and one card is drawn at random. The probability that the number on it is a multiple of $4$ or $6$ is",
+    "options": [
+      "$\\frac{2}{5}$",
+      "$\\frac{3}{8}$",
+      "$\\frac{1}{4}$",
+      "$\\frac{13}{40}$"
+    ],
+    "answer": "Correct option: D) $\\frac{13}{40}$. Multiples of $4$: $10$; multiples of $6$: $6$; multiples of both ($12, 24, 36$): $3$. Favourable $= 10 + 6 - 3 = 13$. $P = \\frac{13}{40}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Numbers and lottery",
+    "patternId": "PR-NUM-06",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "From the numbers $1, 2, 3, \\ldots, 15$, all multiples of $4$ are deleted. One number is chosen at random from the remaining numbers. The probability that it is a prime number is",
+    "options": [
+      "$\\frac{1}{2}$",
+      "$\\frac{2}{5}$",
+      "$\\frac{7}{12}$",
+      "$\\frac{6}{11}$"
+    ],
+    "answer": "Correct option: A) $\\frac{1}{2}$. Deleted: $4, 8, 12$, leaving $12$ numbers. Primes left: $2, 3, 5, 7, 11, 13$, i.e. $6$. $P = \\frac{6}{12} = \\frac{1}{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Numbers and lottery",
+    "patternId": "PR-NUM-07",
+    "type": "assertion_reason",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Assertion (A): The probability that a number chosen at random from $1$ to $25$ is a multiple of $6$ is $\\frac{4}{25}$.\nReason (R): When two coins are tossed together, the probability of getting no head is $\\frac{1}{4}$.",
+    "options": [
+      "Both A and R are true and R explains A",
+      "Both A and R are true but R does not explain A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: B) Both A and R are true but R does not explain A. Multiples of $6$ up to $25$: $6, 12, 18, 24$, so A is true. R is true ($TT$ is $1$ of $4$ outcomes), but it has nothing to do with A.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Calendar and everyday sample spaces",
+    "patternId": "PR-EVD-01",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A number $x$ is chosen at random from $\\{1, 2, 3, 4\\}$ and a number $y$ is chosen at random from $\\{3, 5\\}$. The probability that $xy > 10$ is",
+    "options": [
+      "$\\frac{1}{2}$",
+      "$\\frac{3}{8}$",
+      "$\\frac{1}{4}$",
+      "$\\frac{5}{8}$"
+    ],
+    "answer": "Correct option: B) $\\frac{3}{8}$. The $8$ products are $3, 5, 6, 10, 9, 15, 12, 20$. Those greater than $10$: $15, 12, 20$. $P = \\frac{3}{8}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Calendar and everyday sample spaces",
+    "patternId": "PR-EVD-02",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": true,
+    "text": "A family has two children, and each child is equally likely to be a boy or a girl. The probability that the family has exactly one boy is",
+    "options": [
+      "$\\frac{1}{4}$",
+      "$\\frac{1}{3}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{3}{4}$"
+    ],
+    "answer": "Correct option: C) $\\frac{1}{2}$. Outcomes (elder, younger): $BB, BG, GB, GG$. Exactly one boy: $BG, GB$. $P = \\frac{2}{4} = \\frac{1}{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Calendar and everyday sample spaces",
+    "patternId": "PR-EVD-03",
+    "type": "assertion_reason",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": true,
+    "text": "Assertion (A): The probability that a leap year chosen at random has $53$ Mondays is $\\frac{1}{7}$.\nReason (R): A leap year has $366$ days, that is, $52$ complete weeks and $2$ extra days.",
+    "options": [
+      "Both A and R are true and R explains A",
+      "Both A and R are true but R does not explain A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: D) A is false but R is true. The $2$ extra days can be (Sun, Mon), (Mon, Tue), (Tue, Wed), (Wed, Thu), (Thu, Fri), (Fri, Sat), (Sat, Sun). Two of these $7$ contain a Monday, so the probability is $\\frac{2}{7}$ and A is false. R is true.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Calendar and everyday sample spaces",
+    "patternId": "PR-EVD-04",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": true,
+    "text": "Two cousins were both born in February of the same non-leap year. Assuming every date is equally likely, find the probability that they have (i) the same birth date, (ii) different birth dates.",
+    "answer": "February of a non-leap year has $28$ days. Whatever date the first cousin has, the second has $28$ equally likely dates. (i) $P(\\text{same date}) = \\frac{1}{28}$. (ii) $P(\\text{different dates}) = 1 - \\frac{1}{28} = \\frac{27}{28}$.",
+    "markingSteps": [
+      {
+        "step": "(i) $P(\\text{same}) = \\frac{1}{28}$ using $28$ days",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $P(\\text{different}) = \\frac{27}{28}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Calendar and everyday sample spaces",
+    "patternId": "PR-EVD-05",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": true,
+    "text": "Rohit and Sana each go to the gym on exactly one day of a week, chosen from Monday to Friday, and each day is equally likely for each of them. Find the probability that they go (i) on the same day, (ii) on days with exactly one day between them (for example, Monday and Wednesday).",
+    "answer": "Each can choose from $5$ days, so there are $5 \\times 5 = 25$ equally likely outcomes. (i) Same day: $5$ outcomes, so $P = \\frac{5}{25} = \\frac{1}{5}$. (ii) Pairs with one day between: (Mon, Wed), (Tue, Thu), (Wed, Fri), and each can be in either order, so $6$ outcomes. $P = \\frac{6}{25}$.",
+    "markingSteps": [
+      {
+        "step": "States $25$ equally likely outcomes",
+        "marks": 1
+      },
+      {
+        "step": "(i) $5$ outcomes, $P = \\frac{1}{5}$",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $6$ ordered outcomes, $P = \\frac{6}{25}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Calendar and everyday sample spaces",
+    "patternId": "PR-EVD-06",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A number $x$ is chosen at random from $\\{2, 3, 4, 6\\}$ and a number $y$ is chosen at random from $\\{1, 2, 3\\}$. Make a table of all the possible values of $xy$. Find the probability that $xy$ is (i) less than $8$, (ii) an odd number, (iii) a multiple of $6$, (iv) a perfect square.",
+    "answer": "Table of $xy$: $x = 2$: $2, 4, 6$; $x = 3$: $3, 6, 9$; $x = 4$: $4, 8, 12$; $x = 6$: $6, 12, 18$ (for $y = 1, 2, 3$). There are $12$ equally likely outcomes. (i) Less than $8$: $2, 4, 6, 3, 6, 4, 6$, i.e. $7$, so $P = \\frac{7}{12}$. (ii) Odd: $3, 9$, so $P = \\frac{2}{12} = \\frac{1}{6}$. (iii) Multiple of $6$: $6, 6, 12, 6, 12, 18$, so $P = \\frac{6}{12} = \\frac{1}{2}$. (iv) Perfect square: $4, 9, 4$, so $P = \\frac{3}{12} = \\frac{1}{4}$.",
+    "markingSteps": [
+      {
+        "step": "Correct table of the $12$ products",
+        "marks": 1
+      },
+      {
+        "step": "(i) $\\frac{7}{12}$",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $\\frac{1}{6}$",
+        "marks": 1
+      },
+      {
+        "step": "(iii) $\\frac{1}{2}$",
+        "marks": 1
+      },
+      {
+        "step": "(iv) $\\frac{1}{4}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Data tables and charts",
+    "patternId": "PR-DAT-01",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A jar contains $72$ marbles of three colours. The pie chart shows how they are shared: green $150^\\circ$, red $90^\\circ$ and white for the rest. (i) Find the probability that a marble drawn at random is white, and the number of white marbles. (ii) If $12$ more white marbles are added to the jar, find the probability that a marble drawn at random is white.",
+    "answer": "(i) White sector $= 360^\\circ - 150^\\circ - 90^\\circ = 120^\\circ$, so $P(\\text{white}) = \\frac{120}{360} = \\frac{1}{3}$. Number of white marbles $= \\frac{1}{3} \\times 72 = 24$. (ii) Now white $= 24 + 12 = 36$ and total $= 72 + 12 = 84$, so $P(\\text{white}) = \\frac{36}{84} = \\frac{3}{7}$.",
+    "markingSteps": [
+      {
+        "step": "(i) White angle $120^\\circ$, $P(\\text{white}) = \\frac{1}{3}$",
+        "marks": 1
+      },
+      {
+        "step": "Number of white marbles $= 24$",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $\\frac{36}{84} = \\frac{3}{7}$",
+        "marks": 1
+      }
+    ],
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 280\"><path d=\"M 150 140 L 150.0 30.0 A 110 110 0 0 0 95.0 235.3 Z\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 150 140 L 95.0 235.3 A 110 110 0 0 0 245.3 195.0 Z\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 150 140 L 245.3 195.0 A 110 110 0 0 0 150.0 30.0 Z\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"86.2\" y=\"119.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Green</text><text x=\"86.2\" y=\"135.9\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">150°</text><text x=\"167.1\" y=\"200.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Red</text><text x=\"167.1\" y=\"216.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">90°</text><text x=\"207.2\" y=\"112.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">White</text></svg>",
+    "figureAlt": "A pie chart divided into three sectors: Green with a 150 degree angle, Red with a 90 degree angle, and a shaded White sector whose angle is not marked.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Data tables and charts",
+    "patternId": "PR-DAT-03",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A school surveyed $1080$ students about the one sport they like most. The results are shown in the pie chart: cricket $135^\\circ$, football $90^\\circ$, badminton $75^\\circ$ and kabaddi $60^\\circ$. One student from the survey is chosen at random to receive a sports kit.",
+    "answer": "(i) $\\frac{5}{12}$; (ii) cricket; (iii) $225$ students, $P(\\text{not cricket}) = \\frac{5}{8}$.",
+    "parts": [
+      {
+        "label": "(i)",
+        "marks": 1,
+        "text": "Find the probability that the chosen student likes football or kabaddi most.",
+        "answer": "$P = \\frac{90 + 60}{360} = \\frac{150}{360} = \\frac{5}{12}$."
+      },
+      {
+        "label": "(ii)",
+        "marks": 1,
+        "text": "Which sport is the most liked? Give a reason.",
+        "answer": "Cricket, because it has the largest sector ($135^\\circ$) and so the highest probability, $\\frac{135}{360} = \\frac{3}{8}$."
+      },
+      {
+        "label": "(iii)",
+        "marks": 2,
+        "text": "Find the number of students who like badminton most, and the probability that the chosen student does not like cricket most.",
+        "answer": "Badminton: $\\frac{75}{360} \\times 1080 = 225$ students. $P(\\text{not cricket}) = 1 - \\frac{135}{360} = 1 - \\frac{3}{8} = \\frac{5}{8}$."
+      }
+    ],
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 280\"><path d=\"M 150 140 L 150.0 25.0 A 115 115 0 0 0 68.7 221.3 Z\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 150 140 L 68.7 221.3 A 115 115 0 0 0 231.3 221.3 Z\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 150 140 L 231.3 221.3 A 115 115 0 0 0 249.6 82.5 Z\" fill=\"#ddd\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 150 140 L 249.6 82.5 A 115 115 0 0 0 150.0 25.0 Z\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"86.3\" y=\"110.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Cricket</text><text x=\"86.3\" y=\"126.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">135°</text><text x=\"150.0\" y=\"206.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Football</text><text x=\"150.0\" y=\"222.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">90°</text><text x=\"218.4\" y=\"146.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Badminton</text><text x=\"218.4\" y=\"162.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">75°</text><text x=\"184.5\" y=\"77.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Kabaddi</text><text x=\"184.5\" y=\"93.2\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">60°</text></svg>",
+    "figureAlt": "A pie chart with four sectors: Cricket 135 degrees, Football 90 degrees, Badminton 75 degrees (shaded) and Kabaddi 60 degrees.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Spinners and games",
+    "patternId": "PR-GAM-01",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "At a charity fair, a game uses the two spinners shown. Spinner A has three equal sectors coloured red, green and blue. Spinner B has two equal sectors coloured red and green. A player spins both, and wins if the two spinners stop on the same colour. Each play costs ₹15 and a winner gets ₹30. During the day $120$ people play once each, and the number of winners matches the probability of winning.",
+    "answer": "(i) $6$ outcomes: $RR, RG, GR, GG, BR, BG$; (ii) $\\frac{1}{3}$; (iii) net fund ₹600.",
+    "parts": [
+      {
+        "label": "(i)",
+        "marks": 1,
+        "text": "List all the possible outcomes (colour on A, colour on B).",
+        "answer": "(Red, Red), (Red, Green), (Green, Red), (Green, Green), (Blue, Red), (Blue, Green): $6$ equally likely outcomes."
+      },
+      {
+        "label": "(ii)",
+        "marks": 1,
+        "text": "Find the probability that a player wins.",
+        "answer": "Winning outcomes: (Red, Red) and (Green, Green), so $P(\\text{win}) = \\frac{2}{6} = \\frac{1}{3}$."
+      },
+      {
+        "label": "(iii)",
+        "marks": 2,
+        "text": "Find the amount left for the charity at the end of the day after the prizes are paid.",
+        "answer": "Money collected $= 120 \\times 15 = $ ₹1800. Winners $= \\frac{1}{3} \\times 120 = 40$, prizes $= 40 \\times 30 = $ ₹1200. Amount left $= 1800 - 1200 = $ ₹600."
+      }
+    ],
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 225\"><path d=\"M 95 110 L 95.0 35.0 A 75 75 0 0 0 30.0 147.5 Z\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 95 110 L 30.0 147.5 A 75 75 0 0 0 160.0 147.5 Z\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 95 110 L 160.0 147.5 A 75 75 0 0 0 95.0 35.0 Z\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"56.0\" y=\"92.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Red</text><text x=\"95.0\" y=\"160.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Green</text><text x=\"134.0\" y=\"92.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Blue</text><path d=\"M 290 110 L 290.0 35.0 A 75 75 0 0 0 290.0 185.0 Z\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 290 110 L 290.0 185.0 A 75 75 0 0 0 290.0 35.0 Z\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"245.0\" y=\"115.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Red</text><text x=\"335.0\" y=\"115.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Green</text><text x=\"95.0\" y=\"210.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Spinner A</text><text x=\"290.0\" y=\"210.0\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Spinner B</text></svg>",
+    "figureAlt": "Two circular spinners side by side. Spinner A is divided into three equal sectors labelled Red, Green and Blue; Spinner B is divided into two equal halves labelled Red and Green.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Cross-chapter probability",
+    "patternId": "PR-CRS-01",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "hard",
+    "competency": false,
+    "text": "A die is thrown once and the number $k$ on it is noted. The probability that the quadratic equation $x^{2} + kx + k = 0$ has real roots is",
+    "options": [
+      "$\\frac{1}{3}$",
+      "$\\frac{2}{3}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{1}{6}$"
+    ],
+    "answer": "Correct option: C) $\\frac{1}{2}$. Real roots need $k^{2} - 4k \\ge 0$, i.e. $k(k - 4) \\ge 0$; with $k$ from $1$ to $6$ this means $k \\ge 4$. So $k = 4, 5, 6$ and $P = \\frac{3}{6} = \\frac{1}{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Cross-chapter probability",
+    "patternId": "PR-CRS-02",
+    "type": "short",
+    "marks": 3,
+    "complexity": "hard",
+    "competency": false,
+    "text": "An integer $x$ is chosen at random from $-4, -3, -2, \\ldots, 4$. Find the probability that (i) $x^{2} - 2x - 8 < 0$, (ii) $x$ is a solution of $x^{3} - x^{2} - 6x = 0$.",
+    "answer": "There are $9$ equally likely values. (i) $x^{2} - 2x - 8 = (x - 4)(x + 2) < 0$ when $-2 < x < 4$, i.e. $x = -1, 0, 1, 2, 3$: $5$ values, so $P = \\frac{5}{9}$. (ii) $x^{3} - x^{2} - 6x = x(x - 3)(x + 2) = 0$ gives $x = 0, 3, -2$, all in the list: $3$ values, so $P = \\frac{3}{9} = \\frac{1}{3}$.",
+    "markingSteps": [
+      {
+        "step": "States $9$ equally likely values",
+        "marks": 1
+      },
+      {
+        "step": "(i) Factorises to $(x - 4)(x + 2) < 0$, finds $5$ values, $P = \\frac{5}{9}$",
+        "marks": 1
+      },
+      {
+        "step": "(ii) Factorises to $x(x - 3)(x + 2) = 0$, finds $3$ values, $P = \\frac{1}{3}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": "Key correct. Part (i) solution uses a quadratic inequality and (ii) a cubic, neither in the Class 10 syllabus; still answerable by substituting the 9 values, so acceptable, but consider rewording solution to the substitution method."
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Geometric probability",
+    "patternId": "PR-GEO-01",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A rectangular lawn measures $28 \\text{ m} \\times 21 \\text{ m}$. In it there is a circular pool of radius $7 \\text{ m}$. A ball thrown at random lands somewhere on the lawn region (including the pool). Using $\\pi = \\frac{22}{7}$, the probability that the ball lands outside the pool is",
+    "options": [
+      "$\\frac{11}{42}$",
+      "$\\frac{11}{31}$",
+      "$\\frac{3}{4}$",
+      "$\\frac{31}{42}$"
+    ],
+    "answer": "Correct option: D) $\\frac{31}{42}$. Lawn area $= 28 \\times 21 = 588 \\text{ m}^{2}$; pool area $= \\frac{22}{7} \\times 7 \\times 7 = 154 \\text{ m}^{2}$. Outside $= 434 \\text{ m}^{2}$, so $P = \\frac{434}{588} = \\frac{31}{42}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  }
+]

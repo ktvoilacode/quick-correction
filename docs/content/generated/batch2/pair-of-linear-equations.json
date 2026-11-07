@@ -1,0 +1,377 @@
+[
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Consistency conditions",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The pair of linear equations $2x + 5y = 9$ and $6x + ky = 27$ has infinitely many solutions. The value of $k$ is",
+  "options": [
+   "$10$",
+   "$3$",
+   "$15$",
+   "$\\frac{5}{3}$"
+  ],
+  "answer": "Correct option: C) $15$ For infinitely many solutions $\\frac{2}{6}=\\frac{5}{k}=\\frac{9}{27}$, so $\\frac{5}{k}=\\frac{1}{3}$ and $k=15$."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Consistency conditions",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "For the pair $3x + (k-1)y = 8$ and $9x + 6y = 11$ to have no solution, the value of $k$ must be",
+  "options": [
+   "$2$",
+   "$3$",
+   "$-3$",
+   "$6$"
+  ],
+  "answer": "Correct option: B) $3$ No solution needs $\\frac{3}{9}=\\frac{k-1}{6}\\neq\\frac{8}{11}$. So $k-1=2$, giving $k=3$, and $\\frac{1}{3}\\neq\\frac{8}{11}$ holds."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Consistency conditions",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The pair of equations $2x + ky = 3$ and $5x - 15y = 7$ has a unique solution for",
+  "options": [
+   "all real values of $k$ except $6$",
+   "only $k=-6$",
+   "every real value of $k$",
+   "all real values of $k$ except $-6$"
+  ],
+  "answer": "Correct option: D) all real values of $k$ except $-6$ A unique solution needs $\\frac{2}{5}\\neq\\frac{k}{-15}$, i.e. $k\\neq -6$."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Consistency conditions",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Assertion (A): The pair of equations $3x + 5y = 7$ and $9x + 15y = 21$ has infinitely many solutions.\nReason (R): If $\\frac{a_{1}}{a_{2}}=\\frac{b_{1}}{b_{2}}=\\frac{c_{1}}{c_{2}}$ for the pair $a_{1}x+b_{1}y+c_{1}=0$ and $a_{2}x+b_{2}y+c_{2}=0$, the pair has infinitely many solutions.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: A) Both A and R are true and R is the correct explanation of A Here $\\frac{3}{9}=\\frac{5}{15}=\\frac{7}{21}=\\frac{1}{3}$, so A is true (the lines coincide), and R is exactly the condition that explains it."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Consistency conditions",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Assertion (A): The pair of equations $x - 4y = 2$ and $3x - 12y = 9$ has a unique solution.\nReason (R): A pair of linear equations $a_{1}x+b_{1}y+c_{1}=0$ and $a_{2}x+b_{2}y+c_{2}=0$ has a unique solution when $\\frac{a_{1}}{a_{2}}\\neq\\frac{b_{1}}{b_{2}}$.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: D) A is false but R is true For the given pair $\\frac{1}{3}=\\frac{-4}{-12}=\\frac{1}{3}\\neq\\frac{2}{9}$, so the lines are parallel and there is no solution: A is false. R is the correct unique-solution condition: R is true."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Consistency conditions",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "hard",
+  "competency": true,
+  "text": "The pair of equations $kx + 9y = k-3$ and $4x + ky = 2$ has infinitely many solutions for exactly one value of $k$. That value is",
+  "options": [
+   "$-6$",
+   "$\\pm 6$",
+   "$6$",
+   "$3$"
+  ],
+  "answer": "Correct option: C) $6$ Need $\\frac{k}{4}=\\frac{9}{k}=\\frac{k-3}{2}$. From the first two $k^{2}=36$, so $k=\\pm 6$. For $k=6$ all three ratios equal $\\frac{3}{2}$. For $k=-6$ the ratios are $-\\frac{3}{2},-\\frac{3}{2},-\\frac{9}{2}$, so there is no solution. Hence $k=6$."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Graphical solution",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The graph of $x - 2y = -8$ cuts the $x$-axis at $A$ and the $y$-axis at $B$. The length $AB$ is",
+  "options": [
+   "$4\\sqrt{5}$ units",
+   "$12$ units",
+   "$8\\sqrt{5}$ units",
+   "$\\sqrt{60}$ units"
+  ],
+  "answer": "Correct option: A) $4\\sqrt{5}$ units Putting $y=0$ gives $A(-8,0)$; putting $x=0$ gives $B(0,4)$. So $AB=\\sqrt{8^{2}+4^{2}}=\\sqrt{80}=4\\sqrt{5}$."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Graphical solution",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The lines $y = 3x - 2$ and $y = -x + 6$ are drawn on the same graph. They intersect at the point",
+  "options": [
+   "$(4, 2)$",
+   "$(2, -4)$",
+   "$(1, 5)$",
+   "$(2, 4)$"
+  ],
+  "answer": "Correct option: D) $(2, 4)$ Equating, $3x-2=-x+6$ gives $x=2$, then $y=4$. (The point $(1,5)$ lies only on the second line.)"
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Substitution and elimination",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "If $y = 2x - 1$ and $3x + 2y = 12$, then $x + y$ equals",
+  "options": [
+   "$3$",
+   "$5$",
+   "$4$",
+   "$6$"
+  ],
+  "answer": "Correct option: B) $5$ Substituting, $3x+2(2x-1)=12$, so $7x=14$, $x=2$ and $y=3$. Hence $x+y=5$."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Finding unknown constants",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The solution of $x + y = 12$ and $x - y = 4$ also satisfies $3x - ky = 16$. The value of $k$ is",
+  "options": [
+   "$4$",
+   "$\\frac{7}{2}$",
+   "$2$",
+   "$-2$"
+  ],
+  "answer": "Correct option: C) $2$ Adding the first two equations gives $x=8$, so $y=4$. Then $24-4k=16$, so $k=2$."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Word problems",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": true,
+  "text": "The perimeter of a rectangular field is 70 m and its length is 5 m more than twice its breadth. The length of the field is",
+  "options": [
+   "$25$ m",
+   "$20$ m",
+   "$30$ m",
+   "$10$ m"
+  ],
+  "answer": "Correct option: A) $25$ m With length $l$ and breadth $b$: $l+b=35$ and $l=2b+5$. So $3b+5=35$, $b=10$ and $l=25$ m. (10 m is the breadth.)"
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Word problems",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A bag has only ₹5 and ₹10 coins. There are 24 coins in all, worth ₹165 in total. The number of ₹10 coins is",
+  "options": [
+   "$15$",
+   "$9$",
+   "$12$",
+   "$6$"
+  ],
+  "answer": "Correct option: B) $9$ If there are $x$ coins of ₹5 and $y$ coins of ₹10, then $x+y=24$ and $5x+10y=165$. Subtracting 5 times the first gives $5y=45$, so $y=9$. (15 is the number of ₹5 coins.)"
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Substitution and elimination",
+  "slot": "A-mcq-or-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The pair of equations $y = 5x - 2$ and $10x - 2y = 4$ has",
+  "options": [
+   "exactly one solution",
+   "no solution",
+   "infinitely many solutions",
+   "exactly two solutions"
+  ],
+  "answer": "Correct option: C) infinitely many solutions Substituting $y=5x-2$ gives $10x-10x+4=4$, which is always true. The two equations represent the same line."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Substitution and elimination",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Solve by the substitution method: $3x + 5y = 7$ and $2x - y = 9$.",
+  "answer": "From the second equation $y=2x-9$. Put in the first: $3x+5(2x-9)=7$, so $13x=52$ and $x=4$. Then $y=8-9=-1$. Check: $12-5=7$ and $8+1=9$. Solution: $x=4$, $y=-1$."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Consistency conditions",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Find the value of $k$ for which the pair of equations $kx + 2y = 5$ and $3x + y = 1$ has no solution.",
+  "answer": "For no solution $\\frac{k}{3}=\\frac{2}{1}\\neq\\frac{5}{1}$. From $\\frac{k}{3}=2$, $k=6$, and $2\\neq 5$ holds. So $k=6$."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Graphical solution",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The line $3x + 4y = 24$ is drawn on a graph. Find the points where it cuts the $x$-axis and the $y$-axis, and the area of the triangle formed by the line and the two axes.",
+  "answer": "Put $y=0$: $x=8$, point $(8,0)$. Put $x=0$: $y=6$, point $(0,6)$. The triangle is right-angled at the origin, so area $=\\frac{1}{2}\\times 8\\times 6=24$ square units."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Word problems",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The sum of the present ages of a mother and her daughter is 45 years. After 5 years the mother's age will be 4 times the daughter's age. Find their present ages.",
+  "answer": "Let mother be $x$ and daughter $y$ years. Then $x+y=45$ and $x+5=4(y+5)$, i.e. $x-4y=15$. Subtracting: $5y=30$, so $y=6$ and $x=39$. Check: after 5 years $44=4\\times 11$. Mother 39 years, daughter 6 years."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Finding unknown constants",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "If $x = 2$, $y = -1$ is the solution of the pair $px + 3qy = 5$ and $qx - py = 6$, find $p$ and $q$.",
+  "answer": "Substituting: $2p-3q=5$ and $2q+p=6$. From the second $p=6-2q$. Then $12-4q-3q=5$, so $q=1$ and $p=4$. Check: $8-3=5$ and $2+4=6$. So $p=4$, $q=1$."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Substitution and elimination",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Solve by the elimination method: $4x + 3y = 7$ and $3x - 2y = -16$.",
+  "answer": "Multiply the first by 2 and the second by 3: $8x+6y=14$ and $9x-6y=-48$. Adding: $17x=-34$, so $x=-2$. Then $3y=7+8=15$, $y=5$. Check: $-6-10=-16$. Solution: $x=-2$, $y=5$."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Word problems",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "easy",
+  "competency": true,
+  "text": "In a quiz, 4 marks are awarded for every correct answer and 1 mark is deducted for every wrong answer. Meera attempted all 20 questions and scored 45 marks. Find how many questions she answered correctly and how many wrongly.",
+  "answer": "Let correct answers be $x$ and wrong answers $y$. Then $x+y=20$ and $4x-y=45$. Adding: $5x=65$, so $x=13$ and $y=7$. Check: $52-7=45$. She answered 13 correctly and 7 wrongly."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Graphical solution",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The lines $x + 2y = 6$ and $3x - y = 4$ are drawn on the same graph along with the $y$-axis. Find the vertices of the triangle enclosed by these three lines and its area.",
+  "answer": "Intersection of the two lines: from $y=3x-4$, $x+6x-8=6$, so $x=2$, $y=2$: $(2,2)$. The first line meets the $y$-axis at $(0,3)$; the second at $(0,-4)$. The vertices are $(2,2)$, $(0,3)$, $(0,-4)$. Base on the $y$-axis $=3-(-4)=7$, height $=2$ (distance of $(2,2)$ from the $y$-axis). Area $=\\frac{1}{2}\\times 7\\times 2=7$ square units."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Consistency conditions",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Find the value of $k$ for which the pair of equations $(k+1)x + 3y = 2k-1$ and $(3k-3)x + 6y = 3k+3$ has infinitely many solutions.",
+  "answer": "Need $\\frac{k+1}{3k-3}=\\frac{3}{6}=\\frac{2k-1}{3k+3}$. From the first two: $2k+2=3k-3$, so $k=5$. Check with the third: $\\frac{9}{18}=\\frac{1}{2}$, which equals $\\frac{3}{6}$. So $k=5$."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Substitution and elimination",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Solve: $\\frac{3x}{2} - \\frac{5y}{3} = -2$ and $\\frac{x}{3} + \\frac{y}{2} = \\frac{13}{6}$.",
+  "answer": "Multiply the first by 6: $9x-10y=-12$. Multiply the second by 6: $2x+3y=13$. Now multiply the second by 10 and the first by 3: $20x+30y=130$ and $27x-30y=-36$. Adding: $47x=94$, so $x=2$. Then $3y=13-4=9$, $y=3$. Check in the first: $3-5=-2$. Solution: $x=2$, $y=3$."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Word problems",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "hard",
+  "competency": true,
+  "text": "A two-digit number, when divided by the sum of its digits, gives quotient 6 and remainder 5. If the digits are interchanged, the number decreases by 18. Find the number.",
+  "answer": "Let the tens digit be $x$ and units digit $y$; number $=10x+y$. Division: $10x+y=6(x+y)+5$, so $4x-5y=5$. Interchange: $(10x+y)-(10y+x)=18$, so $x-y=2$. Put $x=y+2$: $4y+8-5y=5$, so $y=3$ and $x=5$. The number is 53. Check: sum of digits 8, $53=6\\times 8+5$; $53-35=18$."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Word problems",
+  "slot": "D-long (5 marks)",
+  "type": "long",
+  "marks": 5,
+  "complexity": "medium",
+  "competency": true,
+  "text": "An aeroplane flying with the wind for 2 hours and then against the wind for 1 hour covers 1650 km in all. Flying with the wind for 1 hour and then against the wind for 3 hours it covers 1950 km. Find the speed of the aeroplane in still air and the speed of the wind. (Speeds are constant.)",
+  "answer": "Let the speed in still air be $x$ km/h and the wind speed $y$ km/h. Speed with the wind $=x+y$, against the wind $=x-y$. Then $2(x+y)+(x-y)=1650$, i.e. $3x+y=1650$ ... (1). And $(x+y)+3(x-y)=1950$, i.e. $4x-2y=1950$, i.e. $2x-y=975$ ... (2). Adding (1) and (2): $5x=2625$, so $x=525$. From (1): $y=1650-1575=75$. Check: $2(600)+450=1650$ and $600+3(450)=1950$. Speed in still air $=525$ km/h; wind speed $=75$ km/h."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Word problems",
+  "slot": "D-long (5 marks)",
+  "type": "long",
+  "marks": 5,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The area of a rectangular garden stays the same if its length is decreased by 4 m while its breadth is increased by 3 m, and also if its length is increased by 4 m while its breadth is decreased by 2 m. Find the length and breadth of the garden and its area.",
+  "answer": "Let length $=x$ m and breadth $=y$ m, area $=xy$. First case: $(x-4)(y+3)=xy$, so $3x-4y-12=0$, i.e. $3x-4y=12$ ... (1). Second case: $(x+4)(y-2)=xy$, so $-2x+4y-8=0$, i.e. $x-2y=-4$ ... (2). From (2), $x=2y-4$. Put in (1): $6y-12-4y=12$, so $2y=24$, $y=12$, and $x=20$. Check: $16\\times 15=240=20\\times 12$ and $24\\times 10=240$. Length $=20$ m, breadth $=12$ m, area $=240\\text{ m}^{2}$."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Word problems",
+  "slot": "E-case-study (4 marks, with sub-parts)",
+  "type": "case",
+  "marks": 4,
+  "complexity": "medium",
+  "competency": true,
+  "text": "Two courier services charge for sending a parcel as follows. Service P charges a fixed ₹40 plus ₹10 per kg. Service Q charges a fixed ₹20 plus ₹15 per kg. Let $y$ be the total charge in rupees for a parcel of $x$ kg.\n(i) Write the pair of linear equations that gives the charge $y$ of each service in terms of $x$. [1]\n(ii) For what weight do the two services charge the same amount, and what is that amount? [1]\n(iii) A customer wants to send a 7 kg parcel. Which service is cheaper and by how much? For what weights is service Q cheaper than P? [2]",
+  "answer": "(i) Service P: $y=40+10x$, i.e. $10x-y=-40$. Service Q: $y=20+15x$, i.e. $15x-y=-20$. (ii) Equal charges: $40+10x=20+15x$, so $5x=20$, $x=4$ kg; the charge is ₹80. (iii) For 7 kg: P charges ₹110 and Q charges ₹125, so P is cheaper by ₹15. Q is cheaper when $20+15x<40+10x$, i.e. $5x<20$, i.e. $x<4$, so for parcels lighter than 4 kg."
+ }
+]

@@ -1,0 +1,257 @@
+[
+ {
+  "idx": 0,
+  "myAnswer": "B) 0",
+  "how": "by hand"
+ },
+ {
+  "idx": 1,
+  "myAnswer": "C) 386",
+  "how": "by hand"
+ },
+ {
+  "idx": 2,
+  "myAnswer": "No; sums not equally likely; P(7)=6/36=1/6",
+  "how": "by hand"
+ },
+ {
+  "idx": 3,
+  "myAnswer": "D) -3",
+  "how": "by hand"
+ },
+ {
+  "idx": 4,
+  "myAnswer": "A) 7/10",
+  "how": "by hand"
+ },
+ {
+  "idx": 5,
+  "myAnswer": "A) Both true, R explains A",
+  "how": "by hand"
+ },
+ {
+  "idx": 6,
+  "myAnswer": "D) A false, R true (5 missing, not complementary)",
+  "how": "by hand"
+ },
+ {
+  "idx": 7,
+  "myAnswer": "x=6, P=3/10",
+  "how": "by hand"
+ },
+ {
+  "idx": 8,
+  "myAnswer": "B) 5/18",
+  "how": "by hand"
+ },
+ {
+  "idx": 9,
+  "myAnswer": "C) 5/6",
+  "how": "by hand"
+ },
+ {
+  "idx": 10,
+  "myAnswer": "D) 1/4",
+  "how": "by hand"
+ },
+ {
+  "idx": 11,
+  "myAnswer": "A) 1/4",
+  "how": "python"
+ },
+ {
+  "idx": 12,
+  "myAnswer": "D) A false (P=1/3), R true",
+  "how": "by hand"
+ },
+ {
+  "idx": 13,
+  "myAnswer": "(i) 2/3 (ii) 1/6",
+  "how": "by hand"
+ },
+ {
+  "idx": 14,
+  "myAnswer": "(i) 5/6 (ii) 5/36",
+  "how": "by hand"
+ },
+ {
+  "idx": 15,
+  "myAnswer": "(i) 1/2 (ii) 2/3",
+  "how": "by hand"
+ },
+ {
+  "idx": 16,
+  "myAnswer": "36 outcomes; (i) 1/6 (ii) 1/9",
+  "how": "by hand"
+ },
+ {
+  "idx": 17,
+  "myAnswer": "C) 1/2",
+  "how": "by hand"
+ },
+ {
+  "idx": 18,
+  "myAnswer": "D) 3/4",
+  "how": "by hand"
+ },
+ {
+  "idx": 19,
+  "myAnswer": "16 outcomes; (i) 1/4 (ii) 11/16 (iii) 5/16 (iv) 1/8",
+  "how": "by hand"
+ },
+ {
+  "idx": 20,
+  "myAnswer": "A) 3/52",
+  "how": "by hand"
+ },
+ {
+  "idx": 21,
+  "myAnswer": "B) 2/13",
+  "how": "by hand"
+ },
+ {
+  "idx": 22,
+  "myAnswer": "C) 1/2",
+  "how": "by hand"
+ },
+ {
+  "idx": 23,
+  "myAnswer": "D) 4/15",
+  "how": "by hand"
+ },
+ {
+  "idx": 24,
+  "myAnswer": "(i) 1/17 (ii) 4/17",
+  "how": "by hand"
+ },
+ {
+  "idx": 25,
+  "myAnswer": "(i) 11/26 (ii) 5/13 (iii) 11/13 (iv) 5/26",
+  "how": "by hand"
+ },
+ {
+  "idx": 26,
+  "myAnswer": "(i) 6/101 (ii) 21/101 (iii) 50/101; black (51/101) more likely",
+  "how": "by hand"
+ },
+ {
+  "idx": 27,
+  "myAnswer": "B) 2/5",
+  "how": "by hand"
+ },
+ {
+  "idx": 28,
+  "myAnswer": "D) 3/7",
+  "how": "by hand"
+ },
+ {
+  "idx": 29,
+  "myAnswer": "A) 24",
+  "how": "by hand"
+ },
+ {
+  "idx": 30,
+  "myAnswer": "C) 45",
+  "how": "by hand"
+ },
+ {
+  "idx": 31,
+  "myAnswer": "total 36, red 15",
+  "how": "by hand"
+ },
+ {
+  "idx": 32,
+  "myAnswer": "k=8, P(not green)=2/3",
+  "how": "by hand"
+ },
+ {
+  "idx": 33,
+  "myAnswer": "A) Box X",
+  "how": "by hand"
+ },
+ {
+  "idx": 34,
+  "myAnswer": "B) 3/100",
+  "how": "by hand"
+ },
+ {
+  "idx": 35,
+  "myAnswer": "C) 20",
+  "how": "by hand"
+ },
+ {
+  "idx": 36,
+  "myAnswer": "D) 13/40",
+  "how": "by hand"
+ },
+ {
+  "idx": 37,
+  "myAnswer": "A) 1/2",
+  "how": "by hand"
+ },
+ {
+  "idx": 38,
+  "myAnswer": "B) Both true, R does not explain A",
+  "how": "by hand"
+ },
+ {
+  "idx": 39,
+  "myAnswer": "B) 3/8",
+  "how": "by hand"
+ },
+ {
+  "idx": 40,
+  "myAnswer": "C) 1/2",
+  "how": "by hand"
+ },
+ {
+  "idx": 41,
+  "myAnswer": "D) A false (2/7), R true",
+  "how": "by hand"
+ },
+ {
+  "idx": 42,
+  "myAnswer": "(i) 1/28 (ii) 27/28",
+  "how": "by hand"
+ },
+ {
+  "idx": 43,
+  "myAnswer": "(i) 1/5 (ii) 6/25",
+  "how": "by hand"
+ },
+ {
+  "idx": 44,
+  "myAnswer": "(i) 7/12 (ii) 1/6 (iii) 1/2 (iv) 1/4",
+  "how": "python"
+ },
+ {
+  "idx": 45,
+  "myAnswer": "(i) 1/3, 24 white (ii) 3/7",
+  "how": "by hand"
+ },
+ {
+  "idx": 46,
+  "myAnswer": "(i) 5/12 (ii) cricket, largest angle 135 (iii) 225; 5/8",
+  "how": "by hand"
+ },
+ {
+  "idx": 47,
+  "myAnswer": "(i) RR,RG,GR,GG,BR,BG (ii) 1/3 (iii) Rs 600",
+  "how": "by hand"
+ },
+ {
+  "idx": 48,
+  "myAnswer": "C) 1/2",
+  "how": "by hand"
+ },
+ {
+  "idx": 49,
+  "myAnswer": "(i) 5/9 (ii) 1/3",
+  "how": "by hand"
+ },
+ {
+  "idx": 50,
+  "myAnswer": "D) 31/42",
+  "how": "by hand"
+ }
+]

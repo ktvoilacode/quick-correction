@@ -1,0 +1,728 @@
+[
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Surface area of solids",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The curved surface area of a cylinder of height $7 \\text{ cm}$ is $616 \\text{ cm}^{2}$. Using $\\pi = \\frac{22}{7}$, the radius of its base is",
+  "options": [
+   "$7 \\text{ cm}$",
+   "$14 \\text{ cm}$",
+   "$28 \\text{ cm}$",
+   "$3.5 \\text{ cm}$"
+  ],
+  "idx": 0
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Surface area of solids",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The total surface area of a solid hemisphere of diameter $d$ is",
+  "options": [
+   "$\\frac{1}{2}\\pi d^{2}$",
+   "$3\\pi d^{2}$",
+   "$\\frac{3}{4}\\pi d^{2}$",
+   "$\\frac{3}{2}\\pi d^{2}$"
+  ],
+  "idx": 1
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Surface area of solids",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The surface area of a sphere of radius $3.5 \\text{ cm}$ is (use $\\pi = \\frac{22}{7}$)",
+  "options": [
+   "$38.5 \\text{ cm}^{2}$",
+   "$77 \\text{ cm}^{2}$",
+   "$179.67 \\text{ cm}^{2}$",
+   "$154 \\text{ cm}^{2}$"
+  ],
+  "idx": 2
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Surface area of solids",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A solid cylinder of radius $7 \\text{ cm}$ and height $10 \\text{ cm}$ is cut into two pieces by a plane parallel to its base. The increase in the total surface area is (use $\\pi = \\frac{22}{7}$)",
+  "options": [
+   "$308 \\text{ cm}^{2}$",
+   "$154 \\text{ cm}^{2}$",
+   "$440 \\text{ cm}^{2}$",
+   "$616 \\text{ cm}^{2}$"
+  ],
+  "idx": 3
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Surface area of solids",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A conical tent has base radius $7 \\text{ m}$ and slant height $10 \\text{ m}$. An entrance of area $6 \\text{ m}^{2}$ is left without canvas, and the floor is not covered. The area of canvas used is (use $\\pi = \\frac{22}{7}$)",
+  "options": [
+   "$226 \\text{ m}^{2}$",
+   "$220 \\text{ m}^{2}$",
+   "$214 \\text{ m}^{2}$",
+   "$368 \\text{ m}^{2}$"
+  ],
+  "idx": 4
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Surface area of solids",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A cylinder and a cone have equal base radii. The curved surface area of the cylinder is four times the curved surface area of the cone. The ratio of the slant height of the cone to the height of the cylinder is",
+  "options": [
+   "$2:1$",
+   "$1:2$",
+   "$1:4$",
+   "$4:1$"
+  ],
+  "idx": 5
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Surface area of solids",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The volumes of two spheres are in the ratio $64:125$. The ratio of their surface areas is",
+  "options": [
+   "$4:5$",
+   "$64:125$",
+   "$25:16$",
+   "$16:25$"
+  ],
+  "idx": 6
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Surface area of solids",
+  "type": "assertion_reason",
+  "marks": 1,
+  "text": "Assertion (A): Two cubes, each of edge $4 \\text{ cm}$, are joined end to end. The total surface area of the resulting cuboid is $160 \\text{ cm}^{2}$.\nReason (R): When two cubes of edge $a$ are joined end to end, the total surface area of the cuboid formed is $10a^{2}$.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "idx": 7
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Surface area of solids",
+  "type": "assertion_reason",
+  "marks": 1,
+  "text": "Assertion (A): Two cubes, each of edge $6 \\text{ cm}$, are joined end to end. The total surface area of the resulting cuboid is $432 \\text{ cm}^{2}$.\nReason (R): The total surface area of a cuboid of length $l$, breadth $b$ and height $h$ is $2(lb + bh + hl)$.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "idx": 8
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Surface area of solids",
+  "type": "assertion_reason",
+  "marks": 1,
+  "text": "Assertion (A): Two solid hemispheres, each of radius $3.5 \\text{ cm}$, are joined along their bases. The surface area of the solid formed is $154 \\text{ cm}^{2}$. (Use $\\pi = \\frac{22}{7}$.)\nReason (R): The surface area of a sphere of radius $r$ is $2\\pi r^{2}$.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "idx": 9
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Surface area of solids",
+  "type": "short",
+  "marks": 2,
+  "text": "Four cubes, each of edge $3 \\text{ cm}$, are joined end to end in a row as shown in the figure. Find the total surface area of the cuboid so formed.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 175\"><polygon points=\"50,70 330,70 330,140 50,140\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><polygon points=\"50,70 78,42 358,42 330,70\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><polygon points=\"330,70 358,42 358,112 330,140\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"120\" y1=\"70\" x2=\"120\" y2=\"140\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"120\" y1=\"70\" x2=\"148\" y2=\"42\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"190\" y1=\"70\" x2=\"190\" y2=\"140\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"190\" y1=\"70\" x2=\"218\" y2=\"42\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"260\" y1=\"70\" x2=\"260\" y2=\"140\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"260\" y1=\"70\" x2=\"288\" y2=\"42\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"85\" y=\"160\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">3 cm</text><text x=\"46\" y=\"110\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">3 cm</text><text x=\"362\" y=\"97\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">3 cm</text></svg>",
+  "figureAlt": "Four equal cubes joined face to face in a straight row, forming a long cuboid; each cube edge is marked 3 cm.",
+  "idx": 10
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Surface area of solids",
+  "type": "short",
+  "marks": 2,
+  "text": "A toy is in the form of a cone mounted on a hemisphere of the same radius $7 \\text{ cm}$. The total height of the toy is $31 \\text{ cm}$. Find the total surface area of the toy. (Use $\\pi = \\frac{22}{7}$.)",
+  "idx": 11
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Surface area of solids",
+  "type": "short",
+  "marks": 3,
+  "text": "A storage shed is in the shape of a cuboid $20 \\text{ m}$ long, $14 \\text{ m}$ wide and $5 \\text{ m}$ high, surmounted by a half-cylinder roof whose diameter equals the width of the shed and which runs along its length, as shown. The four walls, the curved roof and the two semicircular end faces of the roof are to be covered with tarpaulin (the floor is not covered). Find the area of tarpaulin needed. (Use $\\pi = \\frac{22}{7}$.)",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 290\"><path d=\"M40,205 A70,70 0 0 1 180,205\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><polygon points=\"40,205 180,205 180,260 40,260\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"78.7\" y1=\"142.4\" x2=\"218.7\" y2=\"72.4\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"180\" y1=\"205\" x2=\"320\" y2=\"135\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"180\" y1=\"260\" x2=\"320\" y2=\"190\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"320\" y1=\"135\" x2=\"320\" y2=\"190\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M320,135 A70,70 0 0 0 218.7,72.4\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"40\" y1=\"260\" x2=\"180\" y2=\"190\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><text x=\"110\" y=\"280\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">14 m</text><text x=\"34\" y=\"237.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">5 m</text><text x=\"264\" y=\"243\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">20 m</text></svg>",
+  "figureAlt": "A shed drawn as a cuboid 14 m wide, 5 m high and 20 m long, with a half-cylinder roof running along its length; the front end shows a rectangle topped by a semicircle.",
+  "idx": 12
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Surface area of solids",
+  "type": "short",
+  "marks": 3,
+  "text": "A water vessel is made of a hollow hemisphere surmounted by a hollow cylinder of the same radius $7 \\text{ cm}$. The total height of the vessel is $17 \\text{ cm}$ and the thickness of the metal is negligible. Find the total area of metal surface, inside and outside, that has to be polished. (Use $\\pi = \\frac{22}{7}$.)",
+  "idx": 13
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of single solids",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The volume of a cylinder of base radius $7 \\text{ cm}$ and height $5 \\text{ cm}$ is (use $\\pi = \\frac{22}{7}$)",
+  "options": [
+   "$220 \\text{ cm}^{3}$",
+   "$770 \\text{ cm}^{3}$",
+   "$1540 \\text{ cm}^{3}$",
+   "$3080 \\text{ cm}^{3}$"
+  ],
+  "idx": 14
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of single solids",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A cone has base area $154 \\text{ cm}^{2}$ and volume $1232 \\text{ cm}^{3}$. Its height is",
+  "options": [
+   "$8 \\text{ cm}$",
+   "$12 \\text{ cm}$",
+   "$24 \\text{ cm}$",
+   "$72 \\text{ cm}$"
+  ],
+  "idx": 15
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of single solids",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The radii of two cones are in the ratio $2:3$ and their heights are in the ratio $3:4$. The ratio of their volumes is",
+  "options": [
+   "$1:2$",
+   "$1:3$",
+   "$2:3$",
+   "$8:27$"
+  ],
+  "idx": 16
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of single solids",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A cone, a hemisphere and a cylinder stand on equal bases of radius $r$ and have the same height $r$. The ratio of their volumes (cone : hemisphere : cylinder) is",
+  "options": [
+   "$1:2:3$",
+   "$2:1:3$",
+   "$1:3:2$",
+   "$3:2:1$"
+  ],
+  "idx": 17
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of single solids",
+  "type": "short",
+  "marks": 2,
+  "text": "The curved surface area of a cylinder is $880 \\text{ cm}^{2}$ and its volume is $6160 \\text{ cm}^{3}$. Find the radius and the height of the cylinder. (Use $\\pi = \\frac{22}{7}$.)",
+  "idx": 18
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of single solids",
+  "type": "short",
+  "marks": 3,
+  "text": "The radius and height of a solid cylinder are in the ratio $2:3$ and its volume is $12936 \\text{ cm}^{3}$. Find the total surface area of the cylinder. (Use $\\pi = \\frac{22}{7}$.)",
+  "idx": 19
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of single solids",
+  "type": "long",
+  "marks": 5,
+  "text": "A rectangular metal sheet measures $70 \\text{ cm}$ by $48 \\text{ cm}$. It is first rolled into an open cylinder so that its $70 \\text{ cm}$ side forms the circumference, the two edges overlapping by $4 \\text{ cm}$. In another trial, an identical sheet is rolled so that its $48 \\text{ cm}$ side forms the circumference, again with a $4 \\text{ cm}$ overlap. (The dashed lines in the figure mark the overlap strips.) Find the difference between the radii of the two cylinders and the ratio of their volumes. (Use $\\pi = \\frac{22}{7}$.)",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 410 250\"><polygon points=\"70,30 350,30 350,222 70,222\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"334\" y1=\"30\" x2=\"334\" y2=\"222\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><line x1=\"70\" y1=\"206\" x2=\"350\" y2=\"206\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><text x=\"210\" y=\"22\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">70 cm</text><text x=\"64\" y=\"126\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">48 cm</text><text x=\"342\" y=\"240\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">4 cm</text><text x=\"356\" y=\"219\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">4 cm</text></svg>",
+  "figureAlt": "A rectangle 70 cm by 48 cm representing the sheet; a dashed strip 4 cm wide runs along the right edge and another along the bottom edge, marking the overlaps.",
+  "idx": 20
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of combined solids",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A solid cone of base radius $6 \\text{ cm}$ and slant height $10 \\text{ cm}$ is placed on a solid hemisphere of radius $6 \\text{ cm}$, their bases coinciding. The total height of the solid is",
+  "options": [
+   "$16 \\text{ cm}$",
+   "$14 \\text{ cm}$",
+   "$8 \\text{ cm}$",
+   "$20 \\text{ cm}$"
+  ],
+  "idx": 21
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of combined solids",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A bottle cap is a cylinder of radius $r$ topped by a hemisphere of the same radius. The volume of the cylindrical part equals the volume of the hemispherical part. The ratio of the height of the cylindrical part to the height of the hemispherical part is",
+  "options": [
+   "$3:2$",
+   "$1:3$",
+   "$4:3$",
+   "$2:3$"
+  ],
+  "idx": 22
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of combined solids",
+  "type": "short",
+  "marks": 3,
+  "text": "A grain silo is a cylinder surmounted by a hemispherical dome of the same radius. The height of the cylindrical part is twice its radius, and the silo holds $72\\pi \\text{ m}^{3}$ of grain when full. Find the height of the cylindrical part and the total height of the silo.",
+  "idx": 23
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of combined solids",
+  "type": "short",
+  "marks": 3,
+  "text": "A hollow iron pipe is $14 \\text{ cm}$ long and its metal is $2 \\text{ cm}$ thick. The volume of iron in the pipe is $880 \\text{ cm}^{3}$. Find the outer and inner radii of the pipe. (Use $\\pi = \\frac{22}{7}$.)",
+  "idx": 24
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of combined solids",
+  "type": "long",
+  "marks": 5,
+  "text": "A model of a fuel tank is a cylinder with a cone attached at each end. The model is $26 \\text{ cm}$ long overall and $6 \\text{ cm}$ in diameter, and each cone is $4 \\text{ cm}$ high. Find (i) the volume of air the model contains and (ii) the area of sheet needed to make it, both in terms of $\\pi$.",
+  "idx": 25
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of combined solids",
+  "type": "long",
+  "marks": 5,
+  "text": "A solid iron pole consists of a cylinder of diameter $14 \\text{ cm}$ and height $1 \\text{ m}$, surmounted by another cylinder of diameter $7 \\text{ cm}$ and height $40 \\text{ cm}$, as shown. Iron has a density of $8 \\text{ g/cm}^{3}$. Find the mass of the pole in kilograms. (Use $\\pi = \\frac{22}{7}$.)",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 350\"><ellipse cx=\"150\" cy=\"110\" rx=\"40\" ry=\"10\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"110\" y1=\"110\" x2=\"110\" y2=\"310\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"190\" y1=\"110\" x2=\"190\" y2=\"310\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M110,310 A40,10 0 0 0 190,310\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M110,310 A40,10 0 0 1 190,310\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\" stroke-dasharray=\"5,4\"/><ellipse cx=\"150\" cy=\"30\" rx=\"20\" ry=\"5\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"130\" y1=\"30\" x2=\"130\" y2=\"110\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"170\" y1=\"30\" x2=\"170\" y2=\"110\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M130,110 A20,5 0 0 0 170,110\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M130,110 A20,5 0 0 1 170,110\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\" stroke-dasharray=\"5,4\"/><text x=\"198\" y=\"215\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">100 cm</text><text x=\"178\" y=\"75\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">40 cm</text><text x=\"150\" y=\"338\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">diameter 14 cm</text><text x=\"122\" y=\"75\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">diameter 7 cm</text></svg>",
+  "figureAlt": "A tall cylinder of diameter 14 cm and height 100 cm with a narrower cylinder of diameter 7 cm and height 40 cm standing centrally on top.",
+  "idx": 26
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of combined solids",
+  "type": "long",
+  "marks": 5,
+  "text": "A storage tank is in the shape of a cylinder with a hemisphere at each end. The radius of the tank is $3 \\text{ m}$ and its total length is $18 \\text{ m}$. Find, in terms of $\\pi$, (i) the total outer surface area of the tank and (ii) the volume of the tank.",
+  "idx": 27
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of combined solids",
+  "type": "long",
+  "marks": 5,
+  "text": "A toy is a cone mounted on a hemisphere of the same radius. The radius of the hemisphere and the height of the cone are in the ratio $3:4$, and the total surface area of the toy is $132\\pi \\text{ cm}^{2}$. Find the total height of the toy and its volume in terms of $\\pi$.",
+  "idx": 28
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of combined solids",
+  "type": "case",
+  "marks": 4,
+  "text": "A gym dumbbell is made of three solid cylinders joined along a common axis. Each of the two weights is a cylinder of diameter $14 \\text{ cm}$ and thickness (length) $4 \\text{ cm}$. Between them is a handle, a cylinder of diameter $2 \\text{ cm}$ and length $14 \\text{ cm}$, fixed to the inner faces of the weights. The figure shows a side view. (Use $\\pi = \\frac{22}{7}$.)",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 210\"><g transform=\"translate(24,0)\"><polygon points=\"40,50 80,50 80,190 40,190\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><polygon points=\"220,50 260,50 260,190 220,190\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><polygon points=\"80,110 220,110 220,130 80,130\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"60\" y=\"40\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">4 cm</text><text x=\"240\" y=\"40\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">4 cm</text><text x=\"150\" y=\"102\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">14 cm</text><text x=\"150\" y=\"148\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">2 cm</text><text x=\"34\" y=\"125\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">14 cm</text></g></svg>",
+  "figureAlt": "Side view of a dumbbell: two tall rectangles 4 cm wide and 14 cm high for the weights, joined by a thin rectangle 14 cm long and 2 cm high for the handle.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Find the volume of one weight."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "Find the curved surface area of the handle."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the ratio of the volume of the handle to the total volume of the two weights."
+   }
+  ],
+  "idx": 29
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Volume of combined solids",
+  "type": "case",
+  "marks": 4,
+  "text": "A garden water feature has a stone ball of diameter $42 \\text{ cm}$ resting on the flat floor of a cylindrical basin of inner diameter $1.4 \\text{ m}$. Water is filled into the basin until exactly half of the ball is under water, as shown in the cross-section. (Use $\\pi = \\frac{22}{7}$.)",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 220\"><path d=\"M60,158 L158,158 A42,42 0 0 0 242,158 L340,158 L340,200 L60,200 Z\" stroke=\"none\" fill=\"#ddd\"/><polyline points=\"60,110 60,200 340,200 340,110\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"60\" y1=\"158\" x2=\"158\" y2=\"158\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"242\" y1=\"158\" x2=\"340\" y2=\"158\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"200\" cy=\"158\" r=\"42\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"158\" y1=\"158\" x2=\"242\" y2=\"158\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><text x=\"200\" y=\"150\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">42 cm</text><text x=\"346\" y=\"184\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">21 cm</text><text x=\"200\" y=\"100\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">1.4 m</text><line x1=\"60\" y1=\"106\" x2=\"340\" y2=\"106\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/></svg>",
+  "figureAlt": "Cross-section of a cylindrical basin 1.4 m across. A ball of diameter 42 cm rests on the floor; the shaded water reaches the ball's centre, at a depth of 21 cm.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Find the volume of the stone ball."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "What is the depth of the water? Find the volume of the basin up to that depth."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the volume of water in the basin, in litres."
+   }
+  ],
+  "idx": 30
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Carved and inscribed solids",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A carpenter carves the largest possible right circular cone out of a solid wooden cube of edge $12 \\text{ cm}$, as shown. The volume of the cone, in terms of $\\pi$, is",
+  "options": [
+   "$432\\pi \\text{ cm}^{3}$",
+   "$576\\pi \\text{ cm}^{3}$",
+   "$48\\pi \\text{ cm}^{3}$",
+   "$144\\pi \\text{ cm}^{3}$"
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 290\"><polygon points=\"50,90 210,90 210,250 50,250\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><polyline points=\"50,90 120,40 280,40 280,200 210,250\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"210\" y1=\"90\" x2=\"280\" y2=\"40\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"200\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><line x1=\"120\" y1=\"200\" x2=\"280\" y2=\"200\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><line x1=\"50\" y1=\"250\" x2=\"120\" y2=\"200\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><polyline points=\"245,225 247.7,222.8 249.9,220.7 251.3,218.5 252.1,216.4 252.3,214.4 251.8,212.5 250.6,210.7 248.8,208.9 246.3,207.3 243.2,205.8 239.6,204.5 235.3,203.3 230.5,202.3 225.3,201.5 219.5,200.9 213.4,200.4 206.8,200.1 200,200 192.9,200.1 185.6,200.4 178.1,200.9 170.5,201.5 162.9,202.3 155.3,203.3 147.8,204.5 140.4,205.8 133.2,207.3 126.2,208.9 119.5,210.7 113.2,212.5 107.3,214.4 101.8,216.4 96.8,218.5 92.3,220.7 88.4,222.8 85,225 82.3,227.2 80.1,229.3 78.7,231.5 77.9,233.6 77.7,235.6 78.2,237.5 79.4,239.3 81.2,241.1 83.7,242.7 86.8,244.2 90.4,245.5 94.7,246.7 99.5,247.7 104.7,248.5 110.5,249.1 116.6,249.6 123.2,249.9 130,250 137.1,249.9 144.4,249.6 151.9,249.1 159.5,248.5 167.1,247.7 174.7,246.7 182.2,245.5 189.6,244.2 196.8,242.7 203.8,241.1 210.5,239.3 216.8,237.5 222.7,235.6 228.2,233.6 233.2,231.5 237.7,229.3 241.6,227.2 245,225\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"165\" y1=\"65\" x2=\"78.7\" y2=\"231.5\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"165\" y1=\"65\" x2=\"251.8\" y2=\"212.5\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"130\" y=\"272\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">12 cm</text></svg>",
+  "figureAlt": "A cube of edge 12 cm with a cone inside it; the cone's circular base touches all four sides of the bottom face and its vertex is at the centre of the top face.",
+  "idx": 31
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Carved and inscribed solids",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The largest right circular cone is cut out of a cube of edge $10 \\text{ cm}$. The curved surface area of the cone is",
+  "options": [
+   "$50\\pi \\text{ cm}^{2}$",
+   "$25\\sqrt{5}\\pi \\text{ cm}^{2}$",
+   "$50\\sqrt{5}\\pi \\text{ cm}^{2}$",
+   "$25\\pi \\text{ cm}^{2}$"
+  ],
+  "idx": 32
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Carved and inscribed solids",
+  "type": "mcq",
+  "marks": 1,
+  "text": "From a solid cylinder of radius $3.5 \\text{ cm}$ and height $12 \\text{ cm}$, the largest possible cone is carved out. The ratio of the volume of the cone to the volume of the wood that remains is",
+  "options": [
+   "$2:1$",
+   "$1:3$",
+   "$1:2$",
+   "$3:1$"
+  ],
+  "idx": 33
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Carved and inscribed solids",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A craftsman hollows out the largest possible cone from a solid wooden hemisphere of radius $6 \\text{ cm}$, the base of the cone being the flat face of the hemisphere, as shown. The curved surface area of the conical cavity is",
+  "options": [
+   "$36\\sqrt{2}\\pi \\text{ cm}^{2}$",
+   "$72\\pi \\text{ cm}^{2}$",
+   "$36\\pi \\text{ cm}^{2}$",
+   "$72\\sqrt{2}\\pi \\text{ cm}^{2}$"
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 240\"><path d=\"M70,190 A130,130 0 0 1 330,190\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M70,190 A130,32 0 0 0 330,190\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M70,190 A130,32 0 0 1 330,190\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\" stroke-dasharray=\"5,4\"/><line x1=\"70\" y1=\"190\" x2=\"200\" y2=\"60\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"330\" y1=\"190\" x2=\"200\" y2=\"60\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"200\" y1=\"190\" x2=\"330\" y2=\"190\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><text x=\"265\" y=\"184\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">6 cm</text></svg>",
+  "figureAlt": "A hemisphere of radius 6 cm resting on its flat face, with a cone inside whose base is the flat face and whose vertex is the top of the hemisphere.",
+  "idx": 34
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Carved and inscribed solids",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The volume of the largest sphere that can be carved out of a cube of edge $21 \\text{ cm}$ is (use $\\pi = \\frac{22}{7}$)",
+  "options": [
+   "$38808 \\text{ cm}^{3}$",
+   "$4851 \\text{ cm}^{3}$",
+   "$9261 \\text{ cm}^{3}$",
+   "$1386 \\text{ cm}^{3}$"
+  ],
+  "idx": 35
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Carved and inscribed solids",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Hemispherical dents of radius $2.5 \\text{ cm}$ are to be made on the top face of a cube of edge $20 \\text{ cm}$, with no two dents overlapping. The greatest number of dents that can be made is",
+  "options": [
+   "$4$",
+   "$64$",
+   "$8$",
+   "$16$"
+  ],
+  "idx": 36
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Carved and inscribed solids",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Four tennis balls, each of radius $3 \\text{ cm}$, are packed in a cylindrical can of radius $3 \\text{ cm}$ and height $24 \\text{ cm}$, touching the sides and both ends, as shown. The volume of empty space in the can is",
+  "options": [
+   "$144\\pi \\text{ cm}^{3}$",
+   "$72\\pi \\text{ cm}^{3}$",
+   "$216\\pi \\text{ cm}^{3}$",
+   "$36\\pi \\text{ cm}^{3}$"
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 310\"><ellipse cx=\"150\" cy=\"30\" rx=\"30\" ry=\"9\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"120\" y1=\"30\" x2=\"120\" y2=\"270\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"180\" y1=\"30\" x2=\"180\" y2=\"270\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M120,270 A30,9 0 0 0 180,270\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M120,270 A30,9 0 0 1 180,270\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\" stroke-dasharray=\"5,4\"/><circle cx=\"150\" cy=\"60\" r=\"30\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><circle cx=\"150\" cy=\"120\" r=\"30\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><circle cx=\"150\" cy=\"180\" r=\"30\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><circle cx=\"150\" cy=\"240\" r=\"30\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"188\" y=\"155\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">24 cm</text><text x=\"150\" y=\"298\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">radius 3 cm</text></svg>",
+  "figureAlt": "A tall cylinder 24 cm high and of radius 3 cm containing four equal balls stacked one above another, each touching the sides.",
+  "idx": 37
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Carved and inscribed solids",
+  "type": "assertion_reason",
+  "marks": 1,
+  "text": "Assertion (A): The largest possible cone is carved out of a solid cylinder of volume $462 \\text{ cm}^{3}$. The volume of the solid left is $154 \\text{ cm}^{3}$.\nReason (R): The volume of a cone is one-third of the volume of a cylinder of the same base radius and height.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "idx": 38
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Carved and inscribed solids",
+  "type": "short",
+  "marks": 2,
+  "text": "The largest possible sphere is carved out of a solid wooden cube of edge $42 \\text{ cm}$. Find the volume of the sphere and the volume of wood wasted. (Use $\\pi = \\frac{22}{7}$.)",
+  "idx": 39
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Carved and inscribed solids",
+  "type": "long",
+  "marks": 5,
+  "text": "A wooden article is made by scooping out a hemisphere of radius $3 \\text{ cm}$ from each end of a solid cylinder of radius $3 \\text{ cm}$ and height $10 \\text{ cm}$. The figure shows its cross-section through the axis (the shaded part is wood). Find, in terms of $\\pi$, the total surface area of the article and the volume of wood left.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 255\"><path d=\"M40,30 L360,30 A96,96 0 0 0 360,222 L40,222 A96,96 0 0 0 40,30 Z\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"#ddd\"/><line x1=\"40\" y1=\"30\" x2=\"40\" y2=\"222\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><line x1=\"360\" y1=\"30\" x2=\"360\" y2=\"222\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><text x=\"200\" y=\"244\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">10 cm</text><line x1=\"40\" y1=\"126\" x2=\"136\" y2=\"126\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"94\" y=\"120\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">3 cm</text></svg>",
+  "figureAlt": "Shaded cross-section of a cylinder 10 cm long and 6 cm across, with a semicircular hollow of radius 3 cm cut into each end.",
+  "idx": 40
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Carved and inscribed solids",
+  "type": "long",
+  "marks": 5,
+  "text": "The largest possible right circular cone is carved out of a solid cube of edge $12 \\text{ cm}$, the base of the cone lying on one face of the cube. Find, in terms of $\\pi$, the volume and the total surface area of the solid that remains.",
+  "idx": 41
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Carved and inscribed solids",
+  "type": "long",
+  "marks": 5,
+  "text": "A wooden cubical die has edge $7 \\text{ cm}$. Its six faces are marked with $1, 2, 3, 4, 5$ and $6$ hemispherical dents, each of diameter $1.4 \\text{ cm}$. Find the total surface area of the die after the dents are made. (Use $\\pi = \\frac{22}{7}$.)",
+  "idx": 42
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Carved and inscribed solids",
+  "type": "case",
+  "marks": 4,
+  "text": "A sports company makes a practice ball of diameter $6 \\text{ cm}$. To improve its flight, $150$ hemispherical dimples, each of radius $0.2 \\text{ cm}$, are pressed into its surface. Treat each dimple as a hemisphere removed from the ball, with its flat circular rim lying on the ball's surface. The figure shows some of the dimples. Give your answers in terms of $\\pi$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 280\"><circle cx=\"160\" cy=\"150\" r=\"110\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><circle cx=\"266.3\" cy=\"178.5\" r=\"6\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><circle cx=\"237.8\" cy=\"227.8\" r=\"6\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><circle cx=\"188.5\" cy=\"256.3\" r=\"6\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><circle cx=\"131.5\" cy=\"256.3\" r=\"6\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><circle cx=\"82.2\" cy=\"227.8\" r=\"6\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><circle cx=\"53.7\" cy=\"178.5\" r=\"6\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><circle cx=\"53.7\" cy=\"121.5\" r=\"6\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><circle cx=\"82.2\" cy=\"72.2\" r=\"6\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><circle cx=\"131.5\" cy=\"43.7\" r=\"6\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><circle cx=\"188.5\" cy=\"43.7\" r=\"6\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><circle cx=\"237.8\" cy=\"72.2\" r=\"6\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><circle cx=\"266.3\" cy=\"121.5\" r=\"6\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"50\" y1=\"150\" x2=\"270\" y2=\"150\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><text x=\"160\" y=\"142\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">6 cm</text><text x=\"300\" y=\"40\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">dimple</text><text x=\"300\" y=\"58\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">radius 0.2 cm</text></svg>",
+  "figureAlt": "A circle of diameter 6 cm representing the ball, with small circles of radius 0.2 cm centred on its outline representing dimples.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Find the curved surface area of one dimple."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "Find the total volume of material removed to form the dimples."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the total exposed surface area of the dimpled ball."
+   }
+  ],
+  "idx": 43
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Capacity and cost problems",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A hemispherical brass bowl has outer radius $6 \\text{ cm}$ and its metal is $1 \\text{ cm}$ thick. The volume of brass in the bowl, in terms of $\\pi$, is",
+  "options": [
+   "$\\frac{182}{3}\\pi \\text{ cm}^{3}$",
+   "$\\frac{364}{3}\\pi \\text{ cm}^{3}$",
+   "$\\frac{2}{3}\\pi \\text{ cm}^{3}$",
+   "$22\\pi \\text{ cm}^{3}$"
+  ],
+  "idx": 44
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Capacity and cost problems",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The curved surface of a cylindrical pillar of radius $0.35 \\text{ m}$ and height $4 \\text{ m}$ is to be painted at ₹ $25$ per m$^{2}$. The cost of painting is (use $\\pi = \\frac{22}{7}$)",
+  "options": [
+   "₹ $110$",
+   "₹ $440$",
+   "₹ $239.25$",
+   "₹ $220$"
+  ],
+  "idx": 45
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Capacity and cost problems",
+  "type": "short",
+  "marks": 3,
+  "text": "A juice glass is cylindrical with an inner diameter of $6 \\text{ cm}$ and a height of $10 \\text{ cm}$, but its bottom has a raised hemispherical portion of the same diameter, as shown in the cross-section. Find the apparent capacity of the glass and its actual capacity. (Use $\\pi = 3.14$.)",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 310\"><path d=\"M125,290 A75,75 0 0 1 275,290 Z\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"#ddd\"/><polyline points=\"125,40 125,290 275,290 275,40\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"125\" y1=\"40\" x2=\"275\" y2=\"40\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><text x=\"200\" y=\"30\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">6 cm</text><text x=\"283\" y=\"165\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">10 cm</text></svg>",
+  "figureAlt": "Cross-section of a cylindrical glass 6 cm wide and 10 cm high, with a shaded semicircular bump of the full width rising from its bottom.",
+  "idx": 46
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Capacity and cost problems",
+  "type": "long",
+  "marks": 5,
+  "text": "Six NGOs decide to share equally the cost of $50$ relief tents. Each tent is a cylinder of base radius $6 \\text{ m}$ and height $3 \\text{ m}$, surmounted by a cone of the same radius and height $8 \\text{ m}$. The floor is not made of canvas. If canvas costs ₹ $80$ per m$^{2}$, find the amount each NGO pays. (Use $\\pi = 3.14$.)",
+  "idx": 47
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Capacity and cost problems",
+  "type": "case",
+  "marks": 4,
+  "text": "A travelling circus puts up a tent whose lower part is a cylinder of radius $21 \\text{ m}$ and height $4 \\text{ m}$, topped by a cone of the same radius. The top of the tent is $24 \\text{ m}$ above the ground. The ground inside is covered with mats, and the cylindrical and conical surfaces are made of canvas. (Use $\\pi = \\frac{22}{7}$.)",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\"><line x1=\"60\" y1=\"190\" x2=\"60\" y2=\"250\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"320\" y1=\"190\" x2=\"320\" y2=\"250\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M60,250 A130,26 0 0 0 320,250\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M60,250 A130,26 0 0 1 320,250\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\" stroke-dasharray=\"5,4\"/><path d=\"M60,190 A130,26 0 0 0 320,190\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M60,190 A130,26 0 0 1 320,190\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\" stroke-dasharray=\"5,4\"/><line x1=\"60\" y1=\"190\" x2=\"190\" y2=\"40\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"320\" y1=\"190\" x2=\"190\" y2=\"40\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"190\" y1=\"40\" x2=\"190\" y2=\"250\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><line x1=\"190\" y1=\"250\" x2=\"320\" y2=\"250\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><text x=\"255\" y=\"244\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">21 m</text><text x=\"328\" y=\"225\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">4 m</text><text x=\"184\" y=\"145\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">24 m</text></svg>",
+  "figureAlt": "A tent shaped as a cylinder of radius 21 m and height 4 m with a cone on top; the top point is 24 m above the ground.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Find the slant height of the conical part."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "Find the area of the floor to be covered with mats."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the area of canvas used."
+   }
+  ],
+  "idx": 48
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Capacity and cost problems",
+  "type": "case",
+  "marks": 4,
+  "text": "A designer makes a lamp shade in the shape of a cuboid with a square base of side $12 \\text{ cm}$ and a height of $20 \\text{ cm}$. The shade is open at the top and the bottom, and its four side faces are made of fabric. A spherical bulb is to be hung inside the shade. (Use $\\pi = 3.14$.)",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 320\"><polygon points=\"90,90 210,90 210,290 90,290\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><polyline points=\"90,90 140,50 260,50 260,250 210,290\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"210\" y1=\"90\" x2=\"260\" y2=\"50\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"140\" y1=\"50\" x2=\"140\" y2=\"250\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><line x1=\"140\" y1=\"250\" x2=\"260\" y2=\"250\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><line x1=\"90\" y1=\"290\" x2=\"140\" y2=\"250\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><circle cx=\"175\" cy=\"170\" r=\"60\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"150\" y=\"312\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">12 cm</text><text x=\"84\" y=\"195\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">20 cm</text><text x=\"243\" y=\"284\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">12 cm</text></svg>",
+  "figureAlt": "A cuboid lamp shade 12 cm by 12 cm across and 20 cm high, open at top and bottom, with a spherical bulb drawn inside it.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Find the area of fabric needed for the shade."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "What is the greatest possible diameter of the bulb?"
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "If the largest possible bulb is used, find the volume of space inside the shade not occupied by the bulb."
+   }
+  ],
+  "idx": 49
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Immersion and volume transfer",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Four spherical scoops of ice-cream, each of radius $1.5 \\text{ cm}$, when melted exactly fill a conical cup of base radius $3 \\text{ cm}$. The ratio of the height of the cup to the diameter of its base is",
+  "options": [
+   "$1:2$",
+   "$2:1$",
+   "$3:1$",
+   "$1:1$"
+  ],
+  "idx": 50
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Immersion and volume transfer",
+  "type": "short",
+  "marks": 2,
+  "text": "A cylindrical jar of diameter $7 \\text{ cm}$ contains some water. $150$ spherical glass marbles, each of diameter $1.4 \\text{ cm}$, are dropped into it and are completely submerged. Find the rise in the level of water in the jar.",
+  "idx": 51
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Immersion and volume transfer",
+  "type": "long",
+  "marks": 5,
+  "text": "A conical vessel of base radius $5 \\text{ cm}$ and height $8 \\text{ cm}$ is full of water. Spherical lead shots, each of radius $0.5 \\text{ cm}$, are dropped into it one by one, and when they are all inside, two-fifths of the water has flowed out. Find the number of lead shots dropped into the vessel.",
+  "idx": 52
+ },
+ {
+  "chapter": "Surface Areas and Volumes",
+  "topic": "Immersion and volume transfer",
+  "type": "case",
+  "marks": 4,
+  "text": "A potter makes a hemispherical bowl of inner radius $6 \\text{ cm}$ and small cylindrical jars, each of inner radius $2 \\text{ cm}$ and inner height $4 \\text{ cm}$. The bowl is filled with buttermilk, which is then poured into the jars. Give volumes in terms of $\\pi$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\"><ellipse cx=\"120\" cy=\"90\" rx=\"90\" ry=\"22\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M30,90 A90,90 0 0 0 210,90\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"120\" y1=\"90\" x2=\"210\" y2=\"90\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><text x=\"165\" y=\"84\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">6 cm</text><ellipse cx=\"320\" cy=\"110\" rx=\"30\" ry=\"8\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"290\" y1=\"110\" x2=\"290\" y2=\"230\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"350\" y1=\"110\" x2=\"350\" y2=\"230\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M290,230 A30,8 0 0 0 350,230\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M290,230 A30,8 0 0 1 350,230\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\" stroke-dasharray=\"5,4\"/><line x1=\"320\" y1=\"110\" x2=\"350\" y2=\"110\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><text x=\"335\" y=\"97\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">2 cm</text><text x=\"358\" y=\"175\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">4 cm</text></svg>",
+  "figureAlt": "A hemispherical bowl of radius 6 cm, open side up, beside a small cylindrical jar of radius 2 cm and height 4 cm.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Find the volume of buttermilk in the full bowl."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "Find the capacity of one jar."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Each jar is filled only up to three-fourths of its height. How many jars are needed to empty the bowl?"
+   }
+  ],
+  "idx": 53
+ }
+]

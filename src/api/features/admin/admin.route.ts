@@ -43,6 +43,20 @@ router.get(
 );
 
 /**
+ * GET /api/admin/overview
+ * Admin only. The product's own numbers for the admin home: teachers, parents,
+ * students, papers, marking, the question bank, and what needs attention.
+ */
+router.get(
+  '/overview',
+  auth.requireLoginToken(),
+  auth.requireUserRoles(['admin.system']),
+  error.asyncRoute(async (_req, res) => {
+    res.json(await adminService.getOverview());
+  }),
+);
+
+/**
  * GET /api/admin/roles
  * Admin only. Returns the parsed allow-list from ADMIN_USER_ROLES. The
  * user-edit page reads this to build its role dropdown.

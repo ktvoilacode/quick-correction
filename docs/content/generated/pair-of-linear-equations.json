@@ -1,0 +1,332 @@
+[
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Consistency conditions",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The pair of equations 3x + ky = 9 and 6x + 8y = 18 has infinitely many solutions. The value of k is",
+  "options": [
+   "2",
+   "4",
+   "6",
+   "8"
+  ],
+  "answer": "Correct option: B) 4. For infinitely many solutions a1/a2 = b1/b2 = c1/c2, i.e. 3/6 = k/8 = 9/18 = 1/2, so k = 4."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Consistency conditions",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "For what value of k does the pair of linear equations 4x + ky = 9 and 6x + 9y = 11 have no solution?",
+  "options": [
+   "6",
+   "13.5",
+   "4",
+   "9"
+  ],
+  "answer": "Correct option: A) 6. No solution needs a1/a2 = b1/b2 ≠ c1/c2. Here 4/6 = k/9 gives k = 6, and c1/c2 = 9/11 ≠ 2/3, so the condition holds. k = 6."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Consistency conditions",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The pair of equations kx + 4y = 7 and 3x + 2y = 1 has a unique solution for",
+  "options": [
+   "k ≠ 2",
+   "k = 6",
+   "k ≠ 6",
+   "k ≠ 12"
+  ],
+  "answer": "Correct option: C) k ≠ 6. Unique solution needs a1/a2 ≠ b1/b2, i.e. k/3 ≠ 4/2 = 2, so k ≠ 6."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Consistency conditions",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "hard",
+  "competency": false,
+  "text": "If the pair of equations (k − 2)x + 3y = k and kx + 6y = k + 4 has infinitely many solutions, then k equals",
+  "options": [
+   "2",
+   "6",
+   "8",
+   "4"
+  ],
+  "answer": "Correct option: D) 4. Need (k − 2)/k = 3/6 = k/(k + 4). From (k − 2)/k = 1/2: 2k − 4 = k, so k = 4. Check: k/(k + 4) = 4/8 = 1/2, which matches. k = 4."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Graphical solution",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "On the same graph the lines x = 3 and y = −2 are drawn. They intersect at the point",
+  "options": [
+   "(−2, 3)",
+   "(3, −2)",
+   "(3, 2)",
+   "(0, 0)"
+  ],
+  "answer": "Correct option: B) (3, −2). x = 3 is a vertical line and y = −2 is a horizontal line, so they meet at (3, −2)."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Graphical solution",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The graphs of 2x + y = 6 and 2x − y = 2 cut the x-axis at points A and B respectively. The distance AB is",
+  "options": [
+   "1 unit",
+   "3 units",
+   "2 units",
+   "4 units"
+  ],
+  "answer": "Correct option: C) 2 units. Put y = 0: 2x = 6 gives A(3, 0); 2x = 2 gives B(1, 0). AB = 3 − 1 = 2 units."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Word problems",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The sum of two numbers is 40 and their difference is 14. The larger number is",
+  "options": [
+   "13",
+   "26",
+   "27",
+   "14"
+  ],
+  "answer": "Correct option: C) 27. Let the numbers be x > y. x + y = 40 and x − y = 14. Adding: 2x = 54, so x = 27."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Word problems",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": true,
+  "text": "3 kg of apples and 1 kg of grapes together cost ₹340, while 1 kg of apples and 2 kg of grapes together cost ₹280. The cost of 2 kg of apples and 3 kg of grapes is",
+  "options": [
+   "₹420",
+   "₹440",
+   "₹480",
+   "₹460"
+  ],
+  "answer": "Correct option: D) ₹460. Let apples be ₹a/kg and grapes ₹g/kg. 3a + g = 340, a + 2g = 280. Multiply the first by 2: 6a + 2g = 680; subtract the second: 5a = 400, a = 80, g = 100. Cost = 2(80) + 3(100) = 160 + 300 = ₹460."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Substitution and elimination",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "If 2x + 3y = 13 and 3x + 2y = 12, then x² + y² equals",
+  "options": [
+   "5",
+   "25",
+   "13",
+   "1"
+  ],
+  "answer": "Correct option: C) 13. Adding: 5x + 5y = 25, x + y = 5. Subtracting the first from the second: x − y = −1, so x = 2, y = 3. Then x² + y² = 4 + 9 = 13."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Finding unknown constants",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "If x = 2, y = 3 is the solution of the pair ax + by = 13 and bx + ay = 12, then a + b equals",
+  "options": [
+   "1",
+   "5",
+   "6",
+   "13"
+  ],
+  "answer": "Correct option: B) 5. Substituting: 2a + 3b = 13 and 3a + 2b = 12. Adding: 5a + 5b = 25, so a + b = 5. (Indeed a = 2, b = 3.)"
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Consistency conditions",
+  "slot": "A-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Assertion (A): The pair of linear equations 2x − 3y = 5 and 4x − 6y = 9 has no solution.\nReason (R): A pair a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0 is inconsistent when a1/a2 = b1/b2 ≠ c1/c2.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: A) Both A and R are true and R is the correct explanation of A. Here a1/a2 = 2/4 = 1/2, b1/b2 = (−3)/(−6) = 1/2, c1/c2 = (−5)/(−9) = 5/9 ≠ 1/2, so the lines are parallel and A is true. R is the standard condition for inconsistency and is exactly why A holds."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Consistency conditions",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Without solving, find whether the pair 3x − 5y = 20 and 6x − 10y = 40 is consistent. If it is, state the number of solutions and how the two lines look on a graph.",
+  "answer": "a1/a2 = 3/6 = 1/2, b1/b2 = −5/−10 = 1/2, c1/c2 = 20/40 = 1/2. All three ratios are equal, so the pair is consistent (dependent) with infinitely many solutions, and the two lines coincide on the graph."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Graphical solution",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Draw up a table of values for the lines x + y = 6 and x − y = 2. From the graphs, find their point of intersection and the area of the triangle formed by the two lines and the x-axis.",
+  "answer": "x + y = 6: (0, 6), (2, 4), (6, 0). x − y = 2: (0, −2), (2, 0), (4, 2). Plotting, the lines meet at (4, 2). They cut the x-axis at (6, 0) and (2, 0), so the base on the x-axis = 4 and the height = 2. Area = ½ × 4 × 2 = 4 square units."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Substitution and elimination",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Solve by elimination: 3x + 4y = 10 and x − y = 1. Verify your answer.",
+  "answer": "Multiply x − y = 1 by 4: 4x − 4y = 4. Add to 3x + 4y = 10: 7x = 14, so x = 2. Then y = x − 1 = 1. Check: 3(2) + 4(1) = 10 and 2 − 1 = 1. Solution: x = 2, y = 1."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Word problems",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A two-digit number is 4 times the sum of its digits. If 18 is added to the number, the digits get reversed. Find the number.",
+  "answer": "Let tens digit x, units digit y. 10x + y = 4(x + y) gives 6x = 3y, so y = 2x. Also 10x + y + 18 = 10y + x gives 9y − 9x = 18, so y − x = 2. Then 2x − x = 2, x = 2, y = 4. Number = 24. Check: 24 = 4 × 6 and 24 + 18 = 42."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Word problems",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The numerator and denominator of a fraction are x and y. If 1 is added to the numerator and 3 to the denominator, the fraction becomes 2/5. If 1 is subtracted from both numerator and denominator, it becomes 1/3. Find the fraction.",
+  "answer": "(x + 1)/(y + 3) = 2/5 gives 5x + 5 = 2y + 6, i.e. 5x − 2y = 1. (x − 1)/(y − 1) = 1/3 gives 3x − 3 = y − 1, i.e. y = 3x − 2. Substitute: 5x − 2(3x − 2) = 1, so −x + 4 = 1, x = 3, y = 7. The fraction is 3/7. Check: 4/10 = 2/5 and 2/6 = 1/3."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Word problems",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Five years ago a father was 7 times as old as his son. Five years from now he will be 3 times as old as his son. Find their present ages.",
+  "answer": "Let father = F, son = S. F − 5 = 7(S − 5) gives F = 7S − 30. F + 5 = 3(S + 5) gives F = 3S + 10. Equate: 7S − 30 = 3S + 10, 4S = 40, S = 10, F = 40. Check: 35 = 7 × 5 and 45 = 3 × 15. Father is 40 years, son is 10 years."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Finding unknown constants",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The pair of equations 2x + 3y = 7 and (2a − b)x + (a + b)y = 4a + b − 3 has infinitely many solutions. Find the values of a and b.",
+  "answer": "Infinitely many solutions: 2/(2a − b) = 3/(a + b) = 7/(4a + b − 3). From the first two: 2(a + b) = 3(2a − b), so 5b = 4a. From the last two: 3(4a + b − 3) = 7(a + b), so 12a + 3b − 9 = 7a + 7b, i.e. 5a − 4b = 9. Put a = 5b/4: 25b/4 − 4b = 9, so 9b/4 = 9, b = 4 and a = 5. Check: 2a − b = 6, a + b = 9, 4a + b − 3 = 21, and 2/6 = 3/9 = 7/21 = 1/3. So a = 5, b = 4."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Graphical solution",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The lines 2x + 3y = 12 and x − y = 1 are drawn on the same graph. Find the point where they intersect, and the area of the triangle formed by these two lines and the y-axis.",
+  "answer": "Solve: from x − y = 1, x = y + 1; 2(y + 1) + 3y = 12 gives 5y = 10, y = 2, x = 3. Intersection (3, 2). On the y-axis (x = 0): 2x + 3y = 12 gives (0, 4); x − y = 1 gives (0, −1). Base on y-axis = 4 − (−1) = 5; height = perpendicular distance of (3, 2) from the y-axis = 3. Area = ½ × 5 × 3 = 7.5 square units."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Graphical solution",
+  "slot": "D-long (5 marks)",
+  "type": "long",
+  "marks": 5,
+  "complexity": "medium",
+  "competency": true,
+  "text": "Solve graphically the pair x + 2y = 8 and 3x − 2y = 0. Also find the area of the triangle formed by the two lines and the x-axis.",
+  "answer": "x + 2y = 8: (0, 4), (2, 3), (8, 0). 3x − 2y = 0: (0, 0), (2, 3), (4, 6). Plotting both lines, they meet at (2, 3), so x = 2, y = 3 (check: 2 + 6 = 8 and 6 − 6 = 0). The triangle has vertices (0, 0), (8, 0) on the x-axis and (2, 3). Base = 8, height = 3. Area = ½ × 8 × 3 = 12 square units."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Word problems",
+  "slot": "D-long (5 marks)",
+  "type": "long",
+  "marks": 5,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A man travels 360 km, partly by bus and partly by train. If he travels 120 km by bus and the rest by train, the journey takes 5 hours. If he travels 200 km by bus and the rest by train, it takes 5 hours 20 minutes. Find the speed of the bus and of the train.",
+  "answer": "Let bus speed u km/h, train speed v km/h. 120/u + 240/v = 5 and 200/u + 160/v = 16/3. Put p = 1/u, q = 1/v: 120p + 240q = 5 and 200p + 160q = 16/3. Multiply the first by 5 and the second by 3: 600p + 1200q = 25 and 600p + 480q = 16. Subtract: 720q = 9, q = 1/80, so v = 80. Then 120p = 5 − 3 = 2, p = 1/60, so u = 60. Bus: 60 km/h, train: 80 km/h. Check: 2 + 3 = 5 h; 10/3 + 2 = 5 h 20 min."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Word problems",
+  "slot": "D-long (5 marks)",
+  "type": "long",
+  "marks": 5,
+  "complexity": "hard",
+  "competency": true,
+  "text": "A boat takes 8 hours to go 18 km upstream and 50 km downstream. It takes 7 hours to go 30 km upstream and 20 km downstream. Find the speed of the boat in still water and the speed of the stream.",
+  "answer": "Let boat speed b, stream s (km/h). Put u = 1/(b − s), d = 1/(b + s). 18u + 50d = 8 and 30u + 20d = 7. Multiply the first by 2 and the second by 5: 36u + 100d = 16 and 150u + 100d = 35. Subtract: 114u = 19, u = 1/6, so b − s = 6. Then 50d = 8 − 3 = 5, d = 1/10, so b + s = 10. Hence b = 8, s = 2. Check: 3 + 5 = 8 h and 5 + 2 = 7 h. Boat: 8 km/h, stream: 2 km/h."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Word problems",
+  "slot": "E-case-study (4 marks, with sub-parts)",
+  "type": "case",
+  "marks": 4,
+  "complexity": "medium",
+  "competency": true,
+  "text": "At a village fair, entry tickets are sold at one price for adults and another for children. On Saturday, 2 adults and 3 children together paid ₹600. On Sunday, a group of 4 adults and 1 child paid ₹700. Let an adult ticket cost ₹a and a child ticket cost ₹c.\n(i) Write the two linear equations that represent this situation. [1]\n(ii) Find the cost of one child ticket. [1]\n(iii) Find the cost of one adult ticket, and the total amount paid by a family of 2 adults and 5 children. [2]",
+  "answer": "(i) 2a + 3c = 600 and 4a + c = 700.\n(ii) From the second, c = 700 − 4a. Substitute: 2a + 3(700 − 4a) = 600, 2a + 2100 − 12a = 600, −10a = −1500, a = 150, so c = 700 − 600 = ₹100.\n(iii) Adult ticket = ₹150. Family of 2 adults and 5 children pays 2(150) + 5(100) = 300 + 500 = ₹800."
+ },
+ {
+  "chapter": "Pair of Linear Equations",
+  "topic": "Word problems",
+  "slot": "E-case-study (4 marks, with sub-parts)",
+  "type": "case",
+  "marks": 4,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A taxi company charges a fixed amount (₹f) plus a fixed rate per kilometre (₹r). Rohan paid ₹175 for a 10 km ride and Seema paid ₹287 for an 18 km ride.\n(i) Write two linear equations in f and r for this information. [1]\n(ii) Find the rate per kilometre. [1]\n(iii) Find the fixed charge and the fare for a 25 km ride. [2]\nOR\n(iii) Find the fixed charge and the distance travelled by a passenger who paid ₹497. [2]",
+  "answer": "(i) f + 10r = 175 and f + 18r = 287.\n(ii) Subtract: 8r = 112, so r = ₹14 per km.\n(iii) f = 175 − 140 = ₹35. Fare for 25 km = 35 + 25 × 14 = 35 + 350 = ₹385.\nOR (iii) f = ₹35. For ₹497: 35 + 14d = 497, 14d = 462, d = 33 km."
+ }
+]

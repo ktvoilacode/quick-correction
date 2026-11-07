@@ -1,0 +1,317 @@
+[
+ {
+  "idx": 0,
+  "myAnswer": "B) 1",
+  "how": "by hand"
+ },
+ {
+  "idx": 1,
+  "myAnswer": "C) Two tangents can be drawn from a point 4 cm away",
+  "how": "by hand"
+ },
+ {
+  "idx": 2,
+  "myAnswer": "A) parallel",
+  "how": "by hand"
+ },
+ {
+  "idx": 3,
+  "myAnswer": "D) 3",
+  "how": "by hand"
+ },
+ {
+  "idx": 4,
+  "myAnswer": "D) a secant",
+  "how": "by hand"
+ },
+ {
+  "idx": 5,
+  "myAnswer": "A) 5√3 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 6,
+  "myAnswer": "C) 6√3 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 7,
+  "myAnswer": "A) both true, R explains A",
+  "how": "by hand"
+ },
+ {
+  "idx": 8,
+  "myAnswer": "D) A false (angle is 35°), R true",
+  "how": "by hand"
+ },
+ {
+  "idx": 9,
+  "myAnswer": "B) both true, R does not explain A",
+  "how": "by hand"
+ },
+ {
+  "idx": 10,
+  "myAnswer": "10 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 11,
+  "myAnswer": "20 m",
+  "how": "by hand"
+ },
+ {
+  "idx": 12,
+  "myAnswer": "Yes; l ∥ m so alternate interior angles equal",
+  "how": "by hand"
+ },
+ {
+  "idx": 13,
+  "myAnswer": "(i) 90° (ii) 40 m (iii) 360 m²",
+  "how": "python"
+ },
+ {
+  "idx": 14,
+  "myAnswer": "(i) 90° radius⊥tangent (ii) 8 m (iii) AB=4√3≈6.93 m; 4 m",
+  "how": "python"
+ },
+ {
+  "idx": 15,
+  "myAnswer": "C) 65°",
+  "how": "by hand"
+ },
+ {
+  "idx": 16,
+  "myAnswer": "B) 55°",
+  "how": "by hand"
+ },
+ {
+  "idx": 17,
+  "myAnswer": "D) 50°",
+  "how": "by hand"
+ },
+ {
+  "idx": 18,
+  "myAnswer": "C) 125°",
+  "how": "by hand"
+ },
+ {
+  "idx": 19,
+  "myAnswer": "A) 8 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 20,
+  "myAnswer": "B) 3√3 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 21,
+  "myAnswer": "A) 10 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 22,
+  "myAnswer": "108°",
+  "how": "by hand"
+ },
+ {
+  "idx": 23,
+  "myAnswer": "2√3 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 24,
+  "myAnswer": "APB=60°; value 1",
+  "how": "by hand"
+ },
+ {
+  "idx": 25,
+  "myAnswer": "7.5 cm",
+  "how": "python"
+ },
+ {
+  "idx": 26,
+  "myAnswer": "(a)9 (b)20 (c)25 (d)300 cm²",
+  "how": "python"
+ },
+ {
+  "idx": 27,
+  "myAnswer": "B) 50°",
+  "how": "by hand"
+ },
+ {
+  "idx": 28,
+  "myAnswer": "D) 35°",
+  "how": "by hand"
+ },
+ {
+  "idx": 29,
+  "myAnswer": "B) 5√2 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 30,
+  "myAnswer": "35°",
+  "how": "by hand"
+ },
+ {
+  "idx": 31,
+  "myAnswer": "proof: sin∠APO=1/2 so ∠APB=60, PA=PB",
+  "how": "by hand"
+ },
+ {
+  "idx": 32,
+  "myAnswer": "48 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 33,
+  "myAnswer": "∠TPA=34°, ∠TBA=28°",
+  "how": "by hand"
+ },
+ {
+  "idx": 34,
+  "myAnswer": "D) 10 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 35,
+  "myAnswer": "C) 5.5 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 36,
+  "myAnswer": "B) 3 cm",
+  "how": "python"
+ },
+ {
+  "idx": 37,
+  "myAnswer": "proof; AB=48 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 38,
+  "myAnswer": "24 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 39,
+  "myAnswer": "proof: ∠OAP=∠OBP=90, OP diameter",
+  "how": "by hand"
+ },
+ {
+  "idx": 40,
+  "myAnswer": "proof",
+  "how": "by hand"
+ },
+ {
+  "idx": 41,
+  "myAnswer": "proof: TQ=OT cos60",
+  "how": "by hand"
+ },
+ {
+  "idx": 42,
+  "myAnswer": "proof via Pythagoras",
+  "how": "by hand"
+ },
+ {
+  "idx": 43,
+  "myAnswer": "proof",
+  "how": "by hand"
+ },
+ {
+  "idx": 44,
+  "myAnswer": "proof",
+  "how": "by hand"
+ },
+ {
+  "idx": 45,
+  "myAnswer": "proof",
+  "how": "by hand"
+ },
+ {
+  "idx": 46,
+  "myAnswer": "proof",
+  "how": "by hand"
+ },
+ {
+  "idx": 47,
+  "myAnswer": "proof",
+  "how": "by hand"
+ },
+ {
+  "idx": 48,
+  "myAnswer": "proof",
+  "how": "by hand"
+ },
+ {
+  "idx": 49,
+  "myAnswer": "proof",
+  "how": "by hand"
+ },
+ {
+  "idx": 50,
+  "myAnswer": "D) BC",
+  "how": "by hand"
+ },
+ {
+  "idx": 51,
+  "myAnswer": "A) 9 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 52,
+  "myAnswer": "proof",
+  "how": "by hand"
+ },
+ {
+  "idx": 53,
+  "myAnswer": "proof",
+  "how": "by hand"
+ },
+ {
+  "idx": 54,
+  "myAnswer": "proof",
+  "how": "by hand"
+ },
+ {
+  "idx": 55,
+  "myAnswer": "proof",
+  "how": "by hand"
+ },
+ {
+  "idx": 56,
+  "myAnswer": "square, perimeter 36 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 57,
+  "myAnswer": "r=3 cm, CR=12 cm",
+  "how": "python"
+ },
+ {
+  "idx": 58,
+  "myAnswer": "11 cm",
+  "how": "python"
+ },
+ {
+  "idx": 59,
+  "myAnswer": "proof; BP=5 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 60,
+  "myAnswer": "MA∥NB, right trapezium; TM=8, angle 60°; TA=4√3, AB=8√3 cm",
+  "how": "python"
+ },
+ {
+  "idx": 61,
+  "myAnswer": "(i)90° (ii)120 cm (iii) BQ=75, DS=45",
+  "how": "python"
+ },
+ {
+  "idx": 62,
+  "myAnswer": "(i)2.4 m (ii)≈2.08 m (iii) XL=2.4 m, ZN=3.6 m",
+  "how": "python"
+ }
+]

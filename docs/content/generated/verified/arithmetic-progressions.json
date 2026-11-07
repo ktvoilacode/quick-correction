@@ -1,0 +1,404 @@
+[
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "nth term",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "The 10th term of the AP 7, 11, 15, 19, ... is",
+    "options": [
+      "39",
+      "43",
+      "47",
+      "51"
+    ],
+    "answer": "Correct option: B) 43. Here a = 7, d = 4, so a10 = 7 + 9×4 = 43.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "nth term",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "In an AP, the 3rd term is 13 and the 7th term is 29. Its 10th term is",
+    "options": [
+      "37",
+      "41",
+      "45",
+      "33"
+    ],
+    "answer": "Correct option: B) 41. 4d = 29 − 13 = 16, so d = 4 and a = 13 − 8 = 5. Then a10 = 5 + 9×4 = 41.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "nth term",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The 7th term from the end of the AP 4, 9, 14, ..., 254 is",
+    "options": [
+      "219",
+      "224",
+      "229",
+      "249"
+    ],
+    "answer": "Correct option: B) 224. The common difference is 5 and the last term is 254. Counting backwards, the 7th term from the end = 254 − 6×5 = 224.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Sum of n terms",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "The sum of the first 20 terms of the AP 5, 8, 11, 14, ... is",
+    "options": [
+      "650",
+      "670",
+      "635",
+      "1340"
+    ],
+    "answer": "Correct option: B) 670. S20 = (20/2)[2×5 + 19×3] = 10 × 67 = 670.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Sum of n terms",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "If the sum of the first n terms of an AP is Sn = 3n² + 2n, then its 10th term is",
+    "options": [
+      "59",
+      "61",
+      "320",
+      "53"
+    ],
+    "answer": "Correct option: A) 59. a10 = S10 − S9 = (300 + 20) − (243 + 18) = 320 − 261 = 59.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Finding n",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Which term of the AP 3, 10, 17, 24, ... is 185?",
+    "options": [
+      "25th",
+      "26th",
+      "27th",
+      "28th"
+    ],
+    "answer": "Correct option: C) 27th. a = 3, d = 7. 3 + (n − 1)×7 = 185 gives n − 1 = 26, so n = 27.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Finding n",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The first term of an AP is 5, the last term is 45 and the sum of all its terms is 250. The number of terms is",
+    "options": [
+      "5",
+      "8",
+      "10",
+      "12"
+    ],
+    "answer": "Correct option: C) 10. S = (n/2)(a + l) gives 250 = (n/2)(50) = 25n, so n = 10.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Common difference",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "The common difference of the AP whose nth term is an = 4 − 3n is",
+    "options": [
+      "3",
+      "−3",
+      "4",
+      "1"
+    ],
+    "answer": "Correct option: B) −3. a(n+1) − an = [4 − 3(n+1)] − [4 − 3n] = −3.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Common difference",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "In an AP, the 12th term exceeds the 7th term by 35. The common difference is",
+    "options": [
+      "5",
+      "7",
+      "35",
+      "3"
+    ],
+    "answer": "Correct option: B) 7. a12 − a7 = 5d = 35, so d = 7.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Middle terms and conditions for an AP",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "If k + 2, 4k − 6 and 3k − 2 are three consecutive terms of an AP, then k is",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "answer": "Correct option: B) 3. Using 2b = a + c: 2(4k − 6) = (k + 2) + (3k − 2), so 8k − 12 = 4k and k = 3.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Middle terms and conditions for an AP",
+    "slot": "A-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Assertion (A): If 5, x, 21 are three consecutive terms of an AP, then x = 13.\nReason (R): Three numbers a, b, c are in AP if and only if 2b = a + c.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: A) Both A and R are true and R is the correct explanation of A. By R, 2x = 5 + 21 = 26, so x = 13. Hence A is true and R is the property used to get it.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "nth term",
+    "slot": "A-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Assertion (A): The sequence whose nth term is an = n² + 1 is an AP.\nReason (R): In an AP the difference between any two consecutive terms is the same constant.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: D) A is false but R is true. The terms are 2, 5, 10, ...; the differences 3 and 5 are unequal, so A is false. R is the definition of an AP, so it is true.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Sum of n terms",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Find the sum of all two-digit natural numbers that are divisible by 7.",
+    "answer": "The numbers are 14, 21, ..., 98, an AP with a = 14, d = 7, l = 98.\n98 = 14 + (n − 1)×7 gives n = 13.\nSum = (13/2)(14 + 98) = (13/2)(112) = 728.\nAnswer: 728.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Finding n",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Find the first negative term of the AP 100, 94, 88, ... and state which term it is.",
+    "answer": "a = 100, d = −6, an = 100 − 6(n − 1) = 106 − 6n.\nFor an < 0: 106 − 6n < 0, so n > 17.67. The least integer is n = 18.\na18 = 106 − 108 = −2 (while a17 = 4 is positive).\nAnswer: the first negative term is the 18th term, −2.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Word problems",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": true,
+    "text": "Meera starts saving by putting ₹150 in her piggy bank in the first week and increases her deposit by ₹25 every week. In which week will she deposit ₹400, and how much will she have saved by the end of that week?",
+    "answer": "Weekly deposits form an AP with a = 150, d = 25.\n150 + (n − 1)×25 = 400 gives n − 1 = 10, so n = 11.\nTotal saved = (11/2)(150 + 400) = (11/2)(550) = 3025.\nAnswer: 11th week; ₹3025.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Sum of n terms",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The sum of the first 7 terms of an AP is 63 and the sum of the next 7 terms is 161. Find the 28th term of the AP.",
+    "answer": "S7 = 63 gives (7/2)(2a + 6d) = 63, so a + 3d = 9 ... (1).\nS14 = 63 + 161 = 224 gives 7(2a + 13d) = 224, so 2a + 13d = 32 ... (2).\n(2) − 2×(1): 7d = 14, so d = 2 and a = 3.\na28 = 3 + 27×2 = 57.\nAnswer: 57.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "nth term",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The 4th term of an AP is 11 and the sum of its 5th and 7th terms is 34. Find the common difference and the first term. Hence find which term of the AP is 59 and the sum of the first 20 terms.",
+    "answer": "a + 3d = 11 ... (1). a5 + a7 = 2a + 10d = 34, so a + 5d = 17 ... (2).\n(2) − (1): 2d = 6, d = 3, and a = 11 − 9 = 2.\nThe AP is 2, 5, 8, 11, ...\n2 + (n − 1)×3 = 59 gives n − 1 = 19, so n = 20 (the 20th term).\nS20 = (20/2)(2 + 59) = 10 × 61 = 610.\nAnswer: d = 3, a = 2; 59 is the 20th term; S20 = 610.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Sum of n terms",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": true,
+    "text": "How many terms of the AP 24, 21, 18, ... must be taken so that their sum is 78? Explain why there are two answers, and verify them.",
+    "answer": "a = 24, d = −3. Sn = (n/2)[48 + (n − 1)(−3)] = (n/2)(51 − 3n) = 78.\nSo 51n − 3n² = 156, i.e. n² − 17n + 52 = 0, so (n − 4)(n − 13) = 0, n = 4 or n = 13.\nCheck: 24 + 21 + 18 + 15 = 78 (n = 4).\nThe terms keep decreasing and become zero and then negative: a5 = 12, a6 = 9, ..., a9 = 0, a10 = −3, ..., a13 = −12. Terms a5 to a13 are 12, 9, 6, 3, 0, −3, −6, −9, −12, whose sum is 0, so the sum is 78 again after 13 terms.\nAnswer: 4 or 13 terms.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "nth term",
+    "slot": "E-case-study (4 marks, with sub-parts)",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A small auditorium has 25 rows of seats. The first row has 18 seats and each row has 2 more seats than the row in front of it.\n(i) How many seats are there in the 10th row? [1]\n(ii) Which row has 60 seats? [1]\n(iii) Find the total number of seats in the auditorium. [2]",
+    "answer": "The seats form an AP with a = 18, d = 2.\n(i) a10 = 18 + 9×2 = 36 seats.\n(ii) 18 + (n − 1)×2 = 60 gives n − 1 = 21, so n = 22. The 22nd row.\n(iii) a25 = 18 + 24×2 = 66. S25 = (25/2)(18 + 66) = (25/2)(84) = 1050 seats.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Word problems",
+    "slot": "E-case-study (4 marks, with sub-parts)",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "Kabir is preparing for a race. He runs 3 km on the first day of his training and increases his distance by 0.4 km every day.\n(i) How far does he run on the 8th day? [1]\n(ii) On which day does he run 7 km? [1]\n(iii) What is the total distance he runs in the first 15 days? [2]",
+    "answer": "AP with a = 3, d = 0.4.\n(i) a8 = 3 + 7×0.4 = 5.8 km.\n(ii) 3 + (n − 1)(0.4) = 7 gives n − 1 = 10, so n = 11. The 11th day.\n(iii) a15 = 3 + 14×0.4 = 8.6. S15 = (15/2)(3 + 8.6) = 7.5 × 11.6 = 87 km.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Word problems",
+    "slot": "E-case-study (4 marks, with sub-parts)",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A school gives 7 cash prizes at its annual day. The first prize is ₹700 and every next prize is ₹20 less than the prize before it.\n(i) What is the common difference of the AP formed by the prize amounts? [1]\n(ii) What is the amount of the 7th prize? [1]\n(iii) Find the total prize money for the 7 prizes. [2]\nOR\n(iii) If the school had given 9 prizes in the same way, what would the total prize money be? [2]",
+    "answer": "The prizes form an AP: 700, 680, 660, ...\n(i) d = −20.\n(ii) a7 = 700 + 6×(−20) = 580, so the 7th prize is ₹580.\n(iii) S7 = (7/2)(700 + 580) = (7/2)(1280) = ₹4480.\nOR (iii) a9 = 700 − 160 = 540. S9 = (9/2)(700 + 540) = (9/2)(1240) = ₹5580.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "topic": "Sum of n terms",
+    "slot": "E-case-study (4 marks, with sub-parts)",
+    "type": "case",
+    "marks": 4,
+    "complexity": "hard",
+    "competency": true,
+    "text": "Ananya is reading a 300-page novel. She reads 12 pages on the first day and, every day after that, reads 4 pages more than on the previous day.\n(i) How many pages does she read on the 6th day? [1]\n(ii) How many pages has she read in total in the first 5 days? [1]\n(iii) In how many days does she finish the book, and how many pages does she read on the last day? [2]",
+    "answer": "AP with a = 12, d = 4.\n(i) a6 = 12 + 5×4 = 32 pages.\n(ii) S5 = (5/2)(24 + 16) = (5/2)(40) = 100 pages.\n(iii) Sn = (n/2)[24 + 4(n − 1)] = n(2n + 10) = 300, so n² + 5n − 150 = 0, (n + 15)(n − 10) = 0. Since n > 0, n = 10 days.\nLast day: a10 = 12 + 9×4 = 48 pages.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  }
+]

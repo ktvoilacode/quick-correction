@@ -1,0 +1,278 @@
+[
+ {
+  "idx": 0,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 1,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 2,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 3,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 4,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 5,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 6,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 7,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 8,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 9,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 10,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 11,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 12,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 13,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 14,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 15,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 16,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 17,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 18,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 19,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 20,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 21,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 22,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 23,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 24,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 25,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 26,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 27,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 28,
+  "status": "ambiguous",
+  "note": "Endpoint 100 is itself divisible by 4 but not by 8, so an inclusive reading of 'between 100 and 400' gives 38, not 37. Key (37) is right only for the exclusive reading. Fix wording, e.g. 'between 101 and 400' or state 'excluding 100 and 400'.",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 29,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 30,
+  "status": "ambiguous",
+  "note": "300 is a multiple of 6, so an inclusive reading of 'between 200 and 300' gives 17 terms and sum 4284; key 3984 assumes exclusive. Change bounds (e.g. 'between 200 and 301' / 'from 201 to 299') or say 'excluding 300'.",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 31,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 32,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 33,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 34,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 35,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 36,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 37,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 38,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 39,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 40,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 41,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 42,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 43,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 44,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ },
+ {
+  "idx": 45,
+  "status": "ok",
+  "note": "",
+  "correctedAnswer": ""
+ }
+]

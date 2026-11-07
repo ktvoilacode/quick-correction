@@ -1,8 +1,5 @@
 /**
- * / — Quick Correction's homepage lives at /demo while the product is a prototype.
+ * / — Quick Correction's homepage. It is the same screen as /demo, rendered
+ * in place so opening the site (or signing out) never flashes a redirect.
  */
-import { Navigate } from 'react-router-dom';
-
-export default function Home() {
-  return <Navigate to="/demo" replace />;
-}
+export { default } from '@/features/demo/pages';

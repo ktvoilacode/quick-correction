@@ -1,0 +1,377 @@
+[
+  {
+    "chapter": "Surface Areas and Volumes",
+    "topic": "Surface area of solids",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "The total surface area of a solid hemisphere of radius 7 cm is (use π = 22/7)",
+    "options": [
+      "616 cm²",
+      "462 cm²",
+      "308 cm²",
+      "154 cm²"
+    ],
+    "answer": "Correct option: B) 462 cm². Total surface area = 3πr² = 3 × 22/7 × 7 × 7 = 462 cm². (308 is only the curved surface 2πr²; 154 is only the flat base πr².)",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Surface Areas and Volumes",
+    "topic": "Volume of combined solids",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "A toy is made by placing a cone on a solid hemisphere so that the base radius of the cone equals the radius r of the hemisphere. The height of the cone is also r. The total volume of the toy is",
+    "options": [
+      "2πr³/3",
+      "4πr³/3",
+      "πr³",
+      "5πr³/3"
+    ],
+    "answer": "Correct option: C) πr³. Volume = (2/3)πr³ + (1/3)πr²·r = (2/3 + 1/3)πr³ = πr³.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Surface Areas and Volumes",
+    "topic": "Surface area of solids",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A medicine capsule is a solid cylinder of length 10 cm and radius 3.5 cm with a hemisphere of the same radius fixed at each of its two circular ends. Its total surface area is (use π = 22/7)",
+    "options": [
+      "297 cm²",
+      "374 cm²",
+      "220 cm²",
+      "484 cm²"
+    ],
+    "answer": "Correct option: B) 374 cm². Outer surface = curved surface of cylinder + two hemispherical surfaces = 2πrh + 4πr² = 2 × 22/7 × 3.5 × 10 + 4 × 22/7 × 3.5² = 220 + 154 = 374 cm².",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Surface Areas and Volumes",
+    "topic": "Volume of combined solids",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": true,
+    "text": "From a solid cylinder of radius 7 cm and height 15 cm, a conical cavity of the same base radius 7 cm and height 6 cm is drilled out, the base of the cone lying on one flat face of the cylinder. The volume of the remaining solid is (use π = 22/7)",
+    "options": [
+      "2310 cm³",
+      "2618 cm³",
+      "2002 cm³",
+      "1694 cm³"
+    ],
+    "answer": "Correct option: C) 2002 cm³. Cylinder = 22/7 × 49 × 15 = 2310 cm³; cone = (1/3) × 22/7 × 49 × 6 = 308 cm³. Remaining = 2310 − 308 = 2002 cm³.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Surface Areas and Volumes",
+    "topic": "Capacity and cost problems",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "A cylindrical water tank has base radius 7 m and height 5 m. Its capacity in kilolitres is (use π = 22/7; 1 m³ = 1 kilolitre)",
+    "options": [
+      "385 kL",
+      "1540 kL",
+      "7700 kL",
+      "770 kL"
+    ],
+    "answer": "Correct option: D) 770 kL. Volume = πr²h = 22/7 × 7 × 7 × 5 = 770 m³ = 770 kL.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Surface Areas and Volumes",
+    "topic": "Conversion and recasting of solids",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "A solid metal sphere of radius 6 cm is melted and recast into a solid cone of base radius 12 cm. The height of the cone is",
+    "options": [
+      "12 cm",
+      "6 cm",
+      "3 cm",
+      "8 cm"
+    ],
+    "answer": "Correct option: B) 6 cm. (4/3)π(6)³ = 288π = (1/3)π(12)²h = 48πh, so h = 6 cm.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Surface Areas and Volumes",
+    "topic": "Surface area of solids",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A toy is a cone of base radius 7 cm and slant height 25 cm placed on a solid hemisphere of radius 7 cm, the base of the cone coinciding with the flat face of the hemisphere. The total surface area of the toy is (use π = 22/7)",
+    "options": [
+      "858 cm²",
+      "1012 cm²",
+      "550 cm²",
+      "1166 cm²"
+    ],
+    "answer": "Correct option: A) 858 cm². Surface = curved surface of cone + curved surface of hemisphere = πrl + 2πr² = 22/7 × 7 × 25 + 2 × 22/7 × 49 = 550 + 308 = 858 cm². (The joined faces are not part of the outer surface.)",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Surface Areas and Volumes",
+    "topic": "Volume of combined solids",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A capsule is a solid cylinder with a hemisphere of the same radius attached at each end. The diameter of the capsule is 4.2 cm and its total length (including both hemispherical ends) is 9.2 cm. Its volume is (use π = 22/7)",
+    "options": [
+      "88.704 cm³",
+      "108.108 cm³",
+      "127.512 cm³",
+      "166.320 cm³"
+    ],
+    "answer": "Correct option: B) 108.108 cm³. r = 2.1 cm, cylindrical part length = 9.2 − 4.2 = 5 cm. Cylinder = 22/7 × 2.1² × 5 = 69.3 cm³; two hemispheres = (4/3) × 22/7 × 2.1³ = 38.808 cm³. Total = 108.108 cm³.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Surface Areas and Volumes",
+    "topic": "Capacity and cost problems",
+    "slot": "A-mcq (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "A hemispherical bowl has internal radius 10.5 cm. The volume of liquid it can hold when full is (use π = 22/7)",
+    "options": [
+      "4851 cm³",
+      "1212.75 cm³",
+      "2425.5 cm³",
+      "3638.25 cm³"
+    ],
+    "answer": "Correct option: C) 2425.5 cm³. Capacity = (2/3)πr³ = (2/3) × 22/7 × 10.5³ = 2425.5 cm³. (4851 is the volume of a full sphere.)",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Surface Areas and Volumes",
+    "topic": "Volume of combined solids",
+    "slot": "A-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Assertion (A): When a solid cone is placed on a solid cylinder of the same base radius, the volume of the combined solid equals the sum of the volumes of the cone and the cylinder.\nReason (R): The total surface area of the combined solid equals the sum of the total surface areas of the cone and the cylinder.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: C) A is true but R is false. Volume is additive, so A is true. But the base of the cone and the top face of the cylinder are joined and no longer lie on the outer surface, so the total surface area is less than the sum of the two total surface areas; R is false.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Surface Areas and Volumes",
+    "topic": "Surface area of solids",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": false,
+    "text": "A solid is formed by placing a solid hemisphere of radius 7 cm on top of a solid cube of edge 14 cm, so that the circular face of the hemisphere lies on a face of the cube. Find the total surface area of the solid. (Use π = 22/7.)",
+    "answer": "The hemisphere's flat face (area πr² = 154 cm²) covers part of the cube's top face, so that part is lost from the outer surface.\nSurface = 6a² − πr² + 2πr² = 6(14)² − 154 + 308 = 1176 − 154 + 308 = 1330 cm².\nTotal surface area = 1330 cm².",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Surface Areas and Volumes",
+    "topic": "Volume of combined solids",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A toy is made of a cone of base radius 6 cm and height 8 cm placed on a solid hemisphere of radius 6 cm, with the base of the cone exactly covering the flat face of the hemisphere. Find the volume of the toy. (Use π = 3.14.)",
+    "answer": "Volume of cone = (1/3)π(6)²(8) = 96π cm³.\nVolume of hemisphere = (2/3)π(6)³ = 144π cm³.\nTotal = 240π = 240 × 3.14 = 753.6 cm³.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Surface Areas and Volumes",
+    "topic": "Capacity and cost problems",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A circus tent is made of canvas. Its lower part is a cylinder of radius 7 m and height 6 m, and its roof is a cone of the same base radius and slant height 25 m placed on the cylinder. Find the cost of the canvas needed at ₹ 85 per m², ignoring the floor and any wastage. (Use π = 22/7.)",
+    "answer": "Canvas = curved surface of cylinder + curved surface of cone.\nCylinder: 2πrh = 2 × 22/7 × 7 × 6 = 264 m².\nCone: πrl = 22/7 × 7 × 25 = 550 m².\nTotal = 814 m². Cost = 814 × 85 = ₹ 69,190.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Surface Areas and Volumes",
+    "topic": "Volume of combined solids",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A solid cylinder has radius 7 cm and height 24 cm. A cone having the same base radius and the same height 24 cm is hollowed out from the cylinder, its base coinciding with one circular face of the cylinder. Find (i) the volume of the remaining solid, (ii) its total surface area. (Use π = 22/7.)",
+    "answer": "Cone: r = 7, h = 24, slant height l = √(7² + 24²) = 25 cm.\n(i) Cylinder = 22/7 × 49 × 24 = 3696 cm³; cone = (1/3) × 3696 = 1232 cm³. Remaining volume = 3696 − 1232 = 2464 cm³.\n(ii) The top face is completely removed. Outer surface = curved surface of cylinder + bottom base + curved surface of cone cavity = 2πrh + πr² + πrl = 1056 + 154 + 550 = 1760 cm².\nAnswer: (i) 2464 cm³ (ii) 1760 cm².",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Surface Areas and Volumes",
+    "topic": "Conversion and recasting of solids",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": true,
+    "text": "A solid metal sphere of radius 10.5 cm is melted. (a) If it is recast into small solid cones, each of base radius 3.5 cm and height 3 cm, how many cones are obtained? (b) If instead the same sphere is recast into a solid cylinder of base radius 10.5 cm, find the height of the cylinder.",
+    "answer": "Volume of sphere = (4/3)π(10.5)³ = (4/3)π(1157.625) = 1543.5π cm³.\n(a) Volume of one cone = (1/3)π(3.5)²(3) = 12.25π cm³. Number of cones = 1543.5π ÷ 12.25π = 126.\n(b) πR²H = 1543.5π gives 110.25 H = 1543.5, so H = 14 cm.\nAnswer: (a) 126 cones (b) 14 cm.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Surface Areas and Volumes",
+    "topic": "Capacity and cost problems",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": true,
+    "text": "A grain store is shaped like a solid cylinder of radius 3 m and height 5 m with a hemispherical dome of the same radius fixed on top. Use π = 3.14. Find (i) the capacity of the store in m³, (ii) the area of the outer surface of the store that is to be painted (the floor is not painted), (iii) the cost of painting at ₹ 50 per m².",
+    "answer": "(i) Cylinder = π(3)²(5) = 45π = 141.3 m³; hemisphere = (2/3)π(3)³ = 18π = 56.52 m³. Capacity = 141.3 + 56.52 = 197.82 m³.\n(ii) Painted area = curved surface of cylinder + curved surface of dome = 2π(3)(5) + 2π(3)² = 30π + 18π = 48π = 150.72 m².\n(iii) Cost = 150.72 × 50 = ₹ 7,536.\nAnswer: (i) 197.82 m³ (ii) 150.72 m² (iii) ₹ 7,536.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Surface Areas and Volumes",
+    "topic": "Surface area of solids",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A solid wooden cube of edge 21 cm has a hemispherical depression of the greatest possible diameter scooped out from the middle of its top face. Find (i) the total surface area of the remaining solid, (ii) its volume. (Use π = 22/7.)",
+    "answer": "Greatest hemisphere has diameter 21 cm, so r = 10.5 cm.\n(i) Total surface = 6a² − πr² + 2πr² = 6(21)² + πr² = 2646 + 22/7 × 10.5² = 2646 + 346.5 = 2992.5 cm². (The circle πr² is removed from the top face and the hemispherical curved surface 2πr² is added.)\n(ii) Volume = a³ − (2/3)πr³ = 9261 − (2/3) × 22/7 × 1157.625 = 9261 − 2425.5 = 6835.5 cm³.\nAnswer: (i) 2992.5 cm² (ii) 6835.5 cm³.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Surface Areas and Volumes",
+    "topic": "Capacity and cost problems",
+    "slot": "E-case-study (4 marks, with sub-parts)",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A village panchayat installs a closed water tank. The tank is a cylinder of radius 2.1 m and height 5 m, with a hemispherical dome of the same radius fixed on top. The whole tank (cylinder and dome) holds water. Use π = 22/7.\n(i) Find the volume of the cylindrical part. [1]\n(ii) Find the volume of the hemispherical dome. [1]\n(iii) Find the cost of painting the outer curved surface of the tank (cylinder and dome only, not the base) at ₹ 25 per m². [2]",
+    "answer": "(i) Cylinder = 22/7 × 2.1² × 5 = 69.3 m³.\n(ii) Dome = (2/3) × 22/7 × 2.1³ = 19.404 m³.\n(iii) Area = 2πrh + 2πr² = 2 × 22/7 × 2.1 × 5 + 2 × 22/7 × 2.1² = 66 + 27.72 = 93.72 m². Cost = 93.72 × 25 = ₹ 2,343.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Surface Areas and Volumes",
+    "topic": "Conversion and recasting of solids",
+    "slot": "E-case-study (4 marks, with sub-parts)",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A farmer fills a cylindrical storage tank using a pipe of circular cross-section with internal diameter 14 cm. Water flows out of the pipe at a speed of 4 m per second. The tank has a circular base of radius 2.8 m. Use π = 22/7.\n(i) Find the area of cross-section of the pipe in cm². [1]\n(ii) Find the volume of water, in litres, flowing out of the pipe in one second. (1 litre = 1000 cm³) [1]\n(iii) The pipe runs for 10 minutes. Find the rise in the water level in the tank. [2]",
+    "answer": "(i) r = 7 cm; area = 22/7 × 49 = 154 cm².\n(ii) In 1 second the water column has length 400 cm, so volume = 154 × 400 = 61,600 cm³ = 61.6 litres.\n(iii) In 10 minutes (600 s): 61.6 × 600 = 36,960 litres = 36.96 m³. Base area of tank = 22/7 × 2.8² = 24.64 m². Rise = 36.96 ÷ 24.64 = 1.5 m.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Surface Areas and Volumes",
+    "topic": "Volume of combined solids",
+    "slot": "E-case-study (4 marks, with sub-parts)",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "An ice-cream seller fills each cone with ice cream. The cone has base radius 2.1 cm and height 10 cm; it is filled completely and, in addition, a hemispherical scoop of the same radius 2.1 cm is placed on top of the cone. Use π = 22/7.\n(i) Find the volume of the ice cream inside the cone. [1]\n(ii) Find the volume of the hemispherical scoop. [1]\n(iii) A tub contains 6560.4 cm³ of ice cream. How many such cones, each with its scoop, can be served from the tub? [2]",
+    "answer": "(i) Cone = (1/3) × 22/7 × 2.1² × 10 = 46.2 cm³.\n(ii) Scoop = (2/3) × 22/7 × 2.1³ = 19.404 cm³.\n(iii) Ice cream per serving = 46.2 + 19.404 = 65.604 cm³. Number = 6560.4 ÷ 65.604 = 100 cones.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Surface Areas and Volumes",
+    "topic": "Surface area of solids",
+    "slot": "E-case-study (4 marks, with sub-parts)",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A pharmaceutical company makes capsules, each a solid cylinder with a hemisphere of the same radius at each end. Each capsule has diameter 7 mm and total length 25 mm. A thin coating is applied over the entire outer surface. Use π = 22/7.\n(i) Find the length of the cylindrical part of a capsule. [1]\n(ii) Find the total area of the two hemispherical ends of one capsule. [1]\n(iii) Find the total outer surface area of one capsule, and hence the area to be coated for 1000 capsules, in cm². (1 cm² = 100 mm²) [2]",
+    "answer": "(i) r = 3.5 mm; cylindrical length = 25 − 2 × 3.5 = 18 mm.\n(ii) Two hemispherical ends = 4πr² = 4 × 22/7 × 3.5² = 154 mm².\n(iii) Cylinder curved surface = 2πrh = 2 × 22/7 × 3.5 × 18 = 396 mm². Total for one capsule = 396 + 154 = 550 mm². For 1000 capsules: 550,000 mm² = 5500 cm².",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  }
+]

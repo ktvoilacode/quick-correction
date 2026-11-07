@@ -163,8 +163,8 @@
 }
 
 /* ── the palettes ──────────────────────────────────────────────────────────
- * One line each. Add your own by appending a hue here and to PALETTES in
- * shared/palettes.ts — the switcher in the header picks it up automatically. */
+ * One line each. The app uses the brand palette (medhamark) only; the user-facing
+ * palette picker was removed, so the others are unused and kept for reference. */
 
 .theme-medhamark          { --brand-h: 264; --brand-c: 0.2; }      /* Royal blue with gold */
 .theme-medhamark-teal     { --brand-h: 195; }                      /* Teal    */

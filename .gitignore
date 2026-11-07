@@ -62,3 +62,15 @@ Thumbs.db
 
 # Uploaded answer-sheet photos (local storage strategy)
 uploads/
+
+# Downloaded CBSE papers (copyrighted; local reference only)
+docs/content/pyq/
+docs/content/pyq-text/
+docs/content/generated/latex/in/
+docs/content/generated/stripped/
+docs/content/generated/batch2/stripped/
+docs/content/generated/batch2/existing/
+
+# Marker accuracy cases hold students' work and the results compare against it: keep them local
+evals/marking/cases/
+evals/marking/results/

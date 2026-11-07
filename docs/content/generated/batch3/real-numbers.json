@@ -1,0 +1,1364 @@
+[
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "patternId": "RN-IRR-02",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The value of $(\\sqrt{5}+\\sqrt{3})^{2}-(\\sqrt{5}-\\sqrt{3})^{2}$ is",
+  "options": [
+   "$4\\sqrt{15}$, an irrational number",
+   "$16$, a rational number",
+   "$0$",
+   "$2\\sqrt{15}$, an irrational number"
+  ],
+  "answer": "Correct option: A) $4\\sqrt{15}$, an irrational number Using $(x+y)^{2}-(x-y)^{2}=4xy$: the value is $4\\sqrt{5}\\sqrt{3}=4\\sqrt{15}$, which is irrational."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "patternId": "RN-IRR-03",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Which of the following pairs of irrational numbers has a rational product?",
+  "options": [
+   "$\\sqrt{3}$ and $\\sqrt{6}$",
+   "$\\sqrt{12}$ and $\\sqrt{27}$",
+   "$2\\sqrt{3}$ and $3\\sqrt{2}$",
+   "$5+\\sqrt{3}$ and $5+\\sqrt{3}$"
+  ],
+  "answer": "Correct option: B) $\\sqrt{12}$ and $\\sqrt{27}$ $\\sqrt{12}\\times\\sqrt{27}=\\sqrt{324}=18$, rational. The others give $3\\sqrt{2}$, $6\\sqrt{6}$ and $28+10\\sqrt{3}$."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "patternId": "RN-IRR-05",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Let $k$ be a positive integer such that the prime number $13$ divides $k^{2}$. Which of the following must be true?",
+  "options": [
+   "$169$ divides $k$",
+   "$k$ divides $13$",
+   "$13$ divides $k$",
+   "$13$ divides $k+1$"
+  ],
+  "answer": "Correct option: C) $13$ divides $k$ If a prime divides the square of an integer, it divides the integer itself. ($k=13$ shows $169$ need not divide $k$.)"
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "patternId": "RN-IRR-06",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "To prove that $\\sqrt{17}$ is irrational, a student assumes $\\sqrt{17}=\\frac{a}{b}$ and later shows that $17$ divides both $a$ and $b$. This contradicts the assumption that",
+  "options": [
+   "$17$ is a prime number",
+   "$b$ is a non-zero integer",
+   "$a$ is an even integer",
+   "$a$ and $b$ are co-prime integers"
+  ],
+  "answer": "Correct option: D) $a$ and $b$ are co-prime integers The proof starts with $a$, $b$ integers having no common factor other than $1$; a common factor $17$ contradicts this."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "patternId": "RN-IRR-08",
+  "type": "assertion_reason",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Assertion (A): $\\sqrt{29}$ is an irrational number.\nReason (R): The square root of every prime number is irrational.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: A) Both A and R are true and R explains A. $29$ is a prime, so by R, $\\sqrt{29}$ is irrational; R is exactly the reason for A."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "patternId": "RN-IRR-09",
+  "type": "assertion_reason",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": true,
+  "text": "Assertion (A): The right triangle $PQR$ shown, right-angled at $Q$ with $PQ=5\\text{ cm}$ and $QR=12\\text{ cm}$, has a rational perimeter.\nReason (R): The sum of the squares of two rational numbers is always rational.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: B) Both A and R are true but R does not explain A. $PR=\\sqrt{25+144}=\\sqrt{169}=13\\text{ cm}$, so the perimeter is $30\\text{ cm}$, rational: A is true. R is true, but a rational sum of squares need not have a rational square root (for legs $1$ and $1$ the hypotenuse is $\\sqrt{2}$), so R does not explain A.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 170\"><polygon points=\"60,30 60,130 300,130\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"60,118 72,118 72,130\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"48\" y=\"26\" font-family=\"sans-serif\" font-size=\"14\">P</text><text x=\"46\" y=\"146\" font-family=\"sans-serif\" font-size=\"14\">Q</text><text x=\"304\" y=\"146\" font-family=\"sans-serif\" font-size=\"14\">R</text><text x=\"8\" y=\"85\" font-family=\"sans-serif\" font-size=\"14\">5 cm</text><text x=\"160\" y=\"152\" font-family=\"sans-serif\" font-size=\"14\">12 cm</text></svg>",
+  "figureAlt": "A right triangle PQR with the right angle at Q. The vertical side PQ is marked 5 cm and the horizontal side QR is marked 12 cm; the hypotenuse PR is unlabelled."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "patternId": "RN-IRR-10",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Given that $\\sqrt{3}$ is irrational, prove that $8-5\\sqrt{3}$ is irrational.",
+  "answer": "Suppose $8-5\\sqrt{3}$ is rational, say $8-5\\sqrt{3}=r$ where $r$ is rational. Then $5\\sqrt{3}=8-r$, so $\\sqrt{3}=\\frac{8-r}{5}$. Since $r$ is rational, $\\frac{8-r}{5}$ is rational, so $\\sqrt{3}$ would be rational. This contradicts the given fact that $\\sqrt{3}$ is irrational. Hence $8-5\\sqrt{3}$ is irrational.",
+  "markingSteps": [
+   {
+    "step": "Assumes $8-5\\sqrt{3}=r$ is rational and gets $\\sqrt{3}=\\frac{8-r}{5}$",
+    "marks": 1
+   },
+   {
+    "step": "States the right-hand side is rational, which contradicts $\\sqrt{3}$ being irrational, and concludes",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "patternId": "RN-IRR-10",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Given that $\\sqrt{11}$ is irrational, prove that $\\frac{2+\\sqrt{11}}{3}$ is irrational.",
+  "answer": "Suppose $\\frac{2+\\sqrt{11}}{3}$ is rational, say $\\frac{2+\\sqrt{11}}{3}=r$ where $r$ is rational. Then $2+\\sqrt{11}=3r$, so $\\sqrt{11}=3r-2$. Since $r$ is rational, $3r-2$ is rational, so $\\sqrt{11}$ would be rational. This contradicts the given fact that $\\sqrt{11}$ is irrational. Hence $\\frac{2+\\sqrt{11}}{3}$ is irrational.",
+  "markingSteps": [
+   {
+    "step": "Assumes $\\frac{2+\\sqrt{11}}{3}=r$ is rational and gets $\\sqrt{11}=3r-2$",
+    "marks": 1
+   },
+   {
+    "step": "States $3r-2$ is rational, which contradicts $\\sqrt{11}$ being irrational, and concludes",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "patternId": "RN-IRR-12",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Find two irrational numbers whose sum is $10$ and whose product is $22$. Justify that your numbers are irrational.",
+  "answer": "Take $5+\\sqrt{3}$ and $5-\\sqrt{3}$. Sum $=(5+\\sqrt{3})+(5-\\sqrt{3})=10$. Product $=5^{2}-(\\sqrt{3})^{2}=25-3=22$. Both are irrational: if $5+\\sqrt{3}=r$ were rational, then $\\sqrt{3}=r-5$ would be rational, which is false; similarly for $5-\\sqrt{3}$.",
+  "markingSteps": [
+   {
+    "step": "Gives $5+\\sqrt{3}$ and $5-\\sqrt{3}$ and checks sum $10$ and product $22$",
+    "marks": 1
+   },
+   {
+    "step": "Justifies that both numbers are irrational",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "patternId": "RN-IRR-13",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A student writes: '$3+\\sqrt{5}$ and $3-\\sqrt{5}$ are both irrational, so their sum and their product must both be irrational.' Find the error in the statement and find the correct sum and product.",
+  "answer": "Error: the sum or product of two irrational numbers need not be irrational. Sum $=(3+\\sqrt{5})+(3-\\sqrt{5})=6$, which is rational. Product $=3^{2}-(\\sqrt{5})^{2}=9-5=4$, which is also rational.",
+  "markingSteps": [
+   {
+    "step": "Identifies that a sum or product of irrational numbers can be rational",
+    "marks": 1
+   },
+   {
+    "step": "Finds sum $=6$ and product $=4$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "patternId": "RN-IRR-14",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Prove that $\\sqrt{2}$ is irrational.",
+  "answer": "Suppose $\\sqrt{2}$ is rational. Then $\\sqrt{2}=\\frac{a}{b}$ where $a$, $b$ are integers, $b\\ne 0$, and $a$, $b$ are co-prime. Squaring, $a^{2}=2b^{2}$, so $2$ divides $a^{2}$. Since $2$ is prime, $2$ divides $a$. Let $a=2c$ for some integer $c$. Then $2^{2}c^{2}=2b^{2}$, so $b^{2}=2c^{2}$. Hence $2$ divides $b^{2}$, and so $2$ divides $b$. Thus $2$ is a common factor of $a$ and $b$, contradicting that they are co-prime. So $\\sqrt{2}$ is irrational.",
+  "markingSteps": [
+   {
+    "step": "Assumes $\\sqrt{2}=\\frac{a}{b}$ with $a$, $b$ co-prime integers, $b\\ne 0$",
+    "marks": 1
+   },
+   {
+    "step": "Gets $a^{2}=2b^{2}$ and concludes $2$ divides $a$",
+    "marks": 1
+   },
+   {
+    "step": "Shows $2$ divides $b$, states the contradiction and concludes",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "patternId": "RN-IRR-14",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Prove that $\\sqrt{3}$ is irrational.",
+  "answer": "Suppose $\\sqrt{3}$ is rational. Then $\\sqrt{3}=\\frac{a}{b}$ where $a$, $b$ are integers, $b\\ne 0$, and $a$, $b$ are co-prime. Squaring, $a^{2}=3b^{2}$, so $3$ divides $a^{2}$. Since $3$ is prime, $3$ divides $a$. Let $a=3c$ for some integer $c$. Then $3^{2}c^{2}=3b^{2}$, so $b^{2}=3c^{2}$. Hence $3$ divides $b^{2}$, and so $3$ divides $b$. Thus $3$ is a common factor of $a$ and $b$, contradicting that they are co-prime. So $\\sqrt{3}$ is irrational.",
+  "markingSteps": [
+   {
+    "step": "Assumes $\\sqrt{3}=\\frac{a}{b}$ with $a$, $b$ co-prime integers, $b\\ne 0$",
+    "marks": 1
+   },
+   {
+    "step": "Gets $a^{2}=3b^{2}$ and concludes $3$ divides $a$",
+    "marks": 1
+   },
+   {
+    "step": "Shows $3$ divides $b$, states the contradiction and concludes",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "patternId": "RN-IRR-14",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Prove that $\\sqrt{11}$ is irrational.",
+  "answer": "Suppose $\\sqrt{11}$ is rational. Then $\\sqrt{11}=\\frac{a}{b}$ where $a$, $b$ are integers, $b\\ne 0$, and $a$, $b$ are co-prime. Squaring, $a^{2}=11b^{2}$, so $11$ divides $a^{2}$. Since $11$ is prime, $11$ divides $a$. Let $a=11c$ for some integer $c$. Then $11^{2}c^{2}=11b^{2}$, so $b^{2}=11c^{2}$. Hence $11$ divides $b^{2}$, and so $11$ divides $b$. Thus $11$ is a common factor of $a$ and $b$, contradicting that they are co-prime. So $\\sqrt{11}$ is irrational.",
+  "markingSteps": [
+   {
+    "step": "Assumes $\\sqrt{11}=\\frac{a}{b}$ with $a$, $b$ co-prime integers, $b\\ne 0$",
+    "marks": 1
+   },
+   {
+    "step": "Gets $a^{2}=11b^{2}$ and concludes $11$ divides $a$",
+    "marks": 1
+   },
+   {
+    "step": "Shows $11$ divides $b$, states the contradiction and concludes",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "patternId": "RN-IRR-16",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Given that $\\sqrt{2}$ is irrational, prove that $5\\sqrt{2}-3$ is irrational.",
+  "answer": "Suppose $5\\sqrt{2}-3$ is rational. Then $5\\sqrt{2}-3=\\frac{a}{b}$ for co-prime integers $a$, $b$ with $b\\ne 0$. So $5\\sqrt{2}=\\frac{a}{b}+3=\\frac{a+3b}{b}$, giving $\\sqrt{2}=\\frac{a+3b}{5b}$. Since $a$ and $b$ are integers, $\\frac{a+3b}{5b}$ is rational, so $\\sqrt{2}$ would be rational. This contradicts the fact that $\\sqrt{2}$ is irrational. Hence $5\\sqrt{2}-3$ is irrational.",
+  "markingSteps": [
+   {
+    "step": "Assumes $5\\sqrt{2}-3=\\frac{a}{b}$ with $a$, $b$ co-prime integers, $b\\ne 0$",
+    "marks": 1
+   },
+   {
+    "step": "Rearranges to $\\sqrt{2}=\\frac{a+3b}{5b}$",
+    "marks": 1
+   },
+   {
+    "step": "States the right side is rational, gets the contradiction and concludes",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "patternId": "RN-IRR-16",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Given that $\\sqrt{7}$ is irrational, prove that $\\frac{6-\\sqrt{7}}{2}$ is irrational.",
+  "answer": "Suppose $\\frac{6-\\sqrt{7}}{2}$ is rational. Then $\\frac{6-\\sqrt{7}}{2}=\\frac{a}{b}$ for co-prime integers $a$, $b$ with $b\\ne 0$. So $6-\\sqrt{7}=\\frac{2a}{b}$, giving $\\sqrt{7}=6-\\frac{2a}{b}=\\frac{6b-2a}{b}$. Since $a$ and $b$ are integers, $\\frac{6b-2a}{b}$ is rational, so $\\sqrt{7}$ would be rational. This contradicts the fact that $\\sqrt{7}$ is irrational. Hence $\\frac{6-\\sqrt{7}}{2}$ is irrational.",
+  "markingSteps": [
+   {
+    "step": "Assumes $\\frac{6-\\sqrt{7}}{2}=\\frac{a}{b}$ with $a$, $b$ co-prime integers, $b\\ne 0$",
+    "marks": 1
+   },
+   {
+    "step": "Rearranges to $\\sqrt{7}=\\frac{6b-2a}{b}$",
+    "marks": 1
+   },
+   {
+    "step": "States the right side is rational, gets the contradiction and concludes",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM by prime factorisation",
+  "patternId": "RN-PF-01",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The HCF of $144$ and $360$ is",
+  "options": [
+   "$72$",
+   "$36$",
+   "$144$",
+   "$720$"
+  ],
+  "answer": "Correct option: A) $72$ $144=2^{4}\\times 3^{2}$, $360=2^{3}\\times 3^{2}\\times 5$, so HCF $=2^{3}\\times 3^{2}=72$."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM by prime factorisation",
+  "patternId": "RN-PF-02",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The HCF of $168$, $252$ and $420$ is",
+  "options": [
+   "$42$",
+   "$84$",
+   "$28$",
+   "$2520$"
+  ],
+  "answer": "Correct option: B) $84$ $168=2^{3}\\times 3\\times 7$, $252=2^{2}\\times 3^{2}\\times 7$, $420=2^{2}\\times 3\\times 5\\times 7$; HCF $=2^{2}\\times 3\\times 7=84$."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM by prime factorisation",
+  "patternId": "RN-PF-03",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "If $x=a^{2}b^{3}$ and $y=a^{3}b$, where $a$ and $b$ are prime numbers, then HCF$(x,y)$ is",
+  "options": [
+   "$a^{3}b^{3}$",
+   "$ab$",
+   "$a^{2}b$",
+   "$a^{5}b^{4}$"
+  ],
+  "answer": "Correct option: C) $a^{2}b$ HCF takes the smaller power of each prime: $a^{2}$ and $b^{1}$."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM by prime factorisation",
+  "patternId": "RN-PF-04",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "If $a=2^{x}\\times 3$, $b=2^{2}\\times 3^{y}\\times 7$ and LCM$(a,b)=2016$, where $x$ and $y$ are natural numbers, then $x+y$ equals",
+  "options": [
+   "$10$",
+   "$5$",
+   "$3$",
+   "$7$"
+  ],
+  "answer": "Correct option: D) $7$ $2016=2^{5}\\times 3^{2}\\times 7$. The power of $2$ in the LCM is $\\max(x,2)=5$, so $x=5$; the power of $3$ is $\\max(1,y)=2$, so $y=2$. Hence $x+y=7$."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM by prime factorisation",
+  "patternId": "RN-PF-06",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "If HCF$(48,72)=m$ and LCM$(48,72)=n$, then $n-4m$ equals",
+  "options": [
+   "$48$",
+   "$120$",
+   "$192$",
+   "$96$"
+  ],
+  "answer": "Correct option: A) $48$ $m=24$, $n=\\frac{48\\times 72}{24}=144$, so $n-4m=144-96=48$."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM by prime factorisation",
+  "patternId": "RN-PF-07",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The least perfect square that is divisible by each of $8$, $12$ and $15$ is",
+  "options": [
+   "$120$",
+   "$3600$",
+   "$900$",
+   "$14400$"
+  ],
+  "answer": "Correct option: B) $3600$ LCM $=2^{3}\\times 3\\times 5=120$. To make every power even, multiply by $2\\times 3\\times 5$: $2^{4}\\times 3^{2}\\times 5^{2}=3600$."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM by prime factorisation",
+  "patternId": "RN-PF-08",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "If $x=$ LCM$(6,10,15)$, $y=$ LCM$(4,7,14)$ and $p=$ LCM$(x,y)$, then which of the following is true?",
+  "options": [
+   "$p=xy$",
+   "$p=x+y$",
+   "$p=\\frac{xy}{2}$",
+   "$p=\\frac{xy}{4}$"
+  ],
+  "answer": "Correct option: C) $p=\\frac{xy}{2}$ $x=30$, $y=28$, $p=$ LCM$(30,28)=420$, and $\\frac{xy}{2}=\\frac{840}{2}=420$."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM by prime factorisation",
+  "patternId": "RN-PF-09",
+  "type": "assertion_reason",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Assertion (A): For a prime number $m$, HCF$(6m^{2},3m)=6m$.\nReason (R): The HCF of two positive integers can never be greater than the smaller of the two numbers.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: D) A is false but R is true. Since $3m$ divides $6m^{2}$, HCF$(6m^{2},3m)=3m$, not $6m$, so A is false. Also $6m$ exceeds the smaller number $3m$, which R rules out; R is true."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM by prime factorisation",
+  "patternId": "RN-PF-11",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Find the least number that is exactly divisible by both $45$ and $60$.",
+  "answer": "$45=3^{2}\\times 5$ and $60=2^{2}\\times 3\\times 5$. The least number divisible by both is their LCM $=2^{2}\\times 3^{2}\\times 5=180$.",
+  "markingSteps": [
+   {
+    "step": "Prime factorisation of $45$ and $60$",
+    "marks": 1
+   },
+   {
+    "step": "LCM $=180$ as the required number",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM by prime factorisation",
+  "patternId": "RN-PF-12",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "If HCF$(96,120)=5z-1$, find the value of $z$.",
+  "answer": "$96=2^{5}\\times 3$ and $120=2^{3}\\times 3\\times 5$, so HCF $=2^{3}\\times 3=24$. Then $5z-1=24$, so $5z=25$ and $z=5$.",
+  "markingSteps": [
+   {
+    "step": "Finds HCF$(96,120)=24$",
+    "marks": 1
+   },
+   {
+    "step": "Solves $5z-1=24$ to get $z=5$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM by prime factorisation",
+  "patternId": "RN-PF-15",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Let $a$ and $b$ be prime numbers, and let $p=a^{3}b^{2}$, $q=ab^{4}$ and $r=a^{2}b^{3}$. Find HCF$(p,q,r)$ and LCM$(p,q,r)$. Is HCF$(p,q,r)\\times$ LCM$(p,q,r)=pqr$?",
+  "answer": "HCF takes the least power of each prime: HCF $=ab^{2}$. LCM takes the greatest power: LCM $=a^{3}b^{4}$. HCF $\\times$ LCM $=a^{4}b^{6}$, while $pqr=a^{3+1+2}b^{2+4+3}=a^{6}b^{9}$. These are not equal, so the product rule does not hold for three numbers.",
+  "markingSteps": [
+   {
+    "step": "HCF $=ab^{2}$",
+    "marks": 1
+   },
+   {
+    "step": "LCM $=a^{3}b^{4}$",
+    "marks": 1
+   },
+   {
+    "step": "Compares $a^{4}b^{6}$ with $pqr=a^{6}b^{9}$ and says they are not equal",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM by prime factorisation",
+  "patternId": "RN-PF-16",
+  "type": "long",
+  "marks": 5,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Find the HCF and LCM of $180$, $270$ and $450$ by the prime factorisation method. Also verify that HCF $\\times$ LCM $=$ product of the numbers for the pair $180$ and $270$.",
+  "answer": "$180=2^{2}\\times 3^{2}\\times 5$, $270=2\\times 3^{3}\\times 5$, $450=2\\times 3^{2}\\times 5^{2}$. HCF$(180,270,450)=2\\times 3^{2}\\times 5=90$. LCM$(180,270,450)=2^{2}\\times 3^{3}\\times 5^{2}=2700$. For $180$ and $270$: HCF $=2\\times 3^{2}\\times 5=90$ and LCM $=2^{2}\\times 3^{3}\\times 5=540$. HCF $\\times$ LCM $=90\\times 540=48600$ and $180\\times 270=48600$. Hence verified.",
+  "markingSteps": [
+   {
+    "step": "Prime factorisation of $180$, $270$ and $450$",
+    "marks": 1
+   },
+   {
+    "step": "HCF of the three numbers $=90$",
+    "marks": 1
+   },
+   {
+    "step": "LCM of the three numbers $=2700$",
+    "marks": 1
+   },
+   {
+    "step": "HCF $=90$ and LCM $=540$ for $180$ and $270$",
+    "marks": 1
+   },
+   {
+    "step": "Shows $90\\times 540=180\\times 270=48600$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Fundamental theorem of arithmetic",
+  "patternId": "RN-FTA-01",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Which of the following statements about the natural number $2$ is correct?",
+  "options": [
+   "It is a composite number",
+   "It is neither prime nor composite",
+   "It is both prime and composite",
+   "It is the only even prime number"
+  ],
+  "answer": "Correct option: D) It is the only even prime number $2$ has exactly two factors, $1$ and $2$, so it is prime; every other even number has $2$ as an extra factor."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Fundamental theorem of arithmetic",
+  "patternId": "RN-FTA-02",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "For a natural number $n$, which of the following can never be the units digit of $3^{n}$?",
+  "options": [
+   "$5$",
+   "$7$",
+   "$9$",
+   "$1$"
+  ],
+  "answer": "Correct option: A) $5$ The units digits of $3^{n}$ cycle $3, 9, 7, 1$. A number ending in $5$ needs the prime $5$, which $3^{n}$ does not have."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Fundamental theorem of arithmetic",
+  "patternId": "RN-FTA-04",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "If $5880=2^{a}\\times 3^{b}\\times 5^{c}\\times 7^{d}$, then $a+b+c+d$ equals",
+  "options": [
+   "$6$",
+   "$7$",
+   "$4$",
+   "$8$"
+  ],
+  "answer": "Correct option: B) $7$ $5880=2^{3}\\times 3\\times 5\\times 7^{2}$, so $a+b+c+d=3+1+1+2=7$."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Fundamental theorem of arithmetic",
+  "patternId": "RN-FTA-06",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "How many positive divisors does $11^{3}$ have?",
+  "options": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$6$"
+  ],
+  "answer": "Correct option: C) $4$ The divisors are $1$, $11$, $11^{2}$ and $11^{3}$: four in all."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Fundamental theorem of arithmetic",
+  "patternId": "RN-FTA-07",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The prime factorisation of $3150$ is",
+  "options": [
+   "$2\\times 3\\times 5^{2}\\times 21$",
+   "$2^{2}\\times 3^{2}\\times 5\\times 7$",
+   "$2\\times 3^{2}\\times 5\\times 7^{2}$",
+   "$2\\times 3^{2}\\times 5^{2}\\times 7$"
+  ],
+  "answer": "Correct option: D) $2\\times 3^{2}\\times 5^{2}\\times 7$ $3150=2\\times 1575=2\\times 3^{2}\\times 175=2\\times 3^{2}\\times 5^{2}\\times 7$. ($21$ is not prime; the other two equal $1260$ and $4410$.)"
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Fundamental theorem of arithmetic",
+  "patternId": "RN-FTA-08",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "According to the Fundamental Theorem of Arithmetic, the factorisation of a composite number as a product of primes is",
+  "options": [
+   "unique, apart from the order of the prime factors",
+   "unique only when the number is even",
+   "possible in exactly two different ways",
+   "not always possible"
+  ],
+  "answer": "Correct option: A) unique, apart from the order of the prime factors Every composite number can be written as a product of primes, and this factorisation is unique apart from the order in which the primes occur."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Fundamental theorem of arithmetic",
+  "patternId": "RN-FTA-09",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "In the factor tree shown, the values of $x$ and $y$ are respectively",
+  "options": [
+   "$1386$ and $77$",
+   "$1386$ and $231$",
+   "$693$ and $231$",
+   "$2772$ and $231$"
+  ],
+  "answer": "Correct option: B) $1386$ and $231$ $y=3\\times 77=231$, then $693=3\\times 231$ checks, and $x=2\\times 693=1386$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 260\"><line x1=\"70\" y1=\"31\" x2=\"35\" y2=\"64\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"31\" x2=\"110\" y2=\"64\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"86\" x2=\"75\" y2=\"119\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"86\" x2=\"145\" y2=\"119\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"145\" y1=\"141\" x2=\"110\" y2=\"174\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"145\" y1=\"141\" x2=\"180\" y2=\"174\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"180\" y1=\"196\" x2=\"145\" y2=\"229\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"180\" y1=\"196\" x2=\"215\" y2=\"229\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"70\" y=\"25\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">x</text><text x=\"35\" y=\"80\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">2</text><text x=\"110\" y=\"80\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">693</text><text x=\"75\" y=\"135\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">3</text><text x=\"145\" y=\"135\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">y</text><text x=\"110\" y=\"190\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">3</text><text x=\"180\" y=\"190\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">77</text><text x=\"145\" y=\"245\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">7</text><text x=\"215\" y=\"245\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">11</text></svg>",
+  "figureAlt": "A factor tree. The top number x splits into 2 and 693; 693 splits into 3 and y; y splits into 3 and 77; 77 splits into 7 and 11."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Fundamental theorem of arithmetic",
+  "patternId": "RN-FTA-10",
+  "type": "assertion_reason",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Assertion (A): $15^{n}$ ends with the digit $0$ for some natural number $n$.\nReason (R): The prime factorisation of $15^{n}$ is $3^{n}\\times 5^{n}$, which does not contain the prime $2$.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: D) A is false but R is true. A number ending in $0$ must have both $2$ and $5$ as prime factors. $15^{n}=3^{n}\\times 5^{n}$ has no factor $2$, so it never ends in $0$: A is false, R is true."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Fundamental theorem of arithmetic",
+  "patternId": "RN-FTA-11",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Can $26^{n}$ end with the digit $0$ for any natural number $n$? Justify your answer.",
+  "answer": "$26^{n}=(2\\times 13)^{n}=2^{n}\\times 13^{n}$. For a number to end with $0$ it must be divisible by $10=2\\times 5$, so its prime factorisation must contain $5$. By the uniqueness of prime factorisation, $26^{n}$ has only the primes $2$ and $13$, so it has no factor $5$. Hence $26^{n}$ cannot end with $0$ for any natural number $n$.",
+  "markingSteps": [
+   {
+    "step": "Writes $26^{n}=2^{n}\\times 13^{n}$",
+    "marks": 1
+   },
+   {
+    "step": "Argues that the prime $5$ is missing, so $26^{n}$ cannot end in $0$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Fundamental theorem of arithmetic",
+  "patternId": "RN-FTA-15",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Show that $7\\times 11\\times 13+13$ is a composite number. For primes $p$, $q$, $r$, give one set of values for which $pqr+1$ is prime and one set for which it is composite.",
+  "answer": "$7\\times 11\\times 13+13=13\\times(7\\times 11+1)=13\\times 78=1014$. It has factors other than $1$ and itself (for example $13$), so it is composite. For $p=2$, $q=3$, $r=5$: $pqr+1=31$, which is prime. For $p=3$, $q=5$, $r=7$: $pqr+1=106=2\\times 53$, which is composite.",
+  "markingSteps": [
+   {
+    "step": "Takes $13$ common to show $13\\times 78$ and concludes composite",
+    "marks": 1
+   },
+   {
+    "step": "Example giving a prime, e.g. $2\\times 3\\times 5+1=31$",
+    "marks": 1
+   },
+   {
+    "step": "Example giving a composite, e.g. $3\\times 5\\times 7+1=106$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Fundamental theorem of arithmetic",
+  "patternId": "RN-FTA-16",
+  "type": "long",
+  "marks": 5,
+  "complexity": "hard",
+  "competency": false,
+  "text": "Express $1080$ as a product of its prime factors. Hence find (i) the smallest number by which $1080$ must be multiplied to make it a perfect square, (ii) the smallest number by which it must be multiplied to make it a perfect cube, and (iii) the smallest number by which it must be divided to make it a perfect cube. Also show that $1080^{n}$ ends with the digit $0$ for every natural number $n$.",
+  "answer": "$1080=2^{3}\\times 3^{3}\\times 5$. (i) For a perfect square every exponent must be even; multiply by $2\\times 3\\times 5=30$: $1080\\times 30=32400=180^{2}$. (ii) For a perfect cube every exponent must be a multiple of $3$; multiply by $5^{2}=25$: $1080\\times 25=27000=30^{3}$. (iii) Divide by $5$: $1080\\div 5=216=6^{3}$. $1080^{n}=2^{3n}\\times 3^{3n}\\times 5^{n}$ contains both $2$ and $5$, so it is divisible by $10$ and ends with $0$ for every natural number $n$.",
+  "markingSteps": [
+   {
+    "step": "$1080=2^{3}\\times 3^{3}\\times 5$",
+    "marks": 1
+   },
+   {
+    "step": "Multiplier $30$ for a perfect square",
+    "marks": 1
+   },
+   {
+    "step": "Multiplier $25$ for a perfect cube",
+    "marks": 1
+   },
+   {
+    "step": "Divisor $5$ for a perfect cube",
+    "marks": 1
+   },
+   {
+    "step": "Shows $1080^{n}$ has factors $2$ and $5$, so ends in $0$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Fundamental theorem of arithmetic",
+  "patternId": "RN-FTA-17",
+  "type": "case",
+  "marks": 4,
+  "complexity": "hard",
+  "competency": true,
+  "text": "In a maths club game, a card starts with the number $1$. Each player in turn multiplies the number on the card by a prime number of their choice and passes it on; every player has exactly one turn. After the last player, the card shows $13860$. The club teacher asks the members to work backwards using prime factorisation.",
+  "answer": "(i) $2$; (ii) $11$; (iii) $7$ players, with $2$ and $3$ each chosen twice.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "What is the smallest prime used by any player?",
+    "answer": "$13860=2^{2}\\times 3^{2}\\times 5\\times 7\\times 11$, so the smallest prime used is $2$."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "What is the largest prime used by any player?",
+    "answer": "From $13860=2^{2}\\times 3^{2}\\times 5\\times 7\\times 11$, the largest prime used is $11$."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "How many players took part, and which primes were chosen by more than one player?",
+    "answer": "The number of prime factors counted with repetition is $2+2+1+1+1=7$, so $7$ players took part. The primes $2$ and $3$ appear twice each, so each was chosen by two players."
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM word problems",
+  "patternId": "RN-WP-01",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The greatest number that divides $437$ and $342$ leaving remainders $5$ and $6$ respectively is",
+  "options": [
+   "$19$",
+   "$24$",
+   "$48$",
+   "$12$"
+  ],
+  "answer": "Correct option: C) $48$ Required number $=$ HCF$(437-5,\\,342-6)=$ HCF$(432,336)=48$, and $48$ is greater than both remainders."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM word problems",
+  "patternId": "RN-WP-03",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": true,
+  "text": "Two buses leave a stop every $16$ minutes and every $24$ minutes respectively. If they leave together at 7:30 a.m., they will next leave together at",
+  "options": [
+   "7:38 a.m.",
+   "7:54 a.m.",
+   "8:10 a.m.",
+   "8:18 a.m."
+  ],
+  "answer": "Correct option: D) 8:18 a.m. LCM$(16,24)=48$ minutes, and 7:30 a.m. plus $48$ minutes is 8:18 a.m."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM word problems",
+  "patternId": "RN-WP-04",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "hard",
+  "competency": false,
+  "text": "The least number that leaves remainder $4$ when divided by each of $9$, $12$ and $15$, and is exactly divisible by $11$, is",
+  "options": [
+   "$1804$",
+   "$184$",
+   "$724$",
+   "$1984$"
+  ],
+  "answer": "Correct option: A) $1804$ LCM $=180$, so the number is $180k+4$. Trying $k=1,2,\\ldots$, the first multiple of $11$ comes at $k=10$: $1804=11\\times 164$."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM word problems",
+  "patternId": "RN-WP-07",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A carpenter has two wooden planks of lengths $4.95\\text{ m}$ and $7.65\\text{ m}$. Find the greatest length of a measuring stick that can measure both planks an exact number of times.",
+  "answer": "In centimetres the lengths are $495$ and $765$. $495=3^{2}\\times 5\\times 11$ and $765=3^{2}\\times 5\\times 17$. HCF $=3^{2}\\times 5=45$. The greatest length is $45\\text{ cm}$.",
+  "markingSteps": [
+   {
+    "step": "Converts to $495\\text{ cm}$ and $765\\text{ cm}$ and factorises",
+    "marks": 1
+   },
+   {
+    "step": "HCF $=45$, so stick length $45\\text{ cm}$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM word problems",
+  "patternId": "RN-WP-08",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A school library has $144$ English, $192$ Hindi and $240$ Science books. The librarian wants to stack them in piles of equal height, with each pile having books of one subject only and the number of books in each pile as large as possible. Find the number of books in each pile and the total number of piles.",
+  "answer": "$144=2^{4}\\times 3^{2}$, $192=2^{6}\\times 3$, $240=2^{4}\\times 3\\times 5$. Books per pile $=$ HCF $=2^{4}\\times 3=48$. Number of piles $=\\frac{144}{48}+\\frac{192}{48}+\\frac{240}{48}=3+4+5=12$.",
+  "markingSteps": [
+   {
+    "step": "Prime factorisation of $144$, $192$ and $240$",
+    "marks": 1
+   },
+   {
+    "step": "HCF $=48$ books per pile",
+    "marks": 1
+   },
+   {
+    "step": "Total piles $=3+4+5=12$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM word problems",
+  "patternId": "RN-WP-09",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": true,
+  "text": "Three alarms are set to ring every $16$ minutes, $20$ minutes and $24$ minutes respectively. If they ring together at 6:00 a.m., at what time will they next ring together?",
+  "answer": "$16=2^{4}$, $20=2^{2}\\times 5$, $24=2^{3}\\times 3$. LCM $=2^{4}\\times 3\\times 5=240$ minutes $=4$ hours. They next ring together at 6:00 a.m. $+$ $4$ hours $=$ 10:00 a.m.",
+  "markingSteps": [
+   {
+    "step": "Prime factorisation of $16$, $20$ and $24$",
+    "marks": 1
+   },
+   {
+    "step": "LCM $=240$ minutes",
+    "marks": 1
+   },
+   {
+    "step": "Next time 10:00 a.m.",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM word problems",
+  "patternId": "RN-WP-10",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": true,
+  "text": "Three potters take $20$ minutes, $24$ minutes and $36$ minutes respectively to make one pot. They start a new pot together at the same moment and keep working without a break. After how many hours will they next start a pot together, and how many pots will the three of them have made in all by then?",
+  "answer": "$20=2^{2}\\times 5$, $24=2^{3}\\times 3$, $36=2^{2}\\times 3^{2}$. LCM $=2^{3}\\times 3^{2}\\times 5=360$ minutes $=6$ hours. Pots made: $\\frac{360}{20}=18$, $\\frac{360}{24}=15$, $\\frac{360}{36}=10$. Total $=18+15+10=43$ pots.",
+  "markingSteps": [
+   {
+    "step": "LCM of $20$, $24$, $36$ by prime factorisation $=360$",
+    "marks": 1
+   },
+   {
+    "step": "Time $=6$ hours",
+    "marks": 1
+   },
+   {
+    "step": "Pots $18+15+10=43$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM word problems",
+  "patternId": "RN-WP-11",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Find the greatest four-digit number that is exactly divisible by each of $15$, $24$ and $36$.",
+  "answer": "$15=3\\times 5$, $24=2^{3}\\times 3$, $36=2^{2}\\times 3^{2}$. LCM $=2^{3}\\times 3^{2}\\times 5=360$. The greatest four-digit number is $9999$, and $9999=360\\times 27+279$. So the required number is $9999-279=9720$.",
+  "markingSteps": [
+   {
+    "step": "LCM of $15$, $24$, $36$ $=360$",
+    "marks": 1
+   },
+   {
+    "step": "Divides $9999$ by $360$: remainder $279$",
+    "marks": 1
+   },
+   {
+    "step": "Required number $9720$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM word problems",
+  "patternId": "RN-WP-12",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A rectangular wall panel measuring $168\\text{ cm}$ by $120\\text{ cm}$ is to be covered completely with identical square tiles of the largest possible size, without cutting any tile. Find the side of each tile and the number of tiles needed.",
+  "answer": "$168=2^{3}\\times 3\\times 7$ and $120=2^{3}\\times 3\\times 5$. Side of tile $=$ HCF $=2^{3}\\times 3=24\\text{ cm}$. Number of tiles $=\\frac{168}{24}\\times\\frac{120}{24}=7\\times 5=35$.",
+  "markingSteps": [
+   {
+    "step": "Prime factorisation of $168$ and $120$",
+    "marks": 1
+   },
+   {
+    "step": "Side $=$ HCF $=24\\text{ cm}$",
+    "marks": 1
+   },
+   {
+    "step": "Number of tiles $=35$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM word problems",
+  "patternId": "RN-WP-13",
+  "type": "short",
+  "marks": 3,
+  "complexity": "hard",
+  "competency": false,
+  "text": "Find the greatest number that divides $398$, $436$ and $542$ leaving remainders $7$, $11$ and $15$ respectively.",
+  "answer": "The required number divides $398-7=391$, $436-11=425$ and $542-15=527$ exactly. $391=17\\times 23$, $425=5^{2}\\times 17$, $527=17\\times 31$. HCF $=17$. Since $17$ is greater than each remainder, the required number is $17$.",
+  "markingSteps": [
+   {
+    "step": "Subtracts remainders to get $391$, $425$, $527$",
+    "marks": 1
+   },
+   {
+    "step": "Prime factorisation of the three numbers",
+    "marks": 1
+   },
+   {
+    "step": "HCF $=17$ and checks it exceeds the remainders",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM word problems",
+  "patternId": "RN-WP-14",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": true,
+  "text": "Two rolls of cloth are $210\\text{ cm}$ and $294\\text{ cm}$ wide. Both are to be cut lengthwise into strips of the same width, with no cloth left over, and the strips as wide as possible. Find the width of each strip and the total number of strips.",
+  "answer": "$210=2\\times 3\\times 5\\times 7$ and $294=2\\times 3\\times 7^{2}$. Width of strip $=$ HCF $=2\\times 3\\times 7=42\\text{ cm}$. Number of strips $=\\frac{210}{42}+\\frac{294}{42}=5+7=12$.",
+  "markingSteps": [
+   {
+    "step": "Prime factorisation of $210$ and $294$",
+    "marks": 1
+   },
+   {
+    "step": "Width $=$ HCF $=42\\text{ cm}$",
+    "marks": 1
+   },
+   {
+    "step": "Total strips $=5+7=12$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM word problems",
+  "patternId": "RN-WP-15",
+  "type": "short",
+  "marks": 3,
+  "complexity": "hard",
+  "competency": false,
+  "text": "Find the least number which, when divided by $6$, $15$ and $18$, leaves remainder $2$ in each case, and which is exactly divisible by $11$.",
+  "answer": "$6=2\\times 3$, $15=3\\times 5$, $18=2\\times 3^{2}$, so LCM $=2\\times 3^{2}\\times 5=90$. Numbers leaving remainder $2$ are of the form $90k+2$: $92, 182, 272, 362, 452, 542, 632, 722, 812, 902,\\ldots$ Since $90=88+2$, $90k+2$ leaves the same remainder as $2k+2$ on division by $11$, which is first $0$ at $k=10$. So the required number is $902=11\\times 82$.",
+  "markingSteps": [
+   {
+    "step": "LCM of $6$, $15$, $18$ $=90$",
+    "marks": 1
+   },
+   {
+    "step": "Writes the number as $90k+2$",
+    "marks": 1
+   },
+   {
+    "step": "Finds $k=10$ and the number $902$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM word problems",
+  "patternId": "RN-WP-20",
+  "type": "case",
+  "marks": 4,
+  "complexity": "medium",
+  "competency": true,
+  "text": "At a river jetty, ferries on three routes leave every $15$ minutes, $24$ minutes and $40$ minutes respectively. All three ferries leave together at 6:00 a.m. The jetty runs from 6:00 a.m. to 6:00 p.m. The manager wants to plan staff for the times when all three ferries leave together.",
+  "answer": "(i) $2^{3}\\times 3$, $2^{3}\\times 5$; (ii) $120$ minutes; (iii) 8:00 a.m., $7$ times.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Write $24$ and $40$ as products of primes.",
+    "answer": "$24=2^{3}\\times 3$ and $40=2^{3}\\times 5$."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "Find the LCM of $15$, $24$ and $40$.",
+    "answer": "LCM $=2^{3}\\times 3\\times 5=120$, that is $120$ minutes."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "At what time will all three ferries next leave together after 6:00 a.m.? How many times in all do they leave together from 6:00 a.m. to 6:00 p.m., counting both these times?",
+    "answer": "They leave together every $120$ minutes $=2$ hours, so next at 8:00 a.m. In $12$ hours this happens $\\frac{12}{2}=6$ more times after 6:00 a.m., so $6+1=7$ times in all (6, 8, 10, 12, 2, 4, 6 o'clock)."
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF-LCM relation",
+  "patternId": "RN-REL-02",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "If HCF$(96,160)=32$ and LCM$(96,160)=24k$, then $k$ equals",
+  "options": [
+   "$40$",
+   "$20$",
+   "$16$",
+   "$480$"
+  ],
+  "answer": "Correct option: B) $20$ LCM $=\\frac{96\\times 160}{32}=480$, so $24k=480$ and $k=20$."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF-LCM relation",
+  "patternId": "RN-REL-04",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Two co-prime numbers have product $323$. Their LCM is",
+  "options": [
+   "$1$",
+   "$17$",
+   "$323$",
+   "$19$"
+  ],
+  "answer": "Correct option: C) $323$ For co-prime numbers HCF $=1$, so LCM $=\\frac{\\text{product}}{1}=323$."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF-LCM relation",
+  "patternId": "RN-REL-05",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "For any two positive integers $p$ and $q$, HCF$(p,q)\\times$ LCM$(p,q)$ is always equal to",
+  "options": [
+   "$p+q$",
+   "$\\frac{p}{q}$",
+   "$p^{2}q^{2}$",
+   "$pq$"
+  ],
+  "answer": "Correct option: D) $pq$ The product of the HCF and LCM of two numbers equals the product of the numbers."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF-LCM relation",
+  "patternId": "RN-REL-06",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Which of the following pairs can be the HCF and LCM, respectively, of two positive integers?",
+  "options": [
+   "$14$ and $98$",
+   "$16$ and $100$",
+   "$18$ and $81$",
+   "$24$ and $180$"
+  ],
+  "answer": "Correct option: A) $14$ and $98$ The HCF must divide the LCM. $98=14\\times 7$, but $16$, $18$ and $24$ do not divide $100$, $81$ and $180$."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF-LCM relation",
+  "patternId": "RN-REL-07",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "hard",
+  "competency": false,
+  "text": "How many pairs of positive integers (order not counted) have sum $96$ and HCF $12$?",
+  "options": [
+   "$4$",
+   "$2$",
+   "$3$",
+   "$1$"
+  ],
+  "answer": "Correct option: B) $2$ Write the numbers as $12x$, $12y$ with $x+y=8$ and $x$, $y$ co-prime: $(1,7)$ and $(3,5)$ only, giving $(12,84)$ and $(36,60)$."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF-LCM relation",
+  "patternId": "RN-REL-10",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Two numbers are in the ratio $4:9$ and their LCM is $540$. Find their HCF.",
+  "answer": "Let the numbers be $4x$ and $9x$. Since $4$ and $9$ are co-prime, HCF $=x$ and LCM $=36x$. So $36x=540$ and $x=15$. The numbers are $60$ and $135$, and their HCF is $15$.",
+  "markingSteps": [
+   {
+    "step": "Takes numbers $4x$, $9x$ with LCM $36x$",
+    "marks": 1
+   },
+   {
+    "step": "Finds $x=15$, so HCF $=15$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF-LCM relation",
+  "patternId": "RN-REL-11",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The sum of two numbers is $120$ and their difference is $24$. Find their HCF and LCM.",
+  "answer": "Larger number $=\\frac{120+24}{2}=72$, smaller $=\\frac{120-24}{2}=48$. $72=2^{3}\\times 3^{2}$, $48=2^{4}\\times 3$. HCF $=2^{3}\\times 3=24$, LCM $=2^{4}\\times 3^{2}=144$.",
+  "markingSteps": [
+   {
+    "step": "Finds the numbers $72$ and $48$",
+    "marks": 1
+   },
+   {
+    "step": "HCF $=24$ and LCM $=144$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF-LCM relation",
+  "patternId": "RN-REL-12",
+  "type": "short",
+  "marks": 2,
+  "complexity": "hard",
+  "competency": false,
+  "text": "The HCF of two positive integers is $6$ and their product is $1080$. Find all possible pairs of such numbers.",
+  "answer": "Let the numbers be $6x$ and $6y$ with $x$, $y$ co-prime. Then $36xy=1080$, so $xy=30$. Co-prime pairs with product $30$: $(1,30)$, $(2,15)$, $(3,10)$, $(5,6)$. The pairs are $(6,180)$, $(12,90)$, $(18,60)$ and $(30,36)$.",
+  "markingSteps": [
+   {
+    "step": "Writes the numbers as $6x$, $6y$ with $x$, $y$ co-prime and gets $xy=30$",
+    "marks": 1
+   },
+   {
+    "step": "Lists all four pairs $(6,180)$, $(12,90)$, $(18,60)$, $(30,36)$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF-LCM relation",
+  "patternId": "RN-REL-13",
+  "type": "short",
+  "marks": 3,
+  "complexity": "hard",
+  "competency": false,
+  "text": "Two positive integers have HCF $9$ and product $4860$. Find all possible pairs of such numbers, and show why the other factor pairs of the product fail.",
+  "answer": "Let the numbers be $9x$ and $9y$, where $x$ and $y$ are co-prime. Then $81xy=4860$, so $xy=60$. Factor pairs of $60$: $(1,60)$, $(2,30)$, $(3,20)$, $(4,15)$, $(5,12)$, $(6,10)$. $(2,30)$ and $(6,10)$ have common factor $2$, so they are not co-prime: they would give $(18,270)$ with HCF $54$ and $(54,90)$ with HCF $18$, not $9$. The remaining pairs give the numbers $(9,540)$, $(27,180)$, $(36,135)$ and $(45,108)$.",
+  "markingSteps": [
+   {
+    "step": "Sets up $9x$, $9y$ with $x$, $y$ co-prime and gets $xy=60$",
+    "marks": 1
+   },
+   {
+    "step": "Rejects $(2,30)$ and $(6,10)$ because they are not co-prime",
+    "marks": 1
+   },
+   {
+    "step": "States the four pairs $(9,540)$, $(27,180)$, $(36,135)$, $(45,108)$",
+    "marks": 1
+   }
+  ]
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Decimal expansions and number classification",
+  "patternId": "RN-CLS-01",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Which of the following is a rational number lying between $\\sqrt{2}$ and $\\sqrt{3}$?",
+  "options": [
+   "$1.3$",
+   "$1.8$",
+   "$1.5$",
+   "$\\frac{\\sqrt{2}+\\sqrt{3}}{2}$"
+  ],
+  "answer": "Correct option: C) $1.5$ $1.5^{2}=2.25$ lies between $2$ and $3$. ($1.3^{2}=1.69$, $1.8^{2}=3.24$, and the last option is irrational.)"
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Decimal expansions and number classification",
+  "patternId": "RN-CLS-02",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The number $0.363636\\ldots$ (with $36$ repeating) is",
+  "options": [
+   "a natural number",
+   "an integer",
+   "an irrational number",
+   "a rational number"
+  ],
+  "answer": "Correct option: D) a rational number A non-terminating recurring decimal is rational: $0.\\overline{36}=\\frac{36}{99}=\\frac{4}{11}$."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Decimal expansions and number classification",
+  "patternId": "RN-CLS-03",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "If $q^{2}=2.25$, then $q$ is",
+  "options": [
+   "a rational number",
+   "an irrational number",
+   "a natural number",
+   "an integer"
+  ],
+  "answer": "Correct option: A) a rational number $q=\\pm\\sqrt{2.25}=\\pm 1.5=\\pm\\frac{3}{2}$, which is rational but not an integer."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Decimal expansions and number classification",
+  "patternId": "RN-CLS-04",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "If $(-1)^{n}-(-1)^{5}=0$, then $n$ is",
+  "options": [
+   "any natural number",
+   "any odd natural number",
+   "any even natural number",
+   "any negative integer"
+  ],
+  "answer": "Correct option: B) any odd natural number $(-1)^{5}=-1$, so $(-1)^{n}+1=0$, giving $(-1)^{n}=-1$, which happens exactly when $n$ is odd."
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF written as a linear combination",
+  "patternId": "RN-LIN-01",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "If HCF$(78,120)$ is expressed in the form $120\\times 2+78m$, find the value of $m$.",
+  "answer": "$78=2\\times 3\\times 13$ and $120=2^{3}\\times 3\\times 5$, so HCF $=2\\times 3=6$. Then $240+78m=6$, so $78m=-234$ and $m=-3$.",
+  "markingSteps": [
+   {
+    "step": "HCF$(78,120)=6$",
+    "marks": 1
+   },
+   {
+    "step": "Solves $240+78m=6$ to get $m=-3$",
+    "marks": 1
+   }
+  ]
+ }
+]

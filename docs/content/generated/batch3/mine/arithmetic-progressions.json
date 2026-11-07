@@ -1,0 +1,232 @@
+[
+ {
+  "idx": 0,
+  "myAnswer": "C) 11, 7, 3, -1",
+  "how": "by hand"
+ },
+ {
+  "idx": 1,
+  "myAnswer": "D) 1/2,1/3,1/4,1/5",
+  "how": "by hand"
+ },
+ {
+  "idx": 2,
+  "myAnswer": "B) 3n^2+2",
+  "how": "by hand"
+ },
+ {
+  "idx": 3,
+  "myAnswer": "A) 25/2",
+  "how": "by hand"
+ },
+ {
+  "idx": 4,
+  "myAnswer": "D) (3n-1)/5",
+  "how": "by hand"
+ },
+ {
+  "idx": 5,
+  "myAnswer": "B) sqrt112",
+  "how": "by hand"
+ },
+ {
+  "idx": 6,
+  "myAnswer": "C) 11sqrt2",
+  "how": "by hand"
+ },
+ {
+  "idx": 7,
+  "myAnswer": "A) -4",
+  "how": "by hand"
+ },
+ {
+  "idx": 8,
+  "myAnswer": "D) 108",
+  "how": "by hand"
+ },
+ {
+  "idx": 9,
+  "myAnswer": "B) 27/10",
+  "how": "by hand"
+ },
+ {
+  "idx": 10,
+  "myAnswer": "C) A true (107-7*4=79), R false (should be l-(k-1)d)",
+  "how": "by hand"
+ },
+ {
+  "idx": 11,
+  "myAnswer": "A) 29",
+  "how": "by hand"
+ },
+ {
+  "idx": 12,
+  "myAnswer": "C) 26th",
+  "how": "by hand"
+ },
+ {
+  "idx": 13,
+  "myAnswer": "D) 35 (56..294)",
+  "how": "by hand"
+ },
+ {
+  "idx": 14,
+  "myAnswer": "B) 100",
+  "how": "by hand"
+ },
+ {
+  "idx": 15,
+  "myAnswer": "A) 12",
+  "how": "by hand"
+ },
+ {
+  "idx": 16,
+  "myAnswer": "C) 18th (a18=-2)",
+  "how": "by hand"
+ },
+ {
+  "idx": 17,
+  "myAnswer": "A) 3sqrt3",
+  "how": "by hand"
+ },
+ {
+  "idx": 18,
+  "myAnswer": "D) -1",
+  "how": "by hand"
+ },
+ {
+  "idx": 19,
+  "myAnswer": "D) A false (d=-7), R true",
+  "how": "by hand"
+ },
+ {
+  "idx": 20,
+  "myAnswer": "B) 546",
+  "how": "by hand"
+ },
+ {
+  "idx": 21,
+  "myAnswer": "C) 2",
+  "how": "by hand"
+ },
+ {
+  "idx": 22,
+  "myAnswer": "B) both true, R does not explain (sum of odd = n^2)",
+  "how": "by hand"
+ },
+ {
+  "idx": 23,
+  "myAnswer": "D) 4",
+  "how": "by hand"
+ },
+ {
+  "idx": 24,
+  "myAnswer": "A) -12",
+  "how": "by hand"
+ },
+ {
+  "idx": 25,
+  "myAnswer": "B) 3d (a=-21d)",
+  "how": "by hand"
+ },
+ {
+  "idx": 26,
+  "myAnswer": "n=13",
+  "how": "by hand"
+ },
+ {
+  "idx": 27,
+  "myAnswer": "proof: a=-5d, a26=20d, a16=10d",
+  "how": "by hand"
+ },
+ {
+  "idx": 28,
+  "myAnswer": "37",
+  "how": "by hand"
+ },
+ {
+  "idx": 29,
+  "myAnswer": "900 (a=7)",
+  "how": "by hand"
+ },
+ {
+  "idx": 30,
+  "myAnswer": "3984 (204..294, 16 terms)",
+  "how": "python"
+ },
+ {
+  "idx": 31,
+  "myAnswer": "AP 7,10,13,...; a20=64",
+  "how": "by hand"
+ },
+ {
+  "idx": 32,
+  "myAnswer": "981 (12..97, 18 terms)",
+  "how": "python"
+ },
+ {
+  "idx": 33,
+  "myAnswer": "proof: d=1/pq, a=1/pq, S_pq=(pq+1)/2",
+  "how": "by hand"
+ },
+ {
+  "idx": 34,
+  "myAnswer": "24:19 (S17 ratio 120:95)",
+  "how": "by hand"
+ },
+ {
+  "idx": 35,
+  "myAnswer": "12720,13440,14160; d=720; 26400",
+  "how": "by hand"
+ },
+ {
+  "idx": 36,
+  "myAnswer": "4,9,14 -> S15=585; 14,9,4 -> S15=-315",
+  "how": "by hand"
+ },
+ {
+  "idx": 37,
+  "myAnswer": "Sn=n(3n+5)/2; S20=650 (a=4,d=3)",
+  "how": "by hand"
+ },
+ {
+  "idx": 38,
+  "myAnswer": "proof: subtract, a+... gives S_{p+q}=-(p+q)",
+  "how": "by hand"
+ },
+ {
+  "idx": 39,
+  "myAnswer": "x=1189 (x^2=1681*841), common sum 706266",
+  "how": "python"
+ },
+ {
+  "idx": 40,
+  "myAnswer": "(i) 2n+1 (ii) 31 (iii) Figure 30; 120",
+  "how": "by hand"
+ },
+ {
+  "idx": 41,
+  "myAnswer": "(i) 33 (ii) Figure 25 (iii) 324",
+  "how": "by hand"
+ },
+ {
+  "idx": 42,
+  "myAnswer": "(i) 10 m (ii) 40 m (iii) 516 m",
+  "how": "by hand"
+ },
+ {
+  "idx": 43,
+  "myAnswer": "(i) 170 (ii) 53 (iii) 833; 1785",
+  "how": "python"
+ },
+ {
+  "idx": 44,
+  "myAnswer": "(i) 4500 (ii) 8000 (iii) 35000",
+  "how": "by hand"
+ },
+ {
+  "idx": 45,
+  "myAnswer": "(i) 310 (ii) 1080 (iii) 6250",
+  "how": "by hand"
+ }
+]

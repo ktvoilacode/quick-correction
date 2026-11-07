@@ -1,0 +1,443 @@
+[
+  {
+    "chapter": "Polynomials",
+    "topic": "Division algorithm and evaluation",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "The remainder when $p(x) = x^{3} - 2x^{2} + 5x - 7$ is divided by $x - 2$ is",
+    "options": [
+      "$-3$",
+      "$3$",
+      "$-33$",
+      "$7$"
+    ],
+    "answer": "Correct option: B) $3$. By the remainder theorem the remainder is $p(2) = 8 - 8 + 10 - 7 = 3$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Polynomials",
+    "topic": "Number and nature of zeroes",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Which of the following quadratic polynomials has two distinct real zeroes?",
+    "options": [
+      "$x^{2} + 4x + 7$",
+      "$2x^{2} - x + 3$",
+      "$4x^{2} - 12x + 9$",
+      "$3x^{2} - 5x + 1$"
+    ],
+    "answer": "Correct option: D) $3x^{2} - 5x + 1$. For $3x^{2} - 5x + 1$, $b^{2} - 4ac = 25 - 12 = 13 > 0$. The others give $16 - 28 < 0$, $1 - 24 < 0$ and $144 - 144 = 0$ (equal zeroes).",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Polynomials",
+    "topic": "Number and nature of zeroes",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Assertion (A): Every cubic polynomial has at least one real zero.\nReason (R): The graph of every cubic polynomial cuts the $x$-axis at exactly three distinct points.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: C) A is true but R is false. A cubic graph runs from one side of the $x$-axis to the other, so it must cut the axis at least once, which makes A true. R is false because a cubic such as $x^{3}$ meets the $x$-axis at only one point, and the number of zeroes can be 1, 2 or 3.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Polynomials",
+    "topic": "Zeroes from a graph",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The graph of a quadratic polynomial $y = p(x)$ is a parabola that opens downwards and has its highest point at $(3, -4)$. The number of zeroes of $p(x)$ is",
+    "options": [
+      "$0$",
+      "$1$",
+      "$2$",
+      "$3$"
+    ],
+    "answer": "Correct option: A) $0$. The highest point of the graph has $y = -4 < 0$, so the whole parabola lies below the $x$-axis and never meets it. Hence $p(x)$ has no real zero.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Polynomials",
+    "topic": "Value of k from a zero",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "If $2$ is a zero of the polynomial $p(x) = x^{3} - kx^{2} + 3x - 2$, then the value of $k$ is",
+    "options": [
+      "$-3$",
+      "$4$",
+      "$3$",
+      "$6$"
+    ],
+    "answer": "Correct option: C) $3$. Since $p(2) = 0$: $8 - 4k + 6 - 2 = 0$, so $12 - 4k = 0$ and $k = 3$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Polynomials",
+    "topic": "Zeroes and coefficients",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "If $\\alpha$ and $\\beta$ are the zeroes of the polynomial $3x^{2} - 8x + 2$, then $\\frac{\\alpha}{\\beta} + \\frac{\\beta}{\\alpha}$ is equal to",
+    "options": [
+      "$\\frac{26}{3}$",
+      "$\\frac{52}{9}$",
+      "$\\frac{8}{3}$",
+      "$\\frac{13}{3}$"
+    ],
+    "answer": "Correct option: A) $\\frac{26}{3}$. Here $\\alpha + \\beta = \\frac{8}{3}$ and $\\alpha\\beta = \\frac{2}{3}$. Then $\\frac{\\alpha^{2} + \\beta^{2}}{\\alpha\\beta} = \\frac{\\frac{64}{9} - \\frac{4}{3}}{\\frac{2}{3}} = \\frac{52/9}{2/3} = \\frac{26}{3}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Polynomials",
+    "topic": "Division algorithm and evaluation",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Divide $2x^{3} + 3x^{2} - 5x + 4$ by $x^{2} + x - 1$ and write the quotient and the remainder.",
+    "answer": "Divide: $2x^{3} \\div x^{2} = 2x$; subtract $2x(x^{2} + x - 1) = 2x^{3} + 2x^{2} - 2x$ to get $x^{2} - 3x + 4$. Next $x^{2} \\div x^{2} = 1$; subtract $x^{2} + x - 1$ to get $-4x + 5$, whose degree is less than 2. Quotient $= 2x + 1$, remainder $= -4x + 5$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Polynomials",
+    "topic": "Division algorithm and evaluation",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "When a polynomial $p(x)$ is divided by $g(x) = x^{2} - 4x + 3$, the quotient is $2x + 5$ and the remainder is $x - 1$. Find $p(x)$.",
+    "answer": "By the division algorithm $p(x) = g(x)\\,q(x) + r(x)$. $(x^{2} - 4x + 3)(2x + 5) = 2x^{3} - 3x^{2} - 14x + 15$. Adding the remainder: $p(x) = 2x^{3} - 3x^{2} - 14x + 15 + x - 1 = 2x^{3} - 3x^{2} - 13x + 14$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Polynomials",
+    "topic": "Value of k from a zero",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "If $-\\frac{3}{2}$ is a zero of the polynomial $p(x) = 2x^{2} + 7x + k$, find the value of $k$ and the other zero.",
+    "answer": "$p\\left(-\\frac{3}{2}\\right) = \\frac{9}{2} - \\frac{21}{2} + k = 0$, so $k = 6$. Product of zeroes $= \\frac{6}{2} = 3$, so the other zero is $3 \\div \\left(-\\frac{3}{2}\\right) = -2$. Thus $k = 6$ and the other zero is $-2$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Polynomials",
+    "topic": "Number and nature of zeroes",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The graph of the polynomial $y = 4x^{2} + kx + 25$ touches the $x$-axis at exactly one point. Find the possible values of $k$.",
+    "answer": "The graph touches the $x$-axis at one point when the two zeroes are equal, i.e. $b^{2} - 4ac = 0$. So $k^{2} - 4(4)(25) = 0$, giving $k^{2} = 400$ and $k = \\pm 20$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Polynomials",
+    "topic": "Forming a polynomial from zeroes",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Find a quadratic polynomial whose zeroes are $\\frac{3}{4}$ and $-\\frac{5}{3}$.",
+    "answer": "Sum of zeroes $= \\frac{3}{4} - \\frac{5}{3} = -\\frac{11}{12}$ and product $= \\frac{3}{4} \\times \\left(-\\frac{5}{3}\\right) = -\\frac{5}{4}$. A polynomial is $x^{2} + \\frac{11}{12}x - \\frac{5}{4}$. Multiplying by 12: $12x^{2} + 11x - 15$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Polynomials",
+    "topic": "Zeroes from a graph",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The graph of a quadratic polynomial $y = p(x)$, with leading coefficient 2, cuts the $x$-axis at $(-2, 0)$ and $(6, 0)$. Find $p(x)$ and the point where its graph cuts the $y$-axis.",
+    "answer": "Zeroes are $-2$ and $6$, so $p(x) = 2(x + 2)(x - 6) = 2(x^{2} - 4x - 12) = 2x^{2} - 8x - 24$. At $x = 0$, $y = -24$, so the graph cuts the $y$-axis at $(0, -24)$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Polynomials",
+    "topic": "Zeroes and coefficients",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "If $\\alpha$ and $\\beta$ are the zeroes of the polynomial $2x^{2} - 5x - 3$, find the value of $\\alpha^{3} + \\beta^{3}$.",
+    "answer": "$\\alpha + \\beta = \\frac{5}{2}$, $\\alpha\\beta = -\\frac{3}{2}$. $\\alpha^{3} + \\beta^{3} = (\\alpha + \\beta)^{3} - 3\\alpha\\beta(\\alpha + \\beta) = \\frac{125}{8} + \\frac{45}{4} = \\frac{125 + 90}{8} = \\frac{215}{8}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Polynomials",
+    "topic": "Zeroes and coefficients",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": false,
+    "text": "If $\\alpha$ and $\\beta$ are the zeroes of $2x^{2} - 7x + 3$ with $\\alpha > \\beta$, find $\\alpha - \\beta$ using the relations between the zeroes and the coefficients.",
+    "answer": "$\\alpha + \\beta = \\frac{7}{2}$, $\\alpha\\beta = \\frac{3}{2}$. $(\\alpha - \\beta)^{2} = \\left(\\frac{7}{2}\\right)^{2} - 4 \\times \\frac{3}{2} = \\frac{49}{4} - 6 = \\frac{25}{4}$. Since $\\alpha > \\beta$, $\\alpha - \\beta = \\frac{5}{2}$. (Check: zeroes are $3$ and $\\frac{1}{2}$.)",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Polynomials",
+    "topic": "Division algorithm and evaluation",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Divide $p(x) = 4x^{3} - 5x^{2} + 7x - 9$ by $g(x) = x^{2} - x + 2$ and verify the division algorithm.",
+    "answer": "$4x^{3} \\div x^{2} = 4x$; subtract $4x^{3} - 4x^{2} + 8x$ to get $-x^{2} - x - 9$. Then $-x^{2} \\div x^{2} = -1$; subtract $-x^{2} + x - 2$ to get $-2x - 7$. Quotient $q(x) = 4x - 1$, remainder $r(x) = -2x - 7$. Verify: $g(x)q(x) + r(x) = (x^{2} - x + 2)(4x - 1) - 2x - 7 = 4x^{3} - 5x^{2} + 9x - 2 - 2x - 7 = 4x^{3} - 5x^{2} + 7x - 9 = p(x)$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Polynomials",
+    "topic": "Division algorithm and evaluation",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Show that $x^{2} + 1$ is a factor of $p(x) = x^{4} + x^{3} + 3x^{2} + x + 2$. Hence find the number of real zeroes of $p(x)$.",
+    "answer": "Dividing: $x^{4} \\div x^{2} = x^{2}$, subtract $x^{4} + x^{2}$ to get $x^{3} + 2x^{2} + x + 2$; then $x^{3} \\div x^{2} = x$, subtract $x^{3} + x$ to get $2x^{2} + 2$; then $2$, subtract $2x^{2} + 2$ to get remainder $0$. So $p(x) = (x^{2} + 1)(x^{2} + x + 2)$ and $x^{2} + 1$ is a factor. $x^{2} + 1 > 0$ for all real $x$, and $x^{2} + x + 2$ has $b^{2} - 4ac = 1 - 8 = -7 < 0$. So neither factor vanishes: $p(x)$ has no real zero (number of real zeroes $= 0$).",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Polynomials",
+    "topic": "Forming a polynomial from zeroes",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "If $\\alpha$ and $\\beta$ are the zeroes of the polynomial $2x^{2} - 7x + 4$, find a quadratic polynomial whose zeroes are $\\frac{1}{\\alpha}$ and $\\frac{1}{\\beta}$.",
+    "answer": "$\\alpha + \\beta = \\frac{7}{2}$ and $\\alpha\\beta = 2$. New sum $= \\frac{1}{\\alpha} + \\frac{1}{\\beta} = \\frac{\\alpha + \\beta}{\\alpha\\beta} = \\frac{7}{4}$; new product $= \\frac{1}{\\alpha\\beta} = \\frac{1}{2}$. Polynomial: $x^{2} - \\frac{7}{4}x + \\frac{1}{2}$, or multiplying by 4, $4x^{2} - 7x + 2$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Polynomials",
+    "topic": "Zeroes and coefficients",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "easy",
+    "competency": false,
+    "text": "The sum of the squares of the zeroes of the polynomial $x^{2} - 6x + k$ is 20. Find the value of $k$ and the zeroes.",
+    "answer": "$\\alpha + \\beta = 6$, $\\alpha\\beta = k$. $\\alpha^{2} + \\beta^{2} = (\\alpha + \\beta)^{2} - 2\\alpha\\beta = 36 - 2k = 20$, so $k = 8$. Then $x^{2} - 6x + 8 = (x - 2)(x - 4)$, so the zeroes are $2$ and $4$ (check: $4 + 16 = 20$).",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Polynomials",
+    "topic": "Forming a polynomial from zeroes",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Find the cubic polynomial with zeroes $3$, $-2$ and $\\frac{1}{2}$ and leading coefficient 2. Verify that the sum of the zeroes equals $-\\frac{b}{a}$ and the product equals $-\\frac{d}{a}$.",
+    "answer": "$p(x) = 2(x - 3)(x + 2)\\left(x - \\frac{1}{2}\\right) = 2x^{3} - 3x^{2} - 11x + 6$. Here $a = 2$, $b = -3$, $d = 6$. Sum of zeroes $= 3 - 2 + \\frac{1}{2} = \\frac{3}{2} = -\\frac{b}{a}$. Product $= 3 \\times (-2) \\times \\frac{1}{2} = -3 = -\\frac{d}{a}$. Both relations hold.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Polynomials",
+    "topic": "Number and nature of zeroes",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "hard",
+    "competency": false,
+    "text": "Find the values of $k$ for which the graph of $y = x^{2} + 2(k + 1)x + 9$ touches the $x$-axis at exactly one point. For each such $k$, find the zero of the polynomial.",
+    "answer": "Equal zeroes need $b^{2} - 4ac = 0$: $4(k + 1)^{2} - 36 = 0$, so $(k + 1)^{2} = 9$ and $k + 1 = \\pm 3$, giving $k = 2$ or $k = -4$. For $k = 2$: $x^{2} + 6x + 9 = (x + 3)^{2}$, zero $-3$. For $k = -4$: $x^{2} - 6x + 9 = (x - 3)^{2}$, zero $3$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Polynomials",
+    "topic": "Zeroes from a graph",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The graph of a cubic polynomial $y = p(x)$ cuts the $x$-axis at the points $(-1, 0)$, $(2, 0)$ and $(5, 0)$, and cuts the $y$-axis at $(0, -20)$. Find $p(x)$ and verify that the sum of its zeroes equals $-\\frac{b}{a}$.",
+    "answer": "$p(x) = a(x + 1)(x - 2)(x - 5)$. At $x = 0$: $a(1)(-2)(-5) = 10a = -20$, so $a = -2$. Expanding, $p(x) = -2(x^{3} - 6x^{2} + 3x + 10) = -2x^{3} + 12x^{2} - 6x - 20$. Sum of zeroes $= -1 + 2 + 5 = 6$ and $-\\frac{b}{a} = -\\frac{12}{-2} = 6$. Verified.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Polynomials",
+    "topic": "Zeroes and coefficients",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Consider the polynomial $p(x) = 10x^{2} - 9x - 7$.\n(i) Find its zeroes by factorisation.\n(ii) Verify the relationship between the zeroes and the coefficients.\n(iii) Find a quadratic polynomial whose zeroes are twice the zeroes of $p(x)$.",
+    "answer": "(i) $10x^{2} - 9x - 7 = 10x^{2} - 14x + 5x - 7 = 2x(5x - 7) + 1(5x - 7) = (5x - 7)(2x + 1)$. Zeroes: $\\frac{7}{5}$ and $-\\frac{1}{2}$. (ii) Sum $= \\frac{7}{5} - \\frac{1}{2} = \\frac{9}{10} = -\\frac{-9}{10}$; product $= \\frac{7}{5} \\times \\left(-\\frac{1}{2}\\right) = -\\frac{7}{10} = \\frac{-7}{10}$. Both match. (iii) New zeroes $\\frac{14}{5}$ and $-1$: sum $= \\frac{9}{5}$, product $= -\\frac{14}{5}$. Polynomial: $x^{2} - \\frac{9}{5}x - \\frac{14}{5}$, i.e. $5x^{2} - 9x - 14$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Polynomials",
+    "topic": "Division algorithm and evaluation",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Divide $p(x) = 6x^{4} + x^{3} - x^{2} + 15x - 5$ by $g(x) = 2x^{2} - x + 3$.\n(i) Find the quotient $q(x)$ and the remainder $r(x)$.\n(ii) Verify the division algorithm.\n(iii) Write the degree of $r(x)$ and compare it with the degree of $g(x)$.",
+    "answer": "(i) $6x^{4} \\div 2x^{2} = 3x^{2}$; subtract $6x^{4} - 3x^{3} + 9x^{2}$ to get $4x^{3} - 10x^{2} + 15x - 5$. Then $4x^{3} \\div 2x^{2} = 2x$; subtract $4x^{3} - 2x^{2} + 6x$ to get $-8x^{2} + 9x - 5$. Then $-8x^{2} \\div 2x^{2} = -4$; subtract $-8x^{2} + 4x - 12$ to get $5x + 7$. So $q(x) = 3x^{2} + 2x - 4$ and $r(x) = 5x + 7$. (ii) $g(x)q(x) + r(x) = (2x^{2} - x + 3)(3x^{2} + 2x - 4) + 5x + 7 = 6x^{4} + x^{3} - x^{2} + 10x - 12 + 5x + 7 = 6x^{4} + x^{3} - x^{2} + 15x - 5 = p(x)$. (iii) $\\deg r = 1 < 2 = \\deg g$, as the algorithm requires.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Polynomials",
+    "topic": "Zeroes and coefficients",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Two zeroes of the polynomial $p(x) = x^{4} - 2x^{3} - 7x^{2} + 8x + 12$ are $2$ and $-1$.\n(i) Form the quadratic polynomial having these two zeroes.\n(ii) Divide $p(x)$ by it and find the quotient.\n(iii) Hence find the remaining zeroes of $p(x)$.",
+    "answer": "(i) Sum $= 1$, product $= -2$, so the quadratic is $x^{2} - x - 2$. (ii) Dividing: $x^{4} \\div x^{2} = x^{2}$, subtract $x^{4} - x^{3} - 2x^{2}$ to get $-x^{3} - 5x^{2} + 8x + 12$; then $-x$, subtract $-x^{3} + x^{2} + 2x$ to get $-6x^{2} + 6x + 12$; then $-6$, remainder $0$. Quotient $= x^{2} - x - 6$. (iii) $x^{2} - x - 6 = (x - 3)(x + 2)$, so the other zeroes are $3$ and $-2$. All zeroes: $2, -1, 3, -2$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Polynomials",
+    "topic": "Zeroes and coefficients",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": true,
+    "text": "The zeroes of the cubic polynomial $p(x) = x^{3} - 3x^{2} - 6x + 8$ are in arithmetic progression.\n(i) Write the zeroes as $a - d$, $a$, $a + d$ and use the sum of the zeroes to find $a$.\n(ii) Use the product of the zeroes to find $d$.\n(iii) Write the three zeroes and verify the sum of the products of the zeroes taken two at a time.",
+    "answer": "(i) Sum of zeroes $= (a - d) + a + (a + d) = 3a = -\\frac{-3}{1} = 3$, so $a = 1$. (ii) Product $= (a - d)\\,a\\,(a + d) = a(a^{2} - d^{2}) = 1 - d^{2}$, which equals $-\\frac{8}{1} = -8$. So $d^{2} = 9$ and $d = \\pm 3$. (iii) Taking $d = 3$ the zeroes are $-2$, $1$, $4$. Sum of products in pairs $= (-2)(1) + (1)(4) + (4)(-2) = -2 + 4 - 8 = -6 = \\frac{c}{a} = \\frac{-6}{1}$. Verified. (Also $p(1) = 1 - 3 - 6 + 8 = 0$.)",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Polynomials",
+    "topic": "Division algorithm and evaluation",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": false,
+    "text": "The polynomial $x^{2} - x - 6$ is a factor of $p(x) = x^{4} - 2x^{3} + ax^{2} + bx - 60$.\n(i) Find $a$ and $b$.\n(ii) Find the quotient on dividing $p(x)$ by $x^{2} - x - 6$.\n(iii) Find all real zeroes of $p(x)$.",
+    "answer": "(i) $x^{2} - x - 6 = (x - 3)(x + 2)$, so $p(3) = 0$ and $p(-2) = 0$. $p(3) = 81 - 54 + 9a + 3b - 60 = 0$ gives $3a + b = 11$. $p(-2) = 16 + 16 + 4a - 2b - 60 = 0$ gives $2a - b = 14$. Adding: $5a = 25$, so $a = 5$ and $b = -4$. (ii) Dividing $x^{4} - 2x^{3} + 5x^{2} - 4x - 60$ by $x^{2} - x - 6$: first term $x^{2}$ leaves $-x^{3} + 11x^{2} - 4x - 60$; next $-x$ leaves $10x^{2} - 10x - 60$; next $10$ leaves $0$. Quotient $= x^{2} - x + 10$. (iii) For the quotient $b^{2} - 4ac = 1 - 40 < 0$, so it gives no real zero. The real zeroes of $p(x)$ are only $3$ and $-2$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Polynomials",
+    "topic": "Zeroes from a graph",
+    "slot": "E-case-study (4 marks, with sub-parts)",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A bakery owner finds that the daily profit (in thousands of rupees) from selling $x$ hundred cakes is given by $P(x) = -x^{2} + 12x - 20$. The graph of $y = P(x)$ is a parabola.\n(i) Does the parabola open upwards or downwards? Give a reason. [1]\n(ii) Find the numbers of cakes (in hundreds) at which the profit is zero, i.e. the zeroes of $P(x)$. [1]\n(iii) Use the symmetry of the parabola about the midpoint of the zeroes to find the number of cakes giving the maximum profit, and the maximum profit. [2]",
+    "answer": "(i) Downwards, because the coefficient of $x^{2}$ is $-1 < 0$. (ii) $-x^{2} + 12x - 20 = 0 \\Rightarrow x^{2} - 12x + 20 = 0 \\Rightarrow (x - 2)(x - 10) = 0$, so the zeroes are $x = 2$ and $x = 10$, i.e. 200 and 1000 cakes. (iii) The highest point lies midway between the zeroes: $x = \\frac{2 + 10}{2} = 6$, i.e. 600 cakes. Maximum profit $P(6) = -36 + 72 - 20 = 16$ thousand rupees, i.e. ₹16000.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  }
+]

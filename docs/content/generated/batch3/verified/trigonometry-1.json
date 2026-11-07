@@ -1,0 +1,1127 @@
+[
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratio from a given ratio",
+    "patternId": "TG-RG-01",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "If $\\cos A = \\frac{12}{13}$ and $A$ is acute, the value of $\\tan A$ is",
+    "options": [
+      "$\\frac{5}{13}$",
+      "$\\frac{12}{5}$",
+      "$\\frac{5}{12}$",
+      "$\\frac{13}{5}$"
+    ],
+    "answer": "Correct option: C) $\\frac{5}{12}$ Take adjacent side $12$, hypotenuse $13$; opposite side $= \\sqrt{169-144} = 5$, so $\\tan A = \\frac{5}{12}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratio from a given ratio",
+    "patternId": "TG-RG-02",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "If $\\tan\\theta = \\frac{a}{b}$ with $\\theta$ acute, then $\\cos\\theta$ equals",
+    "options": [
+      "$\\frac{b}{\\sqrt{a^{2}+b^{2}}}$",
+      "$\\frac{a}{\\sqrt{a^{2}+b^{2}}}$",
+      "$\\frac{\\sqrt{a^{2}+b^{2}}}{b}$",
+      "$\\frac{b}{a}$"
+    ],
+    "answer": "Correct option: A) $\\frac{b}{\\sqrt{a^{2}+b^{2}}}$ Opposite side $a$, adjacent side $b$, hypotenuse $\\sqrt{a^{2}+b^{2}}$, so $\\cos\\theta = \\frac{b}{\\sqrt{a^{2}+b^{2}}}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratio from a given ratio",
+    "patternId": "TG-RG-03",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "If $5\\cos A = 3$ and $A$ is acute, the value of $\\tan A + \\cot A$ is",
+    "options": [
+      "$\\frac{4}{3}$",
+      "$\\frac{25}{12}$",
+      "$\\frac{7}{12}$",
+      "$\\frac{12}{25}$"
+    ],
+    "answer": "Correct option: B) $\\frac{25}{12}$ $\\cos A = \\frac{3}{5}$ gives $\\sin A = \\frac{4}{5}$, so $\\tan A = \\frac{4}{3}$, $\\cot A = \\frac{3}{4}$ and the sum is $\\frac{16+9}{12} = \\frac{25}{12}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratio from a given ratio",
+    "patternId": "TG-RG-04",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "If $\\sin A = \\frac{3}{5}$ and $A$ is acute, the value of $\\frac{\\operatorname{cosec} A + \\cot A}{\\operatorname{cosec} A - \\cot A}$ is",
+    "options": [
+      "$\\frac{1}{9}$",
+      "$3$",
+      "$\\frac{29}{11}$",
+      "$9$"
+    ],
+    "answer": "Correct option: D) $9$ $\\operatorname{cosec} A = \\frac{5}{3}$ and $\\cos A = \\frac{4}{5}$, so $\\cot A = \\frac{4}{3}$. The value is $\\frac{\\frac{9}{3}}{\\frac{1}{3}} = 9$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratio from a given ratio",
+    "patternId": "TG-RG-05",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "If $\\cos A = \\frac{1}{3}$, the value of $3\\sin^{2}A + \\cos^{2}A$ is",
+    "options": [
+      "$\\frac{25}{9}$",
+      "$1$",
+      "$\\frac{19}{9}$",
+      "$\\frac{10}{9}$"
+    ],
+    "answer": "Correct option: A) $\\frac{25}{9}$ $\\sin^{2}A = 1 - \\frac{1}{9} = \\frac{8}{9}$, so the value is $3 \\times \\frac{8}{9} + \\frac{1}{9} = \\frac{25}{9}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratio from a given ratio",
+    "patternId": "TG-RG-06",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "If $\\sin x = \\cos x$ for an acute angle $x$, the value of $\\sec x \\cdot \\operatorname{cosec} x$ is",
+    "options": [
+      "$1$",
+      "$\\sqrt{2}$",
+      "$2$",
+      "$\\frac{1}{2}$"
+    ],
+    "answer": "Correct option: C) $2$ $\\sin x = \\cos x$ gives $\\tan x = 1$, so $x = 45^\\circ$ and $\\sec 45^\\circ \\cdot \\operatorname{cosec} 45^\\circ = \\sqrt{2} \\times \\sqrt{2} = 2$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratio from a given ratio",
+    "patternId": "TG-RG-AR2",
+    "type": "assertion_reason",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Assertion (A): If $\\sin A = 0.6$ and $A$ is acute, then $\\cos A = 0.4$.\nReason (R): $\\sin^{2}A + \\cos^{2}A = 1$ for every acute angle $A$.",
+    "options": [
+      "Both A and R are true and R explains A",
+      "Both A and R are true but R does not explain A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: D) A is false but R is true. By the identity, $\\cos^{2}A = 1 - 0.36 = 0.64$, so $\\cos A = 0.8$, not $0.4$. A is false (it wrongly uses $\\sin A + \\cos A = 1$); R is a true identity.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratio from a given ratio",
+    "patternId": "TG-RG-B1",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "If $\\cot\\theta = \\frac{7}{24}$ and $\\theta$ is acute, find the value of $\\sin\\theta + \\cos\\theta$.",
+    "answer": "Take a right triangle with the side adjacent to $\\theta$ equal to $7k$ and the opposite side $24k$. Hypotenuse $= \\sqrt{(7k)^{2} + (24k)^{2}} = \\sqrt{625k^{2}} = 25k$. So $\\sin\\theta = \\frac{24}{25}$ and $\\cos\\theta = \\frac{7}{25}$. Hence $\\sin\\theta + \\cos\\theta = \\frac{24+7}{25} = \\frac{31}{25}$.",
+    "markingSteps": [
+      {
+        "step": "Hypotenuse found as $25k$ using Pythagoras theorem",
+        "marks": 1
+      },
+      {
+        "step": "$\\sin\\theta = \\frac{24}{25}$, $\\cos\\theta = \\frac{7}{25}$ and sum $= \\frac{31}{25}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratio from a given ratio",
+    "patternId": "TG-RG-B2",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": false,
+    "text": "If $\\operatorname{cosec} A = \\frac{13}{12}$ and $A$ is acute, find the value of $\\cot A + \\tan A$.",
+    "answer": "$\\sin A = \\frac{12}{13}$, so $\\cos A = \\sqrt{1 - \\frac{144}{169}} = \\frac{5}{13}$. Then $\\tan A = \\frac{12}{5}$ and $\\cot A = \\frac{5}{12}$. So $\\cot A + \\tan A = \\frac{5}{12} + \\frac{12}{5} = \\frac{25 + 144}{60} = \\frac{169}{60}$.",
+    "markingSteps": [
+      {
+        "step": "$\\cos A = \\frac{5}{13}$, giving $\\tan A = \\frac{12}{5}$ and $\\cot A = \\frac{5}{12}$",
+        "marks": 1
+      },
+      {
+        "step": "Sum $= \\frac{169}{60}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratio from a given ratio",
+    "patternId": "TG-RG-B3",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "If $\\tan A = m$ and $A$ is acute, write $\\sec A$ and $\\sin A$ in terms of $m$.",
+    "answer": "Using $\\sec^{2}A = 1 + \\tan^{2}A = 1 + m^{2}$ and $\\sec A > 0$ for acute $A$: $\\sec A = \\sqrt{1+m^{2}}$. Then $\\cos A = \\frac{1}{\\sqrt{1+m^{2}}}$ and $\\sin A = \\tan A \\cos A = \\frac{m}{\\sqrt{1+m^{2}}}$.",
+    "markingSteps": [
+      {
+        "step": "$\\sec A = \\sqrt{1+m^{2}}$ using $1 + \\tan^{2}A = \\sec^{2}A$",
+        "marks": 1
+      },
+      {
+        "step": "$\\sin A = \\frac{m}{\\sqrt{1+m^{2}}}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratios from a right-triangle figure",
+    "patternId": "TG-RF-01",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "In the figure, $\\triangle PQR$ is right-angled at $Q$, $PQ = 6\\text{ cm}$ and $QR = 16\\text{ cm}$. $M$ is the midpoint of $QR$. The value of $\\tan\\angle QPM$ is",
+    "options": [
+      "$\\frac{3}{4}$",
+      "$\\frac{4}{3}$",
+      "$\\frac{8}{3}$",
+      "$\\frac{3}{8}$"
+    ],
+    "answer": "Correct option: B) $\\frac{4}{3}$ $QM = 8\\text{ cm}$. In right $\\triangle PQM$, $\\tan\\angle QPM = \\frac{QM}{PQ} = \\frac{8}{6} = \\frac{4}{3}$.",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 250\"><polygon points=\"60,92 60,200 348,200\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"92\" x2=\"204\" y2=\"200\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"60,190 70,190 70,200\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"132.0\" y1=\"194.0\" x2=\"132.0\" y2=\"206.0\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"276.0\" y1=\"194.0\" x2=\"276.0\" y2=\"206.0\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"48\" y=\"88\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">P</text><text x=\"48\" y=\"214\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">Q</text><text x=\"356\" y=\"214\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">R</text><text x=\"204\" y=\"218\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">M</text><text x=\"52\" y=\"150\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">6 cm</text><text x=\"204\" y=\"240\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">16 cm</text></svg>",
+    "figureAlt": "Right triangle PQR with the right angle at Q, PQ vertical and labelled 6 cm, QR horizontal and labelled 16 cm. M is the midpoint of QR, marked with equal ticks, and P is joined to M.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratios from a right-triangle figure",
+    "patternId": "TG-RF-02",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "In the figure, $AD \\perp BC$ and $BD : DC = 3 : 1$. If $\\angle ABD = a$ and $\\angle ACD = b$, the value of $\\frac{\\tan a}{\\tan b}$ is",
+    "options": [
+      "$\\frac{1}{3}$",
+      "$3$",
+      "$\\frac{1}{4}$",
+      "$\\frac{3}{4}$"
+    ],
+    "answer": "Correct option: A) $\\frac{1}{3}$ $\\tan a = \\frac{AD}{BD}$ and $\\tan b = \\frac{AD}{DC}$, so $\\frac{\\tan a}{\\tan b} = \\frac{DC}{BD} = \\frac{1}{3}$.",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 240\"><polygon points=\"285,60 30,200 370,200\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"285\" y1=\"60\" x2=\"285\" y2=\"200\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"285,190 275,190 275,200\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 58.0 200.0 A 28 28 0 0 0 54.5 186.5\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 348.0 200.0 A 22 22 0 0 1 358.6 181.2\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"285\" y=\"50\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"22\" y=\"216\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">B</text><text x=\"378\" y=\"216\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">C</text><text x=\"285\" y=\"218\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text><text x=\"66\" y=\"194\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">a</text><text x=\"342\" y=\"194\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">b</text></svg>",
+    "figureAlt": "Triangle ABC with base BC horizontal. AD is drawn from A perpendicular to BC, with D closer to C. The angle at B is marked a and the angle at C is marked b.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratios from a right-triangle figure",
+    "patternId": "TG-RF-03",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "In the figure, $\\triangle XYZ$ is right-angled at $Y$ with $XY = 8\\text{ cm}$ and $YZ = 15\\text{ cm}$. If $\\angle XZY = \\theta$, the value of $\\sin\\theta$ is",
+    "options": [
+      "$\\frac{8}{15}$",
+      "$\\frac{15}{17}$",
+      "$\\frac{8}{17}$",
+      "$\\frac{17}{8}$"
+    ],
+    "answer": "Correct option: C) $\\frac{8}{17}$ $XZ = \\sqrt{64 + 225} = 17\\text{ cm}$, so $\\sin\\theta = \\frac{XY}{XZ} = \\frac{8}{17}$.",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\"><polygon points=\"50,88 50,200 260,200\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"50,190 60,190 60,200\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M 230.0 200.0 A 30 30 0 0 1 233.5 185.9\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"42\" y=\"84\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">X</text><text x=\"42\" y=\"214\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">Y</text><text x=\"268\" y=\"214\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">Z</text><text x=\"42\" y=\"148\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">8 cm</text><text x=\"155\" y=\"222\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">15 cm</text><text x=\"222\" y=\"194\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">θ</text></svg>",
+    "figureAlt": "Right triangle XYZ with the right angle at Y. XY is vertical and labelled 8 cm, YZ is horizontal and labelled 15 cm, and the angle at Z is marked theta.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratios from a right-triangle figure",
+    "patternId": "TG-RF-B1",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "In the figure, $\\triangle ABC$ is right-angled at $B$, $AB = 6\\text{ cm}$ and $AC = 10\\text{ cm}$. Find $\\tan C$ and $\\sec C + \\operatorname{cosec} C$.",
+    "answer": "By Pythagoras theorem, $BC = \\sqrt{AC^{2} - AB^{2}} = \\sqrt{100 - 36} = 8\\text{ cm}$. For angle $C$: opposite side $AB = 6$, adjacent side $BC = 8$, hypotenuse $AC = 10$. So $\\tan C = \\frac{6}{8} = \\frac{3}{4}$. $\\sec C = \\frac{10}{8} = \\frac{5}{4}$ and $\\operatorname{cosec} C = \\frac{10}{6} = \\frac{5}{3}$, so $\\sec C + \\operatorname{cosec} C = \\frac{15 + 20}{12} = \\frac{35}{12}$.",
+    "markingSteps": [
+      {
+        "step": "$BC = 8\\text{ cm}$ by Pythagoras theorem and $\\tan C = \\frac{3}{4}$",
+        "marks": 1
+      },
+      {
+        "step": "$\\sec C = \\frac{5}{4}$, $\\operatorname{cosec} C = \\frac{5}{3}$, sum $= \\frac{35}{12}$",
+        "marks": 1
+      }
+    ],
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 250\"><polygon points=\"60,90 60,210 220,210\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"60,200 70,200 70,210\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"52\" y=\"86\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">A</text><text x=\"52\" y=\"226\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">B</text><text x=\"228\" y=\"226\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">C</text><text x=\"52\" y=\"155\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">6 cm</text><text x=\"150\" y=\"140\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">10 cm</text></svg>",
+    "figureAlt": "Right triangle ABC with the right angle at B. AB is vertical and labelled 6 cm, BC is horizontal, and the hypotenuse AC is labelled 10 cm.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratios of standard angles",
+    "patternId": "TG-RS-01",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "The value of $3\\cot^{2}60^\\circ + \\sec^{2}45^\\circ$ is",
+    "options": [
+      "$11$",
+      "$4$",
+      "$3$",
+      "$2$"
+    ],
+    "answer": "Correct option: C) $3$ $3 \\times \\frac{1}{3} + (\\sqrt{2})^{2} = 1 + 2 = 3$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratios of standard angles",
+    "patternId": "TG-RS-03",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "If $\\sqrt{3}\\tan\\theta - 1 = 0$ and $\\theta$ is acute, then $\\theta$ equals",
+    "options": [
+      "$30^\\circ$",
+      "$45^\\circ$",
+      "$60^\\circ$",
+      "$90^\\circ$"
+    ],
+    "answer": "Correct option: A) $30^\\circ$ $\\tan\\theta = \\frac{1}{\\sqrt{3}}$, so $\\theta = 30^\\circ$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratios of standard angles",
+    "patternId": "TG-RS-05",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "If $\\tan 45^\\circ \\cdot \\cos 30^\\circ \\cdot \\sec 60^\\circ = \\frac{k}{\\sqrt{3}}$, the value of $k$ is",
+    "options": [
+      "$1$",
+      "$\\sqrt{3}$",
+      "$3\\sqrt{3}$",
+      "$3$"
+    ],
+    "answer": "Correct option: D) $3$ LHS $= 1 \\times \\frac{\\sqrt{3}}{2} \\times 2 = \\sqrt{3}$, so $\\frac{k}{\\sqrt{3}} = \\sqrt{3}$ and $k = 3$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratios of standard angles",
+    "patternId": "TG-RS-06",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The acute angle $A$ for which $\\cos 2A = \\sin A$ is",
+    "options": [
+      "$0^\\circ$",
+      "$45^\\circ$",
+      "$30^\\circ$",
+      "$15^\\circ$"
+    ],
+    "answer": "Correct option: C) $30^\\circ$ At $A = 30^\\circ$: $\\cos 60^\\circ = \\frac{1}{2} = \\sin 30^\\circ$. At $45^\\circ$: $\\cos 90^\\circ = 0 \\ne \\frac{1}{\\sqrt{2}}$; at $0^\\circ$: $1 \\ne 0$.",
+    "verification": {
+      "status": "ok",
+      "note": "Key correct (verified by checking options). Solving it directly needs complementary-angle ratios, which are deleted from the current syllabus, so students must test options."
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratios of standard angles",
+    "patternId": "TG-RS-07",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "If $\\sin 2\\alpha = \\frac{\\sqrt{3}}{2}$ with $2\\alpha$ acute, the value of $\\cos 3\\alpha$ is",
+    "options": [
+      "$1$",
+      "$\\frac{1}{2}$",
+      "$\\frac{\\sqrt{3}}{2}$",
+      "$0$"
+    ],
+    "answer": "Correct option: D) $0$ $2\\alpha = 60^\\circ$, so $\\alpha = 30^\\circ$ and $\\cos 3\\alpha = \\cos 90^\\circ = 0$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratios of standard angles",
+    "patternId": "TG-RS-08",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "If $\\sec A = \\frac{2}{\\sqrt{3}}$ and $\\cot B = \\sqrt{3}$ with $A$ and $B$ acute, the value of $\\tan(A+B)$ is",
+    "options": [
+      "$\\frac{1}{\\sqrt{3}}$",
+      "$\\sqrt{3}$",
+      "$\\frac{2}{\\sqrt{3}}$",
+      "$1$"
+    ],
+    "answer": "Correct option: B) $\\sqrt{3}$ $\\sec A = \\frac{2}{\\sqrt{3}}$ gives $A = 30^\\circ$ and $\\cot B = \\sqrt{3}$ gives $B = 30^\\circ$, so $\\tan(A+B) = \\tan 60^\\circ = \\sqrt{3}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratios of standard angles",
+    "patternId": "TG-RS-09",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The value of $\\frac{2\\tan 30^\\circ}{1 + \\tan^{2}30^\\circ}$ equals",
+    "options": [
+      "$\\cos 60^\\circ$",
+      "$\\sin 60^\\circ$",
+      "$\\tan 60^\\circ$",
+      "$\\sin 30^\\circ$"
+    ],
+    "answer": "Correct option: B) $\\sin 60^\\circ$ $\\frac{\\frac{2}{\\sqrt{3}}}{1 + \\frac{1}{3}} = \\frac{2}{\\sqrt{3}} \\times \\frac{3}{4} = \\frac{\\sqrt{3}}{2} = \\sin 60^\\circ$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratios of standard angles",
+    "patternId": "TG-RS-09",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The value of $\\frac{1 + \\tan^{2}30^\\circ}{1 - \\tan^{2}30^\\circ}$ equals",
+    "options": [
+      "$\\cos 60^\\circ$",
+      "$\\tan 60^\\circ$",
+      "$\\sec 60^\\circ$",
+      "$\\sin 90^\\circ$"
+    ],
+    "answer": "Correct option: C) $\\sec 60^\\circ$ $\\frac{1 + \\frac{1}{3}}{1 - \\frac{1}{3}} = \\frac{\\frac{4}{3}}{\\frac{2}{3}} = 2 = \\sec 60^\\circ$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratios of standard angles",
+    "patternId": "TG-RS-10",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Which of the following is true?",
+    "options": [
+      "$\\sin 30^\\circ > \\sin 60^\\circ$",
+      "$\\cos 45^\\circ > \\cos 30^\\circ$",
+      "$\\sec 0^\\circ > \\sec 60^\\circ$",
+      "$\\tan 60^\\circ > \\tan 30^\\circ$"
+    ],
+    "answer": "Correct option: D) $\\tan 60^\\circ > \\tan 30^\\circ$ $\\tan 60^\\circ = \\sqrt{3}$ and $\\tan 30^\\circ = \\frac{1}{\\sqrt{3}}$. The others fail: $\\frac{1}{2} < \\frac{\\sqrt{3}}{2}$, $\\frac{1}{\\sqrt{2}} < \\frac{\\sqrt{3}}{2}$, $1 < 2$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratios of standard angles",
+    "patternId": "TG-RS-11",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "If $\\sec^{2}45^\\circ + \\tan^{2}\\theta = \\frac{7}{3}$ and $\\theta$ is acute, then $\\theta$ equals",
+    "options": [
+      "$30^\\circ$",
+      "$45^\\circ$",
+      "$60^\\circ$",
+      "$90^\\circ$"
+    ],
+    "answer": "Correct option: A) $30^\\circ$ $2 + \\tan^{2}\\theta = \\frac{7}{3}$ gives $\\tan^{2}\\theta = \\frac{1}{3}$, so $\\tan\\theta = \\frac{1}{\\sqrt{3}}$ and $\\theta = 30^\\circ$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratios of standard angles",
+    "patternId": "TG-RS-12",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Which of the following is not defined?",
+    "options": [
+      "$\\cot 90^\\circ$",
+      "$\\operatorname{cosec} 0^\\circ$",
+      "$\\sec 0^\\circ$",
+      "$\\tan 0^\\circ$"
+    ],
+    "answer": "Correct option: B) $\\operatorname{cosec} 0^\\circ$ $\\operatorname{cosec} 0^\\circ = \\frac{1}{\\sin 0^\\circ} = \\frac{1}{0}$, which is not defined. The others are $0$, $1$ and $0$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratios of standard angles",
+    "patternId": "TG-RS-AR1",
+    "type": "assertion_reason",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Assertion (A): $\\cot 2\\theta$ is not defined when $\\theta = 45^\\circ$.\nReason (R): $\\cos 90^\\circ = 0$.",
+    "options": [
+      "Both A and R are true and R explains A",
+      "Both A and R are true but R does not explain A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: D) A is false but R is true. At $\\theta = 45^\\circ$, $\\cot 90^\\circ = \\frac{\\cos 90^\\circ}{\\sin 90^\\circ} = \\frac{0}{1} = 0$, which is defined, so A is false. R is true.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratios of standard angles",
+    "patternId": "TG-RS-B1",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Evaluate: $\\frac{\\tan 45^\\circ + \\cos 60^\\circ}{\\sec 60^\\circ - \\sin 30^\\circ}$.",
+    "answer": "Substituting $\\tan 45^\\circ = 1$, $\\cos 60^\\circ = \\frac{1}{2}$, $\\sec 60^\\circ = 2$, $\\sin 30^\\circ = \\frac{1}{2}$: the value is $\\frac{1 + \\frac{1}{2}}{2 - \\frac{1}{2}} = \\frac{\\frac{3}{2}}{\\frac{3}{2}} = 1$.",
+    "markingSteps": [
+      {
+        "step": "Correct standard values substituted",
+        "marks": 1
+      },
+      {
+        "step": "Simplified to $1$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratios of standard angles",
+    "patternId": "TG-RS-B1",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Evaluate: $\\frac{4\\cot^{2}60^\\circ + \\sec^{2}30^\\circ - 2\\sin^{2}45^\\circ}{\\sin^{2}60^\\circ + \\cos^{2}45^\\circ}$.",
+    "answer": "Numerator $= 4 \\times \\frac{1}{3} + \\frac{4}{3} - 2 \\times \\frac{1}{2} = \\frac{4}{3} + \\frac{4}{3} - 1 = \\frac{5}{3}$. Denominator $= \\frac{3}{4} + \\frac{1}{2} = \\frac{5}{4}$. Value $= \\frac{5}{3} \\div \\frac{5}{4} = \\frac{4}{3}$.",
+    "markingSteps": [
+      {
+        "step": "Numerator $= \\frac{5}{3}$ and denominator $= \\frac{5}{4}$ from correct standard values",
+        "marks": 1
+      },
+      {
+        "step": "Value $= \\frac{4}{3}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratios of standard angles",
+    "patternId": "TG-RS-B2",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Find the value of $x$ if $x\\tan^{2}30^\\circ + 3\\sec^{2}45^\\circ = \\operatorname{cosec}^{2}30^\\circ + 4\\cos^{2}30^\\circ$.",
+    "answer": "Substituting: $x \\times \\frac{1}{3} + 3 \\times 2 = 4 + 4 \\times \\frac{3}{4}$, that is, $\\frac{x}{3} + 6 = 7$. So $\\frac{x}{3} = 1$ and $x = 3$.",
+    "markingSteps": [
+      {
+        "step": "Equation reduced to $\\frac{x}{3} + 6 = 7$",
+        "marks": 1
+      },
+      {
+        "step": "$x = 3$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratios of standard angles",
+    "patternId": "TG-RS-B3",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "If $\\operatorname{cosec}(A+B) = \\frac{2}{\\sqrt{3}}$ and $\\cot(A-B) = \\sqrt{3}$, where $0^\\circ < A + B \\le 90^\\circ$ and $A > B$, find $A$ and $B$.",
+    "answer": "$\\operatorname{cosec}(A+B) = \\frac{2}{\\sqrt{3}} = \\operatorname{cosec} 60^\\circ$, so $A + B = 60^\\circ$. $\\cot(A-B) = \\sqrt{3} = \\cot 30^\\circ$, so $A - B = 30^\\circ$. Adding, $2A = 90^\\circ$, so $A = 45^\\circ$ and $B = 15^\\circ$.",
+    "markingSteps": [
+      {
+        "step": "$A + B = 60^\\circ$ and $A - B = 30^\\circ$",
+        "marks": 1
+      },
+      {
+        "step": "$A = 45^\\circ$, $B = 15^\\circ$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratios of standard angles",
+    "patternId": "TG-RS-B3",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "If $\\tan(A-B) = \\sqrt{3}$ and $\\sin(A+B) = 1$, where $0^\\circ < A + B \\le 90^\\circ$ and $A > B$, find $A$ and $B$.",
+    "answer": "$\\sin(A+B) = 1 = \\sin 90^\\circ$, so $A + B = 90^\\circ$. $\\tan(A-B) = \\sqrt{3} = \\tan 60^\\circ$, so $A - B = 60^\\circ$. Adding, $2A = 150^\\circ$, so $A = 75^\\circ$ and $B = 15^\\circ$.",
+    "markingSteps": [
+      {
+        "step": "$A + B = 90^\\circ$ and $A - B = 60^\\circ$",
+        "marks": 1
+      },
+      {
+        "step": "$A = 75^\\circ$, $B = 15^\\circ$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratios of standard angles",
+    "patternId": "TG-RS-B4",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Using $\\cos(A-B) = \\cos A\\cos B + \\sin A\\sin B$, find the value of $\\cos 15^\\circ$ by taking $A = 45^\\circ$ and $B = 30^\\circ$.",
+    "answer": "$\\cos 15^\\circ = \\cos(45^\\circ - 30^\\circ) = \\cos 45^\\circ\\cos 30^\\circ + \\sin 45^\\circ\\sin 30^\\circ = \\frac{1}{\\sqrt{2}} \\times \\frac{\\sqrt{3}}{2} + \\frac{1}{\\sqrt{2}} \\times \\frac{1}{2} = \\frac{\\sqrt{3}+1}{2\\sqrt{2}}$ (or $\\frac{\\sqrt{6}+\\sqrt{2}}{4}$).",
+    "markingSteps": [
+      {
+        "step": "Correct substitution of standard values in the formula",
+        "marks": 1
+      },
+      {
+        "step": "$\\cos 15^\\circ = \\frac{\\sqrt{3}+1}{2\\sqrt{2}}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratios of standard angles",
+    "patternId": "TG-RS-B5",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A student claims that $\\cos 2A = 2\\cos A$ for every acute angle $A$. Test the claim by evaluating both sides at $A = 30^\\circ$ and state whether the claim is correct.",
+    "answer": "At $A = 30^\\circ$: LHS $= \\cos 60^\\circ = \\frac{1}{2}$. RHS $= 2\\cos 30^\\circ = 2 \\times \\frac{\\sqrt{3}}{2} = \\sqrt{3}$. Since $\\frac{1}{2} \\ne \\sqrt{3}$, the claim is not correct; a ratio of a multiple of an angle is not that multiple of the ratio.",
+    "markingSteps": [
+      {
+        "step": "Both sides evaluated: $\\frac{1}{2}$ and $\\sqrt{3}$",
+        "marks": 1
+      },
+      {
+        "step": "Conclusion that the claim is false",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Ratios of standard angles",
+    "patternId": "TG-RS-C1",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "If $\\sin(A+3B) = 1$ and $\\cos(A+B) = \\frac{1}{2}$, where $A + 3B \\le 90^\\circ$ and $A$, $B$ are acute, find $A$ and $B$. Hence find the value of $\\tan(A+B)\\cot(A-B)$.",
+    "answer": "$\\sin(A+3B) = 1 = \\sin 90^\\circ$, so $A + 3B = 90^\\circ$. $\\cos(A+B) = \\frac{1}{2} = \\cos 60^\\circ$, so $A + B = 60^\\circ$. Subtracting, $2B = 30^\\circ$, so $B = 15^\\circ$ and $A = 45^\\circ$. Then $\\tan(A+B)\\cot(A-B) = \\tan 60^\\circ \\cot 30^\\circ = \\sqrt{3} \\times \\sqrt{3} = 3$.",
+    "markingSteps": [
+      {
+        "step": "$A + 3B = 90^\\circ$ and $A + B = 60^\\circ$",
+        "marks": 1
+      },
+      {
+        "step": "$B = 15^\\circ$, $A = 45^\\circ$",
+        "marks": 1
+      },
+      {
+        "step": "$\\tan 60^\\circ \\cot 30^\\circ = 3$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Evaluating expressions",
+    "patternId": "TG-EV-B2",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "If $\\tan\\theta - \\frac{1}{\\tan\\theta} = 2$, find the value of $\\tan^{2}\\theta + \\frac{1}{\\tan^{2}\\theta}$.",
+    "answer": "Squaring both sides: $\\tan^{2}\\theta - 2 \\times \\tan\\theta \\times \\frac{1}{\\tan\\theta} + \\frac{1}{\\tan^{2}\\theta} = 4$, so $\\tan^{2}\\theta + \\frac{1}{\\tan^{2}\\theta} - 2 = 4$. Hence $\\tan^{2}\\theta + \\frac{1}{\\tan^{2}\\theta} = 6$.",
+    "markingSteps": [
+      {
+        "step": "Squaring correctly with middle term $-2$",
+        "marks": 1
+      },
+      {
+        "step": "Value $= 6$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Evaluating expressions",
+    "patternId": "TG-EV-B3",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Find $k$ if $(\\sin A - \\operatorname{cosec} A)^{2} + (\\cos A - \\sec A)^{2} = k + \\tan^{2}A + \\cot^{2}A$.",
+    "answer": "LHS $= \\sin^{2}A - 2 + \\operatorname{cosec}^{2}A + \\cos^{2}A - 2 + \\sec^{2}A$ (since $\\sin A\\operatorname{cosec} A = 1$ and $\\cos A\\sec A = 1$) $= (\\sin^{2}A + \\cos^{2}A) - 4 + (1 + \\cot^{2}A) + (1 + \\tan^{2}A) = 1 - 4 + 2 + \\tan^{2}A + \\cot^{2}A = -1 + \\tan^{2}A + \\cot^{2}A$. Comparing, $k = -1$.",
+    "markingSteps": [
+      {
+        "step": "Expansion with middle terms $-2$ each",
+        "marks": 1
+      },
+      {
+        "step": "Identities used to get $k = -1$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Evaluating expressions",
+    "patternId": "TG-EV-B4",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "If $\\cos A + \\cos^{2}A = 1$, find the value of $\\sin^{2}A + \\sin^{4}A$.",
+    "answer": "From $\\cos A + \\cos^{2}A = 1$: $\\cos A = 1 - \\cos^{2}A = \\sin^{2}A$. Then $\\sin^{4}A = (\\sin^{2}A)^{2} = \\cos^{2}A$. So $\\sin^{2}A + \\sin^{4}A = \\cos A + \\cos^{2}A = 1$.",
+    "markingSteps": [
+      {
+        "step": "$\\sin^{2}A = \\cos A$ obtained",
+        "marks": 1
+      },
+      {
+        "step": "$\\sin^{4}A = \\cos^{2}A$ and value $= 1$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Identities and proofs",
+    "patternId": "TG-ID-01",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "The expression $\\frac{\\sec^{2}\\theta - 1}{\\operatorname{cosec}^{2}\\theta - 1}$ equals",
+    "options": [
+      "$\\tan^{2}\\theta$",
+      "$\\tan^{4}\\theta$",
+      "$\\cot^{4}\\theta$",
+      "$1$"
+    ],
+    "answer": "Correct option: B) $\\tan^{4}\\theta$ $\\frac{\\tan^{2}\\theta}{\\cot^{2}\\theta} = \\tan^{2}\\theta \\times \\tan^{2}\\theta = \\tan^{4}\\theta$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Identities and proofs",
+    "patternId": "TG-ID-01",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "The expression $\\frac{\\tan^{2}\\theta}{\\sec^{2}\\theta}$ equals",
+    "options": [
+      "$\\cos^{2}\\theta$",
+      "$1$",
+      "$\\cot^{2}\\theta$",
+      "$\\sin^{2}\\theta$"
+    ],
+    "answer": "Correct option: D) $\\sin^{2}\\theta$ $\\frac{\\sin^{2}\\theta}{\\cos^{2}\\theta} \\times \\cos^{2}\\theta = \\sin^{2}\\theta$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Identities and proofs",
+    "patternId": "TG-ID-02",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The expression $\\frac{\\tan\\theta}{\\sqrt{1 + \\tan^{2}\\theta}}$, for acute $\\theta$, equals",
+    "options": [
+      "$\\sin\\theta$",
+      "$\\cos\\theta$",
+      "$\\sec\\theta$",
+      "$\\operatorname{cosec}\\theta$"
+    ],
+    "answer": "Correct option: A) $\\sin\\theta$ $\\sqrt{1 + \\tan^{2}\\theta} = \\sec\\theta$, so the expression is $\\frac{\\sin\\theta}{\\cos\\theta} \\times \\cos\\theta = \\sin\\theta$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Identities and proofs",
+    "patternId": "TG-ID-04",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "The expression $\\frac{1}{\\tan\\theta + \\cot\\theta}$ equals",
+    "options": [
+      "$\\sec\\theta\\operatorname{cosec}\\theta$",
+      "$\\sin\\theta\\cos\\theta$",
+      "$1$",
+      "$\\sin^{2}\\theta$"
+    ],
+    "answer": "Correct option: B) $\\sin\\theta\\cos\\theta$ $\\tan\\theta + \\cot\\theta = \\frac{\\sin^{2}\\theta + \\cos^{2}\\theta}{\\sin\\theta\\cos\\theta} = \\sec\\theta\\operatorname{cosec}\\theta$, so its reciprocal is $\\sin\\theta\\cos\\theta$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Identities and proofs",
+    "patternId": "TG-ID-06",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Which of the following holds for every acute angle $\\theta$?",
+    "options": [
+      "$\\sin\\theta + \\cos\\theta = 1$",
+      "$\\tan^{2}\\theta - \\sec^{2}\\theta = 1$",
+      "$\\sec\\theta\\sin\\theta = \\cot\\theta$",
+      "$\\operatorname{cosec}^{2}\\theta - \\cot^{2}\\theta = 1$"
+    ],
+    "answer": "Correct option: D) $\\operatorname{cosec}^{2}\\theta - \\cot^{2}\\theta = 1$ From $1 + \\cot^{2}\\theta = \\operatorname{cosec}^{2}\\theta$. Note $\\tan^{2}\\theta - \\sec^{2}\\theta = -1$ and $\\sec\\theta\\sin\\theta = \\tan\\theta$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Identities and proofs",
+    "patternId": "TG-ID-07",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "If $x = a\\sec\\theta$ and $y = b\\tan\\theta$, the value of $\\frac{x^{2}}{a^{2}} - \\frac{y^{2}}{b^{2}}$ is",
+    "options": [
+      "$0$",
+      "$-1$",
+      "$1$",
+      "$a^{2} - b^{2}$"
+    ],
+    "answer": "Correct option: C) $1$ $\\sec^{2}\\theta - \\tan^{2}\\theta = 1$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Identities and proofs",
+    "patternId": "TG-ID-07",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "hard",
+    "competency": false,
+    "text": "If $x = 8\\cos^{3}\\theta$ and $y = 8\\sin^{3}\\theta$, then $x^{\\frac{2}{3}} + y^{\\frac{2}{3}}$ equals",
+    "options": [
+      "$8$",
+      "$1$",
+      "$64$",
+      "$4$"
+    ],
+    "answer": "Correct option: D) $4$ $x^{\\frac{2}{3}} = (8)^{\\frac{2}{3}}\\cos^{2}\\theta = 4\\cos^{2}\\theta$ and $y^{\\frac{2}{3}} = 4\\sin^{2}\\theta$, so the sum is $4(\\cos^{2}\\theta + \\sin^{2}\\theta) = 4$.",
+    "verification": {
+      "status": "ok",
+      "note": "Difficulty 'hard' is generous for a 1-mark substitution; medium fits better."
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Identities and proofs",
+    "patternId": "TG-ID-AR1",
+    "type": "assertion_reason",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Assertion (A): If $\\sec\\theta + \\tan\\theta = 3$, then $\\sec\\theta - \\tan\\theta = \\frac{1}{3}$.\nReason (R): $\\sec^{2}\\theta - \\tan^{2}\\theta = 1$.",
+    "options": [
+      "Both A and R are true and R explains A",
+      "Both A and R are true but R does not explain A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: A) Both A and R are true and R explains A. $(\\sec\\theta + \\tan\\theta)(\\sec\\theta - \\tan\\theta) = \\sec^{2}\\theta - \\tan^{2}\\theta = 1$, so the two are reciprocals and $\\sec\\theta - \\tan\\theta = \\frac{1}{3}$. R is exactly the reason.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Identities and proofs",
+    "patternId": "TG-ID-B2",
+    "type": "short",
+    "marks": 2,
+    "complexity": "hard",
+    "competency": false,
+    "text": "If $x = p\\operatorname{cosec}\\theta + q\\cot\\theta$ and $y = p\\cot\\theta + q\\operatorname{cosec}\\theta$, prove that $x^{2} - y^{2} = p^{2} - q^{2}$.",
+    "answer": "$x^{2} = p^{2}\\operatorname{cosec}^{2}\\theta + 2pq\\operatorname{cosec}\\theta\\cot\\theta + q^{2}\\cot^{2}\\theta$ and $y^{2} = p^{2}\\cot^{2}\\theta + 2pq\\cot\\theta\\operatorname{cosec}\\theta + q^{2}\\operatorname{cosec}^{2}\\theta$. Subtracting, $x^{2} - y^{2} = p^{2}(\\operatorname{cosec}^{2}\\theta - \\cot^{2}\\theta) - q^{2}(\\operatorname{cosec}^{2}\\theta - \\cot^{2}\\theta)$. Since $\\operatorname{cosec}^{2}\\theta - \\cot^{2}\\theta = 1$, $x^{2} - y^{2} = p^{2} - q^{2}$. Hence proved.",
+    "markingSteps": [
+      {
+        "step": "Correct expansion of $x^{2}$ and $y^{2}$ with the middle terms cancelling",
+        "marks": 1
+      },
+      {
+        "step": "Grouping and using $\\operatorname{cosec}^{2}\\theta - \\cot^{2}\\theta = 1$ to conclude",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Identities and proofs",
+    "patternId": "TG-ID-B3",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Starting from $\\sin^{2}A + \\cos^{2}A = 1$, show that $1 + \\cot^{2}A = \\operatorname{cosec}^{2}A$. Hence find $\\cot A$ if $\\operatorname{cosec} A = \\frac{13}{12}$ and $A$ is acute.",
+    "answer": "Dividing $\\sin^{2}A + \\cos^{2}A = 1$ by $\\sin^{2}A$ ($\\sin A \\ne 0$): $1 + \\frac{\\cos^{2}A}{\\sin^{2}A} = \\frac{1}{\\sin^{2}A}$, that is, $1 + \\cot^{2}A = \\operatorname{cosec}^{2}A$. Then $\\cot^{2}A = \\frac{169}{144} - 1 = \\frac{25}{144}$, and since $A$ is acute, $\\cot A = \\frac{5}{12}$.",
+    "markingSteps": [
+      {
+        "step": "Identity derived by dividing by $\\sin^{2}A$",
+        "marks": 1
+      },
+      {
+        "step": "$\\cot A = \\frac{5}{12}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Identities and proofs",
+    "patternId": "TG-ID-C1",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Prove that $\\frac{\\sin\\theta}{1 - \\cot\\theta} + \\frac{\\cos\\theta}{1 - \\tan\\theta} = \\sin\\theta + \\cos\\theta$.",
+    "answer": "LHS $= \\frac{\\sin\\theta}{1 - \\frac{\\cos\\theta}{\\sin\\theta}} + \\frac{\\cos\\theta}{1 - \\frac{\\sin\\theta}{\\cos\\theta}} = \\frac{\\sin^{2}\\theta}{\\sin\\theta - \\cos\\theta} + \\frac{\\cos^{2}\\theta}{\\cos\\theta - \\sin\\theta} = \\frac{\\sin^{2}\\theta - \\cos^{2}\\theta}{\\sin\\theta - \\cos\\theta} = \\frac{(\\sin\\theta - \\cos\\theta)(\\sin\\theta + \\cos\\theta)}{\\sin\\theta - \\cos\\theta} = \\sin\\theta + \\cos\\theta = $ RHS. Hence proved.",
+    "markingSteps": [
+      {
+        "step": "Writing $\\cot\\theta$ and $\\tan\\theta$ in terms of $\\sin\\theta$ and $\\cos\\theta$ and simplifying each fraction",
+        "marks": 1
+      },
+      {
+        "step": "Combining over the common denominator $\\sin\\theta - \\cos\\theta$",
+        "marks": 1
+      },
+      {
+        "step": "Factorising $\\sin^{2}\\theta - \\cos^{2}\\theta$ and cancelling to get RHS",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Identities and proofs",
+    "patternId": "TG-ID-C1",
+    "type": "short",
+    "marks": 3,
+    "complexity": "hard",
+    "competency": false,
+    "text": "Prove that $\\frac{1 + \\tan\\theta}{1 - \\cot\\theta} + \\frac{1 + \\cot\\theta}{1 - \\tan\\theta} = 2 + \\sec\\theta\\operatorname{cosec}\\theta$.",
+    "answer": "Let $t = \\tan\\theta$, so $\\cot\\theta = \\frac{1}{t}$. First term $= \\frac{1 + t}{1 - \\frac{1}{t}} = \\frac{t(1+t)}{t - 1}$. Second term $= \\frac{1 + \\frac{1}{t}}{1 - t} = \\frac{t + 1}{t(1 - t)} = -\\frac{t+1}{t(t-1)}$. Sum $= \\frac{(t+1)(t^{2} - 1)}{t(t-1)} = \\frac{(t+1)^{2}}{t} = \\frac{t^{2} + 1}{t} + 2$. Now $\\frac{1 + \\tan^{2}\\theta}{\\tan\\theta} = \\frac{\\sec^{2}\\theta}{\\tan\\theta} = \\frac{1}{\\cos^{2}\\theta} \\times \\frac{\\cos\\theta}{\\sin\\theta} = \\sec\\theta\\operatorname{cosec}\\theta$. So LHS $= 2 + \\sec\\theta\\operatorname{cosec}\\theta = $ RHS. Hence proved.",
+    "markingSteps": [
+      {
+        "step": "Each fraction written in terms of $\\tan\\theta$ alone",
+        "marks": 1
+      },
+      {
+        "step": "Combined and simplified to $\\frac{(1+\\tan\\theta)^{2}}{\\tan\\theta}$",
+        "marks": 1
+      },
+      {
+        "step": "$\\frac{1+\\tan^{2}\\theta}{\\tan\\theta} = \\sec\\theta\\operatorname{cosec}\\theta$, giving RHS",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  }
+]

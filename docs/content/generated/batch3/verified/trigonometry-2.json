@@ -1,0 +1,1432 @@
+[
+  {
+    "chapter": "Trigonometry",
+    "topic": "Identities and proofs",
+    "patternId": "TG-ID-C2",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Prove that $\\frac{\\tan\\theta+\\sec\\theta-1}{\\tan\\theta-\\sec\\theta+1}=\\frac{1+\\sin\\theta}{\\cos\\theta}$.",
+    "answer": "LHS $=\\frac{(\\tan\\theta+\\sec\\theta)-(\\sec^{2}\\theta-\\tan^{2}\\theta)}{\\tan\\theta-\\sec\\theta+1}$, using $1=\\sec^{2}\\theta-\\tan^{2}\\theta$ in the numerator. Since $\\sec^{2}\\theta-\\tan^{2}\\theta=(\\sec\\theta+\\tan\\theta)(\\sec\\theta-\\tan\\theta)$, the numerator is $(\\sec\\theta+\\tan\\theta)\\left[1-(\\sec\\theta-\\tan\\theta)\\right]=(\\sec\\theta+\\tan\\theta)(1-\\sec\\theta+\\tan\\theta)$. The bracket equals the denominator $\\tan\\theta-\\sec\\theta+1$, so LHS $=\\sec\\theta+\\tan\\theta=\\frac{1}{\\cos\\theta}+\\frac{\\sin\\theta}{\\cos\\theta}=\\frac{1+\\sin\\theta}{\\cos\\theta}=$ RHS.",
+    "markingSteps": [
+      {
+        "step": "Replacing $1$ in the numerator by $\\sec^{2}\\theta-\\tan^{2}\\theta$",
+        "marks": 1
+      },
+      {
+        "step": "Factorising the numerator as $(\\sec\\theta+\\tan\\theta)(1-\\sec\\theta+\\tan\\theta)$ and cancelling with the denominator",
+        "marks": 1
+      },
+      {
+        "step": "Writing $\\sec\\theta+\\tan\\theta$ as $\\frac{1+\\sin\\theta}{\\cos\\theta}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Identities and proofs",
+    "patternId": "TG-ID-C2",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Prove that $\\frac{\\cot A+\\operatorname{cosec}A-1}{\\cot A-\\operatorname{cosec}A+1}=\\frac{1+\\cos A}{\\sin A}$.",
+    "answer": "Using $1=\\operatorname{cosec}^{2}A-\\cot^{2}A$, numerator $=(\\operatorname{cosec}A+\\cot A)-(\\operatorname{cosec}A+\\cot A)(\\operatorname{cosec}A-\\cot A)$ $=(\\operatorname{cosec}A+\\cot A)(1-\\operatorname{cosec}A+\\cot A)$. The second factor is the denominator $\\cot A-\\operatorname{cosec}A+1$, so LHS $=\\operatorname{cosec}A+\\cot A=\\frac{1}{\\sin A}+\\frac{\\cos A}{\\sin A}=\\frac{1+\\cos A}{\\sin A}=$ RHS.",
+    "markingSteps": [
+      {
+        "step": "Replacing $1$ in the numerator by $\\operatorname{cosec}^{2}A-\\cot^{2}A$",
+        "marks": 1
+      },
+      {
+        "step": "Taking out the common factor $(\\operatorname{cosec}A+\\cot A)$ and cancelling the denominator",
+        "marks": 1
+      },
+      {
+        "step": "Converting $\\operatorname{cosec}A+\\cot A$ to $\\frac{1+\\cos A}{\\sin A}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Identities and proofs",
+    "patternId": "TG-ID-C2",
+    "type": "short",
+    "marks": 3,
+    "complexity": "hard",
+    "competency": false,
+    "text": "Prove that $\\frac{\\sin\\theta-\\cos\\theta+1}{\\sin\\theta+\\cos\\theta-1}+\\frac{\\sin\\theta+\\cos\\theta-1}{\\sin\\theta-\\cos\\theta+1}=2\\sec\\theta$.",
+    "answer": "Divide numerator and denominator of the first fraction by $\\cos\\theta$: $\\frac{\\tan\\theta-1+\\sec\\theta}{\\tan\\theta+1-\\sec\\theta}$. Write the $1$ in the numerator as $\\sec^{2}\\theta-\\tan^{2}\\theta$: numerator $=(\\tan\\theta+\\sec\\theta)-(\\sec\\theta+\\tan\\theta)(\\sec\\theta-\\tan\\theta)=(\\sec\\theta+\\tan\\theta)(1-\\sec\\theta+\\tan\\theta)$. The second factor is the denominator, so the first fraction $=\\sec\\theta+\\tan\\theta$. The second fraction is its reciprocal: $\\frac{1}{\\sec\\theta+\\tan\\theta}=\\frac{\\sec\\theta-\\tan\\theta}{\\sec^{2}\\theta-\\tan^{2}\\theta}=\\sec\\theta-\\tan\\theta$. Hence LHS $=(\\sec\\theta+\\tan\\theta)+(\\sec\\theta-\\tan\\theta)=2\\sec\\theta=$ RHS.",
+    "markingSteps": [
+      {
+        "step": "Dividing by $\\cos\\theta$ and using $1=\\sec^{2}\\theta-\\tan^{2}\\theta$ to show the first fraction equals $\\sec\\theta+\\tan\\theta$",
+        "marks": 1
+      },
+      {
+        "step": "Showing the second fraction (the reciprocal) equals $\\sec\\theta-\\tan\\theta$",
+        "marks": 1
+      },
+      {
+        "step": "Adding to get $2\\sec\\theta$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Identities and proofs",
+    "patternId": "TG-ID-C3",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Prove that $(1+\\cot\\theta-\\operatorname{cosec}\\theta)(1+\\tan\\theta+\\sec\\theta)=2$.",
+    "answer": "LHS $=\\left(1+\\frac{\\cos\\theta}{\\sin\\theta}-\\frac{1}{\\sin\\theta}\\right)\\left(1+\\frac{\\sin\\theta}{\\cos\\theta}+\\frac{1}{\\cos\\theta}\\right)=\\frac{(\\sin\\theta+\\cos\\theta-1)(\\sin\\theta+\\cos\\theta+1)}{\\sin\\theta\\cos\\theta}$. Numerator $=(\\sin\\theta+\\cos\\theta)^{2}-1=\\sin^{2}\\theta+\\cos^{2}\\theta+2\\sin\\theta\\cos\\theta-1=2\\sin\\theta\\cos\\theta$. So LHS $=\\frac{2\\sin\\theta\\cos\\theta}{\\sin\\theta\\cos\\theta}=2=$ RHS.",
+    "markingSteps": [
+      {
+        "step": "Writing both factors in $\\sin\\theta$ and $\\cos\\theta$ as single fractions",
+        "marks": 1
+      },
+      {
+        "step": "Using $(a-1)(a+1)=a^{2}-1$ with $a=\\sin\\theta+\\cos\\theta$ and $\\sin^{2}\\theta+\\cos^{2}\\theta=1$",
+        "marks": 1
+      },
+      {
+        "step": "Simplifying to $2$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Identities and proofs",
+    "patternId": "TG-ID-C4",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Prove that $\\frac{\\tan\\theta}{\\sec\\theta-1}+\\frac{\\tan\\theta}{\\sec\\theta+1}=2\\operatorname{cosec}\\theta$.",
+    "answer": "LHS $=\\tan\\theta\\cdot\\frac{(\\sec\\theta+1)+(\\sec\\theta-1)}{\\sec^{2}\\theta-1}=\\frac{2\\tan\\theta\\sec\\theta}{\\tan^{2}\\theta}=\\frac{2\\sec\\theta}{\\tan\\theta}$. Now $\\frac{\\sec\\theta}{\\tan\\theta}=\\frac{1}{\\cos\\theta}\\cdot\\frac{\\cos\\theta}{\\sin\\theta}=\\frac{1}{\\sin\\theta}$, so LHS $=2\\operatorname{cosec}\\theta=$ RHS.",
+    "markingSteps": [
+      {
+        "step": "Taking the LCM $\\sec^{2}\\theta-1$ and adding the numerators to get $2\\tan\\theta\\sec\\theta$",
+        "marks": 1
+      },
+      {
+        "step": "Using $\\sec^{2}\\theta-1=\\tan^{2}\\theta$",
+        "marks": 1
+      },
+      {
+        "step": "Simplifying $\\frac{2\\sec\\theta}{\\tan\\theta}$ to $2\\operatorname{cosec}\\theta$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Identities and proofs",
+    "patternId": "TG-ID-C5",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Prove that $\\frac{\\cos\\theta-\\cos^{3}\\theta}{\\sin\\theta-\\sin^{3}\\theta}=\\tan\\theta$.",
+    "answer": "Numerator $=\\cos\\theta(1-\\cos^{2}\\theta)=\\cos\\theta\\sin^{2}\\theta$. Denominator $=\\sin\\theta(1-\\sin^{2}\\theta)=\\sin\\theta\\cos^{2}\\theta$. So LHS $=\\frac{\\cos\\theta\\sin^{2}\\theta}{\\sin\\theta\\cos^{2}\\theta}=\\frac{\\sin\\theta}{\\cos\\theta}=\\tan\\theta=$ RHS.",
+    "markingSteps": [
+      {
+        "step": "Taking out $\\cos\\theta$ and writing $1-\\cos^{2}\\theta=\\sin^{2}\\theta$ in the numerator",
+        "marks": 1
+      },
+      {
+        "step": "Taking out $\\sin\\theta$ and writing $1-\\sin^{2}\\theta=\\cos^{2}\\theta$ in the denominator",
+        "marks": 1
+      },
+      {
+        "step": "Cancelling to get $\\tan\\theta$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Identities and proofs",
+    "patternId": "TG-ID-C9",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "If $x=a\\sec\\theta+b\\tan\\theta$ and $y=a\\tan\\theta+b\\sec\\theta$, prove that $x^{2}-y^{2}=a^{2}-b^{2}$.",
+    "answer": "$x^{2}=a^{2}\\sec^{2}\\theta+2ab\\sec\\theta\\tan\\theta+b^{2}\\tan^{2}\\theta$ and $y^{2}=a^{2}\\tan^{2}\\theta+2ab\\sec\\theta\\tan\\theta+b^{2}\\sec^{2}\\theta$. Subtracting, $x^{2}-y^{2}=a^{2}(\\sec^{2}\\theta-\\tan^{2}\\theta)-b^{2}(\\sec^{2}\\theta-\\tan^{2}\\theta)=(a^{2}-b^{2})\\cdot 1=a^{2}-b^{2}$.",
+    "markingSteps": [
+      {
+        "step": "Expanding $x^{2}$ and $y^{2}$",
+        "marks": 1
+      },
+      {
+        "step": "Subtracting so the $2ab\\sec\\theta\\tan\\theta$ terms cancel and grouping as $(a^{2}-b^{2})(\\sec^{2}\\theta-\\tan^{2}\\theta)$",
+        "marks": 1
+      },
+      {
+        "step": "Using $\\sec^{2}\\theta-\\tan^{2}\\theta=1$ to conclude",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Identities and proofs",
+    "patternId": "TG-ID-C9",
+    "type": "short",
+    "marks": 3,
+    "complexity": "hard",
+    "competency": false,
+    "text": "If $\\operatorname{cosec}\\theta-\\sin\\theta=a^{3}$ and $\\sec\\theta-\\cos\\theta=b^{3}$, prove that $a^{2}b^{2}(a^{2}+b^{2})=1$.",
+    "answer": "$a^{3}=\\frac{1}{\\sin\\theta}-\\sin\\theta=\\frac{\\cos^{2}\\theta}{\\sin\\theta}$ and $b^{3}=\\frac{1}{\\cos\\theta}-\\cos\\theta=\\frac{\\sin^{2}\\theta}{\\cos\\theta}$. So $a=\\frac{\\cos^{2/3}\\theta}{\\sin^{1/3}\\theta}$ and $b=\\frac{\\sin^{2/3}\\theta}{\\cos^{1/3}\\theta}$, giving $a^{2}=\\frac{\\cos^{4/3}\\theta}{\\sin^{2/3}\\theta}$, $b^{2}=\\frac{\\sin^{4/3}\\theta}{\\cos^{2/3}\\theta}$. Then $a^{2}b^{2}=\\sin^{2/3}\\theta\\cos^{2/3}\\theta$ and $a^{2}+b^{2}=\\frac{\\cos^{2}\\theta+\\sin^{2}\\theta}{\\sin^{2/3}\\theta\\cos^{2/3}\\theta}=\\frac{1}{\\sin^{2/3}\\theta\\cos^{2/3}\\theta}$. Multiplying, $a^{2}b^{2}(a^{2}+b^{2})=1$.",
+    "markingSteps": [
+      {
+        "step": "Simplifying $a^{3}=\\frac{\\cos^{2}\\theta}{\\sin\\theta}$ and $b^{3}=\\frac{\\sin^{2}\\theta}{\\cos\\theta}$",
+        "marks": 1
+      },
+      {
+        "step": "Finding $a^{2}$, $b^{2}$ and $a^{2}b^{2}=(\\sin\\theta\\cos\\theta)^{2/3}$",
+        "marks": 1
+      },
+      {
+        "step": "Showing $a^{2}+b^{2}=\\frac{1}{(\\sin\\theta\\cos\\theta)^{2/3}}$ using $\\sin^{2}\\theta+\\cos^{2}\\theta=1$ and multiplying to get $1$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Identities and proofs",
+    "patternId": "TG-ID-C10",
+    "type": "short",
+    "marks": 3,
+    "complexity": "hard",
+    "competency": false,
+    "text": "If $x=1+2(\\cos\\theta+\\sin\\theta)$ and $y=2(\\cos\\theta-\\sin\\theta)-3$, prove that $(x-1)^{2}+(y+3)^{2}=8$.",
+    "answer": "$x-1=2(\\cos\\theta+\\sin\\theta)$ and $y+3=2(\\cos\\theta-\\sin\\theta)$. So $(x-1)^{2}=4(\\cos^{2}\\theta+\\sin^{2}\\theta+2\\sin\\theta\\cos\\theta)=4(1+2\\sin\\theta\\cos\\theta)$ and $(y+3)^{2}=4(1-2\\sin\\theta\\cos\\theta)$. Adding, $(x-1)^{2}+(y+3)^{2}=4(1+1)=8$.",
+    "markingSteps": [
+      {
+        "step": "Isolating $x-1=2(\\cos\\theta+\\sin\\theta)$ and $y+3=2(\\cos\\theta-\\sin\\theta)$",
+        "marks": 1
+      },
+      {
+        "step": "Squaring both and using $\\sin^{2}\\theta+\\cos^{2}\\theta=1$",
+        "marks": 1
+      },
+      {
+        "step": "Adding so the $\\sin\\theta\\cos\\theta$ terms cancel, giving $8$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Identities and proofs",
+    "patternId": "TG-ID-D1",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Prove that $\\frac{\\tan\\theta}{1-\\cot\\theta}+\\frac{\\cot\\theta}{1-\\tan\\theta}=1+\\sec\\theta\\operatorname{cosec}\\theta$.",
+    "answer": "Write $\\cot\\theta=\\frac{1}{\\tan\\theta}$ and let $t=\\tan\\theta$. First term $=\\frac{t}{1-\\frac{1}{t}}=\\frac{t^{2}}{t-1}$. Second term $=\\frac{\\frac{1}{t}}{1-t}=-\\frac{1}{t(t-1)}$. LHS $=\\frac{t^{3}-1}{t(t-1)}=\\frac{(t-1)(t^{2}+t+1)}{t(t-1)}=\\frac{t^{2}+t+1}{t}=t+1+\\frac{1}{t}=1+\\tan\\theta+\\cot\\theta$. Now $\\tan\\theta+\\cot\\theta=\\frac{\\sin\\theta}{\\cos\\theta}+\\frac{\\cos\\theta}{\\sin\\theta}=\\frac{\\sin^{2}\\theta+\\cos^{2}\\theta}{\\sin\\theta\\cos\\theta}=\\frac{1}{\\sin\\theta\\cos\\theta}=\\sec\\theta\\operatorname{cosec}\\theta$. So LHS $=1+\\sec\\theta\\operatorname{cosec}\\theta=$ RHS.",
+    "markingSteps": [
+      {
+        "step": "Writing both terms in $\\tan\\theta$: $\\frac{\\tan^{2}\\theta}{\\tan\\theta-1}$ and $-\\frac{1}{\\tan\\theta(\\tan\\theta-1)}$",
+        "marks": 1
+      },
+      {
+        "step": "Combining over the common denominator $\\tan\\theta(\\tan\\theta-1)$ to get $\\frac{\\tan^{3}\\theta-1}{\\tan\\theta(\\tan\\theta-1)}$",
+        "marks": 1
+      },
+      {
+        "step": "Factorising $\\tan^{3}\\theta-1=(\\tan\\theta-1)(\\tan^{2}\\theta+\\tan\\theta+1)$ and cancelling",
+        "marks": 1
+      },
+      {
+        "step": "Reaching $1+\\tan\\theta+\\cot\\theta$",
+        "marks": 1
+      },
+      {
+        "step": "Showing $\\tan\\theta+\\cot\\theta=\\sec\\theta\\operatorname{cosec}\\theta$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Identities and proofs",
+    "patternId": "TG-ID-D2",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": false,
+    "text": "If $\\sec\\theta-\\tan\\theta=x$, show that $\\sec\\theta=\\frac{1}{2}\\left(x+\\frac{1}{x}\\right)$ and $\\tan\\theta=\\frac{1}{2}\\left(\\frac{1}{x}-x\\right)$. Hence express $\\sin\\theta$ in terms of $x$, and find $\\sin\\theta$ when $x=\\frac{1}{\\sqrt{3}}$.",
+    "answer": "Since $\\sec^{2}\\theta-\\tan^{2}\\theta=1$, $(\\sec\\theta-\\tan\\theta)(\\sec\\theta+\\tan\\theta)=1$, so $\\sec\\theta+\\tan\\theta=\\frac{1}{x}$. Adding the two equations: $2\\sec\\theta=x+\\frac{1}{x}$, so $\\sec\\theta=\\frac{1}{2}\\left(x+\\frac{1}{x}\\right)$. Subtracting: $2\\tan\\theta=\\frac{1}{x}-x$, so $\\tan\\theta=\\frac{1}{2}\\left(\\frac{1}{x}-x\\right)$. Then $\\sin\\theta=\\frac{\\tan\\theta}{\\sec\\theta}=\\frac{\\frac{1}{x}-x}{\\frac{1}{x}+x}=\\frac{1-x^{2}}{1+x^{2}}$. For $x=\\frac{1}{\\sqrt{3}}$: $x^{2}=\\frac{1}{3}$, so $\\sin\\theta=\\frac{1-\\frac{1}{3}}{1+\\frac{1}{3}}=\\frac{2/3}{4/3}=\\frac{1}{2}$. (Check: $\\theta=30^\\circ$ gives $\\sec 30^\\circ-\\tan 30^\\circ=\\frac{2}{\\sqrt{3}}-\\frac{1}{\\sqrt{3}}=\\frac{1}{\\sqrt{3}}$.)",
+    "markingSteps": [
+      {
+        "step": "Using $\\sec^{2}\\theta-\\tan^{2}\\theta=1$ to get $\\sec\\theta+\\tan\\theta=\\frac{1}{x}$",
+        "marks": 1
+      },
+      {
+        "step": "Adding to obtain $\\sec\\theta=\\frac{1}{2}\\left(x+\\frac{1}{x}\\right)$",
+        "marks": 1
+      },
+      {
+        "step": "Subtracting to obtain $\\tan\\theta=\\frac{1}{2}\\left(\\frac{1}{x}-x\\right)$",
+        "marks": 1
+      },
+      {
+        "step": "Using $\\sin\\theta=\\frac{\\tan\\theta}{\\sec\\theta}$ to get $\\sin\\theta=\\frac{1-x^{2}}{1+x^{2}}$",
+        "marks": 1
+      },
+      {
+        "step": "Substituting $x=\\frac{1}{\\sqrt{3}}$ to get $\\sin\\theta=\\frac{1}{2}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-01",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": true,
+    "text": "A student stands on level ground $25\\text{ m}$ from the foot of a flagpole and sees its top at an angle of elevation of $45^\\circ$. The height of the flagpole is",
+    "options": [
+      "$25\\text{ m}$",
+      "$25\\sqrt{3}\\text{ m}$",
+      "$\\frac{25}{\\sqrt{3}}\\text{ m}$",
+      "$50\\text{ m}$"
+    ],
+    "answer": "Correct option: A) $25\\text{ m}$. $\\tan 45^\\circ=\\frac{h}{25}$, so $h=25\\times 1=25\\text{ m}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-01",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": true,
+    "text": "From a point on the ground $15\\sqrt{3}\\text{ m}$ away from the base of a building, the angle of elevation of the top of the building is $30^\\circ$. The height of the building is",
+    "options": [
+      "$45\\text{ m}$",
+      "$15\\text{ m}$",
+      "$15\\sqrt{3}\\text{ m}$",
+      "$30\\text{ m}$"
+    ],
+    "answer": "Correct option: B) $15\\text{ m}$. $\\tan 30^\\circ=\\frac{h}{15\\sqrt{3}}$, so $h=15\\sqrt{3}\\times\\frac{1}{\\sqrt{3}}=15\\text{ m}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-02",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": true,
+    "text": "A stay wire runs from the top of a vertical pole to a peg on level ground $7\\text{ m}$ from the foot of the pole. The wire makes an angle of $60^\\circ$ with the ground. The length of the wire is",
+    "options": [
+      "$7\\sqrt{3}\\text{ m}$",
+      "$\\frac{14}{\\sqrt{3}}\\text{ m}$",
+      "$14\\text{ m}$",
+      "$\\frac{7}{2}\\text{ m}$"
+    ],
+    "answer": "Correct option: C) $14\\text{ m}$. $\\cos 60^\\circ=\\frac{7}{l}$, so $l=\\frac{7}{1/2}=14\\text{ m}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-04",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": true,
+    "text": "A lamp post $4\\sqrt{3}\\text{ m}$ high casts a shadow $12\\text{ m}$ long on level ground. The angle of elevation of the Sun is",
+    "options": [
+      "$60^\\circ$",
+      "$45^\\circ$",
+      "$90^\\circ$",
+      "$30^\\circ$"
+    ],
+    "answer": "Correct option: D) $30^\\circ$. $\\tan\\theta=\\frac{4\\sqrt{3}}{12}=\\frac{1}{\\sqrt{3}}$, so $\\theta=30^\\circ$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-05",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": true,
+    "text": "A building $20\\sqrt{3}\\text{ m}$ tall stands on level ground when the Sun's altitude is $60^\\circ$. The length of its shadow is",
+    "options": [
+      "$20\\text{ m}$",
+      "$60\\text{ m}$",
+      "$20\\sqrt{3}\\text{ m}$",
+      "$10\\sqrt{3}\\text{ m}$"
+    ],
+    "answer": "Correct option: A) $20\\text{ m}$. $\\tan 60^\\circ=\\frac{20\\sqrt{3}}{s}$, so $s=\\frac{20\\sqrt{3}}{\\sqrt{3}}=20\\text{ m}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-06",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A girl whose eyes are $1.6\\text{ m}$ above the ground stands $20\\text{ m}$ from a vertical pole $21.6\\text{ m}$ high. The angle of elevation of the top of the pole from her eyes is",
+    "options": [
+      "$30^\\circ$",
+      "$45^\\circ$",
+      "$60^\\circ$",
+      "more than $45^\\circ$ but less than $60^\\circ$"
+    ],
+    "answer": "Correct option: B) $45^\\circ$. The top is $21.6-1.6=20\\text{ m}$ above eye level, so $\\tan\\theta=\\frac{20}{20}=1$ and $\\theta=45^\\circ$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-08",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "hard",
+    "competency": true,
+    "text": "A vertical tower $18\\text{ m}$ high stands on level ground. As the Sun's altitude rises from $30^\\circ$ to $60^\\circ$, the shadow of the tower becomes shorter by",
+    "options": [
+      "$18\\sqrt{3}\\text{ m}$",
+      "$6\\sqrt{3}\\text{ m}$",
+      "$24\\sqrt{3}\\text{ m}$",
+      "$12\\sqrt{3}\\text{ m}$"
+    ],
+    "answer": "Correct option: D) $12\\sqrt{3}\\text{ m}$. Shadow at $30^\\circ$: $\\frac{18}{\\tan 30^\\circ}=18\\sqrt{3}$; at $60^\\circ$: $\\frac{18}{\\sqrt{3}}=6\\sqrt{3}$. Decrease $=18\\sqrt{3}-6\\sqrt{3}=12\\sqrt{3}\\text{ m}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-AR1",
+    "type": "assertion_reason",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": true,
+    "text": "Assertion (A): From the top of a $20\\text{ m}$ high building, the angle of depression of a car on level ground is $60^\\circ$. Then the car is $20\\sqrt{3}\\text{ m}$ from the foot of the building.\nReason (R): The angle of depression of the car from the top of the building is equal to the angle of elevation of the top of the building from the car.",
+    "options": [
+      "Both A and R are true and R explains A",
+      "Both A and R are true but R does not explain A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: D) A is false but R is true. R is true: the two angles are alternate angles between the horizontal at the top and the ground. Using it, $\\tan 60^\\circ=\\frac{20}{d}$, so $d=\\frac{20}{\\sqrt{3}}\\text{ m}$, not $20\\sqrt{3}\\text{ m}$. So A is false.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-NEW-02",
+    "type": "assertion_reason",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Assertion (A): A ladder whose foot is $7\\text{ m}$ from a vertical wall and whose top touches the wall $24\\text{ m}$ above the ground is $25\\text{ m}$ long.\nReason (R): This ladder makes an angle of $60^\\circ$ with the ground.",
+    "options": [
+      "Both A and R are true and R explains A",
+      "Both A and R are true but R does not explain A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: C) A is true but R is false. By Pythagoras, length $=\\sqrt{7^{2}+24^{2}}=\\sqrt{625}=25\\text{ m}$, so A is true. The angle $\\theta$ with the ground has $\\tan\\theta=\\frac{24}{7}$, which is not $\\sqrt{3}$, so R is false.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-B2",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": true,
+    "text": "At a certain time of day, the shadow of a vertical pole on level ground is $\\frac{1}{\\sqrt{3}}$ times the height of the pole. Find the angle of elevation of the Sun at that time.",
+    "answer": "Let the height be $h$; then the shadow is $\\frac{h}{\\sqrt{3}}$. If $\\theta$ is the Sun's elevation, $\\tan\\theta=\\frac{h}{h/\\sqrt{3}}=\\sqrt{3}$. Hence $\\theta=60^\\circ$.",
+    "markingSteps": [
+      {
+        "step": "Taking height $h$, shadow $\\frac{h}{\\sqrt{3}}$ and writing $\\tan\\theta=\\frac{\\text{height}}{\\text{shadow}}$",
+        "marks": 1
+      },
+      {
+        "step": "$\\tan\\theta=\\sqrt{3}$, so $\\theta=60^\\circ$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-B3",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": true,
+    "text": "A flagstaff $15\\text{ m}$ high stands on level ground. At a certain moment, the tangent of the Sun's angle of elevation is $\\frac{5}{4}$. Find the length of the shadow of the flagstaff.",
+    "answer": "Let the shadow be $s$ m. $\\tan\\theta=\\frac{15}{s}=\\frac{5}{4}$, so $s=\\frac{15\\times 4}{5}=12$. The shadow is $12\\text{ m}$ long.",
+    "markingSteps": [
+      {
+        "step": "Writing $\\tan\\theta=\\frac{15}{s}=\\frac{5}{4}$",
+        "marks": 1
+      },
+      {
+        "step": "Solving to get $s=12\\text{ m}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-C2",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": true,
+    "text": "An observer on the upper deck of a boat, $12\\text{ m}$ above sea level, sees the top of a vertical cliff at an angle of elevation of $60^\\circ$ and the foot of the cliff (at sea level) at an angle of depression of $30^\\circ$. Find the height of the cliff and the horizontal distance of the boat from the cliff.",
+    "answer": "Let the observer be at $E$, the foot of the cliff $F$ and its top $T$; let the horizontal distance be $d$. Draw the horizontal $EM$ from the eye to the cliff, so $MF=12\\text{ m}$. Foot: $\\tan 30^\\circ=\\frac{12}{d}$, so $d=12\\sqrt{3}\\text{ m}\\approx 20.78\\text{ m}$. Top: $\\tan 60^\\circ=\\frac{TM}{d}$, so $TM=12\\sqrt{3}\\times\\sqrt{3}=36\\text{ m}$. Height of the cliff $=TM+MF=36+12=48\\text{ m}$. The boat is $12\\sqrt{3}\\approx 20.78\\text{ m}$ from the cliff (taking $\\sqrt{3}=1.732$).",
+    "markingSteps": [
+      {
+        "step": "Using the depression of the foot: $d=12\\sqrt{3}\\text{ m}$",
+        "marks": 1
+      },
+      {
+        "step": "Using the elevation of the top: height above eye level $=36\\text{ m}$",
+        "marks": 1
+      },
+      {
+        "step": "Height of cliff $=48\\text{ m}$, distance $12\\sqrt{3}\\approx 20.78\\text{ m}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-C3",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": true,
+    "text": "Two aeroplanes are flying one vertically above the other. The higher one is at a height of $3000\\text{ m}$. From a point on the ground, the angles of elevation of the two aeroplanes are $60^\\circ$ and $45^\\circ$. Find the vertical distance between the aeroplanes. (Use $\\sqrt{3}=1.732$.)",
+    "answer": "Let $G$ be the ground point and $F$ the point directly below the aeroplanes, $GF=d$. Higher plane: $\\tan 60^\\circ=\\frac{3000}{d}$, so $d=\\frac{3000}{\\sqrt{3}}=1000\\sqrt{3}\\text{ m}$. Lower plane at height $h$: $\\tan 45^\\circ=\\frac{h}{d}$, so $h=d=1000\\sqrt{3}\\approx 1732\\text{ m}$. Vertical gap $=3000-1000\\sqrt{3}=1000(3-\\sqrt{3})\\approx 1000\\times 1.268=1268\\text{ m}$.",
+    "markingSteps": [
+      {
+        "step": "From the higher plane: $d=1000\\sqrt{3}\\text{ m}$",
+        "marks": 1
+      },
+      {
+        "step": "From the lower plane: height $=d=1000\\sqrt{3}\\text{ m}$",
+        "marks": 1
+      },
+      {
+        "step": "Gap $=1000(3-\\sqrt{3})\\approx 1268\\text{ m}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-C4",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": true,
+    "text": "Two vertical poles of heights $6\\text{ m}$ and $18\\text{ m}$ stand on level ground. A taut wire joins their tops, and the angle of depression of the top of the shorter pole from the top of the taller pole is $30^\\circ$. Find the length of the wire and the distance between the poles. (Use $\\sqrt{3}=1.732$.)",
+    "answer": "The tops differ in height by $18-6=12\\text{ m}$. Let the wire be $l$ and the gap $d$; the wire makes $30^\\circ$ with the horizontal. $\\sin 30^\\circ=\\frac{12}{l}$, so $l=24\\text{ m}$. $\\tan 30^\\circ=\\frac{12}{d}$, so $d=12\\sqrt{3}\\approx 20.78\\text{ m}$.",
+    "markingSteps": [
+      {
+        "step": "Vertical difference of the tops $=12\\text{ m}$ and the right triangle with angle $30^\\circ$",
+        "marks": 1
+      },
+      {
+        "step": "Wire length $l=\\frac{12}{\\sin 30^\\circ}=24\\text{ m}$",
+        "marks": 1
+      },
+      {
+        "step": "Distance $d=\\frac{12}{\\tan 30^\\circ}=12\\sqrt{3}\\approx 20.78\\text{ m}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-C6",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A building is $16\\text{ m}$ high. The angle of elevation of the top of a tower from the foot of the building is $60^\\circ$, and the angle of elevation of the top of the building from the foot of the tower is $30^\\circ$. Both stand on the same level ground. Find the height of the tower and the distance between them.",
+    "answer": "Let the distance between their feet be $d$ and the tower's height $H$. From the foot of the tower: $\\tan 30^\\circ=\\frac{16}{d}$, so $d=16\\sqrt{3}\\text{ m}$. From the foot of the building: $\\tan 60^\\circ=\\frac{H}{d}$, so $H=16\\sqrt{3}\\times\\sqrt{3}=48\\text{ m}$. The tower is $48\\text{ m}$ high and they are $16\\sqrt{3}\\approx 27.71\\text{ m}$ apart.",
+    "markingSteps": [
+      {
+        "step": "Using the $30^\\circ$ elevation of the building's top: $d=16\\sqrt{3}\\text{ m}$",
+        "marks": 1
+      },
+      {
+        "step": "Using the $60^\\circ$ elevation of the tower's top: $H=d\\sqrt{3}$",
+        "marks": 1
+      },
+      {
+        "step": "$H=48\\text{ m}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-D1",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": true,
+    "text": "From the top of a lighthouse, the angles of depression of two ships, one exactly behind the other on the same side of the lighthouse, are $60^\\circ$ and $30^\\circ$. If the ships are $200\\text{ m}$ apart, find the height of the lighthouse and the distance of the nearer ship from its foot. (Use $\\sqrt{3}=1.732$.)",
+    "answer": "Let the height be $h$, the nearer ship $A$ (depression $60^\\circ$) at distance $x$ and the farther ship $B$ (depression $30^\\circ$) at distance $x+200$. In the triangle with $A$: $\\tan 60^\\circ=\\frac{h}{x}$, so $x=\\frac{h}{\\sqrt{3}}$. In the triangle with $B$: $\\tan 30^\\circ=\\frac{h}{x+200}$, so $x+200=h\\sqrt{3}$. Subtracting: $h\\sqrt{3}-\\frac{h}{\\sqrt{3}}=200$, i.e. $\\frac{2h}{\\sqrt{3}}=200$, so $h=100\\sqrt{3}\\approx 173.2\\text{ m}$. Nearer ship: $x=\\frac{100\\sqrt{3}}{\\sqrt{3}}=100\\text{ m}$ from the foot.",
+    "markingSteps": [
+      {
+        "step": "Correct figure with the two ships on the same side and the angles marked",
+        "marks": 1
+      },
+      {
+        "step": "$\\tan 60^\\circ=\\frac{h}{x}$ giving $x=\\frac{h}{\\sqrt{3}}$",
+        "marks": 1
+      },
+      {
+        "step": "$\\tan 30^\\circ=\\frac{h}{x+200}$ giving $x+200=h\\sqrt{3}$",
+        "marks": 1
+      },
+      {
+        "step": "Solving $\\frac{2h}{\\sqrt{3}}=200$ to get $h=100\\sqrt{3}\\approx 173.2\\text{ m}$",
+        "marks": 1
+      },
+      {
+        "step": "Nearer ship at $100\\text{ m}$ from the foot",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-D2",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A river is $100\\text{ m}$ wide. From a point $P$ on a bridge directly above the river, the angles of depression of the two banks, on opposite sides of $P$, are $30^\\circ$ and $60^\\circ$. Find the height of $P$ above the water and the distance of each bank from the point on the water directly below $P$. (Use $\\sqrt{3}=1.732$.)",
+    "answer": "Let $M$ be the point on the water directly below $P$, $PM=h$, and let the banks be $A$ (depression $30^\\circ$) and $B$ (depression $60^\\circ$). $\\tan 30^\\circ=\\frac{h}{AM}$, so $AM=h\\sqrt{3}$. $\\tan 60^\\circ=\\frac{h}{BM}$, so $BM=\\frac{h}{\\sqrt{3}}$. $AM+BM=100$: $h\\sqrt{3}+\\frac{h}{\\sqrt{3}}=100$, so $\\frac{4h}{\\sqrt{3}}=100$ and $h=25\\sqrt{3}\\approx 43.3\\text{ m}$. Then $AM=25\\sqrt{3}\\times\\sqrt{3}=75\\text{ m}$ and $BM=25\\text{ m}$.",
+    "markingSteps": [
+      {
+        "step": "Correct figure with the banks on opposite sides of the foot of the perpendicular",
+        "marks": 1
+      },
+      {
+        "step": "$AM=h\\sqrt{3}$ from the $30^\\circ$ depression",
+        "marks": 1
+      },
+      {
+        "step": "$BM=\\frac{h}{\\sqrt{3}}$ from the $60^\\circ$ depression",
+        "marks": 1
+      },
+      {
+        "step": "Using $AM+BM=100$ to get $h=25\\sqrt{3}\\approx 43.3\\text{ m}$",
+        "marks": 1
+      },
+      {
+        "step": "$AM=75\\text{ m}$ and $BM=25\\text{ m}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-D3",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": true,
+    "text": "Two lamp posts of equal height stand on opposite sides of a street $48\\text{ m}$ wide. From a point on the street between them, the angles of elevation of their tops are $60^\\circ$ and $30^\\circ$. Find the height of the lamp posts, the position of the point, and the distance from the point to the top of the nearer lamp post. (Use $\\sqrt{3}=1.732$.)",
+    "answer": "Let the height be $h$ and the point $P$ be $x$ m from the post seen at $60^\\circ$, so it is $48-x$ m from the other. $\\tan 60^\\circ=\\frac{h}{x}$, so $h=x\\sqrt{3}$. $\\tan 30^\\circ=\\frac{h}{48-x}$, so $h=\\frac{48-x}{\\sqrt{3}}$. Equating: $3x=48-x$, so $x=12\\text{ m}$ and $h=12\\sqrt{3}\\approx 20.78\\text{ m}$. The point is $12\\text{ m}$ from one post and $36\\text{ m}$ from the other. The nearer post's top is at distance $\\frac{12}{\\cos 60^\\circ}=24\\text{ m}$ from $P$.",
+    "markingSteps": [
+      {
+        "step": "Correct figure with the point between the posts and both angles marked",
+        "marks": 1
+      },
+      {
+        "step": "$h=x\\sqrt{3}$ and $h=\\frac{48-x}{\\sqrt{3}}$",
+        "marks": 1
+      },
+      {
+        "step": "Solving to get $x=12\\text{ m}$ (and $36\\text{ m}$ from the other post)",
+        "marks": 1
+      },
+      {
+        "step": "$h=12\\sqrt{3}\\approx 20.78\\text{ m}$",
+        "marks": 1
+      },
+      {
+        "step": "Distance to the nearer top $=24\\text{ m}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-D5",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": true,
+    "text": "From the top of a building, the angle of elevation of the top of a $60\\text{ m}$ high tower is $30^\\circ$ and the angle of depression of the foot of the tower is $60^\\circ$. The building and the tower stand on the same level ground. Find the height of the building, the distance between the building and the tower, and the straight-line distance from the top of the building to the top of the tower. (Use $\\sqrt{3}=1.732$.)",
+    "answer": "Let the building have height $h$ and let the distance between them be $d$. The horizontal from the top of the building meets the tower at a point $h$ above the ground. Depression of the foot: $\\tan 60^\\circ=\\frac{h}{d}$, so $h=d\\sqrt{3}$. Elevation of the top: $\\tan 30^\\circ=\\frac{60-h}{d}$, so $60-h=\\frac{d}{\\sqrt{3}}$. Adding: $60=d\\sqrt{3}+\\frac{d}{\\sqrt{3}}=\\frac{4d}{\\sqrt{3}}$, so $d=15\\sqrt{3}\\approx 25.98\\text{ m}$ and $h=15\\sqrt{3}\\times\\sqrt{3}=45\\text{ m}$. The top of the tower is $60-45=15\\text{ m}$ above the top of the building, so the line joining the tops is $\\frac{15}{\\sin 30^\\circ}=30\\text{ m}$ long.",
+    "markingSteps": [
+      {
+        "step": "Correct figure with the horizontal from the building's top and both angles marked",
+        "marks": 1
+      },
+      {
+        "step": "$h=d\\sqrt{3}$ from the $60^\\circ$ depression",
+        "marks": 1
+      },
+      {
+        "step": "$60-h=\\frac{d}{\\sqrt{3}}$ from the $30^\\circ$ elevation",
+        "marks": 1
+      },
+      {
+        "step": "Solving: $d=15\\sqrt{3}\\approx 25.98\\text{ m}$, $h=45\\text{ m}$",
+        "marks": 1
+      },
+      {
+        "step": "Distance between the tops $=30\\text{ m}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-D7",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": true,
+    "text": "From the top of a $60\\text{ m}$ high tower, a man sees a cyclist riding straight towards the foot of the tower at an angle of depression of $30^\\circ$. Ten seconds later the angle of depression is $45^\\circ$. Assuming the cyclist rides at a constant speed, find (i) the distance covered in those $10$ seconds, (ii) the cyclist's speed in $\\text{km/h}$, and (iii) how many more seconds the cyclist takes to reach the foot of the tower. (Use $\\sqrt{3}=1.732$.)",
+    "answer": "First position $A$: $\\tan 30^\\circ=\\frac{60}{FA}$, so $FA=60\\sqrt{3}\\text{ m}$, where $F$ is the foot. Second position $B$: $\\tan 45^\\circ=\\frac{60}{FB}$, so $FB=60\\text{ m}$. (i) $AB=60\\sqrt{3}-60=60(\\sqrt{3}-1)=60\\times 0.732=43.92\\text{ m}$. (ii) Speed $=\\frac{43.92}{10}=4.392\\text{ m/s}=4.392\\times\\frac{18}{5}\\approx 15.81\\text{ km/h}$. (iii) Time for the remaining $60\\text{ m}$ $=\\frac{60}{6(\\sqrt{3}-1)}=\\frac{10}{\\sqrt{3}-1}=5(\\sqrt{3}+1)\\approx 13.66$ seconds.",
+    "markingSteps": [
+      {
+        "step": "$FA=60\\sqrt{3}\\text{ m}$ from the $30^\\circ$ depression",
+        "marks": 1
+      },
+      {
+        "step": "$FB=60\\text{ m}$ from the $45^\\circ$ depression",
+        "marks": 1
+      },
+      {
+        "step": "Distance covered $=60(\\sqrt{3}-1)\\approx 43.92\\text{ m}$",
+        "marks": 1
+      },
+      {
+        "step": "Speed $=6(\\sqrt{3}-1)\\approx 4.392\\text{ m/s}\\approx 15.81\\text{ km/h}$",
+        "marks": 1
+      },
+      {
+        "step": "Remaining time $=5(\\sqrt{3}+1)\\approx 13.66\\text{ s}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-D8",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": true,
+    "text": "A drone flies in a straight horizontal line at a constant height of $40\\sqrt{3}\\text{ m}$ above level ground. An observer on the ground sees it in front of her at an angle of elevation of $60^\\circ$. Eight seconds later, having passed over her head, the drone is seen behind her at an angle of elevation of $30^\\circ$. Find the speed of the drone in $\\text{m/s}$ and in $\\text{km/h}$.",
+    "answer": "Let $O$ be the observer, and $M$, $N$ the points on the ground directly below the two positions of the drone; they are on opposite sides of $O$. First position: $\\tan 60^\\circ=\\frac{40\\sqrt{3}}{OM}$, so $OM=40\\text{ m}$. Second position: $\\tan 30^\\circ=\\frac{40\\sqrt{3}}{ON}$, so $ON=40\\sqrt{3}\\times\\sqrt{3}=120\\text{ m}$. Distance flown $=OM+ON=160\\text{ m}$ in $8$ s. Speed $=\\frac{160}{8}=20\\text{ m/s}=20\\times\\frac{18}{5}=72\\text{ km/h}$.",
+    "markingSteps": [
+      {
+        "step": "Correct figure with the two positions on opposite sides of the observer",
+        "marks": 1
+      },
+      {
+        "step": "$OM=40\\text{ m}$ from the $60^\\circ$ elevation",
+        "marks": 1
+      },
+      {
+        "step": "$ON=120\\text{ m}$ from the $30^\\circ$ elevation",
+        "marks": 1
+      },
+      {
+        "step": "Distance flown $=OM+ON=160\\text{ m}$",
+        "marks": 1
+      },
+      {
+        "step": "Speed $=20\\text{ m/s}=72\\text{ km/h}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-D9",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": true,
+    "text": "Two students $A$ and $B$ stand on level ground in a straight line with the point directly below a hovering drone, on the same side of it, with $B$ $40\\text{ m}$ farther away than $A$. The angles of elevation of the drone from $A$ and $B$ are $45^\\circ$ and $30^\\circ$. Find (i) the height of the drone, (ii) its line-of-sight distance from $A$, and (iii) the horizontal distance of $B$ from the point below the drone. (Use $\\sqrt{3}=1.732$, $\\sqrt{2}=1.414$.)",
+    "answer": "Let the drone be at height $h$ above the point $F$, and $FA=x$, so $FB=x+40$. From $A$: $\\tan 45^\\circ=\\frac{h}{x}$, so $x=h$. From $B$: $\\tan 30^\\circ=\\frac{h}{x+40}$, so $h\\sqrt{3}=h+40$. (i) $h=\\frac{40}{\\sqrt{3}-1}=\\frac{40(\\sqrt{3}+1)}{2}=20(\\sqrt{3}+1)\\approx 20\\times 2.732=54.64\\text{ m}$. (ii) Distance from $A$ $=\\frac{h}{\\sin 45^\\circ}=h\\sqrt{2}\\approx 54.64\\times 1.414\\approx 77.26\\text{ m}$. (iii) $FB=x+40=h+40\\approx 94.64\\text{ m}$ (exactly $20(\\sqrt{3}+3)\\text{ m}$).",
+    "markingSteps": [
+      {
+        "step": "Correct figure with both students on the same side and the angles marked",
+        "marks": 1
+      },
+      {
+        "step": "$x=h$ from the $45^\\circ$ elevation and $h\\sqrt{3}=h+40$ from the $30^\\circ$ elevation",
+        "marks": 1
+      },
+      {
+        "step": "Height $h=20(\\sqrt{3}+1)\\approx 54.64\\text{ m}$",
+        "marks": 1
+      },
+      {
+        "step": "Distance from $A$ $=h\\sqrt{2}\\approx 77.26\\text{ m}$",
+        "marks": 1
+      },
+      {
+        "step": "Horizontal distance of $B$ $\\approx 94.64\\text{ m}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-D10",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": true,
+    "text": "Two towers stand on the same level ground. The shorter tower is $15\\text{ m}$ high. The angle of elevation of the top of the taller tower from the foot of the shorter one is $60^\\circ$, and the angle of elevation of the top of the shorter tower from the foot of the taller one is $30^\\circ$. Find the distance between the towers, the height of the taller tower, and the length of a wire stretched straight between their tops. (Use $\\sqrt{7}=2.646$.)",
+    "answer": "Let the distance between the feet be $d$ and the taller height $H$. From the foot of the taller tower: $\\tan 30^\\circ=\\frac{15}{d}$, so $d=15\\sqrt{3}\\text{ m}\\approx 25.98\\text{ m}$. From the foot of the shorter tower: $\\tan 60^\\circ=\\frac{H}{d}$, so $H=15\\sqrt{3}\\times\\sqrt{3}=45\\text{ m}$. The tops differ in height by $45-15=30\\text{ m}$ and are $d$ apart horizontally, so wire $=\\sqrt{(15\\sqrt{3})^{2}+30^{2}}=\\sqrt{675+900}=\\sqrt{1575}=15\\sqrt{7}\\approx 39.69\\text{ m}$.",
+    "markingSteps": [
+      {
+        "step": "Correct figure with both angles of elevation",
+        "marks": 1
+      },
+      {
+        "step": "$d=15\\sqrt{3}\\text{ m}$",
+        "marks": 1
+      },
+      {
+        "step": "$H=45\\text{ m}$",
+        "marks": 1
+      },
+      {
+        "step": "Setting up the wire as the hypotenuse with legs $15\\sqrt{3}$ and $30$",
+        "marks": 1
+      },
+      {
+        "step": "Wire $=15\\sqrt{7}\\approx 39.69\\text{ m}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-D11",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": true,
+    "text": "A kite is flying $60\\text{ m}$ above level ground. A girl standing at point $A$ on the ground holds a taut string to the kite, making an angle of $60^\\circ$ with the ground. On the other side of the kite stands a building, whose foot is $60\\sqrt{3}\\text{ m}$ from $A$ along the ground. A boy on the roof of the building sees the kite at an angle of elevation of $30^\\circ$. The kite lies between $A$ and the building. Find (i) the length of the girl's string, (ii) the height of the building, and (iii) the distance of the kite from the boy. (Use $\\sqrt{3}=1.732$.)",
+    "answer": "Let $K$ be the kite and $M$ the point on the ground below it. (i) $\\sin 60^\\circ=\\frac{60}{AK}$, so $AK=\\frac{60\\times 2}{\\sqrt{3}}=40\\sqrt{3}\\approx 69.28\\text{ m}$. Also $AM=\\frac{60}{\\tan 60^\\circ}=20\\sqrt{3}\\text{ m}$, so the horizontal distance from $M$ to the building is $60\\sqrt{3}-20\\sqrt{3}=40\\sqrt{3}\\text{ m}$. (ii) From the boy: height of the kite above the roof $=40\\sqrt{3}\\tan 30^\\circ=40\\text{ m}$. So the building is $60-40=20\\text{ m}$ high. (iii) Distance from the boy $=\\frac{40}{\\sin 30^\\circ}=80\\text{ m}$.",
+    "markingSteps": [
+      {
+        "step": "Correct figure with the kite between the girl and the building",
+        "marks": 1
+      },
+      {
+        "step": "Girl's string $AK=40\\sqrt{3}\\approx 69.28\\text{ m}$",
+        "marks": 1
+      },
+      {
+        "step": "$AM=20\\sqrt{3}\\text{ m}$, so the building is $40\\sqrt{3}\\text{ m}$ horizontally from the kite",
+        "marks": 1
+      },
+      {
+        "step": "Kite is $40\\text{ m}$ above the roof, so the building is $20\\text{ m}$ high",
+        "marks": 1
+      },
+      {
+        "step": "Distance from the boy $=80\\text{ m}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-D12",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": true,
+    "text": "The shadow of a vertical tower on level ground is $20\\text{ m}$ longer when the Sun's altitude is $30^\\circ$ than when it is $45^\\circ$. Find the height of the tower and the length of its shadow when the altitude is $45^\\circ$. (Use $\\sqrt{3}=1.732$.)",
+    "answer": "Let the height be $h$. At $45^\\circ$ the shadow is $\\frac{h}{\\tan 45^\\circ}=h$. At $30^\\circ$ the shadow is $\\frac{h}{\\tan 30^\\circ}=h\\sqrt{3}$. Given $h\\sqrt{3}-h=20$, so $h=\\frac{20}{\\sqrt{3}-1}=\\frac{20(\\sqrt{3}+1)}{2}=10(\\sqrt{3}+1)\\approx 27.32\\text{ m}$. The shadow at $45^\\circ$ equals the height, $\\approx 27.32\\text{ m}$.",
+    "markingSteps": [
+      {
+        "step": "Correct figure with both shadows",
+        "marks": 1
+      },
+      {
+        "step": "Shadow at $45^\\circ$ $=h$",
+        "marks": 1
+      },
+      {
+        "step": "Shadow at $30^\\circ$ $=h\\sqrt{3}$",
+        "marks": 1
+      },
+      {
+        "step": "$h\\sqrt{3}-h=20$ giving $h=10(\\sqrt{3}+1)\\approx 27.32\\text{ m}$",
+        "marks": 1
+      },
+      {
+        "step": "Shadow at $45^\\circ$ $\\approx 27.32\\text{ m}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-D14",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": true,
+    "text": "A spherical balloon of radius $r$ subtends an angle of $60^\\circ$ at the eye of an observer, and the angle of elevation of its centre from the eye is $60^\\circ$. Prove that the height of the centre of the balloon above the eye is $\\sqrt{3}\\,r$, and find the horizontal distance of the centre from the observer in terms of $r$.",
+    "answer": "Let $E$ be the eye and $C$ the centre. The two lines of sight from $E$ that just graze the balloon are tangents, touching it at $P$ and $Q$, with $\\angle PEQ=60^\\circ$. The line $EC$ bisects $\\angle PEQ$, so $\\angle PEC=30^\\circ$, and the radius $CP\\perp EP$ (radius is perpendicular to the tangent at the point of contact). In right $\\triangle EPC$: $\\sin 30^\\circ=\\frac{CP}{EC}=\\frac{r}{EC}$, so $EC=2r$. Let $M$ be the point at eye level vertically below $C$. In right $\\triangle EMC$ with $\\angle CEM=60^\\circ$: $CM=EC\\sin 60^\\circ=2r\\times\\frac{\\sqrt{3}}{2}=\\sqrt{3}\\,r$. Hence proved. Horizontal distance $EM=EC\\cos 60^\\circ=2r\\times\\frac{1}{2}=r$.",
+    "markingSteps": [
+      {
+        "step": "Correct figure with the two tangents from the eye and the radius to a point of contact",
+        "marks": 1
+      },
+      {
+        "step": "$EC$ bisects the $60^\\circ$ angle and $CP\\perp EP$, so $\\angle PEC=30^\\circ$",
+        "marks": 1
+      },
+      {
+        "step": "$EC=\\frac{r}{\\sin 30^\\circ}=2r$",
+        "marks": 1
+      },
+      {
+        "step": "Height $CM=2r\\sin 60^\\circ=\\sqrt{3}\\,r$",
+        "marks": 1
+      },
+      {
+        "step": "Horizontal distance $EM=2r\\cos 60^\\circ=r$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": "Syllabus-borderline (tangent-from-external-point geometry inside a trig question) but acceptable; key correct."
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-NEW-01",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": false,
+    "text": "A ladder leans against a vertical wall and makes an angle of $60^\\circ$ with the level ground. Its foot is then pulled $4\\text{ m}$ further away from the wall, and the ladder now makes an angle of $30^\\circ$ with the ground, its top still resting on the wall. Find the length of the ladder, how far its top slides down the wall, and the height it now reaches. (Use $\\sqrt{3}=1.732$.)",
+    "answer": "Let the ladder have length $l$. Distance of the foot from the wall: first $l\\cos 60^\\circ=\\frac{l}{2}$, then $l\\cos 30^\\circ=\\frac{\\sqrt{3}\\,l}{2}$. $\\frac{\\sqrt{3}\\,l}{2}-\\frac{l}{2}=4$, so $l=\\frac{8}{\\sqrt{3}-1}=4(\\sqrt{3}+1)\\approx 10.93\\text{ m}$. Height reached: first $l\\sin 60^\\circ=\\frac{\\sqrt{3}\\,l}{2}$, then $l\\sin 30^\\circ=\\frac{l}{2}$. Slide $=\\frac{\\sqrt{3}\\,l}{2}-\\frac{l}{2}=\\frac{(\\sqrt{3}-1)l}{2}=\\frac{(\\sqrt{3}-1)\\times 4(\\sqrt{3}+1)}{2}=\\frac{4\\times 2}{2}=4\\text{ m}$. New height $=\\frac{l}{2}=2(\\sqrt{3}+1)\\approx 5.46\\text{ m}$.",
+    "markingSteps": [
+      {
+        "step": "Correct figure showing both positions of the ladder",
+        "marks": 1
+      },
+      {
+        "step": "Foot distances $\\frac{l}{2}$ and $\\frac{\\sqrt{3}\\,l}{2}$ with difference $4$",
+        "marks": 1
+      },
+      {
+        "step": "$l=4(\\sqrt{3}+1)\\approx 10.93\\text{ m}$",
+        "marks": 1
+      },
+      {
+        "step": "Heights $\\frac{\\sqrt{3}\\,l}{2}$ and $\\frac{l}{2}$, slide $=4\\text{ m}$",
+        "marks": 1
+      },
+      {
+        "step": "New height $=2(\\sqrt{3}+1)\\approx 5.46\\text{ m}$",
+        "marks": 1
+      }
+    ],
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-E1",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A radio tower $BQ$ is built in two sections: a lower section $BP$ and an upper section $PQ$, standing vertically on level ground. Two support wires are fixed at a ground point $O$, which is $30\\sqrt{3}\\text{ m}$ from the base $B$. One wire goes to $P$, the top of the lower section, and the other to $Q$, the top of the tower. From $O$, the angle of elevation of $P$ is $30^\\circ$ and that of $Q$ is $60^\\circ$.",
+    "answer": "(i) $BP=30\\text{ m}$; (ii) $OP=60\\text{ m}$; (iii) $PQ=60\\text{ m}$.",
+    "parts": [
+      {
+        "label": "(i)",
+        "marks": 1,
+        "text": "Find the height of the lower section $BP$.",
+        "answer": "$\\tan 30^\\circ=\\frac{BP}{OB}$, so $BP=30\\sqrt{3}\\times\\frac{1}{\\sqrt{3}}=30\\text{ m}$."
+      },
+      {
+        "label": "(ii)",
+        "marks": 1,
+        "text": "Find the length of the wire $OP$.",
+        "answer": "$\\cos 30^\\circ=\\frac{OB}{OP}$, so $OP=\\frac{30\\sqrt{3}}{\\sqrt{3}/2}=60\\text{ m}$."
+      },
+      {
+        "label": "(iii)",
+        "marks": 2,
+        "text": "Find the height of the upper section $PQ$.",
+        "answer": "$\\tan 60^\\circ=\\frac{BQ}{OB}$, so $BQ=30\\sqrt{3}\\times\\sqrt{3}=90\\text{ m}$. Hence $PQ=BQ-BP=90-30=60\\text{ m}$."
+      }
+    ],
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 340\"><line x1=\"20\" y1=\"300\" x2=\"390\" y2=\"300\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"340\" y1=\"300\" x2=\"340\" y2=\"12\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"173.7\" y1=\"300\" x2=\"340\" y2=\"204\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"173.7\" y1=\"300\" x2=\"340\" y2=\"12\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"340\" cy=\"204\" r=\"2.5\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"#000\"/><polyline points=\"330,300 330,290 340,290\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 218.7 300 A 45 45 0 0 0 212.7 277.5\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 203.7 300 A 30 30 0 0 0 188.7 274\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"231.7\" y=\"290\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">30°</text><text x=\"199.7\" y=\"266\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">60°</text><text x=\"173.7\" y=\"320\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><text x=\"340\" y=\"320\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"354\" y=\"209\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><text x=\"354\" y=\"17\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text><text x=\"256.9\" y=\"334\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">30√3 m</text></svg>",
+    "figureAlt": "A vertical tower BQ on level ground with a marked point P part way up. From ground point O, 30√3 m from the base B, two wires go to P and to Q, making angles of 30° and 60° with the ground.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-E3",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A window cleaner places the foot $F$ of a ladder on level ground in a narrow lane between two buildings $A$ and $B$. With the foot fixed, she first leans the ladder against building $A$; its top reaches a window $P$, $9\\text{ m}$ above the ground, and the ladder makes an angle of $60^\\circ$ with the ground. Without moving the foot, she then turns the ladder to rest against building $B$, where it makes an angle of $30^\\circ$ with the ground and its top touches $B$ at $Q$.",
+    "answer": "(i) $6\\sqrt{3}\\text{ m}$; (ii) $3\\sqrt{3}\\approx 5.20\\text{ m}$; (iii) $9+3\\sqrt{3}\\approx 14.20\\text{ m}$.",
+    "parts": [
+      {
+        "label": "(i)",
+        "marks": 1,
+        "text": "Find the length of the ladder.",
+        "answer": "$\\sin 60^\\circ=\\frac{9}{l}$, so $l=\\frac{9\\times 2}{\\sqrt{3}}=6\\sqrt{3}\\text{ m}\\approx 10.39\\text{ m}$."
+      },
+      {
+        "label": "(ii)",
+        "marks": 1,
+        "text": "How high up building $B$ is the point $Q$?",
+        "answer": "Height $=l\\sin 30^\\circ=6\\sqrt{3}\\times\\frac{1}{2}=3\\sqrt{3}\\text{ m}\\approx 5.20\\text{ m}$ (using $\\sqrt{3}=1.732$)."
+      },
+      {
+        "label": "(iii)",
+        "marks": 2,
+        "text": "Find the width of the lane, that is, the distance between the two buildings.",
+        "answer": "Distance of $F$ from $A$ $=l\\cos 60^\\circ=6\\sqrt{3}\\times\\frac{1}{2}=3\\sqrt{3}\\text{ m}$. Distance of $F$ from $B$ $=l\\cos 30^\\circ=6\\sqrt{3}\\times\\frac{\\sqrt{3}}{2}=9\\text{ m}$. Width $=9+3\\sqrt{3}\\approx 9+5.196=14.20\\text{ m}$."
+      }
+    ],
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 290\"><line x1=\"20\" y1=\"260\" x2=\"380\" y2=\"260\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"260\" x2=\"60\" y2=\"40\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"315.5\" y1=\"260\" x2=\"315.5\" y2=\"90\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"153.5\" y1=\"260\" x2=\"60\" y2=\"98\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"153.5\" y1=\"260\" x2=\"315.5\" y2=\"166.5\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><polyline points=\"70,260 70,250 60,250\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><polyline points=\"305.5,260 305.5,250 315.5,250\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 139.5 235.8 A 28 28 0 0 0 125.5 260\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 187.5 260 A 34 34 0 0 0 183 243\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"109.5\" y=\"244\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">60°</text><text x=\"203.5\" y=\"254\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">30°</text><text x=\"153.5\" y=\"280\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">F</text><text x=\"48\" y=\"103\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><text x=\"327.5\" y=\"171.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text><text x=\"60\" y=\"280\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"315.5\" y=\"280\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"54\" y=\"179\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">9 m</text><text x=\"66\" y=\"52\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">Building A</text><text x=\"321.5\" y=\"102\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">Building B</text></svg>",
+    "figureAlt": "Two vertical building walls A and B on level ground with the ladder's foot F between them. A solid line from F reaches point P, 9 m up wall A, at 60° to the ground; a dashed line from F reaches point Q on wall B at 30° to the ground.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-E4",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A security guard stands at the top $T$ of a $45\\text{ m}$ high watch tower $FT$ beside a straight, level road leading to its foot $F$. He spots a car at $A$ coming towards the tower at an angle of depression of $30^\\circ$. Exactly $6$ seconds later the car is at $B$, and the angle of depression is $60^\\circ$. The car moves at a constant speed. (Take $\\sqrt{3}=1.732$.)",
+    "answer": "(i) $FA=45\\sqrt{3}\\approx 77.94\\text{ m}$; (ii) $AB=30\\sqrt{3}\\approx 51.96\\text{ m}$; (iii) speed $5\\sqrt{3}\\approx 8.66\\text{ m/s}$, a further $3$ s to reach the foot.",
+    "parts": [
+      {
+        "label": "(i)",
+        "marks": 1,
+        "text": "How far was the car from the foot of the tower when first seen?",
+        "answer": "$\\tan 30^\\circ=\\frac{45}{FA}$, so $FA=45\\sqrt{3}\\approx 77.94\\text{ m}$."
+      },
+      {
+        "label": "(ii)",
+        "marks": 1,
+        "text": "Find the distance $AB$ covered in the $6$ seconds.",
+        "answer": "$\\tan 60^\\circ=\\frac{45}{FB}$, so $FB=\\frac{45}{\\sqrt{3}}=15\\sqrt{3}\\text{ m}$. $AB=45\\sqrt{3}-15\\sqrt{3}=30\\sqrt{3}\\approx 51.96\\text{ m}$."
+      },
+      {
+        "label": "(iii)",
+        "marks": 2,
+        "text": "Find the speed of the car and the further time it takes to reach the foot of the tower.",
+        "answer": "Speed $=\\frac{30\\sqrt{3}}{6}=5\\sqrt{3}\\approx 8.66\\text{ m/s}$ (about $31.18\\text{ km/h}$). Remaining distance $FB=15\\sqrt{3}\\text{ m}$, so time $=\\frac{15\\sqrt{3}}{5\\sqrt{3}}=3$ seconds."
+      }
+    ],
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 310\"><line x1=\"10\" y1=\"280\" x2=\"395\" y2=\"280\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"280\" x2=\"40\" y2=\"100\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"100\" x2=\"395\" y2=\"100\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><line x1=\"40\" y1=\"100\" x2=\"351.8\" y2=\"280\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"100\" x2=\"143.9\" y2=\"280\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"50,280 50,270 40,270\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><circle cx=\"351.8\" cy=\"280\" r=\"2.5\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"#000\"/><circle cx=\"143.9\" cy=\"280\" r=\"2.5\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"#000\"/><path d=\"M 100.6 135 A 70 70 0 0 0 110 100\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 60 134.6 A 40 40 0 0 0 80 100\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"116\" y=\"116\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">30°</text><text x=\"71\" y=\"150\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">60°</text><text x=\"28\" y=\"105\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">T</text><text x=\"40\" y=\"300\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">F</text><text x=\"351.8\" y=\"300\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"143.9\" y=\"300\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"38\" y=\"190\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">45 m</text></svg>",
+    "figureAlt": "A vertical tower FT, 45 m high, on level ground with a dashed horizontal line from its top T. Lines from T go down to two points on the road, A farther away at a 30° angle of depression and B nearer at 60°.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-E5",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A lighthouse $FL$ of height $h$ m stands on level ground near the sea. A visitor at a point $G$ on the ground, at a horizontal distance $x$ m from its foot $F$, sees its top $L$ at an angle of elevation of $60^\\circ$. She then climbs a viewing deck $D$ directly above $G$, $30\\text{ m}$ above the ground, and from there sees $L$ at an angle of elevation of $45^\\circ$. (Take $\\sqrt{3}=1.732$.)",
+    "answer": "(i) $x=\\frac{h}{\\sqrt{3}}$; (ii) $x=h-30$; (iii) $h=15(3+\\sqrt{3})\\approx 70.98\\text{ m}$, $x\\approx 40.98\\text{ m}$.",
+    "parts": [
+      {
+        "label": "(i)",
+        "marks": 1,
+        "text": "Express $x$ in terms of $h$ using the observation from $G$.",
+        "answer": "$\\tan 60^\\circ=\\frac{h}{x}$, so $x=\\frac{h}{\\sqrt{3}}$."
+      },
+      {
+        "label": "(ii)",
+        "marks": 1,
+        "text": "Express $x$ in terms of $h$ using the observation from $D$.",
+        "answer": "From $D$ the top is $h-30$ above eye level, so $\\tan 45^\\circ=\\frac{h-30}{x}$ and $x=h-30$."
+      },
+      {
+        "label": "(iii)",
+        "marks": 2,
+        "text": "Find the height of the lighthouse and the distance $x$.",
+        "answer": "$\\frac{h}{\\sqrt{3}}=h-30$ gives $h(\\sqrt{3}-1)=30\\sqrt{3}$, so $h=\\frac{30\\sqrt{3}}{\\sqrt{3}-1}=15\\sqrt{3}(\\sqrt{3}+1)=15(3+\\sqrt{3})\\approx 70.98\\text{ m}$. Then $x=h-30\\approx 40.98\\text{ m}$ (exactly $15(\\sqrt{3}+1)$)."
+      }
+    ],
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 345\"><line x1=\"20\" y1=\"300\" x2=\"300\" y2=\"300\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"300\" x2=\"70\" y2=\"195\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"213.4\" y1=\"300\" x2=\"213.4\" y2=\"51.6\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"300\" x2=\"213.4\" y2=\"51.6\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"195\" x2=\"213.4\" y2=\"51.6\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"195\" x2=\"213.4\" y2=\"195\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><polyline points=\"203.4,300 203.4,290 213.4,290\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><circle cx=\"70\" cy=\"195\" r=\"2.5\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"#000\"/><path d=\"M 100 300 A 30 30 0 0 0 85 274\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 104 195 A 34 34 0 0 0 94 171\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"100\" y=\"292\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">60°</text><text x=\"108\" y=\"189\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">45°</text><text x=\"70\" y=\"320\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">G</text><text x=\"58\" y=\"200\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text><text x=\"213.4\" y=\"320\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">F</text><text x=\"225.4\" y=\"56.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">L</text><text x=\"66\" y=\"252.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">30 m</text><text x=\"141.7\" y=\"334\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">x</text><text x=\"221.4\" y=\"175.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">h</text></svg>",
+    "figureAlt": "A vertical lighthouse FL of height h. A ground point G is x m from F, and a deck D is 30 m directly above G. Lines go from G to L at 60° and from D to L at 45° above a dashed horizontal.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-E6",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A tall water tank $FT$ stands on level ground at a horizontal distance of $10\\sqrt{3}\\text{ m}$ from a residential building. From a window $W$ of the building, the angle of elevation of the top $T$ of the tank is $60^\\circ$ and the angle of depression of its foot $F$ is $30^\\circ$. The point $G$ is the foot of the building directly below $W$.",
+    "answer": "(i) $GW=10\\text{ m}$; (ii) $30\\text{ m}$; (iii) $FT=40\\text{ m}$, $WT=20\\sqrt{3}\\approx 34.64\\text{ m}$.",
+    "parts": [
+      {
+        "label": "(i)",
+        "marks": 1,
+        "text": "Find the height $GW$ of the window above the ground.",
+        "answer": "$\\tan 30^\\circ=\\frac{GW}{10\\sqrt{3}}$, so $GW=10\\sqrt{3}\\times\\frac{1}{\\sqrt{3}}=10\\text{ m}$."
+      },
+      {
+        "label": "(ii)",
+        "marks": 1,
+        "text": "How high is the top of the tank above the level of the window?",
+        "answer": "$\\tan 60^\\circ=\\frac{\\text{height above window}}{10\\sqrt{3}}$, so height $=10\\sqrt{3}\\times\\sqrt{3}=30\\text{ m}$."
+      },
+      {
+        "label": "(iii)",
+        "marks": 2,
+        "text": "Find the height of the tank and the straight-line distance $WT$ from the window to the top of the tank.",
+        "answer": "Height $FT=10+30=40\\text{ m}$. $WT=\\frac{10\\sqrt{3}}{\\cos 60^\\circ}=20\\sqrt{3}\\approx 34.64\\text{ m}$ (using $\\sqrt{3}=1.732$)."
+      }
+    ],
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 340\"><line x1=\"20\" y1=\"290\" x2=\"290\" y2=\"290\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"90\" y1=\"290\" x2=\"90\" y2=\"150\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"193.9\" y1=\"290\" x2=\"193.9\" y2=\"50\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"90\" y1=\"230\" x2=\"193.9\" y2=\"230\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><line x1=\"90\" y1=\"230\" x2=\"193.9\" y2=\"50\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"90\" y1=\"230\" x2=\"193.9\" y2=\"290\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"183.9,290 183.9,280 193.9,280\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><polyline points=\"100,290 100,280 90,280\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><circle cx=\"90\" cy=\"230\" r=\"2.5\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"#000\"/><path d=\"M 124 230 A 34 34 0 0 0 107 200.6\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 133.3 255 A 50 50 0 0 0 140 230\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"112\" y=\"200\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">60°</text><text x=\"144\" y=\"250\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">30°</text><text x=\"78\" y=\"235\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">W</text><text x=\"90\" y=\"310\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">G</text><text x=\"193.9\" y=\"310\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">F</text><text x=\"205.9\" y=\"55\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">T</text><text x=\"142\" y=\"326\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">10√3 m</text><text x=\"70\" y=\"165\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">Building</text></svg>",
+    "figureAlt": "A building with a window W above its foot G, and a water tank FT 10√3 m away. From W, a dashed horizontal goes to the tank; a line rises to T at 60° and a line falls to F at 30°.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-E7",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "At an airport, passengers board a small aircraft using a straight mobile staircase $SD$ that is $7\\text{ m}$ long. Its foot $S$ rests on the level apron and its top $D$ touches the door sill, which is $3.5\\text{ m}$ above the ground. $E$ is the point on the ground directly below the door. Airport rules say a boarding staircase must not make an angle of more than $60^\\circ$ with the ground.",
+    "answer": "(i) $30^\\circ$; (ii) $3.5\\sqrt{3}\\approx 6.06\\text{ m}$; (iii) $4\\sqrt{3}\\approx 6.93\\text{ m}$.",
+    "parts": [
+      {
+        "label": "(i)",
+        "marks": 1,
+        "text": "Find the angle $\\theta$ that the staircase makes with the ground.",
+        "answer": "$\\sin\\theta=\\frac{3.5}{7}=\\frac{1}{2}$, so $\\theta=30^\\circ$."
+      },
+      {
+        "label": "(ii)",
+        "marks": 1,
+        "text": "How far is the foot $S$ from the point $E$ below the door?",
+        "answer": "$SE=7\\cos 30^\\circ=7\\times\\frac{\\sqrt{3}}{2}=3.5\\sqrt{3}\\approx 6.06\\text{ m}$ (using $\\sqrt{3}=1.732$)."
+      },
+      {
+        "label": "(iii)",
+        "marks": 2,
+        "text": "A larger aircraft has its door sill $6\\text{ m}$ above the ground. Find the length of the shortest staircase allowed by the airport rule, and how far its foot will be from the point below the door.",
+        "answer": "The steeper the staircase, the shorter it is, so the shortest allowed staircase makes $60^\\circ$. Length $=\\frac{6}{\\sin 60^\\circ}=\\frac{12}{\\sqrt{3}}=4\\sqrt{3}\\approx 6.93\\text{ m}$. Its foot is $\\frac{6}{\\tan 60^\\circ}=2\\sqrt{3}\\approx 3.46\\text{ m}$ from the point below the door."
+      }
+    ],
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 260\"><line x1=\"20\" y1=\"230\" x2=\"370\" y2=\"230\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"230\" x2=\"231.9\" y2=\"125\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"231.9\" y1=\"230\" x2=\"231.9\" y2=\"125\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><line x1=\"231.9\" y1=\"125\" x2=\"271.9\" y2=\"125\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"271.9\" y1=\"125\" x2=\"271.9\" y2=\"55\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"221.9,230 221.9,220 231.9,220\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><circle cx=\"231.9\" cy=\"125\" r=\"2.5\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"#000\"/><path d=\"M 90 230 A 40 40 0 0 0 84.6 210\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"96\" y=\"222\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">θ</text><text x=\"50\" y=\"250\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">S</text><text x=\"231.9\" y=\"250\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">E</text><text x=\"223.9\" y=\"117\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">D</text><text x=\"130.9\" y=\"167.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">7 m</text><text x=\"239.9\" y=\"182.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">3.5 m</text><text x=\"279.9\" y=\"95\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">Aircraft</text></svg>",
+    "figureAlt": "A right triangle: a 7 m staircase SD rises from S on the ground to the aircraft door D, which is 3.5 m above point E on the ground. The angle at S is marked θ.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-E8",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "The top $T$ of a pavilion standing in a calm lake is $24\\text{ m}$ above the water surface. A tourist on a lakeside platform at $P$, some height above the water, sees $T$ at an angle of elevation of $30^\\circ$ and the reflection $T'$ of the top in the water at an angle of depression of $60^\\circ$. $A$ is the point on the water surface directly below $P$, and $B$ is the point on the surface directly below $T$.",
+    "answer": "(i) $BT'=24\\text{ m}$; (ii) $\\tan 30^\\circ=\\frac{24-h}{x}$, $\\tan 60^\\circ=\\frac{24+h}{x}$; (iii) $h=12\\text{ m}$, $x=12\\sqrt{3}\\approx 20.78\\text{ m}$.",
+    "parts": [
+      {
+        "label": "(i)",
+        "marks": 1,
+        "text": "How far below the water surface does the reflection $T'$ appear to be?",
+        "answer": "A calm water surface acts as a plane mirror, so the image is as far below the surface as the object is above it: $BT'=BT=24\\text{ m}$."
+      },
+      {
+        "label": "(ii)",
+        "marks": 1,
+        "text": "Taking the height of $P$ above the water as $h$ m and the horizontal distance $AB$ as $x$ m, write two equations linking $h$ and $x$.",
+        "answer": "$T$ is $24-h$ above the level of $P$ and $T'$ is $24+h$ below it, so $\\tan 30^\\circ=\\frac{24-h}{x}$ and $\\tan 60^\\circ=\\frac{24+h}{x}$."
+      },
+      {
+        "label": "(iii)",
+        "marks": 2,
+        "text": "Find the height of $P$ above the water and the horizontal distance of the pavilion from the platform.",
+        "answer": "Dividing the equations: $\\frac{24+h}{24-h}=\\frac{\\sqrt{3}}{1/\\sqrt{3}}=3$, so $24+h=72-3h$ and $h=12\\text{ m}$. Then $x=\\sqrt{3}(24-h)=12\\sqrt{3}\\approx 20.78\\text{ m}$ (using $\\sqrt{3}=1.732$)."
+      }
+    ],
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 340\"><line x1=\"10\" y1=\"170\" x2=\"290\" y2=\"170\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"170\" x2=\"70\" y2=\"98\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"194.7\" y1=\"170\" x2=\"194.7\" y2=\"26\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"194.7\" y1=\"170\" x2=\"194.7\" y2=\"314\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><line x1=\"70\" y1=\"98\" x2=\"194.7\" y2=\"98\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><line x1=\"70\" y1=\"98\" x2=\"194.7\" y2=\"26\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"98\" x2=\"194.7\" y2=\"314\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"70\" cy=\"98\" r=\"2.5\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"#000\"/><circle cx=\"194.7\" cy=\"314\" r=\"2.5\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"#000\"/><path d=\"M 106 98 A 36 36 0 0 0 101.2 80\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 83 120.5 A 26 26 0 0 0 96 98\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"110\" y=\"92\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">30°</text><text x=\"90\" y=\"132\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">60°</text><text x=\"58\" y=\"103\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><text x=\"58\" y=\"186\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"206.7\" y=\"186\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"206.7\" y=\"31\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">T</text><text x=\"208.7\" y=\"319\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">T′</text><text x=\"202.7\" y=\"56\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">24 m</text><text x=\"250\" y=\"164\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">water</text></svg>",
+    "figureAlt": "A horizontal water line. Point P is above the surface at A; the pavilion top T is 24 m above the surface at B and its reflection T′ is the same distance below. From P, a line rises to T at 30° and a line falls to T′ at 60° from a dashed horizontal.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Trigonometry",
+    "topic": "Heights and distances",
+    "patternId": "TG-HD-E9",
+    "type": "case",
+    "marks": 4,
+    "complexity": "hard",
+    "competency": true,
+    "text": "A statue $PS$ stands on top of a pedestal $FP$ that is $6\\text{ m}$ high, on level ground. From a point $A$ on the ground, the angle of elevation of the top of the pedestal $P$ is $30^\\circ$ and that of the top of the statue $S$ is $60^\\circ$. A student then walks straight back, away from the pedestal, to a point $B$ from which the angle of elevation of $S$ is $45^\\circ$. (Take $\\sqrt{3}=1.732$.)",
+    "answer": "(i) $FA=6\\sqrt{3}\\approx 10.39\\text{ m}$; (ii) $PS=12\\text{ m}$; (iii) $AB=18-6\\sqrt{3}\\approx 7.61\\text{ m}$, $\\tan\\beta=\\frac{1}{3}$.",
+    "parts": [
+      {
+        "label": "(i)",
+        "marks": 1,
+        "text": "Find the distance of $A$ from the foot $F$ of the pedestal.",
+        "answer": "$\\tan 30^\\circ=\\frac{6}{FA}$, so $FA=6\\sqrt{3}\\approx 10.39\\text{ m}$."
+      },
+      {
+        "label": "(ii)",
+        "marks": 1,
+        "text": "Find the height of the statue $PS$.",
+        "answer": "$\\tan 60^\\circ=\\frac{FS}{FA}$, so $FS=6\\sqrt{3}\\times\\sqrt{3}=18\\text{ m}$. Statue $PS=18-6=12\\text{ m}$."
+      },
+      {
+        "label": "(iii)",
+        "marks": 2,
+        "text": "Find how far the student walked from $A$ to $B$, and the value of $\\tan\\beta$, where $\\beta$ is the angle of elevation of the top of the pedestal $P$ from $B$.",
+        "answer": "From $B$: $\\tan 45^\\circ=\\frac{18}{FB}$, so $FB=18\\text{ m}$. $AB=18-6\\sqrt{3}\\approx 18-10.392=7.61\\text{ m}$. $\\tan\\beta=\\frac{FP}{FB}=\\frac{6}{18}=\\frac{1}{3}$."
+      }
+    ],
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 290\"><line x1=\"20\" y1=\"260\" x2=\"395\" y2=\"260\" stroke=\"#000\" stroke-width=\"1.5\"/><rect x=\"332\" y=\"188\" width=\"16\" height=\"72\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"#ddd\"/><line x1=\"340\" y1=\"188\" x2=\"340\" y2=\"44\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"215.3\" y1=\"260\" x2=\"340\" y2=\"188\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"215.3\" y1=\"260\" x2=\"340\" y2=\"44\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"124\" y1=\"260\" x2=\"340\" y2=\"44\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><circle cx=\"340\" cy=\"188\" r=\"2.5\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"#000\"/><circle cx=\"340\" cy=\"44\" r=\"2.5\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"#000\"/><path d=\"M 259.3 260 A 44 44 0 0 0 253.4 238\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 239.3 260 A 24 24 0 0 0 227.3 239.2\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 156 260 A 32 32 0 0 0 146.6 237.4\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"265.3\" y=\"254\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">30°</text><text x=\"233.3\" y=\"232\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">60°</text><text x=\"160\" y=\"248\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">45°</text><text x=\"215.3\" y=\"280\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"124\" y=\"280\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"340\" y=\"280\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">F</text><text x=\"354\" y=\"193\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">P</text><text x=\"350\" y=\"49\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">S</text><text x=\"354\" y=\"229\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">6 m</text></svg>",
+    "figureAlt": "A shaded pedestal FP, 6 m high, with a statue PS on top. From ground point A, lines go to P at 30° and to S at 60°. From point B farther back, a dashed line goes to S at 45°.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  }
+]

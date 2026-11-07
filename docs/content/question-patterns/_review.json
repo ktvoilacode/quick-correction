@@ -1,0 +1,883 @@
+{
+ "fixes": [
+  {
+   "n": 1,
+   "issue": "Tagged medium, but it is a single direct HCF of two numbers",
+   "suggest": "easy",
+   "id": "a1",
+   "chapter": "Real Numbers",
+   "text": "The HCF of 96 and 404 is:"
+  },
+  {
+   "n": 25,
+   "issue": "Tagged easy in a 5-mark slot, but it needs three factorisations plus a verification",
+   "suggest": "medium",
+   "id": "cmvqhe96r00bp7gd0ohq5orrl",
+   "chapter": "Real Numbers",
+   "text": "Find the HCF and LCM of $234$, $390$ and $546$ by the prime factorisation method. Also ver"
+  },
+  {
+   "n": 26,
+   "issue": "Topic label is prime factorisation, but this is a tiling word problem",
+   "suggest": "topic: HCF and LCM word problems",
+   "id": "cmvqhe96s00br7gd0jjzfrhcr",
+   "chapter": "Real Numbers",
+   "text": "A community hall has a rectangular floor of $720$ cm by $504$ cm. The committee wants to c"
+  },
+  {
+   "n": 33,
+   "issue": "Topic label is fundamental theorem, but this is an equal-rows HCF word problem",
+   "suggest": "topic: HCF and LCM word problems",
+   "id": "cmvq9r2je00dx7gcnsf79508v",
+   "chapter": "Real Numbers",
+   "text": "For the school Annual Day march past, the NCC wing has 72 cadets, the Scouts wing has 108 "
+  },
+  {
+   "n": 38,
+   "issue": "Tagged hard, but it is a standard HCF then count, 2-3 steps",
+   "suggest": "medium",
+   "id": "cmvq9r2jc00dr7gcn9y1l0opy",
+   "chapter": "Real Numbers",
+   "text": "A sweet shop has 396 laddus, 540 barfis and 612 pedas. It packs them into boxes so that ev"
+  },
+  {
+   "n": 39,
+   "issue": "Tagged easy, but it needs an LCM of three numbers and then a count of rounds",
+   "suggest": "medium",
+   "id": "cmvq9r2jd00dt7gcn8bncgee4",
+   "chapter": "Real Numbers",
+   "text": "Three runners start together from the same point of a circular track and take 40 s, 48 s a"
+  },
+  {
+   "n": 47,
+   "issue": "Tagged easy, but it is the same task as question 45, which is tagged medium",
+   "suggest": "medium, to match question 45",
+   "id": "cmvqhe96l00bb7gd0ha54o20f",
+   "chapter": "Real Numbers",
+   "text": "The HCF of two positive integers is $12$ and their LCM is $504$. If one of the integers is"
+  },
+  {
+   "n": 51,
+   "issue": "Tagged hard, but it is a one-step reading of the larger power in the denominator",
+   "suggest": "easy",
+   "id": "cmvq9r2j500ct7gcn9nkcutit",
+   "chapter": "Real Numbers",
+   "text": "The decimal expansion of $\\frac{43}{2^{3} \\times 5^{2}}$ terminates after how many places "
+  },
+  {
+   "n": 1,
+   "issue": "Tagged medium, but it is a one-step recall and nearly duplicates Q23",
+   "suggest": "easy; consider dropping one of Q1 and Q23",
+   "id": "a3",
+   "chapter": "Polynomials",
+   "text": "The number of zeroes of the polynomial whose graph cuts the $x$-axis at 3 points is:"
+  },
+  {
+   "n": 7,
+   "issue": "Tagged medium, but it is one step: k + 3 = 9",
+   "suggest": "easy",
+   "id": "cmvq9r2hp007v7gcnhwh98dbb",
+   "chapter": "Polynomials",
+   "text": "If the sum of the zeroes of the polynomial $x^{2} - (k + 3)x + 5$ is 9, then the value of "
+  },
+  {
+   "n": 10,
+   "issue": "Tagged hard, but it is two short steps from sum and difference",
+   "suggest": "medium",
+   "id": "cmvq9r2hs00817gcno9cx14ob",
+   "chapter": "Polynomials",
+   "text": "The zeroes $\\alpha$ and $\\beta$ of the polynomial $x^{2} - 8x + k$ satisfy $\\alpha - \\beta"
+  },
+  {
+   "n": 12,
+   "issue": "Tagged easy, but it needs factorising plus verifying both relations. It uses the same polynomial as Q3, and two full verifications are a lot for 2 marks",
+   "suggest": "medium; rewrite with a new polynomial or retire it",
+   "id": "cmvq9r2hy008n7gcnv3llzvla",
+   "chapter": "Polynomials",
+   "text": "Find the zeroes of the polynomial $6x^{2} - 7x - 3$ and verify the relationship between th"
+  },
+  {
+   "n": 16,
+   "issue": "Tagged easy, but it needs alpha^2 + beta^2 first, then a fraction",
+   "suggest": "medium",
+   "id": "cmvqhe95400737gd0fiq982k3",
+   "chapter": "Polynomials",
+   "text": "If $\\alpha$ and $\\beta$ are the zeroes of the polynomial $3x^{2} - 8x + 2$, then $\\frac{\\a"
+  },
+  {
+   "n": 18,
+   "issue": "Tagged easy, but it needs (alpha - beta)^2 from the sum and product",
+   "suggest": "medium",
+   "id": "cmvqhe959007j7gd0x7c22hfy",
+   "chapter": "Polynomials",
+   "text": "If $\\alpha$ and $\\beta$ are the zeroes of $2x^{2} - 7x + 3$ with $\\alpha > \\beta$, find $\\"
+  },
+  {
+   "n": 19,
+   "issue": "Tagged easy, but it is an identity, then k, then factorising",
+   "suggest": "medium",
+   "id": "cmvqhe95d007r7gd0d4zonqet",
+   "chapter": "Polynomials",
+   "text": "The sum of the squares of the zeroes of the polynomial $x^{2} - 6x + k$ is 20. Find the va"
+  },
+  {
+   "n": 20,
+   "issue": "Tagged easy, but it is a three-part long answer",
+   "suggest": "medium",
+   "id": "cmvqhe95f007z7gd0z37km4q8",
+   "chapter": "Polynomials",
+   "text": "Consider the polynomial $p(x) = 10x^{2} - 9x - 7$.\n(i) Find its zeroes by factorisation.\n("
+  },
+  {
+   "n": 21,
+   "issue": "Topic label says Zeroes and coefficients, but the task is division of a quartic",
+   "suggest": "topic: Division algorithm and evaluation",
+   "id": "cmvqhe95g00837gd04kdg74eb",
+   "chapter": "Polynomials",
+   "text": "Two zeroes of the polynomial $p(x) = x^{4} - 2x^{3} - 7x^{2} + 8x + 12$ are $2$ and $-1$.\n"
+  },
+  {
+   "n": 34,
+   "issue": "Tagged hard, but it is a standard 2-3 step formation",
+   "suggest": "medium",
+   "id": "cmvq9r2i0008v7gcnl4xivhs9",
+   "chapter": "Polynomials",
+   "text": "If $\\alpha$ and $\\beta$ are the zeroes of the polynomial $5x^{2} - 7x + 2$, find a quadrat"
+  },
+  {
+   "n": 39,
+   "issue": "Topic label says Value of k from a zero, but the condition is on the zeroes, and no zero is given",
+   "suggest": "topic: Unknown coefficients from conditions on zeroes",
+   "id": "cmvq9r2hz008r7gcni62wcquc",
+   "chapter": "Polynomials",
+   "text": "The zeroes of the polynomial $3x^{2} + (2k - 4)x - 12$ are equal in magnitude but opposite"
+  },
+  {
+   "n": 1,
+   "issue": "Topic is General and it is a one-step ratio check, tagged medium",
+   "suggest": "Topic Consistency conditions, complexity easy",
+   "id": "a5",
+   "chapter": "Pair of Linear Equations",
+   "text": "The pair of equations $x + 2y = 5$ and $2x + 4y = 10$ has:"
+  },
+  {
+   "n": 2,
+   "issue": "Topic is General",
+   "suggest": "Topic Substitution and elimination",
+   "id": "b2",
+   "chapter": "Pair of Linear Equations",
+   "text": "Solve: $2x + 3y = 11$ and $2x - 4y = -24$."
+  },
+  {
+   "n": 6,
+   "issue": "Tagged hard, but one ratio gives k and the other confirms it",
+   "suggest": "medium",
+   "id": "cmvq9r2hd006j7gcnq1mcgtvz",
+   "chapter": "Pair of Linear Equations",
+   "text": "If the pair of equations $(k - 2)x + 3y = k$ and $kx + 6y = k + 4$ has infinitely many sol"
+  },
+  {
+   "n": 22,
+   "issue": "Labelled Word problems, but the equations are in reciprocals of the speeds, a method believed cut from the syllabus",
+   "suggest": "Topic Equations reducible to a linear pair; hold until scope is verified",
+   "id": "cmvq9r2hm007h7gcn3q21l9i0",
+   "chapter": "Pair of Linear Equations",
+   "text": "A man travels 360 km, partly by bus and partly by train. If he travels 120 km by bus and t"
+  },
+  {
+   "n": 23,
+   "issue": "Labelled Word problems, but the equations are in reciprocals of the speeds, a method believed cut from the syllabus",
+   "suggest": "Topic Equations reducible to a linear pair; hold until scope is verified",
+   "id": "cmvq9r2hn007j7gcnavjvzgcx",
+   "chapter": "Pair of Linear Equations",
+   "text": "A boat takes 8 hours to go 18 km upstream and 50 km downstream. It takes 7 hours to go 30 "
+  },
+  {
+   "n": 26,
+   "issue": "Tagged easy, but needs forming two equations and solving them",
+   "suggest": "medium",
+   "id": "cmvqhe94q005v7gd0r8g92ufn",
+   "chapter": "Pair of Linear Equations",
+   "text": "The perimeter of a rectangular field is 70 m and its length is 5 m more than twice its bre"
+  },
+  {
+   "n": 32,
+   "issue": "Tagged medium, but the set-up is not obvious: products must be expanded and cancelled to reach linear equations",
+   "suggest": "hard",
+   "id": "cmvqhe94z006p7gd0nwk7bcb1",
+   "chapter": "Pair of Linear Equations",
+   "text": "The area of a rectangular garden stays the same if its length is decreased by 4 m while it"
+  },
+  {
+   "n": 36,
+   "issue": "Table, two graphs, intersection and triangle area are too much for 2 marks",
+   "suggest": "Move to slot C",
+   "id": "cmvq9r2hi00717gcno90qcdae",
+   "chapter": "Pair of Linear Equations",
+   "text": "Draw up a table of values for the lines $x + y = 6$ and $x - y = 2$. From the graphs, find"
+  },
+  {
+   "n": 43,
+   "issue": "Tagged easy, but needs solving the pair and then evaluating an expression",
+   "suggest": "medium",
+   "id": "cmvq9r2hg006t7gcnm2cuur8k",
+   "chapter": "Pair of Linear Equations",
+   "text": "If $2x + 3y = 13$ and $3x + 2y = 12$, then $x^{2} + y^{2}$ equals"
+  },
+  {
+   "n": 46,
+   "issue": "Filed under Substitution and elimination, but it asks for the nature of the pair",
+   "suggest": "Topic Consistency conditions",
+   "id": "cmvqhe94r005z7gd0fnu6e287",
+   "chapter": "Pair of Linear Equations",
+   "text": "The pair of equations $y = 5x - 2$ and $10x - 2y = 4$ has"
+  },
+  {
+   "n": 1,
+   "issue": "Tagged medium under General; a one-step pure quadratic. Topic should be Solving by factorisation or formula.",
+   "suggest": "easy",
+   "id": "a6",
+   "chapter": "Quadratic Equations",
+   "text": "The roots of $x^{2} - 4 = 0$ are:"
+  },
+  {
+   "n": 2,
+   "issue": "Tagged medium under General; a direct discriminant calculation. Topic should be Nature of roots by discriminant.",
+   "suggest": "easy",
+   "id": "a7",
+   "chapter": "Quadratic Equations",
+   "text": "The discriminant of $2x^{2} - 4x + 3 = 0$ is:"
+  },
+  {
+   "n": 3,
+   "issue": "Topic is General; it is a speed-time problem.",
+   "suggest": "Word problems",
+   "id": "d1",
+   "chapter": "Quadratic Equations",
+   "text": "A train travels 360 km at a uniform speed. If the speed had been 5 km/h more, it would hav"
+  },
+  {
+   "n": 12,
+   "issue": "Tagged easy, but needs forming the equation before solving it.",
+   "suggest": "medium",
+   "id": "cmvqhe96700ab7gd0jci7iks5",
+   "chapter": "Quadratic Equations",
+   "text": "The product of two consecutive positive multiples of 3 is 270. Find the numbers."
+  },
+  {
+   "n": 17,
+   "issue": "Tagged easy, but it is a multi-step reciprocal word problem.",
+   "suggest": "medium",
+   "id": "cmvqhe96b00ap7gd0hqkwxl2q",
+   "chapter": "Quadratic Equations",
+   "text": "The difference of two natural numbers is 5 and the difference of their reciprocals is $\\fr"
+  },
+  {
+   "n": 18,
+   "issue": "Tagged easy, but it is a multi-step price-and-count word problem.",
+   "suggest": "medium",
+   "id": "cmvqhe96b00ar7gd0xrchkfcy",
+   "chapter": "Quadratic Equations",
+   "text": "A shopkeeper buys some notebooks for ₹ 600. If each notebook had cost ₹ 5 less, he could h"
+  },
+  {
+   "n": 20,
+   "issue": "Tagged easy, but it is a multi-part 4-mark case study.",
+   "suggest": "medium",
+   "id": "cmvqhe96f00b37gd09zwp8n5v",
+   "chapter": "Quadratic Equations",
+   "text": "A school bus covers a 120 km trip at a uniform speed of $x$ km/h. The driver notices that "
+  },
+  {
+   "n": 29,
+   "issue": "Held back as flagged, but the text and maths are sound: the discriminant is $-4(p-q)^2$, which is negative for $p\\ne q$. Check why it was flagged.",
+   "suggest": "review and reactivate",
+   "id": "cmvqhe96600a77gd0y6wfbep8",
+   "chapter": "Quadratic Equations",
+   "text": "Show that the equation $x^{2} + 2(p + q)x + 2(p^{2} + q^{2}) = 0$ has no real roots if $p "
+  },
+  {
+   "n": 38,
+   "issue": "Tagged hard, but it is a standard equal-roots question, then reading off the root.",
+   "suggest": "medium",
+   "id": "cmvqhe96c00av7gd0cnmv8wd8",
+   "chapter": "Quadratic Equations",
+   "text": "Find the values of $k$ for which the equation $x^{2} + (k + 3)x + (k + 6) = 0$ has equal r"
+  },
+  {
+   "n": 53,
+   "issue": "Tagged hard, but it is two steps using the product of roots.",
+   "suggest": "medium",
+   "id": "cmvqhe963009x7gd0wu4z62ku",
+   "chapter": "Quadratic Equations",
+   "text": "One root of $2x^{2} + kx - 6 = 0$ is $\\frac{3}{2}$. The other root is"
+  },
+  {
+   "n": 1,
+   "issue": "Tagged medium, is a one-step formula use like n5 and n11",
+   "suggest": "easy",
+   "id": "a8",
+   "chapter": "Arithmetic Progressions",
+   "text": "The 10th term of the AP $2, 7, 12, \\dots$ is:"
+  },
+  {
+   "n": 2,
+   "issue": "Tagged medium, is a one-step subtraction",
+   "suggest": "easy",
+   "id": "a9",
+   "chapter": "Arithmetic Progressions",
+   "text": "The common difference of the AP $\\frac{1}{3}, \\frac{5}{3}, \\frac{9}{3}, \\dots$ is:"
+  },
+  {
+   "n": 4,
+   "issue": "Sub-part marks are not stated, and the 2-mark total comes before a 1-mark part. It also repeats the auditorium context of n10.",
+   "suggest": "Label parts [1], [1], [2], put the total last, and change the context",
+   "id": "e1",
+   "chapter": "Arithmetic Progressions",
+   "text": "Case study — A school auditorium has 20 seats in the first row, 22 in the second, 24 in th"
+  },
+  {
+   "n": 18,
+   "issue": "Tagged easy, but needs a count and then a sum, the same task as n25 (medium)",
+   "suggest": "medium",
+   "id": "cmvq9r2g9001v7gcnwind0ohp",
+   "chapter": "Arithmetic Progressions",
+   "text": "Find the sum of all two-digit natural numbers that are divisible by 7."
+  },
+  {
+   "n": 26,
+   "issue": "Tagged easy, but needs two sums and a subtraction in a 3-mark answer",
+   "suggest": "medium",
+   "id": "cmvqhe93x00397gd076b521eb",
+   "chapter": "Arithmetic Progressions",
+   "text": "Find the sum of all natural numbers from $1$ to $100$ that are not divisible by $3$."
+  },
+  {
+   "n": 32,
+   "issue": "Tagged medium, is a direct formula use",
+   "suggest": "easy",
+   "id": "cmvqhe93d00217gd0jplph1oy",
+   "chapter": "Arithmetic Progressions",
+   "text": "The AP $8, 14, 20, \\dots$ ends with the term $152$. The number of terms in it is"
+  },
+  {
+   "n": 42,
+   "issue": "Topic label says Common difference, but the task works from a sum formula",
+   "suggest": "Sum of n terms",
+   "id": "cmvqhe93s002x7gd0s76noffx",
+   "chapter": "Arithmetic Progressions",
+   "text": "The sum of the first $n$ terms of an AP is $S_{n} = 4n - n^{2}$. Find the first term, the "
+  },
+  {
+   "n": 45,
+   "issue": "Tagged medium, is the same one-equation task as n43 (easy)",
+   "suggest": "easy",
+   "id": "cmvqhe93e00237gd09pub5ji5",
+   "chapter": "Arithmetic Progressions",
+   "text": "If $2p$, $p + 10$ and $3p + 2$ are three consecutive terms of an AP, then $p$ is"
+  },
+  {
+   "n": 1,
+   "issue": "Tagged medium, is a one-step recall that perimeter ratio equals side ratio",
+   "suggest": "easy",
+   "id": "a10",
+   "chapter": "Triangles",
+   "text": "If $\\triangle ABC \\sim \\triangle PQR$ with $\\frac{AB}{PQ} = \\frac{2}{3}$, the ratio of the"
+  },
+  {
+   "n": 13,
+   "issue": "Tagged easy, is the full 5-mark theorem proof; also a near duplicate of bank question 3",
+   "suggest": "medium; keep only one of 3 and 13",
+   "id": "cmvq9r2kf00hv7gcninc3h67h",
+   "chapter": "Triangles",
+   "text": "State and prove the Basic Proportionality Theorem (Thales theorem)."
+  },
+  {
+   "n": 14,
+   "issue": "Tagged hard, is a standard one-diagonal, two-BPT proof",
+   "suggest": "medium",
+   "id": "cmvq9r2kf00hx7gcnqn4wyxaj",
+   "chapter": "Triangles",
+   "text": "$ABCD$ is a trapezium with $AB \\parallel DC$. A line $EF$ parallel to $AB$ meets $AD$ at $"
+  },
+  {
+   "n": 28,
+   "issue": "Tagged easy, needs a similarity proof and then a ratio calculation",
+   "suggest": "medium",
+   "id": "cmvqhe98000fv7gd0b5jowpev",
+   "chapter": "Triangles",
+   "text": "In an acute-angled $\\triangle ABC$, $BE \\perp AC$ with $E$ on $AC$, and $CF \\perp AB$ with"
+  },
+  {
+   "n": 46,
+   "issue": "Tagged easy, needs the whole-triangle area, a square root of the ratio and a part-to-part conversion",
+   "suggest": "medium",
+   "id": "cmvqhe98200g37gd08jmthsh9",
+   "chapter": "Triangles",
+   "text": "In $\\triangle ABC$, $D$ lies on $AB$ and $E$ lies on $AC$ with $DE \\parallel BC$. The area"
+  },
+  {
+   "n": 48,
+   "issue": "Topic label is Pythagoras; the question is a shadow proportion",
+   "suggest": "Applications of similar triangles",
+   "id": "cmvq9r2k900h77gcn39xxb0ug",
+   "chapter": "Triangles",
+   "text": "A vertical pole $3.6\\text{ m}$ high casts a shadow $2.4\\text{ m}$ long on level ground. At"
+  },
+  {
+   "n": 54,
+   "issue": "Topic label is Pythagoras; the core of this case study is a shadow similarity",
+   "suggest": "Applications of similar triangles",
+   "id": "cmvq9r2kj00id7gcn4dhd9p9f",
+   "chapter": "Triangles",
+   "text": "A school is installing a vertical flag mast on level ground. To estimate its height, Meera"
+  },
+  {
+   "n": 58,
+   "issue": "Topic label is Pythagoras; this case study is about similar fields",
+   "suggest": "Applications of similar triangles",
+   "id": "cmvqhe98500gb7gd04o9of93j",
+   "chapter": "Triangles",
+   "text": "Case study: A farmer owns two triangular fields, $ABC$ and $PQR$, with $\\triangle ABC \\sim"
+  },
+  {
+   "n": 1,
+   "issue": "Tagged medium, is a one-step distance from the origin. Topic General should be Distance formula.",
+   "suggest": "easy",
+   "id": "a11",
+   "chapter": "Coordinate Geometry",
+   "text": "The distance between the points $(0, 0)$ and $(6, 8)$ is:"
+  },
+  {
+   "n": 2,
+   "issue": "Tagged medium, is a direct midpoint. Topic General should be Midpoint.",
+   "suggest": "easy",
+   "id": "a12",
+   "chapter": "Coordinate Geometry",
+   "text": "The midpoint of the segment joining $(2, 4)$ and $(6, 8)$ is:"
+  },
+  {
+   "n": 3,
+   "issue": "Topic General should be Section formula.",
+   "suggest": "Section formula",
+   "id": "c4",
+   "chapter": "Coordinate Geometry",
+   "text": "Find the ratio in which the line segment joining $(-3, 10)$ and $(6, -8)$ is divided by $("
+  },
+  {
+   "n": 4,
+   "issue": "Topic General should be Distance formula. Sub-parts carry no marks, so the 1+1+2 split is not shown.",
+   "suggest": "Distance formula; add marks",
+   "id": "e2",
+   "chapter": "Coordinate Geometry",
+   "text": "Case study — Students plant saplings at points $A(2, 3)$, $B(6, 3)$ and $C(6, 6)$ on a gri"
+  },
+  {
+   "n": 9,
+   "issue": "Tagged easy, needs two distances and a quadratic.",
+   "suggest": "medium",
+   "id": "cmvq9r2h5005f7gcny64maker",
+   "chapter": "Coordinate Geometry",
+   "text": "The points $P(6, -1)$, $Q(1, 3)$ and $R(x, 8)$ are such that $PQ = QR$. Find the values of"
+  },
+  {
+   "n": 16,
+   "issue": "Tagged easy, is a multi-step expansion and proof.",
+   "suggest": "medium",
+   "id": "cmvqhe94g004v7gd0uecqrw6j",
+   "chapter": "Coordinate Geometry",
+   "text": "Prove that if a point $P(x, y)$ is equidistant from $A(5, 1)$ and $B(-1, 5)$, then $3x = 2"
+  },
+  {
+   "n": 40,
+   "issue": "Tagged medium, combines the fourth vertex with a full square proof.",
+   "suggest": "hard",
+   "id": "cmvqhe94h00517gd06vkp7p1p",
+   "chapter": "Coordinate Geometry",
+   "text": "$A(2, -1)$, $B(5, 3)$ and $C(9, 0)$ are three consecutive vertices of a parallelogram $ABC"
+  },
+  {
+   "n": 43,
+   "issue": "Tagged medium, is a one-step reverse midpoint. Board rows of this task are tagged easy.",
+   "suggest": "easy",
+   "id": "cmvq9r2gz004x7gcndv1zw0dq",
+   "chapter": "Coordinate Geometry",
+   "text": "The centre of a circle is $(2, -1)$ and one end of a diameter is $(-3, 5)$. The other end "
+  },
+  {
+   "n": 46,
+   "issue": "Tagged hard, is a standard use of diagonals bisecting. Topic is better as Geometric shapes from coordinates.",
+   "suggest": "medium",
+   "id": "cmvq9r2ha00677gcn4e54c6hh",
+   "chapter": "Coordinate Geometry",
+   "text": "$ABCD$ is a parallelogram with vertices $A(1, -2)$, $B(4, y)$, $C(x, 6)$ and $D(-1, 2)$, t"
+  },
+  {
+   "n": 56,
+   "issue": "Tagged easy, needs the distance formula and a quadratic. The MCQ version (n 52) is tagged medium.",
+   "suggest": "medium",
+   "id": "cmvqhe94f004r7gd00cdoua7x",
+   "chapter": "Coordinate Geometry",
+   "text": "Find the points on the $y$-axis which are at a distance of $10$ units from the point $(8, "
+  },
+  {
+   "n": 1,
+   "issue": "Tagged medium, is a one-step recall of sin²+cos²=1; topic is General",
+   "suggest": "easy; topic Ratios of standard angles",
+   "id": "a13",
+   "chapter": "Trigonometry",
+   "text": "The value of $\\sin^{2}30^\\circ + \\cos^{2}30^\\circ$ is:"
+  },
+  {
+   "n": 2,
+   "issue": "Tagged medium, is a direct recall; topic is General. Text also does not say the angle is acute",
+   "suggest": "easy; topic Ratios of standard angles; add \"acute\"",
+   "id": "a14",
+   "chapter": "Trigonometry",
+   "text": "If $\\tan\\theta = 1$, then $\\theta$ equals:"
+  },
+  {
+   "n": 3,
+   "issue": "Tagged medium, is direct substitution and two terms cancel; topic is General",
+   "suggest": "easy; topic Ratios of standard angles",
+   "id": "b4",
+   "chapter": "Trigonometry",
+   "text": "Evaluate: $2\\tan^{2}45^\\circ + \\cos^{2}30^\\circ - \\sin^{2}60^\\circ$."
+  },
+  {
+   "n": 4,
+   "issue": "Topic is General",
+   "suggest": "topic Identities and proofs",
+   "id": "c5",
+   "chapter": "Trigonometry",
+   "text": "Prove that $(\\sin\\theta + \\operatorname{cosec}\\theta)^{2} + (\\cos\\theta + \\sec\\theta)^{2} "
+  },
+  {
+   "n": 5,
+   "issue": "Topic is General",
+   "suggest": "topic Heights and distances",
+   "id": "d3",
+   "chapter": "Trigonometry",
+   "text": "From the top of a $75\\text{ m}$ high lighthouse, the angles of depression of two ships are"
+  },
+  {
+   "n": 6,
+   "issue": "Tagged easy, needs conversion to sec − tan and then the Pythagorean identity",
+   "suggest": "medium",
+   "id": "cmvq9r2ko00iv7gcn8bvqmg28",
+   "chapter": "Trigonometry",
+   "text": "$\\sec\\theta (1 - \\sin\\theta)(\\sec\\theta + \\tan\\theta)$ is equal to"
+  },
+  {
+   "n": 17,
+   "issue": "Tagged easy, needs converting and factorising in a 3-mark proof",
+   "suggest": "medium",
+   "id": "cmvq9r2ky00kb7gcnolq8crno",
+   "chapter": "Trigonometry",
+   "text": "Prove that $\\frac{\\cot\\theta - \\cos\\theta}{\\cot\\theta + \\cos\\theta} = \\frac{\\operatorname{"
+  },
+  {
+   "n": 25,
+   "issue": "Tagged medium, is one step with tan 30°",
+   "suggest": "easy",
+   "id": "cmvq9r2ks00jf7gcnxc02h73l",
+   "chapter": "Trigonometry",
+   "text": "An observer on the roof of a $20\\text{ m}$ high building sees a car on level ground at an "
+  },
+  {
+   "n": 42,
+   "issue": "Tagged easy, but a case study with sub-parts 1+1+2 should be medium",
+   "suggest": "medium",
+   "id": "cmvq9r2l700lb7gcn4wryrdyv",
+   "chapter": "Trigonometry",
+   "text": "The painter's ladder. A painter uses a $16\\text{ m}$ long ladder to reach a wall. The ladd"
+  },
+  {
+   "n": 1,
+   "issue": "Tagged medium, is one-fact recall; also still labelled General",
+   "suggest": "easy; topic Lines and circles: basics",
+   "id": "a15",
+   "chapter": "Circles",
+   "text": "The number of tangents that can be drawn to a circle from an external point is:"
+  },
+  {
+   "n": 2,
+   "issue": "Same task as question 19; tagged medium while 19 is easy; still labelled General",
+   "suggest": "easy; topic Proofs with tangents; keep only one of 2 and 19",
+   "id": "b5",
+   "chapter": "Circles",
+   "text": "Prove that the tangents drawn at the ends of a diameter of a circle are parallel."
+  },
+  {
+   "n": 18,
+   "issue": "Recall about a circumscribed figure, labelled Proofs with tangents",
+   "suggest": "topic Circle touching the sides of a figure",
+   "id": "cmvq9r2gl003d7gcnuinfbfxy",
+   "chapter": "Circles",
+   "text": "A parallelogram circumscribes a circle. Then the parallelogram must be a"
+  },
+  {
+   "n": 23,
+   "issue": "Tagged hard, is the standard midpoint proof plus one Pythagoras step",
+   "suggest": "medium",
+   "id": "cmvq9r2gq003z7gcnh0eyuoch",
+   "chapter": "Circles",
+   "text": "Two concentric circles have centre $O$. A chord $AB$ of the larger circle touches the smal"
+  },
+  {
+   "n": 31,
+   "issue": "Tagged medium, is one Pythagoras step",
+   "suggest": "easy",
+   "id": "cmvq9r2gj00337gcn6kcl3sj3",
+   "chapter": "Circles",
+   "text": "A tangent $PT$ of length $7\\text{ cm}$ touches a circle of radius $7\\text{ cm}$ at $T$, wi"
+  },
+  {
+   "n": 35,
+   "issue": "Tagged hard, but has the same structure as question 38",
+   "suggest": "medium, after checking the full text",
+   "id": "cmvq9r2gu004f7gcnucymbgq9",
+   "chapter": "Circles",
+   "text": "A circular park has centre $O$ and radius $15\\text{ m}$. A straight road touches the bound"
+  },
+  {
+   "n": 37,
+   "issue": "Tagged easy, needs Pythagoras and then a subtraction",
+   "suggest": "medium",
+   "id": "cmvqhe944003r7gd0ad9jfmcl",
+   "chapter": "Circles",
+   "text": "$PT$ is a tangent to a circle with centre $O$ at the point $T$. If the radius is $12\\text{"
+  },
+  {
+   "n": 38,
+   "issue": "Tagged easy, and the case-study slot has no easy band",
+   "suggest": "medium",
+   "id": "cmvqhe94800477gd0uustsfqn",
+   "chapter": "Circles",
+   "text": "A circular roundabout has centre $O$ and radius $20\\text{ m}$. A straight road touches the"
+  },
+  {
+   "n": 48,
+   "issue": "Tagged hard, is the standard right-triangle inradius plus one equal-tangent step",
+   "suggest": "medium",
+   "id": "cmvq9r2gt00497gcn2tms5r2p",
+   "chapter": "Circles",
+   "text": "In $\\triangle ABC$, $\\angle B = 90^\\circ$, $AB = 20\\text{ cm}$ and $BC = 21\\text{ cm}$, so"
+  },
+  {
+   "n": 1,
+   "issue": "Same question as 3 (radius 14, 90 degrees); tagged medium but is one step; topic is General",
+   "suggest": "Retire as a duplicate of 3, or change the numbers, tag easy and move to Area and perimeter of a sector",
+   "id": "a16",
+   "chapter": "Areas Related to Circles",
+   "text": "The area of a sector of angle $90^\\circ$ in a circle of radius $14 \\text{ cm}$ is:"
+  },
+  {
+   "n": 2,
+   "issue": "Topic is General",
+   "suggest": "Move to Segment area",
+   "id": "c6",
+   "chapter": "Areas Related to Circles",
+   "text": "A chord of a circle of radius $10 \\text{ cm}$ subtends a right angle at the centre. Find t"
+  },
+  {
+   "n": 8,
+   "issue": "Tagged easy, but needs A = lr/2 or finding the angle first",
+   "suggest": "medium",
+   "id": "cmvqhe92h00037gd0qogtjeho",
+   "chapter": "Areas Related to Circles",
+   "text": "A sector of a circle of radius $6\\text{ cm}$ has an arc of length $11\\text{ cm}$. The area"
+  },
+  {
+   "n": 18,
+   "issue": "Tagged easy in a 3-mark slot, but needs seeing that four quadrants make a circle, then subtracting",
+   "suggest": "medium",
+   "id": "cmvq9r2fv000r7gcnz2idnlhp",
+   "chapter": "Areas Related to Circles",
+   "text": "A square plot of side $28 \\text{ m}$ has a quarter circle of radius $7 \\text{ m}$ marked a"
+  },
+  {
+   "n": 41,
+   "issue": "Tested idea is sector perimeter, not arc length",
+   "suggest": "Move to Area and perimeter of a sector",
+   "id": "cmvq9r2ft000j7gcnm1x3l094",
+   "chapter": "Areas Related to Circles",
+   "text": "Assertion ($A$): The perimeter of a sector of a circle of radius $7 \\text{ cm}$ and centra"
+  },
+  {
+   "n": 42,
+   "issue": "Tagged easy, but it is a multi-part case study",
+   "suggest": "medium",
+   "id": "cmvq9r2fz00137gcnk7y4ibl7",
+   "chapter": "Areas Related to Circles",
+   "text": "A circular pizza of diameter $28 \\text{ cm}$ is cut by its centre into 8 equal slices. (Us"
+  },
+  {
+   "n": 1,
+   "issue": "Tagged medium, is a one-step cube volume",
+   "suggest": "easy",
+   "id": "a17",
+   "chapter": "Surface Areas and Volumes",
+   "text": "The volume of a cube of edge $4 \\text{ cm}$ is:"
+  },
+  {
+   "n": 2,
+   "issue": "Set as 5 marks but needs only two direct volumes with radius 1 cm; too short for slot D",
+   "suggest": "move to B or C, or extend with a surface-area part",
+   "id": "d4",
+   "chapter": "Surface Areas and Volumes",
+   "text": "A solid is in the shape of a cone standing on a hemisphere, both of radius $1 \\text{ cm}$,"
+  },
+  {
+   "n": 20,
+   "issue": "Tagged hard, is a standard subtract-then-divide in about three steps",
+   "suggest": "medium",
+   "id": "cmvqhe97q00f17gd03f9998jn",
+   "chapter": "Surface Areas and Volumes",
+   "text": "A solid is made by placing a solid cone of base radius $9 \\text{ cm}$ and height $12 \\text"
+  },
+  {
+   "n": 32,
+   "issue": "Tagged easy, needs radius from curved area and then volume",
+   "suggest": "medium",
+   "id": "cmvqhe97m00el7gd03hmsv4n3",
+   "chapter": "Surface Areas and Volumes",
+   "text": "The curved surface area of a solid cylinder is $264 \\text{ cm}^{2}$ and its height is $14 "
+  },
+  {
+   "n": 46,
+   "issue": "Topic label is Capacity and cost, but the task is transfer between vessels",
+   "suggest": "topic: Immersion and volume transfer",
+   "id": "cmvqhe97o00et7gd0k7amlmt4",
+   "chapter": "Surface Areas and Volumes",
+   "text": "A full cuboidal tank measures $4.4 \\text{ m} \\times 3 \\text{ m} \\times 2.1 \\text{ m}$. Its"
+  },
+  {
+   "n": 1,
+   "issue": "Tagged medium, is a direct read of the most frequent value in a list",
+   "suggest": "easy",
+   "id": "a18",
+   "chapter": "Statistics",
+   "text": "The mode of 2, 3, 3, 5, 7, 3, 5 is:"
+  },
+  {
+   "n": 8,
+   "issue": "Tagged easy in a 5-mark slot; a plain five-class direct mean is really a 3-mark task",
+   "suggest": "medium, or move to slot C",
+   "id": "cmvq9r2jm00er7gcndeusepl5",
+   "chapter": "Statistics",
+   "text": "The waiting times (in minutes) of 40 patients at a clinic are recorded below. Waiting time"
+  },
+  {
+   "n": 11,
+   "issue": "Tagged hard, is a routine table calculation (answer 59.5)",
+   "suggest": "medium",
+   "id": "cmvqhe96u00bx7gd0hy1jqi2p",
+   "chapter": "Statistics",
+   "text": "A frequency distribution is: Class: 10-30 | 30-50 | 50-70 | 70-90 | 90-110 ; Frequency: 5 "
+  },
+  {
+   "n": 17,
+   "issue": "Tagged medium, is a one-step use of the empirical relation; board tags the same task easy",
+   "suggest": "easy",
+   "id": "cmvq9r2jh00e77gcnc8hwavyp",
+   "chapter": "Statistics",
+   "text": "For a moderately skewed distribution the mean is 30 and the mode is 36. The median is:"
+  },
+  {
+   "n": 21,
+   "issue": "Tagged medium, is a one-step use of the empirical relation; board tags the same task easy",
+   "suggest": "easy",
+   "id": "cmvqhe96y00cb7gd0ral0warr",
+   "chapter": "Statistics",
+   "text": "For a moderately skewed distribution, the mode is 60 and the median is 58. The mean is:"
+  },
+  {
+   "n": 40,
+   "issue": "Tagged easy, needs a linear equation built from the whole table, same work as question 36",
+   "suggest": "medium",
+   "id": "cmvqhe96z00cd7gd0zjexx0xg",
+   "chapter": "Statistics",
+   "text": "The mean of the following distribution is 40. Class: 0-20 | 20-40 | 40-60 | 60-80 ; Freque"
+  },
+  {
+   "n": 42,
+   "issue": "Tagged easy, needs a linear equation built from the whole table",
+   "suggest": "medium",
+   "id": "cmvqhe97500d17gd01jdzkfo3",
+   "chapter": "Statistics",
+   "text": "The mean of the following distribution is 27. Class: 0-10 | 10-20 | 20-30 | 30-40 | 40-50 "
+  },
+  {
+   "n": 1,
+   "issue": "Tagged medium, but it is one-step recall",
+   "suggest": "easy",
+   "id": "a19",
+   "chapter": "Probability",
+   "text": "The probability of getting a head when a fair coin is tossed once is:"
+  },
+  {
+   "n": 2,
+   "issue": "Tagged medium, but it is a single direct count on one die",
+   "suggest": "easy",
+   "id": "b6",
+   "chapter": "Probability",
+   "text": "A die is thrown once. Find the probability of getting a prime number."
+  },
+  {
+   "n": 3,
+   "issue": "Slot E, but it has no real-life context and no 1+1+2 mark split",
+   "suggest": "Add a context and mark the sub-parts [1], [1], [2]",
+   "id": "e3",
+   "chapter": "Probability",
+   "text": "Case study — A bag contains 5 red, 8 green and 7 white balls. One ball is drawn at random."
+  },
+  {
+   "n": 15,
+   "issue": "Tagged medium, but it is one multiplication; the board rows of this type are tagged easy",
+   "suggest": "easy",
+   "id": "cmvq9r2i4009d7gcnwnjdn03p",
+   "chapter": "Probability",
+   "text": "The probability of winning a raffle is $\\frac{2}{25}$. If 400 tickets were sold in all, th"
+  },
+  {
+   "n": 30,
+   "issue": "Held back as flagged, yet the visible text is sound: A is false (the value is 1/7) and R is true",
+   "suggest": "Check why it was flagged, then reactivate if nothing else is wrong",
+   "id": "cmvq9r2ib00a37gcnknbqhtch",
+   "chapter": "Probability",
+   "text": "Assertion (A): The probability that a non-leap year has 53 Sundays is $\\frac{2}{7}$.\nReaso"
+  },
+  {
+   "n": 41,
+   "issue": "Tagged medium, but it is a direct count; the board row of this type is tagged easy",
+   "suggest": "easy",
+   "id": "cmvq9r2i9009v7gcno2omrm0j",
+   "chapter": "Probability",
+   "text": "A card is drawn from a well-shuffled pack of 52 cards. The probability that it is a red fa"
+  }
+ ],
+ "outOfScope": [
+  {
+   "n": 54,
+   "why": "Depends on complementary-angle relations such as tan 20 × tan 70 = 1, probably cut; no 2024-2026 board row tests them. Unconfirmed.",
+   "id": "cmvq9r2l300kr7gcnbgaokob0",
+   "chapter": "Trigonometry",
+   "text": "Evaluate: $\\left(\\frac{\\sin 35^\\circ}{\\cos 55^\\circ}\\right)^{2} + \\tan 20^\\circ \\tan 70^\\c"
+  },
+  {
+   "n": 7,
+   "why": "Full step-deviation working. The only recent evidence is a 1-mark u calculation in 2026, so a long question is not justified until the syllabus is checked.",
+   "id": "cmvq9r2jm00ep7gcn314swblt",
+   "chapter": "Statistics",
+   "text": "The daily wages (in rupees) of 50 workers at a construction site are given below. Daily wa"
+  },
+  {
+   "n": 15,
+   "why": "Full step-deviation working. The only recent evidence is a 1-mark u calculation in 2026, so a long question is not justified until the syllabus is checked.",
+   "id": "cmvqhe97600d57gd0d34vb4tq",
+   "chapter": "Statistics",
+   "text": "The times (in minutes) taken by 50 commuters to reach a station are: Time: 0-15 | 15-30 | "
+  }
+ ]
+}

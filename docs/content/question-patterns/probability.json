@@ -1,0 +1,1934 @@
+{
+ "chapter": "Probability",
+ "topics": [
+  {
+   "name": "Classical probability basics",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "PR-BAS-01",
+     "pattern": "Identify the value that cannot be a probability",
+     "sample": "Which of these cannot be the probability of an event: $0.7$, $\\frac{3}{2}$, $\\frac{2}{3}$, $15\\%$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 10,
+     "seenIn": [
+      "2011 main",
+      "2023 main",
+      "2024 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2i7009n7gcnieap3bn4"
+     ]
+    },
+    {
+     "id": "PR-BAS-02",
+     "pattern": "Recall the probability of a sure or impossible event, or the range of P(E)",
+     "sample": "The probability of an event that is certain to happen is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2020 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-BAS-03",
+     "pattern": "Probability from a group, given how many lack an attribute",
+     "sample": "In a class of $45$ students, $9$ do not play chess. One student is picked at random. The probability that the student plays chess is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2023 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2i7009p7gcnpx75qgxr"
+     ]
+    },
+    {
+     "id": "PR-BAS-04",
+     "pattern": "Reverse: find the favourable count from a decimal probability and lot size",
+     "sample": "In a lot of $600$ bulbs, the probability of picking a defective bulb is $0.05$. The number of defective bulbs is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2017 main",
+      "2024 compartment",
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-BAS-05",
+     "pattern": "Assertion-reason on a sure event or the range of probability",
+     "sample": "A: The probability that a number chosen from $1$ to $30$ is less than $31$ is $1$. R: The probability of a sure event is $1$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvqhe95k008d7gd08zrbg82t",
+      "cmvq9r2ic00a57gcn3s1sl3bx"
+     ]
+    },
+    {
+     "id": "PR-BAS-06",
+     "pattern": "Error-spotting: outcomes wrongly treated as equally likely",
+     "sample": "Asha says two tossed coins give three outcomes (two heads, one of each, two tails), so $P(\\text{two heads})=\\frac{1}{3}$. Is she correct? Justify.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "PR-NEW-01",
+     "pattern": "A letter chosen at random from the English alphabet or a word: vowel or consonant",
+     "sample": "A letter is chosen at random from the word $\\text{EXAMINATION}$ ($11$ letters). The probability that it is a vowel is $\\frac{6}{11}$.",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2015 main",
+      "2020 main",
+      "2023 compartment",
+      "2024 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  },
+  {
+   "name": "Complementary events",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "PR-CMP-01",
+     "pattern": "Given P(E) as a number, find P(not E)",
+     "sample": "If the probability of winning a game is $0.64$, the probability of losing it is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2020 main",
+      "2024 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2i6009h7gcn05a9x5hf"
+     ]
+    },
+    {
+     "id": "PR-CMP-02",
+     "pattern": "Use P(E) + P(not E) = 1 as a fact, including in a small evaluation",
+     "sample": "If $P(E)+P(\\text{not }E)=q$, then $q^2+3$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2023 main",
+      "2024 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-CMP-03",
+     "pattern": "Find an unknown from P(E) and P(not E) given in terms of it",
+     "sample": "If $P(E)=\\frac{1}{x}$ and $P(\\text{not }E)=0.8$, then $x$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2i6009j7gcnmwo0467x",
+      "cmvq9r2i6009l7gcn73k7y6qf"
+     ]
+    },
+    {
+     "id": "PR-CMP-04",
+     "pattern": "Real-life frequency: probability the event does not happen",
+     "sample": "A bowler takes a wicket on $6$ of $40$ balls. The probability that a ball chosen at random does not take a wicket is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-CMP-05",
+     "pattern": "Assertion-reason applying the complement rule to a numeric context",
+     "sample": "A: A team wins $7$ of $20$ matches, so the probability of not winning is $\\frac{13}{20}$. R: $P(E)+P(\\text{not }E)=1$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2023 compartment",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ib00a17gcn39jw7wgl"
+     ]
+    },
+    {
+     "id": "PR-CMP-06",
+     "pattern": "Assertion-reason on the largest value a parameter can take in P(E)",
+     "sample": "A: If $P(E)=3p$, then $p$ cannot exceed $\\frac{1}{3}$. R: $0\\le P(E)\\le 1$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-CMP-07",
+     "pattern": "Assertion-reason: decide whether two events are complementary",
+     "sample": "A: On one die throw, \"a number below $4$\" and \"a number above $4$\" are complementary. R: $P(E)+P(\\text{not }E)=1$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-CMP-08",
+     "pattern": "Solve for x when P(E) and P(not E) are expressions in x",
+     "sample": "The probability of a correct guess is $\\frac{x}{12}$ and of a wrong guess is $\\frac{1}{3}$. Find $x$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-CMP-09",
+     "pattern": "Lots with defects: acceptance probability, or a count from P(not E)",
+     "sample": "A carton has $120$ shirts: $96$ good, $14$ with minor defects, $10$ with major defects. A trader rejects only major defects. Find the probability that a random shirt is accepted.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2017 compartment",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ie00af7gcnysqzmun6",
+      "cmvqhe95n008j7gd0kpj4kr1z"
+     ]
+    },
+    {
+     "id": "PR-CMP-10",
+     "pattern": "Find k from expressions for P(E) and P(not E), then an expected count",
+     "sample": "For a team, $P(\\text{win})=3k+0.2$ and $P(\\text{not win})=2k+0.3$. Find $k$, $P(\\text{win})$, and the wins to be expected in $30$ matches.",
+     "slot": "C",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe95s008z7gd0ekevl5tl"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Dice",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "PR-DIC-01",
+     "pattern": "One die: simple or number-property event",
+     "sample": "A die is thrown once. The probability of a number that is not a factor of $20$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 16,
+     "seenIn": [
+      "2013 main",
+      "2020 main",
+      "2024 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2i200957gcn8w5ftjwu"
+     ]
+    },
+    {
+     "id": "PR-DIC-02",
+     "pattern": "Two dice: sum equal to given values or a multiple of a number",
+     "sample": "Two dice are thrown. The probability that the sum is $7$ or $11$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2020 main",
+      "2023 compartment",
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2i200917gcnbu166p5v",
+      "cmvq9r2i300977gcn8y229qm4"
+     ]
+    },
+    {
+     "id": "PR-DIC-03",
+     "pattern": "Two dice: sum above or below a limit",
+     "sample": "Two dice are thrown. The probability that the sum is more than $9$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2023 main",
+      "2024 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-DIC-04",
+     "pattern": "Two dice: difference of the numbers",
+     "sample": "Two dice are thrown. The probability that the numbers differ by $3$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2i200937gcn9v8clvd9"
+     ]
+    },
+    {
+     "id": "PR-DIC-05",
+     "pattern": "Two dice: same or different numbers",
+     "sample": "Two dice are thrown. The probability that both show the same number is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2012 main",
+      "2020 main",
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-DIC-06",
+     "pattern": "Two dice: both numbers share a property",
+     "sample": "Two dice are thrown. The probability that both numbers are greater than $4$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2014 main",
+      "2024 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-DIC-07",
+     "pattern": "Two dice: product below a limit or within a range",
+     "sample": "Two dice are thrown. The probability that the product of the numbers is less than $6$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2015 main",
+      "2020 main",
+      "2023 main",
+      "2024 compartment",
+      "2025 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-DIC-08",
+     "pattern": "Assertion-reason on one die, with a number-definition reason",
+     "sample": "A: The probability of a prime on one die throw is $\\frac{1}{2}$. R: The primes on a die are $2$, $3$ and $5$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-DIC-09",
+     "pattern": "One die: two number-property events",
+     "sample": "A die is thrown once. Find the probability of (i) a number between $2$ and $6$, (ii) a composite number.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2019 main"
+     ],
+     "existingIds": [
+      "b6"
+     ]
+    },
+    {
+     "id": "PR-DIC-10",
+     "pattern": "Two dice: doublet and a given sum",
+     "sample": "Two dice are thrown. Find the probability of (i) a doublet, (ii) a sum of $10$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2018 main",
+      "2019 compartment",
+      "2019 main",
+      "2020 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-DIC-11",
+     "pattern": "Die with repeated letters or numbers, shown in a figure",
+     "sample": "A die shown in the figure has faces $P, Q, Q, R, R, R$. Find $P(Q)$ and $P(R)$ on one throw.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2019 main",
+      "2020 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-DIC-12",
+     "pattern": "List the sample space of two dice, then same and different numbers",
+     "sample": "Write all outcomes when two dice are thrown. Find the probability that the numbers are (i) the same, (ii) different.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-DIC-13",
+     "pattern": "Two dice: sum, difference and product events together",
+     "sample": "Two dice are thrown. Find the probability that (i) the sum is $8$, (ii) the difference is $1$, (iii) the product is $6$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2017 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvqhe95p008r7gd02dtop5l3",
+      "cmvqhe95q008t7gd0003zf58s"
+     ]
+    },
+    {
+     "id": "PR-DIC-14",
+     "pattern": "Two dice: number-property events needing careful enumeration",
+     "sample": "Two dice are thrown. Find the probability that (i) the sum is prime, (ii) the product is a perfect square, (iii) one number is even and the other odd.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2011 main",
+      "2015 main",
+      "2016 main",
+      "2017 compartment",
+      "2017 main",
+      "2025 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2if00ah7gcnjww8su02"
+     ]
+    },
+    {
+     "id": "PR-DIC-15",
+     "pattern": "Two dice: four-part enumeration",
+     "sample": "Two dice are thrown. Find the probability that (i) the sum is even, (ii) the product is less than $9$, (iii) the numbers differ by $2$, (iv) the sum is divisible by $5$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2017 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvqhe95u00957gd0dqqd2z3c"
+     ]
+    },
+    {
+     "id": "PR-DIC-16",
+     "pattern": "Case study: dice game stall with prizes",
+     "sample": "A stall player throws two dice. (i) Find $P(\\text{sum }7)$. (ii) Find $P(\\text{doublet})$. (iii) A prize needs a sum of at least $10$: find the winners expected among $72$ players.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2ih00ar7gcnmw04vdme"
+     ]
+    },
+    {
+     "id": "PR-NEW-02",
+     "pattern": "Count the outcomes in the sample space when several dice are thrown",
+     "sample": "When $2$ dice are thrown together, the number of possible outcomes is $6^2=36$; for $3$ dice it is $6^3=216$.",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2021 compartment"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  },
+  {
+   "name": "Coins",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "PR-COI-01",
+     "pattern": "One coin: direct recall",
+     "sample": "A fair coin is tossed once. The probability of a tail is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "a19"
+     ]
+    },
+    {
+     "id": "PR-COI-02",
+     "pattern": "Two coins: at least or at most a number of heads or tails",
+     "sample": "Two coins are tossed together. The probability of getting no head is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2023 compartment",
+      "2023 main",
+      "2024 main",
+      "2025 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-COI-03",
+     "pattern": "Three coins: exact, at-most or at-least count",
+     "sample": "Three coins are tossed together. The probability of exactly one tail is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2017 compartment",
+      "2023 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ib009z7gcnw9hh0kxb"
+     ]
+    },
+    {
+     "id": "PR-COI-04",
+     "pattern": "Repeated tosses: condition on the position of a toss",
+     "sample": "A coin is tossed three times. The probability of a tail on the second toss and a head on the third is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe95m008h7gd07ymjgj22"
+     ]
+    },
+    {
+     "id": "PR-COI-05",
+     "pattern": "Two or three tosses: two events, or losing a simple game",
+     "sample": "A game tosses a coin three times and a player wins if all results match. Find the probability of losing.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 10,
+     "seenIn": [
+      "2011 main",
+      "2014 main",
+      "2019 main",
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ie00ad7gcnxefpitk3",
+      "cmvqhe95o008n7gd0b7y2rlvs"
+     ]
+    },
+    {
+     "id": "PR-COI-06",
+     "pattern": "Three coins: three count-based events",
+     "sample": "Three coins are tossed. Find the probability of (i) at least two heads, (ii) exactly one tail, (iii) no head.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2016 main",
+      "2024 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ig00aj7gcnv7qlouhh"
+     ]
+    },
+    {
+     "id": "PR-COI-07",
+     "pattern": "Three tosses: order-based events",
+     "sample": "A coin is tossed three times. Find the probability that (i) no two tails come together, (ii) the first and last results match, (iii) tails outnumber heads.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe95t00937gd07up0l39f"
+     ]
+    },
+    {
+     "id": "PR-COI-08",
+     "pattern": "Four tosses: list 16 outcomes and answer four events",
+     "sample": "A coin is tossed four times. Find the probability of (i) exactly three heads, (ii) at least two tails, (iii) no head, (iv) the first and last results matching.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe95v00977gd0rkqow1u0"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Cards",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "PR-CRD-01",
+     "pattern": "One category of card: face, red face, ace, not an ace",
+     "sample": "One card is drawn from a pack of $52$. The probability that it is a black king is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 11,
+     "seenIn": [
+      "2020 main",
+      "2023 main",
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2i9009v7gcno2omrm0j"
+     ]
+    },
+    {
+     "id": "PR-CRD-02",
+     "pattern": "Either of two ranks, with no overlap",
+     "sample": "One card is drawn from a pack of $52$. The probability that it is a seven or a queen is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-CRD-03",
+     "pattern": "Overlapping categories: A or B, or neither A nor B",
+     "sample": "One card is drawn from a pack of $52$. The probability that it is neither red nor a king is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2016 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ia009x7gcn31lxdo71",
+      "cmvqhe95j008b7gd0o8yxwwh8"
+     ]
+    },
+    {
+     "id": "PR-CRD-04",
+     "pattern": "Whole ranks removed from the pack",
+     "sample": "All aces are removed from a pack of $52$. One card is drawn from the rest. The probability that it is a jack is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-CRD-05",
+     "pattern": "Removal of overlapping groups, then an event",
+     "sample": "All spades and all aces are removed from a pack of $52$. One card is drawn from the rest. The probability that it is a red king is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-CRD-06",
+     "pattern": "Full pack: two events",
+     "sample": "One card is drawn from a pack of $52$. Find the probability that it is (i) the queen of spades, (ii) not a seven.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2012 main",
+      "2013 main",
+      "2019 main",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2id00ab7gcnklvralv1",
+      "cmvqhe95n008l7gd0o9nx3jem"
+     ]
+    },
+    {
+     "id": "PR-CRD-07",
+     "pattern": "One card lost, then a draw from the remaining 51",
+     "sample": "A red card is lost from a pack of $52$. One card is drawn from the rest. Find the probability that it is (i) the king of spades, (ii) red.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-CRD-08",
+     "pattern": "Modified pack: three events",
+     "sample": "All red face cards are removed from a pack of $52$. One card is drawn. Find the probability that it is (i) red, (ii) a king, (iii) a spade.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2016 main",
+      "2017 compartment",
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvqhe95t00917gd09ooni7z5"
+     ]
+    },
+    {
+     "id": "PR-CRD-09",
+     "pattern": "Full pack: four compound events",
+     "sample": "One card is drawn from a pack of $52$. Find the probability that it is (i) neither a club nor a king, (ii) black or an ace, (iii) a red number card from $2$ to $10$, (iv) a red queen or a black jack.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2015 main"
+     ],
+     "existingIds": [
+      "cmvqhe95w009d7gd0zndhr4cx"
+     ]
+    },
+    {
+     "id": "PR-CRD-10",
+     "pattern": "Case study: two packs with known cards dropped",
+     "sample": "Two packs are combined and $2$ kings and $1$ jack are dropped. One card is drawn from the rest. (i) Find $P(\\text{king})$. (ii) Find $P(\\text{king or queen})$. (iii) Find $P(\\text{face card})$.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Balls and bags",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "PR-BAG-01",
+     "pattern": "Neither of two named colours",
+     "sample": "A bag has $4$ red, $6$ white and $5$ blue balls. The probability that a drawn ball is neither red nor blue is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2020 main",
+      "2023 main",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2i8009r7gcn37woj3ik"
+     ]
+    },
+    {
+     "id": "PR-BAG-02",
+     "pattern": "Colours given as a ratio",
+     "sample": "Red and black balls in a bag are in the ratio $3:5$. The probability of drawing a black ball is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-BAG-03",
+     "pattern": "Find the count of a second colour from P(first colour)",
+     "sample": "A bag has $8$ red balls and some green balls. If $P(\\text{red})=\\frac{2}{5}$, the number of green balls is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2i8009t7gcnmxtg1czy"
+     ]
+    },
+    {
+     "id": "PR-BAG-04",
+     "pattern": "One colour exceeds another by k, with P given: find the total",
+     "sample": "Red balls exceed black balls by $4$ and $P(\\text{red})=\\frac{3}{5}$. The total number of balls is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-BAG-05",
+     "pattern": "Two colour probabilities and the third count: find the total",
+     "sample": "For a jar, $P(\\text{red})=\\frac{1}{4}$, $P(\\text{black})=\\frac{1}{3}$, and there are $15$ green marbles. The total number of marbles is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-BAG-06",
+     "pattern": "Counts linked by a relation, then a probability",
+     "sample": "A bag has $21$ balls, of which $5$ are blue. Yellow balls are three times the green balls. The probability of drawing a yellow ball is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe95l008f7gd0lbaz9l70"
+     ]
+    },
+    {
+     "id": "PR-BAG-07",
+     "pattern": "Direct: three colours, two events",
+     "sample": "A bag has $4$ red, $6$ blue and $10$ yellow balls. Find $P(\\text{red})$ and $P(\\text{yellow})$.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2019 compartment",
+      "2020 main",
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ic00a77gcnqric8tjj"
+     ]
+    },
+    {
+     "id": "PR-BAG-08",
+     "pattern": "Find a count or the total from the given probabilities",
+     "sample": "A bag of $30$ green and yellow balls has $P(\\text{green})=\\frac{2}{5}$. Find the number of yellow balls.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 10,
+     "seenIn": [
+      "2017 main",
+      "2019 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-BAG-09",
+     "pattern": "How many balls to add to reach a target probability",
+     "sample": "A box has $24$ balls, of which $8$ are red. How many red balls must be added so that $P(\\text{red})=\\frac{1}{2}$?",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2id00a97gcnxua3lv8b"
+     ]
+    },
+    {
+     "id": "PR-BAG-10",
+     "pattern": "Three colours from two probabilities, then an either-or event",
+     "sample": "A bag of $24$ balls has $P(\\text{red})=\\frac{1}{3}$ and $P(\\text{blue})=\\frac{1}{4}$; the rest are green. Find the green count and $P(\\text{red or green})$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2015 main",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvqhe95r008x7gd0eiwcyzz1"
+     ]
+    },
+    {
+     "id": "PR-BAG-11",
+     "pattern": "Unknown count from a change in probability after adding balls",
+     "sample": "A bag has $20$ balls, $m$ of them blue. Adding $10$ blue balls doubles $P(\\text{blue})$. Find $m$ and the original $P(\\text{not blue})$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-BAG-12",
+     "pattern": "Counts from probabilities, further events, then balls added",
+     "sample": "A box of $60$ beads has $P(\\text{blue})=\\frac{1}{5}$ and $P(\\text{red})=\\frac{1}{2}$; the rest are green. (i) Find each count. (ii) Find $P(\\text{not red})$. (iii) How many green beads must be added to make $P(\\text{green})=\\frac{1}{2}$?",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe95v00997gd0mb0s9677"
+     ]
+    },
+    {
+     "id": "PR-BAG-13",
+     "pattern": "Case study: real-life bag or box with colour counts",
+     "sample": "A fair stall bag has $6$ red, $9$ green and $5$ white balls. (i) Find $P(\\text{red})$. (ii) Find $P(\\text{not green})$. (iii) Find $P(\\text{red or white})$.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "e3"
+     ]
+    },
+    {
+     "id": "PR-NEW-03",
+     "pattern": "Compare several bags or boxes: which gives the highest probability of a given colour",
+     "sample": "Box P has $3$ green and $5$ red balls, box Q has $4$ green and $8$ red, box R has $5$ green and $7$ red. From which box is a green ball most likely?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  },
+  {
+   "name": "Numbers and lottery",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "PR-NUM-01",
+     "pattern": "Multiples within a numbered range",
+     "sample": "A ticket is drawn from tickets numbered $1$ to $40$. The probability that its number is a multiple of $6$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2023 main",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2i400997gcn9myulhb5",
+      "cmvq9r2i5009f7gcngkeysgro"
+     ]
+    },
+    {
+     "id": "PR-NUM-02",
+     "pattern": "Perfect squares or cubes within a range",
+     "sample": "A card is drawn from cards numbered $10$ to $50$. The probability that its number is a perfect square is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2016 main",
+      "2023 main",
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-NUM-03",
+     "pattern": "Primes, even or odd primes, or composites within a range",
+     "sample": "A number is picked from $1$ to $20$. The probability that it is composite is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 10,
+     "seenIn": [
+      "2013 main",
+      "2014 main",
+      "2023 main",
+      "2024 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2i4009b7gcncajjbfa1"
+     ]
+    },
+    {
+     "id": "PR-NUM-04",
+     "pattern": "Reverse: tickets held from P(win) and tickets sold",
+     "sample": "A person has a $0.04$ probability of winning a draw in which $500$ tickets were sold. The number of tickets the person holds is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2023 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2i4009d7gcnwnjdn03p"
+     ]
+    },
+    {
+     "id": "PR-NUM-05",
+     "pattern": "Multiple of m or n within a range",
+     "sample": "A card is drawn from cards numbered $1$ to $30$. The probability that its number is a multiple of $3$ or $5$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-NUM-06",
+     "pattern": "Numbers deleted from a list, then a probability",
+     "sample": "All multiples of $3$ are deleted from $1, 2, \\ldots, 10$. A number is picked from the rest. The probability that it is prime is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-NUM-07",
+     "pattern": "Assertion-reason on a number-range claim with a separate true reason",
+     "sample": "A: The probability that a number from $1$ to $20$ is a multiple of $3$ is $\\frac{3}{10}$. R: When two coins are tossed, $P(\\text{exactly one head})=\\frac{1}{2}$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-NUM-08",
+     "pattern": "Numbered cards or spinner: two number-property events",
+     "sample": "A card is drawn from cards numbered $1$ to $40$. Find the probability that its number is (i) a multiple of $9$, (ii) a perfect square.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 10,
+     "seenIn": [
+      "2012 main",
+      "2018 main",
+      "2019 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvqhe95o008p7gd01adz3auy"
+     ]
+    },
+    {
+     "id": "PR-NUM-09",
+     "pattern": "Numbered range: three number-property events",
+     "sample": "A number is picked from $11$ to $60$. Find the probability that it is (i) a multiple of $6$, (ii) a perfect square, (iii) a multiple of $5$ but not of $10$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2016 main",
+      "2017 compartment",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2ig00al7gcn6ofuf199",
+      "cmvqhe95r008v7gd01anaqtp0"
+     ]
+    },
+    {
+     "id": "PR-NUM-10",
+     "pattern": "Large numbered range: four events",
+     "sample": "A ticket is drawn from tickets numbered $1$ to $120$. Find the probability that its number is (i) a multiple of $7$, (ii) a perfect cube, (iii) a multiple of both $6$ and $8$, (iv) not a multiple of $4$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2014 main",
+      "2015 main",
+      "2016 main",
+      "2018 compartment"
+     ],
+     "existingIds": [
+      "cmvqhe95v009b7gd0dfevxlr5"
+     ]
+    },
+    {
+     "id": "PR-NUM-11",
+     "pattern": "Case study: numbered cards, balls or tickets with several properties",
+     "sample": "A jar has cards numbered $12$ to $71$. (i) Find $P(\\text{even})$. (ii) Find $P(\\text{multiple of }11)$. (iii) Find $P(\\text{prime between }20\\text{ and }40)$.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2021 compartment",
+      "2023 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ih00an7gcnk5gccgkr"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Calendar and everyday sample spaces",
+   "scope": "core",
+   "scopeNote": "New topic: outcomes must be listed from a real-life setting rather than a standard object.",
+   "patterns": [
+    {
+     "id": "PR-EVD-01",
+     "pattern": "One number from each of two sets: a product condition",
+     "sample": "$x$ is chosen from $\\{1,2,3\\}$ and $y$ from $\\{2,4\\}$. The probability that $xy<6$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-EVD-02",
+     "pattern": "Family of two children",
+     "sample": "A couple has two children, with each child equally likely to be a boy or a girl. The probability that both are girls is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2020 main",
+      "2023 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-EVD-03",
+     "pattern": "Assertion-reason on 53 occurrences of a weekday in a year",
+     "sample": "A: The probability that a leap year has $53$ Fridays is $\\frac{2}{7}$. R: A leap year has $52$ weeks and $2$ extra days.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2023 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ib00a37gcnknbqhtch"
+     ]
+    },
+    {
+     "id": "PR-EVD-04",
+     "pattern": "Two people born in the same month: same or different date",
+     "sample": "Two friends were born in a $30$-day month. Find the probability that they have (i) the same birth date, (ii) different birth dates.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-EVD-05",
+     "pattern": "Two people choosing days: same day, or a given relation between days",
+     "sample": "Two friends each visit a shop on one of Monday to Saturday, all days equally likely. Find the probability that they visit (i) on the same day, (ii) on consecutive days.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "PR-EVD-06",
+     "pattern": "One number from each of two sets: full table with several events",
+     "sample": "$x$ is chosen from $\\{1,2,3,4\\}$ and $y$ from $\\{1,4,9\\}$. Tabulate $xy$. Find the probability that $xy$ is (i) less than $16$, (ii) even, (iii) a perfect square.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2016 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Data tables and charts",
+   "scope": "core",
+   "scopeNote": "New topic: probabilities read from a frequency table or a pie chart.",
+   "patterns": [
+    {
+     "id": "PR-DAT-01",
+     "pattern": "Pie chart: probability of a colour, then balls added",
+     "sample": "A pie chart of $60$ balls shows red $90^\\circ$, blue $120^\\circ$ and yellow for the rest. (i) Find $P(\\text{yellow})$. (ii) After adding $15$ yellow balls, find $P(\\text{yellow})$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PR-DAT-02",
+     "pattern": "Case study: frequency table or category counts",
+     "sample": "$200$ families have this many TVs: $0$: $10$, $1$: $70$, $2$: $90$, $3$ or more: $30$. Find (i) $P(\\text{exactly }2)$, (ii) $P(\\text{at most }1)$, (iii) $P(\\text{at least }2)$.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2013 main",
+      "2020 main",
+      "2023 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ih00ap7gcnilobukaq"
+     ]
+    },
+    {
+     "id": "PR-DAT-03",
+     "pattern": "Case study: pie chart of a survey",
+     "sample": "A pie chart of $720$ travellers shows bus $120^\\circ$, train $90^\\circ$, car $90^\\circ$, air $60^\\circ$. (i) Find $P(\\text{bus or air})$. (ii) Name the most popular mode. (iii) Find the number of train travellers.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Spinners and games",
+   "scope": "core",
+   "scopeNote": "New topic: two-stage games with outcomes and payoffs.",
+   "patterns": [
+    {
+     "id": "PR-GAM-01",
+     "pattern": "Case study: two spinners, win probability and money collected",
+     "sample": "Spinner A shows red, blue; spinner B shows red, blue, yellow. A player wins on one red and one blue. (i) List outcomes. (ii) Find $P(\\text{win})$. (iii) Each of $90$ players pays Rs $10$; winners get Rs $20$. Find the net fund.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2020 main",
+      "2023 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Cross-chapter probability",
+   "scope": "core",
+   "scopeNote": "New topic: syllabus-based, linking probability to quadratics and number sets. No direct board row yet.",
+   "patterns": [
+    {
+     "id": "PR-CRS-01",
+     "pattern": "A die value used as a coefficient: real roots of a quadratic",
+     "sample": "A die shows $b$. The probability that $x^2+bx+4=0$ has real roots is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "PR-CRS-02",
+     "pattern": "A number chosen from a set: an inequality and a root condition",
+     "sample": "$x$ is chosen from $-3,-2,\\ldots,3$. Find the probability that (i) $x^2\\le 4$, (ii) $x$ is a root of $x^2-x-2=0$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2017 main",
+      "2019 main",
+      "2020 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Geometric probability",
+   "scope": "verify",
+   "scopeNote": "Area-based probability is not part of the usual classical-probability treatment of this chapter, but a 2025 compartment MCQ used a square bed inside a circular park. Kept with one target; a person should confirm it.",
+   "patterns": [
+    {
+     "id": "PR-GEO-01",
+     "pattern": "Point falls outside a region, from a ratio of areas",
+     "sample": "A circular park of radius $7$ m has a square flower bed of side $7$ m inside it. A sapling lands at random in the park. Using $\\pi=\\frac{22}{7}$, the probability that it lands outside the bed is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 compartment"
+     ],
+     "existingIds": []
+    }
+   ]
+  }
+ ],
+ "outOfScope": [],
+ "fixes": [
+  {
+   "n": 1,
+   "issue": "Tagged medium, but it is one-step recall",
+   "suggest": "easy",
+   "id": "a19"
+  },
+  {
+   "n": 2,
+   "issue": "Tagged medium, but it is a single direct count on one die",
+   "suggest": "easy",
+   "id": "b6"
+  },
+  {
+   "n": 3,
+   "issue": "Slot E, but it has no real-life context and no 1+1+2 mark split",
+   "suggest": "Add a context and mark the sub-parts [1], [1], [2]",
+   "id": "e3"
+  },
+  {
+   "n": 15,
+   "issue": "Tagged medium, but it is one multiplication; the board rows of this type are tagged easy",
+   "suggest": "easy",
+   "id": "cmvq9r2i4009d7gcnwnjdn03p"
+  },
+  {
+   "n": 30,
+   "issue": "Held back as flagged, yet the visible text is sound: A is false (the value is 1/7) and R is true",
+   "suggest": "Check why it was flagged, then reactivate if nothing else is wrong",
+   "id": "cmvq9r2ib00a37gcnknbqhtch"
+  },
+  {
+   "n": 41,
+   "issue": "Tagged medium, but it is a direct count; the board row of this type is tagged easy",
+   "suggest": "easy",
+   "id": "cmvq9r2i9009v7gcno2omrm0j"
+  }
+ ]
+}

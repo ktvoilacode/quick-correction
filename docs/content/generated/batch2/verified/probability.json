@@ -1,0 +1,326 @@
+[
+  {
+    "chapter": "Probability",
+    "topic": "Cards",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "One card is drawn at random from a well-shuffled deck of 52 playing cards. The probability that it is neither a spade nor an ace is",
+    "options": [
+      "$\\frac{35}{52}$",
+      "$\\frac{9}{13}$",
+      "$\\frac{4}{13}$",
+      "$\\frac{10}{13}$"
+    ],
+    "answer": "Correct option: B) $\\frac{9}{13}$. Spades: 13 cards; aces that are not spades: 3 cards. Cards that are a spade or an ace $= 13 + 3 = 16$, so favourable cards $= 52 - 16 = 36$ and $P = \\frac{36}{52} = \\frac{9}{13}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Classical probability basics",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Assertion (A): When a die is thrown once, the probability of getting a number less than 7 is 1.\nReason (R): The probability of any event always lies between 0 and 1, both included.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: B) Both A and R are true but R is not the correct explanation of A. All 6 outcomes are favourable to the event, so $P = \\frac{6}{6} = 1$ and A is true. R is also a true statement, but it does not explain why this probability is exactly 1; the reason is that every outcome is favourable.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Balls and bags",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A bag contains 18 balls, of which 3 are blue. The number of yellow balls is twice the number of green balls. One ball is drawn at random. The probability that it is yellow is",
+    "options": [
+      "$\\frac{5}{9}$",
+      "$\\frac{5}{18}$",
+      "$\\frac{2}{3}$",
+      "$\\frac{1}{3}$"
+    ],
+    "answer": "Correct option: A) $\\frac{5}{9}$. Yellow and green balls together $= 18 - 3 = 15$. If green balls are $g$, then $g + 2g = 15$, so $g = 5$ and yellow balls $= 10$. $P(\\text{yellow}) = \\frac{10}{18} = \\frac{5}{9}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Coins",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "A fair coin is tossed three times. The probability of getting a head on the first toss and a tail on the third toss is",
+    "options": [
+      "$\\frac{1}{8}$",
+      "$\\frac{3}{8}$",
+      "$\\frac{1}{4}$",
+      "$\\frac{1}{2}$"
+    ],
+    "answer": "Correct option: C) $\\frac{1}{4}$. The 8 equally likely outcomes include exactly 2 with H first and T last: HHT and HTT. So $P = \\frac{2}{8} = \\frac{1}{4}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Complementary events",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": false,
+    "text": "In a lot of 144 electric bulbs, 20 are defective. One bulb is picked at random. Find the probability that it is not defective.",
+    "answer": "Total outcomes $= 144$. $P(\\text{defective}) = \\frac{20}{144} = \\frac{5}{36}$. $P(\\text{not defective}) = 1 - \\frac{5}{36} = \\frac{31}{36}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Cards",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": false,
+    "text": "A card is drawn at random from a well-shuffled deck of 52 cards. Find the probability that it is (i) a number card from 4 to 8 (both included), (ii) either the king of diamonds or the queen of clubs.",
+    "answer": "(i) The ranks 4, 5, 6, 7, 8 give $5 \\times 4 = 20$ cards, so $P = \\frac{20}{52} = \\frac{5}{13}$. (ii) Favourable cards $= 2$, so $P = \\frac{2}{52} = \\frac{1}{26}$. Answers: $\\frac{5}{13}$ and $\\frac{1}{26}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Coins",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": false,
+    "text": "A fair coin is tossed twice. Find the probability of getting (i) the same face on both tosses, (ii) at least one head.",
+    "answer": "Outcomes: HH, HT, TH, TT (4 in all). (i) Same face: HH, TT, so $P = \\frac{2}{4} = \\frac{1}{2}$. (ii) At least one head: HH, HT, TH, so $P = \\frac{3}{4}$. Answers: $\\frac{1}{2}$ and $\\frac{3}{4}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Classical probability basics",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A spinner has 12 equal sectors numbered 1 to 12. It is spun once and the number in the sector where the pointer stops is noted. Find the probability that the number is (i) greater than 8, (ii) a factor of 12.",
+    "answer": "Total outcomes $= 12$. (i) Numbers greater than 8: 9, 10, 11, 12, so $P = \\frac{4}{12} = \\frac{1}{3}$. (ii) Factors of 12: 1, 2, 3, 4, 6, 12, so $P = \\frac{6}{12} = \\frac{1}{2}$. Answers: $\\frac{1}{3}$ and $\\frac{1}{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Dice",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Two fair dice are thrown together. Find the probability that (i) the product of the numbers is 12, (ii) the sum of the numbers is a multiple of 4.",
+    "answer": "Total outcomes $= 36$. (i) Product 12: $(2,6), (3,4), (4,3), (6,2)$, so 4 outcomes and $P = \\frac{4}{36} = \\frac{1}{9}$. (ii) Sum 4: $(1,3),(2,2),(3,1)$ = 3; sum 8: $(2,6),(3,5),(4,4),(5,3),(6,2)$ = 5; sum 12: $(6,6)$ = 1. Total 9, so $P = \\frac{9}{36} = \\frac{1}{4}$. Answers: $\\frac{1}{9}$ and $\\frac{1}{4}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Dice",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Two fair dice are thrown together. Find the probability that (i) the numbers on the dice differ by 3, (ii) the product of the numbers is less than 8, (iii) the dice show equal numbers whose sum is more than 6.",
+    "answer": "Total outcomes $= 36$. (i) Pairs: $(1,4),(2,5),(3,6)$ and their reverses = 6, so $P = \\frac{6}{36} = \\frac{1}{6}$. (ii) Product less than 8: with first number 1: 6 outcomes; 2: 3 (1,2,3); 3: 2 (1,2); 4: 1; 5: 1; 6: 1. Total $6+3+2+1+1+1 = 14$, so $P = \\frac{14}{36} = \\frac{7}{18}$. (iii) Doubles with sum more than 6: $(4,4),(5,5),(6,6)$ = 3, so $P = \\frac{3}{36} = \\frac{1}{12}$. Answers: $\\frac{1}{6}$, $\\frac{7}{18}$, $\\frac{1}{12}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Numbers and lottery",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Forty cards numbered 5, 6, 7, $\\ldots$, 44 are placed in a box and one card is drawn at random. Find the probability that the number on the card is (i) a perfect square, (ii) a multiple of 7, (iii) a prime number.",
+    "answer": "Total outcomes $= 44 - 5 + 1 = 40$. (i) Perfect squares: 9, 16, 25, 36 = 4, so $P = \\frac{4}{40} = \\frac{1}{10}$. (ii) Multiples of 7: 7, 14, 21, 28, 35, 42 = 6, so $P = \\frac{6}{40} = \\frac{3}{20}$. (iii) Primes: 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43 = 12, so $P = \\frac{12}{40} = \\frac{3}{10}$. Answers: $\\frac{1}{10}$, $\\frac{3}{20}$, $\\frac{3}{10}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Balls and bags",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A bag contains 20 balls, each red, blue or green. The probability of drawing a red ball is $\\frac{2}{5}$ and the probability of drawing a blue ball is $\\frac{3}{10}$. Find the number of green balls in the bag and the probability that a ball drawn at random is not green.",
+    "answer": "Red balls $= \\frac{2}{5} \\times 20 = 8$. Blue balls $= \\frac{3}{10} \\times 20 = 6$. Green balls $= 20 - 8 - 6 = 6$. $P(\\text{green}) = \\frac{6}{20} = \\frac{3}{10}$, so $P(\\text{not green}) = 1 - \\frac{3}{10} = \\frac{7}{10}$. Green balls: 6; probability $= \\frac{7}{10}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Complementary events",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "easy",
+    "competency": false,
+    "text": "For a school match, the probability that the home team wins is $3k + 0.1$ and the probability that it does not win is $2k + 0.4$. Find the value of $k$, the probability that the team wins, and the number of wins expected out of 50 such matches.",
+    "answer": "$P(\\text{win}) + P(\\text{not win}) = 1$, so $3k + 0.1 + 2k + 0.4 = 1$, giving $5k = 0.5$ and $k = 0.1$. $P(\\text{win}) = 3(0.1) + 0.1 = 0.4 = \\frac{2}{5}$ and $P(\\text{not win}) = 0.6 = \\frac{3}{5}$. Out of 50 matches, expected wins $= \\frac{2}{5} \\times 50 = 20$. Answers: $k = 0.1$, $P = \\frac{2}{5}$, 20 wins.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Cards",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "All the kings, queens and jacks are removed from a deck of 52 cards, and the remaining cards are well shuffled. One card is drawn at random. Find the probability that it is (i) a spade, (ii) an even-numbered card (2, 4, 6, 8 or 10), (iii) an ace.",
+    "answer": "Cards left $= 52 - 12 = 40$ (ace and 2 to 10 in each suit). (i) Spades left $= 10$, so $P = \\frac{10}{40} = \\frac{1}{4}$. (ii) Even-numbered cards: 5 per suit, so 20, and $P = \\frac{20}{40} = \\frac{1}{2}$. (iii) Aces $= 4$, so $P = \\frac{4}{40} = \\frac{1}{10}$. Answers: $\\frac{1}{4}$, $\\frac{1}{2}$, $\\frac{1}{10}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Coins",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "hard",
+    "competency": true,
+    "text": "A fair coin is tossed three times. Find the probability that (i) heads appear on the first and the third tosses, (ii) no two heads appear one after the other, (iii) the number of heads is more than the number of tails.",
+    "answer": "Sample space (8 outcomes): HHH, HHT, HTH, HTT, THH, THT, TTH, TTT. (i) HHH and HTH: $P = \\frac{2}{8} = \\frac{1}{4}$. (ii) No two consecutive heads: HTH, HTT, THT, TTH, TTT = 5, so $P = \\frac{5}{8}$. (iii) At least 2 heads: HHH, HHT, HTH, THH = 4, so $P = \\frac{4}{8} = \\frac{1}{2}$. Answers: $\\frac{1}{4}$, $\\frac{5}{8}$, $\\frac{1}{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Dice",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Two fair dice, one red and one green, are thrown together. Find the probability that (i) the product of the two numbers is a perfect square, (ii) the sum of the numbers is a multiple of 5, (iii) one die shows a number at least 5 and the other shows a number at most 2, (iv) the product of the numbers is odd.",
+    "answer": "Total outcomes $= 6 \\times 6 = 36$. (i) Product a perfect square: $(1,1),(2,2),(3,3),(4,4),(5,5),(6,6),(1,4),(4,1)$ = 8, so $P = \\frac{8}{36} = \\frac{2}{9}$. (ii) Sum 5: 4 outcomes; sum 10: 3 outcomes; total 7, so $P = \\frac{7}{36}$. (iii) One die in $\\{5,6\\}$, the other in $\\{1,2\\}$: $2 \\times 2 = 4$ ways, and 4 more with the dice exchanged, total 8, so $P = \\frac{8}{36} = \\frac{2}{9}$. (iv) Product odd needs both numbers odd: $3 \\times 3 = 9$, so $P = \\frac{9}{36} = \\frac{1}{4}$. Answers: $\\frac{2}{9}$, $\\frac{7}{36}$, $\\frac{2}{9}$, $\\frac{1}{4}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Coins",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A fair coin is tossed four times. Find the probability of getting (i) exactly two heads, (ii) at least three heads, (iii) all four faces the same, (iv) a head on the first toss and a tail on the fourth toss.",
+    "answer": "Total outcomes $= 2^{4} = 16$. (i) Exactly two heads: HHTT, HTHT, HTTH, THHT, THTH, TTHH = 6, so $P = \\frac{6}{16} = \\frac{3}{8}$. (ii) Exactly three heads: 4 outcomes; four heads: 1 outcome; total 5, so $P = \\frac{5}{16}$. (iii) HHHH and TTTT = 2, so $P = \\frac{2}{16} = \\frac{1}{8}$. (iv) Tosses 1 and 4 are fixed; tosses 2 and 3 can be anything: $2 \\times 2 = 4$, so $P = \\frac{4}{16} = \\frac{1}{4}$. Answers: $\\frac{3}{8}$, $\\frac{5}{16}$, $\\frac{1}{8}$, $\\frac{1}{4}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Balls and bags",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": true,
+    "text": "A box contains 72 beads, each blue, red or green. A bead is drawn at random. The probability that it is blue is $\\frac{1}{4}$ and the probability that it is red is $\\frac{5}{12}$. (i) Find the number of beads of each colour. (ii) Find the probability that the bead drawn is not red. (iii) If 12 more green beads are added to the box, find the probability of drawing a green bead.",
+    "answer": "(i) Blue $= \\frac{1}{4} \\times 72 = 18$. Red $= \\frac{5}{12} \\times 72 = 30$. Green $= 72 - 18 - 30 = 24$. (ii) $P(\\text{not red}) = 1 - \\frac{5}{12} = \\frac{7}{12}$. (iii) After adding 12 green beads: green $= 36$, total $= 84$, so $P(\\text{green}) = \\frac{36}{84} = \\frac{3}{7}$. Answers: 18 blue, 30 red, 24 green; $\\frac{7}{12}$; $\\frac{3}{7}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Numbers and lottery",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A raffle drum contains 150 tickets numbered 1 to 150. One ticket is drawn at random. Find the probability that the number on it is (i) a multiple of 6, (ii) a perfect square, (iii) a multiple of both 4 and 10, (iv) not a multiple of 5.",
+    "answer": "Total outcomes $= 150$. (i) Multiples of 6: $150 \\div 6 = 25$, so $P = \\frac{25}{150} = \\frac{1}{6}$. (ii) Perfect squares: $1^{2}, \\ldots, 12^{2}$ (as $12^{2} = 144$, $13^{2} = 169$) = 12, so $P = \\frac{12}{150} = \\frac{2}{25}$. (iii) Multiple of both 4 and 10 means a multiple of 20: 20, 40, $\\ldots$, 140 = 7, so $P = \\frac{7}{150}$. (iv) Multiples of 5: 30, so not multiples: 120 and $P = \\frac{120}{150} = \\frac{4}{5}$. Answers: $\\frac{1}{6}$, $\\frac{2}{25}$, $\\frac{7}{150}$, $\\frac{4}{5}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Probability",
+    "topic": "Cards",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A card is drawn at random from a well-shuffled deck of 52 playing cards. Find the probability that the card drawn is (i) neither a heart nor a face card, (ii) a red card or an ace, (iii) a black card with a number from 2 to 10, (iv) a black queen or a red jack, (v) not a face card.",
+    "answer": "Total outcomes $= 52$. (i) Hearts: 13; face cards that are not hearts: $12 - 3 = 9$. Excluded $= 22$, favourable $= 30$, so $P = \\frac{30}{52} = \\frac{15}{26}$. (ii) Red cards 26 plus the 2 black aces $= 28$, so $P = \\frac{28}{52} = \\frac{7}{13}$. (iii) Black suits 2, number cards 2 to 10 give 9 each, so $18$ and $P = \\frac{18}{52} = \\frac{9}{26}$. (iv) 2 black queens + 2 red jacks $= 4$, so $P = \\frac{4}{52} = \\frac{1}{13}$. (v) Face cards $= 12$, so $P = 1 - \\frac{12}{52} = \\frac{40}{52} = \\frac{10}{13}$. Answers: $\\frac{15}{26}$, $\\frac{7}{13}$, $\\frac{9}{26}$, $\\frac{1}{13}$, $\\frac{10}{13}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  }
+]

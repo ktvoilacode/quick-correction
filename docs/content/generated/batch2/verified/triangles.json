@@ -1,0 +1,302 @@
+[
+  {
+    "chapter": "Triangles",
+    "topic": "Areas of similar triangles",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Two similar triangles have perimeters $15\\text{ cm}$ and $25\\text{ cm}$. If the area of the smaller triangle is $54\\text{ cm}^{2}$, the area of the larger triangle is",
+    "options": [
+      "$90\\text{ cm}^{2}$",
+      "$150\\text{ cm}^{2}$",
+      "$100\\text{ cm}^{2}$",
+      "$270\\text{ cm}^{2}$"
+    ],
+    "answer": "Correct option: B) $150\\text{ cm}^{2}$. The ratio of corresponding sides is $15 : 25 = 3 : 5$, so the ratio of areas is $9 : 25$. Area of larger triangle $= 54 \\times \\frac{25}{9} = 150\\text{ cm}^{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Pythagoras theorem and its converse",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "The diagonals of a rhombus are $16\\text{ cm}$ and $30\\text{ cm}$. The perimeter of the rhombus is",
+    "options": [
+      "$46\\text{ cm}$",
+      "$68\\text{ cm}$",
+      "$34\\text{ cm}$",
+      "$17\\text{ cm}$"
+    ],
+    "answer": "Correct option: B) $68\\text{ cm}$. The diagonals bisect each other at right angles, so each side is $\\sqrt{8^{2} + 15^{2}} = 17\\text{ cm}$. Perimeter $= 4 \\times 17 = 68\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Similarity criteria",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Assertion (A): Triangles with sides $3\\text{ cm}$, $5\\text{ cm}$, $7\\text{ cm}$ and $9\\text{ cm}$, $15\\text{ cm}$, $20\\text{ cm}$ are similar.\nReason (R): Two triangles are similar if their corresponding sides are in the same ratio.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: D) A is false but R is true. Pairing sides in order, $\\frac{3}{9} = \\frac{1}{3}$, $\\frac{5}{15} = \\frac{1}{3}$ but $\\frac{7}{20} \\ne \\frac{1}{3}$, so the sides are not proportional and A is false. R is the SSS similarity criterion and is true.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Basic proportionality theorem",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "hard",
+    "competency": false,
+    "text": "$ABCD$ is a trapezium with $AB \\parallel DC$, $AB = 12\\text{ cm}$ and $DC = 20\\text{ cm}$. A line through the point of intersection $O$ of the diagonals, parallel to $AB$, meets $AD$ at $P$ and $BC$ at $Q$. Then $PQ =$",
+    "options": [
+      "$16\\text{ cm}$",
+      "$15\\text{ cm}$",
+      "$7.5\\text{ cm}$",
+      "$14\\text{ cm}$"
+    ],
+    "answer": "Correct option: B) $15\\text{ cm}$. In $\\triangle ADC$, $PO \\parallel DC$ gives $\\frac{PO}{DC} = \\frac{AO}{AC}$. Since $\\triangle AOB \\sim \\triangle COD$, $\\frac{AO}{OC} = \\frac{12}{20}$, so $\\frac{AO}{AC} = \\frac{12}{32}$ and $PO = 20 \\times \\frac{12}{32} = 7.5\\text{ cm}$. Similarly $OQ = 7.5\\text{ cm}$, so $PQ = 15\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Proofs on similar triangles",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "In $\\triangle ABC$, $\\angle B = 90^\\circ$, $AB = 15\\text{ cm}$ and $BC = 20\\text{ cm}$. $BD \\perp AC$ with $D$ on $AC$. Then $DC =$",
+    "options": [
+      "$9\\text{ cm}$",
+      "$12\\text{ cm}$",
+      "$16\\text{ cm}$",
+      "$15\\text{ cm}$"
+    ],
+    "answer": "Correct option: C) $16\\text{ cm}$. $AC = \\sqrt{15^{2} + 20^{2}} = 25\\text{ cm}$. Since $\\triangle BDC \\sim \\triangle ABC$, $BC^{2} = DC \\times AC$, so $DC = \\frac{400}{25} = 16\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Areas of similar triangles",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": false,
+    "text": "The areas of two similar triangles are in the ratio $16 : 49$. If the perimeter of the smaller triangle is $36\\text{ cm}$, find the perimeter of the larger triangle.",
+    "answer": "Ratio of corresponding sides $= \\sqrt{\\frac{16}{49}} = \\frac{4}{7}$. Perimeters of similar triangles are in the same ratio, so $\\frac{36}{P} = \\frac{4}{7}$ and $P = \\frac{36 \\times 7}{4} = 63$. The perimeter of the larger triangle is $63\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Pythagoras theorem and its converse",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "In $\\triangle ABC$, $D$ is a point on $BC$ such that $AD \\perp BC$ and $AD^{2} = BD \\times CD$. Prove that $\\angle BAC = 90^\\circ$.",
+    "answer": "From $AD^{2} = BD \\times CD$, $\\frac{BD}{AD} = \\frac{AD}{CD}$. Also $\\angle ADB = \\angle CDA = 90^\\circ$. By SAS similarity, $\\triangle DBA \\sim \\triangle DAC$, so $\\angle BAD = \\angle ACD$. Then $\\angle BAC = \\angle BAD + \\angle DAC = \\angle ACD + \\angle DAC = 90^\\circ$, because $\\angle ADC = 90^\\circ$ makes the other two angles of $\\triangle ADC$ sum to $90^\\circ$. Hence $\\angle BAC = 90^\\circ$.",
+    "verification": {
+      "status": "ambiguous",
+      "note": "Stock NCERT/board proof reproduced almost verbatim; statement and proof are correct."
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Basic proportionality theorem",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "easy",
+    "competency": false,
+    "text": "In $\\triangle ABC$, $D$ lies on $AB$ and $E$ lies on $AC$ with $AD = 3.5\\text{ cm}$, $DB = 5.25\\text{ cm}$, $AE = 4\\text{ cm}$ and $EC = 6\\text{ cm}$. (a) Show that $DE \\parallel BC$. (b) If $BC = 12.5\\text{ cm}$, find $DE$.",
+    "answer": "(a) $\\frac{AD}{DB} = \\frac{3.5}{5.25} = \\frac{2}{3}$ and $\\frac{AE}{EC} = \\frac{4}{6} = \\frac{2}{3}$. The line $DE$ divides $AB$ and $AC$ in the same ratio, so by the converse of the Basic Proportionality Theorem, $DE \\parallel BC$. (b) $\\triangle ADE \\sim \\triangle ABC$ (AA), so $\\frac{DE}{BC} = \\frac{AD}{AB} = \\frac{3.5}{8.75} = \\frac{2}{5}$. Hence $DE = \\frac{2}{5} \\times 12.5 = 5\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Basic proportionality theorem",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "$ABCD$ is a trapezium with $AB \\parallel DC$, $AB = 28\\text{ cm}$ and $DC = 14\\text{ cm}$. $E$ lies on $AD$ and $F$ lies on $BC$ such that $EF \\parallel AB$ and $AE : ED = 3 : 4$. Find $EF$.",
+    "answer": "Join $AC$ and let it meet $EF$ at $G$. In $\\triangle ADC$, $EG \\parallel DC$, so $\\frac{EG}{DC} = \\frac{AE}{AD} = \\frac{3}{7}$ and $EG = 6\\text{ cm}$. Since $EF \\parallel AB \\parallel DC$, $\\frac{CF}{CB} = \\frac{DE}{DA} = \\frac{4}{7}$. In $\\triangle CAB$, $GF \\parallel AB$, so $\\frac{GF}{AB} = \\frac{CF}{CB} = \\frac{4}{7}$ and $GF = 16\\text{ cm}$. Therefore $EF = 6 + 16 = 22\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Proofs on similar triangles",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "easy",
+    "competency": false,
+    "text": "In an acute-angled $\\triangle ABC$, $BE \\perp AC$ with $E$ on $AC$, and $CF \\perp AB$ with $F$ on $AB$. (a) Prove that $\\triangle AEB \\sim \\triangle AFC$. (b) If $AB = 12\\text{ cm}$, $AC = 15\\text{ cm}$ and $AF = 4.5\\text{ cm}$, find $AE$.",
+    "answer": "(a) In $\\triangle AEB$ and $\\triangle AFC$: $\\angle AEB = \\angle AFC = 90^\\circ$ and $\\angle A$ is common. By AA, $\\triangle AEB \\sim \\triangle AFC$. (b) Corresponding sides are proportional: $\\frac{AE}{AF} = \\frac{AB}{AC}$, so $AE = 4.5 \\times \\frac{12}{15} = 3.6\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Basic proportionality theorem",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "hard",
+    "competency": false,
+    "text": "In $\\triangle ABC$, $D$ is the midpoint of $BC$ and $E$ is the midpoint of $AD$. The line $BE$ meets $AC$ at $F$. Prove that $AF = \\frac{1}{3} AC$.",
+    "answer": "Draw $DG \\parallel BF$ meeting $AC$ at $G$. In $\\triangle CBF$, $D$ is the midpoint of $BC$ and $DG \\parallel BF$, so by the Basic Proportionality Theorem $G$ is the midpoint of $CF$, i.e. $CG = GF$. In $\\triangle ADG$, $E$ is the midpoint of $AD$ and $EF \\parallel DG$, so $F$ is the midpoint of $AG$, i.e. $AF = FG$. Hence $AF = FG = GC$, and $AF = \\frac{1}{3} AC$.",
+    "verification": {
+      "status": "ambiguous",
+      "note": "Stock textbook/board proof (midpoint of AD, BE meets AC) reproduced nearly verbatim; proof correct."
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Similarity criteria",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "In $\\triangle ABC$, $AB = 12\\text{ cm}$, $AC = 8\\text{ cm}$ and $BC = 10\\text{ cm}$. $D$ lies on $AB$ with $AD = 3\\text{ cm}$ and $E$ lies on $AC$ with $AE = 4.5\\text{ cm}$. Show that $\\triangle ADE \\sim \\triangle ACB$ and find $DE$.",
+    "answer": "In $\\triangle ADE$ and $\\triangle ACB$: $\\frac{AD}{AC} = \\frac{3}{8}$ and $\\frac{AE}{AB} = \\frac{4.5}{12} = \\frac{3}{8}$, and $\\angle DAE = \\angle CAB$ (common). By SAS similarity, $\\triangle ADE \\sim \\triangle ACB$. Then $\\frac{DE}{CB} = \\frac{3}{8}$, so $DE = \\frac{3}{8} \\times 10 = 3.75\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Similarity criteria",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A lamp is fixed at the top of a vertical post standing on level ground. A girl $1.6\\text{ m}$ tall stands $3\\text{ m}$ from the foot of the post, and her shadow is $2\\text{ m}$ long. (a) Find the height of the lamp above the ground. (b) She walks away until she is $6\\text{ m}$ from the foot of the post. Find the new length of her shadow.",
+    "answer": "The lamp, the top of her head and the tip of the shadow are in a line. Triangles formed by the post and by the girl are similar (AA, both right-angled with a common angle at the tip of the shadow). (a) $\\frac{h}{1.6} = \\frac{3 + 2}{2}$, so $h = 1.6 \\times 2.5 = 4\\text{ m}$. (b) With shadow $s$: $\\frac{4}{1.6} = \\frac{6 + s}{s}$, so $2.5s = 6 + s$, $1.5s = 6$ and $s = 4\\text{ m}$. The lamp is $4\\text{ m}$ high and the new shadow is $4\\text{ m}$ long.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Areas of similar triangles",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "easy",
+    "competency": false,
+    "text": "In $\\triangle ABC$, $D$ lies on $AB$ and $E$ lies on $AC$ with $DE \\parallel BC$. The area of quadrilateral $DBCE$ is $8$ times the area of $\\triangle ADE$. (a) Find $AD : DB$. (b) If $BC = 18\\text{ cm}$, find $DE$.",
+    "answer": "Let area of $\\triangle ADE = k$. Then area of $\\triangle ABC = k + 8k = 9k$. $\\triangle ADE \\sim \\triangle ABC$, so $\\frac{\\text{ar}(ADE)}{\\text{ar}(ABC)} = \\left(\\frac{AD}{AB}\\right)^{2} = \\frac{1}{9}$, giving $\\frac{AD}{AB} = \\frac{1}{3}$. (a) $AD : DB = 1 : 2$. (b) $\\frac{DE}{BC} = \\frac{AD}{AB} = \\frac{1}{3}$, so $DE = 6\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Areas of similar triangles",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The sides of a right-angled triangle are $9\\text{ cm}$, $12\\text{ cm}$ and $15\\text{ cm}$. Similar triangles are drawn on all three sides, each side being the corresponding side of its triangle. The area of the triangle on the $9\\text{ cm}$ side is $27\\text{ cm}^{2}$. Find the areas of the triangles on the other two sides and verify that the area on the hypotenuse equals the sum of the other two.",
+    "answer": "Areas of similar triangles are proportional to the squares of corresponding sides. Area on $12\\text{ cm}$ side $= 27 \\times \\frac{12^{2}}{9^{2}} = 27 \\times \\frac{144}{81} = 48\\text{ cm}^{2}$. Area on $15\\text{ cm}$ side $= 27 \\times \\frac{225}{81} = 75\\text{ cm}^{2}$. Check: $27 + 48 = 75$, so the area on the hypotenuse equals the sum of the areas on the other two sides, as $9^{2} + 12^{2} = 15^{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Pythagoras theorem and its converse",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "In $\\triangle ABC$, $AB = 17\\text{ cm}$, $AC = 10\\text{ cm}$ and $BC = 21\\text{ cm}$. $AD \\perp BC$ with $D$ on $BC$. Find $AD$, the area of the triangle, and the length of the perpendicular from $B$ to $AC$.",
+    "answer": "Let $BD = x$, so $DC = 21 - x$. From $\\triangle ABD$ and $\\triangle ACD$: $AD^{2} = 17^{2} - x^{2} = 10^{2} - (21 - x)^{2}$. So $289 - x^{2} = 100 - 441 + 42x - x^{2}$, giving $630 = 42x$ and $x = 15$. Then $AD = \\sqrt{289 - 225} = 8\\text{ cm}$. Area $= \\frac{1}{2} \\times 21 \\times 8 = 84\\text{ cm}^{2}$. If $h$ is the perpendicular from $B$ to $AC$, $\\frac{1}{2} \\times 10 \\times h = 84$, so $h = 16.8\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Similarity criteria",
+    "slot": "E-case-study (4 marks, with sub-parts)",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "Case study: A surveyor wants the width of a canal without crossing it. A tree $T$ stands on the far bank. She marks the point $P$ on the near bank directly opposite the tree, so $PT$ is perpendicular to the bank. She walks along the bank to $Q$ with $PQ = 36\\text{ m}$, and fixes a peg $R$ on $PQ$ with $PR = 24\\text{ m}$. At $Q$ she turns at a right angle, away from the canal, and walks to a point $U$ from which the peg $R$ and the tree $T$ are in one line. She measures $QU = 9\\text{ m}$.\n(i) Name the criterion by which $\\triangle PRT \\sim \\triangle QRU$. [1]\n(ii) Find the ratio $PR : RQ$ and hence the ratio $TR : RU$. [1]\n(iii) Find the width of the canal and the distance $TU$. [2]",
+    "answer": "(i) $\\angle P = \\angle Q = 90^\\circ$ and $\\angle PRT = \\angle QRU$ (vertically opposite), so the triangles are similar by the AA criterion. (ii) $RQ = 36 - 24 = 12\\text{ m}$, so $PR : RQ = 24 : 12 = 2 : 1$. By similarity $TR : RU = PR : RQ = 2 : 1$. (iii) $\\frac{PT}{QU} = \\frac{PR}{RQ} = 2$, so $PT = 18\\text{ m}$, the width of the canal. In right $\\triangle QRU$, $RU = \\sqrt{12^{2} + 9^{2}} = 15\\text{ m}$, so $TR = 30\\text{ m}$ and $TU = 30 + 15 = 45\\text{ m}$.",
+    "verification": {
+      "status": "ambiguous",
+      "note": "Text has corrupted LaTeX: tab character before 'riangle' in (i), so triangle symbol fails; answers themselves correct."
+    }
+  },
+  {
+    "chapter": "Triangles",
+    "topic": "Pythagoras theorem and its converse",
+    "slot": "E-case-study (4 marks, with sub-parts)",
+    "type": "case",
+    "marks": 4,
+    "complexity": "medium",
+    "competency": true,
+    "text": "Case study: A farmer owns two triangular fields, $ABC$ and $PQR$, with $\\triangle ABC \\sim \\triangle PQR$. The sides of field $ABC$ are $AB = 9\\text{ m}$, $BC = 12\\text{ m}$ and $CA = 15\\text{ m}$. The longest side $PR$ of field $PQR$ is $25\\text{ m}$.\n(i) Find the ratio of the sides of the two fields. [1]\n(ii) Show that field $ABC$ is right-angled and name the vertex of the right angle. [1]\n(iii) Find the area of field $PQR$ and the cost of fencing it at ₹50 per metre. [2]",
+    "answer": "(i) $CA$ and $PR$ are corresponding longest sides, so $\\frac{AB}{PQ} = \\frac{15}{25} = \\frac{3}{5}$ and the sides are in the ratio $3 : 5$. (ii) $AB^{2} + BC^{2} = 81 + 144 = 225 = CA^{2}$, so by the converse of Pythagoras theorem the angle opposite $CA$ is a right angle, i.e. at $B$. (iii) $PQ = 15\\text{ m}$, $QR = 20\\text{ m}$, $PR = 25\\text{ m}$. Area of $ABC = \\frac{1}{2} \\times 9 \\times 12 = 54\\text{ m}^{2}$, so area of $PQR = 54 \\times \\frac{25}{9} = 150\\text{ m}^{2}$. Perimeter of $PQR = 15 + 20 + 25 = 60\\text{ m}$, so fencing costs $60 \\times 50 = $ ₹3000.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  }
+]

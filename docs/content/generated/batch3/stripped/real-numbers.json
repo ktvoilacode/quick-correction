@@ -1,0 +1,772 @@
+[
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The value of $(\\sqrt{5}+\\sqrt{3})^{2}-(\\sqrt{5}-\\sqrt{3})^{2}$ is",
+  "options": [
+   "$4\\sqrt{15}$, an irrational number",
+   "$16$, a rational number",
+   "$0$",
+   "$2\\sqrt{15}$, an irrational number"
+  ],
+  "idx": 0
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Which of the following pairs of irrational numbers has a rational product?",
+  "options": [
+   "$\\sqrt{3}$ and $\\sqrt{6}$",
+   "$\\sqrt{12}$ and $\\sqrt{27}$",
+   "$2\\sqrt{3}$ and $3\\sqrt{2}$",
+   "$5+\\sqrt{3}$ and $5+\\sqrt{3}$"
+  ],
+  "idx": 1
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Let $k$ be a positive integer such that the prime number $13$ divides $k^{2}$. Which of the following must be true?",
+  "options": [
+   "$169$ divides $k$",
+   "$k$ divides $13$",
+   "$13$ divides $k$",
+   "$13$ divides $k+1$"
+  ],
+  "idx": 2
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "type": "mcq",
+  "marks": 1,
+  "text": "To prove that $\\sqrt{17}$ is irrational, a student assumes $\\sqrt{17}=\\frac{a}{b}$ and later shows that $17$ divides both $a$ and $b$. This contradicts the assumption that",
+  "options": [
+   "$17$ is a prime number",
+   "$b$ is a non-zero integer",
+   "$a$ is an even integer",
+   "$a$ and $b$ are co-prime integers"
+  ],
+  "idx": 3
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "type": "assertion_reason",
+  "marks": 1,
+  "text": "Assertion (A): $\\sqrt{29}$ is an irrational number.\nReason (R): The square root of every prime number is irrational.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "idx": 4
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "type": "assertion_reason",
+  "marks": 1,
+  "text": "Assertion (A): The right triangle $PQR$ shown, right-angled at $Q$ with $PQ=5\\text{ cm}$ and $QR=12\\text{ cm}$, has a rational perimeter.\nReason (R): The sum of the squares of two rational numbers is always rational.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 170\"><polygon points=\"60,30 60,130 300,130\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"60,118 72,118 72,130\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"48\" y=\"26\" font-family=\"sans-serif\" font-size=\"14\">P</text><text x=\"46\" y=\"146\" font-family=\"sans-serif\" font-size=\"14\">Q</text><text x=\"304\" y=\"146\" font-family=\"sans-serif\" font-size=\"14\">R</text><text x=\"8\" y=\"85\" font-family=\"sans-serif\" font-size=\"14\">5 cm</text><text x=\"160\" y=\"152\" font-family=\"sans-serif\" font-size=\"14\">12 cm</text></svg>",
+  "figureAlt": "A right triangle PQR with the right angle at Q. The vertical side PQ is marked 5 cm and the horizontal side QR is marked 12 cm; the hypotenuse PR is unlabelled.",
+  "idx": 5
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "type": "short",
+  "marks": 2,
+  "text": "Given that $\\sqrt{3}$ is irrational, prove that $8-5\\sqrt{3}$ is irrational.",
+  "idx": 6
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "type": "short",
+  "marks": 2,
+  "text": "Given that $\\sqrt{11}$ is irrational, prove that $\\frac{2+\\sqrt{11}}{3}$ is irrational.",
+  "idx": 7
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "type": "short",
+  "marks": 2,
+  "text": "Find two irrational numbers whose sum is $10$ and whose product is $22$. Justify that your numbers are irrational.",
+  "idx": 8
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "type": "short",
+  "marks": 2,
+  "text": "A student writes: '$3+\\sqrt{5}$ and $3-\\sqrt{5}$ are both irrational, so their sum and their product must both be irrational.' Find the error in the statement and find the correct sum and product.",
+  "idx": 9
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "type": "short",
+  "marks": 3,
+  "text": "Prove that $\\sqrt{2}$ is irrational.",
+  "idx": 10
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "type": "short",
+  "marks": 3,
+  "text": "Prove that $\\sqrt{3}$ is irrational.",
+  "idx": 11
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "type": "short",
+  "marks": 3,
+  "text": "Prove that $\\sqrt{11}$ is irrational.",
+  "idx": 12
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "type": "short",
+  "marks": 3,
+  "text": "Given that $\\sqrt{2}$ is irrational, prove that $5\\sqrt{2}-3$ is irrational.",
+  "idx": 13
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Irrational numbers and proofs",
+  "type": "short",
+  "marks": 3,
+  "text": "Given that $\\sqrt{7}$ is irrational, prove that $\\frac{6-\\sqrt{7}}{2}$ is irrational.",
+  "idx": 14
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM by prime factorisation",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The HCF of $144$ and $360$ is",
+  "options": [
+   "$72$",
+   "$36$",
+   "$144$",
+   "$720$"
+  ],
+  "idx": 15
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM by prime factorisation",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The HCF of $168$, $252$ and $420$ is",
+  "options": [
+   "$42$",
+   "$84$",
+   "$28$",
+   "$2520$"
+  ],
+  "idx": 16
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM by prime factorisation",
+  "type": "mcq",
+  "marks": 1,
+  "text": "If $x=a^{2}b^{3}$ and $y=a^{3}b$, where $a$ and $b$ are prime numbers, then HCF$(x,y)$ is",
+  "options": [
+   "$a^{3}b^{3}$",
+   "$ab$",
+   "$a^{2}b$",
+   "$a^{5}b^{4}$"
+  ],
+  "idx": 17
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM by prime factorisation",
+  "type": "mcq",
+  "marks": 1,
+  "text": "If $a=2^{x}\\times 3$, $b=2^{2}\\times 3^{y}\\times 7$ and LCM$(a,b)=2016$, where $x$ and $y$ are natural numbers, then $x+y$ equals",
+  "options": [
+   "$10$",
+   "$5$",
+   "$3$",
+   "$7$"
+  ],
+  "idx": 18
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM by prime factorisation",
+  "type": "mcq",
+  "marks": 1,
+  "text": "If HCF$(48,72)=m$ and LCM$(48,72)=n$, then $n-4m$ equals",
+  "options": [
+   "$48$",
+   "$120$",
+   "$192$",
+   "$96$"
+  ],
+  "idx": 19
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM by prime factorisation",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The least perfect square that is divisible by each of $8$, $12$ and $15$ is",
+  "options": [
+   "$120$",
+   "$3600$",
+   "$900$",
+   "$14400$"
+  ],
+  "idx": 20
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM by prime factorisation",
+  "type": "mcq",
+  "marks": 1,
+  "text": "If $x=$ LCM$(6,10,15)$, $y=$ LCM$(4,7,14)$ and $p=$ LCM$(x,y)$, then which of the following is true?",
+  "options": [
+   "$p=xy$",
+   "$p=x+y$",
+   "$p=\\frac{xy}{2}$",
+   "$p=\\frac{xy}{4}$"
+  ],
+  "idx": 21
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM by prime factorisation",
+  "type": "assertion_reason",
+  "marks": 1,
+  "text": "Assertion (A): For a prime number $m$, HCF$(6m^{2},3m)=6m$.\nReason (R): The HCF of two positive integers can never be greater than the smaller of the two numbers.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "idx": 22
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM by prime factorisation",
+  "type": "short",
+  "marks": 2,
+  "text": "Find the least number that is exactly divisible by both $45$ and $60$.",
+  "idx": 23
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM by prime factorisation",
+  "type": "short",
+  "marks": 2,
+  "text": "If HCF$(96,120)=5z-1$, find the value of $z$.",
+  "idx": 24
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM by prime factorisation",
+  "type": "short",
+  "marks": 3,
+  "text": "Let $a$ and $b$ be prime numbers, and let $p=a^{3}b^{2}$, $q=ab^{4}$ and $r=a^{2}b^{3}$. Find HCF$(p,q,r)$ and LCM$(p,q,r)$. Is HCF$(p,q,r)\\times$ LCM$(p,q,r)=pqr$?",
+  "idx": 25
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM by prime factorisation",
+  "type": "long",
+  "marks": 5,
+  "text": "Find the HCF and LCM of $180$, $270$ and $450$ by the prime factorisation method. Also verify that HCF $\\times$ LCM $=$ product of the numbers for the pair $180$ and $270$.",
+  "idx": 26
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Fundamental theorem of arithmetic",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Which of the following statements about the natural number $2$ is correct?",
+  "options": [
+   "It is a composite number",
+   "It is neither prime nor composite",
+   "It is both prime and composite",
+   "It is the only even prime number"
+  ],
+  "idx": 27
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Fundamental theorem of arithmetic",
+  "type": "mcq",
+  "marks": 1,
+  "text": "For a natural number $n$, which of the following can never be the units digit of $3^{n}$?",
+  "options": [
+   "$5$",
+   "$7$",
+   "$9$",
+   "$1$"
+  ],
+  "idx": 28
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Fundamental theorem of arithmetic",
+  "type": "mcq",
+  "marks": 1,
+  "text": "If $5880=2^{a}\\times 3^{b}\\times 5^{c}\\times 7^{d}$, then $a+b+c+d$ equals",
+  "options": [
+   "$6$",
+   "$7$",
+   "$4$",
+   "$8$"
+  ],
+  "idx": 29
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Fundamental theorem of arithmetic",
+  "type": "mcq",
+  "marks": 1,
+  "text": "How many positive divisors does $11^{3}$ have?",
+  "options": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$6$"
+  ],
+  "idx": 30
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Fundamental theorem of arithmetic",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The prime factorisation of $3150$ is",
+  "options": [
+   "$2\\times 3\\times 5^{2}\\times 21$",
+   "$2^{2}\\times 3^{2}\\times 5\\times 7$",
+   "$2\\times 3^{2}\\times 5\\times 7^{2}$",
+   "$2\\times 3^{2}\\times 5^{2}\\times 7$"
+  ],
+  "idx": 31
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Fundamental theorem of arithmetic",
+  "type": "mcq",
+  "marks": 1,
+  "text": "According to the Fundamental Theorem of Arithmetic, the factorisation of a composite number as a product of primes is",
+  "options": [
+   "unique, apart from the order of the prime factors",
+   "unique only when the number is even",
+   "possible in exactly two different ways",
+   "not always possible"
+  ],
+  "idx": 32
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Fundamental theorem of arithmetic",
+  "type": "mcq",
+  "marks": 1,
+  "text": "In the factor tree shown, the values of $x$ and $y$ are respectively",
+  "options": [
+   "$1386$ and $77$",
+   "$1386$ and $231$",
+   "$693$ and $231$",
+   "$2772$ and $231$"
+  ],
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 260\"><line x1=\"70\" y1=\"31\" x2=\"35\" y2=\"64\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"31\" x2=\"110\" y2=\"64\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"86\" x2=\"75\" y2=\"119\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"86\" x2=\"145\" y2=\"119\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"145\" y1=\"141\" x2=\"110\" y2=\"174\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"145\" y1=\"141\" x2=\"180\" y2=\"174\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"180\" y1=\"196\" x2=\"145\" y2=\"229\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"180\" y1=\"196\" x2=\"215\" y2=\"229\" stroke=\"#000\" stroke-width=\"1.5\"/><text x=\"70\" y=\"25\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">x</text><text x=\"35\" y=\"80\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">2</text><text x=\"110\" y=\"80\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">693</text><text x=\"75\" y=\"135\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">3</text><text x=\"145\" y=\"135\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">y</text><text x=\"110\" y=\"190\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">3</text><text x=\"180\" y=\"190\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">77</text><text x=\"145\" y=\"245\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">7</text><text x=\"215\" y=\"245\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">11</text></svg>",
+  "figureAlt": "A factor tree. The top number x splits into 2 and 693; 693 splits into 3 and y; y splits into 3 and 77; 77 splits into 7 and 11.",
+  "idx": 33
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Fundamental theorem of arithmetic",
+  "type": "assertion_reason",
+  "marks": 1,
+  "text": "Assertion (A): $15^{n}$ ends with the digit $0$ for some natural number $n$.\nReason (R): The prime factorisation of $15^{n}$ is $3^{n}\\times 5^{n}$, which does not contain the prime $2$.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "idx": 34
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Fundamental theorem of arithmetic",
+  "type": "short",
+  "marks": 2,
+  "text": "Can $26^{n}$ end with the digit $0$ for any natural number $n$? Justify your answer.",
+  "idx": 35
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Fundamental theorem of arithmetic",
+  "type": "short",
+  "marks": 3,
+  "text": "Show that $7\\times 11\\times 13+13$ is a composite number. For primes $p$, $q$, $r$, give one set of values for which $pqr+1$ is prime and one set for which it is composite.",
+  "idx": 36
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Fundamental theorem of arithmetic",
+  "type": "long",
+  "marks": 5,
+  "text": "Express $1080$ as a product of its prime factors. Hence find (i) the smallest number by which $1080$ must be multiplied to make it a perfect square, (ii) the smallest number by which it must be multiplied to make it a perfect cube, and (iii) the smallest number by which it must be divided to make it a perfect cube. Also show that $1080^{n}$ ends with the digit $0$ for every natural number $n$.",
+  "idx": 37
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Fundamental theorem of arithmetic",
+  "type": "case",
+  "marks": 4,
+  "text": "In a maths club game, a card starts with the number $1$. Each player in turn multiplies the number on the card by a prime number of their choice and passes it on; every player has exactly one turn. After the last player, the card shows $13860$. The club teacher asks the members to work backwards using prime factorisation.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "What is the smallest prime used by any player?"
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "What is the largest prime used by any player?"
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "How many players took part, and which primes were chosen by more than one player?"
+   }
+  ],
+  "idx": 38
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM word problems",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The greatest number that divides $437$ and $342$ leaving remainders $5$ and $6$ respectively is",
+  "options": [
+   "$19$",
+   "$24$",
+   "$48$",
+   "$12$"
+  ],
+  "idx": 39
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM word problems",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Two buses leave a stop every $16$ minutes and every $24$ minutes respectively. If they leave together at 7:30 a.m., they will next leave together at",
+  "options": [
+   "7:38 a.m.",
+   "7:54 a.m.",
+   "8:10 a.m.",
+   "8:18 a.m."
+  ],
+  "idx": 40
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM word problems",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The least number that leaves remainder $4$ when divided by each of $9$, $12$ and $15$, and is exactly divisible by $11$, is",
+  "options": [
+   "$1804$",
+   "$184$",
+   "$724$",
+   "$1984$"
+  ],
+  "idx": 41
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM word problems",
+  "type": "short",
+  "marks": 2,
+  "text": "A carpenter has two wooden planks of lengths $4.95\\text{ m}$ and $7.65\\text{ m}$. Find the greatest length of a measuring stick that can measure both planks an exact number of times.",
+  "idx": 42
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM word problems",
+  "type": "short",
+  "marks": 3,
+  "text": "A school library has $144$ English, $192$ Hindi and $240$ Science books. The librarian wants to stack them in piles of equal height, with each pile having books of one subject only and the number of books in each pile as large as possible. Find the number of books in each pile and the total number of piles.",
+  "idx": 43
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM word problems",
+  "type": "short",
+  "marks": 3,
+  "text": "Three alarms are set to ring every $16$ minutes, $20$ minutes and $24$ minutes respectively. If they ring together at 6:00 a.m., at what time will they next ring together?",
+  "idx": 44
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM word problems",
+  "type": "short",
+  "marks": 3,
+  "text": "Three potters take $20$ minutes, $24$ minutes and $36$ minutes respectively to make one pot. They start a new pot together at the same moment and keep working without a break. After how many hours will they next start a pot together, and how many pots will the three of them have made in all by then?",
+  "idx": 45
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM word problems",
+  "type": "short",
+  "marks": 3,
+  "text": "Find the greatest four-digit number that is exactly divisible by each of $15$, $24$ and $36$.",
+  "idx": 46
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM word problems",
+  "type": "short",
+  "marks": 3,
+  "text": "A rectangular wall panel measuring $168\\text{ cm}$ by $120\\text{ cm}$ is to be covered completely with identical square tiles of the largest possible size, without cutting any tile. Find the side of each tile and the number of tiles needed.",
+  "idx": 47
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM word problems",
+  "type": "short",
+  "marks": 3,
+  "text": "Find the greatest number that divides $398$, $436$ and $542$ leaving remainders $7$, $11$ and $15$ respectively.",
+  "idx": 48
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM word problems",
+  "type": "short",
+  "marks": 3,
+  "text": "Two rolls of cloth are $210\\text{ cm}$ and $294\\text{ cm}$ wide. Both are to be cut lengthwise into strips of the same width, with no cloth left over, and the strips as wide as possible. Find the width of each strip and the total number of strips.",
+  "idx": 49
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM word problems",
+  "type": "short",
+  "marks": 3,
+  "text": "Find the least number which, when divided by $6$, $15$ and $18$, leaves remainder $2$ in each case, and which is exactly divisible by $11$.",
+  "idx": 50
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF and LCM word problems",
+  "type": "case",
+  "marks": 4,
+  "text": "At a river jetty, ferries on three routes leave every $15$ minutes, $24$ minutes and $40$ minutes respectively. All three ferries leave together at 6:00 a.m. The jetty runs from 6:00 a.m. to 6:00 p.m. The manager wants to plan staff for the times when all three ferries leave together.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Write $24$ and $40$ as products of primes."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "Find the LCM of $15$, $24$ and $40$."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "At what time will all three ferries next leave together after 6:00 a.m.? How many times in all do they leave together from 6:00 a.m. to 6:00 p.m., counting both these times?"
+   }
+  ],
+  "idx": 51
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF-LCM relation",
+  "type": "mcq",
+  "marks": 1,
+  "text": "If HCF$(96,160)=32$ and LCM$(96,160)=24k$, then $k$ equals",
+  "options": [
+   "$40$",
+   "$20$",
+   "$16$",
+   "$480$"
+  ],
+  "idx": 52
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF-LCM relation",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Two co-prime numbers have product $323$. Their LCM is",
+  "options": [
+   "$1$",
+   "$17$",
+   "$323$",
+   "$19$"
+  ],
+  "idx": 53
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF-LCM relation",
+  "type": "mcq",
+  "marks": 1,
+  "text": "For any two positive integers $p$ and $q$, HCF$(p,q)\\times$ LCM$(p,q)$ is always equal to",
+  "options": [
+   "$p+q$",
+   "$\\frac{p}{q}$",
+   "$p^{2}q^{2}$",
+   "$pq$"
+  ],
+  "idx": 54
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF-LCM relation",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Which of the following pairs can be the HCF and LCM, respectively, of two positive integers?",
+  "options": [
+   "$14$ and $98$",
+   "$16$ and $100$",
+   "$18$ and $81$",
+   "$24$ and $180$"
+  ],
+  "idx": 55
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF-LCM relation",
+  "type": "mcq",
+  "marks": 1,
+  "text": "How many pairs of positive integers (order not counted) have sum $96$ and HCF $12$?",
+  "options": [
+   "$4$",
+   "$2$",
+   "$3$",
+   "$1$"
+  ],
+  "idx": 56
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF-LCM relation",
+  "type": "short",
+  "marks": 2,
+  "text": "Two numbers are in the ratio $4:9$ and their LCM is $540$. Find their HCF.",
+  "idx": 57
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF-LCM relation",
+  "type": "short",
+  "marks": 2,
+  "text": "The sum of two numbers is $120$ and their difference is $24$. Find their HCF and LCM.",
+  "idx": 58
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF-LCM relation",
+  "type": "short",
+  "marks": 2,
+  "text": "The HCF of two positive integers is $6$ and their product is $1080$. Find all possible pairs of such numbers.",
+  "idx": 59
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF-LCM relation",
+  "type": "short",
+  "marks": 3,
+  "text": "Two positive integers have HCF $9$ and product $4860$. Find all possible pairs of such numbers, and show why the other factor pairs of the product fail.",
+  "idx": 60
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Decimal expansions and number classification",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Which of the following is a rational number lying between $\\sqrt{2}$ and $\\sqrt{3}$?",
+  "options": [
+   "$1.3$",
+   "$1.8$",
+   "$1.5$",
+   "$\\frac{\\sqrt{2}+\\sqrt{3}}{2}$"
+  ],
+  "idx": 61
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Decimal expansions and number classification",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The number $0.363636\\ldots$ (with $36$ repeating) is",
+  "options": [
+   "a natural number",
+   "an integer",
+   "an irrational number",
+   "a rational number"
+  ],
+  "idx": 62
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Decimal expansions and number classification",
+  "type": "mcq",
+  "marks": 1,
+  "text": "If $q^{2}=2.25$, then $q$ is",
+  "options": [
+   "a rational number",
+   "an irrational number",
+   "a natural number",
+   "an integer"
+  ],
+  "idx": 63
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "Decimal expansions and number classification",
+  "type": "mcq",
+  "marks": 1,
+  "text": "If $(-1)^{n}-(-1)^{5}=0$, then $n$ is",
+  "options": [
+   "any natural number",
+   "any odd natural number",
+   "any even natural number",
+   "any negative integer"
+  ],
+  "idx": 64
+ },
+ {
+  "chapter": "Real Numbers",
+  "topic": "HCF written as a linear combination",
+  "type": "short",
+  "marks": 2,
+  "text": "If HCF$(78,120)$ is expressed in the form $120\\times 2+78m$, find the value of $m$.",
+  "idx": 65
+ }
+]

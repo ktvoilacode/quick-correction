@@ -46,7 +46,7 @@ export default function ForgotPasswordPage() {
           </AlertDescription>
         </Alert>
         <Button variant="ghost" asChild className="mt-6">
-          <Link to="/login"><ArrowLeft className="size-4" /> Back to sign in</Link>
+          <Link to="/auth/login"><ArrowLeft className="size-4" /> Back to sign in</Link>
         </Button>
       </>
     );
@@ -76,7 +76,7 @@ export default function ForgotPasswordPage() {
         </Button>
       </form>
       <Button variant="ghost" asChild className="mt-6">
-        <Link to="/login"><ArrowLeft className="size-4" /> Back to sign in</Link>
+        <Link to="/auth/login"><ArrowLeft className="size-4" /> Back to sign in</Link>
       </Button>
     </>
   );

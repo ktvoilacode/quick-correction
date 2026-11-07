@@ -1,0 +1,202 @@
+[
+ {
+  "idx": 0,
+  "myAnswer": "B) 8 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 1,
+  "myAnswer": "A) 16 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 2,
+  "myAnswer": "D) 12 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 3,
+  "myAnswer": "A) 12 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 4,
+  "myAnswer": "C) 5DE = 2BC",
+  "how": "by hand"
+ },
+ {
+  "idx": 5,
+  "myAnswer": "D) 12 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 6,
+  "myAnswer": "A) 2:3",
+  "how": "by hand"
+ },
+ {
+  "idx": 7,
+  "myAnswer": "B) trapezium",
+  "how": "by hand"
+ },
+ {
+  "idx": 8,
+  "myAnswer": "C) 15 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 9,
+  "myAnswer": "D) 2:5",
+  "how": "by hand"
+ },
+ {
+  "idx": 10,
+  "myAnswer": "A) both true, R explains A (NR=6)",
+  "how": "by hand"
+ },
+ {
+  "idx": 11,
+  "myAnswer": "D) A false (4/6 != 5/8), R true",
+  "how": "by hand"
+ },
+ {
+  "idx": 12,
+  "myAnswer": "TR = 9 cm (SQ=6, 4/6=6/TR)",
+  "how": "by hand"
+ },
+ {
+  "idx": 13,
+  "myAnswer": "XY = 6 cm, YZ = 4 cm (ratio 4/10)",
+  "how": "by hand"
+ },
+ {
+  "idx": 14,
+  "myAnswer": "AD/AB = AE/AC = 2/5, converse of BPT => DE || BC",
+  "how": "by hand"
+ },
+ {
+  "idx": 15,
+  "myAnswer": "BF = 6 cm, FC = 9 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 16,
+  "myAnswer": "proof: OPQ ~ ORS (AA, alternate angles); OQ = 8 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 17,
+  "myAnswer": "proof: OA/OC = OB/OD = 2/5, AOB ~ COD (SAS) => AB || DC; AD not || BC since ratio != 1",
+  "how": "by hand"
+ },
+ {
+  "idx": 18,
+  "myAnswer": "proof: ar(PST)/ar(QST) = PS/SQ, ar(PST)/ar(RST) = PT/TR, ar(QST)=ar(RST)",
+  "how": "by hand"
+ },
+ {
+  "idx": 19,
+  "myAnswer": "proof: statement + area proof of BPT",
+  "how": "by hand"
+ },
+ {
+  "idx": 20,
+  "myAnswer": "proof; x = 4",
+  "how": "by hand"
+ },
+ {
+  "idx": 21,
+  "myAnswer": "proof; AB/AD = AC/AE via componendo",
+  "how": "by hand"
+ },
+ {
+  "idx": 22,
+  "myAnswer": "proof; EC = 15 cm (BD/DA = BF/FE = 2/3 = BE/EC, BE = 10)",
+  "how": "by hand"
+ },
+ {
+  "idx": 23,
+  "myAnswer": "proof; AR = 6 cm, RD = 9 cm; AQ/QB = AP/PC = AR/RD => QR || BD",
+  "how": "by hand"
+ },
+ {
+  "idx": 24,
+  "myAnswer": "proof (converse BPT by contradiction); yes ST || QR (both ratios 1.5)",
+  "how": "by hand"
+ },
+ {
+  "idx": 25,
+  "myAnswer": "proof (join diagonal PR); QN = 6 cm, NR = 9 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 26,
+  "myAnswer": "proof: EF = AB - (AB-DC)/3 = 5DC/3 via diagonal",
+  "how": "by hand"
+ },
+ {
+  "idx": 27,
+  "myAnswer": "proof: chain OP/PA = OQ/QB = OR/RC = OS/SD",
+  "how": "by hand"
+ },
+ {
+  "idx": 28,
+  "myAnswer": "proof: DG || BF, G midpoint of CF, AF:FG = 3:2 => AF = 3/7 AC",
+  "how": "by hand"
+ },
+ {
+  "idx": 29,
+  "myAnswer": "proof: DG || BY; DG = 4XY, BY = 2DG = 8XY => BX = 7XY; AY:YC = 1:6",
+  "how": "by hand"
+ },
+ {
+  "idx": 30,
+  "myAnswer": "(i) AE = 2.4 m (ii) DE = 3 m (iii) FG = 6.75 m, total 9.75 m",
+  "how": "by hand"
+ },
+ {
+  "idx": 31,
+  "myAnswer": "B) 105 deg",
+  "how": "by hand"
+ },
+ {
+  "idx": 32,
+  "myAnswer": "C) 4 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 33,
+  "myAnswer": "D) 6 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 34,
+  "myAnswer": "A) 15 cm",
+  "how": "by hand"
+ },
+ {
+  "idx": 35,
+  "myAnswer": "A) DE/LM = EF/MN",
+  "how": "by hand"
+ },
+ {
+  "idx": 36,
+  "myAnswer": "B) PQ/YZ = PR/XZ",
+  "how": "by hand"
+ },
+ {
+  "idx": 37,
+  "myAnswer": "C) AB/PQ = BC/QR",
+  "how": "by hand"
+ },
+ {
+  "idx": 38,
+  "myAnswer": "D) 30 deg",
+  "how": "by hand"
+ },
+ {
+  "idx": 39,
+  "myAnswer": "C) PXR ~ SXQ",
+  "how": "by hand"
+ }
+]

@@ -1,0 +1,2340 @@
+{
+ "chapter": "Triangles",
+ "topics": [
+  {
+   "name": "Basic proportionality theorem",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "TR-BPT-01",
+     "pattern": "Parallel to base: three parts of the two sides given, find the fourth",
+     "sample": "In the figure, $DE \\parallel BC$, $AD=3$ cm, $DB=6$ cm and $AE=4$ cm. Then $EC=$",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2023 compartment",
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2k100gd7gcnxkwj28yb"
+     ]
+    },
+    {
+     "id": "TR-BPT-02",
+     "pattern": "Parallel to base: a whole side is given or asked (AB, AC), find a part or the side",
+     "sample": "In the figure, $DE \\parallel BC$, $AD=4$ cm, $AB=10$ cm and $AC=15$ cm. Then $EC=$",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 17,
+     "seenIn": [
+      "2020 main",
+      "2023 main",
+      "2024 compartment",
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2k200gj7gcnx65qupxr"
+     ]
+    },
+    {
+     "id": "TR-BPT-03",
+     "pattern": "Parallel to base: ratio AD:DB and AC given, find AE",
+     "sample": "In the figure, $DE \\parallel BC$, $AD:DB=2:3$ and $AC=20$ cm. Then $AE=$",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 10,
+     "seenIn": [
+      "2020 main",
+      "2021 compartment",
+      "2024 compartment",
+      "2025 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2k200gh7gcnqkse4ivq"
+     ]
+    },
+    {
+     "id": "TR-BPT-04",
+     "pattern": "Parallel to base with algebraic segment lengths, solve for x",
+     "sample": "$DE \\parallel BC$ in $\\triangle ABC$, with $AD=x$, $DB=x+1$, $AE=x+2$, $EC=x+4$ (all in cm). Then $x=$",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2k100gf7gcn44j6c5ni"
+     ]
+    },
+    {
+     "id": "TR-BPT-05",
+     "pattern": "Line through the midpoint of one side parallel to another: find a part of the third side",
+     "sample": "A line through the midpoint $D$ of $AB$ in $\\triangle ABC$ is parallel to $BC$ and meets $AC$ at $E$. If $AC=15$ cm, then $CE=$",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2k300gp7gcnmrslj6vk"
+     ]
+    },
+    {
+     "id": "TR-BPT-06",
+     "pattern": "Converse of BPT: pick the measures, or the unknown, that make DE parallel to BC",
+     "sample": "$D$ and $E$ lie on $AB$ and $AC$ with $AD=3$, $AB=9$, $AE=4$ cm. For $DE \\parallel BC$, $AC$ must equal",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2024 compartment"
+     ],
+     "existingIds": [
+      "cmvq9r2k200gl7gcnjmqnz4hi"
+     ]
+    },
+    {
+     "id": "TR-BPT-07",
+     "pattern": "Points divide two sides in the same ratio: relate the joining segment to the third side",
+     "sample": "$E$ and $F$ lie on $PQ$ and $PR$ with $\\frac{PE}{PQ}=\\frac{PF}{PR}=\\frac{1}{3}$. The relation between $QR$ and $EF$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-BPT-08",
+     "pattern": "Two parallel lines across a triangle: find a sum of the other segments",
+     "sample": "In the figure, $PQ \\parallel XY \\parallel BC$, $AP=2$, $PX=3$, $XB=4$ and $QY=6$ cm. Then $AQ+YC=$",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-BPT-09",
+     "pattern": "Trapezium with a line parallel to the bases: ratio on one leg gives ratio on the other",
+     "sample": "In trapezium $ABCD$, $AB \\parallel DC$ and $XY \\parallel AB$ with $X$ on $AD$, $Y$ on $BC$. If $AX=\\frac{1}{4}AD$, then $CY:YB=$",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-BPT-10",
+     "pattern": "Trapezium diagonals cut each other proportionally: find an unknown part",
+     "sample": "Diagonals of trapezium $ABCD$ ($AB \\parallel DC$) meet at $O$. If $OA=x$, $OC=x+3$, $OB=4$, $OD=6$ cm, then $x=$",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2k300gn7gcnn3kcnk9l"
+     ]
+    },
+    {
+     "id": "TR-BPT-11",
+     "pattern": "Identify the quadrilateral whose diagonals divide each other proportionally",
+     "sample": "The diagonals of quadrilateral $PQRS$ meet at $O$ with $\\frac{PO}{OR}=\\frac{QO}{OS}$. Then $PQRS$ must be a",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-BPT-12",
+     "pattern": "Find the length of the parallel segment itself, using similarity with the whole triangle",
+     "sample": "In the figure, $DE \\parallel BC$, $AD=2$ cm, $DB=3$ cm and $BC=15$ cm. Then $DE=$",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 10,
+     "seenIn": [
+      "2024 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2k800h17gcnefbyvxsj"
+     ]
+    },
+    {
+     "id": "TR-BPT-13",
+     "pattern": "Trapezium: length of the line through the diagonal intersection parallel to the bases",
+     "sample": "In trapezium $ABCD$, $AB \\parallel DC$, $AB=6$ cm, $DC=12$ cm. A line through the meeting point of the diagonals, parallel to $AB$, cuts the legs at $P$, $Q$. Then $PQ=$",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97w00fj7gd0vp3v43t3"
+     ]
+    },
+    {
+     "id": "TR-BPT-14",
+     "pattern": "Parallel to base with both cevians drawn: ratio on a cevian needs two similarities",
+     "sample": "In $\\triangle ABC$, $DE \\parallel BC$ with $AD:DB=1:2$. $BE$ and $CD$ meet at $O$. Then $OE:OB=$",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "TR-BPT-15",
+     "pattern": "Assertion on legs of a trapezium cut by a line parallel to the bases",
+     "sample": "A: In trapezium $ABCD$ with $AB \\parallel DC$ and $EF \\parallel AB$, $\\frac{AE}{ED}=\\frac{BF}{FC}$. R: A line parallel to the bases of a trapezium divides its legs proportionally.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-BPT-16",
+     "pattern": "Assertion on DE parallel to BC from numeric segments, reason is the converse of BPT",
+     "sample": "A: If $AD=2$, $DB=3$, $AE=4$, $EC=6$ cm in $\\triangle ABC$, then $DE \\parallel BC$. R: A line dividing two sides of a triangle in the same ratio is parallel to the third.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "TR-BPT-17",
+     "pattern": "Direct BPT or ratio form: find a segment",
+     "sample": "In $\\triangle ABC$, $DE \\parallel BC$, $AD=3$ cm, $DB=4.5$ cm and $AC=10$ cm. Find $EC$.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "b3"
+     ]
+    },
+    {
+     "id": "TR-BPT-18",
+     "pattern": "BPT with algebraic lengths: form and solve for x, then find a side",
+     "sample": "In $\\triangle ABC$, $DE \\parallel BC$, $AD=x$, $DB=x-3$, $AE=x+4$, $EC=x-2$ (in cm). Find $x$ and $AC$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2023 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2kb00hf7gcnwlybvydr"
+     ]
+    },
+    {
+     "id": "TR-BPT-19",
+     "pattern": "Cevian from the vertex crosses the parallel: find the piece of the parallel segment",
+     "sample": "In the figure, $XZ \\parallel BC$; $AM$, with $M$ on $BC$, meets $XZ$ at $Y$. $AZ=2$, $ZC=4$, $BM=9$ and $MC=6$ cm. Find $XY$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-BPT-20",
+     "pattern": "Converse of BPT: show a line is parallel from given lengths",
+     "sample": "In $\\triangle PQR$, $X$ on $PQ$ and $Y$ on $PR$ with $PX=3$, $XQ=4.5$, $PY=4$, $YR=6$ cm. Show that $XY \\parallel QR$.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2020 main",
+      "2025 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-BPT-21",
+     "pattern": "Trapezium: line parallel to bases, prove legs are cut proportionally or find a leg",
+     "sample": "In trapezium $PQRS$, $PQ \\parallel SR$ and $MN \\parallel PQ$, with $M$ on $PS$, $N$ on $QR$. $PM=2$, $MS=3$, $QN=4$ cm. Find $NR$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2019 compartment",
+      "2024 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-BPT-22",
+     "pattern": "Trapezium: prove the diagonals divide each other proportionally",
+     "sample": "Diagonals of trapezium $ABCD$, $AB \\parallel DC$, meet at $O$. Prove $\\frac{OA}{OC}=\\frac{OB}{OD}$, and find $OD$ if $OA=4$, $OC=6$, $OB=5$ cm.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-BPT-23",
+     "pattern": "Reverse: diagonal ratio condition proves a quadrilateral is a trapezium",
+     "sample": "Diagonals of quadrilateral $PQRS$ meet at $O$ with $\\frac{PO}{QO}=\\frac{RO}{SO}$. Prove that $PQRS$ is a trapezium.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-BPT-24",
+     "pattern": "Two parallels in one triangle: BPT applied twice to get a square relation",
+     "sample": "In $\\triangle ABC$, $DE \\parallel BC$ and $EF \\parallel CD$, with $D,F$ on $AB$. If $AF=4$ cm and $AB=25$ cm, find $AD$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 10,
+     "seenIn": [
+      "2019 compartment",
+      "2020 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2kc00hh7gcnosw99kli"
+     ]
+    },
+    {
+     "id": "TR-BPT-25",
+     "pattern": "Show DE parallel to BC from lengths, then find DE",
+     "sample": "$D$, $E$ lie on $AB$, $AC$ with $AD=2$, $DB=3$, $AE=3$, $EC=4.5$ cm. Show $DE \\parallel BC$ and find $DE$ if $BC=10$ cm.",
+     "slot": "C",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97z00fr7gd0u9mgdjhf"
+     ]
+    },
+    {
+     "id": "TR-BPT-26",
+     "pattern": "Trapezium: find the length of a line parallel to the bases, by drawing a diagonal",
+     "sample": "In trapezium $ABCD$, $AB \\parallel DC$, $AB=20$ cm, $DC=10$ cm. $EF \\parallel AB$ with $E$ on $AD$, $F$ on $BC$ and $AE:ED=2:3$. Find $EF$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97z00ft7gd0jjcmbetm"
+     ]
+    },
+    {
+     "id": "TR-BPT-27",
+     "pattern": "State and prove BPT (three-mark version)",
+     "sample": "State the Basic Proportionality Theorem and prove it.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-BPT-28",
+     "pattern": "Median and a cevian: prove a fractional division of a side by a construction",
+     "sample": "$D$ is the midpoint of $BC$ in $\\triangle ABC$; $E$ on $AD$ with $AE:ED=1:2$. $BE$ meets $AC$ at $F$. Prove that $AF=\\frac{1}{5}AC$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe98000fx7gd05x3d0luj"
+     ]
+    },
+    {
+     "id": "TR-BPT-29",
+     "pattern": "State and prove BPT",
+     "sample": "State and prove the Basic Proportionality Theorem.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 4,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 25,
+     "seenIn": [
+      "2019 main",
+      "2020 main",
+      "2023 main",
+      "2024 main",
+      "2025 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "d2",
+      "cmvq9r2kf00hv7gcninc3h67h"
+     ]
+    },
+    {
+     "id": "TR-BPT-30",
+     "pattern": "Prove BPT, then apply it in a figure with lines parallel to two sides",
+     "sample": "Prove BPT. Hence: $L$ on $AC$ of quadrilateral $ABCD$, $LM \\parallel CB$ and $LN \\parallel CD$. If $AM=3$, $MB=5$, $AN=6$ cm, find $ND$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2025 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-BPT-31",
+     "pattern": "State and prove the converse of BPT",
+     "sample": "State and prove the converse of the Basic Proportionality Theorem.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-BPT-32",
+     "pattern": "Trapezium: prove a line parallel to the bases cuts the legs proportionally, then compute",
+     "sample": "In trapezium $ABCD$, $AB \\parallel DC$, $EF \\parallel AB$. Prove $\\frac{AE}{ED}=\\frac{BF}{FC}$. If $AE=3$, $ED=5$, $BF=4.5$ cm, find $FC$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2kf00hx7gcnqn4wyxaj"
+     ]
+    },
+    {
+     "id": "TR-BPT-33",
+     "pattern": "Trapezium with bases in a ratio and a parallel segment: prove a length relation",
+     "sample": "In trapezium $ABCD$, $AB \\parallel DC$, $AB=3\\,DC$. $EF \\parallel AB$ with $DE:EA=1:3$, $E$ on $AD$, $F$ on $BC$. Prove that $2EF=3DC$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2024 compartment",
+      "2025 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-BPT-34",
+     "pattern": "BPT and its converse chained to prove another pair of lines is parallel",
+     "sample": "$A$, $B$, $C$ lie on $OP$, $OQ$, $OR$ with $AB \\parallel PQ$ and $AC \\parallel PR$. Prove that $BC \\parallel QR$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2024 compartment",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-BPT-35",
+     "pattern": "Long numeric: parallel to one side, then parallel to another, find several lengths",
+     "sample": "$AB=12$, $AC=18$, $BC=15$ cm. $D$ on $AB$, $AD=4$ cm, $DE \\parallel BC$, $E$ on $AC$; $EF \\parallel AB$, $F$ on $BC$. Find $AE$, $DE$, $EF$ and $BF$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2kh00i77gcnca7uncw3"
+     ]
+    },
+    {
+     "id": "TR-BPT-36",
+     "pattern": "Median with a point in a given ratio: prove a cevian is a multiple of its part",
+     "sample": "$X$ lies on median $AD$ of $\\triangle ABC$ with $AX:XD=1:2$. $BX$ meets $AC$ at $Y$. Prove that $BX=5\\,XY$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-BPT-37",
+     "pattern": "Case study: roof truss with ties parallel to the base",
+     "sample": "A truss $\\triangle ABC$ has base $BC=12$ m and ties $DE$, $FG$ parallel to it, with $AD=DF=FB$. (i) $AE:EC$ (ii) length $DE$ (iii) total length of the two ties.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Similarity criteria",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "TR-SC-01",
+     "pattern": "Given a similarity statement, find an angle or a sum of angles",
+     "sample": "If $\\triangle KLM \\sim \\triangle XYZ$, $\\angle K=52^\\circ$ and $\\angle Z=68^\\circ$, then $\\angle L=$",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2023 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2k400gr7gcncv0o7ekl"
+     ]
+    },
+    {
+     "id": "TR-SC-02",
+     "pattern": "Given a similarity and scale factor or marked sides, find a matching side",
+     "sample": "$\\triangle PQR \\sim \\triangle STU$ with $PQ=2\\,ST$. If $QR=14$ cm, then $TU=$",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-SC-03",
+     "pattern": "Similarity with shuffled vertex order: correspondence must be read correctly",
+     "sample": "$\\triangle KLM \\sim \\triangle ZXY$, with $KL=4$, $LM=6$ and $ZX=6$ cm. Then $XY=$",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2023 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-SC-04",
+     "pattern": "Perimeter ratio and side ratio of similar triangles, either direction",
+     "sample": "$\\triangle ABC \\sim \\triangle DEF$, $AB=8$ cm, $DE=12$ cm, and the perimeter of $\\triangle DEF$ is $45$ cm. The perimeter of $\\triangle ABC$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 11,
+     "seenIn": [
+      "2020 main",
+      "2023 main",
+      "2024 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "a10"
+     ]
+    },
+    {
+     "id": "TR-SC-05",
+     "pattern": "Name the similarity criterion from given data",
+     "sample": "$KL=8$, $KM=12$, $\\angle K=70^\\circ$; $XY=6$, $XZ=9$, $\\angle X=70^\\circ$. The triangles $KLM$ and $XYZ$ are similar by",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2k500gv7gcnfywyh98o"
+     ]
+    },
+    {
+     "id": "TR-SC-06",
+     "pattern": "Complete the condition: which angle or side ratio is needed for SAS similarity",
+     "sample": "In $\\triangle ABC$ and $\\triangle PQR$, $\\frac{AB}{PQ}=\\frac{BC}{QR}$. Which further angle equality makes them similar?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2023 main",
+      "2025 compartment",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-SC-07",
+     "pattern": "Given a similarity, pick the false ratio or angle statement",
+     "sample": "If $\\triangle KLM \\sim \\triangle RST$, which of the following statements is false?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-SC-08",
+     "pattern": "Two angle pairs equal in unlike order: pick or write the correct side proportion",
+     "sample": "In $\\triangle KLM$ and $\\triangle XYZ$, $\\angle K=\\angle Y$ and $\\angle M=\\angle X$. Which proportion does not hold?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2025 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-SC-09",
+     "pattern": "Two equal angles and a side multiple: decide similar, congruent, or both",
+     "sample": "In $\\triangle PQR$ and $\\triangle XYZ$, $\\angle P=\\angle X$, $\\angle Q=\\angle Y$ and $PQ=2\\,XY$. Then the triangles are",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2k700gx7gcnxrz3jpvf"
+     ]
+    },
+    {
+     "id": "TR-SC-10",
+     "pattern": "Read marked sides and angles in a figure, apply SSS, find an angle",
+     "sample": "In the figure, $AB=2$, $BC=2\\sqrt{3}$, $CA=4$; $PQ=3$, $QR=3\\sqrt{3}$, $RP=6$, and $\\angle P=60^\\circ$, $\\angle Q=90^\\circ$. Then $\\angle C=$",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-SC-11",
+     "pattern": "Parallel lines with two crossing lines at O: find a segment",
+     "sample": "In the figure, $AB \\parallel PQ$, and $AQ$, $BP$ meet at $O$. $AB=4$, $PQ=10$, $OB=6$ cm. Then $OP=$",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2023 main",
+      "2025 compartment",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2k400gt7gcnjc45sbby"
+     ]
+    },
+    {
+     "id": "TR-SC-12",
+     "pattern": "Cross-chapter: two chords meeting inside a circle, choose the similarity statement",
+     "sample": "In the figure, chords $AB$ and $CD$ of a circle meet at $P$. Which similarity statement is correct?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-SC-13",
+     "pattern": "Equal-angle condition on a side: find a side from the product relation",
+     "sample": "In $\\triangle ABC$, $D$ is on $BC$ with $\\angle ADC=\\angle BAC$. If $BC=18$ cm and $CD=8$ cm, then $AC=$",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2ka00hb7gcnqgc856ik"
+     ]
+    },
+    {
+     "id": "TR-SC-14",
+     "pattern": "Ratio of matching medians or altitudes equals ratio of sides",
+     "sample": "$\\triangle ABC \\sim \\triangle PQR$, $AB=6$ cm, $PQ=9$ cm and median $AD=4$ cm. The median $PM$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "TR-SC-15",
+     "pattern": "Assertion on numeric side triples being similar, reason is SSS",
+     "sample": "A: Triangles with sides $4,6,8$ cm and $6,9,13$ cm are similar. R: Triangles with corresponding sides in the same ratio are similar.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97v00fh7gd0yguoa7dy"
+     ]
+    },
+    {
+     "id": "TR-SC-16",
+     "pattern": "Assertion on right triangles with an equal acute angle, reason is AA",
+     "sample": "A: Two right triangles with one equal acute angle are similar. R: Two triangles with two pairs of equal angles are similar.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "TR-SC-17",
+     "pattern": "Similar triangles in a figure: find one or more unknown sides",
+     "sample": "In the figure, $\\triangle AHK \\sim \\triangle ABC$, $AK=6$, $BC=14$, $HK=7$ cm. Find $AC$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 14,
+     "seenIn": [
+      "2020 main",
+      "2023 compartment",
+      "2023 main",
+      "2024 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-SC-18",
+     "pattern": "Prove similarity from a segment ratio or product with an included angle",
+     "sample": "$AC$ and $BD$ meet at $E$ with $EA \\times ED=EB \\times EC$. Prove that $\\triangle EAB \\sim \\triangle ECD$, and hence $\\angle A=\\angle C$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2024 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-SC-19",
+     "pattern": "SSS check on numeric sides, then find an angle",
+     "sample": "$AB=4$, $BC=6$, $CA=8$; $PQ=6$, $QR=9$, $RP=12$ cm, and $\\angle A=47^\\circ$. Show the triangles are similar and state $\\angle P$.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2kd00hn7gcnzqqzul8w"
+     ]
+    },
+    {
+     "id": "TR-SC-20",
+     "pattern": "Sides parallel in pairs: prove similarity, then find a side",
+     "sample": "In the figure, $AB \\parallel DE$, $AC \\parallel DF$, $E,B,C,F$ on a line, $BC=6$, $EB=CF=3$, $AB=4$ cm. Prove $\\triangle ABC \\sim \\triangle DEF$; find $DE$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-SC-21",
+     "pattern": "Shared angle with proportional sides in reversed order: prove similarity, find third side",
+     "sample": "$AB=15$, $AC=10$, $BC=12$ cm. $D$ on $AB$, $AD=4$ cm; $E$ on $AC$, $AE=6$ cm. Show that $\\triangle ADE \\sim \\triangle ACB$ and find $DE$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe98100fz7gd0smk1im59"
+     ]
+    },
+    {
+     "id": "TR-SC-22",
+     "pattern": "Two sides and the median proportional: prove the triangles similar",
+     "sample": "$AD$, $PM$ are medians of $\\triangle ABC$, $\\triangle PQR$; $AB=6$, $BC=8$, $AD=5$; $PQ=9$, $QR=12$, $PM=7.5$ cm. Prove that $\\triangle ABC \\sim \\triangle PQR$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 2
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2023 main",
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-SC-23",
+     "pattern": "Similar triangles with medians: prove the part triangles similar and find a median",
+     "sample": "$\\triangle KLM \\sim \\triangle XYZ$ with medians $MT$, $ZU$. Prove $\\triangle KTM \\sim \\triangle XUZ$. If $KL=12$, $XY=18$, $MT=8$ cm, find $ZU$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Proofs on similar triangles",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "TR-PR-01",
+     "pattern": "Equal-angle condition: prove a square-or-product relation between sides",
+     "sample": "$P$ on $BC$ of $\\triangle ABC$ with $\\angle APC=\\angle BAC$. Prove $AC^2=BC \\cdot CP$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2kc00hj7gcn6u48lxpo"
+     ]
+    },
+    {
+     "id": "TR-PR-02",
+     "pattern": "Isosceles triangle with perpendiculars and a produced base: prove two triangles similar",
+     "sample": "In $\\triangle PQR$, $PQ=PR$. $S$ lies on $RQ$ produced; $PT \\perp QR$ and $SU \\perp PR$. Prove that $\\triangle PQT \\sim \\triangle SRU$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2023 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-PR-03",
+     "pattern": "Parallelogram with an extended side: prove two triangles similar",
+     "sample": "In parallelogram $PQRS$, $T$ lies on $PS$; $QT$ produced meets $RS$ produced at $U$. Prove that $\\triangle PQT \\sim \\triangle SUT$.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2kd00hl7gcnmplx1gbk"
+     ]
+    },
+    {
+     "id": "TR-PR-04",
+     "pattern": "Diagonal bisects two angles of a quadrilateral: prove similarity and equal sides",
+     "sample": "Diagonal $PR$ of quadrilateral $PQRS$ bisects $\\angle P$ and $\\angle R$. Prove $\\triangle PQR \\sim \\triangle PSR$ and hence $PQ=PS$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-PR-05",
+     "pattern": "Half-triangles on medians similar: prove the whole triangles similar",
+     "sample": "$AD$, $PM$ are medians of $\\triangle ABC$, $\\triangle PQR$, with $\\triangle ABD \\sim \\triangle PQM$. Prove that $\\triangle ABC \\sim \\triangle PQR$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-PR-06",
+     "pattern": "Two lines from a side point parallel to the others: prove a square-product relation",
+     "sample": "$P$ on $BC$ of $\\triangle ABC$; $PQ \\parallel AB$, $Q$ on $AC$; $PR \\parallel AC$, $R$ on $AB$. $QR$ produced meets $CB$ produced at $S$. Prove $SP^2=SB \\cdot SC$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2018 compartment",
+      "2025 compartment",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-PR-07",
+     "pattern": "Isosceles figure with perpendiculars: prove similarity, then find a length",
+     "sample": "In $\\triangle PQR$, $PQ=PR=13$, $QR=10$ cm. $S$ on $RQ$ produced, $SR=26$ cm; $PT \\perp QR$, $SU \\perp PR$. Prove $\\triangle PQT \\sim \\triangle SRU$ and find $SU$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-PR-08",
+     "pattern": "Parallelogram or perpendicular-bisector figure: prove a ratio or multiple of segments",
+     "sample": "In parallelogram $ABCD$, $M$ on $CD$ with $CM:MD=1:2$. $BM$ meets $AC$ at $L$ and $AD$ produced at $E$. Prove that $EL=3\\,BL$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2023 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-PR-09",
+     "pattern": "Trapezium with a transversal crossing a diagonal: prove a product equality",
+     "sample": "In trapezium $ABCD$, $AB \\parallel DC$; $P$ on $AB$, $Q$ on $DC$; $PQ$ cuts $AC$ at $G$. Prove that $AG \\cdot GQ=CG \\cdot GP$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-PR-10",
+     "pattern": "Two altitudes of a triangle: prove similarity, then compute a segment",
+     "sample": "In acute $\\triangle PQR$, $QS \\perp PR$, $RT \\perp PQ$. Prove $\\triangle PSQ \\sim \\triangle PTR$. If $PQ=10$, $PR=16$, $PT=8$ cm, find $PS$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvqhe98000fv7gd0b5jowpev"
+     ]
+    },
+    {
+     "id": "TR-PR-11",
+     "pattern": "Two right triangles on one hypotenuse with crossing legs: prove a product relation",
+     "sample": "$\\triangle ABC$ and $\\triangle DBC$ are right-angled at $A$ and $D$, on the same side of $BC$. $AC$ and $BD$ meet at $P$. Prove $AP \\cdot PC=DP \\cdot PB$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2019 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-PR-12",
+     "pattern": "Prove that matching medians are in the ratio of the sides, then compute",
+     "sample": "$\\triangle ABC \\sim \\triangle PQR$ with medians $AD$, $PM$. Prove $\\frac{AB}{PQ}=\\frac{AD}{PM}$. If $AB=9$, $PQ=12$, $AD=6$ cm, find $PM$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "TR-PR-13",
+     "pattern": "Equal-angle condition: prove similarity and a product relation, then compute lengths",
+     "sample": "$D$, $E$ on $AB$, $AC$ with $\\angle ADE=\\angle ACB$. Prove $\\triangle ADE \\sim \\triangle ACB$. If $AD=6$, $AB=15$, $AC=18$, $BC=12$ cm, find $AE$ and $DE$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2kg00i37gcnbwoxx8ai"
+     ]
+    },
+    {
+     "id": "TR-PR-14",
+     "pattern": "Parallelogram with a line through a vertex and an extended side: prove a product or multiple",
+     "sample": "In parallelogram $ABCD$, $F$ on $BC$. $DF$ meets $AC$ at $G$ and $AB$ produced at $E$. Prove that $DG^2=GF \\cdot GE$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 2
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2kh00i57gcnzwfncpng"
+     ]
+    },
+    {
+     "id": "TR-PR-15",
+     "pattern": "Three perpendiculars to a line: prove the reciprocal relation",
+     "sample": "Poles $AB=x$ and $CD=z$ stand on level ground. $AD$ and $CB$ meet at $P$, and $PQ=y$ is perpendicular to the ground. Prove $\\frac{1}{x}+\\frac{1}{z}=\\frac{1}{y}$; find $y$ for $x=6$, $z=3$ m.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2023 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-PR-16",
+     "pattern": "Median with a reflected point: prove a parallelogram, a parallel line, and a similarity",
+     "sample": "$M$ is the midpoint of $QR$ in $\\triangle PQR$; $X$ on $PM$. $QX$, $RX$ meet $PR$, $PQ$ at $S$, $T$. Produce $XM$ to $Y$ with $XM=MY$. Prove $QXRY$ is a parallelogram and $ST \\parallel QR$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-PR-17",
+     "pattern": "Trapezium with bases in a ratio: prove diagonal triangles similar, then divide the diagonal",
+     "sample": "In trapezium $ABCD$, $AB \\parallel DC$ and $AB=3\\,DC$; diagonals meet at $O$. Prove $\\triangle AOB \\sim \\triangle COD$ and $OA=3\\,OC$. Find $OC$ if $AC=20$ cm.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2024 compartment"
+     ],
+     "existingIds": [
+      "cmvq9r2kg00i17gcn59i66ye2"
+     ]
+    },
+    {
+     "id": "TR-PR-18",
+     "pattern": "Cross-chapter: touching circles and a tangent, find a length by similarity",
+     "sample": "Equal circles, radius $6$ cm, centres $P$, $Q$, touch externally. $A$ on $PQ$ produced, $AQ=6$ cm. Tangent $AC$ touches the circle at $P$ in $C$; $QD \\perp AC$. Find $QD$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2016 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-NEW-02",
+     "pattern": "Similar triangles with matching angle bisectors drawn: prove the part triangles similar",
+     "sample": "$\\triangle ABC \\sim \\triangle PQR$ with $\\angle A = 70^\\circ$; $AD$ and $PS$ bisect $\\angle A$ and $\\angle P$. Prove $\\triangle ABD \\sim \\triangle PQS$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  },
+  {
+   "name": "Right-triangle altitude similarity",
+   "scope": "core",
+   "scopeNote": "New topic. Proved by AA only, not by the cut theorem; a 2025 main MCQ and a 2025 main 5-marker both test it.",
+   "patterns": [
+    {
+     "id": "TR-RT-01",
+     "pattern": "Altitude to the hypotenuse: find the altitude or a segment",
+     "sample": "In the figure, $\\angle B=90^\\circ$, $BD \\perp AC$, $AD=4$ cm and $DC=16$ cm. Then $BD=$",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvqhe97x00fl7gd0ku7urbl9",
+      "cmvq9r2k700gz7gcnkv2cjujo"
+     ]
+    },
+    {
+     "id": "TR-RT-02",
+     "pattern": "Altitude with AD squared equal to BD times DC: prove the angle is right",
+     "sample": "In $\\triangle ABC$, $AD \\perp BC$, with $D$ on $BC$, and $AD^2=BD \\cdot DC$. Prove that $\\angle BAC=90^\\circ$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97y00fp7gd0vhjvh5by"
+     ]
+    },
+    {
+     "id": "TR-RT-03",
+     "pattern": "Prove the altitude-on-hypotenuse relation, then compute it",
+     "sample": "In $\\triangle ABC$, $\\angle A=90^\\circ$, $AD \\perp BC$. Prove $AD^2=BD \\cdot DC$, and find $AD$ if $BD=4$ cm and $DC=9$ cm.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2019 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-RT-04",
+     "pattern": "Prove the altitude triangles similar, then find the altitude and both legs",
+     "sample": "In $\\triangle ABC$, $\\angle A=90^\\circ$, $AD \\perp BC$. Prove $\\triangle ADB \\sim \\triangle CDA$. If $BC=25$ cm and $CD=16$ cm, find $AD$, $AB$ and $AC$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2kf00hz7gcnxnmp23dc"
+     ]
+    },
+    {
+     "id": "TR-RT-05",
+     "pattern": "Reverse: altitude relation gives a right angle, with a numeric check",
+     "sample": "In $\\triangle ABC$, $AD \\perp BC$, $BD=3$, $AD=6$, $DC=12$ cm. Prove $\\triangle ADB \\sim \\triangle CDA$, deduce $\\angle BAC=90^\\circ$, and confirm using $AB$, $AC$, $BC$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2023 main",
+      "2024 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Similar figures and polygons",
+   "scope": "core",
+   "scopeNote": "New topic. 2025 main papers ask true/false statements about similar figures.",
+   "patterns": [
+    {
+     "id": "TR-SF-01",
+     "pattern": "Pick the true or false statement about similar and congruent figures",
+     "sample": "Which of the following pairs of figures need not be similar?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2020 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-SF-02",
+     "pattern": "Proportional sides alone do not make polygons similar",
+     "sample": "A square of side $3$ cm and a rhombus of side $6$ cm with an angle of $60^\\circ$ are",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "TR-SF-03",
+     "pattern": "Assertion on a family of figures being similar",
+     "sample": "A: Any two equilateral triangles are similar. R: Every angle of an equilateral triangle is $60^\\circ$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "TR-SF-04",
+     "pattern": "Justify with an example that equal ratios need equal angles too",
+     "sample": "A rectangle $4$ cm by $6$ cm and a parallelogram $6$ cm by $9$ cm with an angle of $60^\\circ$ have proportional sides. Are they similar? Justify.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Applications of similar triangles",
+   "scope": "core",
+   "scopeNote": "New topic. Shadows, lamp posts and case studies; 2024-2026 papers test these repeatedly.",
+   "patterns": [
+    {
+     "id": "TR-APP-01",
+     "pattern": "Pole and tower shadows at the same moment: find a height",
+     "sample": "A pole $6$ m high casts a shadow $4$ m long when a tower casts a shadow $30$ m long. The height of the tower is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2023 compartment",
+      "2024 main",
+      "2025 compartment"
+     ],
+     "existingIds": [
+      "cmvq9r2k900h77gcn39xxb0ug"
+     ]
+    },
+    {
+     "id": "TR-APP-02",
+     "pattern": "Person walking from a lamp post: shadow length after t seconds",
+     "sample": "A boy $1.5$ m tall walks at $1$ m/s away from a lamp post $6$ m high. Find the length of his shadow after $3$ s.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-APP-03",
+     "pattern": "Lamp post: height from a shadow, then a new position for a longer shadow",
+     "sample": "A boy $1.5$ m tall stands $4$ m from a lamp post; his shadow is $2$ m. Find the lamp height, and how far from the post his shadow is $3$ m.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe98200g17gd0y1kuv47z"
+     ]
+    },
+    {
+     "id": "TR-APP-04",
+     "pattern": "Walking shadow, long form: shadow after a time, and time for a given shadow",
+     "sample": "A girl $1.2$ m tall walks at $1.5$ m/s from a lamp post $4.8$ m high. Find her shadow after $4$ s, and when the shadow is $3$ m.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "TR-APP-05",
+     "pattern": "Case study: carom or billiards rebound using the law of reflection",
+     "sample": "A disc $20$ cm from a wall rebounds at $R$ to a pocket $30$ cm from it; their feet are $100$ cm apart. (i) Equal angles (ii) Similarity criterion (iii) Distance of $R$ from the disc foot.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-APP-06",
+     "pattern": "Case study: surveying a width across a canal or river",
+     "sample": "$PT$ is the canal width. $Q$ is $30$ m along the bank; $S$ is $10$ m further; $SU=6$ m is perpendicular, with $T,Q,U$ in line. (i) Criterion (ii) Scale factor (iii) Width.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe98400g97gd0pwsslqnc"
+     ]
+    },
+    {
+     "id": "TR-APP-07",
+     "pattern": "Case study: mast height from shadows, with a stay wire",
+     "sample": "A girl $1.6$ m tall has a $2$ m shadow when a mast has a $10$ m shadow. (i) Height ratio (ii) Mast height (iii) Wire from its top to a point $6$ m from its foot.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2kj00id7gcn4dhd9p9f"
+     ]
+    },
+    {
+     "id": "TR-APP-08",
+     "pattern": "Case study: similar fields or plots, scale factor, sides and perimeter",
+     "sample": "Two plots are similar; one has sides $6$, $8$, $10$ m and the other has longest side $25$ m. (i) Scale factor (ii) Shortest side (iii) Perimeter of the larger plot.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe98500gb7gd04o9of93j"
+     ]
+    },
+    {
+     "id": "TR-APP-09",
+     "pattern": "Case study: wires between two poles crossing, reciprocal height (set-up not obvious)",
+     "sample": "Wires join each top of poles $6$ m and $3$ m to the foot of the other. (i) Similar pair at the crossing (ii) Ratio along the ground (iii) Crossing height.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Areas of similar triangles",
+   "scope": "verify",
+   "scopeNote": "Believed cut. The only 2024-2026 trace is one internal-choice part in 2025 main asking for an area ratio, so only that pattern has a target. All other area rows are 2018-2019. A person must confirm.",
+   "patterns": [
+    {
+     "id": "TR-AR-01",
+     "pattern": "Area ratio from a side ratio or from segments on a parallel line",
+     "sample": "Two similar triangles have corresponding sides in the ratio $3:4$. The ratio of their areas is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 13,
+     "seenIn": [
+      "2018 main",
+      "2019 main",
+      "2020 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-AR-02",
+     "pattern": "Side or median of one triangle from both areas",
+     "sample": "Similar triangles have areas $25$ and $49$ cm$^2$. If a side of the smaller is $10$ cm, the matching side of the larger is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 11,
+     "seenIn": [
+      "2018 compartment",
+      "2019 main",
+      "2020 main"
+     ],
+     "existingIds": [
+      "cmvq9r2k800h37gcnqvcf4w6g"
+     ]
+    },
+    {
+     "id": "TR-AR-03",
+     "pattern": "Area of one triangle from both perimeters",
+     "sample": "Similar triangles have perimeters $18$ and $24$ cm. If the smaller has area $36$ cm$^2$, the larger has area",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97u00fd7gd06dsf2exf"
+     ]
+    },
+    {
+     "id": "TR-AR-04",
+     "pattern": "Area of the quadrilateral left below a line parallel to the base",
+     "sample": "In $\\triangle ABC$, $DE \\parallel BC$, $AD:DB=1:2$ and the area of $\\triangle ADE$ is $5$ cm$^2$. The area of $DBCE$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2k900h57gcnc4ay519j"
+     ]
+    },
+    {
+     "id": "TR-AR-05",
+     "pattern": "Side or perimeter of one similar triangle from the two areas",
+     "sample": "$\\triangle ABC \\sim \\triangle PQR$ with areas $32$ and $50$ cm$^2$. If $BC=8$ cm, find $QR$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2021 compartment"
+     ],
+     "existingIds": [
+      "cmvq9r2kd00hp7gcngvb32j4b",
+      "cmvqhe97y00fn7gd0eq2bfhdn"
+     ]
+    },
+    {
+     "id": "TR-AR-06",
+     "pattern": "Multi-step area ratio in a figure, or a proof by area ratio",
+     "sample": "Equilateral triangles are drawn on a side and on a diagonal of a square of side $4$ cm. Find the ratio of their areas.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2018 main",
+      "2020 main"
+     ],
+     "existingIds": [
+      "cmvqhe98200g37gd08jmthsh9",
+      "cmvqhe98300g57gd0pdd0qt9q"
+     ]
+    },
+    {
+     "id": "TR-AR-07",
+     "pattern": "Prove the areas-of-similar-triangles theorem",
+     "sample": "Prove that the ratio of the areas of two similar triangles equals the square of the ratio of their corresponding sides.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2018 compartment",
+      "2019 compartment",
+      "2019 main",
+      "2020 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ki00i97gcnzbbak8u9"
+     ]
+    },
+    {
+     "id": "TR-AR-08",
+     "pattern": "Similar triangles in a given ratio with altitudes: prove, find altitude and area ratio",
+     "sample": "$\\triangle ABC \\sim \\triangle PQR$ in the ratio $3:5$, with altitudes $AD$, $PS$. Prove $\\triangle ADC \\sim \\triangle PSR$. If $AD=6$ cm, find $PS$ and the area ratio.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Pythagoras theorem and its converse",
+   "scope": "verify",
+   "scopeNote": "Proofs believed cut, with no proof asked in 2024-2026. Using it as a tool does appear: a 2025 main ladder assertion and a 2025 main isosceles-area question. Tool use gets small targets, proofs and other uses get 0.",
+   "patterns": [
+    {
+     "id": "TR-PY-01",
+     "pattern": "Decide whether lengths form a right triangle, or find a hypotenuse",
+     "sample": "Which of the following can be the sides of a right-angled triangle: $(5,12,13)$, $(4,6,8)$, $(6,7,9)$, $(3,5,7)$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2019 main",
+      "2020 main",
+      "2021 compartment"
+     ],
+     "existingIds": [
+      "cmvq9r2ka00h97gcngvp24czc"
+     ]
+    },
+    {
+     "id": "TR-PY-02",
+     "pattern": "Rhombus side and perimeter from its diagonals",
+     "sample": "The diagonals of a rhombus are $12$ cm and $16$ cm. Its perimeter is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe97v00ff7gd0fmrrscbt"
+     ]
+    },
+    {
+     "id": "TR-PY-03",
+     "pattern": "Assertion on a right triangle or a ladder from given lengths",
+     "sample": "A: A triangle with sides $8$, $15$, $17$ cm is right-angled, opposite the $17$ cm side. R: A triangle whose longest side squared equals the sum of the other squares is right-angled.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2kb00hd7gcn5mao136o"
+     ]
+    },
+    {
+     "id": "TR-PY-04",
+     "pattern": "Ladder slips down a wall: how far the foot moves",
+     "sample": "A $10$ m ladder rests against a wall with its foot $6$ m away. Its top slips down $2$ m. How far does the foot move?",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2ke00hr7gcn9638n55j"
+     ]
+    },
+    {
+     "id": "TR-PY-05",
+     "pattern": "Prove a sum-of-squares relation in a figure",
+     "sample": "In $\\triangle ABC$, $\\angle C=90^\\circ$ and $D$ is the midpoint of $BC$. Prove that $AB^2=4AD^2-3AC^2$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2019 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ke00ht7gcnw2d78mry"
+     ]
+    },
+    {
+     "id": "TR-PY-06",
+     "pattern": "Altitude of a scalene triangle from three sides, area, and a second altitude",
+     "sample": "In $\\triangle ABC$, $AB=13$, $AC=15$, $BC=14$ cm, $AD \\perp BC$. Find $AD$, the area, and the perpendicular from $B$ to $AC$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe98300g77gd0rsiezqhe"
+     ]
+    },
+    {
+     "id": "TR-PY-07",
+     "pattern": "Prove the Pythagoras theorem",
+     "sample": "Prove that in a right triangle the square of the hypotenuse equals the sum of the squares of the other two sides.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2019 compartment",
+      "2019 main",
+      "2020 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-PY-08",
+     "pattern": "Prove the converse of the Pythagoras theorem",
+     "sample": "Prove that if the square of one side of a triangle equals the sum of the squares of the other two, the angle opposite is a right angle.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2019 compartment",
+      "2019 main",
+      "2020 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-PY-09",
+     "pattern": "Equilateral triangle with a point dividing the base: prove a squared-length relation",
+     "sample": "$ABC$ is equilateral, $D$ on $BC$ with $BD=\\frac{1}{3}BC$. Prove that $9AD^2=7AB^2$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2018 main",
+      "2020 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ki00ib7gcnyhzv8jgn"
+     ]
+    },
+    {
+     "id": "TR-PY-10",
+     "pattern": "Altitude in a triangle: derive one side squared in terms of the others",
+     "sample": "In $\\triangle ABC$, $\\angle B$ is acute and $AD \\perp BC$. Prove $AC^2=AB^2+BC^2-2BC \\cdot BD$. Find $AC$ for $AB=13$, $BC=14$, $BD=5$ cm.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2019 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-PY-11",
+     "pattern": "Isosceles triangle from perimeter and side fraction: find the area",
+     "sample": "An isosceles triangle has perimeter $32$ cm, and each equal side is $\\frac{5}{6}$ of the base. Find its area.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "TR-NEW-01",
+     "pattern": "Find a leg or altitude (not the hypotenuse) by Pythagoras, e.g. altitude of an equilateral triangle",
+     "sample": "The altitude of an equilateral triangle of side $8$ cm is $\\_\\_$ (answer: $4\\sqrt{3}$ cm)",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2020 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  }
+ ],
+ "outOfScope": [],
+ "fixes": [
+  {
+   "n": 1,
+   "issue": "Tagged medium, is a one-step recall that perimeter ratio equals side ratio",
+   "suggest": "easy",
+   "id": "a10"
+  },
+  {
+   "n": 13,
+   "issue": "Tagged easy, is the full 5-mark theorem proof; also a near duplicate of bank question 3",
+   "suggest": "medium; keep only one of 3 and 13",
+   "id": "cmvq9r2kf00hv7gcninc3h67h"
+  },
+  {
+   "n": 14,
+   "issue": "Tagged hard, is a standard one-diagonal, two-BPT proof",
+   "suggest": "medium",
+   "id": "cmvq9r2kf00hx7gcnqn4wyxaj"
+  },
+  {
+   "n": 28,
+   "issue": "Tagged easy, needs a similarity proof and then a ratio calculation",
+   "suggest": "medium",
+   "id": "cmvqhe98000fv7gd0b5jowpev"
+  },
+  {
+   "n": 46,
+   "issue": "Tagged easy, needs the whole-triangle area, a square root of the ratio and a part-to-part conversion",
+   "suggest": "medium",
+   "id": "cmvqhe98200g37gd08jmthsh9"
+  },
+  {
+   "n": 48,
+   "issue": "Topic label is Pythagoras; the question is a shadow proportion",
+   "suggest": "Applications of similar triangles",
+   "id": "cmvq9r2k900h77gcn39xxb0ug"
+  },
+  {
+   "n": 54,
+   "issue": "Topic label is Pythagoras; the core of this case study is a shadow similarity",
+   "suggest": "Applications of similar triangles",
+   "id": "cmvq9r2kj00id7gcn4dhd9p9f"
+  },
+  {
+   "n": 58,
+   "issue": "Topic label is Pythagoras; this case study is about similar fields",
+   "suggest": "Applications of similar triangles",
+   "id": "cmvqhe98500gb7gd04o9of93j"
+  }
+ ]
+}

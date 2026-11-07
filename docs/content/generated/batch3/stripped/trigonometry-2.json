@@ -1,0 +1,576 @@
+[
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "type": "short",
+  "marks": 3,
+  "text": "Prove that $\\frac{\\tan\\theta+\\sec\\theta-1}{\\tan\\theta-\\sec\\theta+1}=\\frac{1+\\sin\\theta}{\\cos\\theta}$.",
+  "idx": 0
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "type": "short",
+  "marks": 3,
+  "text": "Prove that $\\frac{\\cot A+\\operatorname{cosec}A-1}{\\cot A-\\operatorname{cosec}A+1}=\\frac{1+\\cos A}{\\sin A}$.",
+  "idx": 1
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "type": "short",
+  "marks": 3,
+  "text": "Prove that $\\frac{\\sin\\theta-\\cos\\theta+1}{\\sin\\theta+\\cos\\theta-1}+\\frac{\\sin\\theta+\\cos\\theta-1}{\\sin\\theta-\\cos\\theta+1}=2\\sec\\theta$.",
+  "idx": 2
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "type": "short",
+  "marks": 3,
+  "text": "Prove that $(1+\\cot\\theta-\\operatorname{cosec}\\theta)(1+\\tan\\theta+\\sec\\theta)=2$.",
+  "idx": 3
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "type": "short",
+  "marks": 3,
+  "text": "Prove that $\\frac{\\tan\\theta}{\\sec\\theta-1}+\\frac{\\tan\\theta}{\\sec\\theta+1}=2\\operatorname{cosec}\\theta$.",
+  "idx": 4
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "type": "short",
+  "marks": 3,
+  "text": "Prove that $\\frac{\\cos\\theta-\\cos^{3}\\theta}{\\sin\\theta-\\sin^{3}\\theta}=\\tan\\theta$.",
+  "idx": 5
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "type": "short",
+  "marks": 3,
+  "text": "If $x=a\\sec\\theta+b\\tan\\theta$ and $y=a\\tan\\theta+b\\sec\\theta$, prove that $x^{2}-y^{2}=a^{2}-b^{2}$.",
+  "idx": 6
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "type": "short",
+  "marks": 3,
+  "text": "If $\\operatorname{cosec}\\theta-\\sin\\theta=a^{3}$ and $\\sec\\theta-\\cos\\theta=b^{3}$, prove that $a^{2}b^{2}(a^{2}+b^{2})=1$.",
+  "idx": 7
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "type": "short",
+  "marks": 3,
+  "text": "If $x=1+2(\\cos\\theta+\\sin\\theta)$ and $y=2(\\cos\\theta-\\sin\\theta)-3$, prove that $(x-1)^{2}+(y+3)^{2}=8$.",
+  "idx": 8
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "type": "long",
+  "marks": 5,
+  "text": "Prove that $\\frac{\\tan\\theta}{1-\\cot\\theta}+\\frac{\\cot\\theta}{1-\\tan\\theta}=1+\\sec\\theta\\operatorname{cosec}\\theta$.",
+  "idx": 9
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Identities and proofs",
+  "type": "long",
+  "marks": 5,
+  "text": "If $\\sec\\theta-\\tan\\theta=x$, show that $\\sec\\theta=\\frac{1}{2}\\left(x+\\frac{1}{x}\\right)$ and $\\tan\\theta=\\frac{1}{2}\\left(\\frac{1}{x}-x\\right)$. Hence express $\\sin\\theta$ in terms of $x$, and find $\\sin\\theta$ when $x=\\frac{1}{\\sqrt{3}}$.",
+  "idx": 10
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A student stands on level ground $25\\text{ m}$ from the foot of a flagpole and sees its top at an angle of elevation of $45^\\circ$. The height of the flagpole is",
+  "options": [
+   "$25\\text{ m}$",
+   "$25\\sqrt{3}\\text{ m}$",
+   "$\\frac{25}{\\sqrt{3}}\\text{ m}$",
+   "$50\\text{ m}$"
+  ],
+  "idx": 11
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "mcq",
+  "marks": 1,
+  "text": "From a point on the ground $15\\sqrt{3}\\text{ m}$ away from the base of a building, the angle of elevation of the top of the building is $30^\\circ$. The height of the building is",
+  "options": [
+   "$45\\text{ m}$",
+   "$15\\text{ m}$",
+   "$15\\sqrt{3}\\text{ m}$",
+   "$30\\text{ m}$"
+  ],
+  "idx": 12
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A stay wire runs from the top of a vertical pole to a peg on level ground $7\\text{ m}$ from the foot of the pole. The wire makes an angle of $60^\\circ$ with the ground. The length of the wire is",
+  "options": [
+   "$7\\sqrt{3}\\text{ m}$",
+   "$\\frac{14}{\\sqrt{3}}\\text{ m}$",
+   "$14\\text{ m}$",
+   "$\\frac{7}{2}\\text{ m}$"
+  ],
+  "idx": 13
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A lamp post $4\\sqrt{3}\\text{ m}$ high casts a shadow $12\\text{ m}$ long on level ground. The angle of elevation of the Sun is",
+  "options": [
+   "$60^\\circ$",
+   "$45^\\circ$",
+   "$90^\\circ$",
+   "$30^\\circ$"
+  ],
+  "idx": 14
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A building $20\\sqrt{3}\\text{ m}$ tall stands on level ground when the Sun's altitude is $60^\\circ$. The length of its shadow is",
+  "options": [
+   "$20\\text{ m}$",
+   "$60\\text{ m}$",
+   "$20\\sqrt{3}\\text{ m}$",
+   "$10\\sqrt{3}\\text{ m}$"
+  ],
+  "idx": 15
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A girl whose eyes are $1.6\\text{ m}$ above the ground stands $20\\text{ m}$ from a vertical pole $21.6\\text{ m}$ high. The angle of elevation of the top of the pole from her eyes is",
+  "options": [
+   "$30^\\circ$",
+   "$45^\\circ$",
+   "$60^\\circ$",
+   "more than $45^\\circ$ but less than $60^\\circ$"
+  ],
+  "idx": 16
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "mcq",
+  "marks": 1,
+  "text": "A vertical tower $18\\text{ m}$ high stands on level ground. As the Sun's altitude rises from $30^\\circ$ to $60^\\circ$, the shadow of the tower becomes shorter by",
+  "options": [
+   "$18\\sqrt{3}\\text{ m}$",
+   "$6\\sqrt{3}\\text{ m}$",
+   "$24\\sqrt{3}\\text{ m}$",
+   "$12\\sqrt{3}\\text{ m}$"
+  ],
+  "idx": 17
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "assertion_reason",
+  "marks": 1,
+  "text": "Assertion (A): From the top of a $20\\text{ m}$ high building, the angle of depression of a car on level ground is $60^\\circ$. Then the car is $20\\sqrt{3}\\text{ m}$ from the foot of the building.\nReason (R): The angle of depression of the car from the top of the building is equal to the angle of elevation of the top of the building from the car.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "idx": 18
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "assertion_reason",
+  "marks": 1,
+  "text": "Assertion (A): A ladder whose foot is $7\\text{ m}$ from a vertical wall and whose top touches the wall $24\\text{ m}$ above the ground is $25\\text{ m}$ long.\nReason (R): This ladder makes an angle of $60^\\circ$ with the ground.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "idx": 19
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "short",
+  "marks": 2,
+  "text": "At a certain time of day, the shadow of a vertical pole on level ground is $\\frac{1}{\\sqrt{3}}$ times the height of the pole. Find the angle of elevation of the Sun at that time.",
+  "idx": 20
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "short",
+  "marks": 2,
+  "text": "A flagstaff $15\\text{ m}$ high stands on level ground. At a certain moment, the tangent of the Sun's angle of elevation is $\\frac{5}{4}$. Find the length of the shadow of the flagstaff.",
+  "idx": 21
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "short",
+  "marks": 3,
+  "text": "An observer on the upper deck of a boat, $12\\text{ m}$ above sea level, sees the top of a vertical cliff at an angle of elevation of $60^\\circ$ and the foot of the cliff (at sea level) at an angle of depression of $30^\\circ$. Find the height of the cliff and the horizontal distance of the boat from the cliff.",
+  "idx": 22
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "short",
+  "marks": 3,
+  "text": "Two aeroplanes are flying one vertically above the other. The higher one is at a height of $3000\\text{ m}$. From a point on the ground, the angles of elevation of the two aeroplanes are $60^\\circ$ and $45^\\circ$. Find the vertical distance between the aeroplanes. (Use $\\sqrt{3}=1.732$.)",
+  "idx": 23
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "short",
+  "marks": 3,
+  "text": "Two vertical poles of heights $6\\text{ m}$ and $18\\text{ m}$ stand on level ground. A taut wire joins their tops, and the angle of depression of the top of the shorter pole from the top of the taller pole is $30^\\circ$. Find the length of the wire and the distance between the poles. (Use $\\sqrt{3}=1.732$.)",
+  "idx": 24
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "short",
+  "marks": 3,
+  "text": "A building is $16\\text{ m}$ high. The angle of elevation of the top of a tower from the foot of the building is $60^\\circ$, and the angle of elevation of the top of the building from the foot of the tower is $30^\\circ$. Both stand on the same level ground. Find the height of the tower and the distance between them.",
+  "idx": 25
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "long",
+  "marks": 5,
+  "text": "From the top of a lighthouse, the angles of depression of two ships, one exactly behind the other on the same side of the lighthouse, are $60^\\circ$ and $30^\\circ$. If the ships are $200\\text{ m}$ apart, find the height of the lighthouse and the distance of the nearer ship from its foot. (Use $\\sqrt{3}=1.732$.)",
+  "idx": 26
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "long",
+  "marks": 5,
+  "text": "A river is $100\\text{ m}$ wide. From a point $P$ on a bridge directly above the river, the angles of depression of the two banks, on opposite sides of $P$, are $30^\\circ$ and $60^\\circ$. Find the height of $P$ above the water and the distance of each bank from the point on the water directly below $P$. (Use $\\sqrt{3}=1.732$.)",
+  "idx": 27
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "long",
+  "marks": 5,
+  "text": "Two lamp posts of equal height stand on opposite sides of a street $48\\text{ m}$ wide. From a point on the street between them, the angles of elevation of their tops are $60^\\circ$ and $30^\\circ$. Find the height of the lamp posts, the position of the point, and the distance from the point to the top of the nearer lamp post. (Use $\\sqrt{3}=1.732$.)",
+  "idx": 28
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "long",
+  "marks": 5,
+  "text": "From the top of a building, the angle of elevation of the top of a $60\\text{ m}$ high tower is $30^\\circ$ and the angle of depression of the foot of the tower is $60^\\circ$. The building and the tower stand on the same level ground. Find the height of the building, the distance between the building and the tower, and the straight-line distance from the top of the building to the top of the tower. (Use $\\sqrt{3}=1.732$.)",
+  "idx": 29
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "long",
+  "marks": 5,
+  "text": "From the top of a $60\\text{ m}$ high tower, a man sees a cyclist riding straight towards the foot of the tower at an angle of depression of $30^\\circ$. Ten seconds later the angle of depression is $45^\\circ$. Assuming the cyclist rides at a constant speed, find (i) the distance covered in those $10$ seconds, (ii) the cyclist's speed in $\\text{km/h}$, and (iii) how many more seconds the cyclist takes to reach the foot of the tower. (Use $\\sqrt{3}=1.732$.)",
+  "idx": 30
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "long",
+  "marks": 5,
+  "text": "A drone flies in a straight horizontal line at a constant height of $40\\sqrt{3}\\text{ m}$ above level ground. An observer on the ground sees it in front of her at an angle of elevation of $60^\\circ$. Eight seconds later, having passed over her head, the drone is seen behind her at an angle of elevation of $30^\\circ$. Find the speed of the drone in $\\text{m/s}$ and in $\\text{km/h}$.",
+  "idx": 31
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "long",
+  "marks": 5,
+  "text": "Two students $A$ and $B$ stand on level ground in a straight line with the point directly below a hovering drone, on the same side of it, with $B$ $40\\text{ m}$ farther away than $A$. The angles of elevation of the drone from $A$ and $B$ are $45^\\circ$ and $30^\\circ$. Find (i) the height of the drone, (ii) its line-of-sight distance from $A$, and (iii) the horizontal distance of $B$ from the point below the drone. (Use $\\sqrt{3}=1.732$, $\\sqrt{2}=1.414$.)",
+  "idx": 32
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "long",
+  "marks": 5,
+  "text": "Two towers stand on the same level ground. The shorter tower is $15\\text{ m}$ high. The angle of elevation of the top of the taller tower from the foot of the shorter one is $60^\\circ$, and the angle of elevation of the top of the shorter tower from the foot of the taller one is $30^\\circ$. Find the distance between the towers, the height of the taller tower, and the length of a wire stretched straight between their tops. (Use $\\sqrt{7}=2.646$.)",
+  "idx": 33
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "long",
+  "marks": 5,
+  "text": "A kite is flying $60\\text{ m}$ above level ground. A girl standing at point $A$ on the ground holds a taut string to the kite, making an angle of $60^\\circ$ with the ground. On the other side of the kite stands a building, whose foot is $60\\sqrt{3}\\text{ m}$ from $A$ along the ground. A boy on the roof of the building sees the kite at an angle of elevation of $30^\\circ$. The kite lies between $A$ and the building. Find (i) the length of the girl's string, (ii) the height of the building, and (iii) the distance of the kite from the boy. (Use $\\sqrt{3}=1.732$.)",
+  "idx": 34
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "long",
+  "marks": 5,
+  "text": "The shadow of a vertical tower on level ground is $20\\text{ m}$ longer when the Sun's altitude is $30^\\circ$ than when it is $45^\\circ$. Find the height of the tower and the length of its shadow when the altitude is $45^\\circ$. (Use $\\sqrt{3}=1.732$.)",
+  "idx": 35
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "long",
+  "marks": 5,
+  "text": "A spherical balloon of radius $r$ subtends an angle of $60^\\circ$ at the eye of an observer, and the angle of elevation of its centre from the eye is $60^\\circ$. Prove that the height of the centre of the balloon above the eye is $\\sqrt{3}\\,r$, and find the horizontal distance of the centre from the observer in terms of $r$.",
+  "idx": 36
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "long",
+  "marks": 5,
+  "text": "A ladder leans against a vertical wall and makes an angle of $60^\\circ$ with the level ground. Its foot is then pulled $4\\text{ m}$ further away from the wall, and the ladder now makes an angle of $30^\\circ$ with the ground, its top still resting on the wall. Find the length of the ladder, how far its top slides down the wall, and the height it now reaches. (Use $\\sqrt{3}=1.732$.)",
+  "idx": 37
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "case",
+  "marks": 4,
+  "text": "A radio tower $BQ$ is built in two sections: a lower section $BP$ and an upper section $PQ$, standing vertically on level ground. Two support wires are fixed at a ground point $O$, which is $30\\sqrt{3}\\text{ m}$ from the base $B$. One wire goes to $P$, the top of the lower section, and the other to $Q$, the top of the tower. From $O$, the angle of elevation of $P$ is $30^\\circ$ and that of $Q$ is $60^\\circ$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 340\"><line x1=\"20\" y1=\"300\" x2=\"390\" y2=\"300\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"340\" y1=\"300\" x2=\"340\" y2=\"12\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"173.7\" y1=\"300\" x2=\"340\" y2=\"204\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"173.7\" y1=\"300\" x2=\"340\" y2=\"12\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"340\" cy=\"204\" r=\"2.5\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"#000\"/><polyline points=\"330,300 330,290 340,290\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 218.7 300 A 45 45 0 0 0 212.7 277.5\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 203.7 300 A 30 30 0 0 0 188.7 274\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"231.7\" y=\"290\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">30°</text><text x=\"199.7\" y=\"266\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">60°</text><text x=\"173.7\" y=\"320\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">O</text><text x=\"340\" y=\"320\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"354\" y=\"209\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><text x=\"354\" y=\"17\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text><text x=\"256.9\" y=\"334\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">30√3 m</text></svg>",
+  "figureAlt": "A vertical tower BQ on level ground with a marked point P part way up. From ground point O, 30√3 m from the base B, two wires go to P and to Q, making angles of 30° and 60° with the ground.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Find the height of the lower section $BP$."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "Find the length of the wire $OP$."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the height of the upper section $PQ$."
+   }
+  ],
+  "idx": 38
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "case",
+  "marks": 4,
+  "text": "A window cleaner places the foot $F$ of a ladder on level ground in a narrow lane between two buildings $A$ and $B$. With the foot fixed, she first leans the ladder against building $A$; its top reaches a window $P$, $9\\text{ m}$ above the ground, and the ladder makes an angle of $60^\\circ$ with the ground. Without moving the foot, she then turns the ladder to rest against building $B$, where it makes an angle of $30^\\circ$ with the ground and its top touches $B$ at $Q$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 290\"><line x1=\"20\" y1=\"260\" x2=\"380\" y2=\"260\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"260\" x2=\"60\" y2=\"40\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"315.5\" y1=\"260\" x2=\"315.5\" y2=\"90\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"153.5\" y1=\"260\" x2=\"60\" y2=\"98\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"153.5\" y1=\"260\" x2=\"315.5\" y2=\"166.5\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><polyline points=\"70,260 70,250 60,250\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><polyline points=\"305.5,260 305.5,250 315.5,250\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 139.5 235.8 A 28 28 0 0 0 125.5 260\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 187.5 260 A 34 34 0 0 0 183 243\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"109.5\" y=\"244\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">60°</text><text x=\"203.5\" y=\"254\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">30°</text><text x=\"153.5\" y=\"280\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">F</text><text x=\"48\" y=\"103\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><text x=\"327.5\" y=\"171.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">Q</text><text x=\"60\" y=\"280\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"315.5\" y=\"280\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"54\" y=\"179\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">9 m</text><text x=\"66\" y=\"52\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">Building A</text><text x=\"321.5\" y=\"102\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">Building B</text></svg>",
+  "figureAlt": "Two vertical building walls A and B on level ground with the ladder's foot F between them. A solid line from F reaches point P, 9 m up wall A, at 60° to the ground; a dashed line from F reaches point Q on wall B at 30° to the ground.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Find the length of the ladder."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "How high up building $B$ is the point $Q$?"
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the width of the lane, that is, the distance between the two buildings."
+   }
+  ],
+  "idx": 39
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "case",
+  "marks": 4,
+  "text": "A security guard stands at the top $T$ of a $45\\text{ m}$ high watch tower $FT$ beside a straight, level road leading to its foot $F$. He spots a car at $A$ coming towards the tower at an angle of depression of $30^\\circ$. Exactly $6$ seconds later the car is at $B$, and the angle of depression is $60^\\circ$. The car moves at a constant speed. (Take $\\sqrt{3}=1.732$.)",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 310\"><line x1=\"10\" y1=\"280\" x2=\"395\" y2=\"280\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"280\" x2=\"40\" y2=\"100\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"100\" x2=\"395\" y2=\"100\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><line x1=\"40\" y1=\"100\" x2=\"351.8\" y2=\"280\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"100\" x2=\"143.9\" y2=\"280\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"50,280 50,270 40,270\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><circle cx=\"351.8\" cy=\"280\" r=\"2.5\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"#000\"/><circle cx=\"143.9\" cy=\"280\" r=\"2.5\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"#000\"/><path d=\"M 100.6 135 A 70 70 0 0 0 110 100\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 60 134.6 A 40 40 0 0 0 80 100\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"116\" y=\"116\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">30°</text><text x=\"71\" y=\"150\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">60°</text><text x=\"28\" y=\"105\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">T</text><text x=\"40\" y=\"300\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">F</text><text x=\"351.8\" y=\"300\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"143.9\" y=\"300\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"38\" y=\"190\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">45 m</text></svg>",
+  "figureAlt": "A vertical tower FT, 45 m high, on level ground with a dashed horizontal line from its top T. Lines from T go down to two points on the road, A farther away at a 30° angle of depression and B nearer at 60°.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "How far was the car from the foot of the tower when first seen?"
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "Find the distance $AB$ covered in the $6$ seconds."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the speed of the car and the further time it takes to reach the foot of the tower."
+   }
+  ],
+  "idx": 40
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "case",
+  "marks": 4,
+  "text": "A lighthouse $FL$ of height $h$ m stands on level ground near the sea. A visitor at a point $G$ on the ground, at a horizontal distance $x$ m from its foot $F$, sees its top $L$ at an angle of elevation of $60^\\circ$. She then climbs a viewing deck $D$ directly above $G$, $30\\text{ m}$ above the ground, and from there sees $L$ at an angle of elevation of $45^\\circ$. (Take $\\sqrt{3}=1.732$.)",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 345\"><line x1=\"20\" y1=\"300\" x2=\"300\" y2=\"300\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"300\" x2=\"70\" y2=\"195\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"213.4\" y1=\"300\" x2=\"213.4\" y2=\"51.6\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"300\" x2=\"213.4\" y2=\"51.6\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"195\" x2=\"213.4\" y2=\"51.6\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"195\" x2=\"213.4\" y2=\"195\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><polyline points=\"203.4,300 203.4,290 213.4,290\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><circle cx=\"70\" cy=\"195\" r=\"2.5\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"#000\"/><path d=\"M 100 300 A 30 30 0 0 0 85 274\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 104 195 A 34 34 0 0 0 94 171\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"100\" y=\"292\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">60°</text><text x=\"108\" y=\"189\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">45°</text><text x=\"70\" y=\"320\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">G</text><text x=\"58\" y=\"200\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">D</text><text x=\"213.4\" y=\"320\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">F</text><text x=\"225.4\" y=\"56.6\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">L</text><text x=\"66\" y=\"252.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">30 m</text><text x=\"141.7\" y=\"334\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">x</text><text x=\"221.4\" y=\"175.8\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">h</text></svg>",
+  "figureAlt": "A vertical lighthouse FL of height h. A ground point G is x m from F, and a deck D is 30 m directly above G. Lines go from G to L at 60° and from D to L at 45° above a dashed horizontal.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Express $x$ in terms of $h$ using the observation from $G$."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "Express $x$ in terms of $h$ using the observation from $D$."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the height of the lighthouse and the distance $x$."
+   }
+  ],
+  "idx": 41
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "case",
+  "marks": 4,
+  "text": "A tall water tank $FT$ stands on level ground at a horizontal distance of $10\\sqrt{3}\\text{ m}$ from a residential building. From a window $W$ of the building, the angle of elevation of the top $T$ of the tank is $60^\\circ$ and the angle of depression of its foot $F$ is $30^\\circ$. The point $G$ is the foot of the building directly below $W$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 340\"><line x1=\"20\" y1=\"290\" x2=\"290\" y2=\"290\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"90\" y1=\"290\" x2=\"90\" y2=\"150\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"193.9\" y1=\"290\" x2=\"193.9\" y2=\"50\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"90\" y1=\"230\" x2=\"193.9\" y2=\"230\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><line x1=\"90\" y1=\"230\" x2=\"193.9\" y2=\"50\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"90\" y1=\"230\" x2=\"193.9\" y2=\"290\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"183.9,290 183.9,280 193.9,280\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><polyline points=\"100,290 100,280 90,280\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><circle cx=\"90\" cy=\"230\" r=\"2.5\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"#000\"/><path d=\"M 124 230 A 34 34 0 0 0 107 200.6\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 133.3 255 A 50 50 0 0 0 140 230\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"112\" y=\"200\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">60°</text><text x=\"144\" y=\"250\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">30°</text><text x=\"78\" y=\"235\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">W</text><text x=\"90\" y=\"310\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">G</text><text x=\"193.9\" y=\"310\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">F</text><text x=\"205.9\" y=\"55\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">T</text><text x=\"142\" y=\"326\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">10√3 m</text><text x=\"70\" y=\"165\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">Building</text></svg>",
+  "figureAlt": "A building with a window W above its foot G, and a water tank FT 10√3 m away. From W, a dashed horizontal goes to the tank; a line rises to T at 60° and a line falls to F at 30°.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Find the height $GW$ of the window above the ground."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "How high is the top of the tank above the level of the window?"
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the height of the tank and the straight-line distance $WT$ from the window to the top of the tank."
+   }
+  ],
+  "idx": 42
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "case",
+  "marks": 4,
+  "text": "At an airport, passengers board a small aircraft using a straight mobile staircase $SD$ that is $7\\text{ m}$ long. Its foot $S$ rests on the level apron and its top $D$ touches the door sill, which is $3.5\\text{ m}$ above the ground. $E$ is the point on the ground directly below the door. Airport rules say a boarding staircase must not make an angle of more than $60^\\circ$ with the ground.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 260\"><line x1=\"20\" y1=\"230\" x2=\"370\" y2=\"230\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"230\" x2=\"231.9\" y2=\"125\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"231.9\" y1=\"230\" x2=\"231.9\" y2=\"125\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><line x1=\"231.9\" y1=\"125\" x2=\"271.9\" y2=\"125\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"271.9\" y1=\"125\" x2=\"271.9\" y2=\"55\" stroke=\"#000\" stroke-width=\"1.5\"/><polyline points=\"221.9,230 221.9,220 231.9,220\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><circle cx=\"231.9\" cy=\"125\" r=\"2.5\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"#000\"/><path d=\"M 90 230 A 40 40 0 0 0 84.6 210\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"96\" y=\"222\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">θ</text><text x=\"50\" y=\"250\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">S</text><text x=\"231.9\" y=\"250\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">E</text><text x=\"223.9\" y=\"117\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">D</text><text x=\"130.9\" y=\"167.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"end\">7 m</text><text x=\"239.9\" y=\"182.5\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">3.5 m</text><text x=\"279.9\" y=\"95\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">Aircraft</text></svg>",
+  "figureAlt": "A right triangle: a 7 m staircase SD rises from S on the ground to the aircraft door D, which is 3.5 m above point E on the ground. The angle at S is marked θ.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Find the angle $\\theta$ that the staircase makes with the ground."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "How far is the foot $S$ from the point $E$ below the door?"
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "A larger aircraft has its door sill $6\\text{ m}$ above the ground. Find the length of the shortest staircase allowed by the airport rule, and how far its foot will be from the point below the door."
+   }
+  ],
+  "idx": 43
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "case",
+  "marks": 4,
+  "text": "The top $T$ of a pavilion standing in a calm lake is $24\\text{ m}$ above the water surface. A tourist on a lakeside platform at $P$, some height above the water, sees $T$ at an angle of elevation of $30^\\circ$ and the reflection $T'$ of the top in the water at an angle of depression of $60^\\circ$. $A$ is the point on the water surface directly below $P$, and $B$ is the point on the surface directly below $T$.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 340\"><line x1=\"10\" y1=\"170\" x2=\"290\" y2=\"170\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"170\" x2=\"70\" y2=\"98\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"194.7\" y1=\"170\" x2=\"194.7\" y2=\"26\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"194.7\" y1=\"170\" x2=\"194.7\" y2=\"314\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><line x1=\"70\" y1=\"98\" x2=\"194.7\" y2=\"98\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><line x1=\"70\" y1=\"98\" x2=\"194.7\" y2=\"26\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"98\" x2=\"194.7\" y2=\"314\" stroke=\"#000\" stroke-width=\"1.5\"/><circle cx=\"70\" cy=\"98\" r=\"2.5\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"#000\"/><circle cx=\"194.7\" cy=\"314\" r=\"2.5\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"#000\"/><path d=\"M 106 98 A 36 36 0 0 0 101.2 80\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 83 120.5 A 26 26 0 0 0 96 98\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"110\" y=\"92\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">30°</text><text x=\"90\" y=\"132\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">60°</text><text x=\"58\" y=\"103\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">P</text><text x=\"58\" y=\"186\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"206.7\" y=\"186\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"206.7\" y=\"31\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">T</text><text x=\"208.7\" y=\"319\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">T′</text><text x=\"202.7\" y=\"56\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">24 m</text><text x=\"250\" y=\"164\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">water</text></svg>",
+  "figureAlt": "A horizontal water line. Point P is above the surface at A; the pavilion top T is 24 m above the surface at B and its reflection T′ is the same distance below. From P, a line rises to T at 30° and a line falls to T′ at 60° from a dashed horizontal.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "How far below the water surface does the reflection $T'$ appear to be?"
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "Taking the height of $P$ above the water as $h$ m and the horizontal distance $AB$ as $x$ m, write two equations linking $h$ and $x$."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the height of $P$ above the water and the horizontal distance of the pavilion from the platform."
+   }
+  ],
+  "idx": 44
+ },
+ {
+  "chapter": "Trigonometry",
+  "topic": "Heights and distances",
+  "type": "case",
+  "marks": 4,
+  "text": "A statue $PS$ stands on top of a pedestal $FP$ that is $6\\text{ m}$ high, on level ground. From a point $A$ on the ground, the angle of elevation of the top of the pedestal $P$ is $30^\\circ$ and that of the top of the statue $S$ is $60^\\circ$. A student then walks straight back, away from the pedestal, to a point $B$ from which the angle of elevation of $S$ is $45^\\circ$. (Take $\\sqrt{3}=1.732$.)",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 290\"><line x1=\"20\" y1=\"260\" x2=\"395\" y2=\"260\" stroke=\"#000\" stroke-width=\"1.5\"/><rect x=\"332\" y=\"188\" width=\"16\" height=\"72\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"#ddd\"/><line x1=\"340\" y1=\"188\" x2=\"340\" y2=\"44\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"215.3\" y1=\"260\" x2=\"340\" y2=\"188\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"215.3\" y1=\"260\" x2=\"340\" y2=\"44\" stroke=\"#000\" stroke-width=\"1.5\"/><line x1=\"124\" y1=\"260\" x2=\"340\" y2=\"44\" stroke=\"#000\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><circle cx=\"340\" cy=\"188\" r=\"2.5\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"#000\"/><circle cx=\"340\" cy=\"44\" r=\"2.5\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"#000\"/><path d=\"M 259.3 260 A 44 44 0 0 0 253.4 238\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 239.3 260 A 24 24 0 0 0 227.3 239.2\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M 156 260 A 32 32 0 0 0 146.6 237.4\" stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"265.3\" y=\"254\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">30°</text><text x=\"233.3\" y=\"232\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">60°</text><text x=\"160\" y=\"248\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">45°</text><text x=\"215.3\" y=\"280\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"124\" y=\"280\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"340\" y=\"280\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"middle\">F</text><text x=\"354\" y=\"193\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">P</text><text x=\"350\" y=\"49\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">S</text><text x=\"354\" y=\"229\" font-family=\"sans-serif\" font-size=\"14\" text-anchor=\"start\">6 m</text></svg>",
+  "figureAlt": "A shaded pedestal FP, 6 m high, with a statue PS on top. From ground point A, lines go to P at 30° and to S at 60°. From point B farther back, a dashed line goes to S at 45°.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Find the distance of $A$ from the foot $F$ of the pedestal."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "Find the height of the statue $PS$."
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find how far the student walked from $A$ to $B$, and the value of $\\tan\\beta$, where $\\beta$ is the angle of elevation of the top of the pedestal $P$ from $B$."
+   }
+  ],
+  "idx": 45
+ }
+]

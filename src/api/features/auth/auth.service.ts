@@ -41,6 +41,9 @@ export function toPublicUser(user: {
   role: string; level: string; tenantId: string | null;
   isVerified: boolean; isActive: boolean; lastLogin: Date | null;
   createdAt: Date; updatedAt: Date;
+  /** teacher | parent — which Quick Correction screens this account lands on. */
+  appRole?: string | null;
+  appStatus?: string | null;
 }) {
   return {
     id: user.id,
@@ -55,6 +58,8 @@ export function toPublicUser(user: {
     lastLogin: user.lastLogin,
     createdAt: user.createdAt,
     updatedAt: user.updatedAt,
+    appRole: user.appRole ?? null,
+    appStatus: user.appStatus ?? 'active',
   };
 }
 
@@ -104,6 +109,10 @@ export const authService = {
           // through the admin console, which checks the caller's own role.
           role: 'user',
           level: 'basic',
+          // The one thing sign-up may choose: parent or teacher. Anything else
+          // is ignored, and a teacher is held for admin approval.
+          appRole: data.appRole === 'teacher' ? 'teacher' : data.appRole === 'parent' ? 'parent' : null,
+          appStatus: data.appRole === 'teacher' ? 'pending' : 'active',
           isVerified: false,
           isActive: true
         },
@@ -117,6 +126,8 @@ export const authService = {
           tenantId: true,
           isVerified: true,
           isActive: true,
+          appRole: true,
+          appStatus: true,
           createdAt: true,
           updatedAt: true
         }

@@ -1,0 +1,587 @@
+[
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "The area of a sector of a circle of radius $28\\text{ cm}$ and central angle $45^\\circ$ is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$616\\text{ cm}^{2}$",
+      "$154\\text{ cm}^{2}$",
+      "$308\\text{ cm}^{2}$",
+      "$77\\text{ cm}^{2}$"
+    ],
+    "answer": "Correct option: C) $308\\text{ cm}^{2}$ Area $= \\frac{45}{360} \\times \\frac{22}{7} \\times 28 \\times 28 = 308\\text{ cm}^{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "A sector of a circle of radius $6\\text{ cm}$ has an arc of length $11\\text{ cm}$. The area of the sector is",
+    "options": [
+      "$66\\text{ cm}^{2}$",
+      "$33\\text{ cm}^{2}$",
+      "$16.5\\text{ cm}^{2}$",
+      "$11\\text{ cm}^{2}$"
+    ],
+    "answer": "Correct option: B) $33\\text{ cm}^{2}$ Area of sector $= \\frac{1}{2} \\times l \\times r = \\frac{1}{2} \\times 11 \\times 6 = 33\\text{ cm}^{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The perimeter of a sector of a circle of radius $10.5\\text{ cm}$ and central angle $60^\\circ$ is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$11\\text{ cm}$",
+      "$43\\text{ cm}$",
+      "$32\\text{ cm}$",
+      "$53.5\\text{ cm}$"
+    ],
+    "answer": "Correct option: C) $32\\text{ cm}$ Arc $= \\frac{60}{360} \\times 2 \\times \\frac{22}{7} \\times 10.5 = 11\\text{ cm}$, so perimeter $= 2r + \\text{arc} = 21 + 11 = 32\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": true,
+    "text": "Assertion (A): If the radius of a circle is doubled and the central angle of a sector is kept the same, the area of the sector also becomes double.\nReason (R): The area of a sector of central angle $\\theta$ is $\\frac{\\theta}{360} \\times \\pi r^{2}$.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: D) A is false but R is true. Area is proportional to $r^{2}$, so doubling $r$ makes the area four times, not double; hence A is false. R is the correct formula.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A sector of a circle of radius $9\\text{ cm}$ has area $13.5\\pi\\text{ cm}^{2}$. Its central angle is",
+    "options": [
+      "$30^\\circ$",
+      "$45^\\circ$",
+      "$60^\\circ$",
+      "$90^\\circ$"
+    ],
+    "answer": "Correct option: C) $60^\\circ$ $\\frac{\\theta}{360} \\times \\pi \\times 81 = 13.5\\pi \\Rightarrow \\theta = \\frac{13.5 \\times 360}{81} = 60^\\circ$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Combination figures (shaded regions)",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "Two concentric circles have radii $10\\text{ cm}$ and $8\\text{ cm}$. The area of the ring between them is (use $\\pi = 3.14$)",
+    "options": [
+      "$12.56\\text{ cm}^{2}$",
+      "$514.96\\text{ cm}^{2}$",
+      "$226.08\\text{ cm}^{2}$",
+      "$113.04\\text{ cm}^{2}$"
+    ],
+    "answer": "Correct option: D) $113.04\\text{ cm}^{2}$ Area $= \\pi(10^{2} - 8^{2}) = 3.14 \\times 36 = 113.04\\text{ cm}^{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Combination figures (shaded regions)",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "From a rectangular sheet $21\\text{ cm}$ by $14\\text{ cm}$, a semicircle whose diameter is one of the $14\\text{ cm}$ sides is cut out. The area of the remaining sheet is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$371\\text{ cm}^{2}$",
+      "$217\\text{ cm}^{2}$",
+      "$140\\text{ cm}^{2}$",
+      "$77\\text{ cm}^{2}$"
+    ],
+    "answer": "Correct option: B) $217\\text{ cm}^{2}$ Semicircle of radius $7\\text{ cm}$ has area $\\frac{1}{2} \\times \\frac{22}{7} \\times 49 = 77\\text{ cm}^{2}$; remaining $= 294 - 77 = 217\\text{ cm}^{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Combination figures (shaded regions)",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A circle is inscribed in a square of side $12\\text{ cm}$ (it touches all four sides). The area of the part of the square lying outside the circle is (use $\\pi = 3.14$)",
+    "options": [
+      "$113.04\\text{ cm}^{2}$",
+      "$144\\text{ cm}^{2}$",
+      "$30.96\\text{ cm}^{2}$",
+      "$61.92\\text{ cm}^{2}$"
+    ],
+    "answer": "Correct option: C) $30.96\\text{ cm}^{2}$ The radius is $6\\text{ cm}$, so area outside $= 144 - 3.14 \\times 36 = 144 - 113.04 = 30.96\\text{ cm}^{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Segment area",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "A chord of a circle of radius $r$ subtends a right angle at the centre. The area of the minor segment is",
+    "options": [
+      "$\\frac{\\pi r^{2}}{4}$",
+      "$\\frac{r^{2}}{2}$",
+      "$\\frac{\\pi r^{2}}{4} + \\frac{r^{2}}{2}$",
+      "$\\frac{r^{2}}{4}(\\pi - 2)$"
+    ],
+    "answer": "Correct option: D) $\\frac{r^{2}}{4}(\\pi - 2)$ Segment $=$ sector $-$ triangle $= \\frac{\\pi r^{2}}{4} - \\frac{r^{2}}{2} = \\frac{r^{2}}{4}(\\pi - 2)$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Segment area",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A chord of a circle of radius $6\\text{ cm}$ subtends an angle of $60^\\circ$ at the centre. The area of the minor segment is (use $\\pi = 3.14$ and $\\sqrt{3} = 1.73$)",
+    "options": [
+      "$18.84\\text{ cm}^{2}$",
+      "$3.27\\text{ cm}^{2}$",
+      "$15.57\\text{ cm}^{2}$",
+      "$34.41\\text{ cm}^{2}$"
+    ],
+    "answer": "Correct option: B) $3.27\\text{ cm}^{2}$ Triangle $OAB$ is equilateral: area $= \\frac{\\sqrt{3}}{4} \\times 36 = 15.57$; sector $= \\frac{1}{6} \\times 3.14 \\times 36 = 18.84$; segment $= 18.84 - 15.57 = 3.27\\text{ cm}^{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Segment area",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "The area of a circle of radius $7\\text{ cm}$ is $154\\text{ cm}^{2}$ (using $\\pi = \\frac{22}{7}$). A chord divides it into two segments and the minor segment has area $14\\text{ cm}^{2}$. The area of the major segment is",
+    "options": [
+      "$168\\text{ cm}^{2}$",
+      "$154\\text{ cm}^{2}$",
+      "$140\\text{ cm}^{2}$",
+      "$14\\text{ cm}^{2}$"
+    ],
+    "answer": "Correct option: C) $140\\text{ cm}^{2}$ Major segment $=$ circle $-$ minor segment $= 154 - 14 = 140\\text{ cm}^{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Arc length",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "The length of the arc of a circle of radius $15\\text{ cm}$ that subtends an angle of $72^\\circ$ at the centre is (use $\\pi = 3.14$)",
+    "options": [
+      "$9.42\\text{ cm}$",
+      "$18.84\\text{ cm}$",
+      "$37.68\\text{ cm}$",
+      "$94.2\\text{ cm}$"
+    ],
+    "answer": "Correct option: B) $18.84\\text{ cm}$ Arc $= \\frac{72}{360} \\times 2 \\times 3.14 \\times 15 = 18.84\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Arc length",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": false,
+    "text": "An arc of length $33\\text{ cm}$ is cut from a circle of radius $42\\text{ cm}$. The angle it subtends at the centre is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$30^\\circ$",
+      "$60^\\circ$",
+      "$90^\\circ$",
+      "$45^\\circ$"
+    ],
+    "answer": "Correct option: D) $45^\\circ$ Circumference $= 2 \\times \\frac{22}{7} \\times 42 = 264\\text{ cm}$, so $\\theta = \\frac{33}{264} \\times 360^\\circ = 45^\\circ$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Arc length",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "medium",
+    "competency": true,
+    "text": "Assertion (A): Two arcs of the same circle subtending angles $40^\\circ$ and $120^\\circ$ at the centre have lengths in the ratio $1 : 3$.\nReason (R): The length of an arc of a circle is directly proportional to the angle it subtends at the centre.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: A) Both A and R are true and R is the correct explanation of A. Arc length $\\propto \\theta$ for a fixed radius, so the ratio is $40 : 120 = 1 : 3$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Wheel, clock, garden and wiper contexts",
+    "slot": "A-mcq-or-assertion-reason (1 mark)",
+    "type": "mcq",
+    "marks": 1,
+    "complexity": "easy",
+    "competency": false,
+    "text": "The second hand of a clock is $7\\text{ cm}$ long. The distance moved by its tip in $30$ seconds is (use $\\pi = \\frac{22}{7}$)",
+    "options": [
+      "$44\\text{ cm}$",
+      "$22\\text{ cm}$",
+      "$11\\text{ cm}$",
+      "$77\\text{ cm}$"
+    ],
+    "answer": "Correct option: B) $22\\text{ cm}$ In $30$ seconds it turns through $180^\\circ$, so distance $= \\frac{1}{2} \\times 2 \\times \\frac{22}{7} \\times 7 = 22\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The arc of a sector subtends an angle of $72^\\circ$ at the centre and is $44\\text{ cm}$ long. Find the radius and the area of the sector. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "Arc $= \\frac{72}{360} \\times 2\\pi r = 44 \\Rightarrow \\frac{2}{5} \\times \\frac{22}{7} \\times r = 44 \\Rightarrow r = 35\\text{ cm}$. Area $= \\frac{1}{2} \\times l \\times r = \\frac{1}{2} \\times 44 \\times 35 = 770\\text{ cm}^{2}$. Radius $= 35\\text{ cm}$, area $= 770\\text{ cm}^{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The perimeter of a sector of a circle with central angle $90^\\circ$ is $75\\text{ cm}$. Find the radius and the area of the sector. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "Arc $= \\frac{90}{360} \\times 2 \\times \\frac{22}{7} \\times r = \\frac{11r}{7}$. Perimeter $= 2r + \\frac{11r}{7} = \\frac{25r}{7} = 75 \\Rightarrow r = 21\\text{ cm}$. Area $= \\frac{1}{4} \\times \\frac{22}{7} \\times 21 \\times 21 = 346.5\\text{ cm}^{2}$. Radius $= 21\\text{ cm}$, area $= 346.5\\text{ cm}^{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Combination figures (shaded regions)",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": false,
+    "text": "A rectangular lawn measures $30\\text{ m}$ by $20\\text{ m}$. A circular flower bed of radius $7\\text{ m}$ lies entirely inside it. Find the area of the lawn that is left for grass. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "Area of lawn $= 30 \\times 20 = 600\\text{ m}^{2}$. Flower bed $= \\frac{22}{7} \\times 7 \\times 7 = 154\\text{ m}^{2}$. Grass area $= 600 - 154 = 446\\text{ m}^{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Combination figures (shaded regions)",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A window is a rectangle $1.4\\text{ m}$ wide and $2\\text{ m}$ high, with a semicircle fitted on top of its width as diameter. Find the total area of glass needed and its cost at ₹ $500$ per $\\text{m}^{2}$. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "Rectangle $= 1.4 \\times 2 = 2.8\\text{ m}^{2}$. Semicircle of radius $0.7\\text{ m}$: $\\frac{1}{2} \\times \\frac{22}{7} \\times 0.7 \\times 0.7 = 0.77\\text{ m}^{2}$. Total area $= 3.57\\text{ m}^{2}$. Cost $= 3.57 \\times 500 =$ ₹ $1785$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Segment area",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A chord of a circle of radius $7\\text{ cm}$ subtends an angle of $120^\\circ$ at the centre. Find the area of the minor segment. (Use $\\pi = \\frac{22}{7}$ and $\\sqrt{3} = 1.73$; give the answer to two decimal places.)",
+    "answer": "Sector $= \\frac{120}{360} \\times \\frac{22}{7} \\times 49 = 51.33\\text{ cm}^{2}$. Draw $OM \\perp AB$: $\\angle AOM = 60^\\circ$, so $OM = 3.5\\text{ cm}$, $AM = 3.5\\sqrt{3}$ and $AB = 7\\sqrt{3}$. Triangle $OAB = \\frac{1}{2} \\times 7\\sqrt{3} \\times 3.5 = 12.25 \\times 1.73 = 21.19\\text{ cm}^{2}$. Minor segment $= 51.33 - 21.19 = 30.14\\text{ cm}^{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Segment area",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A chord of a circle of radius $8\\text{ cm}$ subtends a right angle at the centre. Find the area of the major segment. (Use $\\pi = 3.14$)",
+    "answer": "Circle $= 3.14 \\times 64 = 200.96\\text{ cm}^{2}$. Sector (minor) $= \\frac{1}{4} \\times 200.96 = 50.24\\text{ cm}^{2}$; triangle $= \\frac{1}{2} \\times 8 \\times 8 = 32\\text{ cm}^{2}$. Minor segment $= 18.24\\text{ cm}^{2}$. Major segment $= 200.96 - 18.24 = 182.72\\text{ cm}^{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Arc length",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "An arc of length $44\\text{ cm}$ is cut from a circle of radius $84\\text{ cm}$. Find the angle it subtends at the centre and the area of the corresponding sector. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "Circumference $= 2 \\times \\frac{22}{7} \\times 84 = 528\\text{ cm}$, so $\\theta = \\frac{44}{528} \\times 360^\\circ = 30^\\circ$. Area $= \\frac{1}{2} \\times l \\times r = \\frac{1}{2} \\times 44 \\times 84 = 1848\\text{ cm}^{2}$. Angle $= 30^\\circ$, area $= 1848\\text{ cm}^{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Wheel, clock, garden and wiper contexts",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "medium",
+    "competency": false,
+    "text": "The beam of a lighthouse reaches $35\\text{ km}$ out to sea and, at a given moment, lights up a region bounded by an angle of $72^\\circ$ at the lighthouse. Find the area of sea lit up. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "The lit region is a sector of radius $35\\text{ km}$ and angle $72^\\circ$. Area $= \\frac{72}{360} \\times \\frac{22}{7} \\times 35 \\times 35 = 770\\text{ km}^{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Wheel, clock, garden and wiper contexts",
+    "slot": "B-short (2 marks)",
+    "type": "short",
+    "marks": 2,
+    "complexity": "easy",
+    "competency": false,
+    "text": "The hour hand of a wall clock is $21\\text{ cm}$ long. Find the distance travelled by its tip and the area swept by it from 2 pm to 5 pm. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "In $3$ hours the hour hand turns $3 \\times 30^\\circ = 90^\\circ$. Distance $= \\frac{90}{360} \\times 2 \\times \\frac{22}{7} \\times 21 = 33\\text{ cm}$. Area $= \\frac{90}{360} \\times \\frac{22}{7} \\times 21 \\times 21 = 346.5\\text{ cm}^{2}$. Distance $= 33\\text{ cm}$, area $= 346.5\\text{ cm}^{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Sector $P$ has radius $21\\text{ cm}$ and central angle $60^\\circ$; sector $Q$ has radius $14\\text{ cm}$ and central angle $90^\\circ$. Find by how much the area and the perimeter of $P$ exceed those of $Q$. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "Area of $P = \\frac{60}{360} \\times \\frac{22}{7} \\times 441 = 231\\text{ cm}^{2}$; area of $Q = \\frac{1}{4} \\times \\frac{22}{7} \\times 196 = 154\\text{ cm}^{2}$; difference $= 77\\text{ cm}^{2}$. Arc of $P = 22\\text{ cm}$, perimeter $= 42 + 22 = 64\\text{ cm}$; arc of $Q = 22\\text{ cm}$, perimeter $= 28 + 22 = 50\\text{ cm}$; difference $= 14\\text{ cm}$. Area exceeds by $77\\text{ cm}^{2}$ and perimeter by $14\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Combination figures (shaded regions)",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A rectangular park is $50\\text{ m}$ long and $30\\text{ m}$ wide. At its centre is a circular fountain of radius $7\\text{ m}$, surrounded by a circular paved path $3.5\\text{ m}$ wide. Find (i) the area of the paved path, (ii) the cost of turfing the rest of the park at ₹ $12$ per $\\text{m}^{2}$. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "Outer radius of path $= 7 + 3.5 = 10.5\\text{ m}$. (i) Path area $= \\frac{22}{7}(10.5^{2} - 7^{2}) = \\frac{22}{7} \\times 61.25 = 192.5\\text{ m}^{2}$. (ii) Outer circle $= \\frac{22}{7} \\times 110.25 = 346.5\\text{ m}^{2}$; turf area $= 1500 - 346.5 = 1153.5\\text{ m}^{2}$; cost $= 1153.5 \\times 12 =$ ₹ $13842$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Combination figures (shaded regions)",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A metal plate is a rectangle $36\\text{ cm}$ long and $20\\text{ cm}$ wide. A semicircle, with each of the two $20\\text{ cm}$ sides as its diameter, is cut out from the plate on each of these sides, towards the inside of the plate. Find the area and the perimeter of the remaining plate. (Use $\\pi = 3.14$)",
+    "answer": "Rectangle $= 36 \\times 20 = 720\\text{ cm}^{2}$. The two semicircles (radius $10\\text{ cm}$) together make a full circle: $3.14 \\times 100 = 314\\text{ cm}^{2}$. Area left $= 720 - 314 = 406\\text{ cm}^{2}$. Perimeter $= 2 \\times 36 + 2 \\times (3.14 \\times 10) = 72 + 62.8 = 134.8\\text{ cm}$. Area $= 406\\text{ cm}^{2}$, perimeter $= 134.8\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Combination figures (shaded regions)",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "hard",
+    "competency": true,
+    "text": "A square is inscribed in a circle of radius $14\\text{ cm}$, and a semicircle is drawn outwards on each side of the square, using that side as diameter. The four crescent-shaped regions lying between the semicircles and the circle are shaded. Show that the total shaded area equals the area of the square, and find it.",
+    "answer": "Diagonal of square $= 28\\text{ cm}$, so $\\text{side}^{2} = \\frac{28^{2}}{2} = 392$; square area $= 392\\text{ cm}^{2}$. Each semicircle has radius $\\frac{s}{2}$ with $\\frac{s^{2}}{4} = 98$, so four semicircles total $4 \\times \\frac{1}{2}\\pi \\times 98 = 196\\pi$, equal to the circle's area $\\pi \\times 14^{2} = 196\\pi$. Shaded $=$ (4 semicircles) $-$ (circle $-$ square) $= 196\\pi - 196\\pi + 392 = 392\\text{ cm}^{2}$, which equals the area of the square.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Segment area",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A chord of length $16\\text{ cm}$ subtends a right angle at the centre of a circle. Find the area of the minor segment cut off by this chord. (Use $\\pi = 3.14$)",
+    "answer": "For a right angle at the centre, chord $= r\\sqrt{2}$, so $r\\sqrt{2} = 16$ and $r^{2} = 128$. Sector $= \\frac{1}{4} \\times 3.14 \\times 128 = 100.48\\text{ cm}^{2}$. Triangle $= \\frac{1}{2} r^{2} = 64\\text{ cm}^{2}$. Minor segment $= 100.48 - 64 = 36.48\\text{ cm}^{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Arc length",
+    "slot": "C-short (3 marks)",
+    "type": "short",
+    "marks": 3,
+    "complexity": "medium",
+    "competency": false,
+    "text": "Two circles have arcs of equal length. The arc of the first circle, of radius $28\\text{ cm}$, subtends $45^\\circ$ at its centre, and the arc of the second circle subtends $60^\\circ$ at its centre. Find the common length of the arcs and the radius of the second circle. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "First arc $= \\frac{45}{360} \\times 2 \\times \\frac{22}{7} \\times 28 = 22\\text{ cm}$. For the second circle, $\\frac{60}{360} \\times 2 \\times \\frac{22}{7} \\times r = 22 \\Rightarrow \\frac{44r}{42} = 22 \\Rightarrow r = 21\\text{ cm}$. Common length $= 22\\text{ cm}$, radius of second circle $= 21\\text{ cm}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Area and perimeter of a sector",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": false,
+    "text": "A wire $92\\text{ cm}$ long is bent to form the boundary of a sector of a circle of radius $35\\text{ cm}$. Find (i) the length of the arc, (ii) the central angle of the sector, (iii) the area of the sector, (iv) the fraction of the full circle's area that the sector covers. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "(i) Boundary $= 2r + \\text{arc}$, so arc $= 92 - 70 = 22\\text{ cm}$. (ii) $\\frac{\\theta}{360} \\times 2 \\times \\frac{22}{7} \\times 35 = 22 \\Rightarrow \\frac{\\theta}{360} \\times 220 = 22 \\Rightarrow \\theta = 36^\\circ$. (iii) Area $= \\frac{1}{2} \\times 22 \\times 35 = 385\\text{ cm}^{2}$. (iv) Fraction $= \\frac{36}{360} = \\frac{1}{10}$ (check: circle $= \\frac{22}{7} \\times 1225 = 3850\\text{ cm}^{2}$). Arc $= 22\\text{ cm}$, angle $= 36^\\circ$, area $= 385\\text{ cm}^{2}$, fraction $= \\frac{1}{10}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Combination figures (shaded regions)",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "medium",
+    "competency": true,
+    "text": "A square tile of side $28\\text{ cm}$ has a circle inscribed in it (touching all four sides). A smaller circle of radius $7\\text{ cm}$ is drawn with the same centre. The four corner regions of the tile outside the large circle, and the ring between the two circles, are painted; the small central circle is left plain. Find (i) the area of the four corner regions, (ii) the area of the ring, (iii) the total painted area, (iv) the cost of painting at ₹ $0.40$ per $\\text{cm}^{2}$. (Use $\\pi = \\frac{22}{7}$)",
+    "answer": "Large circle has radius $14\\text{ cm}$: area $= \\frac{22}{7} \\times 196 = 616\\text{ cm}^{2}$. (i) Corners $= 784 - 616 = 168\\text{ cm}^{2}$. (ii) Small circle $= \\frac{22}{7} \\times 49 = 154\\text{ cm}^{2}$; ring $= 616 - 154 = 462\\text{ cm}^{2}$. (iii) Painted $= 168 + 462 = 630\\text{ cm}^{2}$ (equivalently $784 - 154$). (iv) Cost $= 630 \\times 0.40 =$ ₹ $252$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "topic": "Segment area",
+    "slot": "D-long (5 marks)",
+    "type": "long",
+    "marks": 5,
+    "complexity": "hard",
+    "competency": true,
+    "text": "A circular pond has radius $18\\text{ m}$. A chord $AB$ of the pond subtends an angle of $120^\\circ$ at the centre $O$. Find (i) the length of the chord $AB$, (ii) the area of triangle $OAB$, (iii) the area of the minor segment, (iv) the area of the major segment. (Use $\\pi = 3.14$ and $\\sqrt{3} = 1.73$)",
+    "answer": "Draw $OM \\perp AB$; $M$ is the midpoint of $AB$ and $\\angle AOM = 60^\\circ$, so $OM = 18\\cos 60^\\circ = 9\\text{ m}$ and $AM = 18\\sin 60^\\circ = 9\\sqrt{3}\\text{ m}$. (i) $AB = 18\\sqrt{3} = 31.14\\text{ m}$. (ii) Triangle $OAB = \\frac{1}{2} \\times 31.14 \\times 9 = 81\\sqrt{3} = 140.13\\text{ m}^{2}$. (iii) Sector $= \\frac{120}{360} \\times 3.14 \\times 324 = 339.12\\text{ m}^{2}$; minor segment $= 339.12 - 140.13 = 198.99\\text{ m}^{2}$. (iv) Circle $= 3.14 \\times 324 = 1017.36\\text{ m}^{2}$; major segment $= 1017.36 - 198.99 = 818.37\\text{ m}^{2}$.",
+    "verification": {
+      "status": "ok",
+      "note": ""
+    }
+  }
+]

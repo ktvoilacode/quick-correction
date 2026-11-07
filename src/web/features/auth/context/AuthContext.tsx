@@ -2,6 +2,7 @@ import React, { createContext, useContext, useState, useEffect, useCallback } fr
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useApi } from '@bloomneo/uikit';
 import { config } from '../config';
+import { homeFor } from '../lib/home';
 import type { AuthState, LoginCredentials, RegisterData, AuthContextType, VerifyEmailData, ForgotPasswordData, ResetPasswordData } from '../types';
 
 const AuthContext = createContext<AuthContextType | null>(null);
@@ -103,7 +104,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
           isLoading: false,
         });
 
-        const intendedPath = (location.state as any)?.from?.pathname || config.auth.redirects.afterLogin;
+        const intendedPath = (location.state as any)?.from?.pathname || homeFor(user);
         navigate(intendedPath, { replace: true });
 
         return { success: true };
@@ -144,6 +145,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const logout = useCallback((redirectTo: string = config.auth.redirects.afterLogout) => {
     localStorage.removeItem(config.auth.storage.token);
     localStorage.removeItem(config.auth.storage.user);
+    sessionStorage.removeItem('qc_admin_session');
 
     setAuthState({
       user: null,

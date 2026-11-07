@@ -1,0 +1,212 @@
+[
+ {
+  "idx": 0,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The pair of equations 3x + ky = 9 and 6x + 8y = 18 has infinitely many solutions. The value of k is",
+  "options": [
+   "2",
+   "4",
+   "6",
+   "8"
+  ]
+ },
+ {
+  "idx": 1,
+  "marks": 1,
+  "type": "mcq",
+  "text": "For what value of k does the pair of linear equations 4x + ky = 9 and 6x + 9y = 11 have no solution?",
+  "options": [
+   "6",
+   "13.5",
+   "4",
+   "9"
+  ]
+ },
+ {
+  "idx": 2,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The pair of equations kx + 4y = 7 and 3x + 2y = 1 has a unique solution for",
+  "options": [
+   "k \u2260 2",
+   "k = 6",
+   "k \u2260 6",
+   "k \u2260 12"
+  ]
+ },
+ {
+  "idx": 3,
+  "marks": 1,
+  "type": "mcq",
+  "text": "If the pair of equations (k \u2212 2)x + 3y = k and kx + 6y = k + 4 has infinitely many solutions, then k equals",
+  "options": [
+   "2",
+   "6",
+   "8",
+   "4"
+  ]
+ },
+ {
+  "idx": 4,
+  "marks": 1,
+  "type": "mcq",
+  "text": "On the same graph the lines x = 3 and y = \u22122 are drawn. They intersect at the point",
+  "options": [
+   "(\u22122, 3)",
+   "(3, \u22122)",
+   "(3, 2)",
+   "(0, 0)"
+  ]
+ },
+ {
+  "idx": 5,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The graphs of 2x + y = 6 and 2x \u2212 y = 2 cut the x-axis at points A and B respectively. The distance AB is",
+  "options": [
+   "1 unit",
+   "3 units",
+   "2 units",
+   "4 units"
+  ]
+ },
+ {
+  "idx": 6,
+  "marks": 1,
+  "type": "mcq",
+  "text": "The sum of two numbers is 40 and their difference is 14. The larger number is",
+  "options": [
+   "13",
+   "26",
+   "27",
+   "14"
+  ]
+ },
+ {
+  "idx": 7,
+  "marks": 1,
+  "type": "mcq",
+  "text": "3 kg of apples and 1 kg of grapes together cost \u20b9340, while 1 kg of apples and 2 kg of grapes together cost \u20b9280. The cost of 2 kg of apples and 3 kg of grapes is",
+  "options": [
+   "\u20b9420",
+   "\u20b9440",
+   "\u20b9480",
+   "\u20b9460"
+  ]
+ },
+ {
+  "idx": 8,
+  "marks": 1,
+  "type": "mcq",
+  "text": "If 2x + 3y = 13 and 3x + 2y = 12, then x\u00b2 + y\u00b2 equals",
+  "options": [
+   "5",
+   "25",
+   "13",
+   "1"
+  ]
+ },
+ {
+  "idx": 9,
+  "marks": 1,
+  "type": "mcq",
+  "text": "If x = 2, y = 3 is the solution of the pair ax + by = 13 and bx + ay = 12, then a + b equals",
+  "options": [
+   "1",
+   "5",
+   "6",
+   "13"
+  ]
+ },
+ {
+  "idx": 10,
+  "marks": 1,
+  "type": "mcq",
+  "text": "Assertion (A): The pair of linear equations 2x \u2212 3y = 5 and 4x \u2212 6y = 9 has no solution.\nReason (R): A pair a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0 is inconsistent when a1/a2 = b1/b2 \u2260 c1/c2.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ]
+ },
+ {
+  "idx": 11,
+  "marks": 2,
+  "type": "short",
+  "text": "Without solving, find whether the pair 3x \u2212 5y = 20 and 6x \u2212 10y = 40 is consistent. If it is, state the number of solutions and how the two lines look on a graph."
+ },
+ {
+  "idx": 12,
+  "marks": 2,
+  "type": "short",
+  "text": "Draw up a table of values for the lines x + y = 6 and x \u2212 y = 2. From the graphs, find their point of intersection and the area of the triangle formed by the two lines and the x-axis."
+ },
+ {
+  "idx": 13,
+  "marks": 2,
+  "type": "short",
+  "text": "Solve by elimination: 3x + 4y = 10 and x \u2212 y = 1. Verify your answer."
+ },
+ {
+  "idx": 14,
+  "marks": 3,
+  "type": "short",
+  "text": "A two-digit number is 4 times the sum of its digits. If 18 is added to the number, the digits get reversed. Find the number."
+ },
+ {
+  "idx": 15,
+  "marks": 3,
+  "type": "short",
+  "text": "The numerator and denominator of a fraction are x and y. If 1 is added to the numerator and 3 to the denominator, the fraction becomes 2/5. If 1 is subtracted from both numerator and denominator, it becomes 1/3. Find the fraction."
+ },
+ {
+  "idx": 16,
+  "marks": 3,
+  "type": "short",
+  "text": "Five years ago a father was 7 times as old as his son. Five years from now he will be 3 times as old as his son. Find their present ages."
+ },
+ {
+  "idx": 17,
+  "marks": 3,
+  "type": "short",
+  "text": "The pair of equations 2x + 3y = 7 and (2a \u2212 b)x + (a + b)y = 4a + b \u2212 3 has infinitely many solutions. Find the values of a and b."
+ },
+ {
+  "idx": 18,
+  "marks": 3,
+  "type": "short",
+  "text": "The lines 2x + 3y = 12 and x \u2212 y = 1 are drawn on the same graph. Find the point where they intersect, and the area of the triangle formed by these two lines and the y-axis."
+ },
+ {
+  "idx": 19,
+  "marks": 5,
+  "type": "long",
+  "text": "Solve graphically the pair x + 2y = 8 and 3x \u2212 2y = 0. Also find the area of the triangle formed by the two lines and the x-axis."
+ },
+ {
+  "idx": 20,
+  "marks": 5,
+  "type": "long",
+  "text": "A man travels 360 km, partly by bus and partly by train. If he travels 120 km by bus and the rest by train, the journey takes 5 hours. If he travels 200 km by bus and the rest by train, it takes 5 hours 20 minutes. Find the speed of the bus and of the train."
+ },
+ {
+  "idx": 21,
+  "marks": 5,
+  "type": "long",
+  "text": "A boat takes 8 hours to go 18 km upstream and 50 km downstream. It takes 7 hours to go 30 km upstream and 20 km downstream. Find the speed of the boat in still water and the speed of the stream."
+ },
+ {
+  "idx": 22,
+  "marks": 4,
+  "type": "case",
+  "text": "At a village fair, entry tickets are sold at one price for adults and another for children. On Saturday, 2 adults and 3 children together paid \u20b9600. On Sunday, a group of 4 adults and 1 child paid \u20b9700. Let an adult ticket cost \u20b9a and a child ticket cost \u20b9c.\n(i) Write the two linear equations that represent this situation. [1]\n(ii) Find the cost of one child ticket. [1]\n(iii) Find the cost of one adult ticket, and the total amount paid by a family of 2 adults and 5 children. [2]"
+ },
+ {
+  "idx": 23,
+  "marks": 4,
+  "type": "case",
+  "text": "A taxi company charges a fixed amount (\u20b9f) plus a fixed rate per kilometre (\u20b9r). Rohan paid \u20b9175 for a 10 km ride and Seema paid \u20b9287 for an 18 km ride.\n(i) Write two linear equations in f and r for this information. [1]\n(ii) Find the rate per kilometre. [1]\n(iii) Find the fixed charge and the fare for a 25 km ride. [2]\nOR\n(iii) Find the fixed charge and the distance travelled by a passenger who paid \u20b9497. [2]"
+ }
+]

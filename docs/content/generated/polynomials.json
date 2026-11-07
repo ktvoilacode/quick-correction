@@ -1,0 +1,368 @@
+[
+ {
+  "chapter": "Polynomials",
+  "topic": "Zeroes and coefficients",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The sum of the zeroes of the polynomial p(x) = 2x² − 8x + 6 is",
+  "options": [
+   "4",
+   "−4",
+   "3",
+   "8"
+  ],
+  "answer": "Correct option: a) 4. Sum of zeroes = −b/a = −(−8)/2 = 4."
+ },
+ {
+  "chapter": "Polynomials",
+  "topic": "Zeroes and coefficients",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The product of the zeroes of the polynomial 3x² + 5x − 12 is",
+  "options": [
+   "−4",
+   "4",
+   "−5/3",
+   "12"
+  ],
+  "answer": "Correct option: a) −4. Product of zeroes = c/a = −12/3 = −4."
+ },
+ {
+  "chapter": "Polynomials",
+  "topic": "Zeroes and coefficients",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "If α and β are the zeroes of the polynomial x² − 9x + 14, then 1/α + 1/β is equal to",
+  "options": [
+   "9/14",
+   "14/9",
+   "−9/14",
+   "5/14"
+  ],
+  "answer": "Correct option: a) 9/14. α + β = 9 and αβ = 14, so 1/α + 1/β = (α + β)/αβ = 9/14."
+ },
+ {
+  "chapter": "Polynomials",
+  "topic": "Zeroes and coefficients",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "If the sum of the zeroes of the polynomial x² − (k + 3)x + 5 is 9, then the value of k is",
+  "options": [
+   "6",
+   "12",
+   "−6",
+   "3"
+  ],
+  "answer": "Correct option: a) 6. Sum of zeroes = k + 3 = 9, so k = 6."
+ },
+ {
+  "chapter": "Polynomials",
+  "topic": "Zeroes and coefficients",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "If α and β are the zeroes of the polynomial x² − 4x + 3, then α² + β² is equal to",
+  "options": [
+   "10",
+   "22",
+   "16",
+   "7"
+  ],
+  "answer": "Correct option: a) 10. α + β = 4 and αβ = 3, so α² + β² = (α + β)² − 2αβ = 16 − 6 = 10."
+ },
+ {
+  "chapter": "Polynomials",
+  "topic": "Zeroes and coefficients",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": true,
+  "text": "One zero of the polynomial 3x² − 8x + (2k − 1) is the reciprocal of the other. The value of k is",
+  "options": [
+   "2",
+   "1",
+   "3/2",
+   "−1"
+  ],
+  "answer": "Correct option: a) 2. Product of zeroes = (2k − 1)/3 = 1 (reciprocals multiply to 1), so 2k − 1 = 3 and k = 2."
+ },
+ {
+  "chapter": "Polynomials",
+  "topic": "Zeroes and coefficients",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "hard",
+  "competency": true,
+  "text": "The zeroes α and β of the polynomial x² − 8x + k satisfy α − β = 2. The value of k is",
+  "options": [
+   "15",
+   "12",
+   "16",
+   "10"
+  ],
+  "answer": "Correct option: a) 15. α + β = 8 and α − β = 2 give α = 5, β = 3. Hence k = αβ = 15."
+ },
+ {
+  "chapter": "Polynomials",
+  "topic": "Zeroes from a graph",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The graph of y = p(x) cuts the x-axis at exactly three distinct points. The number of zeroes of p(x) is",
+  "options": [
+   "3",
+   "2",
+   "1",
+   "0"
+  ],
+  "answer": "Correct option: a) 3. The zeroes of p(x) are the x-coordinates of the points where the graph meets the x-axis; there are 3 such points."
+ },
+ {
+  "chapter": "Polynomials",
+  "topic": "Zeroes from a graph",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The graph of a quadratic polynomial y = p(x) is a parabola opening upwards that just touches the x-axis at the point (4, 0) and does not cross it. The number of zeroes of p(x) is",
+  "options": [
+   "1",
+   "2",
+   "0",
+   "4"
+  ],
+  "answer": "Correct option: a) 1. The graph meets the x-axis at only one point, so p(x) has exactly one zero (x = 4)."
+ },
+ {
+  "chapter": "Polynomials",
+  "topic": "Zeroes from a graph",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": true,
+  "text": "The graph of a cubic polynomial y = p(x) meets the x-axis at exactly the three points (−3, 0), (0, 0) and (2, 0). The sum of the zeroes of p(x) is",
+  "options": [
+   "−1",
+   "1",
+   "5",
+   "0"
+  ],
+  "answer": "Correct option: a) −1. The zeroes are −3, 0 and 2, and their sum is −3 + 0 + 2 = −1."
+ },
+ {
+  "chapter": "Polynomials",
+  "topic": "Forming a polynomial from zeroes",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "A quadratic polynomial whose zeroes are 3 and −5 is",
+  "options": [
+   "x² + 2x − 15",
+   "x² − 2x − 15",
+   "x² + 2x + 15",
+   "x² − 8x − 15"
+  ],
+  "answer": "Correct option: a) x² + 2x − 15. Sum of zeroes = −2, product = −15, so polynomial = x² − (sum)x + product = x² + 2x − 15."
+ },
+ {
+  "chapter": "Polynomials",
+  "topic": "Forming a polynomial from zeroes",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "The number of quadratic polynomials having 2 and 7 as their zeroes is",
+  "options": [
+   "infinitely many",
+   "only one",
+   "exactly two",
+   "none"
+  ],
+  "answer": "Correct option: a) infinitely many. k(x² − 9x + 14) has zeroes 2 and 7 for every non-zero real k, so there are infinitely many."
+ },
+ {
+  "chapter": "Polynomials",
+  "topic": "Forming a polynomial from zeroes",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "A quadratic polynomial whose zeroes are 2 + √3 and 2 − √3 is",
+  "options": [
+   "x² − 4x + 1",
+   "x² + 4x + 1",
+   "x² − 4x − 1",
+   "x² − 4x + 7"
+  ],
+  "answer": "Correct option: a) x² − 4x + 1. Sum = 4, product = 4 − 3 = 1, so the polynomial is x² − 4x + 1."
+ },
+ {
+  "chapter": "Polynomials",
+  "topic": "Value of k from a zero",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "If 2 is a zero of the polynomial 2x² + kx − 14, then the value of k is",
+  "options": [
+   "3",
+   "−3",
+   "11",
+   "−11"
+  ],
+  "answer": "Correct option: a) 3. p(2) = 8 + 2k − 14 = 0, so 2k = 6 and k = 3."
+ },
+ {
+  "chapter": "Polynomials",
+  "topic": "Number and nature of zeroes",
+  "slot": "A-mcq (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Which of the following polynomials has no real zero?",
+  "options": [
+   "x² + 4",
+   "x² − 4",
+   "x² + 4x",
+   "x² − 4x + 4"
+  ],
+  "answer": "Correct option: a) x² + 4. x² + 4 = 0 gives x² = −4, impossible for real x. The others have zeroes ±2; 0 and −4; and 2 respectively."
+ },
+ {
+  "chapter": "Polynomials",
+  "topic": "Number and nature of zeroes",
+  "slot": "A-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Assertion (A): The polynomial x² + 3x + 4 has no real zeroes.\nReason (R): A quadratic polynomial ax² + bx + c has real zeroes if and only if b² − 4ac ≥ 0.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: a) Both A and R are true and R is the correct explanation of A. For x² + 3x + 4, b² − 4ac = 9 − 16 = −7 < 0, so A is true by the condition stated in R; R is true and explains A."
+ },
+ {
+  "chapter": "Polynomials",
+  "topic": "Zeroes and coefficients",
+  "slot": "A-assertion-reason (1 mark)",
+  "type": "mcq",
+  "marks": 1,
+  "complexity": "medium",
+  "competency": false,
+  "text": "Assertion (A): The sum of the zeroes of the polynomial 2x² − 6x + 1 is −3.\nReason (R): For a quadratic polynomial ax² + bx + c, the sum of the zeroes is −b/a.",
+  "options": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "answer": "Correct option: d) A is false but R is true. R is the standard result. Using it, the sum of zeroes of 2x² − 6x + 1 is −(−6)/2 = 3, not −3, so A is false."
+ },
+ {
+  "chapter": "Polynomials",
+  "topic": "Zeroes and coefficients",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "easy",
+  "competency": false,
+  "text": "Find the zeroes of the polynomial 6x² − 7x − 3 and verify the relationship between the zeroes and the coefficients.",
+  "answer": "6x² − 7x − 3 = 6x² − 9x + 2x − 3 = 3x(2x − 3) + 1(2x − 3) = (3x + 1)(2x − 3). Zeroes: x = −1/3 and x = 3/2.\nSum of zeroes = −1/3 + 3/2 = 7/6 = −(−7)/6 ✓.\nProduct of zeroes = (−1/3)(3/2) = −1/2 = −3/6 ✓.\nHence the relationship is verified."
+ },
+ {
+  "chapter": "Polynomials",
+  "topic": "Zeroes and coefficients",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "If α and β are the zeroes of the polynomial 3x² − 5x − 2, find the value of α²β + αβ².",
+  "answer": "α + β = 5/3 and αβ = −2/3.\nα²β + αβ² = αβ(α + β) = (−2/3)(5/3) = −10/9.\nAnswer: −10/9."
+ },
+ {
+  "chapter": "Polynomials",
+  "topic": "Value of k from a zero",
+  "slot": "B-short (2 marks)",
+  "type": "short",
+  "marks": 2,
+  "complexity": "medium",
+  "competency": false,
+  "text": "The zeroes of the polynomial 3x² + (2k − 4)x − 12 are equal in magnitude but opposite in sign. Find the value of k and the zeroes of the polynomial.",
+  "answer": "Sum of zeroes = 0, so −(2k − 4)/3 = 0, giving 2k − 4 = 0 and k = 2.\nThe polynomial becomes 3x² − 12 = 3(x − 2)(x + 2), so the zeroes are 2 and −2.\nAnswer: k = 2; zeroes 2 and −2."
+ },
+ {
+  "chapter": "Polynomials",
+  "topic": "Zeroes and coefficients",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "medium",
+  "competency": false,
+  "text": "If α and β are the zeroes of the polynomial 6x² + x − 2, find the value of 1/α + 1/β − 2αβ.",
+  "answer": "α + β = −1/6 and αβ = −2/6 = −1/3.\n1/α + 1/β = (α + β)/αβ = (−1/6)/(−1/3) = 1/2.\n2αβ = −2/3.\nRequired value = 1/2 − (−2/3) = 1/2 + 2/3 = 7/6.\nAnswer: 7/6."
+ },
+ {
+  "chapter": "Polynomials",
+  "topic": "Forming a polynomial from zeroes",
+  "slot": "C-short (3 marks)",
+  "type": "short",
+  "marks": 3,
+  "complexity": "hard",
+  "competency": true,
+  "text": "If α and β are the zeroes of the polynomial 5x² − 7x + 2, find a quadratic polynomial whose zeroes are (α + β) and αβ.",
+  "answer": "α + β = 7/5 and αβ = 2/5.\nNew zeroes: S = α + β = 7/5 and P = αβ = 2/5.\nSum of new zeroes = 7/5 + 2/5 = 9/5.\nProduct of new zeroes = (7/5)(2/5) = 14/25.\nPolynomial: k[x² − (9/5)x + 14/25]; taking k = 25 gives 25x² − 45x + 14.\nAnswer: 25x² − 45x + 14 (or any non-zero multiple)."
+ },
+ {
+  "chapter": "Polynomials",
+  "topic": "Zeroes from a graph",
+  "slot": "E-case-study (4 marks, with sub-parts)",
+  "type": "case",
+  "marks": 4,
+  "complexity": "medium",
+  "competency": true,
+  "text": "A water fountain throws a jet of water. The height h (in metres) of a drop of water above the nozzle after t seconds is given by h(t) = 8t − 2t², until it falls back to the nozzle level.\n(i) Find the zeroes of the polynomial h(t) = 8t − 2t². [1]\n(ii) Will the graph of h against t open upwards or downwards? Give a reason. [1]\n(iii) Find the height of the drop at t = 1 s and at t = 3 s. What do you observe about the two heights and the zeroes you found in (i)? [2]\nOR\n(iii) Find the sum and product of the zeroes of h(t) using the coefficients and check them against your answer to (i). [2]",
+  "answer": "(i) 8t − 2t² = 2t(4 − t) = 0 gives t = 0 and t = 4. Zeroes: 0 and 4.\n(ii) Downwards, because the coefficient of t² is −2, which is negative.\n(iii) h(1) = 8 − 2 = 6 m; h(3) = 24 − 18 = 6 m. Both heights are equal because t = 1 and t = 3 are equally far from t = 2, the midpoint of the zeroes 0 and 4 (the graph is symmetric about t = 2).\nOR (iii) Writing h = −2t² + 8t: sum of zeroes = −8/(−2) = 4 = 0 + 4 ✓; product of zeroes = 0/(−2) = 0 = 0 × 4 ✓."
+ },
+ {
+  "chapter": "Polynomials",
+  "topic": "Zeroes and coefficients",
+  "slot": "E-case-study (4 marks, with sub-parts)",
+  "type": "case",
+  "marks": 4,
+  "complexity": "hard",
+  "competency": true,
+  "text": "The length and breadth (in metres) of a rectangular vegetable plot are the zeroes of the polynomial p(x) = x² − 17x + 60.\n(i) Find the perimeter of the plot. [1]\n(ii) Find the area of the plot. [1]\n(iii) The farmer plans a new plot whose length and breadth are each twice those of the first plot. Find a quadratic polynomial whose zeroes are the length and breadth of the new plot. [2]",
+  "answer": "Let the zeroes be l and b: l + b = 17 and lb = 60 (indeed x² − 17x + 60 = (x − 12)(x − 5), so the sides are 12 m and 5 m).\n(i) Perimeter = 2(l + b) = 2 × 17 = 34 m.\n(ii) Area = lb = 60 m².\n(iii) New zeroes are 24 and 10. Sum = 34, product = 240. Polynomial: x² − 34x + 240."
+ }
+]

@@ -145,3 +145,34 @@ export const api = {
   put:    <T>(p: ApiRoute, body?: unknown, o?: Options) => request<T>(p, { ...o, method: 'PUT', body }),
   delete: <T>(p: ApiRoute, o?: Options) => request<T>(p, { ...o, method: 'DELETE' }),
 };
+
+/** Headers for a call that is not JSON: the key and the signed-in token only. */
+function authHeaders(): Record<string, string> {
+  const token = typeof window !== 'undefined' ? localStorage.getItem(TOKEN_KEY) : null;
+  return {
+    ...(FRONTEND_KEY ? { 'X-Frontend-Key': FRONTEND_KEY } : {}),
+    ...(token ? { Authorization: `Bearer ${token}` } : {}),
+  };
+}
+
+/** Send a file as the raw request body (an answer-page photo), with its own content type. */
+export async function sendFile<T = unknown>(path: ApiRoute, file: Blob): Promise<T> {
+  const res = await fetch(`${BASE}${path}`, {
+    method: 'POST',
+    headers: { ...authHeaders(), 'Content-Type': file.type || 'application/octet-stream' },
+    body: file,
+  });
+  const requestId = res.headers.get('x-request-id') ?? undefined;
+  if (!res.ok) {
+    const detail = await res.json().catch(() => null);
+    throw new ApiError(res.status, detail?.message ?? detail?.error ?? res.statusText, detail, requestId);
+  }
+  return (await res.json()) as T;
+}
+
+/** Read a binary response (an uploaded page) through the signed-in call, since <img src> cannot send the token. */
+export async function fetchBlob(path: ApiRoute): Promise<Blob> {
+  const res = await fetch(`${BASE}${path}`, { headers: authHeaders() });
+  if (!res.ok) throw new ApiError(res.status, res.statusText);
+  return res.blob();
+}

@@ -1,0 +1,700 @@
+{
+  "papersAnalysed": 21,
+  "scale": 10,
+  "textFormat": "Write maths as LaTeX between dollar signs (rendered with KaTeX). Follow docs/content/generated/latex/CONVENTIONS.md and check with node scripts/latex-check.mjs.",
+  "chapters": [
+    {
+      "chapter": "Real Numbers",
+      "quota": {
+        "A-assertion-reason (1 mark)": 3,
+        "B-short (2 marks)": 6,
+        "C-short (3 marks)": 10,
+        "A-mcq (1 mark)": 16,
+        "E-case-study (4 marks, with sub-parts)": 1
+      },
+      "totalQuestions": 36,
+      "topics": [
+        {
+          "name": "Irrational numbers and proofs",
+          "boardWeight": 23,
+          "foldsInto": [
+            "irrational numbers proof"
+          ]
+        },
+        {
+          "name": "HCF and LCM by prime factorisation",
+          "boardWeight": 15,
+          "foldsInto": [
+            "hcf and lcm by prime factorisation"
+          ]
+        },
+        {
+          "name": "Fundamental theorem of arithmetic",
+          "boardWeight": 12,
+          "foldsInto": [
+            "fundamental theorem of arithmetic"
+          ]
+        },
+        {
+          "name": "HCF and LCM word problems",
+          "boardWeight": 8,
+          "foldsInto": [
+            "word problems on hcf/lcm"
+          ]
+        },
+        {
+          "name": "HCF-LCM relation",
+          "boardWeight": 8,
+          "foldsInto": [
+            "hcf-lcm relation"
+          ]
+        },
+        {
+          "name": "Decimal expansions and number classification",
+          "boardWeight": 6,
+          "foldsInto": [
+            "decimal expansions of rationals",
+            "rational and irrational sums",
+            "rational vs irrational classification",
+            "parity and powers of -1",
+            "operations on surds"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Polynomials",
+      "quota": {
+        "A-mcq (1 mark)": 15,
+        "A-assertion-reason (1 mark)": 2,
+        "B-short (2 marks)": 3,
+        "E-case-study (4 marks, with sub-parts)": 2,
+        "C-short (3 marks)": 2
+      },
+      "totalQuestions": 24,
+      "topics": [
+        {
+          "name": "Zeroes and coefficients",
+          "boardWeight": 27,
+          "foldsInto": [
+            "zeroes and coefficients relations"
+          ]
+        },
+        {
+          "name": "Zeroes from a graph",
+          "boardWeight": 10,
+          "foldsInto": [
+            "zeroes from a graph"
+          ]
+        },
+        {
+          "name": "Forming a polynomial from zeroes",
+          "boardWeight": 7,
+          "foldsInto": [
+            "forming a polynomial from zeroes"
+          ]
+        },
+        {
+          "name": "Value of k from a zero",
+          "boardWeight": 2,
+          "foldsInto": [
+            "value of k from a zero"
+          ]
+        },
+        {
+          "name": "Number and nature of zeroes",
+          "boardWeight": 3,
+          "foldsInto": [
+            "number of zeroes of a polynomial",
+            "number of real zeroes via discriminant"
+          ]
+        },
+        {
+          "name": "Division algorithm and evaluation",
+          "boardWeight": 2,
+          "foldsInto": [
+            "division algorithm for polynomials",
+            "evaluating expressions"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Pair of Linear Equations",
+      "quota": {
+        "A-mcq (1 mark)": 10,
+        "B-short (2 marks)": 3,
+        "C-short (3 marks)": 5,
+        "E-case-study (4 marks, with sub-parts)": 2,
+        "D-long (5 marks)": 3,
+        "A-assertion-reason (1 mark)": 1
+      },
+      "totalQuestions": 24,
+      "topics": [
+        {
+          "name": "Consistency conditions",
+          "boardWeight": 18,
+          "foldsInto": [
+            "consistency conditions"
+          ]
+        },
+        {
+          "name": "Word problems",
+          "boardWeight": 13,
+          "foldsInto": [
+            "word problems (age, speed, fractions, money)"
+          ]
+        },
+        {
+          "name": "Graphical solution",
+          "boardWeight": 10,
+          "foldsInto": [
+            "graphical solution"
+          ]
+        },
+        {
+          "name": "Substitution and elimination",
+          "boardWeight": 5,
+          "foldsInto": [
+            "solving by substitution/elimination"
+          ]
+        },
+        {
+          "name": "Finding unknown constants",
+          "boardWeight": 3,
+          "foldsInto": [
+            "finding unknown constants"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Quadratic Equations",
+      "quota": {
+        "A-mcq (1 mark)": 10,
+        "E-case-study (4 marks, with sub-parts)": 1,
+        "B-short (2 marks)": 1,
+        "C-short (3 marks)": 2,
+        "D-long (5 marks)": 6,
+        "A-assertion-reason (1 mark)": 1
+      },
+      "totalQuestions": 21,
+      "topics": [
+        {
+          "name": "Word problems",
+          "boardWeight": 17,
+          "foldsInto": [
+            "word problems (speed/time, area, numbers)"
+          ]
+        },
+        {
+          "name": "Nature of roots by discriminant",
+          "boardWeight": 9,
+          "foldsInto": [
+            "nature of roots by discriminant"
+          ]
+        },
+        {
+          "name": "Value of k for equal roots",
+          "boardWeight": 8,
+          "foldsInto": [
+            "value of k for equal roots"
+          ]
+        },
+        {
+          "name": "Solving by factorisation or formula",
+          "boardWeight": 4,
+          "foldsInto": [
+            "solving by factorisation or formula",
+            "identifying quadratic equations"
+          ]
+        },
+        {
+          "name": "Sum and product of roots",
+          "boardWeight": 5,
+          "foldsInto": [
+            "sum and product of roots",
+            "forming a quadratic from roots",
+            "conjugate roots of quadratic with rational coefficients",
+            "forming equation from given roots"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Arithmetic Progressions",
+      "quota": {
+        "A-mcq (1 mark)": 10,
+        "D-long (5 marks)": 2,
+        "A-assertion-reason (1 mark)": 2,
+        "C-short (3 marks)": 3,
+        "E-case-study (4 marks, with sub-parts)": 4,
+        "B-short (2 marks)": 1
+      },
+      "totalQuestions": 22,
+      "topics": [
+        {
+          "name": "nth term",
+          "boardWeight": 13,
+          "foldsInto": [
+            "nth term"
+          ]
+        },
+        {
+          "name": "Sum of n terms",
+          "boardWeight": 12,
+          "foldsInto": [
+            "sum of n terms"
+          ]
+        },
+        {
+          "name": "Finding n",
+          "boardWeight": 6,
+          "foldsInto": [
+            "finding n"
+          ]
+        },
+        {
+          "name": "Common difference",
+          "boardWeight": 6,
+          "foldsInto": [
+            "common difference"
+          ]
+        },
+        {
+          "name": "Middle terms and conditions for an AP",
+          "boardWeight": 4,
+          "foldsInto": [
+            "middle terms and conditions for ap"
+          ]
+        },
+        {
+          "name": "Word problems",
+          "boardWeight": 4,
+          "foldsInto": [
+            "word problems"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Triangles",
+      "quota": {
+        "B-short (2 marks)": 7,
+        "D-long (5 marks)": 9,
+        "A-mcq (1 mark)": 18,
+        "C-short (3 marks)": 1,
+        "A-assertion-reason (1 mark)": 1,
+        "E-case-study (4 marks, with sub-parts)": 1
+      },
+      "totalQuestions": 37,
+      "topics": [
+        {
+          "name": "Basic proportionality theorem",
+          "boardWeight": 28,
+          "foldsInto": [
+            "basic proportionality theorem"
+          ]
+        },
+        {
+          "name": "Proofs on similar triangles",
+          "boardWeight": 21,
+          "foldsInto": [
+            "proofs on similar triangles"
+          ]
+        },
+        {
+          "name": "Similarity criteria",
+          "boardWeight": 18,
+          "foldsInto": [
+            "similarity criteria"
+          ]
+        },
+        {
+          "name": "Areas of similar triangles",
+          "boardWeight": 5,
+          "foldsInto": [
+            "areas of similar triangles"
+          ]
+        },
+        {
+          "name": "Pythagoras theorem and its converse",
+          "boardWeight": 4,
+          "foldsInto": [
+            "pythagoras theorem and its converse",
+            "shadow/ladder problems"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Coordinate Geometry",
+      "quota": {
+        "A-mcq (1 mark)": 15,
+        "A-assertion-reason (1 mark)": 2,
+        "C-short (3 marks)": 7,
+        "B-short (2 marks)": 8,
+        "E-case-study (4 marks, with sub-parts)": 2
+      },
+      "totalQuestions": 34,
+      "topics": [
+        {
+          "name": "Distance formula",
+          "boardWeight": 23,
+          "foldsInto": [
+            "distance formula"
+          ]
+        },
+        {
+          "name": "Section formula",
+          "boardWeight": 19,
+          "foldsInto": [
+            "section formula",
+            "finding a point or ratio"
+          ]
+        },
+        {
+          "name": "Geometric shapes from coordinates",
+          "boardWeight": 12,
+          "foldsInto": [
+            "geometric shapes from coordinates"
+          ]
+        },
+        {
+          "name": "Midpoint",
+          "boardWeight": 9,
+          "foldsInto": [
+            "midpoint"
+          ]
+        },
+        {
+          "name": "Points on axes and distance from axes",
+          "boardWeight": 7,
+          "foldsInto": [
+            "axis intercepts and distance from axes",
+            "equations of lines and axes",
+            "distance from axes"
+          ]
+        },
+        {
+          "name": "Collinearity and area of a triangle",
+          "boardWeight": 1,
+          "foldsInto": [
+            "collinearity and area of triangle"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Trigonometry",
+      "quota": {
+        "A-mcq (1 mark)": 22,
+        "B-short (2 marks)": 10,
+        "C-short (3 marks)": 10,
+        "D-long (5 marks)": 6,
+        "A-assertion-reason (1 mark)": 2,
+        "E-case-study (4 marks, with sub-parts)": 4
+      },
+      "totalQuestions": 54,
+      "topics": [
+        {
+          "name": "Identities and proofs",
+          "boardWeight": 38,
+          "foldsInto": [
+            "identities and proofs"
+          ]
+        },
+        {
+          "name": "Heights and distances",
+          "boardWeight": 34,
+          "foldsInto": [
+            "heights and distances (single or two angles of elevation/depression)"
+          ]
+        },
+        {
+          "name": "Ratios of standard angles",
+          "boardWeight": 16,
+          "foldsInto": [
+            "trigonometric ratios of standard angles"
+          ]
+        },
+        {
+          "name": "Evaluating expressions",
+          "boardWeight": 15,
+          "foldsInto": [
+            "evaluating expressions"
+          ]
+        },
+        {
+          "name": "Ratio from a given ratio",
+          "boardWeight": 10,
+          "foldsInto": [
+            "ratio from a given ratio"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Circles",
+      "quota": {
+        "A-mcq (1 mark)": 18,
+        "C-short (3 marks)": 9,
+        "E-case-study (4 marks, with sub-parts)": 1,
+        "A-assertion-reason (1 mark)": 2,
+        "B-short (2 marks)": 5,
+        "D-long (5 marks)": 2
+      },
+      "totalQuestions": 37,
+      "topics": [
+        {
+          "name": "Angle and length problems with tangents",
+          "boardWeight": 30,
+          "foldsInto": [
+            "angle and length problems with tangents"
+          ]
+        },
+        {
+          "name": "Proofs with tangents",
+          "boardWeight": 21,
+          "foldsInto": [
+            "proofs with tangents"
+          ]
+        },
+        {
+          "name": "Tangent perpendicular to radius",
+          "boardWeight": 13,
+          "foldsInto": [
+            "tangent perpendicular to radius"
+          ]
+        },
+        {
+          "name": "Tangents from an external point",
+          "boardWeight": 9,
+          "foldsInto": [
+            "tangents from an external point"
+          ]
+        },
+        {
+          "name": "Circle touching the sides of a figure",
+          "boardWeight": 5,
+          "foldsInto": [
+            "circle touching sides of a figure"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Areas Related to Circles",
+      "quota": {
+        "D-long (5 marks)": 2,
+        "A-mcq (1 mark)": 9,
+        "C-short (3 marks)": 4,
+        "E-case-study (4 marks, with sub-parts)": 4,
+        "A-assertion-reason (1 mark)": 1,
+        "B-short (2 marks)": 1
+      },
+      "totalQuestions": 21,
+      "topics": [
+        {
+          "name": "Area and perimeter of a sector",
+          "boardWeight": 18,
+          "foldsInto": [
+            "area and perimeter of sector",
+            "area and perimeter of sector; arc length"
+          ]
+        },
+        {
+          "name": "Combination figures (shaded regions)",
+          "boardWeight": 10,
+          "foldsInto": [
+            "combination figures (shaded regions)"
+          ]
+        },
+        {
+          "name": "Segment area",
+          "boardWeight": 6,
+          "foldsInto": [
+            "segment area"
+          ]
+        },
+        {
+          "name": "Arc length",
+          "boardWeight": 5,
+          "foldsInto": [
+            "arc length"
+          ]
+        },
+        {
+          "name": "Wheel, clock, garden and wiper contexts",
+          "boardWeight": 4,
+          "foldsInto": [
+            "wheel/clock/garden/wiper contexts"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Surface Areas and Volumes",
+      "quota": {
+        "A-mcq (1 mark)": 9,
+        "C-short (3 marks)": 2,
+        "E-case-study (4 marks, with sub-parts)": 4,
+        "D-long (5 marks)": 4,
+        "A-assertion-reason (1 mark)": 1,
+        "B-short (2 marks)": 1
+      },
+      "totalQuestions": 21,
+      "topics": [
+        {
+          "name": "Volume of combined solids",
+          "boardWeight": 19,
+          "foldsInto": [
+            "combination of solids"
+          ]
+        },
+        {
+          "name": "Surface area of solids",
+          "boardWeight": 18,
+          "foldsInto": [
+            "surface area of combination",
+            "curved surface area of a single solid",
+            "surface area of a single solid",
+            "surface area of a single solid (hemisphere)"
+          ]
+        },
+        {
+          "name": "Capacity and cost problems",
+          "boardWeight": 5,
+          "foldsInto": [
+            "capacity and cost problems"
+          ]
+        },
+        {
+          "name": "Conversion and recasting of solids",
+          "boardWeight": 2,
+          "foldsInto": [
+            "conversion/melting and recasting",
+            "volume of water flowing through a channel"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Statistics",
+      "quota": {
+        "A-mcq (1 mark)": 12,
+        "E-case-study (4 marks, with sub-parts)": 2,
+        "D-long (5 marks)": 7,
+        "C-short (3 marks)": 1
+      },
+      "totalQuestions": 22,
+      "topics": [
+        {
+          "name": "Mean of grouped data",
+          "boardWeight": 12,
+          "foldsInto": [
+            "mean (direct, assumed mean, step deviation)"
+          ]
+        },
+        {
+          "name": "Mean, median and mode relation",
+          "boardWeight": 11,
+          "foldsInto": [
+            "relation between mean/median/mode"
+          ]
+        },
+        {
+          "name": "Median of grouped data",
+          "boardWeight": 9,
+          "foldsInto": [
+            "median of grouped data"
+          ]
+        },
+        {
+          "name": "Missing frequency",
+          "boardWeight": 7,
+          "foldsInto": [
+            "missing frequency"
+          ]
+        },
+        {
+          "name": "Mode of grouped data",
+          "boardWeight": 6,
+          "foldsInto": [
+            "mode of grouped data"
+          ]
+        },
+        {
+          "name": "Cumulative frequency and ogives",
+          "boardWeight": 1,
+          "foldsInto": [
+            "cumulative frequency and ogives"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "Probability",
+      "quota": {
+        "A-mcq (1 mark)": 18,
+        "B-short (2 marks)": 5,
+        "E-case-study (4 marks, with sub-parts)": 3,
+        "A-assertion-reason (1 mark)": 3,
+        "C-short (3 marks)": 3
+      },
+      "totalQuestions": 32,
+      "topics": [
+        {
+          "name": "Dice",
+          "boardWeight": 14,
+          "foldsInto": [
+            "dice (one or two)"
+          ]
+        },
+        {
+          "name": "Numbers and lottery",
+          "boardWeight": 13,
+          "foldsInto": [
+            "numbers/lottery"
+          ]
+        },
+        {
+          "name": "Complementary events",
+          "boardWeight": 9,
+          "foldsInto": [
+            "complementary events"
+          ]
+        },
+        {
+          "name": "Classical probability basics",
+          "boardWeight": 9,
+          "foldsInto": [
+            "classical probability basics",
+            "leap year sundays"
+          ]
+        },
+        {
+          "name": "Balls and bags",
+          "boardWeight": 8,
+          "foldsInto": [
+            "balls/bags"
+          ]
+        },
+        {
+          "name": "Cards",
+          "boardWeight": 8,
+          "foldsInto": [
+            "cards"
+          ]
+        },
+        {
+          "name": "Coins",
+          "boardWeight": 6,
+          "foldsInto": [
+            "coins"
+          ]
+        }
+      ]
+    }
+  ]
+}

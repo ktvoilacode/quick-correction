@@ -1,0 +1,247 @@
+[
+ {
+  "idx": 0,
+  "myAnswer": "C) 5/12",
+  "how": "by hand"
+ },
+ {
+  "idx": 1,
+  "myAnswer": "A) b/sqrt(a^2+b^2)",
+  "how": "by hand"
+ },
+ {
+  "idx": 2,
+  "myAnswer": "B) 25/12",
+  "how": "by hand"
+ },
+ {
+  "idx": 3,
+  "myAnswer": "D) 9",
+  "how": "by hand"
+ },
+ {
+  "idx": 4,
+  "myAnswer": "A) 25/9",
+  "how": "by hand"
+ },
+ {
+  "idx": 5,
+  "myAnswer": "C) 2",
+  "how": "by hand"
+ },
+ {
+  "idx": 6,
+  "myAnswer": "D) A false (cos A=0.8), R true",
+  "how": "by hand"
+ },
+ {
+  "idx": 7,
+  "myAnswer": "31/25",
+  "how": "by hand"
+ },
+ {
+  "idx": 8,
+  "myAnswer": "169/60",
+  "how": "by hand"
+ },
+ {
+  "idx": 9,
+  "myAnswer": "sec A = sqrt(1+m^2), sin A = m/sqrt(1+m^2)",
+  "how": "by hand"
+ },
+ {
+  "idx": 10,
+  "myAnswer": "B) 4/3 (QM=8, tan=8/6)",
+  "how": "python"
+ },
+ {
+  "idx": 11,
+  "myAnswer": "A) 1/3 (=DC/BD)",
+  "how": "by hand"
+ },
+ {
+  "idx": 12,
+  "myAnswer": "C) 8/17",
+  "how": "by hand"
+ },
+ {
+  "idx": 13,
+  "myAnswer": "tan C = 3/4; sec C + cosec C = 5/4+5/3 = 35/12",
+  "how": "python"
+ },
+ {
+  "idx": 14,
+  "myAnswer": "C) 3",
+  "how": "by hand"
+ },
+ {
+  "idx": 15,
+  "myAnswer": "A) 30°",
+  "how": "by hand"
+ },
+ {
+  "idx": 16,
+  "myAnswer": "D) 3",
+  "how": "by hand"
+ },
+ {
+  "idx": 17,
+  "myAnswer": "C) 30°",
+  "how": "by hand"
+ },
+ {
+  "idx": 18,
+  "myAnswer": "D) 0",
+  "how": "by hand"
+ },
+ {
+  "idx": 19,
+  "myAnswer": "B) sqrt3",
+  "how": "by hand"
+ },
+ {
+  "idx": 20,
+  "myAnswer": "B) sin 60°",
+  "how": "by hand"
+ },
+ {
+  "idx": 21,
+  "myAnswer": "C) sec 60°",
+  "how": "by hand"
+ },
+ {
+  "idx": 22,
+  "myAnswer": "D) tan60>tan30",
+  "how": "by hand"
+ },
+ {
+  "idx": 23,
+  "myAnswer": "A) 30°",
+  "how": "by hand"
+ },
+ {
+  "idx": 24,
+  "myAnswer": "B) cosec 0°",
+  "how": "by hand"
+ },
+ {
+  "idx": 25,
+  "myAnswer": "D) A false (cot 90°=0 is defined), R true",
+  "how": "by hand"
+ },
+ {
+  "idx": 26,
+  "myAnswer": "1",
+  "how": "by hand"
+ },
+ {
+  "idx": 27,
+  "myAnswer": "4/3",
+  "how": "python"
+ },
+ {
+  "idx": 28,
+  "myAnswer": "x = 3",
+  "how": "by hand"
+ },
+ {
+  "idx": 29,
+  "myAnswer": "A = 45°, B = 15°",
+  "how": "by hand"
+ },
+ {
+  "idx": 30,
+  "myAnswer": "A = 75°, B = 15°",
+  "how": "by hand"
+ },
+ {
+  "idx": 31,
+  "myAnswer": "(sqrt6+sqrt2)/4",
+  "how": "by hand"
+ },
+ {
+  "idx": 32,
+  "myAnswer": "LHS cos60=1/2, RHS 2cos30=sqrt3; claim false",
+  "how": "by hand"
+ },
+ {
+  "idx": 33,
+  "myAnswer": "A=45°, B=15°; tan60·cot30 = 3",
+  "how": "by hand"
+ },
+ {
+  "idx": 34,
+  "myAnswer": "6",
+  "how": "by hand"
+ },
+ {
+  "idx": 35,
+  "myAnswer": "k = -1",
+  "how": "by hand"
+ },
+ {
+  "idx": 36,
+  "myAnswer": "1",
+  "how": "by hand"
+ },
+ {
+  "idx": 37,
+  "myAnswer": "B) tan^4",
+  "how": "by hand"
+ },
+ {
+  "idx": 38,
+  "myAnswer": "D) sin^2",
+  "how": "by hand"
+ },
+ {
+  "idx": 39,
+  "myAnswer": "A) sin",
+  "how": "by hand"
+ },
+ {
+  "idx": 40,
+  "myAnswer": "B) sin cos",
+  "how": "by hand"
+ },
+ {
+  "idx": 41,
+  "myAnswer": "D) cosec^2-cot^2=1",
+  "how": "by hand"
+ },
+ {
+  "idx": 42,
+  "myAnswer": "C) 1",
+  "how": "by hand"
+ },
+ {
+  "idx": 43,
+  "myAnswer": "D) 4",
+  "how": "by hand"
+ },
+ {
+  "idx": 44,
+  "myAnswer": "A) both true, R explains A",
+  "how": "by hand"
+ },
+ {
+  "idx": 45,
+  "myAnswer": "proof: x^2-y^2 = p^2(cosec^2-cot^2) - q^2(cosec^2-cot^2), cross terms cancel",
+  "how": "by hand"
+ },
+ {
+  "idx": 46,
+  "myAnswer": "proof: divide by sin^2 A; cot A = 5/12",
+  "how": "by hand"
+ },
+ {
+  "idx": 47,
+  "myAnswer": "proof: sin^2/(sin-cos) + cos^2/(cos-sin) = (sin^2-cos^2)/(sin-cos) = sin+cos",
+  "how": "by hand"
+ },
+ {
+  "idx": 48,
+  "myAnswer": "proof: with t=tan, LHS=(1+t)^2/t = 2+t+1/t = 2+sec cosec",
+  "how": "python"
+ }
+]

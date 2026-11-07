@@ -54,7 +54,7 @@ export default function VerifyEmailPage() {
             <AlertDescription>Your address is confirmed. You can sign in now.</AlertDescription>
           </Alert>
           <Button asChild className="mt-6 w-full">
-            <Link to="/login">Continue to sign in <ArrowRight className="size-4" /></Link>
+            <Link to="/auth/login">Continue to sign in <ArrowRight className="size-4" /></Link>
           </Button>
         </>
       )}
@@ -67,7 +67,7 @@ export default function VerifyEmailPage() {
             <AlertDescription>{message || 'This link is invalid or has expired.'}</AlertDescription>
           </Alert>
           <Button variant="outline" asChild className="mt-6 w-full">
-            <Link to="/login">Back to sign in</Link>
+            <Link to="/auth/login">Back to sign in</Link>
           </Button>
         </>
       )}

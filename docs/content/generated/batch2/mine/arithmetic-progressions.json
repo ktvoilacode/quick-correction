@@ -1,0 +1,152 @@
+[
+ {
+  "idx": 0,
+  "myAnswer": "C) 2.5",
+  "how": "by hand"
+ },
+ {
+  "idx": 1,
+  "myAnswer": "D) -3",
+  "how": "by hand"
+ },
+ {
+  "idx": 2,
+  "myAnswer": "B) 35th",
+  "how": "by hand"
+ },
+ {
+  "idx": 3,
+  "myAnswer": "C) 25",
+  "how": "by hand"
+ },
+ {
+  "idx": 4,
+  "myAnswer": "C) 6",
+  "how": "by hand"
+ },
+ {
+  "idx": 5,
+  "myAnswer": "A",
+  "how": "by hand"
+ },
+ {
+  "idx": 6,
+  "myAnswer": "C) 41",
+  "how": "by hand"
+ },
+ {
+  "idx": 7,
+  "myAnswer": "B) -1",
+  "how": "by hand"
+ },
+ {
+  "idx": 8,
+  "myAnswer": "B) Rs110",
+  "how": "by hand"
+ },
+ {
+  "idx": 9,
+  "myAnswer": "D) 10",
+  "how": "by hand"
+ },
+ {
+  "idx": 10,
+  "myAnswer": "D",
+  "how": "by hand"
+ },
+ {
+  "idx": 11,
+  "myAnswer": "D) 9",
+  "how": "python"
+ },
+ {
+  "idx": 12,
+  "myAnswer": "Yes, 21st term",
+  "how": "python"
+ },
+ {
+  "idx": 13,
+  "myAnswer": "2, 7, 12, 17",
+  "how": "python"
+ },
+ {
+  "idx": 14,
+  "myAnswer": "p=9",
+  "how": "by hand"
+ },
+ {
+  "idx": 15,
+  "myAnswer": "-184",
+  "how": "python"
+ },
+ {
+  "idx": 16,
+  "myAnswer": "69",
+  "how": "python"
+ },
+ {
+  "idx": 17,
+  "myAnswer": "3800 (25 terms, 56..248)",
+  "how": "python"
+ },
+ {
+  "idx": 18,
+  "myAnswer": "Rs170",
+  "how": "python"
+ },
+ {
+  "idx": 19,
+  "myAnswer": "a=3, d=-2, a10=-15",
+  "how": "python"
+ },
+ {
+  "idx": 20,
+  "myAnswer": "19",
+  "how": "python"
+ },
+ {
+  "idx": 21,
+  "myAnswer": "7, 9, 11",
+  "how": "python"
+ },
+ {
+  "idx": 22,
+  "myAnswer": "10 instalments, last Rs860",
+  "how": "python"
+ },
+ {
+  "idx": 23,
+  "myAnswer": "25th term",
+  "how": "python"
+ },
+ {
+  "idx": 24,
+  "myAnswer": "-4,-1,2; a20=53",
+  "how": "python"
+ },
+ {
+  "idx": 25,
+  "myAnswer": "3367",
+  "how": "python"
+ },
+ {
+  "idx": 26,
+  "myAnswer": "8 rows, top row 13 pipes",
+  "how": "python"
+ },
+ {
+  "idx": 27,
+  "myAnswer": "a=5,d=4; 24th term; sum 1224",
+  "how": "python"
+ },
+ {
+  "idx": 28,
+  "myAnswer": "180 numbers, sum 98910; other sum 395640",
+  "how": "python"
+ },
+ {
+  "idx": 29,
+  "myAnswer": "(a) Rs34800 (b) 11th year (c) Rs35,28,000",
+  "how": "python"
+ }
+]

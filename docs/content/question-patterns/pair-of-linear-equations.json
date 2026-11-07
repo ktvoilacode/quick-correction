@@ -1,0 +1,1813 @@
+{
+ "chapter": "Pair of Linear Equations",
+ "topics": [
+  {
+   "name": "Consistency conditions",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "LE-CC-01",
+     "pattern": "Recall the coefficient-ratio condition for a given type of pair (consistent and dependent, inconsistent, unique)",
+     "sample": "For the pair $a_1x+b_1y+c_1=0$ and $a_2x+b_2y+c_2=0$ to be consistent and dependent, which condition on the ratios must hold?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-CC-02",
+     "pattern": "Classify two given lines as intersecting, parallel or coincident by comparing coefficients",
+     "sample": "Do the lines $3x-4y=7$ and $6x-8y=5$ intersect, run parallel or coincide?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 13,
+     "seenIn": [
+      "2020 main",
+      "2023 compartment",
+      "2023 main",
+      "2024 main",
+      "2025 compartment",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-CC-03",
+     "pattern": "State the number of solutions of a pair from ratios, including a pair that must first be rearranged",
+     "sample": "How many solutions does the pair $2x-5y=3$ and $6x-15y=9$ have?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2024 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "a5",
+      "cmvqhe94r005z7gd0fnu6e287"
+     ]
+    },
+    {
+     "id": "LE-CC-04",
+     "pattern": "Number of solutions of a pair with one variable in each equation",
+     "sample": "How many solutions does the pair $2x+6=0$ and $3y-9=0$ have?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2020 main",
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-CC-05",
+     "pattern": "Given the relation between the lines, describe the solution set",
+     "sample": "The graph of a pair of linear equations is two coincident lines. How many solutions does the pair have?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2024 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-CC-06",
+     "pattern": "Decide the nature of a pair from a printed graph of the two lines",
+     "sample": "The figure shows one line through $(0,2)$ and $(2,0)$ and another through $(0,4)$ and $(4,0)$. The pair of equations these lines represent is:",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-CC-07",
+     "pattern": "Choose an equation that pairs with a given line to give parallel, coincident or intersecting lines",
+     "sample": "Which equation represents a line parallel to $2x-3y=6$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-CC-08",
+     "pattern": "Assertion-reason: a pair has no solution, reason gives the inconsistency condition",
+     "sample": "A: $x+2y=3$ and $2x+4y=7$ have no solution. R: A pair is inconsistent when $\\frac{a_1}{a_2}=\\frac{b_1}{b_2}\\ne\\frac{c_1}{c_2}$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2hh006x7gcnx9w28cxz"
+     ]
+    },
+    {
+     "id": "LE-CC-09",
+     "pattern": "Assertion-reason: a pair has infinitely many solutions, reason gives the dependency condition",
+     "sample": "A: $2x+3y=4$ and $6x+9y=12$ have infinitely many solutions. R: A pair is dependent when all three coefficient ratios are equal.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe94m005h7gd0pdf40dha"
+     ]
+    },
+    {
+     "id": "LE-CC-10",
+     "pattern": "Assertion-reason: false assertion about a pair with a true general reason",
+     "sample": "A: $2x-y=1$ and $4x-2y=5$ have a unique solution. R: A pair has a unique solution when $\\frac{a_1}{a_2}\\ne\\frac{b_1}{b_2}$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe94m005j7gd0bn1gn5ya"
+     ]
+    },
+    {
+     "id": "LE-CC-11",
+     "pattern": "Assertion-reason: true assertion about a pair with an over-general false reason about lines",
+     "sample": "A: $x-y=2$ and $3x-3y=4$ are inconsistent. R: Any pair without a unique solution represents parallel lines.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-CC-12",
+     "pattern": "Check consistency without solving, for a pair given directly or formed from a simple purchase situation",
+     "sample": "Without solving, check whether $4x-6y=10$ and $6x-9y=15$ is consistent, and state the number of solutions.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2hh006z7gcnk0b8hv8f"
+     ]
+    },
+    {
+     "id": "LE-NEW-02",
+     "pattern": "Case study: two paths or roads given as line equations; classify the lines, test a point, find an intercept and state coefficient-ratio conditions",
+     "sample": "Two tracks in a garden follow $2x+3y=12$ and $4x+6y=18$. (i) Are the tracks parallel, intersecting or coincident? (ii) Does $(3,2)$ lie on the first track? (iii) Where does the first track meet the $y$-axis? (iv) State the condition on the coefficients for the tracks to cross at exactly one point.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2021 compartment"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  },
+  {
+   "name": "Finding unknown constants",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "LE-FU-01",
+     "pattern": "Find k for infinitely many solutions or coincident lines, k in one coefficient",
+     "sample": "Find $k$ so that $2x+3y=5$ and $6x+ky=15$ have infinitely many solutions.",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 14,
+     "seenIn": [
+      "2023 main",
+      "2024 compartment",
+      "2024 main",
+      "2025 compartment",
+      "2025 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2hc006d7gcntsp7c4p5",
+      "cmvqhe94l005b7gd0my7pd3n7"
+     ]
+    },
+    {
+     "id": "LE-FU-02",
+     "pattern": "Find a parameter for infinitely many solutions when it appears in several coefficients, rejecting any false root",
+     "sample": "For which $p$ do $px+4y=p-2$ and $9x+py=p$ have infinitely many solutions?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2020 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2hd006j7gcnq1mcgtvz",
+      "cmvqhe94n005l7gd0i93sjcb7"
+     ]
+    },
+    {
+     "id": "LE-FU-03",
+     "pattern": "Find k for no solution (inconsistent pair)",
+     "sample": "For what value of $k$ do $3x+ky=7$ and $6x+8y=5$ have no solution?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 10,
+     "seenIn": [
+      "2020 main",
+      "2025 compartment",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2hc006f7gcnlkwlcicv",
+      "cmvqhe94l005d7gd09repnuaw"
+     ]
+    },
+    {
+     "id": "LE-FU-04",
+     "pattern": "Find the restriction on k for a unique solution",
+     "sample": "For what values of $k$ does the pair $kx+3y=4$ and $2x+6y=5$ have a unique solution?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2hd006h7gcn69kms059",
+      "cmvqhe94m005f7gd0pepj09hf"
+     ]
+    },
+    {
+     "id": "LE-FU-05",
+     "pattern": "Relate two unknown coefficients when the lines are parallel",
+     "sample": "The lines $ax+3y=5$ and $2x+by=7$ are parallel. Find the value of $ab$.",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2023 compartment",
+      "2023 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-FU-06",
+     "pattern": "A given point solves two equations with unknown constants; find or relate the constants",
+     "sample": "If $x=1$, $y=2$ satisfies $3x+ay=11$ and $bx-y=4$, find $a+b$.",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2024 compartment",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2hg006v7gcnos59icet"
+     ]
+    },
+    {
+     "id": "LE-FU-07",
+     "pattern": "Find a missing coordinate so that a point lies on a given line",
+     "sample": "The point $(3,a)$ lies on the line $2x-y=1$. Find $a$.",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2019 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-FU-08",
+     "pattern": "The solution of a pair also satisfies a third equation; find its constant",
+     "sample": "The solution of $x+y=7$ and $x-y=1$ also lies on $y=mx+1$. Find $m$.",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe94q005t7gd0lyc83a5e"
+     ]
+    },
+    {
+     "id": "LE-FU-09",
+     "pattern": "Assertion-reason on the parameter value for infinitely many versus a unique solution",
+     "sample": "A: $2x+py=6$ and $4x+6y=12$ have infinitely many solutions only if $p=3$. R: The pair has a unique solution only if $p\\ne3$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-FU-10",
+     "pattern": "Find k for infinitely many or no solutions, with working",
+     "sample": "Find $k$ so that $4x+ky=8$ and $2x+3y=4$ have infinitely many solutions.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2019 main"
+     ],
+     "existingIds": [
+      "cmvqhe94s00637gd0y7cmyfjs"
+     ]
+    },
+    {
+     "id": "LE-FU-11",
+     "pattern": "Find the values of k giving exactly one solution, with working",
+     "sample": "Find the values of $k$ for which $3x+ky=5$ and $9x+12y=7$ have a unique solution.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2019 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-FU-12",
+     "pattern": "Given the solution of a pair, find two unknown constants",
+     "sample": "If $x=2$, $y=1$ is the solution of $ax+by=7$ and $bx-ay=4$, find $a$ and $b$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2019 compartment"
+     ],
+     "existingIds": [
+      "cmvqhe94u00697gd0i5pzn4qa"
+     ]
+    },
+    {
+     "id": "LE-FU-13",
+     "pattern": "Find k for infinitely many solutions when k is in all coefficients, full working",
+     "sample": "Find $k$ for which $2x+(k-2)y=k$ and $6x+(2k-1)y=2k+5$ have infinitely many solutions.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe94v006h7gd0ama4td2v"
+     ]
+    },
+    {
+     "id": "LE-FU-14",
+     "pattern": "Find two constants a and b that make a pair have infinitely many solutions",
+     "sample": "Find $a$ and $b$ for which $2x+3y=7$ and $(a+b)x+(2a-b)y=21$ have infinitely many solutions.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2018 compartment",
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2hl007b7gcnq4pmkcks"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Graphical solution",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "LE-GS-01",
+     "pattern": "Describe how the lines x = a and y = b are placed relative to each other and the axes",
+     "sample": "How are the lines $x=4$ and $y=-1$ placed relative to each other on a graph?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2023 main",
+      "2024 compartment",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-GS-02",
+     "pattern": "Find the point where two given lines intersect",
+     "sample": "The lines $y=2x-3$ and $y=-x+3$ are drawn on the same graph. They intersect at the point",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2he006l7gcndn175qru",
+      "cmvqhe94o005p7gd0a4jg907b"
+     ]
+    },
+    {
+     "id": "LE-GS-03",
+     "pattern": "Read the solution of a pair from a printed graph",
+     "sample": "The figure shows the lines $x+y=5$ and $x-y=1$ with their meeting point marked. The solution of the pair is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "LE-GS-04",
+     "pattern": "From a printed graph with marked intersection points, identify the equation of a line",
+     "sample": "The figure shows three lines meeting in pairs, two of the meeting points being $(1,2)$ and $(3,4)$. The line through both points has the equation",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-GS-05",
+     "pattern": "Find the distance between axis-intercept points of one or two lines",
+     "sample": "The graphs of $2x+y=8$ and $x-y=1$ cut the $x$-axis at $A$ and $B$. The distance $AB$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2he006n7gcnutb4h9hg",
+      "cmvqhe94o005n7gd0xckg62p4"
+     ]
+    },
+    {
+     "id": "LE-GS-06",
+     "pattern": "Area of the triangle formed by one line and the two axes",
+     "sample": "The area of the triangle formed by $2x+3y=12$ and the coordinate axes is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "LE-GS-07",
+     "pattern": "Area of the triangle formed by two lines and an axis, no drawing asked",
+     "sample": "The area of the triangle formed by $x+y=6$, $x-y=0$ and the $x$-axis is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "LE-GS-08",
+     "pattern": "Assertion-reason on where x = a and y = b meet and their directions",
+     "sample": "A: The lines $x=2$ and $y=5$ intersect at $(2,5)$. R: A line $x=a$ is parallel to the $y$-axis and a line $y=b$ is parallel to the $x$-axis.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "LE-GS-09",
+     "pattern": "Short graph work: solve x = a and y = b, or test the consistency of a simple pair by graph",
+     "sample": "Solve $x=2$ and $y=-3$ graphically.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-GS-10",
+     "pattern": "Find axis intercepts of a line or lines and the area of the resulting triangle",
+     "sample": "The line $2x+5y=20$ is drawn on a graph. Find where it cuts the axes and the area of the triangle it forms with them.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2hi00717gcno90qcdae",
+      "cmvqhe94t00657gd0wyxkdd7s"
+     ]
+    },
+    {
+     "id": "LE-GS-11",
+     "pattern": "Solve a pair by drawing both lines and reading the solution, including x = a with a slanted line",
+     "sample": "Solve graphically: $x+y=5$ and $2x-y=1$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2019 main",
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-GS-12",
+     "pattern": "Check consistency of a pair, then solve it graphically",
+     "sample": "Check whether $x+2y=4$ and $2x-y=3$ is consistent, and solve it graphically.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2025 compartment",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-GS-13",
+     "pattern": "Solve graphically and find the difference between the y-intercepts of the two lines",
+     "sample": "Solve $x+y=4$ and $2x-y=5$ graphically, and find the difference between the $y$-intercepts of the two lines.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-GS-14",
+     "pattern": "Draw two lines, read the solution and shade or find the area of the triangle with an axis",
+     "sample": "Solve $x+y=5$ and $x-y=1$ graphically, shade the triangle they form with the $y$-axis, and find its area.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2023 compartment"
+     ],
+     "existingIds": [
+      "cmvq9r2hl007d7gcnx0s1866i",
+      "cmvqhe94v006f7gd0tkfq7cs6"
+     ]
+    },
+    {
+     "id": "LE-GS-15",
+     "pattern": "Full graphical solution of a pair as a long answer, with intercepts stated",
+     "sample": "Solve $2x+y=8$ and $x-y=1$ graphically. State where each line meets the $y$-axis.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-GS-16",
+     "pattern": "Plot two lines, find the vertices of the triangle with an axis, shade it and find its area",
+     "sample": "Draw $x+y=6$ and $2x-y=0$. Find the vertices of the triangle they form with the $x$-axis, shade it and find its area.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2hm007f7gcnzljri8bm"
+     ]
+    },
+    {
+     "id": "LE-GS-17",
+     "pattern": "Plot three lines, none of them an axis, find the triangle's vertices and area",
+     "sample": "Draw $x+y=6$, $x-y=2$ and $x=1$ on one graph. Find the vertices of the triangle they enclose and its area.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2020 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-GS-18",
+     "pattern": "Model a purchase situation as two equations and find the prices graphically",
+     "sample": "2 pens and 3 notebooks cost ₹80; 1 pen and 2 notebooks cost ₹50. Form the equations and find both prices graphically.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Substitution and elimination",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "LE-SE-01",
+     "pattern": "Solve a simple pair and evaluate an expression in x and y",
+     "sample": "If $y=x+1$ and $2x+y=7$, then $x+y$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2018 compartment"
+     ],
+     "existingIds": [
+      "cmvq9r2hg006t7gcnm2cuur8k",
+      "cmvqhe94p005r7gd0qi0ce9yw"
+     ]
+    },
+    {
+     "id": "LE-SE-02",
+     "pattern": "Use swapped coefficients to read x + y or x - y without solving fully",
+     "sample": "If $5x+3y=13$ and $3x+5y=11$, then $x+y$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-SE-03",
+     "pattern": "Solve a pair with literal coefficients for an expression in x and y",
+     "sample": "If $ax-by=a^2+b^2$ and $x+y=2a$, with $a+b\\ne0$, then $x-y$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main",
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-SE-04",
+     "pattern": "Assertion-reason on whether a given point solves a pair",
+     "sample": "A: $x=3$, $y=1$ is a solution of $x+y=4$ and $x-y=2$. R: A solution of a pair must satisfy both equations.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "LE-SE-05",
+     "pattern": "Solve a pair by substitution or elimination, verify, or find x - y",
+     "sample": "Solve $3x+2y=12$ and $x-y=-1$ by elimination, and verify your answer.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 13,
+     "seenIn": [
+      "2019 main",
+      "2020 main",
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "b2",
+      "cmvq9r2hi00737gcnw2gayj6x",
+      "cmvqhe94s00617gd02emos35r",
+      "cmvqhe94u006b7gd0wfbbsf1p"
+     ]
+    },
+    {
+     "id": "LE-SE-06",
+     "pattern": "Solve a pair with swapped large coefficients by adding and subtracting",
+     "sample": "Solve: $47x+53y=147$ and $53x+47y=153$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-SE-07",
+     "pattern": "Solve a pair with irrational coefficients",
+     "sample": "Solve: $x+\\sqrt{2}y=3$ and $x-\\sqrt{2}y=-1$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "LE-SE-08",
+     "pattern": "Spot and correct the error in a worked substitution",
+     "sample": "A student solving $x+y=5$ and $2x-y=4$ writes $y=5-x$, then $2x-5-x=4$. Find the error and give the correct solution.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "LE-SE-09",
+     "pattern": "Solve a pair with fractional coefficients by clearing denominators",
+     "sample": "Solve: $\\frac{x}{2}+\\frac{y}{3}=4$ and $\\frac{x}{4}-\\frac{y}{3}=-1$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe94w006j7gd0oghelf4p"
+     ]
+    },
+    {
+     "id": "LE-SE-10",
+     "pattern": "Solve a pair with swapped large coefficients, full working",
+     "sample": "Solve: $37x+43y=123$ and $43x+37y=117$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Word problems",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "LE-WP-01",
+     "pattern": "Choose the pair of equations that models a situation, no solving",
+     "sample": "5 pens and 2 books cost ₹70, and 3 pens and 4 books cost ₹84. Which pair of equations models this?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-WP-02",
+     "pattern": "Find a number from the sum and difference of two numbers",
+     "sample": "The sum of two numbers is 50 and their difference is 12. The smaller number is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2hf006p7gcnavscwrvx"
+     ]
+    },
+    {
+     "id": "LE-WP-03",
+     "pattern": "From two price combinations, find the cost of a third combination",
+     "sample": "2 kg of sugar and 1 kg of rice cost ₹160; 1 kg of sugar and 2 kg of rice cost ₹140. The cost of 3 kg of each is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2hf006r7gcnbkcsviy7"
+     ]
+    },
+    {
+     "id": "LE-WP-04",
+     "pattern": "Find a dimension from a rectangle's perimeter and a relation between its sides",
+     "sample": "The perimeter of a rectangle is 60 m and its length exceeds its breadth by 6 m. The length is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe94q005v7gd0r8g92ufn"
+     ]
+    },
+    {
+     "id": "LE-WP-05",
+     "pattern": "Find a count of coins from the total number and total value",
+     "sample": "A box has only ₹2 and ₹5 coins: 20 coins worth ₹70 in all. The number of ₹5 coins is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe94r005x7gd0ukow9lg9"
+     ]
+    },
+    {
+     "id": "LE-WP-06",
+     "pattern": "Find a present age from a combined age and a past-age relation",
+     "sample": "The ages of A and B add up to 50 years. A's age now is 3 times B's age 6 years ago. A's present age is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-WP-07",
+     "pattern": "Two quantities from a sum and a difference: numbers, or supplementary angles",
+     "sample": "Two supplementary angles differ by $40^\\circ$. Form the equations and find the angles.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2019 main",
+      "2023 compartment",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-WP-08",
+     "pattern": "Short age problem with a present relation and one future condition",
+     "sample": "A mother is 4 times as old as her daughter. After 6 years she will be 3 times as old. Find their present ages.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe94t00677gd0wt79s74y"
+     ]
+    },
+    {
+     "id": "LE-WP-09",
+     "pattern": "Find x and y from side expressions marked on a printed rectangle",
+     "sample": "In the figure of a rectangle, opposite sides are marked $x+y$ and 12, and the other two sides $x-y$ and 4. Find $x$ and $y$.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2018 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-WP-10",
+     "pattern": "Find two numbers or scores from direct relations between them",
+     "sample": "One number is 5 more than twice another. If each is increased by 3, their sum becomes 35. Find the numbers.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2023 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-WP-11",
+     "pattern": "Find ages from two conditions, past and future, or a parent and children's combined age",
+     "sample": "Four years ago A was 3 times as old as B. Four years from now A will be twice as old as B. Find their present ages.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2019 main",
+      "2023 compartment",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2hl00797gcnhn0eifpz"
+     ]
+    },
+    {
+     "id": "LE-WP-12",
+     "pattern": "Two-digit number from its digit sum and a reversal condition",
+     "sample": "The digits of a two-digit number add up to 8. Adding 18 to the number reverses its digits. Find the number.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2020 main",
+      "2023 main",
+      "2024 compartment",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2hj00757gcngzk3m5rk"
+     ]
+    },
+    {
+     "id": "LE-WP-13",
+     "pattern": "Two-digit number from a quotient and remainder on division by its digit sum, with a reversal condition",
+     "sample": "A two-digit number divided by its digit sum gives quotient 7 and remainder 3. Interchanging the digits reduces the number by 27. Find it.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe94y006l7gd0zeu40wim"
+     ]
+    },
+    {
+     "id": "LE-WP-14",
+     "pattern": "Recover a fraction from two changes to its numerator and denominator",
+     "sample": "Adding 1 to the numerator of a fraction makes it $\\frac{1}{2}$. Adding 1 to the denominator instead makes it $\\frac{1}{3}$. Find the fraction.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2020 main",
+      "2021 compartment",
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2hj00777gcnwk6r4rg9"
+     ]
+    },
+    {
+     "id": "LE-WP-15",
+     "pattern": "Find two speeds from meeting times in opposite and same directions",
+     "sample": "Two cyclists start 60 km apart. Riding towards each other they meet in 2 hours; riding the same way, in 6 hours. Find their speeds.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-WP-16",
+     "pattern": "Two categories with a total count and a weighted total: notes, or marks with a penalty",
+     "sample": "A customer withdraws ₹2500 in ₹100 and ₹500 notes, 13 notes in all. How many notes of each kind are there?",
+     "slot": "C",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvqhe94v006d7gd0muhqx9mw"
+     ]
+    },
+    {
+     "id": "LE-WP-17",
+     "pattern": "Find incomes from income and expenditure ratios and equal savings",
+     "sample": "Incomes of A and B are in the ratio $5:4$ and expenses in the ratio $3:2$. Each saves ₹2000. Form the equations and find the incomes.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-WP-18",
+     "pattern": "Find a fixed charge and a daily rate from two bills",
+     "sample": "A hostel bill is ₹1500 for 15 days of food and ₹2100 for 25 days. Find the fixed charge and the daily food rate.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2019 main",
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-WP-19",
+     "pattern": "Find two invested amounts from total interest and a swapped-rate scenario",
+     "sample": "Two sums at 8% and 10% yearly simple interest earn ₹1600 a year. Swapping the rates earns ₹40 more. Find the sums.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-WP-20",
+     "pattern": "Cross-chapter: one linear and one product or square condition, ending in a quadratic",
+     "sample": "A two-digit number is 4 times the sum of its digits and 3 times the product of its digits. Find the number.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2022 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-WP-21",
+     "pattern": "Find still-water and current speeds when the travel times are given and the equations are linear",
+     "sample": "A boat goes 64 km in 3 h downstream and 2 h upstream, and 56 km in 2 h downstream and 3 h upstream. Find the boat and stream speeds.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2020 main"
+     ],
+     "existingIds": [
+      "cmvqhe94y006n7gd072o7ze9a"
+     ]
+    },
+    {
+     "id": "LE-WP-22",
+     "pattern": "Rectangle whose area is unchanged under two changes of its sides",
+     "sample": "A rectangle's area is unchanged if its length falls by 5 m and breadth rises by 3 m, and also if length rises by 5 m and breadth falls by 2 m. Find its dimensions.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvqhe94z006p7gd0nwk7bcb1"
+     ]
+    },
+    {
+     "id": "LE-WP-23",
+     "pattern": "Find ages from past and future ratio conditions as a long answer",
+     "sample": "Ten years ago A was 3 times as old as B. Ten years from now A will be twice as old as B. Find their present ages.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "LE-WP-24",
+     "pattern": "Find the number of questions in a test from two marking schemes",
+     "sample": "A student scores 70 at +4 per right and -1 per wrong answer, and would score 80 at +5 and -2. All questions were attempted. How many were there?",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-WP-25",
+     "pattern": "Case study: tickets with a total count and total takings, then revenue under a change",
+     "sample": "A park sells 200 tickets, child ₹50 and adult ₹100, for ₹14000. (i) Write the equations. (ii) Find the children's tickets. (iii) Find the takings if the adult price rises by ₹10.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2024 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-WP-26",
+     "pattern": "Case study: two groups with different mixes and totals, find the two unit amounts",
+     "sample": "School P gives 3 hockey and 2 cricket prizes for ₹1700; school Q gives 1 and 4 for ₹1900. (i) Write the equations. (ii) Find the hockey prize. (iii) Find the cost of 2 of each.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2hn007l7gcnjw4bndvc"
+     ]
+    },
+    {
+     "id": "LE-WP-27",
+     "pattern": "Case study: renting items at fixed cost and count, then a bounded alternative",
+     "sample": "60 chairs and tables are rented at ₹50 and ₹200 for ₹6000. (i) Write the equations. (ii) Find the tables. (iii) With 60 items and at most ₹7000, find the most tables possible.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-WP-28",
+     "pattern": "Case study: fixed charge plus a rate, from two bills",
+     "sample": "A plumber charges a call-out fee plus an hourly rate: ₹500 for 2 h, ₹950 for 5 h. (i) Write the equations. (ii) Find the rate. (iii) Find the fee and the charge for 8 h.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2hn007n7gcn6z50uac8"
+     ]
+    },
+    {
+     "id": "LE-WP-29",
+     "pattern": "Case study: compare two plans, find the break-even point and the cheaper choice",
+     "sample": "Plan A costs ₹100 plus ₹5 per GB; plan B costs ₹40 plus ₹8 per GB. (i) Write the equations. (ii) Find the break-even usage. (iii) Which plan is cheaper for 30 GB, and by how much?",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe94z006r7gd0r4r11svr"
+     ]
+    },
+    {
+     "id": "LE-WP-30",
+     "pattern": "Case study: read two cost lines from a printed graph and interpret them",
+     "sample": "A graph shows two gyms' costs, $y=400+100x$ and $y=200+150x$, for $x$ months. (i) Name the fixed fees. (ii) Find the month the costs match. (iii) Find that cost and the cheaper gym after 6 months.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Equations reducible to a linear pair",
+   "scope": "verify",
+   "scopeNote": "Believed cut from the rationalised syllabus, not confirmed from an official source. The only board evidence is a 2019 row tagged legacy; no 2024-2026 row tests it. Targets are 0. Bank questions 22 and 23 use this method, so a person must decide whether to keep them.",
+   "patterns": [
+    {
+     "id": "LE-RD-01",
+     "pattern": "Solve a pair with the variables in the denominators by substituting for the reciprocals",
+     "sample": "Solve: $\\frac{2}{x}+\\frac{3}{y}=2$ and $\\frac{4}{x}-\\frac{3}{y}=1$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2019 main",
+      "2020 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "LE-RD-02",
+     "pattern": "Speed word problem where the distance and time data give equations in reciprocals of the speeds",
+     "sample": "A boat covers 24 km downstream and 16 km upstream in 4 h, and 12 km downstream and 32 km upstream in 5 h. Find the boat and stream speeds.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2hm007h7gcn3q21l9i0",
+      "cmvq9r2hn007j7gcnavjvzgcx"
+     ]
+    },
+    {
+     "id": "LE-NEW-01",
+     "pattern": "Work problem: two pipes or workers with combined and partial-time data give a linear pair in the reciprocals of their individual times",
+     "sample": "Two taps together fill a tank in $6$ hours. If the first runs for $4$ hours and the second for $9$ hours, the tank is filled completely. Find the time each tap alone takes.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2020 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  },
+  {
+   "name": "Cross-multiplication method",
+   "scope": "verify",
+   "scopeNote": "Believed cut from the rationalised syllabus, not confirmed from an official source. No board row and no bank question uses it. Targets are 0.",
+   "patterns": [
+    {
+     "id": "LE-CM-01",
+     "pattern": "Solve a pair by the cross-multiplication method",
+     "sample": "Solve by cross-multiplication: $2x+3y=8$ and $3x-y=1$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    }
+   ]
+  }
+ ],
+ "outOfScope": [],
+ "fixes": [
+  {
+   "n": 1,
+   "issue": "Topic is General and it is a one-step ratio check, tagged medium",
+   "suggest": "Topic Consistency conditions, complexity easy",
+   "id": "a5"
+  },
+  {
+   "n": 2,
+   "issue": "Topic is General",
+   "suggest": "Topic Substitution and elimination",
+   "id": "b2"
+  },
+  {
+   "n": 6,
+   "issue": "Tagged hard, but one ratio gives k and the other confirms it",
+   "suggest": "medium",
+   "id": "cmvq9r2hd006j7gcnq1mcgtvz"
+  },
+  {
+   "n": 22,
+   "issue": "Labelled Word problems, but the equations are in reciprocals of the speeds, a method believed cut from the syllabus",
+   "suggest": "Topic Equations reducible to a linear pair; hold until scope is verified",
+   "id": "cmvq9r2hm007h7gcn3q21l9i0"
+  },
+  {
+   "n": 23,
+   "issue": "Labelled Word problems, but the equations are in reciprocals of the speeds, a method believed cut from the syllabus",
+   "suggest": "Topic Equations reducible to a linear pair; hold until scope is verified",
+   "id": "cmvq9r2hn007j7gcnavjvzgcx"
+  },
+  {
+   "n": 26,
+   "issue": "Tagged easy, but needs forming two equations and solving them",
+   "suggest": "medium",
+   "id": "cmvqhe94q005v7gd0r8g92ufn"
+  },
+  {
+   "n": 32,
+   "issue": "Tagged medium, but the set-up is not obvious: products must be expanded and cancelled to reach linear equations",
+   "suggest": "hard",
+   "id": "cmvqhe94z006p7gd0nwk7bcb1"
+  },
+  {
+   "n": 36,
+   "issue": "Table, two graphs, intersection and triangle area are too much for 2 marks",
+   "suggest": "Move to slot C",
+   "id": "cmvq9r2hi00717gcno90qcdae"
+  },
+  {
+   "n": 43,
+   "issue": "Tagged easy, but needs solving the pair and then evaluating an expression",
+   "suggest": "medium",
+   "id": "cmvq9r2hg006t7gcnm2cuur8k"
+  },
+  {
+   "n": 46,
+   "issue": "Filed under Substitution and elimination, but it asks for the nature of the pair",
+   "suggest": "Topic Consistency conditions",
+   "id": "cmvqhe94r005z7gd0fnu6e287"
+  }
+ ]
+}

@@ -1,0 +1,2004 @@
+{
+ "chapter": "Polynomials",
+ "topics": [
+  {
+   "name": "Zeroes and coefficients",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "PO-ZC-01",
+     "pattern": "State the sum of zeroes of a quadratic from its coefficients",
+     "sample": "The sum of the zeroes of $3x^{2} - 12x + 5$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2023 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ho007p7gcn01pq69l5"
+     ]
+    },
+    {
+     "id": "PO-ZC-02",
+     "pattern": "State the product of zeroes of a quadratic from its coefficients",
+     "sample": "The product of the zeroes of $4x^{2} + 7x - 8$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2020 main"
+     ],
+     "existingIds": [
+      "cmvq9r2hp007r7gcnu3wt37lb"
+     ]
+    },
+    {
+     "id": "PO-ZC-03",
+     "pattern": "Evaluate 1/alpha + 1/beta for a given quadratic",
+     "sample": "If $\\alpha, \\beta$ are the zeroes of $x^{2} - 7x + 10$, then $\\frac{1}{\\alpha} + \\frac{1}{\\beta}$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2023 main",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2hp007t7gcnikl7tgl3"
+     ]
+    },
+    {
+     "id": "PO-ZC-04",
+     "pattern": "Evaluate alpha^2 + beta^2 for a numeric or literal quadratic",
+     "sample": "If $\\alpha, \\beta$ are the zeroes of $x^{2} - 5x + 3$, then $\\alpha^{2} + \\beta^{2}$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2023 main",
+      "2024 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvq9r2hq007x7gcnr53x7kwx"
+     ]
+    },
+    {
+     "id": "PO-ZC-05",
+     "pattern": "Evaluate alpha + beta + alpha*beta directly from coefficients",
+     "sample": "If $\\alpha, \\beta$ are the zeroes of $x^{2} - 6x + 2$, then $\\alpha + \\beta + \\alpha\\beta$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-ZC-06",
+     "pattern": "Evaluate alpha/beta + beta/alpha in a one-mark question",
+     "sample": "If $\\alpha, \\beta$ are the zeroes of $x^{2} - 5x + 2$, then $\\frac{\\alpha}{\\beta} + \\frac{\\beta}{\\alpha}$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2021 compartment"
+     ],
+     "existingIds": [
+      "cmvqhe95400737gd0fiq982k3"
+     ]
+    },
+    {
+     "id": "PO-ZC-07",
+     "pattern": "Judge an assertion applying the sum or product formula to a quadratic, with the formula as reason",
+     "sample": "Assertion (A): The product of the zeroes of $3x^{2} + 4x - 6$ is $2$. Reason (R): The product of the zeroes of $ax^{2} + bx + c$ is $\\frac{c}{a}$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2hy008l7gcnvdugdsz4"
+     ]
+    },
+    {
+     "id": "PO-ZC-08",
+     "pattern": "Evaluate alpha^2*beta + alpha*beta^2",
+     "sample": "If $\\alpha, \\beta$ are the zeroes of $2x^{2} - 3x - 5$, find $\\alpha^{2}\\beta + \\alpha\\beta^{2}$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2hz008p7gcnqriwhz4v"
+     ]
+    },
+    {
+     "id": "PO-ZC-09",
+     "pattern": "Evaluate alpha + beta + alpha*beta or (1 - alpha)(1 - beta) in two marks",
+     "sample": "If $p, q$ are the zeroes of $x^{2} - 7x + 5$, find the value of $(1 - p)(1 - q)$.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-ZC-10",
+     "pattern": "Evaluate alpha/beta + beta/alpha or a similar symmetric fraction in two marks",
+     "sample": "If $\\alpha, \\beta$ are the zeroes of $2x^{2} - 5x + 1$, find $\\frac{\\alpha}{\\beta} + \\frac{\\beta}{\\alpha}$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-ZC-11",
+     "pattern": "Find alpha - beta from the sum and product relations",
+     "sample": "If $\\alpha, \\beta$ are the zeroes of $x^{2} - 9x + 14$ with $\\alpha > \\beta$, find $\\alpha - \\beta$ using the relations between zeroes and coefficients.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvqhe959007j7gd0x7c22hfy"
+     ]
+    },
+    {
+     "id": "PO-ZC-12",
+     "pattern": "Evaluate alpha^3 + beta^3 using an algebraic identity",
+     "sample": "If $\\alpha, \\beta$ are the zeroes of $x^{2} - 4x + 1$, find $\\alpha^{3} + \\beta^{3}$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe958007h7gd056zr18g1"
+     ]
+    },
+    {
+     "id": "PO-ZC-13",
+     "pattern": "Evaluate a compound expression mixing reciprocals and the product of zeroes",
+     "sample": "If $\\alpha, \\beta$ are the zeroes of $3x^{2} - 4x + 1$, find $\\frac{1}{\\alpha} + \\frac{1}{\\beta} - 3\\alpha\\beta$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2024 compartment"
+     ],
+     "existingIds": [
+      "cmvq9r2hz008t7gcnqltplukj"
+     ]
+    },
+    {
+     "id": "PO-ZC-14",
+     "pattern": "Multi-part chain of symmetric expressions without finding the zeroes",
+     "sample": "$\\alpha, \\beta$ are the zeroes of $x^{2} - 7x + 3$. Without finding them, evaluate (i) $\\alpha^{2} + \\beta^{2}$ (ii) $(\\alpha - \\beta)^{2}$ (iii) $\\alpha^{3} + \\beta^{3}$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Finding zeroes of a quadratic",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "PO-FZ-01",
+     "pattern": "Find the zeroes of a quadratic with integer coefficients by factorising",
+     "sample": "The zeroes of $x^{2} - 2x - 15$ are",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 16,
+     "seenIn": [
+      "2020 main",
+      "2023 compartment",
+      "2023 main",
+      "2024 main",
+      "2025 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-FZ-02",
+     "pattern": "Find the zeroes of a quadratic with an irrational middle coefficient, one mark",
+     "sample": "The zeroes of $x^{2} - 3\\sqrt{2}x + 4$ are",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-FZ-03",
+     "pattern": "Find the zeroes of a pure quadratic with no linear term",
+     "sample": "The zeroes of $9x^{2} - 16$ are",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "PO-FZ-04",
+     "pattern": "Pick which listed value is a zero by substitution",
+     "sample": "Which of the numbers $2, 3, 4, 5$ is a zero of $x^{2} + x - 12$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "PO-FZ-05",
+     "pattern": "Find the zeroes of a quadratic with an irrational coefficient, two marks",
+     "sample": "Find the zeroes of $x^{2} + 2\\sqrt{3}x - 9$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-FZ-06",
+     "pattern": "Find zeroes and verify the relations for a simple quadratic in two marks",
+     "sample": "Find the zeroes of $x^{2} - 3x - 10$ and verify that their sum equals $-\\frac{b}{a}$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2hy008n7gcnv3llzvla"
+     ]
+    },
+    {
+     "id": "PO-FZ-07",
+     "pattern": "Find zeroes and verify both relations, including non-standard order or surd coefficients",
+     "sample": "Find the zeroes of $4x^{2} - 12x + 5$ and verify the relationship between the zeroes and the coefficients.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 2,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": [
+      "c2"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Zeroes from a graph",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "PO-GR-01",
+     "pattern": "Count the zeroes from a printed graph of y = p(x)",
+     "sample": "The printed curve $y = p(x)$ crosses the $x$-axis at $x = -3$ and $x = 1$ and touches it at $x = 4$. The number of zeroes of $p(x)$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 3,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 19,
+     "seenIn": [
+      "2020 main",
+      "2023 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-GR-02",
+     "pattern": "Count the zeroes from a worded description of the graph",
+     "sample": "The graph of $y = p(x)$ meets the $x$-axis at exactly four distinct points. The number of zeroes of $p(x)$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "a3",
+      "cmvq9r2hs00837gcnbnfidbrm"
+     ]
+    },
+    {
+     "id": "PO-GR-03",
+     "pattern": "Count the distinct zeroes across two polynomials drawn on one graph",
+     "sample": "Printed graphs show $y = f(x)$ meeting the $x$-axis at $-2$ and $3$, and $y = g(x)$ meeting it at $3$ and $5$. The total number of distinct zeroes is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-GR-04",
+     "pattern": "Deduce the number of zeroes from a parabola's opening direction and vertex",
+     "sample": "A parabola $y = p(x)$ opens upwards and its lowest point is $(2, 3)$. The number of zeroes of $p(x)$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2ht00857gcnxwjxyx1e",
+      "cmvqhe953006z7gd05xltgtfx"
+     ]
+    },
+    {
+     "id": "PO-GR-05",
+     "pattern": "Read signs of a, b, c or the discriminant from a printed parabola",
+     "sample": "A printed parabola $y = ax^{2} + bx + c$ opens downwards and cuts the $x$-axis at two points. Which statement about $a$ and $b^{2} - 4ac$ is true?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-GR-06",
+     "pattern": "Read the zeroes from a printed quadratic graph and give their sum or product",
+     "sample": "A printed parabola $y = p(x)$ cuts the $x$-axis at $x = -1$ and $x = 5$. The sum of the zeroes of $p(x)$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "PO-GR-07",
+     "pattern": "Decide the opening direction of a parabola from its leading coefficient",
+     "sample": "The graph of $y = 3 + 2x - x^{2}$ is a parabola that",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "PO-GR-08",
+     "pattern": "Assertion-reason linking the number of x-axis crossings to the number of zeroes",
+     "sample": "Assertion (A): A curve cutting the $x$-axis at 5 points belongs to a polynomial with 5 zeroes. Reason (R): Zeroes of $p(x)$ are the $x$-coordinates where $y = p(x)$ meets the $x$-axis.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-GR-09",
+     "pattern": "Assertion-reason on a graph touching the x-axis once and the maximum number of zeroes",
+     "sample": "Assertion (A): A parabola touching the $x$-axis at exactly one point has only one distinct zero. Reason (R): A polynomial of degree 2 has at most two zeroes.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-GR-10",
+     "pattern": "Build a quadratic from its x-intercepts and leading coefficient, and give the y-intercept",
+     "sample": "A parabola with leading coefficient 3 cuts the $x$-axis at $(1, 0)$ and $(4, 0)$. Find the polynomial and the point where its graph cuts the $y$-axis.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe957007f7gd0zjs4feny"
+     ]
+    },
+    {
+     "id": "PO-GR-11",
+     "pattern": "Read intercepts from a printed parabola, find the polynomial, and verify the relations",
+     "sample": "A printed parabola cuts the $x$-axis at $-3$ and $1$ and the $y$-axis at $(0, -6)$. Find the quadratic polynomial and verify the relations between its zeroes and coefficients.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "PO-GR-12",
+     "pattern": "Draw a parabola from a table, read its zeroes and check them algebraically",
+     "sample": "Draw the graph of $y = x^{2} - 2x - 3$ for $-2 \\le x \\le 4$. Read the zeroes from your graph and verify them by factorisation and by the sum and product relations.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Forming a polynomial from zeroes",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "PO-FO-01",
+     "pattern": "Choose the quadratic having two given rational zeroes",
+     "sample": "A quadratic polynomial whose zeroes are $\\frac{1}{2}$ and $-3$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2023 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2hu00897gcn45uw088x"
+     ]
+    },
+    {
+     "id": "PO-FO-02",
+     "pattern": "Choose the quadratic from a given sum and product of zeroes",
+     "sample": "A quadratic polynomial with sum of zeroes $-3$ and product of zeroes $2$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 12,
+     "seenIn": [
+      "2020 main",
+      "2023 main",
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-FO-03",
+     "pattern": "State how many polynomials can have two given zeroes",
+     "sample": "The number of quadratic polynomials having $4$ and $-1$ as zeroes is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2hv008b7gcn9rxnecs8"
+     ]
+    },
+    {
+     "id": "PO-FO-04",
+     "pattern": "Choose the quadratic having conjugate surd zeroes",
+     "sample": "A quadratic polynomial whose zeroes are $1 + \\sqrt{5}$ and $1 - \\sqrt{5}$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2023 main",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2hv008d7gcn1dkwak8v"
+     ]
+    },
+    {
+     "id": "PO-FO-05",
+     "pattern": "Choose the quadratic whose zeroes are a multiple of another quadratic's zeroes",
+     "sample": "A quadratic polynomial whose zeroes are twice the zeroes of $x^{2} - 5x + 6$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "PO-FO-06",
+     "pattern": "Write a quadratic from two fractional zeroes, two marks",
+     "sample": "Find a quadratic polynomial whose zeroes are $\\frac{2}{3}$ and $-\\frac{1}{4}$.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvqhe957007d7gd0868d22l4"
+     ]
+    },
+    {
+     "id": "PO-FO-07",
+     "pattern": "Write a quadratic from a fractional sum and product of zeroes, two marks",
+     "sample": "Find a quadratic polynomial whose sum of zeroes is $\\frac{2}{3}$ and product of zeroes is $-\\frac{1}{3}$.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "PO-FO-08",
+     "pattern": "Form a quadratic whose zeroes are reciprocal-type expressions of a given quadratic's zeroes, two marks",
+     "sample": "If $\\alpha, \\beta$ are the zeroes of $2x^{2} - 5x + 3$, form a quadratic polynomial with zeroes $\\frac{1}{3\\alpha}$ and $\\frac{1}{3\\beta}$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-FO-09",
+     "pattern": "Form a quadratic from sum and product, then factorise it for its zeroes",
+     "sample": "The sum of the zeroes of a quadratic polynomial is $1$ and their product is $-6$. Find the polynomial and its zeroes.",
+     "slot": "C",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2019 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-FO-10",
+     "pattern": "Form a quadratic with reciprocal-type zeroes of a given quadratic, three marks",
+     "sample": "If $\\alpha, \\beta$ are the zeroes of $3x^{2} + 5x + 2$, find a quadratic polynomial whose zeroes are $\\frac{2}{\\alpha}$ and $\\frac{2}{\\beta}$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2020 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvqhe95b007p7gd06e466cuy"
+     ]
+    },
+    {
+     "id": "PO-FO-11",
+     "pattern": "Form a quadratic whose zeroes are the sum and the product of another quadratic's zeroes",
+     "sample": "If $\\alpha, \\beta$ are the zeroes of $3x^{2} - 8x + 4$, find a quadratic polynomial whose zeroes are $(\\alpha + \\beta)$ and $\\alpha\\beta$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2i0008v7gcnl4xivhs9"
+     ]
+    },
+    {
+     "id": "PO-FO-12",
+     "pattern": "Find a quadratic's zeroes, then form one with zeroes scaled or shifted by a constant",
+     "sample": "Find the zeroes of $x^{2} - 5x + 6$. Hence form a quadratic polynomial whose zeroes are each 2 more than these.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2025 compartment",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-FO-13",
+     "pattern": "Form a quadratic from the sum and the difference of its zeroes",
+     "sample": "The sum of the zeroes of a quadratic polynomial is $9$ and their difference is $3$. Find the polynomial.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2024 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-FO-14",
+     "pattern": "Factorise, verify the relations, then form a polynomial with multiplied zeroes",
+     "sample": "For $p(x) = 6x^{2} - 7x - 5$: (i) find its zeroes (ii) verify the relations with the coefficients (iii) find a quadratic polynomial whose zeroes are three times these.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe95f007z7gd0z37km4q8"
+     ]
+    },
+    {
+     "id": "PO-FO-15",
+     "pattern": "Form several quadratics with different transformed zeroes of one given quadratic",
+     "sample": "$\\alpha, \\beta$ are the zeroes of $2x^{2} - 3x - 2$. Form quadratics with zeroes (i) $\\alpha^{2}, \\beta^{2}$ (ii) $\\alpha + 1, \\beta + 1$ (iii) $\\frac{1}{\\alpha}, \\frac{1}{\\beta}$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Unknown coefficients from conditions on zeroes",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "PO-UN-01",
+     "pattern": "Find k when the sum of zeroes is given",
+     "sample": "If the sum of the zeroes of $x^{2} - (2k - 1)x + 7$ is $9$, the value of $k$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2hp007v7gcnhwh98dbb"
+     ]
+    },
+    {
+     "id": "PO-UN-02",
+     "pattern": "Find k or a coefficient when the zeroes are reciprocals, one mark",
+     "sample": "One zero of $5x^{2} + 13x + (k + 1)$ is the reciprocal of the other. The value of $k$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2018 compartment",
+      "2023 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2hr007z7gcn53ewtamy"
+     ]
+    },
+    {
+     "id": "PO-UN-03",
+     "pattern": "Find k when the sum of zeroes equals their product",
+     "sample": "The sum of the zeroes of $kx^{2} - 12x + 3k$ equals their product. The value of $k$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2024 main",
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-UN-04",
+     "pattern": "Find k from a stated value of sum plus or minus product of zeroes",
+     "sample": "For $x^{2} - (k + 1)x + 2k$, the sum of the zeroes plus their product is $10$. The value of $k$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2025 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-UN-05",
+     "pattern": "Find two coefficients when both zeroes are given",
+     "sample": "The zeroes of $x^{2} + (a - 1)x + b$ are $2$ and $-5$. The values of $a$ and $b$ are",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-UN-06",
+     "pattern": "Find a coefficient when one quadratic's zeroes are a multiple of another's",
+     "sample": "The zeroes of $x^{2} + px + q$ are three times the zeroes of $x^{2} - 5x + 6$. The value of $p$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-UN-07",
+     "pattern": "Find the constant term from the difference of the zeroes, one mark",
+     "sample": "The zeroes of $x^{2} - 10x + k$ differ by $4$. The value of $k$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2hs00817gcno9cx14ob"
+     ]
+    },
+    {
+     "id": "PO-UN-08",
+     "pattern": "Find k when zeroes are reciprocal or equal and opposite, then give the zeroes",
+     "sample": "The zeroes of $6x^{2} - 13x + (k + 3)$ are reciprocals of each other. Find $k$ and the zeroes.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2023 main",
+      "2025 compartment"
+     ],
+     "existingIds": [
+      "cmvq9r2hz008r7gcni62wcquc"
+     ]
+    },
+    {
+     "id": "PO-UN-09",
+     "pattern": "Find k when the sum of zeroes is a stated multiple of their product",
+     "sample": "The sum of the zeroes of $x^{2} - 6x + (k + 1)$ is twice their product. Find $k$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2019 main",
+      "2024 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-UN-10",
+     "pattern": "Find the constant term from the difference of the zeroes, three marks",
+     "sample": "The zeroes of $x^{2} - 11x + k$ differ by $3$. Find $k$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2025 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-UN-11",
+     "pattern": "Find k from the sum of squares of the zeroes, then find the zeroes",
+     "sample": "The sum of the squares of the zeroes of $x^{2} - 8x + k$ is $40$. Find $k$ and the zeroes.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe95d007r7gd0d4zonqet"
+     ]
+    },
+    {
+     "id": "PO-UN-12",
+     "pattern": "Find k when one zero is a stated multiple of the other, handling both cases",
+     "sample": "One zero of $x^{2} - (k + 1)x + 18$ is twice the other. Find all possible values of $k$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2025 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-UN-13",
+     "pattern": "Multi-part: find k from a condition on zeroes, find the zeroes, then form a related polynomial",
+     "sample": "The zeroes $\\alpha, \\beta$ of $x^{2} - 5x + k$ satisfy $\\alpha^{2} + \\beta^{2} = 13$. Find (i) $k$ (ii) the zeroes, verifying the relations (iii) a quadratic with zeroes $\\alpha + 1$ and $\\beta + 1$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "PO-NEW-03",
+     "pattern": "Find k when one zero of a quadratic is a stated multiple of the other, one mark",
+     "sample": "If one zero of $x^2 - 6x + k$ is twice the other, find $k$. (Answer: $k = 8$)",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    },
+    {
+     "id": "PO-NEW-04",
+     "pattern": "Find two unknown coefficients of a quadratic when both its zeroes are given, three marks",
+     "sample": "If $2$ and $-\\frac{1}{3}$ are the zeroes of $ax^2 - 5x + c$, find $a$ and $c$. (Answer: $a = 3$, $c = -2$)",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2019 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  },
+  {
+   "name": "Value of k from a zero",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "PO-VK-01",
+     "pattern": "Find k by substituting a given zero into a quadratic",
+     "sample": "If $-3$ is a zero of $x^{2} + kx - 6$, the value of $k$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2020 main",
+      "2023 main",
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "a4",
+      "cmvq9r2hw008f7gcnmetorp9p"
+     ]
+    },
+    {
+     "id": "PO-VK-02",
+     "pattern": "Find k by substituting a given zero into a cubic",
+     "sample": "If $-1$ is a zero of $x^{3} + kx^{2} - 4x + 2$, the value of $k$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe95300717gd0vufhxyln"
+     ]
+    },
+    {
+     "id": "PO-VK-03",
+     "pattern": "Find k from a given zero and then find the other zero",
+     "sample": "If $-2$ is a zero of $3x^{2} + 2x + k$, find $k$ and the other zero.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe95600797gd0q6j64kdj"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Number and nature of zeroes",
+   "scope": "core",
+   "scopeNote": "The discriminant patterns borrow from Quadratic Equations; the board tested the idea in a 2023 assertion-reason row, and later rows test only the at-most-n-zeroes fact.",
+   "patterns": [
+    {
+     "id": "PO-NZ-01",
+     "pattern": "Choose the true statement about how many zeroes a polynomial of given degree can have",
+     "sample": "A polynomial of degree 3 can have at most how many distinct zeroes?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2020 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-NZ-02",
+     "pattern": "Pick the quadratic with no real zero or with two distinct real zeroes",
+     "sample": "Which of the following polynomials has no real zero: $x^{2} + 2x + 5$, $x^{2} - 4$, $x^{2} - 2x + 1$, $x^{2} + 3x$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2hx008h7gcnqupv2s5r",
+      "cmvqhe951006v7gd00eu2saa5"
+     ]
+    },
+    {
+     "id": "PO-NZ-03",
+     "pattern": "Find k when a parabola touches the x-axis, one mark",
+     "sample": "The graph of $y = x^{2} + kx + 16$ touches the $x$-axis at exactly one point. The values of $k$ are",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "PO-NZ-04",
+     "pattern": "Assertion-reason on real zeroes using the discriminant test",
+     "sample": "Assertion (A): $x^{2} + 5x + 7$ has no real zeroes. Reason (R): $ax^{2} + bx + c$ has no real zeroes when $b^{2} - 4ac < 0$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2hx008j7gcn80a5h78n"
+     ]
+    },
+    {
+     "id": "PO-NZ-05",
+     "pattern": "Assertion-reason: a given quadratic has two zeroes, with the at-most-two fact as reason",
+     "sample": "Assertion (A): $y^{2} - 5y + 6$ has two zeroes. Reason (R): A quadratic polynomial has at most two zeroes.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-NZ-06",
+     "pattern": "Assertion-reason testing claims about how many zeroes a cubic can have",
+     "sample": "Assertion (A): A cubic polynomial can have at most three zeroes. Reason (R): The graph of a cubic polynomial can meet the $x$-axis in at most three points.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe952006x7gd0ii5ic7nb"
+     ]
+    },
+    {
+     "id": "PO-NZ-07",
+     "pattern": "Find k when a parabola touches the x-axis, two marks",
+     "sample": "The graph of $y = 9x^{2} + kx + 4$ touches the $x$-axis at exactly one point. Find the possible values of $k$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe956007b7gd0z7r9ilo0"
+     ]
+    },
+    {
+     "id": "PO-NZ-08",
+     "pattern": "Find k when a parabola touches the x-axis and give the zero for each k",
+     "sample": "Find the values of $k$ for which the graph of $y = x^{2} - 2(k - 1)x + 16$ touches the $x$-axis at exactly one point. For each such $k$, find the zero.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe95e007v7gd0ex6p7lys"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Degree, terms and value of a polynomial",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "PO-BT-01",
+     "pattern": "Evaluate a polynomial at given points and combine the results",
+     "sample": "For $p(x) = x^{2} - 3x + 2$, the value of $p(1) + p(-1)$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-BT-02",
+     "pattern": "Identify the degree or type of a polynomial written out of order",
+     "sample": "The degree of the polynomial $4 - x^{2} + 3x^{3}$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "PO-BT-03",
+     "pattern": "Assertion-reason on the degree of constant and zero polynomials",
+     "sample": "Assertion (A): The degree of the polynomial $7$ is $0$. Reason (R): The degree of the zero polynomial is not defined.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-NEW-01",
+     "pattern": "From a list of algebraic expressions, count how many are not polynomials and how many are quadratic polynomials",
+     "sample": "From $3x^2-5$, $\\sqrt{x}+2$, $\\frac{1}{x}+x$, $7x^3-x$, $2x^2+\\sqrt{3}x$, $x^{-2}+4$, how many are not polynomials and how many are quadratic?",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2020 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  },
+  {
+   "name": "Real-life polynomial models",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "PO-RL-01",
+     "pattern": "Case study: projectile height as a quadratic in time, with zeroes, value at a time, and times for a given height",
+     "sample": "A toy rocket's height is $h(t) = 6t - t^{2}$ metres. (i) Find the zeroes of $h$. (ii) Find $h(2)$. (iii) At what times is the height 5 m?",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2023 main",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2i1008x7gcnn4gz21vi"
+     ]
+    },
+    {
+     "id": "PO-RL-02",
+     "pattern": "Case study: printed arch modelled by a downward parabola, with height, zeroes, span and symmetric values",
+     "sample": "A printed gate arch follows $p(x) = -x^{2} + 4x + 5$. (i) Find the height at $x = 0$. (ii) Find the zeroes. (iii) Find the span, and compare $p(1)$ with $p(3)$.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-RL-03",
+     "pattern": "Case study: plotted curve in context, count and name zeroes, then find a coefficient from zero conditions",
+     "sample": "A printed garden-path curve cuts the $x$-axis at $-2$ and $4$. (i) How many zeroes? (ii) Name them. (iii) The zeroes of $x^{2} - 6x + p$ have squared difference $16$; find $p$.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-RL-04",
+     "pattern": "Case study: dimensions of a plot given as the zeroes of a quadratic",
+     "sample": "The length and breadth (in m) of a plot are the zeroes of $x^{2} - 14x + 45$. (i) Find the perimeter. (ii) Find the area. (iii) Form a quadratic for dimensions each 2 m longer.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2i1008z7gcnt5y8s86l"
+     ]
+    },
+    {
+     "id": "PO-RL-05",
+     "pattern": "Case study: business profit modelled by a downward parabola, with break-even points and values",
+     "sample": "A shop's daily profit is $P(x) = -x^{2} + 9x - 14$. (i) Does the graph open up or down? (ii) Find the break-even values of $x$. (iii) Compare $P(4)$ and $P(5)$.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe95h00897gd0vqtl3m88"
+     ]
+    },
+    {
+     "id": "PO-RL-06",
+     "pattern": "Long answer: real-life quadratic with several linked parts on zeroes and relations",
+     "sample": "A stone's height is $h(t) = -5t^{2} + 20t + 25$ metres. (i) Find the zeroes of $h$. (ii) When does it hit the ground? (iii) Find $h(2)$. (iv) Verify the sum and product relations.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Division algorithm and evaluation",
+   "scope": "verify",
+   "scopeNote": "The polynomial division algorithm is on the believed-cut list. Every division row on the board is legacy (2018, 2019); the one 2024 row tagged division actually tests the degree of the zero polynomial, so it sits under degree patterns. Targets 0 unless a person confirms the syllabus. Evaluation is kept as a core pattern under Degree, terms and value.",
+   "patterns": [
+    {
+     "id": "PO-DV-01",
+     "pattern": "Find the remainder on dividing by a linear factor",
+     "sample": "The remainder when $x^{3} + x^{2} - 4x + 5$ is divided by $x - 1$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe951006t7gd0xms92alt"
+     ]
+    },
+    {
+     "id": "PO-DV-02",
+     "pattern": "Divide a cubic by a quadratic and write the quotient and remainder",
+     "sample": "Divide $x^{3} + 2x^{2} - 3x + 1$ by $x^{2} + 1$ and write the quotient and the remainder.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2021 compartment"
+     ],
+     "existingIds": [
+      "cmvqhe95500757gd0hwpe65y4"
+     ]
+    },
+    {
+     "id": "PO-DV-03",
+     "pattern": "Rebuild p(x) from the divisor, quotient and remainder",
+     "sample": "When $p(x)$ is divided by $x^{2} + 2$, the quotient is $x - 3$ and the remainder is $2x + 1$. Find $p(x)$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2020 main"
+     ],
+     "existingIds": [
+      "cmvqhe95500777gd0bzvzp70n"
+     ]
+    },
+    {
+     "id": "PO-DV-04",
+     "pattern": "Divide a cubic by a quadratic and verify the division algorithm",
+     "sample": "Divide $2x^{3} + x^{2} - 4x + 3$ by $x^{2} + x - 1$ and verify the division algorithm.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe959007l7gd0uy7d0ctc"
+     ]
+    },
+    {
+     "id": "PO-DV-05",
+     "pattern": "Decide by division whether a quadratic is a factor of a quartic",
+     "sample": "Show by division that $x^{2} - 2$ is a factor of $x^{4} + x^{3} - 3x^{2} - 2x + 2$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2019 main"
+     ],
+     "existingIds": [
+      "cmvqhe95a007n7gd0vqmd7czw"
+     ]
+    },
+    {
+     "id": "PO-DV-06",
+     "pattern": "Find k so that a quartic is exactly divisible by a quadratic",
+     "sample": "Find $k$ so that $x^{4} + 2x^{3} - 3x^{2} - 2x + k$ is exactly divisible by $x^{2} - 1$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2019 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-DV-07",
+     "pattern": "Find all zeroes of a quartic given a surd pair of zeroes",
+     "sample": "Two zeroes of $x^{4} - x^{3} - 8x^{2} + 2x + 12$ are $\\sqrt{2}$ and $-\\sqrt{2}$. Find the other zeroes.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2018 main",
+      "2019 compartment",
+      "2019 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "PO-DV-08",
+     "pattern": "Find all zeroes of a quartic given two rational zeroes, with the division shown in parts",
+     "sample": "Two zeroes of $x^{4} - x^{3} - 19x^{2} - 11x + 30$ are $1$ and $-2$. (i) Form the quadratic factor. (ii) Divide. (iii) Find the other zeroes.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2018 compartment",
+      "2020 main"
+     ],
+     "existingIds": [
+      "cmvqhe95g00837gd04kdg74eb"
+     ]
+    },
+    {
+     "id": "PO-DV-09",
+     "pattern": "Long division of a quartic with verification and a degree comparison",
+     "sample": "Divide $2x^{4} + 3x^{3} - x^{2} + x + 1$ by $x^{2} + x + 1$. (i) Find $q(x)$ and $r(x)$. (ii) Verify the division algorithm. (iii) Compare the degrees of $r(x)$ and the divisor.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe95f00817gd03kf9a88e"
+     ]
+    },
+    {
+     "id": "PO-DV-10",
+     "pattern": "Find unknown coefficients from a quadratic factor, then the quotient and all real zeroes",
+     "sample": "$x^{2} - x - 2$ is a factor of $x^{4} + ax^{3} + bx^{2} - 7x - 6$. (i) Find $a$ and $b$. (ii) Find the quotient. (iii) Find all real zeroes.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe95h00877gd0bp5isx7k"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Cubic polynomials: zeroes and coefficients",
+   "scope": "verify",
+   "scopeNote": "Not on the believed-cut list, but we believe the syllabus wording limits the coefficient relations to quadratics, and no board row in any year tests cubic relations (the 2025 cubic row only asks about the number of zeroes). Targets 0 until a person confirms.",
+   "patterns": [
+    {
+     "id": "PO-CU-01",
+     "pattern": "Find the sum of a cubic's zeroes from where its graph meets the x-axis",
+     "sample": "The graph of a cubic polynomial meets the $x$-axis at exactly $(-2, 0)$, $(1, 0)$ and $(4, 0)$. The sum of its zeroes is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2ht00877gcn9d4r5pwh"
+     ]
+    },
+    {
+     "id": "PO-CU-02",
+     "pattern": "Form a cubic from its zeroes and leading coefficient, and verify the relations",
+     "sample": "Find the cubic polynomial with zeroes $2$, $-1$ and $\\frac{1}{3}$ and leading coefficient 3. Verify that the product of the zeroes equals $-\\frac{d}{a}$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe95d007t7gd0xew4ffyb"
+     ]
+    },
+    {
+     "id": "PO-CU-03",
+     "pattern": "Find a cubic from its x-intercepts and y-intercept, and verify a relation",
+     "sample": "A cubic's graph cuts the $x$-axis at $1$, $2$ and $-3$, and the $y$-axis at $(0, 12)$. Find the polynomial and verify that the sum of its zeroes equals $-\\frac{b}{a}$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe95e007x7gd04lip0vt8"
+     ]
+    },
+    {
+     "id": "PO-CU-04",
+     "pattern": "Find a cubic's zeroes given that they are in arithmetic progression",
+     "sample": "The zeroes of $x^{3} - 6x^{2} + 3x + 10$ are in AP. Write them as $a - d$, $a$, $a + d$ and find $a$, $d$ and all three zeroes.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe95g00857gd0naio0zon"
+     ]
+    },
+    {
+     "id": "PO-NEW-02",
+     "pattern": "Given two zeroes of a cubic, find its third zero",
+     "sample": "Two zeroes of $x^3-6x^2+11x-6$ are $1$ and $2$. Find the third zero.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2019 main",
+      "2020 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  }
+ ],
+ "outOfScope": [],
+ "fixes": [
+  {
+   "n": 1,
+   "issue": "Tagged medium, but it is a one-step recall and nearly duplicates Q23",
+   "suggest": "easy; consider dropping one of Q1 and Q23",
+   "id": "a3"
+  },
+  {
+   "n": 7,
+   "issue": "Tagged medium, but it is one step: k + 3 = 9",
+   "suggest": "easy",
+   "id": "cmvq9r2hp007v7gcnhwh98dbb"
+  },
+  {
+   "n": 10,
+   "issue": "Tagged hard, but it is two short steps from sum and difference",
+   "suggest": "medium",
+   "id": "cmvq9r2hs00817gcno9cx14ob"
+  },
+  {
+   "n": 12,
+   "issue": "Tagged easy, but it needs factorising plus verifying both relations. It uses the same polynomial as Q3, and two full verifications are a lot for 2 marks",
+   "suggest": "medium; rewrite with a new polynomial or retire it",
+   "id": "cmvq9r2hy008n7gcnv3llzvla"
+  },
+  {
+   "n": 16,
+   "issue": "Tagged easy, but it needs alpha^2 + beta^2 first, then a fraction",
+   "suggest": "medium",
+   "id": "cmvqhe95400737gd0fiq982k3"
+  },
+  {
+   "n": 18,
+   "issue": "Tagged easy, but it needs (alpha - beta)^2 from the sum and product",
+   "suggest": "medium",
+   "id": "cmvqhe959007j7gd0x7c22hfy"
+  },
+  {
+   "n": 19,
+   "issue": "Tagged easy, but it is an identity, then k, then factorising",
+   "suggest": "medium",
+   "id": "cmvqhe95d007r7gd0d4zonqet"
+  },
+  {
+   "n": 20,
+   "issue": "Tagged easy, but it is a three-part long answer",
+   "suggest": "medium",
+   "id": "cmvqhe95f007z7gd0z37km4q8"
+  },
+  {
+   "n": 21,
+   "issue": "Topic label says Zeroes and coefficients, but the task is division of a quartic",
+   "suggest": "topic: Division algorithm and evaluation",
+   "id": "cmvqhe95g00837gd04kdg74eb"
+  },
+  {
+   "n": 34,
+   "issue": "Tagged hard, but it is a standard 2-3 step formation",
+   "suggest": "medium",
+   "id": "cmvq9r2i0008v7gcnl4xivhs9"
+  },
+  {
+   "n": 39,
+   "issue": "Topic label says Value of k from a zero, but the condition is on the zeroes, and no zero is given",
+   "suggest": "topic: Unknown coefficients from conditions on zeroes",
+   "id": "cmvq9r2hz008r7gcni62wcquc"
+  }
+ ]
+}

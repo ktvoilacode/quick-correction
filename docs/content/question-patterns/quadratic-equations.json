@@ -1,0 +1,2133 @@
+{
+ "chapter": "Quadratic Equations",
+ "topics": [
+  {
+   "name": "Identifying and forming quadratic equations",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "QE-IDF-01",
+     "pattern": "Pick the option that is a quadratic equation",
+     "sample": "Which of these is a quadratic equation: $x^2+\\sqrt{x}=3$, $(x-1)(x+2)=0$, $x^3+1=0$, $2x+5=0$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-IDF-02",
+     "pattern": "Simplify each equation to spot the one that is not really quadratic",
+     "sample": "Which equation is not quadratic after simplifying: $(x+1)^2=x^2+3$, $(x+2)^2=2x^2+1$, $x(x+1)=5$, $(x-3)(x+3)=2x$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "QE-IDF-03",
+     "pattern": "Choose the equation that represents a real-life situation",
+     "sample": "A hall is 6 m longer than it is wide and has area $135\\text{ m}^2$. If the width is $x$ m, which equation represents this?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "QE-IDF-04",
+     "pattern": "Assertion-reason: an equation that looks quadratic but reduces to lower degree",
+     "sample": "A: $(x+2)^2=x^2+5$ is not a quadratic equation. R: An equation is quadratic only if its degree is 2 after simplification.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Roots and unknown coefficients",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "QE-RTS-01",
+     "pattern": "Given a root, substitute to find the unknown coefficient",
+     "sample": "If $x=2$ is a root of $3x^2+kx-8=0$, the value of $k$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 15,
+     "seenIn": [
+      "2015 main",
+      "2016 main",
+      "2018 main",
+      "2019 main",
+      "2023 main",
+      "2024 compartment",
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-RTS-02",
+     "pattern": "Test which listed value is a root",
+     "sample": "Which of $3$, $2$, $-2$, $-1$ is a root of $2x^2-x-6=0$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "QE-RTS-03",
+     "pattern": "A known root fixes a parameter, then use it in a second quadratic (common root or equal roots)",
+     "sample": "$x=2$ is a common root of $x^2+ax-8=0$ and $x^2-5x+b=0$. Find the value of $a^2b$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2012 main",
+      "2016 main",
+      "2017 compartment"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Solving by factorisation or formula",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "QE-SOL-01",
+     "pattern": "Roots of a simple monic factorable quadratic",
+     "sample": "The roots of $x^2+2x-15=0$ are",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2011 main",
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2il00b17gcnaogg8z2m"
+     ]
+    },
+    {
+     "id": "QE-SOL-02",
+     "pattern": "Roots of a pure quadratic or a binomial square equal to a constant",
+     "sample": "The roots of $(x-2)^2=9$ are",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2020 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "a6"
+     ]
+    },
+    {
+     "id": "QE-SOL-03",
+     "pattern": "Roots of a non-monic factorable quadratic",
+     "sample": "The roots of $3x^2-5x-2=0$ are",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe95x009f7gd0wseswakm"
+     ]
+    },
+    {
+     "id": "QE-SOL-04",
+     "pattern": "Roots of a quadratic with a surd coefficient",
+     "sample": "The roots of $x^2-\\sqrt{2}x-4=0$ are",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "QE-SOL-05",
+     "pattern": "Use the quadratic formula to get irrational roots",
+     "sample": "The roots of $x^2-4x+1=0$ are",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "QE-SOL-06",
+     "pattern": "Spot the error in a worked solution (lost root by cancelling the variable)",
+     "sample": "A student divides both sides of $x^2=5x$ by $x$ and writes only $x=5$. The complete solution is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "QE-SOL-07",
+     "pattern": "Solve a non-monic quadratic by factorisation",
+     "sample": "Solve $6x^2-7x-3=0$ by factorisation.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2020 main"
+     ],
+     "existingIds": [
+      "cmvqhe96500a57gd02bot7a7o"
+     ]
+    },
+    {
+     "id": "QE-SOL-08",
+     "pattern": "Solve a quadratic with a surd coefficient",
+     "sample": "Solve $x^2+3\\sqrt{3}x-30=0$ for $x$.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 11,
+     "seenIn": [
+      "2011 main",
+      "2013 main",
+      "2015 main",
+      "2017 compartment",
+      "2017 main",
+      "2022 compartment",
+      "2022 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-SOL-09",
+     "pattern": "Solve by the quadratic formula when the roots are irrational",
+     "sample": "Solve $2x^2-6x+3=0$ using the quadratic formula.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe96800af7gd0dhvx4zgk"
+     ]
+    },
+    {
+     "id": "QE-SOL-10",
+     "pattern": "Solve a quadratic with letter coefficients",
+     "sample": "Solve for $x$: $x^2-2ax+a^2-9b^2=0$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 8,
+     "seenIn": [
+      "2012 main",
+      "2014 main",
+      "2015 main",
+      "2019 main",
+      "2022 main"
+     ],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Rational equations reducible to quadratics",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "QE-RAT-01",
+     "pattern": "Values of x from x + 1/x = constant",
+     "sample": "The values of $x$ satisfying $x+\\frac{1}{x}=\\frac{5}{2}$ are",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2il00b37gcn745uwvmd"
+     ]
+    },
+    {
+     "id": "QE-RAT-02",
+     "pattern": "Values of x from a difference or sum of two simple fractions",
+     "sample": "The values of $x$ satisfying $\\frac{1}{x}-\\frac{1}{x+3}=\\frac{1}{6}$ are",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvqhe962009t7gd01snnwhdr"
+     ]
+    },
+    {
+     "id": "QE-RAT-03",
+     "pattern": "Solve a rational equation with linear denominators by reducing it to a quadratic",
+     "sample": "Solve for $x$: $\\frac{6}{x}-1=\\frac{3}{x+2}$, where $x\\ne 0,-2$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2014 main",
+      "2016 main",
+      "2020 main",
+      "2023 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvqhe96e00az7gd0zch40pk6"
+     ]
+    },
+    {
+     "id": "QE-RAT-04",
+     "pattern": "Solve a rational equation whose denominators are products of linear factors",
+     "sample": "Solve: $\\frac{1}{(x-1)(x-2)}+\\frac{1}{(x-2)(x-3)}=\\frac{2}{3}$, where $x\\ne 1,2,3$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2016 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-RAT-05",
+     "pattern": "Clear three linear-denominator terms to standard form, then solve",
+     "sample": "Solve: $\\frac{1}{x+1}+\\frac{2}{x+2}=\\frac{4}{x+4}$, where $x\\ne -1,-2,-4$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 10,
+     "seenIn": [
+      "2015 main",
+      "2016 main",
+      "2017 compartment",
+      "2017 main",
+      "2019 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-RAT-06",
+     "pattern": "Solve a reciprocal-sum equation with letter parameters",
+     "sample": "Solve for $x$: $\\frac{1}{2a+b+2x}=\\frac{1}{2a}+\\frac{1}{b}+\\frac{1}{2x}$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2013 main",
+      "2016 main",
+      "2019 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-NEW-01",
+     "pattern": "Solve an equation with the square root of a linear expression by squaring it into a quadratic and rejecting the extraneous root",
+     "sample": "Solve $\\sqrt{3x+10} = x + 2$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2016 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  },
+  {
+   "name": "Nature of roots by discriminant",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "QE-NAT-01",
+     "pattern": "Compute the discriminant, simplifying to standard form if needed",
+     "sample": "The discriminant of $(x+1)(x-2)=3$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2019 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "a7"
+     ]
+    },
+    {
+     "id": "QE-NAT-03",
+     "pattern": "State the nature of roots of a given quadratic",
+     "sample": "The equation $3x^2-2x+1=0$ has",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2019 main",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ii00at7gcnpm64tqdx",
+      "cmvq9r2ij00av7gcnvbrhapim",
+      "cmvqhe95y009h7gd0hxcjhh4d"
+     ]
+    },
+    {
+     "id": "QE-NAT-04",
+     "pattern": "Count real roots by reading the form (square plus a positive constant)",
+     "sample": "The number of real roots of $(x+1)^2+2=0$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe963009z7gd0be264o3y"
+     ]
+    },
+    {
+     "id": "QE-NAT-05",
+     "pattern": "Discriminant value given, find the unknown constant",
+     "sample": "If the discriminant of $2x^2-3x+c=0$ is $1$, then $c$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-NAT-06",
+     "pattern": "Range of the parameter for real roots",
+     "sample": "The equation $x^2+kx+9=0$ has real roots for",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2019 main",
+      "2020 main"
+     ],
+     "existingIds": [
+      "cmvqhe961009r7gd06w2t0u0u"
+     ]
+    },
+    {
+     "id": "QE-NAT-07",
+     "pattern": "Range or least integer value of the parameter for no real roots",
+     "sample": "The equation $3x^2+2x+k=0$ has no real roots when",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2019 main",
+      "2020 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ik00az7gcna108zhzp"
+     ]
+    },
+    {
+     "id": "QE-NAT-08",
+     "pattern": "Pick a permissible parameter value for distinct real roots",
+     "sample": "If $x^2+px+2p=0$ has two distinct real roots, a possible value of $p$ from $2$, $4$, $8$, $9$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-NAT-09",
+     "pattern": "Parameter value for rational roots (discriminant a perfect square)",
+     "sample": "The least positive integer $k$ for which $x^2-5x+k=0$ has rational roots is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2023 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-NAT-10",
+     "pattern": "Assertion-reason: nature of roots of a specific quadratic against the discriminant condition",
+     "sample": "A: $5x^2-3x+2=0$ has no real roots. R: If $b^2-4ac<0$, then $ax^2+bx+c=0$ has no real roots.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 compartment"
+     ],
+     "existingIds": [
+      "cmvqhe95z009l7gd0y84amxty"
+     ]
+    },
+    {
+     "id": "QE-NAT-11",
+     "pattern": "Assertion-reason: a claim about roots for all values of a parameter",
+     "sample": "A: $x^2+kx-1=0$ has real roots for every real $k$. R: A quadratic has real roots when $b^2-4ac\\ge 0$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2io00bd7gcnao8j3tph"
+     ]
+    },
+    {
+     "id": "QE-NAT-12",
+     "pattern": "Find the discriminant and comment on the nature of roots",
+     "sample": "Find the discriminant of $2x^2-2\\sqrt{6}x+3=0$ and state the nature of its roots.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "QE-NAT-13",
+     "pattern": "Show that a quadratic with letter coefficients has no real roots",
+     "sample": "Show that $x^2+2ax+2a^2+b^2=0$ has no real roots when $b\\ne 0$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2017 main"
+     ],
+     "existingIds": [
+      "cmvqhe96600a77gd0y6wfbep8"
+     ]
+    },
+    {
+     "id": "QE-NAT-14",
+     "pattern": "Use the discriminant to decide whether a real-life design is possible",
+     "sample": "Can a rectangular plot have perimeter 36 m and area $90\\text{ m}^2$? Justify using the discriminant.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe96d00ax7gd00727i1du"
+     ]
+    },
+    {
+     "id": "QE-NAT-15",
+     "pattern": "Find the least parameter value for real roots, then find those roots",
+     "sample": "Find the least positive value of $p$ for which $x^2-px+9=0$ has real roots, and solve the equation for that $p$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Value of k for equal roots",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "QE-VAL-01",
+     "pattern": "k for equal roots when k sits in a single coefficient",
+     "sample": "The values of $k$ for which $3x^2+kx+12=0$ has equal roots are",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 2,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 16,
+     "seenIn": [
+      "2019 compartment",
+      "2020 main",
+      "2023 compartment",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ij00ax7gcno0mo4ud9"
+     ]
+    },
+    {
+     "id": "QE-VAL-03",
+     "pattern": "k for equal roots when k sits in several coefficients",
+     "sample": "If $x^2-2(k+1)x+k+7=0$ has equal roots, the values of $k$ are",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2019 main"
+     ],
+     "existingIds": [
+      "cmvq9r2io00bb7gcn982ikjw5",
+      "cmvqhe95z009j7gd0g3ltky7l"
+     ]
+    },
+    {
+     "id": "QE-VAL-04",
+     "pattern": "k for equal roots of a quadratic with surd coefficients",
+     "sample": "The values of $k$ for which $\\sqrt{2}x^2-kx+2\\sqrt{2}=0$ has equal roots are",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2015 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-VAL-05",
+     "pattern": "Relation among coefficients when the roots are equal",
+     "sample": "If $px^2+qx+r=0$ ($p\\ne 0$) has two equal real roots, which relation holds?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2023 main",
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-VAL-06",
+     "pattern": "Pick the equation with equal real roots from four quadratics",
+     "sample": "Which has equal real roots: $x^2-4x+4=0$, $x^2+4=0$, $x^2-4x+3=0$, $2x^2-x-1=0$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-VAL-07",
+     "pattern": "Parameter for equal roots that must also be positive",
+     "sample": "For what value of $a$ does $ax^2-4x+a=0$ have equal positive roots?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-VAL-08",
+     "pattern": "Assertion-reason: a stated k gives equal roots",
+     "sample": "A: $x^2+4x+k=0$ has equal roots for $k=4$. R: A quadratic has equal roots when its discriminant is zero.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "QE-VAL-09",
+     "pattern": "Find k for equal roots, with or without the repeated root",
+     "sample": "Find the values of $k$ for which $4x^2+kx+9=0$ has two equal roots.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 15,
+     "seenIn": [
+      "2011 main",
+      "2012 main",
+      "2017 compartment",
+      "2017 main",
+      "2022 compartment",
+      "2022 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvqhe96600a97gd0wo9x2jk0"
+     ]
+    },
+    {
+     "id": "QE-VAL-10",
+     "pattern": "Letter coefficients: show the roots are equal under a condition, or prove a relation from equal roots",
+     "sample": "Show that the roots of $(a-b)x^2+(b-c)x+(c-a)=0$ are equal when $2a=b+c$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2016 main",
+      "2017 main",
+      "2019 compartment",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-VAL-11",
+     "pattern": "k for equal roots after expanding, or with k in more than one coefficient",
+     "sample": "Find the non-zero value of $k$ for which $kx(x-4)+8=0$ has two equal real roots.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2013 main",
+      "2019 compartment",
+      "2022 main",
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ip00bh7gcnnoaqf92g",
+      "cmvqhe96c00at7gd0y621ah4k"
+     ]
+    },
+    {
+     "id": "QE-VAL-12",
+     "pattern": "Find the parameter values for equal roots and the repeated root for each",
+     "sample": "Find the values of $p$ for which $x^2+(p+2)x+p+5=0$ has equal roots. Find the repeated root for each $p$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2015 main",
+      "2019 main",
+      "2020 main"
+     ],
+     "existingIds": [
+      "cmvqhe96c00av7gd0cnmv8wd8"
+     ]
+    },
+    {
+     "id": "QE-VAL-13",
+     "pattern": "k appears in all coefficients: find k, reject invalid values, find the roots",
+     "sample": "Find $k$ for which $(k+1)x^2-4(k+1)x+k+7=0$ has equal roots, rejecting any value that makes it non-quadratic. Find the roots.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2014 main",
+      "2024 main"
+     ],
+     "existingIds": [
+      "cmvq9r2iv00bv7gcn7pkyy5jz"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Sum and product of roots",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "QE-SUM-01",
+     "pattern": "Read the sum, the product or their ratio from the coefficients",
+     "sample": "For $3x^2-8x+2=0$, the ratio of the sum of the roots to the product of the roots is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-SUM-03",
+     "pattern": "Pick the quadratic having a given sum and/or product of roots",
+     "sample": "Which has sum of roots $-3$: $x^2-3x+1=0$, $x^2+3x+1=0$, $3x^2+x+1=0$, $x^2+x-3=0$?",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2im00b57gcnsql6nltm"
+     ]
+    },
+    {
+     "id": "QE-SUM-04",
+     "pattern": "Form the quadratic from two rational roots, including a number and its reciprocal",
+     "sample": "The quadratic equation whose roots are $4$ and $\\frac{1}{4}$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2021 compartment",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvqhe961009p7gd0bqf25gpb"
+     ]
+    },
+    {
+     "id": "QE-SUM-05",
+     "pattern": "Form the quadratic from conjugate surd roots",
+     "sample": "The quadratic equation whose roots are $2+\\sqrt{5}$ and $2-\\sqrt{5}$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2in00b77gcn8cztiqki"
+     ]
+    },
+    {
+     "id": "QE-SUM-06",
+     "pattern": "One surd root of a rational-coefficient quadratic: find the coefficients",
+     "sample": "If $3+\\sqrt{2}$ is a root of $x^2+bx+c=0$ with $b,c$ rational, then $b+c$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2in00b97gcn9jswllla"
+     ]
+    },
+    {
+     "id": "QE-SUM-07",
+     "pattern": "Value of a simple symmetric expression in the roots",
+     "sample": "If $\\alpha,\\beta$ are the roots of $3x^2-5x+1=0$, then $\\frac{1}{\\alpha}+\\frac{1}{\\beta}$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe960009n7gd0youo33n5"
+     ]
+    },
+    {
+     "id": "QE-SUM-08",
+     "pattern": "One root given, find the other root",
+     "sample": "One root of $3x^2+kx-6=0$ is $2$. The other root is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2021 compartment"
+     ],
+     "existingIds": [
+      "cmvqhe963009x7gd0wu4z62ku"
+     ]
+    },
+    {
+     "id": "QE-SUM-09",
+     "pattern": "Parameter for reciprocal roots (product of roots is 1)",
+     "sample": "The value of $k$ for which the roots of $(k+1)x^2+7x+3=0$ are reciprocals of each other is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2018 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-SUM-10",
+     "pattern": "Roots are negatives of each other: deduce the coefficient condition or parameter",
+     "sample": "If the roots of $x^2+(p-3)x-4=0$ are equal in size and opposite in sign, then $p$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-SUM-11",
+     "pattern": "One root is a multiple of the other: find the parameter",
+     "sample": "If one root of $x^2-6x+k=0$ is twice the other, then $k$ equals",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2017 main",
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-SUM-12",
+     "pattern": "Pick the equation whose roots are the reciprocals of the given roots",
+     "sample": "If $\\alpha,\\beta$ are the roots of $x^2-5x+3=0$, the equation with roots $\\frac{1}{\\alpha},\\frac{1}{\\beta}$ is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "QE-SUM-13",
+     "pattern": "Assertion-reason: stated sum or product of roots against the formula",
+     "sample": "A: The sum of the roots of $2x^2+8x-3=0$ is $4$. R: For $ax^2+bx+c=0$, the sum of the roots is $-\\frac{b}{a}$.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe962009v7gd01o3vilsd"
+     ]
+    },
+    {
+     "id": "QE-SUM-14",
+     "pattern": "Assertion-reason: conjugate surd roots of a rational-coefficient quadratic",
+     "sample": "A: If $1+\\sqrt{3}$ is a root of a quadratic with rational coefficients, so is $1-\\sqrt{3}$. R: Irrational roots of such an equation occur in conjugate pairs.",
+     "slot": "A-AR",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-SUM-15",
+     "pattern": "Find the sum and product of roots without solving",
+     "sample": "Without solving, find the sum and the product of the roots of $4x^2-9x-5=0$.",
+     "slot": "B",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ip00bf7gcnh85qp8a1"
+     ]
+    },
+    {
+     "id": "QE-SUM-16",
+     "pattern": "A relation between the sum and the product of roots gives the parameter",
+     "sample": "The sum of the roots of $2x^2-(k+3)x-4=0$ exceeds their product by 3. Find $k$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2022 main"
+     ],
+     "existingIds": [
+      "cmvqhe96500a37gd0jniz16zd"
+     ]
+    },
+    {
+     "id": "QE-SUM-17",
+     "pattern": "Evaluate a higher symmetric expression in the roots without solving",
+     "sample": "If $\\alpha,\\beta$ are the roots of $x^2-4x+2=0$, find $\\alpha^3\\beta^2+\\alpha^2\\beta^3$ without solving.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe96800ad7gd0yk1ggsfl"
+     ]
+    },
+    {
+     "id": "QE-SUM-18",
+     "pattern": "An extra linear condition on the roots recovers the roots, then the parameter",
+     "sample": "The roots $\\alpha,\\beta$ of $x^2-7x+k=0$ satisfy $2\\alpha+\\beta=10$. Find $k$.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-SUM-19",
+     "pattern": "Form the quadratic whose roots are the squares of the given roots",
+     "sample": "If $\\alpha,\\beta$ are the roots of $x^2-3x+1=0$, form the quadratic equation whose roots are $\\alpha^2$ and $\\beta^2$.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    }
+   ]
+  },
+  {
+   "name": "Word problems",
+   "scope": "core",
+   "scopeNote": "",
+   "patterns": [
+    {
+     "id": "QE-WRD-01",
+     "pattern": "One-mark number word problem: form, solve, report a derived value",
+     "sample": "The product of two consecutive positive even integers is 168. Their sum is",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe96400a17gd03bmuq8o4"
+     ]
+    },
+    {
+     "id": "QE-WRD-02",
+     "pattern": "Cross-chapter: coordinate distance condition leads to a quadratic",
+     "sample": "The distance between $(x,2)$ and $(3,-1)$ is 5 units. The possible values of $x$ are",
+     "slot": "A-MCQ",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "QE-WRD-03",
+     "pattern": "Short word problem on ages, multiples or a rectangle: form and solve",
+     "sample": "The product of Ravi's age 3 years ago and his age 5 years from now is 84. Find his present age.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2022 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "cmvqhe96700ab7gd0jci7iks5",
+      "cmvqhe96900ah7gd0w1sr3cvj",
+      "cmvqhe96900aj7gd0gna9os4l"
+     ]
+    },
+    {
+     "id": "QE-WRD-04",
+     "pattern": "Digits or marks: a relation and a product give a quadratic",
+     "sample": "The units digit of a two-digit number is 1 more than its tens digit, and the product of the digits is 12. Find the number.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2022 main",
+      "2024 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-WRD-05",
+     "pattern": "Consecutive integers with a given sum of squares",
+     "sample": "Find two consecutive positive integers whose squares add up to 365.",
+     "slot": "C",
+     "targets": {
+      "easy": 1,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2016 main",
+      "2023 compartment",
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2ir00bj7gcnc3jybxja"
+     ]
+    },
+    {
+     "id": "QE-WRD-06",
+     "pattern": "Two numbers from a sum or difference and a reciprocal condition",
+     "sample": "The sum of two numbers is 9 and the sum of their reciprocals is $\\frac{1}{2}$. Find the numbers.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2014 main",
+      "2018 compartment",
+      "2023 main"
+     ],
+     "existingIds": [
+      "cmvqhe96b00ap7gd0hqkwxl2q"
+     ]
+    },
+    {
+     "id": "QE-WRD-07",
+     "pattern": "Two squares from the sum of areas and the sum of perimeters",
+     "sample": "The areas of two squares add up to $400\\text{ cm}^2$ and their perimeters add up to 112 cm. Find their sides.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2019 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-WRD-08",
+     "pattern": "Speed-time: late departure or round trip",
+     "sample": "A van leaves 30 minutes late on a 300 km trip and goes 20 km/h faster to arrive on time. Find its usual speed.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2018 main"
+     ],
+     "existingIds": [
+      "cmvqhe96a00al7gd00nsjmwul"
+     ]
+    },
+    {
+     "id": "QE-WRD-09",
+     "pattern": "Two pipes: find each one's time from the joint time",
+     "sample": "Two pipes together fill a tank in 12 hours. One takes 10 hours more than the other alone. Find each pipe's time.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2023 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-WRD-10",
+     "pattern": "Uniform path around a rectangle: find the width",
+     "sample": "A 30 m by 20 m garden has a path of uniform width around it. Garden and path together cover $816\\text{ m}^2$. Find the path's width.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe96a00an7gd06gfhczqd"
+     ]
+    },
+    {
+     "id": "QE-WRD-11",
+     "pattern": "Fixed money: a price change alters the number bought",
+     "sample": "A shopkeeper spends ₹480 on books. If each book cost ₹4 less, he could buy 4 more. Find the cost of one book.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe96b00ar7gd0xrchkfcy"
+     ]
+    },
+    {
+     "id": "QE-WRD-12",
+     "pattern": "Speed-time: a speed change alters the journey time",
+     "sample": "A bus covers 300 km at a uniform speed. If the speed were 10 km/h more, it would take 1 hour less. Find its speed.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2011 main",
+      "2017 main",
+      "2019 main",
+      "2020 main",
+      "2024 main",
+      "2026 second"
+     ],
+     "existingIds": [
+      "d1",
+      "cmvq9r2is00bl7gcnjq79k3is"
+     ]
+    },
+    {
+     "id": "QE-WRD-13",
+     "pattern": "Speed-time: two stages at different speeds in a fixed total time",
+     "sample": "A train goes 60 km at a uniform speed, then 80 km at a speed 10 km/h more. The total time is 4 hours. Find the first speed.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2015 main",
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-WRD-14",
+     "pattern": "Speed-time: two vehicles on the same distance",
+     "sample": "Over 180 km, a faster train takes 1 hour less than a slower one, and their speeds differ by 15 km/h. Find both speeds.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2018 compartment",
+      "2020 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-WRD-15",
+     "pattern": "Aircraft: delay or reduced speed, find the normal speed or duration",
+     "sample": "On a 2400 km flight, a headwind cuts the speed by 200 km/h and adds 1 hour. Find the planned flight time.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 11,
+     "seenIn": [
+      "2016 main",
+      "2019 main",
+      "2020 main",
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-WRD-16",
+     "pattern": "Up and return journey at different speeds with a known time gap",
+     "sample": "A truck climbs 30 km uphill and returns 10 km/h faster. The climb takes 30 minutes longer. Find both speeds.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "QE-WRD-17",
+     "pattern": "Boat and stream: find the stream or boat speed",
+     "sample": "A boat with still-water speed 18 km/h goes 24 km upstream and 24 km back in 3 hours. Find the speed of the stream.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 13,
+     "seenIn": [
+      "2011 main",
+      "2016 main",
+      "2017 main",
+      "2018 main",
+      "2019 compartment",
+      "2019 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2it00bp7gcnel8oa76f"
+     ]
+    },
+    {
+     "id": "QE-WRD-18",
+     "pattern": "Two taps: find each one's time from the joint time",
+     "sample": "Two taps together fill a tank in 8 hours. One takes 12 hours less than the other alone. Find each tap's time.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 10,
+     "seenIn": [
+      "2016 main",
+      "2017 compartment",
+      "2017 main",
+      "2019 main",
+      "2020 main",
+      "2026 main"
+     ],
+     "existingIds": [
+      "cmvq9r2is00bn7gcnwqs1l42n"
+     ]
+    },
+    {
+     "id": "QE-WRD-19",
+     "pattern": "Right triangle: sides from perimeter, area or relations among the sides",
+     "sample": "A right triangle has perimeter 30 cm and hypotenuse 13 cm. Find the other two sides.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 6,
+     "seenIn": [
+      "2015 main",
+      "2025 main"
+     ],
+     "existingIds": [
+      "cmvq9r2iu00bt7gcn0egvveko"
+     ]
+    },
+    {
+     "id": "QE-WRD-20",
+     "pattern": "Two squares from the sum of areas and the difference of perimeters",
+     "sample": "The areas of two squares add up to $260\\text{ m}^2$ and their perimeters differ by 24 m. Find their sides.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2013 main",
+      "2020 main",
+      "2023 compartment",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-WRD-21",
+     "pattern": "Rectangular plot from area with perimeter or three-sided fencing",
+     "sample": "A plot of area $300\\text{ m}^2$ beside a wall needs 50 m of fencing on three sides. Find its possible dimensions.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 1,
+     "seenIn": [
+      "2016 main"
+     ],
+     "existingIds": [
+      "cmvq9r2iu00br7gcngvry4kap"
+     ]
+    },
+    {
+     "id": "QE-WRD-22",
+     "pattern": "Point on a circle: distances to the ends of a diameter differ by a given amount",
+     "sample": "A circular park has diameter $AB=17$ m. A post $P$ on the boundary has $PB-PA=7$ m. Find $PA$ and $PB$.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 4,
+     "seenIn": [
+      "2019 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-WRD-23",
+     "pattern": "Ages: a quadratic relation now and a linear relation later",
+     "sample": "A woman's age is twice the square of her son's age. In 8 years, her age will be 6 more than 4 times his. Find their ages.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 compartment"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-WRD-24",
+     "pattern": "Fraction and its reciprocal, or a fraction after changing its terms",
+     "sample": "The denominator of a fraction is 3 more than its numerator. The fraction plus its reciprocal is $\\frac{29}{10}$. Find the fraction.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 5,
+     "seenIn": [
+      "2015 main",
+      "2025 compartment",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-WRD-25",
+     "pattern": "Two numbers or marks from a total or square-sum and a second relation",
+     "sample": "Asha's marks in two tests total 40. With 2 more in the first and 3 fewer in the second, their product is 360. Find the marks.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2017 compartment",
+      "2019 main",
+      "2022 main",
+      "2026 main",
+      "2026 second"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-WRD-26",
+     "pattern": "Fixed budget or cost: a change in unit rate alters the number of days, items or metres",
+     "sample": "A ₹6000 trip budget is extended by 5 days, so the daily spend falls by ₹60. Find the original number of days.",
+     "slot": "D",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 7,
+     "seenIn": [
+      "2012 main",
+      "2019 main",
+      "2020 main",
+      "2026 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-WRD-27",
+     "pattern": "Case study: uniform walkway or border around a rectangle",
+     "sample": "A 15 m by 10 m pond has a walkway of width $x$ m, total area $336\\text{ m}^2$. (i) Form the equation. (ii) Standardise it. (iii) Find $x$ and the walkway's area.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 9,
+     "seenIn": [
+      "2022 compartment",
+      "2022 main",
+      "2025 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-WRD-28",
+     "pattern": "Case study: enlargement changes area, with a rationality check on the increase",
+     "sample": "A 12 cm by 8 cm photo grows by $x$ cm each way, doubling its area. (i) Form the equation. (ii) Find the new size. (iii) Is $x$ rational if the area triples?",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2023 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-WRD-29",
+     "pattern": "Case study: tile count changes when the tile side changes",
+     "sample": "A floor takes 200 square tiles of side $x$ cm, or 128 tiles if the side is 5 cm longer. (i) Form the equation. (ii) Find $x$. (iii) Find the floor area.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": true,
+     "competency": true,
+     "seenOnBoard": 3,
+     "seenIn": [
+      "2024 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-WRD-30",
+     "pattern": "Case study: rectangle from area and a side relation or limited fencing",
+     "sample": "A plot of area $400\\text{ m}^2$ beside a wall uses 60 m of wire on three sides. (i) Form the equation. (ii) Standardise it. (iii) Find the possible dimensions.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvq9r2iv00bx7gcnu4yearru",
+      "cmvqhe96e00b17gd0y580ddiw"
+     ]
+    },
+    {
+     "id": "QE-WRD-31",
+     "pattern": "Case study: speed and time, with the discriminant and nature of roots",
+     "sample": "A ferry covers 150 km; at 10 km/h more it would save 30 minutes. (i) Form the equation. (ii) Find its discriminant and nature of roots. (iii) Find the speed.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": [
+      "cmvqhe96f00b37gd09zwp8n5v"
+     ]
+    },
+    {
+     "id": "QE-WRD-32",
+     "pattern": "Case study: the discriminant decides feasibility, then a revised plan is solved",
+     "sample": "A stage has perimeter 40 m and breadth $x$ m. (i) Express its area in $x$. (ii) Can its area be $110\\text{ m}^2$? (iii) Find the dimensions for area $96\\text{ m}^2$.",
+     "slot": "E",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 1
+     },
+     "figure": false,
+     "competency": true,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    },
+    {
+     "id": "QE-NEW-02",
+     "pattern": "Profit or loss percent is tied to the cost price: form a quadratic in the cost price from the selling price",
+     "sample": "An article sold for $\\text{Rs } 56$ gives a profit percent equal to its cost price; find the cost price.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 1,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2024 main",
+      "2026 main"
+     ],
+     "existingIds": [],
+     "addedFromBoard": true
+    }
+   ]
+  },
+  {
+   "name": "Completing the square",
+   "scope": "verify",
+   "scopeNote": "Believed cut from the rationalised syllabus; not confirmed from an official source. The only board evidence is one legacy 2019 row, and no 2024-2026 row tests it. Targets stay 0 until a person checks.",
+   "patterns": [
+    {
+     "id": "QE-CSQ-01",
+     "pattern": "Complete the square to show a quadratic has no real solution",
+     "sample": "By completing the square, show that $x^2+4x+7=0$ has no real solution.",
+     "slot": "B",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 2,
+     "seenIn": [
+      "2019 main"
+     ],
+     "existingIds": []
+    },
+    {
+     "id": "QE-CSQ-02",
+     "pattern": "Solve a quadratic by completing the square",
+     "sample": "Solve $x^2+6x+5=0$ by completing the square.",
+     "slot": "C",
+     "targets": {
+      "easy": 0,
+      "medium": 0,
+      "hard": 0
+     },
+     "figure": false,
+     "competency": false,
+     "seenOnBoard": 0,
+     "seenIn": [],
+     "existingIds": []
+    }
+   ]
+  }
+ ],
+ "outOfScope": [],
+ "fixes": [
+  {
+   "n": 1,
+   "issue": "Tagged medium under General; a one-step pure quadratic. Topic should be Solving by factorisation or formula.",
+   "suggest": "easy",
+   "id": "a6"
+  },
+  {
+   "n": 2,
+   "issue": "Tagged medium under General; a direct discriminant calculation. Topic should be Nature of roots by discriminant.",
+   "suggest": "easy",
+   "id": "a7"
+  },
+  {
+   "n": 3,
+   "issue": "Topic is General; it is a speed-time problem.",
+   "suggest": "Word problems",
+   "id": "d1"
+  },
+  {
+   "n": 12,
+   "issue": "Tagged easy, but needs forming the equation before solving it.",
+   "suggest": "medium",
+   "id": "cmvqhe96700ab7gd0jci7iks5"
+  },
+  {
+   "n": 17,
+   "issue": "Tagged easy, but it is a multi-step reciprocal word problem.",
+   "suggest": "medium",
+   "id": "cmvqhe96b00ap7gd0hqkwxl2q"
+  },
+  {
+   "n": 18,
+   "issue": "Tagged easy, but it is a multi-step price-and-count word problem.",
+   "suggest": "medium",
+   "id": "cmvqhe96b00ar7gd0xrchkfcy"
+  },
+  {
+   "n": 20,
+   "issue": "Tagged easy, but it is a multi-part 4-mark case study.",
+   "suggest": "medium",
+   "id": "cmvqhe96f00b37gd09zwp8n5v"
+  },
+  {
+   "n": 29,
+   "issue": "Held back as flagged, but the text and maths are sound: the discriminant is $-4(p-q)^2$, which is negative for $p\\ne q$. Check why it was flagged.",
+   "suggest": "review and reactivate",
+   "id": "cmvqhe96600a77gd0y6wfbep8"
+  },
+  {
+   "n": 38,
+   "issue": "Tagged hard, but it is a standard equal-roots question, then reading off the root.",
+   "suggest": "medium",
+   "id": "cmvqhe96c00av7gd0cnmv8wd8"
+  },
+  {
+   "n": 53,
+   "issue": "Tagged hard, but it is two steps using the product of roots.",
+   "suggest": "medium",
+   "id": "cmvqhe963009x7gd0wu4z62ku"
+  }
+ ]
+}

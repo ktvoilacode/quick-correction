@@ -1,0 +1,553 @@
+{
+ "goal": "At least 10 distinct 20-mark chapter tests per chapter (5x1 + 2x2 + 2x3 + 1x5), each question used in at most 2 tests: pool targets A1>=25, B2>=10, C3>=10, D5>=5, case studies>=3 per chapter.",
+ "textFormat": "LaTeX between dollar signs; see docs/content/generated/latex/CONVENTIONS.md",
+ "chapters": [
+  {
+   "chapter": "Areas Related to Circles",
+   "slug": "areas-related-to-circles",
+   "quota": {
+    "A-mcq-or-assertion-reason (1 mark)": 15,
+    "B-short (2 marks)": 9,
+    "C-short (3 marks)": 6,
+    "D-long (5 marks)": 3
+   },
+   "total": 33,
+   "existingPerTopic": {
+    "Area and perimeter of a sector": 4,
+    "Combination figures (shaded regions)": 4,
+    "Segment area": 2,
+    "Arc length": 3,
+    "Wheel, clock, garden and wiper contexts": 6
+   },
+   "topics": [
+    {
+     "name": "Area and perimeter of a sector",
+     "boardWeight": 18
+    },
+    {
+     "name": "Combination figures (shaded regions)",
+     "boardWeight": 10
+    },
+    {
+     "name": "Segment area",
+     "boardWeight": 6
+    },
+    {
+     "name": "Arc length",
+     "boardWeight": 5
+    },
+    {
+     "name": "Wheel, clock, garden and wiper contexts",
+     "boardWeight": 4
+    }
+   ]
+  },
+  {
+   "chapter": "Arithmetic Progressions",
+   "slug": "arithmetic-progressions",
+   "quota": {
+    "A-mcq-or-assertion-reason (1 mark)": 12,
+    "B-short (2 marks)": 9,
+    "C-short (3 marks)": 6,
+    "D-long (5 marks)": 3
+   },
+   "total": 30,
+   "existingPerTopic": {
+    "nth term": 6,
+    "Sum of n terms": 6,
+    "Finding n": 2,
+    "Common difference": 2,
+    "Middle terms and conditions for an AP": 2,
+    "Word problems": 3
+   },
+   "topics": [
+    {
+     "name": "nth term",
+     "boardWeight": 13
+    },
+    {
+     "name": "Sum of n terms",
+     "boardWeight": 12
+    },
+    {
+     "name": "Finding n",
+     "boardWeight": 6
+    },
+    {
+     "name": "Common difference",
+     "boardWeight": 6
+    },
+    {
+     "name": "Middle terms and conditions for an AP",
+     "boardWeight": 4
+    },
+    {
+     "name": "Word problems",
+     "boardWeight": 4
+    }
+   ]
+  },
+  {
+   "chapter": "Circles",
+   "slug": "circles",
+   "quota": {
+    "A-mcq-or-assertion-reason (1 mark)": 4,
+    "B-short (2 marks)": 4,
+    "C-short (3 marks)": 1,
+    "D-long (5 marks)": 3,
+    "E-case-study (4 marks, with sub-parts)": 2
+   },
+   "total": 14,
+   "existingPerTopic": {
+    "Angle and length problems with tangents": 12,
+    "Proofs with tangents": 7,
+    "Tangent perpendicular to radius": 9,
+    "Tangents from an external point": 6,
+    "Circle touching the sides of a figure": 3
+   },
+   "topics": [
+    {
+     "name": "Angle and length problems with tangents",
+     "boardWeight": 30
+    },
+    {
+     "name": "Proofs with tangents",
+     "boardWeight": 21
+    },
+    {
+     "name": "Tangent perpendicular to radius",
+     "boardWeight": 13
+    },
+    {
+     "name": "Tangents from an external point",
+     "boardWeight": 9
+    },
+    {
+     "name": "Circle touching the sides of a figure",
+     "boardWeight": 5
+    }
+   ]
+  },
+  {
+   "chapter": "Coordinate Geometry",
+   "slug": "coordinate-geometry",
+   "quota": {
+    "A-mcq-or-assertion-reason (1 mark)": 7,
+    "B-short (2 marks)": 3,
+    "C-short (3 marks)": 3,
+    "D-long (5 marks)": 5
+   },
+   "total": 18,
+   "existingPerTopic": {
+    "Distance formula": 8,
+    "Section formula": 6,
+    "Geometric shapes from coordinates": 8,
+    "Midpoint": 5,
+    "Points on axes and distance from axes": 4,
+    "Collinearity and area of a triangle": 0
+   },
+   "topics": [
+    {
+     "name": "Distance formula",
+     "boardWeight": 23
+    },
+    {
+     "name": "Section formula",
+     "boardWeight": 19
+    },
+    {
+     "name": "Geometric shapes from coordinates",
+     "boardWeight": 12
+    },
+    {
+     "name": "Midpoint",
+     "boardWeight": 9
+    },
+    {
+     "name": "Points on axes and distance from axes",
+     "boardWeight": 7
+    },
+    {
+     "name": "Collinearity and area of a triangle",
+     "boardWeight": 1
+    }
+   ]
+  },
+  {
+   "chapter": "Pair of Linear Equations",
+   "slug": "pair-of-linear-equations",
+   "quota": {
+    "A-mcq-or-assertion-reason (1 mark)": 13,
+    "B-short (2 marks)": 6,
+    "C-short (3 marks)": 5,
+    "D-long (5 marks)": 2,
+    "E-case-study (4 marks, with sub-parts)": 1
+   },
+   "total": 27,
+   "existingPerTopic": {
+    "Consistency conditions": 6,
+    "Word problems": 9,
+    "Graphical solution": 5,
+    "Substitution and elimination": 2,
+    "Finding unknown constants": 2
+   },
+   "topics": [
+    {
+     "name": "Consistency conditions",
+     "boardWeight": 18
+    },
+    {
+     "name": "Word problems",
+     "boardWeight": 13
+    },
+    {
+     "name": "Graphical solution",
+     "boardWeight": 10
+    },
+    {
+     "name": "Substitution and elimination",
+     "boardWeight": 5
+    },
+    {
+     "name": "Finding unknown constants",
+     "boardWeight": 3
+    }
+   ]
+  },
+  {
+   "chapter": "Polynomials",
+   "slug": "polynomials",
+   "quota": {
+    "A-mcq-or-assertion-reason (1 mark)": 6,
+    "B-short (2 marks)": 8,
+    "C-short (3 marks)": 7,
+    "D-long (5 marks)": 5,
+    "E-case-study (4 marks, with sub-parts)": 1
+   },
+   "total": 27,
+   "existingPerTopic": {
+    "Zeroes and coefficients": 11,
+    "Zeroes from a graph": 4,
+    "Forming a polynomial from zeroes": 4,
+    "Value of k from a zero": 2,
+    "Number and nature of zeroes": 2,
+    "Division algorithm and evaluation": 0
+   },
+   "topics": [
+    {
+     "name": "Zeroes and coefficients",
+     "boardWeight": 27
+    },
+    {
+     "name": "Zeroes from a graph",
+     "boardWeight": 10
+    },
+    {
+     "name": "Forming a polynomial from zeroes",
+     "boardWeight": 7
+    },
+    {
+     "name": "Value of k from a zero",
+     "boardWeight": 2
+    },
+    {
+     "name": "Number and nature of zeroes",
+     "boardWeight": 3
+    },
+    {
+     "name": "Division algorithm and evaluation",
+     "boardWeight": 2
+    }
+   ]
+  },
+  {
+   "chapter": "Probability",
+   "slug": "probability",
+   "quota": {
+    "A-mcq-or-assertion-reason (1 mark)": 4,
+    "B-short (2 marks)": 4,
+    "C-short (3 marks)": 7,
+    "D-long (5 marks)": 5
+   },
+   "total": 20,
+   "existingPerTopic": {
+    "Dice": 6,
+    "Numbers and lottery": 6,
+    "Complementary events": 5,
+    "Classical probability basics": 3,
+    "Balls and bags": 4,
+    "Cards": 3,
+    "Coins": 4
+   },
+   "topics": [
+    {
+     "name": "Dice",
+     "boardWeight": 14
+    },
+    {
+     "name": "Numbers and lottery",
+     "boardWeight": 13
+    },
+    {
+     "name": "Complementary events",
+     "boardWeight": 9
+    },
+    {
+     "name": "Classical probability basics",
+     "boardWeight": 9
+    },
+    {
+     "name": "Balls and bags",
+     "boardWeight": 8
+    },
+    {
+     "name": "Cards",
+     "boardWeight": 8
+    },
+    {
+     "name": "Coins",
+     "boardWeight": 6
+    }
+   ]
+  },
+  {
+   "chapter": "Quadratic Equations",
+   "slug": "quadratic-equations",
+   "quota": {
+    "A-mcq-or-assertion-reason (1 mark)": 12,
+    "B-short (2 marks)": 9,
+    "C-short (3 marks)": 8,
+    "E-case-study (4 marks, with sub-parts)": 2
+   },
+   "total": 31,
+   "existingPerTopic": {
+    "Word problems": 7,
+    "Nature of roots by discriminant": 4,
+    "Value of k for equal roots": 4,
+    "Solving by factorisation or formula": 2,
+    "Sum and product of roots": 4
+   },
+   "topics": [
+    {
+     "name": "Word problems",
+     "boardWeight": 17
+    },
+    {
+     "name": "Nature of roots by discriminant",
+     "boardWeight": 9
+    },
+    {
+     "name": "Value of k for equal roots",
+     "boardWeight": 8
+    },
+    {
+     "name": "Solving by factorisation or formula",
+     "boardWeight": 4
+    },
+    {
+     "name": "Sum and product of roots",
+     "boardWeight": 5
+    }
+   ]
+  },
+  {
+   "chapter": "Real Numbers",
+   "slug": "real-numbers",
+   "quota": {
+    "A-mcq-or-assertion-reason (1 mark)": 3,
+    "B-short (2 marks)": 3,
+    "D-long (5 marks)": 5,
+    "E-case-study (4 marks, with sub-parts)": 2
+   },
+   "total": 13,
+   "existingPerTopic": {
+    "Irrational numbers and proofs": 10,
+    "HCF and LCM by prime factorisation": 6,
+    "Fundamental theorem of arithmetic": 7,
+    "HCF and LCM word problems": 5,
+    "HCF-LCM relation": 4,
+    "Decimal expansions and number classification": 4
+   },
+   "topics": [
+    {
+     "name": "Irrational numbers and proofs",
+     "boardWeight": 23
+    },
+    {
+     "name": "HCF and LCM by prime factorisation",
+     "boardWeight": 15
+    },
+    {
+     "name": "Fundamental theorem of arithmetic",
+     "boardWeight": 12
+    },
+    {
+     "name": "HCF and LCM word problems",
+     "boardWeight": 8
+    },
+    {
+     "name": "HCF-LCM relation",
+     "boardWeight": 8
+    },
+    {
+     "name": "Decimal expansions and number classification",
+     "boardWeight": 6
+    }
+   ]
+  },
+  {
+   "chapter": "Statistics",
+   "slug": "statistics",
+   "quota": {
+    "A-mcq-or-assertion-reason (1 mark)": 13,
+    "B-short (2 marks)": 10,
+    "C-short (3 marks)": 8,
+    "E-case-study (4 marks, with sub-parts)": 1
+   },
+   "total": 32,
+   "existingPerTopic": {
+    "Mean of grouped data": 6,
+    "Mean, median and mode relation": 4,
+    "Median of grouped data": 4,
+    "Missing frequency": 4,
+    "Mode of grouped data": 3,
+    "Cumulative frequency and ogives": 0
+   },
+   "topics": [
+    {
+     "name": "Mean of grouped data",
+     "boardWeight": 12
+    },
+    {
+     "name": "Mean, median and mode relation",
+     "boardWeight": 11
+    },
+    {
+     "name": "Median of grouped data",
+     "boardWeight": 9
+    },
+    {
+     "name": "Missing frequency",
+     "boardWeight": 7
+    },
+    {
+     "name": "Mode of grouped data",
+     "boardWeight": 6
+    },
+    {
+     "name": "Cumulative frequency and ogives",
+     "boardWeight": 1
+    }
+   ]
+  },
+  {
+   "chapter": "Surface Areas and Volumes",
+   "slug": "surface-areas-and-volumes",
+   "quota": {
+    "A-mcq-or-assertion-reason (1 mark)": 14,
+    "B-short (2 marks)": 9,
+    "C-short (3 marks)": 8
+   },
+   "total": 31,
+   "existingPerTopic": {
+    "Volume of combined solids": 7,
+    "Surface area of solids": 6,
+    "Capacity and cost problems": 5,
+    "Conversion and recasting of solids": 3
+   },
+   "topics": [
+    {
+     "name": "Volume of combined solids",
+     "boardWeight": 19
+    },
+    {
+     "name": "Surface area of solids",
+     "boardWeight": 18
+    },
+    {
+     "name": "Capacity and cost problems",
+     "boardWeight": 5
+    },
+    {
+     "name": "Conversion and recasting of solids",
+     "boardWeight": 2
+    }
+   ]
+  },
+  {
+   "chapter": "Triangles",
+   "slug": "triangles",
+   "quota": {
+    "A-mcq-or-assertion-reason (1 mark)": 5,
+    "B-short (2 marks)": 2,
+    "C-short (3 marks)": 9,
+    "E-case-study (4 marks, with sub-parts)": 2
+   },
+   "total": 18,
+   "existingPerTopic": {
+    "Basic proportionality theorem": 12,
+    "Proofs on similar triangles": 7,
+    "Similarity criteria": 7,
+    "Areas of similar triangles": 4,
+    "Pythagoras theorem and its converse": 7
+   },
+   "topics": [
+    {
+     "name": "Basic proportionality theorem",
+     "boardWeight": 28
+    },
+    {
+     "name": "Proofs on similar triangles",
+     "boardWeight": 21
+    },
+    {
+     "name": "Similarity criteria",
+     "boardWeight": 18
+    },
+    {
+     "name": "Areas of similar triangles",
+     "boardWeight": 5
+    },
+    {
+     "name": "Pythagoras theorem and its converse",
+     "boardWeight": 4
+    }
+   ]
+  },
+  {
+   "chapter": "Trigonometry",
+   "slug": "trigonometry",
+   "quota": {},
+   "total": 0,
+   "existingPerTopic": {
+    "Identities and proofs": 17,
+    "Heights and distances": 21,
+    "Ratios of standard angles": 5,
+    "Evaluating expressions": 6,
+    "Ratio from a given ratio": 5
+   },
+   "topics": [
+    {
+     "name": "Identities and proofs",
+     "boardWeight": 38
+    },
+    {
+     "name": "Heights and distances",
+     "boardWeight": 34
+    },
+    {
+     "name": "Ratios of standard angles",
+     "boardWeight": 16
+    },
+    {
+     "name": "Evaluating expressions",
+     "boardWeight": 15
+    },
+    {
+     "name": "Ratio from a given ratio",
+     "boardWeight": 10
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,317 @@
+[
+ {
+  "idx": 0,
+  "myAnswer": "C) a1/a2=b1/b2≠c1/c2",
+  "how": "by hand"
+ },
+ {
+  "idx": 1,
+  "myAnswer": "C) intersecting at exactly one point",
+  "how": "by hand"
+ },
+ {
+  "idx": 2,
+  "myAnswer": "B) coincident",
+  "how": "by hand"
+ },
+ {
+  "idx": 3,
+  "myAnswer": "A) a unique solution",
+  "how": "by hand"
+ },
+ {
+  "idx": 4,
+  "myAnswer": "D) no solution",
+  "how": "by hand"
+ },
+ {
+  "idx": 5,
+  "myAnswer": "B) exactly one solution",
+  "how": "by hand"
+ },
+ {
+  "idx": 6,
+  "myAnswer": "D) parallel to each other",
+  "how": "by hand"
+ },
+ {
+  "idx": 7,
+  "myAnswer": "A) consistent, unique solution (2,1)",
+  "how": "by hand"
+ },
+ {
+  "idx": 8,
+  "myAnswer": "B) inconsistent",
+  "how": "by hand"
+ },
+ {
+  "idx": 9,
+  "myAnswer": "D) 4x-3y=12",
+  "how": "by hand"
+ },
+ {
+  "idx": 10,
+  "myAnswer": "B) 5x+3y=15",
+  "how": "by hand"
+ },
+ {
+  "idx": 11,
+  "myAnswer": "C) A true, R false",
+  "how": "by hand"
+ },
+ {
+  "idx": 12,
+  "myAnswer": "C) 6",
+  "how": "by hand"
+ },
+ {
+  "idx": 13,
+  "myAnswer": "C) 6",
+  "how": "by hand"
+ },
+ {
+  "idx": 14,
+  "myAnswer": "B) 3",
+  "how": "by hand"
+ },
+ {
+  "idx": 15,
+  "myAnswer": "D) k≠-3",
+  "how": "by hand"
+ },
+ {
+  "idx": 16,
+  "myAnswer": "A) 24",
+  "how": "by hand"
+ },
+ {
+  "idx": 17,
+  "myAnswer": "C) 1",
+  "how": "by hand"
+ },
+ {
+  "idx": 18,
+  "myAnswer": "A) 5",
+  "how": "by hand"
+ },
+ {
+  "idx": 19,
+  "myAnswer": "D) A false, R true",
+  "how": "by hand"
+ },
+ {
+  "idx": 20,
+  "myAnswer": "k=15",
+  "how": "by hand"
+ },
+ {
+  "idx": 21,
+  "myAnswer": "k≠-4",
+  "how": "by hand"
+ },
+ {
+  "idx": 22,
+  "myAnswer": "a=9, b=3",
+  "how": "by hand"
+ },
+ {
+  "idx": 23,
+  "myAnswer": "C) perpendicular, meet at (-2,3)",
+  "how": "by hand"
+ },
+ {
+  "idx": 24,
+  "myAnswer": "C) x=2, y=3",
+  "how": "by hand"
+ },
+ {
+  "idx": 25,
+  "myAnswer": "C) 2x-y=3",
+  "how": "by hand"
+ },
+ {
+  "idx": 26,
+  "myAnswer": "D) 24 sq units",
+  "how": "by hand"
+ },
+ {
+  "idx": 27,
+  "myAnswer": "B) 12 sq units",
+  "how": "by hand"
+ },
+ {
+  "idx": 28,
+  "myAnswer": "D) A false, R true",
+  "how": "by hand"
+ },
+ {
+  "idx": 29,
+  "myAnswer": "x=4 and x=-3 parallel vertical lines: inconsistent",
+  "how": "by hand"
+ },
+ {
+  "idx": 30,
+  "myAnswer": "x=3, y=4",
+  "how": "by hand"
+ },
+ {
+  "idx": 31,
+  "myAnswer": "x=3, y=2",
+  "how": "by hand"
+ },
+ {
+  "idx": 32,
+  "myAnswer": "consistent; x=2, y=1",
+  "how": "by hand"
+ },
+ {
+  "idx": 33,
+  "myAnswer": "x=2, y=3; y-intercepts 1 and 9, difference 8",
+  "how": "by hand"
+ },
+ {
+  "idx": 34,
+  "myAnswer": "x=2, y=3; y-axis points (0,4) and (0,-1); consistent",
+  "how": "by hand"
+ },
+ {
+  "idx": 35,
+  "myAnswer": "vertices (3,2),(1,0),(6,0); area 5 sq units",
+  "how": "by hand"
+ },
+ {
+  "idx": 36,
+  "myAnswer": "vertices (5,0),(1,2),(4,5); area 9 sq units",
+  "how": "by hand"
+ },
+ {
+  "idx": 37,
+  "myAnswer": "2s+j=50, s+2j=70; samosa ₹10, juice ₹30",
+  "how": "by hand"
+ },
+ {
+  "idx": 38,
+  "myAnswer": "A) -1",
+  "how": "by hand"
+ },
+ {
+  "idx": 39,
+  "myAnswer": "B) a+b",
+  "how": "by hand"
+ },
+ {
+  "idx": 40,
+  "myAnswer": "D) A false, R true",
+  "how": "by hand"
+ },
+ {
+  "idx": 41,
+  "myAnswer": "x=2, y=3",
+  "how": "by hand"
+ },
+ {
+  "idx": 42,
+  "myAnswer": "x=1, y=√3",
+  "how": "by hand"
+ },
+ {
+  "idx": 43,
+  "myAnswer": "error: 3(3x-7) expanded as 9x-7 instead of 9x-21; correct x=2, y=-1",
+  "how": "by hand"
+ },
+ {
+  "idx": 44,
+  "myAnswer": "x=4, y=3",
+  "how": "by hand"
+ },
+ {
+  "idx": 45,
+  "myAnswer": "A) 4x+3y=2100, 5x+2y=1750",
+  "how": "by hand"
+ },
+ {
+  "idx": 46,
+  "myAnswer": "B) 23 m",
+  "how": "by hand"
+ },
+ {
+  "idx": 47,
+  "myAnswer": "A) 34 years",
+  "how": "by hand"
+ },
+ {
+  "idx": 48,
+  "myAnswer": "x+y=90, y=3x+10; 20° and 70°",
+  "how": "by hand"
+ },
+ {
+  "idx": 49,
+  "myAnswer": "x=6, y=4",
+  "how": "by hand"
+ },
+ {
+  "idx": 50,
+  "myAnswer": "R=A+12, 2A=R+6; Arjun 18, Riya 30",
+  "how": "by hand"
+ },
+ {
+  "idx": 51,
+  "myAnswer": "15 km/h and 9 km/h",
+  "how": "by hand"
+ },
+ {
+  "idx": 52,
+  "myAnswer": "7x-3y=4000, 5x-2y=4000; incomes ₹28000 and ₹20000",
+  "how": "by hand"
+ },
+ {
+  "idx": 53,
+  "myAnswer": "booking fee ₹300, daily rent ₹550",
+  "how": "by hand"
+ },
+ {
+  "idx": 54,
+  "myAnswer": "₹13000 at 6% and ₹8000 at 9%",
+  "how": "by hand"
+ },
+ {
+  "idx": 55,
+  "myAnswer": "92 (a-b=7, ab=18; non-linear product condition)",
+  "how": "by hand"
+ },
+ {
+  "idx": 56,
+  "myAnswer": "length 9 m, breadth 4 m, area 36 m²",
+  "how": "by hand"
+ },
+ {
+  "idx": 57,
+  "myAnswer": "Meera 26, son 11",
+  "how": "by hand"
+ },
+ {
+  "idx": 58,
+  "myAnswer": "18 right, 6 wrong; 24 questions",
+  "how": "by hand"
+ },
+ {
+  "idx": 59,
+  "myAnswer": "(i) x+y=300, 40x+90y=21000 (ii) 180 adult (iii) ₹19800",
+  "how": "by hand"
+ },
+ {
+  "idx": 60,
+  "myAnswer": "(i) x+y=80, 40x+150y=5400 (ii) 20 tables (iii) 30 tables",
+  "how": "by hand"
+ },
+ {
+  "idx": 61,
+  "myAnswer": "(i) y=500+12x, y=800+9x (ii) 100 km, ₹1700 (iii) Plan B, save ₹180",
+  "how": "by hand"
+ },
+ {
+  "idx": 62,
+  "myAnswer": "(i) A ₹500, B ₹1000 (ii) 5 months (iii) ₹1750; B cheaper at 8 months by ₹300 (2500 vs 2200)",
+  "how": "by hand"
+ }
+]

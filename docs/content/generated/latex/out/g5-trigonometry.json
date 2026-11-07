@@ -1,0 +1,630 @@
+[
+  {
+    "id": "a13",
+    "chapter": "Trigonometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "The value of $\\sin^{2}30^\\circ + \\cos^{2}30^\\circ$ is:",
+    "options": [
+      "$0$",
+      "$\\frac{1}{2}$",
+      "$1$",
+      "$2$"
+    ],
+    "answer": null
+  },
+  {
+    "id": "a14",
+    "chapter": "Trigonometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "If $\\tan\\theta = 1$, then $\\theta$ equals:",
+    "options": [
+      "$30^\\circ$",
+      "$45^\\circ$",
+      "$60^\\circ$",
+      "$90^\\circ$"
+    ],
+    "answer": null
+  },
+  {
+    "id": "b4",
+    "chapter": "Trigonometry",
+    "type": "short",
+    "marks": 2,
+    "text": "Evaluate: $2\\tan^{2}45^\\circ + \\cos^{2}30^\\circ - \\sin^{2}60^\\circ$.",
+    "answer": null
+  },
+  {
+    "id": "c5",
+    "chapter": "Trigonometry",
+    "type": "short",
+    "marks": 3,
+    "text": "Prove that $(\\sin\\theta + \\operatorname{cosec}\\theta)^{2} + (\\cos\\theta + \\sec\\theta)^{2} = 7 + \\tan^{2}\\theta + \\cot^{2}\\theta$.",
+    "answer": null
+  },
+  {
+    "id": "d3",
+    "chapter": "Trigonometry",
+    "type": "long",
+    "marks": 5,
+    "text": "From the top of a $75\\text{ m}$ high lighthouse, the angles of depression of two ships are $30^\\circ$ and $45^\\circ$. If one ship is exactly behind the other on the same side, find the distance between the ships.",
+    "answer": null
+  },
+  {
+    "id": "cmvq9r2kk00if7gcnj074dewr",
+    "chapter": "Trigonometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "The value of $\\sin 60^\\circ \\cos 30^\\circ - \\cos 60^\\circ \\sin 30^\\circ$ is",
+    "options": [
+      "$0$",
+      "$\\frac{1}{2}$",
+      "$1$",
+      "$\\frac{\\sqrt{3}}{2}$"
+    ],
+    "answer": "Correct option: B) $\\frac{1}{2}$. $\\sin 60^\\circ \\cos 30^\\circ = \\left(\\frac{\\sqrt{3}}{2}\\right)\\left(\\frac{\\sqrt{3}}{2}\\right) = \\frac{3}{4}$ and $\\cos 60^\\circ \\sin 30^\\circ = \\left(\\frac{1}{2}\\right)\\left(\\frac{1}{2}\\right) = \\frac{1}{4}$, so the value is $\\frac{3}{4} - \\frac{1}{4} = \\frac{1}{2}$."
+  },
+  {
+    "id": "cmvq9r2kk00ih7gcn7olo1r68",
+    "chapter": "Trigonometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "The value of $\\sec 60^\\circ \\cdot \\cos 30^\\circ$ is",
+    "options": [
+      "$\\frac{\\sqrt{3}}{2}$",
+      "$1$",
+      "$2$",
+      "$\\sqrt{3}$"
+    ],
+    "answer": "Correct option: D) $\\sqrt{3}$. $\\sec 60^\\circ = 2$ and $\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$, so the product is $2 \\times \\frac{\\sqrt{3}}{2} = \\sqrt{3}$."
+  },
+  {
+    "id": "cmvq9r2kk00ij7gcnoflpejr5",
+    "chapter": "Trigonometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "If $\\tan 3A = \\sqrt{3}$, where $3A$ is an acute angle, then $A$ equals",
+    "options": [
+      "$10^\\circ$",
+      "$30^\\circ$",
+      "$20^\\circ$",
+      "$60^\\circ$"
+    ],
+    "answer": "Correct option: C) $20^\\circ$. $\\tan 60^\\circ = \\sqrt{3}$, so $3A = 60^\\circ$ and $A = 20^\\circ$."
+  },
+  {
+    "id": "cmvq9r2kl00il7gcndl3amh98",
+    "chapter": "Trigonometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "If $\\sin\\theta - \\cos\\theta = \\frac{1}{2}$, then the value of $\\sin\\theta \\cos\\theta$ is",
+    "options": [
+      "$\\frac{3}{8}$",
+      "$\\frac{1}{4}$",
+      "$\\frac{3}{4}$",
+      "$\\frac{5}{8}$"
+    ],
+    "answer": "Correct option: A) $\\frac{3}{8}$. Squaring: $\\sin^{2}\\theta + \\cos^{2}\\theta - 2\\sin\\theta \\cos\\theta = \\frac{1}{4}$, so $1 - 2\\sin\\theta \\cos\\theta = \\frac{1}{4}$, giving $\\sin\\theta \\cos\\theta = \\frac{3/4}{2} = \\frac{3}{8}$."
+  },
+  {
+    "id": "cmvq9r2kl00in7gcntkqhb1kr",
+    "chapter": "Trigonometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "The value of $(1 + \\tan^{2}\\theta)(1 - \\sin\\theta)(1 + \\sin\\theta)$ is",
+    "options": [
+      "$\\sin^{2}\\theta$",
+      "$\\cos^{2}\\theta$",
+      "$\\tan^{2}\\theta$",
+      "$1$"
+    ],
+    "answer": "Correct option: D) $1$. $(1 - \\sin\\theta)(1 + \\sin\\theta) = 1 - \\sin^{2}\\theta = \\cos^{2}\\theta$ and $1 + \\tan^{2}\\theta = \\sec^{2}\\theta$, so the product is $\\sec^{2}\\theta \\cdot \\cos^{2}\\theta = 1$."
+  },
+  {
+    "id": "cmvq9r2km00ip7gcnp8w8ehms",
+    "chapter": "Trigonometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "If $7\\sin^{2}\\theta + 3\\cos^{2}\\theta = 4$ and $\\theta$ is acute, then $\\tan\\theta$ equals",
+    "options": [
+      "$\\sqrt{3}$",
+      "$\\frac{1}{\\sqrt{3}}$",
+      "$1$",
+      "$\\frac{1}{2}$"
+    ],
+    "answer": "Correct option: B) $\\frac{1}{\\sqrt{3}}$. $7\\sin^{2}\\theta + 3(1 - \\sin^{2}\\theta) = 4$ gives $4\\sin^{2}\\theta = 1$, so $\\sin\\theta = \\frac{1}{2}$, $\\theta = 30^\\circ$ and $\\tan 30^\\circ = \\frac{1}{\\sqrt{3}}$."
+  },
+  {
+    "id": "cmvq9r2kn00ir7gcnxfy8954u",
+    "chapter": "Trigonometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "If $\\sec\\theta = \\frac{13}{12}$, then $\\frac{2\\sin\\theta - 3\\cos\\theta}{4\\sin\\theta - 9\\cos\\theta}$ equals",
+    "options": [
+      "$\\frac{13}{22}$",
+      "$-\\frac{13}{44}$",
+      "$\\frac{13}{44}$",
+      "$\\frac{5}{44}$"
+    ],
+    "answer": "Correct option: C) $\\frac{13}{44}$. $\\cos\\theta = \\frac{12}{13}$ and $\\sin\\theta = \\frac{5}{13}$. Numerator $= \\frac{10}{13} - \\frac{36}{13} = -\\frac{26}{13}$; denominator $= \\frac{20}{13} - \\frac{108}{13} = -\\frac{88}{13}$. Ratio $= \\frac{26}{88} = \\frac{13}{44}$."
+  },
+  {
+    "id": "cmvq9r2kn00it7gcnrioxapt8",
+    "chapter": "Trigonometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "If $\\operatorname{cosec} A = \\frac{17}{8}$ and $A$ is acute, then $\\tan A$ equals",
+    "options": [
+      "$\\frac{8}{17}$",
+      "$\\frac{15}{8}$",
+      "$\\frac{8}{15}$",
+      "$\\frac{15}{17}$"
+    ],
+    "answer": "Correct option: C) $\\frac{8}{15}$. $\\sin A = \\frac{8}{17}$, so with hypotenuse $17$ and perpendicular $8$ the base is $\\sqrt{289 - 64} = 15$. Hence $\\tan A = \\frac{8}{15}$."
+  },
+  {
+    "id": "cmvq9r2ko00iv7gcn8bvqmg28",
+    "chapter": "Trigonometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "$\\sec\\theta (1 - \\sin\\theta)(\\sec\\theta + \\tan\\theta)$ is equal to",
+    "options": [
+      "$\\sin\\theta$",
+      "$1$",
+      "$\\cos\\theta$",
+      "$\\sec^{2}\\theta$"
+    ],
+    "answer": "Correct option: B) $1$. $\\sec\\theta + \\tan\\theta = \\frac{1 + \\sin\\theta}{\\cos\\theta}$, so the expression $= \\frac{1}{\\cos\\theta}(1 - \\sin\\theta)\\frac{(1 + \\sin\\theta)}{\\cos\\theta} = \\frac{1 - \\sin^{2}\\theta}{\\cos^{2}\\theta} = 1$."
+  },
+  {
+    "id": "cmvq9r2ko00ix7gcn8i61rtka",
+    "chapter": "Trigonometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "$\\sin^{4}\\theta - \\cos^{4}\\theta$ is equal to",
+    "options": [
+      "$1 - 2\\sin^{2}\\theta$",
+      "$2\\sin^{2}\\theta - 1$",
+      "$1$",
+      "$\\sin^{2}\\theta \\cos^{2}\\theta$"
+    ],
+    "answer": "Correct option: B) $2\\sin^{2}\\theta - 1$. $\\sin^{4}\\theta - \\cos^{4}\\theta = (\\sin^{2}\\theta - \\cos^{2}\\theta)(\\sin^{2}\\theta + \\cos^{2}\\theta) = \\sin^{2}\\theta - (1 - \\sin^{2}\\theta) = 2\\sin^{2}\\theta - 1$."
+  },
+  {
+    "id": "cmvq9r2ko00iz7gcnfw72e3mo",
+    "chapter": "Trigonometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "$\\tan^{2}\\theta - \\sin^{2}\\theta$ is equal to",
+    "options": [
+      "$\\sin^{2}\\theta \\cos^{2}\\theta$",
+      "$\\tan^{2}\\theta \\cos^{2}\\theta$",
+      "$\\cot^{2}\\theta \\sin^{2}\\theta$",
+      "$\\tan^{2}\\theta \\sin^{2}\\theta$"
+    ],
+    "answer": "Correct option: D) $\\tan^{2}\\theta \\sin^{2}\\theta$. $\\tan^{2}\\theta - \\sin^{2}\\theta = \\tan^{2}\\theta - \\tan^{2}\\theta \\cos^{2}\\theta = \\tan^{2}\\theta(1 - \\cos^{2}\\theta) = \\tan^{2}\\theta \\sin^{2}\\theta$."
+  },
+  {
+    "id": "cmvq9r2kp00j17gcne6pz3wif",
+    "chapter": "Trigonometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "$\\frac{1}{1 + \\sin A} + \\frac{1}{1 - \\sin A}$ is equal to",
+    "options": [
+      "$2\\sec A$",
+      "$2\\sec^{2}A$",
+      "$2\\operatorname{cosec}^{2}A$",
+      "$2\\cos^{2}A$"
+    ],
+    "answer": "Correct option: B) $2\\sec^{2}A$. Sum $= \\frac{1 - \\sin A + 1 + \\sin A}{1 - \\sin^{2}A} = \\frac{2}{\\cos^{2}A} = 2\\sec^{2}A$."
+  },
+  {
+    "id": "cmvq9r2kp00j37gcniwe5bgbq",
+    "chapter": "Trigonometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "$\\frac{1 + \\tan^{2}A}{1 + \\cot^{2}A}$ is equal to",
+    "options": [
+      "$\\cot^{2}A$",
+      "$\\sec^{2}A$",
+      "$\\tan^{2}A$",
+      "$1$"
+    ],
+    "answer": "Correct option: C) $\\tan^{2}A$. $1 + \\tan^{2}A = \\sec^{2}A$ and $1 + \\cot^{2}A = \\operatorname{cosec}^{2}A$, so the ratio $= \\frac{\\sin^{2}A}{\\cos^{2}A} = \\tan^{2}A$."
+  },
+  {
+    "id": "cmvq9r2kp00j57gcn0ziujt5g",
+    "chapter": "Trigonometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "If $x = \\sec\\theta + \\tan\\theta$, then $\\sec\\theta - \\tan\\theta$ is equal to",
+    "options": [
+      "$x$",
+      "$-x$",
+      "$\\frac{1}{x}$",
+      "$x - 1$"
+    ],
+    "answer": "Correct option: C) $\\frac{1}{x}$. $(\\sec\\theta + \\tan\\theta)(\\sec\\theta - \\tan\\theta) = \\sec^{2}\\theta - \\tan^{2}\\theta = 1$, so $\\sec\\theta - \\tan\\theta = \\frac{1}{x}$."
+  },
+  {
+    "id": "cmvq9r2kq00j77gcndigoz07u",
+    "chapter": "Trigonometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "$\\frac{\\cos\\theta}{1 - \\sin\\theta}$ is equal to",
+    "options": [
+      "$\\sec\\theta - \\tan\\theta$",
+      "$\\operatorname{cosec}\\theta + \\cot\\theta$",
+      "$\\sec\\theta + \\tan\\theta$",
+      "$\\operatorname{cosec}\\theta - \\cot\\theta$"
+    ],
+    "answer": "Correct option: C) $\\sec\\theta + \\tan\\theta$. Multiply numerator and denominator by $(1 + \\sin\\theta)$: $\\frac{\\cos\\theta(1 + \\sin\\theta)}{1 - \\sin^{2}\\theta} = \\frac{1 + \\sin\\theta}{\\cos\\theta} = \\sec\\theta + \\tan\\theta$."
+  },
+  {
+    "id": "cmvq9r2kq00j97gcn5qiezdn8",
+    "chapter": "Trigonometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "$(\\sin\\theta + \\operatorname{cosec}\\theta)^{2} + (\\cos\\theta + \\sec\\theta)^{2}$ is equal to",
+    "options": [
+      "$5 + \\tan^{2}\\theta + \\cot^{2}\\theta$",
+      "$7 + \\sec^{2}\\theta + \\operatorname{cosec}^{2}\\theta$",
+      "$7 + \\tan^{2}\\theta \\cot^{2}\\theta$",
+      "$7 + \\tan^{2}\\theta + \\cot^{2}\\theta$"
+    ],
+    "answer": "Correct option: D) $7 + \\tan^{2}\\theta + \\cot^{2}\\theta$. Expanding: $\\sin^{2}\\theta + 2 + \\operatorname{cosec}^{2}\\theta + \\cos^{2}\\theta + 2 + \\sec^{2}\\theta = 1 + 4 + (1 + \\cot^{2}\\theta) + (1 + \\tan^{2}\\theta) = 7 + \\tan^{2}\\theta + \\cot^{2}\\theta$."
+  },
+  {
+    "id": "cmvq9r2kr00jb7gcnhwmcl63m",
+    "chapter": "Trigonometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "A kite string, $40\\text{ m}$ long, is held taut and makes an angle of $60^\\circ$ with the level ground. Ignoring any sag and taking the hand at ground level, the height of the kite above the ground is",
+    "options": [
+      "$20\\text{ m}$",
+      "$20\\sqrt{3}\\text{ m}$",
+      "$40\\sqrt{3}\\text{ m}$",
+      "$\\frac{40}{\\sqrt{3}}\\text{ m}$"
+    ],
+    "answer": "Correct option: B) $20\\sqrt{3}\\text{ m}$. Height $= 40\\sin 60^\\circ = 40 \\times \\frac{\\sqrt{3}}{2} = 20\\sqrt{3}\\text{ m}$."
+  },
+  {
+    "id": "cmvq9r2ks00jd7gcno6n9tldp",
+    "chapter": "Trigonometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "A ladder reaches a window $9\\text{ m}$ above the ground and makes an angle of $30^\\circ$ with the ground. The length of the ladder is",
+    "options": [
+      "$9\\text{ m}$",
+      "$9\\sqrt{3}\\text{ m}$",
+      "$18\\text{ m}$",
+      "$18\\sqrt{3}\\text{ m}$"
+    ],
+    "answer": "Correct option: C) $18\\text{ m}$. $\\sin 30^\\circ = \\frac{9}{L}$, so $L = \\frac{9}{1/2} = 18\\text{ m}$."
+  },
+  {
+    "id": "cmvq9r2ks00jf7gcnxc02h73l",
+    "chapter": "Trigonometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "An observer on the roof of a $20\\text{ m}$ high building sees a car on level ground at an angle of depression of $30^\\circ$. The distance of the car from the foot of the building is",
+    "options": [
+      "$\\frac{20}{\\sqrt{3}}\\text{ m}$",
+      "$20\\text{ m}$",
+      "$40\\text{ m}$",
+      "$20\\sqrt{3}\\text{ m}$"
+    ],
+    "answer": "Correct option: D) $20\\sqrt{3}\\text{ m}$. The angle of elevation of the roof from the car is also $30^\\circ$, so $\\tan 30^\\circ = \\frac{20}{d}$, giving $d = 20\\sqrt{3}\\text{ m}$."
+  },
+  {
+    "id": "cmvq9r2ks00jh7gcnwf33xl9b",
+    "chapter": "Trigonometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "From a point on level ground the angle of elevation of the top of a tower is $45^\\circ$. After walking $30\\text{ m}$ towards the foot of the tower the angle of elevation becomes $60^\\circ$. The height of the tower is",
+    "options": [
+      "$15(\\sqrt{3} + 1)\\text{ m}$",
+      "$15(3 + \\sqrt{3})\\text{ m}$",
+      "$30(\\sqrt{3} - 1)\\text{ m}$",
+      "$30(\\sqrt{3} + 1)\\text{ m}$"
+    ],
+    "answer": "Correct option: B) $15(3 + \\sqrt{3})\\text{ m}$. Let height $h$. Distances from foot: $\\frac{h}{\\tan 45^\\circ} = h$ and $\\frac{h}{\\tan 60^\\circ} = \\frac{h}{\\sqrt{3}}$. So $h - \\frac{h}{\\sqrt{3}} = 30$, $h = \\frac{30\\sqrt{3}}{\\sqrt{3} - 1} = 15\\sqrt{3}(\\sqrt{3} + 1) = 15(3 + \\sqrt{3})\\text{ m}$."
+  },
+  {
+    "id": "cmvq9r2kt00jj7gcn425phqap",
+    "chapter": "Trigonometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "A vertical pole $12\\text{ m}$ high casts a shadow $4\\sqrt{3}\\text{ m}$ long on level ground. The angle of elevation of the Sun is",
+    "options": [
+      "$30^\\circ$",
+      "$45^\\circ$",
+      "$60^\\circ$",
+      "$75^\\circ$"
+    ],
+    "answer": "Correct option: C) $60^\\circ$. $\\tan\\theta = \\frac{12}{4\\sqrt{3}} = \\frac{3}{\\sqrt{3}} = \\sqrt{3}$, so $\\theta = 60^\\circ$."
+  },
+  {
+    "id": "cmvq9r2kt00jl7gcnzvhl3b5k",
+    "chapter": "Trigonometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "From the top of a $60\\text{ m}$ high cliff, the angles of depression of two boats on the same side, in line with the foot of the cliff, are $30^\\circ$ and $60^\\circ$. The distance between the boats is",
+    "options": [
+      "$20\\sqrt{3}\\text{ m}$",
+      "$40\\sqrt{3}\\text{ m}$",
+      "$80\\sqrt{3}\\text{ m}$",
+      "$60(\\sqrt{3} - 1)\\text{ m}$"
+    ],
+    "answer": "Correct option: B) $40\\sqrt{3}\\text{ m}$. Distances from the foot: $\\frac{60}{\\tan 30^\\circ} = 60\\sqrt{3}$ and $\\frac{60}{\\tan 60^\\circ} = 20\\sqrt{3}$. Difference $= 40\\sqrt{3}\\text{ m}$."
+  },
+  {
+    "id": "cmvq9r2ku00jn7gcn930jqgf4",
+    "chapter": "Trigonometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "Assertion (A): $(1 + \\tan^{2}\\theta)\\cos^{2}\\theta = 1$ for every acute angle $\\theta$.\nReason (R): $1 + \\tan^{2}\\theta = \\sec^{2}\\theta$.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: A) Both A and R are true and R is the correct explanation of A. R is the standard identity; using it, $(1 + \\tan^{2}\\theta)\\cos^{2}\\theta = \\sec^{2}\\theta \\cos^{2}\\theta = 1$, so A follows directly from R."
+  },
+  {
+    "id": "cmvq9r2ku00jp7gcnl8l3p6fs",
+    "chapter": "Trigonometry",
+    "type": "mcq",
+    "marks": 1,
+    "text": "Assertion (A): There is an acute angle $\\theta$ for which $\\sec\\theta = \\frac{3}{5}$.\nReason (R): In a right-angled triangle the hypotenuse is the longest side, so $\\sec\\theta = \\frac{\\text{hypotenuse}}{\\text{base}}$ is always greater than $1$ for an acute angle $\\theta$.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": "Correct option: D) A is false but R is true. R is true. Since $\\sec\\theta > 1$ for every acute angle, $\\sec\\theta = \\frac{3}{5} < 1$ is impossible, so A is false."
+  },
+  {
+    "id": "cmvq9r2ku00jr7gcn6lk6h85r",
+    "chapter": "Trigonometry",
+    "type": "short",
+    "marks": 2,
+    "text": "Evaluate: $4\\sin^{2}30^\\circ + 3\\tan^{2}60^\\circ - 2\\sec^{2}45^\\circ$.",
+    "answer": "$\\sin 30^\\circ = \\frac{1}{2}$, $\\tan 60^\\circ = \\sqrt{3}$, $\\sec 45^\\circ = \\sqrt{2}$.\nValue $= 4\\left(\\frac{1}{4}\\right) + 3(3) - 2(2) = 1 + 9 - 4 = 6$.\nAnswer: $6$"
+  },
+  {
+    "id": "cmvq9r2kv00jt7gcn0hp0yz1r",
+    "chapter": "Trigonometry",
+    "type": "short",
+    "marks": 2,
+    "text": "If $\\sin (A + B) = 1$ and $\\cos (A - B) = \\frac{\\sqrt{3}}{2}$, where $0^\\circ < A + B \\le 90^\\circ$ and $A > B$, find the values of $A$ and $B$.",
+    "answer": "$\\sin (A + B) = 1 = \\sin 90^\\circ$, so $A + B = 90^\\circ$.\n$\\cos (A - B) = \\frac{\\sqrt{3}}{2} = \\cos 30^\\circ$, so $A - B = 30^\\circ$.\nAdding: $2A = 120^\\circ$, $A = 60^\\circ$; then $B = 30^\\circ$.\nAnswer: $A = 60^\\circ$, $B = 30^\\circ$"
+  },
+  {
+    "id": "cmvq9r2kv00jv7gcn4h6p7fmm",
+    "chapter": "Trigonometry",
+    "type": "short",
+    "marks": 2,
+    "text": "If $\\sin\\theta + \\cos\\theta = \\frac{5}{4}$, find the value of $\\sin\\theta \\cos\\theta$ and hence of $\\tan\\theta + \\cot\\theta$.",
+    "answer": "Squaring: $1 + 2\\sin\\theta \\cos\\theta = \\frac{25}{16}$, so $2\\sin\\theta \\cos\\theta = \\frac{9}{16}$ and $\\sin\\theta \\cos\\theta = \\frac{9}{32}$.\n$\\tan\\theta + \\cot\\theta = \\frac{\\sin^{2}\\theta + \\cos^{2}\\theta}{\\sin\\theta \\cos\\theta} = \\frac{1}{9/32} = \\frac{32}{9}$.\nAnswer: $\\sin\\theta \\cos\\theta = \\frac{9}{32}$; $\\tan\\theta + \\cot\\theta = \\frac{32}{9}$"
+  },
+  {
+    "id": "cmvq9r2kv00jx7gcnbyn07yau",
+    "chapter": "Trigonometry",
+    "type": "short",
+    "marks": 2,
+    "text": "Find the value of $p$ if $p\\sin 30^\\circ + 4\\cos^{2}60^\\circ = 3\\tan^{2}45^\\circ + \\operatorname{cosec} 30^\\circ$.",
+    "answer": "LHS $= p\\left(\\frac{1}{2}\\right) + 4\\left(\\frac{1}{4}\\right) = \\frac{p}{2} + 1$. RHS $= 3(1) + 2 = 5$.\n$\\frac{p}{2} + 1 = 5$, so $\\frac{p}{2} = 4$ and $p = 8$.\nAnswer: $p = 8$"
+  },
+  {
+    "id": "cmvq9r2kw00jz7gcnwa0ww3lw",
+    "chapter": "Trigonometry",
+    "type": "short",
+    "marks": 2,
+    "text": "If $13\\sin A = 5$ and $A$ is acute, evaluate $\\frac{5\\sin A - 2\\cos A}{\\tan A}$.",
+    "answer": "$\\sin A = \\frac{5}{13}$. Base $= \\sqrt{169 - 25} = 12$, so $\\cos A = \\frac{12}{13}$ and $\\tan A = \\frac{5}{12}$.\n$5\\sin A - 2\\cos A = \\frac{25}{13} - \\frac{24}{13} = \\frac{1}{13}$.\nValue $= \\frac{1}{13} \\div \\frac{5}{12} = \\frac{12}{65}$.\nAnswer: $\\frac{12}{65}$"
+  },
+  {
+    "id": "cmvq9r2kw00k17gcnj4omn705",
+    "chapter": "Trigonometry",
+    "type": "short",
+    "marks": 2,
+    "text": "Prove that $\\frac{\\cos\\theta}{1 + \\sin\\theta} + \\frac{1 + \\sin\\theta}{\\cos\\theta} = 2\\sec\\theta$.",
+    "answer": "LHS $= \\frac{\\cos^{2}\\theta + (1 + \\sin\\theta)^{2}}{\\cos\\theta (1 + \\sin\\theta)}$\n$= \\frac{\\cos^{2}\\theta + 1 + 2\\sin\\theta + \\sin^{2}\\theta}{\\cos\\theta (1 + \\sin\\theta)}$\n$= \\frac{2 + 2\\sin\\theta}{\\cos\\theta (1 + \\sin\\theta)} = \\frac{2(1 + \\sin\\theta)}{\\cos\\theta (1 + \\sin\\theta)} = \\frac{2}{\\cos\\theta} = 2\\sec\\theta$ = RHS. Hence proved."
+  },
+  {
+    "id": "cmvq9r2kx00k37gcng0hwmldi",
+    "chapter": "Trigonometry",
+    "type": "short",
+    "marks": 2,
+    "text": "Prove that $\\sin\\theta (1 + \\tan\\theta) + \\cos\\theta (1 + \\cot\\theta) = \\sec\\theta + \\operatorname{cosec}\\theta$.",
+    "answer": "LHS $= \\sin\\theta + \\frac{\\sin^{2}\\theta}{\\cos\\theta} + \\cos\\theta + \\frac{\\cos^{2}\\theta}{\\sin\\theta}$\n$= \\left(\\sin\\theta + \\frac{\\cos^{2}\\theta}{\\sin\\theta}\\right) + \\left(\\cos\\theta + \\frac{\\sin^{2}\\theta}{\\cos\\theta}\\right)$\n$= \\frac{\\sin^{2}\\theta + \\cos^{2}\\theta}{\\sin\\theta} + \\frac{\\cos^{2}\\theta + \\sin^{2}\\theta}{\\cos\\theta}$\n$= \\frac{1}{\\sin\\theta} + \\frac{1}{\\cos\\theta} = \\operatorname{cosec}\\theta + \\sec\\theta$ = RHS. Hence proved."
+  },
+  {
+    "id": "cmvq9r2kx00k57gcn6vge974e",
+    "chapter": "Trigonometry",
+    "type": "short",
+    "marks": 2,
+    "text": "A vertical tower casts a shadow $15\\text{ m}$ long on level ground when the angle of elevation of the Sun is $60^\\circ$. Find the height of the tower. (Use $\\sqrt{3} = 1.73$)",
+    "answer": "Let height $= h$. $\\tan 60^\\circ = \\frac{h}{15}$, so $h = 15\\sqrt{3} = 15 \\times 1.73 = 25.95\\text{ m}$.\nAnswer: $25.95\\text{ m}$"
+  },
+  {
+    "id": "cmvq9r2kx00k77gcnaj74oqec",
+    "chapter": "Trigonometry",
+    "type": "short",
+    "marks": 2,
+    "text": "From a point on level ground $30\\text{ m}$ from the foot of a vertical pole, the angle of elevation of the top of the pole is $30^\\circ$. Find the height of the pole and the distance of the top of the pole from the point. (Leave answers in surd form.)",
+    "answer": "$\\tan 30^\\circ = \\frac{h}{30}$, so $h = \\frac{30}{\\sqrt{3}} = 10\\sqrt{3}\\text{ m}$.\nDistance of top $= \\sqrt{30^{2} + (10\\sqrt{3})^{2}} = \\sqrt{900 + 300} = \\sqrt{1200} = 20\\sqrt{3}\\text{ m}$ (also $\\frac{30}{\\cos 30^\\circ} = 20\\sqrt{3}$).\nAnswer: height $10\\sqrt{3}\\text{ m}$; distance $20\\sqrt{3}\\text{ m}$"
+  },
+  {
+    "id": "cmvq9r2ky00k97gcn19y1k0jo",
+    "chapter": "Trigonometry",
+    "type": "short",
+    "marks": 2,
+    "text": "A boy $1.5\\text{ m}$ tall stands $20\\text{ m}$ away from a vertical pole. The angle of elevation of the top of the pole from his eyes (take eye level as $1.5\\text{ m}$ above ground) is $45^\\circ$. Find the height of the pole above the ground.",
+    "answer": "Height of the pole above his eye level $= 20\\tan 45^\\circ = 20\\text{ m}$.\nTotal height $= 20 + 1.5 = 21.5\\text{ m}$.\nAnswer: $21.5\\text{ m}$"
+  },
+  {
+    "id": "cmvq9r2ky00kb7gcnolq8crno",
+    "chapter": "Trigonometry",
+    "type": "short",
+    "marks": 3,
+    "text": "Prove that $\\frac{\\cot\\theta - \\cos\\theta}{\\cot\\theta + \\cos\\theta} = \\frac{\\operatorname{cosec}\\theta - 1}{\\operatorname{cosec}\\theta + 1}$.",
+    "answer": "LHS $= \\frac{\\frac{\\cos\\theta}{\\sin\\theta} - \\cos\\theta}{\\frac{\\cos\\theta}{\\sin\\theta} + \\cos\\theta} = \\frac{\\cos\\theta\\left(\\frac{1}{\\sin\\theta} - 1\\right)}{\\cos\\theta\\left(\\frac{1}{\\sin\\theta} + 1\\right)}$\n$= \\frac{\\operatorname{cosec}\\theta - 1}{\\operatorname{cosec}\\theta + 1}$ = RHS. Hence proved."
+  },
+  {
+    "id": "cmvq9r2kz00kd7gcn90di0p53",
+    "chapter": "Trigonometry",
+    "type": "short",
+    "marks": 3,
+    "text": "Prove that $\\frac{\\sec\\theta - \\cos\\theta}{\\sec\\theta + \\cos\\theta} = \\frac{\\sin^{2}\\theta}{1 + \\cos^{2}\\theta}$.",
+    "answer": "LHS $= \\frac{\\frac{1}{\\cos\\theta} - \\cos\\theta}{\\frac{1}{\\cos\\theta} + \\cos\\theta} = \\frac{\\frac{1 - \\cos^{2}\\theta}{\\cos\\theta}}{\\frac{1 + \\cos^{2}\\theta}{\\cos\\theta}} = \\frac{1 - \\cos^{2}\\theta}{1 + \\cos^{2}\\theta} = \\frac{\\sin^{2}\\theta}{1 + \\cos^{2}\\theta}$ = RHS. Hence proved."
+  },
+  {
+    "id": "cmvq9r2kz00kf7gcnvlp88eyn",
+    "chapter": "Trigonometry",
+    "type": "short",
+    "marks": 3,
+    "text": "Prove that $\\frac{1 + \\sin\\theta}{1 - \\sin\\theta} = (\\sec\\theta + \\tan\\theta)^{2}$.",
+    "answer": "RHS $= \\left(\\frac{1}{\\cos\\theta} + \\frac{\\sin\\theta}{\\cos\\theta}\\right)^{2} = \\frac{(1 + \\sin\\theta)^{2}}{\\cos^{2}\\theta} = \\frac{(1 + \\sin\\theta)^{2}}{1 - \\sin^{2}\\theta} = \\frac{(1 + \\sin\\theta)^{2}}{(1 - \\sin\\theta)(1 + \\sin\\theta)} = \\frac{1 + \\sin\\theta}{1 - \\sin\\theta}$ = LHS. Hence proved."
+  },
+  {
+    "id": "cmvq9r2kz00kh7gcnvxpqqtls",
+    "chapter": "Trigonometry",
+    "type": "short",
+    "marks": 3,
+    "text": "Prove that $\\frac{\\tan^{2}\\theta}{1 + \\tan^{2}\\theta} + \\frac{\\cot^{2}\\theta}{1 + \\cot^{2}\\theta} = 1$.",
+    "answer": "$\\frac{\\tan^{2}\\theta}{1 + \\tan^{2}\\theta} = \\frac{\\tan^{2}\\theta}{\\sec^{2}\\theta} = \\frac{\\sin^{2}\\theta}{\\cos^{2}\\theta} \\times \\cos^{2}\\theta = \\sin^{2}\\theta$.\n$\\frac{\\cot^{2}\\theta}{1 + \\cot^{2}\\theta} = \\frac{\\cot^{2}\\theta}{\\operatorname{cosec}^{2}\\theta} = \\frac{\\cos^{2}\\theta}{\\sin^{2}\\theta} \\times \\sin^{2}\\theta = \\cos^{2}\\theta$.\nSum $= \\sin^{2}\\theta + \\cos^{2}\\theta = 1$ = RHS. Hence proved."
+  },
+  {
+    "id": "cmvq9r2l000kj7gcnq6fg9kge",
+    "chapter": "Trigonometry",
+    "type": "short",
+    "marks": 3,
+    "text": "Prove that $(\\operatorname{cosec}\\theta - \\sin\\theta)(\\sec\\theta - \\cos\\theta)(\\tan\\theta + \\cot\\theta) = 1$.",
+    "answer": "$\\operatorname{cosec}\\theta - \\sin\\theta = \\frac{1 - \\sin^{2}\\theta}{\\sin\\theta} = \\frac{\\cos^{2}\\theta}{\\sin\\theta}$.\n$\\sec\\theta - \\cos\\theta = \\frac{1 - \\cos^{2}\\theta}{\\cos\\theta} = \\frac{\\sin^{2}\\theta}{\\cos\\theta}$.\n$\\tan\\theta + \\cot\\theta = \\frac{\\sin^{2}\\theta + \\cos^{2}\\theta}{\\sin\\theta \\cos\\theta} = \\frac{1}{\\sin\\theta \\cos\\theta}$.\nProduct $= \\left(\\frac{\\cos^{2}\\theta}{\\sin\\theta}\\right)\\left(\\frac{\\sin^{2}\\theta}{\\cos\\theta}\\right)\\left(\\frac{1}{\\sin\\theta \\cos\\theta}\\right) = \\frac{\\sin\\theta \\cos\\theta}{\\sin\\theta \\cos\\theta} = 1$. Hence proved."
+  },
+  {
+    "id": "cmvq9r2l100kl7gcnh06sg8a2",
+    "chapter": "Trigonometry",
+    "type": "short",
+    "marks": 3,
+    "text": "If $\\tan\\theta + \\sin\\theta = m$ and $\\tan\\theta - \\sin\\theta = n$, prove that $m^{2} - n^{2} = 4\\sqrt{mn}$.",
+    "answer": "$m^{2} - n^{2} = (m + n)(m - n) = (2\\tan\\theta)(2\\sin\\theta) = 4\\tan\\theta \\sin\\theta$.\n$mn = \\tan^{2}\\theta - \\sin^{2}\\theta = \\sin^{2}\\theta\\left(\\frac{1}{\\cos^{2}\\theta} - 1\\right) = \\sin^{2}\\theta \\tan^{2}\\theta$.\nSo $\\sqrt{mn} = \\tan\\theta \\sin\\theta$ (for acute $\\theta$) and $4\\sqrt{mn} = 4\\tan\\theta \\sin\\theta = m^{2} - n^{2}$. Hence proved."
+  },
+  {
+    "id": "cmvq9r2l200kn7gcn7wf4hix5",
+    "chapter": "Trigonometry",
+    "type": "short",
+    "marks": 3,
+    "text": "A flagstaff $10\\text{ m}$ high stands on top of a tower. From a point on level ground, the angles of elevation of the bottom and the top of the flagstaff are $30^\\circ$ and $45^\\circ$ respectively. Find the height of the tower. (Use $\\sqrt{3} = 1.73$)",
+    "answer": "Let tower height $= h$ and distance of the point from its foot $= d$.\nBottom of flagstaff (top of tower): $\\tan 30^\\circ = \\frac{h}{d}$, so $d = h\\sqrt{3}$.\nTop of flagstaff: $\\tan 45^\\circ = \\frac{h + 10}{d} = 1$, so $d = h + 10$.\n$h\\sqrt{3} = h + 10$, so $h(\\sqrt{3} - 1) = 10$, $h = \\frac{10}{\\sqrt{3} - 1} = 5(\\sqrt{3} + 1) = 5 \\times 2.73 = 13.65\\text{ m}$.\nAnswer: $13.65\\text{ m}$"
+  },
+  {
+    "id": "cmvq9r2l200kp7gcn3780v3ou",
+    "chapter": "Trigonometry",
+    "type": "short",
+    "marks": 3,
+    "text": "Two points $A$ and $B$ lie on level ground on opposite sides of a $30\\text{ m}$ high tower and in line with its foot. The angles of elevation of the top of the tower from $A$ and $B$ are $30^\\circ$ and $60^\\circ$ respectively. Find the distance $AB$. (Use $\\sqrt{3} = 1.73$)",
+    "answer": "Distance of $A$ from foot $= \\frac{30}{\\tan 30^\\circ} = 30\\sqrt{3}\\text{ m}$. Distance of $B$ from foot $= \\frac{30}{\\tan 60^\\circ} = 10\\sqrt{3}\\text{ m}$.\nSince $A$ and $B$ are on opposite sides, $AB = 30\\sqrt{3} + 10\\sqrt{3} = 40\\sqrt{3} = 40 \\times 1.73 = 69.2\\text{ m}$.\nAnswer: $69.2\\text{ m}$"
+  },
+  {
+    "id": "cmvq9r2l300kr7gcnbgaokob0",
+    "chapter": "Trigonometry",
+    "type": "short",
+    "marks": 3,
+    "text": "Evaluate: $\\left(\\frac{\\sin 35^\\circ}{\\cos 55^\\circ}\\right)^{2} + \\tan 20^\\circ \\tan 70^\\circ + 3\\sec 25^\\circ \\sin 65^\\circ - 2\\tan 17^\\circ \\tan 73^\\circ$.",
+    "answer": "Using $\\sin (90^\\circ - x) = \\cos x$ etc.: $\\sin 35^\\circ = \\cos 55^\\circ$, so the first term is $1^{2} = 1$.\n$\\tan 70^\\circ = \\cot 20^\\circ$, so $\\tan 20^\\circ \\tan 70^\\circ = 1$.\n$\\sin 65^\\circ = \\cos 25^\\circ$, so $\\sec 25^\\circ \\sin 65^\\circ = 1$ and the third term is $3$.\n$\\tan 73^\\circ = \\cot 17^\\circ$, so $\\tan 17^\\circ \\tan 73^\\circ = 1$ and the last term is $2$.\nValue $= 1 + 1 + 3 - 2 = 3$.\nAnswer: $3$"
+  },
+  {
+    "id": "cmvq9r2l300kt7gcny3c95shp",
+    "chapter": "Trigonometry",
+    "type": "short",
+    "marks": 3,
+    "text": "If $15\\cot A = 8$ and $A$ is acute, find $\\sin A$, $\\sec A$ and the value of $\\frac{1 + \\sin A}{1 - \\sin A}$.",
+    "answer": "$\\cot A = \\frac{8}{15}$: base $8$, perpendicular $15$, hypotenuse $= \\sqrt{64 + 225} = 17$.\n$\\sin A = \\frac{15}{17}$, $\\sec A = \\frac{17}{8}$.\n$\\frac{1 + \\sin A}{1 - \\sin A} = \\frac{32/17}{2/17} = 16$.\nAnswer: $\\sin A = \\frac{15}{17}$, $\\sec A = \\frac{17}{8}$, expression $= 16$"
+  },
+  {
+    "id": "cmvq9r2l300kv7gcnwq7jvamd",
+    "chapter": "Trigonometry",
+    "type": "long",
+    "marks": 5,
+    "text": "A tower stands on top of a $20\\text{ m}$ high building. From a point $P$ on level ground, the angle of elevation of the top of the building is $45^\\circ$ and that of the top of the tower is $60^\\circ$. Find (i) the distance of $P$ from the foot of the building and (ii) the height of the tower. (Use $\\sqrt{3} = 1.73$)",
+    "answer": "(i) $\\tan 45^\\circ = \\frac{20}{d}$, so $d = 20\\text{ m}$.\n(ii) Let the tower height be $x$; its top is at height $20 + x$. $\\tan 60^\\circ = \\frac{20 + x}{20}$, so $20 + x = 20\\sqrt{3}$ and $x = 20(\\sqrt{3} - 1) = 20 \\times 0.73 = 14.6\\text{ m}$.\nAnswer: $20\\text{ m}$; $14.6\\text{ m}$"
+  },
+  {
+    "id": "cmvq9r2l400kx7gcneuvzpbiy",
+    "chapter": "Trigonometry",
+    "type": "long",
+    "marks": 5,
+    "text": "A boat approaches the foot of a $90\\text{ m}$ high lighthouse in a straight line. A keeper at the top first sees the boat at an angle of depression of $30^\\circ$; $6$ minutes later the angle of depression is $60^\\circ$. Assuming the boat moves at constant speed, find (i) the distance the boat covered in the $6$ minutes, (ii) its speed in metres per minute, and (iii) how much more time it will take to reach the foot of the lighthouse. (Use $\\sqrt{3} = 1.73$)",
+    "answer": "Let initial distance from the foot be $d_{1}$ and later distance $d_{2}$.\n$d_{1} = \\frac{90}{\\tan 30^\\circ} = 90\\sqrt{3}\\text{ m}$; $d_{2} = \\frac{90}{\\tan 60^\\circ} = 30\\sqrt{3}\\text{ m}$.\n(i) Distance covered $= 90\\sqrt{3} - 30\\sqrt{3} = 60\\sqrt{3} = 60 \\times 1.73 = 103.8\\text{ m}$.\n(ii) Speed $= \\frac{103.8}{6} = 17.3\\text{ m}$ per minute.\n(iii) Remaining distance $= 30\\sqrt{3} = 51.9\\text{ m}$; time $= \\frac{51.9}{17.3} = 3$ minutes.\n(Check: ratio $30\\sqrt{3} : 60\\sqrt{3} = 1 : 2$, so remaining time is half of $6$ minutes.)\nAnswer: $103.8\\text{ m}$; $17.3\\text{ m/min}$; $3$ minutes"
+  },
+  {
+    "id": "cmvq9r2l400kz7gcni0bghhx3",
+    "chapter": "Trigonometry",
+    "type": "long",
+    "marks": 5,
+    "text": "A point is $40\\text{ m}$ above the surface of a lake. The angle of elevation of a cloud from this point is $45^\\circ$ and the angle of depression of the cloud's reflection in the lake, from the same point, is $60^\\circ$. Find the height of the cloud above the lake. (Use $\\sqrt{3} = 1.73$)",
+    "answer": "Let the cloud be $H\\text{ m}$ above the lake and let the horizontal distance of the cloud from the point be $d$. The reflection is $H\\text{ m}$ below the lake surface.\nCloud is $(H - 40)\\text{ m}$ above the point: $\\tan 45^\\circ = \\frac{H - 40}{d}$, so $d = H - 40$.\nReflection is $(H + 40)\\text{ m}$ below the point: $\\tan 60^\\circ = \\frac{H + 40}{d}$, so $H + 40 = \\sqrt{3}\\,d = \\sqrt{3}(H - 40)$.\n$H(\\sqrt{3} - 1) = 40(\\sqrt{3} + 1)$, $H = \\frac{40(\\sqrt{3} + 1)}{\\sqrt{3} - 1} = \\frac{40(\\sqrt{3} + 1)^{2}}{2} = 20(4 + 2\\sqrt{3}) = 40(2 + \\sqrt{3})$.\n$H = 40 \\times 3.73 = 149.2\\text{ m}$.\nAnswer: about $149.2\\text{ m}$"
+  },
+  {
+    "id": "cmvq9r2l500l17gcnznll5w16",
+    "chapter": "Trigonometry",
+    "type": "long",
+    "marks": 5,
+    "text": "Standing on the roof of a $24\\text{ m}$ high building, a surveyor observes the foot of a transmission tower at an angle of depression of $45^\\circ$ and its top at an angle of elevation of $30^\\circ$. The tower and building are on level ground. Find (i) the horizontal distance between the building and the tower, and (ii) the height of the tower. (Use $\\sqrt{3} = 1.73$)",
+    "answer": "(i) Angle of depression of the foot is $45^\\circ$, so $\\tan 45^\\circ = \\frac{24}{d}$, giving $d = 24\\text{ m}$.\n(ii) The top of the tower is above roof level by $y$: $\\tan 30^\\circ = \\frac{y}{24}$, so $y = \\frac{24}{\\sqrt{3}} = 8\\sqrt{3} = 8 \\times 1.73 = 13.84\\text{ m}$.\nHeight of the tower $= 24 + 13.84 = 37.84\\text{ m}$.\nAnswer: $24\\text{ m}$; $37.84\\text{ m}$"
+  },
+  {
+    "id": "cmvq9r2l500l37gcn78ui912q",
+    "chapter": "Trigonometry",
+    "type": "long",
+    "marks": 5,
+    "text": "An aeroplane flies horizontally at a constant height of $900\\text{ m}$ directly away from an observer on the ground. When first seen, its angle of elevation is $45^\\circ$; after $20$ seconds it is $30^\\circ$. Find the distance flown in $20$ seconds and the speed of the aeroplane in $\\text{m/s}$ and in $\\text{km/h}$. (Use $\\sqrt{3} = 1.73$)",
+    "answer": "Horizontal distances from the observer: $d_{1} = \\frac{900}{\\tan 45^\\circ} = 900\\text{ m}$; $d_{2} = \\frac{900}{\\tan 30^\\circ} = 900\\sqrt{3}\\text{ m}$.\nDistance flown $= 900\\sqrt{3} - 900 = 900(0.73) = 657\\text{ m}$.\nSpeed $= \\frac{657}{20} = 32.85\\text{ m/s}$.\nIn km/h: $32.85 \\times \\frac{18}{5} = 118.26\\text{ km/h}$.\nAnswer: $657\\text{ m}$; $32.85\\text{ m/s}$ ($118.26\\text{ km/h}$)"
+  },
+  {
+    "id": "cmvq9r2l500l57gcnuowz8dz5",
+    "chapter": "Trigonometry",
+    "type": "long",
+    "marks": 5,
+    "text": "The angle of elevation of the top of a vertical tower from a point $A$ on level ground is $60^\\circ$. From a point $B$ on a vertical pole, $20\\text{ m}$ above $A$, in the same vertical plane as the tower, the angle of elevation of the top of the tower is $45^\\circ$. Find (i) the height of the tower and (ii) the horizontal distance of the tower from the pole. (Use $\\sqrt{3} = 1.73$)",
+    "answer": "Let tower height $= h$ and horizontal distance $= d$.\nFrom $A$: $\\tan 60^\\circ = \\frac{h}{d}$, so $h = d\\sqrt{3}$.\nFrom $B$ ($20\\text{ m}$ up): the top is $(h - 20)$ above $B$, so $\\tan 45^\\circ = \\frac{h - 20}{d}$, giving $h - 20 = d$.\n$d\\sqrt{3} - 20 = d$, so $d(\\sqrt{3} - 1) = 20$, $d = \\frac{20}{\\sqrt{3} - 1} = 10(\\sqrt{3} + 1) = 10 \\times 2.73 = 27.3\\text{ m}$.\n$h = d\\sqrt{3} = 10(3 + \\sqrt{3}) = 10 \\times 4.73 = 47.3\\text{ m}$.\nAnswer: tower $47.3\\text{ m}$ high; horizontal distance $27.3\\text{ m}$"
+  },
+  {
+    "id": "cmvq9r2l600l77gcnmmrkeo8n",
+    "chapter": "Trigonometry",
+    "type": "case",
+    "marks": 4,
+    "text": "Kite flying. Aarav stands on level ground and flies a kite. The string is taut and straight, $100\\text{ m}$ long, and makes an angle of $30^\\circ$ with the horizontal ground. Take Aarav's hand to be at ground level.\n(i) Find the height of the kite above the ground. [1]\n(ii) Find the horizontal distance between Aarav and the point on the ground directly below the kite. [1]\n(iii) The kite stays at the same height. Aarav walks towards the point below it until the string makes $45^\\circ$ with the ground. Find the new length of the string. (Use $\\sqrt{2} = 1.41$) [2]\nOR\n(iii) Find how far Aarav walked in the situation above. (Use $\\sqrt{3} = 1.73$) [2]",
+    "answer": "(i) Height $= 100\\sin 30^\\circ = 50\\text{ m}$.\n(ii) Horizontal distance $= 100\\cos 30^\\circ = 50\\sqrt{3}\\text{ m}$ (about $86.5\\text{ m}$).\n(iii) Kite height is still $50\\text{ m}$. At $45^\\circ$: string length $= \\frac{50}{\\sin 45^\\circ} = 50\\sqrt{2} = 50 \\times 1.41 = 70.5\\text{ m}$.\nOR (iii) At $45^\\circ$ the horizontal distance $= \\frac{50}{\\tan 45^\\circ} = 50\\text{ m}$. Distance walked $= 50\\sqrt{3} - 50 = 50(0.73) = 36.5\\text{ m}$."
+  },
+  {
+    "id": "cmvq9r2l600l97gcn1q9d0rdm",
+    "chapter": "Trigonometry",
+    "type": "case",
+    "marks": 4,
+    "text": "Apartment and the ground. A residential apartment block is $30\\text{ m}$ high and stands on level ground. A point $P$ on the ground, in line with the foot of the block, sees the top of the block at an angle of elevation of $60^\\circ$.\n(i) Find the distance of $P$ from the foot of the block. [1]\n(ii) What is the angle of depression of $P$ as seen from the top of the block? Justify your answer. [1]\n(iii) Rohan walks directly away from the block until the angle of elevation of the top becomes $30^\\circ$. Find the distance he walked. (Use $\\sqrt{3} = 1.73$) [2]\nOR\n(iii) Find the length of the line of sight from Rohan to the top of the block when the angle of elevation is $30^\\circ$. [2]",
+    "answer": "(i) $\\tan 60^\\circ = \\frac{30}{d}$, so $d = \\frac{30}{\\sqrt{3}} = 10\\sqrt{3}\\text{ m}$ (about $17.3\\text{ m}$).\n(ii) The line of sight from $P$ to the top and the horizontal line through the top are parallel to the ground, so the angle of depression equals the angle of elevation (alternate angles): $60^\\circ$.\n(iii) At $30^\\circ$: distance $= \\frac{30}{\\tan 30^\\circ} = 30\\sqrt{3}\\text{ m}$. Distance walked $= 30\\sqrt{3} - 10\\sqrt{3} = 20\\sqrt{3} = 20 \\times 1.73 = 34.6\\text{ m}$.\nOR (iii) Line of sight $= \\frac{30}{\\sin 30^\\circ} = 60\\text{ m}$."
+  },
+  {
+    "id": "cmvq9r2l700lb7gcn4wryrdyv",
+    "chapter": "Trigonometry",
+    "type": "case",
+    "marks": 4,
+    "text": "The painter's ladder. A painter uses a $16\\text{ m}$ long ladder to reach a wall. The ladder rests against a vertical wall on level ground and makes an angle of $60^\\circ$ with the ground.\n(i) How far is the foot of the ladder from the wall? [1]\n(ii) How high up the wall does the ladder reach? (Leave in surd form.) [1]\n(iii) For safety the painter changes the position of the foot of the ladder so that the same ladder makes $45^\\circ$ with the ground. Find how much lower the top of the ladder now is on the wall. (Use $\\sqrt{2} = 1.41$, $\\sqrt{3} = 1.73$) [2]\nOR\n(iii) Find how much farther from the wall the foot of the ladder now is. (Use $\\sqrt{2} = 1.41$) [2]",
+    "answer": "(i) Distance $= 16\\cos 60^\\circ = 8\\text{ m}$.\n(ii) Height $= 16\\sin 60^\\circ = 8\\sqrt{3}\\text{ m}$.\n(iii) New height $= 16\\sin 45^\\circ = 8\\sqrt{2} = 8 \\times 1.41 = 11.28\\text{ m}$. Original height $= 8 \\times 1.73 = 13.84\\text{ m}$. The top is lower by $13.84 - 11.28 = 2.56\\text{ m}$.\nOR (iii) New distance $= 16\\cos 45^\\circ = 8\\sqrt{2} = 11.28\\text{ m}$. The foot is farther by $11.28 - 8 = 3.28\\text{ m}$."
+  },
+  {
+    "id": "cmvq9r2l700ld7gcnerfa7eys",
+    "chapter": "Trigonometry",
+    "type": "case",
+    "marks": 4,
+    "text": "Balloon festival. A hot-air balloon hovers $90\\text{ m}$ above level ground at a point directly above a spot $O$. Two observers $A$ and $B$ stand on opposite sides of $O$, in line with it. From $A$ the angle of elevation of the balloon is $30^\\circ$ and from $B$ it is $60^\\circ$.\n(i) Find the distance $OA$. [1]\n(ii) Find the distance $OB$. [1]\n(iii) Observer $A$ walks towards $O$ until the angle of elevation of the balloon is $45^\\circ$. Find the distance $A$ walked and the new distance between $A$ and $B$ ($B$ has not moved). (Use $\\sqrt{3} = 1.73$) [2]",
+    "answer": "(i) $OA = \\frac{90}{\\tan 30^\\circ} = 90\\sqrt{3}\\text{ m}$.\n(ii) $OB = \\frac{90}{\\tan 60^\\circ} = 30\\sqrt{3}\\text{ m}$.\n(iii) At $45^\\circ$ the new distance from $O$ is $\\frac{90}{\\tan 45^\\circ} = 90\\text{ m}$. Distance walked by $A = 90\\sqrt{3} - 90 = 90(0.73) = 65.7\\text{ m}$.\nNew distance $AB = 90 + 30\\sqrt{3} = 90 + 51.9 = 141.9\\text{ m}$ ($A$ and $B$ are still on opposite sides of $O$)."
+  }
+]

@@ -89,7 +89,7 @@ export default function LoginPage() {
             <Label htmlFor="password">
               Password <span className="text-destructive">*</span>
             </Label>
-            <Link to="/forgot-password" className="text-sm text-muted-foreground hover:text-foreground">
+            <Link to="/auth/forgot-password" className="text-sm text-muted-foreground hover:text-foreground">
               Forgot?
             </Link>
           </div>
@@ -129,7 +129,7 @@ export default function LoginPage() {
 
       <p className="mt-6 text-sm text-muted-foreground">
         No account?{' '}
-        <Link to="/register" className="font-medium text-foreground hover:underline">
+        <Link to="/auth/register" className="font-medium text-foreground hover:underline">
           Create one
         </Link>
       </p>

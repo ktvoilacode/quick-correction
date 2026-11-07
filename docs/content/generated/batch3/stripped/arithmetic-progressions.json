@@ -1,0 +1,634 @@
+[
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Recognising an AP",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Which of the following lists of numbers forms an AP?",
+  "options": [
+   "$3, 6, 12, 24$",
+   "$1, 3, 6, 10$",
+   "$11, 7, 3, -1$",
+   "$2, 5, 9, 14$"
+  ],
+  "idx": 0
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Recognising an AP",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Which of the following is not an AP?",
+  "options": [
+   "$\\sqrt{3}, \\sqrt{12}, \\sqrt{27}, \\sqrt{48}$",
+   "$-1.2, -0.8, -0.4, 0$",
+   "$5, 5, 5, 5$",
+   "$\\frac{1}{2}, \\frac{1}{3}, \\frac{1}{4}, \\frac{1}{5}$"
+  ],
+  "idx": 1
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Recognising an AP",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Which of the following cannot be the $n$th term of an AP?",
+  "options": [
+   "$\\frac{2n + 1}{3}$",
+   "$3n^{2} + 2$",
+   "$n(n + 1) - n^{2}$",
+   "$5 - \\frac{n}{2}$"
+  ],
+  "idx": 2
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "nth term",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The 11th term of the AP $-\\frac{5}{2}, -1, \\frac{1}{2}, \\dots$ is",
+  "options": [
+   "$\\frac{25}{2}$",
+   "$11$",
+   "$14$",
+   "$-\\frac{35}{2}$"
+  ],
+  "idx": 3
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "nth term",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The $n$th term of the AP $\\frac{2}{5}, 1, \\frac{8}{5}, \\dots$ is",
+  "options": [
+   "$\\frac{3n + 2}{5}$",
+   "$\\frac{2n + 1}{5}$",
+   "$\\frac{3n - 2}{5}$",
+   "$\\frac{3n - 1}{5}$"
+  ],
+  "idx": 4
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "nth term",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The next term of the AP $\\sqrt{7}, \\sqrt{28}, \\sqrt{63}, \\dots$ is",
+  "options": [
+   "$\\sqrt{98}$",
+   "$\\sqrt{112}$",
+   "$\\sqrt{91}$",
+   "$5\\sqrt{7}$"
+  ],
+  "idx": 5
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "nth term",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The 10th term of the AP $\\sqrt{8}, \\sqrt{18}, \\sqrt{32}, \\dots$ is",
+  "options": [
+   "$10\\sqrt{2}$",
+   "$12\\sqrt{2}$",
+   "$11\\sqrt{2}$",
+   "$9\\sqrt{2}$"
+  ],
+  "idx": 6
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "nth term",
+  "type": "mcq",
+  "marks": 1,
+  "text": "An AP has common difference $3$ and 12th term $29$. Its first term is",
+  "options": [
+   "$-4$",
+   "$-7$",
+   "$-1$",
+   "$62$"
+  ],
+  "idx": 7
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "nth term",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The 5th term from the end of the AP $3, 10, 17, \\dots, 136$ is",
+  "options": [
+   "$101$",
+   "$115$",
+   "$31$",
+   "$108$"
+  ],
+  "idx": 8
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "nth term",
+  "type": "mcq",
+  "marks": 1,
+  "text": "For the AP $-6, -2, 2, \\dots$, the value of $\\frac{a_{16}}{a_{6} - a_{1}}$ is",
+  "options": [
+   "$\\frac{29}{10}$",
+   "$\\frac{27}{10}$",
+   "$\\frac{5}{2}$",
+   "$3$"
+  ],
+  "idx": 9
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "nth term",
+  "type": "assertion_reason",
+  "marks": 1,
+  "text": "Assertion (A): The 8th term from the end of the AP $7, 11, 15, \\dots, 107$ is $79$.\nReason (R): The $k$th term from the end of an AP with last term $l$ and common difference $d$ is $l - kd$.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "idx": 10
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Finding n",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The number of terms in the AP $-7, -3, 1, \\dots, 105$ is",
+  "options": [
+   "$29$",
+   "$28$",
+   "$30$",
+   "$27$"
+  ],
+  "idx": 11
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Finding n",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Which term of the AP $75, 72, 69, \\dots$ is $0$?",
+  "options": [
+   "$25$th",
+   "$24$th",
+   "$26$th",
+   "$27$th"
+  ],
+  "idx": 12
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Finding n",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The number of multiples of $7$ between $50$ and $300$ is",
+  "options": [
+   "$34$",
+   "$36$",
+   "$42$",
+   "$35$"
+  ],
+  "idx": 13
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Finding n",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The number of three-digit natural numbers divisible by $9$ is",
+  "options": [
+   "$99$",
+   "$100$",
+   "$111$",
+   "$101$"
+  ],
+  "idx": 14
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Finding n",
+  "type": "mcq",
+  "marks": 1,
+  "text": "An AP has first term $7$, last term $67$ and the sum of all its terms is $444$. The number of terms is",
+  "options": [
+   "$12$",
+   "$6$",
+   "$24$",
+   "$13$"
+  ],
+  "idx": 15
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Finding n",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The first negative term of the AP $83, 78, 73, \\dots$ is its",
+  "options": [
+   "$17$th term",
+   "$16$th term",
+   "$18$th term",
+   "$19$th term"
+  ],
+  "idx": 16
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Common difference",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The common difference of the AP $\\sqrt{3}, 4\\sqrt{3}, 7\\sqrt{3}, \\dots$ is",
+  "options": [
+   "$3\\sqrt{3}$",
+   "$\\sqrt{3}$",
+   "$3$",
+   "$-3\\sqrt{3}$"
+  ],
+  "idx": 17
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Common difference",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The common difference of the AP $\\frac{3}{y}, \\frac{3 - y}{y}, \\frac{3 - 2y}{y}, \\dots$ $(y \\ne 0)$ is",
+  "options": [
+   "$-y$",
+   "$1$",
+   "$-\\frac{1}{y}$",
+   "$-1$"
+  ],
+  "idx": 18
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Common difference",
+  "type": "assertion_reason",
+  "marks": 1,
+  "text": "Assertion (A): The common difference of the AP $-2, -9, -16, \\dots$ is $7$.\nReason (R): The common difference of an AP is $d = a_{n+1} - a_{n}$.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "idx": 19
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Sum of n terms",
+  "type": "mcq",
+  "marks": 1,
+  "text": "The sum of the first $12$ multiples of $7$ is",
+  "options": [
+   "$462$",
+   "$546$",
+   "$637$",
+   "$84$"
+  ],
+  "idx": 20
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Sum of n terms",
+  "type": "mcq",
+  "marks": 1,
+  "text": "If the sum of the first $n$ terms of an AP is $S_{n} = \\frac{n(5n - 1)}{2}$, its first term is",
+  "options": [
+   "$5$",
+   "$7$",
+   "$2$",
+   "$\\frac{5}{2}$"
+  ],
+  "idx": 21
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Sum of n terms",
+  "type": "assertion_reason",
+  "marks": 1,
+  "text": "Assertion (A): The mean of the first $20$ odd natural numbers is $20$.\nReason (R): The sum of the first $n$ natural numbers is $\\frac{n(n + 1)}{2}$.",
+  "options": [
+   "Both A and R are true and R explains A",
+   "Both A and R are true but R does not explain A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "idx": 22
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Middle terms and conditions for an AP",
+  "type": "mcq",
+  "marks": 1,
+  "text": "If $2y + 1$, $3y - 2$ and $y + 7$ are three consecutive terms of an AP, then $y$ is",
+  "options": [
+   "$2$",
+   "$3$",
+   "$6$",
+   "$4$"
+  ],
+  "idx": 23
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Middle terms and conditions for an AP",
+  "type": "mcq",
+  "marks": 1,
+  "text": "Three numbers in AP add up to $-36$. The middle number is",
+  "options": [
+   "$-12$",
+   "$-18$",
+   "$12$",
+   "$-9$"
+  ],
+  "idx": 24
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Proofs and general relations",
+  "type": "mcq",
+  "marks": 1,
+  "text": "In an AP with common difference $d$, $9a_{9} = 13a_{13}$. Then $a_{25}$ equals",
+  "options": [
+   "$0$",
+   "$3d$",
+   "$4d$",
+   "$-3d$"
+  ],
+  "idx": 25
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "nth term",
+  "type": "short",
+  "marks": 2,
+  "text": "For what value of $n$ are the $n$th terms of the APs $63, 65, 67, \\dots$ and $3, 10, 17, \\dots$ equal?",
+  "idx": 26
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "nth term",
+  "type": "short",
+  "marks": 2,
+  "text": "The 6th term of an AP is zero. Prove that its 26th term is twice its 16th term.",
+  "idx": 27
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Finding n",
+  "type": "short",
+  "marks": 2,
+  "text": "How many natural numbers between $100$ and $400$ are divisible by $4$ but not by $8$?",
+  "idx": 28
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Sum of n terms",
+  "type": "short",
+  "marks": 2,
+  "text": "The 20th term of an AP is $83$ and its common difference is $4$. Find the sum of its first $20$ terms.",
+  "idx": 29
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Sum of n terms",
+  "type": "short",
+  "marks": 2,
+  "text": "Find the sum of all multiples of $6$ lying between $200$ and $300$.",
+  "idx": 30
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Sum of n terms",
+  "type": "short",
+  "marks": 3,
+  "text": "The 5th term of an AP is $19$ and the sum of its first $10$ terms is $205$. Find the AP and its 20th term.",
+  "idx": 31
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Sum of n terms",
+  "type": "short",
+  "marks": 3,
+  "text": "Find the sum of all two-digit natural numbers which leave a remainder $2$ when divided by $5$.",
+  "idx": 32
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Proofs and general relations",
+  "type": "short",
+  "marks": 3,
+  "text": "The $p$th term of an AP is $\\frac{1}{q}$ and its $q$th term is $\\frac{1}{p}$, where $p \\ne q$. Prove that the sum of its first $pq$ terms is $\\frac{pq + 1}{2}$.",
+  "idx": 33
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Proofs and general relations",
+  "type": "short",
+  "marks": 3,
+  "text": "The ratio of the sums of the first $n$ terms of two APs is $(7n + 1) : (4n + 27)$. Find the ratio of their 9th terms.",
+  "idx": 34
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Word problems",
+  "type": "short",
+  "marks": 3,
+  "text": "Meera deposits ₹$12000$ in a scheme that pays simple interest at $6\\%$ per year. Write the amount (principal plus interest) in her account at the end of the 1st, 2nd and 3rd years. Show that these amounts form an AP and find the amount at the end of $20$ years.",
+  "idx": 35
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Sum of n terms",
+  "type": "long",
+  "marks": 5,
+  "text": "The sum of three numbers in AP is $27$ and the sum of their squares is $293$. Find the numbers. Taking these as the first three terms of an AP, find the sum of its first $15$ terms in each possible case.",
+  "idx": 36
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Sum of n terms",
+  "type": "long",
+  "marks": 5,
+  "text": "The sum of the first $7$ terms of an AP is $91$ and the sum of its first $16$ terms is $424$. Find the sum of its first $n$ terms, and hence find $S_{20}$.",
+  "idx": 37
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Proofs and general relations",
+  "type": "long",
+  "marks": 5,
+  "text": "In an AP, the sum of the first $p$ terms is $q$ and the sum of the first $q$ terms is $p$, where $p \\ne q$. Prove that the sum of its first $(p + q)$ terms is $-(p + q)$.",
+  "idx": 38
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Word problems",
+  "type": "long",
+  "marks": 5,
+  "text": "The plots in a housing colony are numbered $1, 2, 3, \\dots, 1681$ in a row. Show that there is a plot numbered $x$ such that the sum of the numbers of the plots before it equals the sum of the numbers of the plots after it. Find $x$ and this common sum.",
+  "idx": 39
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Word problems",
+  "type": "case",
+  "marks": 4,
+  "text": "In an art class, students make a row of triangles with matchsticks, as shown in the figure. Figure 1 is a single triangle made of $3$ sticks. Each new triangle is added beside the last one and shares a side with it, so Figure 2 uses $5$ sticks and Figure 3 uses $7$ sticks. The pattern continues in the same way.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 80\"><g stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\" stroke-linecap=\"round\"><line x1=\"40\" y1=\"44\" x2=\"54\" y2=\"20\"/><line x1=\"54\" y1=\"20\" x2=\"68\" y2=\"44\"/><line x1=\"40\" y1=\"44\" x2=\"68\" y2=\"44\"/><line x1=\"118\" y1=\"44\" x2=\"132\" y2=\"20\"/><line x1=\"132\" y1=\"20\" x2=\"146\" y2=\"44\"/><line x1=\"146\" y1=\"44\" x2=\"160\" y2=\"20\"/><line x1=\"118\" y1=\"44\" x2=\"146\" y2=\"44\"/><line x1=\"132\" y1=\"20\" x2=\"160\" y2=\"20\"/><line x1=\"210\" y1=\"44\" x2=\"224\" y2=\"20\"/><line x1=\"224\" y1=\"20\" x2=\"238\" y2=\"44\"/><line x1=\"238\" y1=\"44\" x2=\"252\" y2=\"20\"/><line x1=\"252\" y1=\"20\" x2=\"266\" y2=\"44\"/><line x1=\"210\" y1=\"44\" x2=\"238\" y2=\"44\"/><line x1=\"238\" y1=\"44\" x2=\"266\" y2=\"44\"/><line x1=\"224\" y1=\"20\" x2=\"252\" y2=\"20\"/></g><g font-family=\"sans-serif\" font-size=\"14\"><text x=\"54\" y=\"70\" text-anchor=\"middle\">Figure 1</text><text x=\"139\" y=\"70\" text-anchor=\"middle\">Figure 2</text><text x=\"238\" y=\"70\" text-anchor=\"middle\">Figure 3</text></g></svg>",
+  "figureAlt": "Three figures made of matchsticks: Figure 1 is one triangle, Figure 2 is two triangles side by side (one pointing up, one down) sharing a side, and Figure 3 is three such triangles in a row.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "Write the number of sticks in Figure $n$."
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "How many sticks are needed for Figure 15?"
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Which figure uses $61$ sticks? Also find the total number of sticks needed to make Figures 1 to 10."
+   }
+  ],
+  "idx": 40
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Word problems",
+  "type": "case",
+  "marks": 4,
+  "text": "For a school fete, Ravi arranges marbles in plus-shaped patterns, as shown in the figure. Figure 1 has $5$ marbles: one in the centre and one on each of four arms. In each new figure, every arm gets one more marble, so Figure 2 has $9$ marbles and Figure 3 has $13$ marbles.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 116\"><g stroke=\"none\"><circle cx=\"40\" cy=\"50\" r=\"3.5\" fill=\"#000\"/><circle cx=\"52\" cy=\"50\" r=\"3.5\" fill=\"#000\"/><circle cx=\"28\" cy=\"50\" r=\"3.5\" fill=\"#000\"/><circle cx=\"40\" cy=\"62\" r=\"3.5\" fill=\"#000\"/><circle cx=\"40\" cy=\"38\" r=\"3.5\" fill=\"#000\"/><circle cx=\"136\" cy=\"50\" r=\"3.5\" fill=\"#000\"/><circle cx=\"148\" cy=\"50\" r=\"3.5\" fill=\"#000\"/><circle cx=\"124\" cy=\"50\" r=\"3.5\" fill=\"#000\"/><circle cx=\"136\" cy=\"62\" r=\"3.5\" fill=\"#000\"/><circle cx=\"136\" cy=\"38\" r=\"3.5\" fill=\"#000\"/><circle cx=\"160\" cy=\"50\" r=\"3.5\" fill=\"#000\"/><circle cx=\"112\" cy=\"50\" r=\"3.5\" fill=\"#000\"/><circle cx=\"136\" cy=\"74\" r=\"3.5\" fill=\"#000\"/><circle cx=\"136\" cy=\"26\" r=\"3.5\" fill=\"#000\"/><circle cx=\"256\" cy=\"50\" r=\"3.5\" fill=\"#000\"/><circle cx=\"268\" cy=\"50\" r=\"3.5\" fill=\"#000\"/><circle cx=\"244\" cy=\"50\" r=\"3.5\" fill=\"#000\"/><circle cx=\"256\" cy=\"62\" r=\"3.5\" fill=\"#000\"/><circle cx=\"256\" cy=\"38\" r=\"3.5\" fill=\"#000\"/><circle cx=\"280\" cy=\"50\" r=\"3.5\" fill=\"#000\"/><circle cx=\"232\" cy=\"50\" r=\"3.5\" fill=\"#000\"/><circle cx=\"256\" cy=\"74\" r=\"3.5\" fill=\"#000\"/><circle cx=\"256\" cy=\"26\" r=\"3.5\" fill=\"#000\"/><circle cx=\"292\" cy=\"50\" r=\"3.5\" fill=\"#000\"/><circle cx=\"220\" cy=\"50\" r=\"3.5\" fill=\"#000\"/><circle cx=\"256\" cy=\"86\" r=\"3.5\" fill=\"#000\"/><circle cx=\"256\" cy=\"14\" r=\"3.5\" fill=\"#000\"/></g><g font-family=\"sans-serif\" font-size=\"14\"><text x=\"40\" y=\"108\" text-anchor=\"middle\">Figure 1</text><text x=\"136\" y=\"108\" text-anchor=\"middle\">Figure 2</text><text x=\"256\" y=\"108\" text-anchor=\"middle\">Figure 3</text></g></svg>",
+  "figureAlt": "Three plus-shaped patterns of dots: Figure 1 has a centre dot with one dot on each of four arms, Figure 2 has two dots on each arm, and Figure 3 has three dots on each arm.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "How many marbles are there in Figure 8?"
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "Which figure has $101$ marbles?"
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Ravi makes Figures 1 to 12, each with its own marbles. How many marbles does he need in all?"
+   }
+  ],
+  "idx": 41
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Word problems",
+  "type": "case",
+  "marks": 4,
+  "text": "A gardener waters $12$ flower pots placed in a straight line along a path, as shown in the figure. The tap is at the start of the path, the first pot is $5$ m from the tap and each later pot is $3$ m beyond the previous one. He fills one can at the tap, waters one pot, and walks back to the tap before watering the next pot.",
+  "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 110\"><g stroke=\"#000\" stroke-width=\"1.5\" fill=\"none\"><line x1=\"20\" y1=\"60\" x2=\"208\" y2=\"60\"/><line x1=\"350\" y1=\"60\" x2=\"370\" y2=\"60\"/><rect x=\"12\" y=\"38\" width=\"16\" height=\"22\"/><circle cx=\"80\" cy=\"52\" r=\"7\"/><circle cx=\"116\" cy=\"52\" r=\"7\"/><circle cx=\"152\" cy=\"52\" r=\"7\"/><circle cx=\"188\" cy=\"52\" r=\"7\"/><circle cx=\"370\" cy=\"52\" r=\"7\"/><line x1=\"20\" y1=\"80\" x2=\"80\" y2=\"80\"/><line x1=\"80\" y1=\"80\" x2=\"116\" y2=\"80\"/><line x1=\"20\" y1=\"76\" x2=\"20\" y2=\"84\"/><line x1=\"80\" y1=\"76\" x2=\"80\" y2=\"84\"/><line x1=\"116\" y1=\"76\" x2=\"116\" y2=\"84\"/></g><g font-family=\"sans-serif\" font-size=\"14\"><text x=\"20\" y=\"32\" text-anchor=\"middle\">Tap</text><text x=\"80\" y=\"38\" text-anchor=\"middle\">1</text><text x=\"116\" y=\"38\" text-anchor=\"middle\">2</text><text x=\"152\" y=\"38\" text-anchor=\"middle\">3</text><text x=\"188\" y=\"38\" text-anchor=\"middle\">4</text><text x=\"370\" y=\"38\" text-anchor=\"middle\">12</text><text x=\"279.0\" y=\"65\" text-anchor=\"middle\">. . .</text><text x=\"50.0\" y=\"98\" text-anchor=\"middle\">5 m</text><text x=\"98.0\" y=\"98\" text-anchor=\"middle\">3 m</text></g></svg>",
+  "figureAlt": "A straight path with a tap at the left end and flower pots numbered 1, 2, 3, 4, then a gap, then pot 12. The tap to pot 1 distance is marked 5 m and pot 1 to pot 2 is marked 3 m.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "What distance does he walk to water the first pot and return to the tap?"
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "What distance does he walk for the 6th pot (going and returning)?"
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the total distance he walks to water all $12$ pots and return to the tap."
+   }
+  ],
+  "idx": 42
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Word problems",
+  "type": "case",
+  "marks": 4,
+  "text": "A bakery gives its customers token numbers that are the three-digit multiples of $17$, used in increasing order: $102, 119, 136, \\dots$. Each three-digit multiple of $17$ is used exactly once in a day, and the day ends when they run out.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "What is the 5th token number?"
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "How many tokens are given out in a day?"
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the 10th token number from the end, and the sum of the first $10$ token numbers."
+   }
+  ],
+  "idx": 43
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Word problems",
+  "type": "case",
+  "marks": 4,
+  "text": "Ramesh borrows ₹$63000$ from a cooperative society and repays it in $12$ monthly instalments. The first instalment is ₹$2500$ and each instalment is ₹$500$ more than the one before it. There is no interest.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "What is the 5th instalment?"
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "What is the last instalment?"
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "How much does he still owe after paying $7$ instalments?"
+   }
+  ],
+  "idx": 44
+ },
+ {
+  "chapter": "Arithmetic Progressions",
+  "topic": "Word problems",
+  "type": "case",
+  "marks": 4,
+  "text": "A school library adds new books every year, and the number added each year forms an AP. It added $520$ books in the 4th year and $870$ books in the 9th year.",
+  "parts": [
+   {
+    "label": "(i)",
+    "marks": 1,
+    "text": "How many books were added in the 1st year?"
+   },
+   {
+    "label": "(ii)",
+    "marks": 1,
+    "text": "How many books will be added in the 12th year?"
+   },
+   {
+    "label": "(iii)",
+    "marks": 2,
+    "text": "Find the total number of books added in the first $10$ years."
+   }
+  ],
+  "idx": 45
+ }
+]
